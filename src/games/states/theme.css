@@ -1,0 +1,25 @@
+/* Terracotta + indigo on cream — warm, earthy, with indigo reserved for the signature accent
+   (the guessed-state pin color and the won state). Poppins for a geometric, friendly display face.
+   Palette checked against ui-ux-pro-max's color domain for contrast (see RESEARCH.md). */
+[data-game="states"] {
+  --game-bg: #fbf1e2;
+  --game-fg: #3a2a1f;
+  --game-surface: #ffffff;
+  --game-surface-2: #f3e3cd;
+  --game-border: #e3cdab;
+  --game-accent: #b5542e;
+  --game-accent-fg: #ffffff;
+  --game-muted: #8a6f58;
+  --game-font: "Poppins", sans-serif;
+
+  --tile-correct: #4c6b4f;
+  --tile-present: #c99a3b;
+  --tile-absent: #8a7f70;
+
+  /* Game-specific tokens (not in the shared token set — scoped under this selector only). */
+  --states-indigo: #3f3d82;
+  --states-indigo-fg: #ffffff;
+  --states-silhouette: #c9793f;
+  --states-silhouette-won: #4c6b4f;
+  --states-silhouette-lost: #8a5a3f;
+}
