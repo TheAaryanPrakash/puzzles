@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "TAKE A TUMBLE",
+        "level": 0,
+        "words": [
+          "SLIP",
+          "FALL",
+          "SPILL",
+          "TRIP"
+        ]
+      },
+      {
+        "label": "KINDS OF WATER",
+        "level": 1,
+        "words": [
+          "MINERAL",
+          "SPRING",
+          "TAP",
+          "STILL"
+        ]
+      },
+      {
+        "label": "THINGS THAT ARE CINCHED IN THE MIDDLE",
+        "level": 2,
+        "words": [
+          "CORSET",
+          "WASP",
+          "HOURGLASS",
+          "DIABOLO"
+        ]
+      },
+      {
+        "label": "___ BEAR",
+        "level": 3,
+        "words": [
+          "HONEY",
+          "BROWN",
+          "TEDDY",
+          "BOO-BOO"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "CREDENTIALS FOR ENTRY",
+        "level": 0,
+        "words": [
+          "BADGE",
+          "PASS",
+          "TICKET",
+          "INVITE"
+        ]
+      },
+      {
+        "label": "PRESIDE OVER",
+        "level": 1,
+        "words": [
+          "RUN",
+          "DIRECT",
+          "CHAIR",
+          "LEAD"
+        ]
+      },
+      {
+        "label": "AMERICAN FOOTBALL POSITIONS",
+        "level": 2,
+        "words": [
+          "TACKLE",
+          "END",
+          "CENTER",
+          "SAFETY"
+        ]
+      },
+      {
+        "label": "POSTPONE",
+        "level": 3,
+        "words": [
+          "PUNT",
+          "TABLE",
+          "STALL",
+          "HOLD"
+        ]
+      }
+    ]
+  }
+}

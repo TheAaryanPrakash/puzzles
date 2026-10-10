@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "SPORTS",
+        "level": 0,
+        "words": [
+          "SQUASH",
+          "CRICKET",
+          "POLO",
+          "FENCING"
+        ]
+      },
+      {
+        "label": "TOPS",
+        "level": 1,
+        "words": [
+          "TEE",
+          "TANK",
+          "CAMI",
+          "HALTER"
+        ]
+      },
+      {
+        "label": "VEGETABLES",
+        "level": 2,
+        "words": [
+          "CARROT",
+          "CORN",
+          "ONION",
+          "BEET"
+        ]
+      },
+      {
+        "label": "INSECTS",
+        "level": 3,
+        "words": [
+          "ANT",
+          "MANTIS",
+          "BEETLE",
+          "TERMITE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "DAYS OF THE WEEK",
+        "level": 0,
+        "words": [
+          "SUNDAY",
+          "SATURDAY",
+          "FRIDAY",
+          "THURSDAY"
+        ]
+      },
+      {
+        "label": "GO BAD",
+        "level": 1,
+        "words": [
+          "TURN",
+          "SOUR",
+          "SPOIL",
+          "ROT"
+        ]
+      },
+      {
+        "label": "“THE ADDAMS FAMILY” CHARACTERS",
+        "level": 2,
+        "words": [
+          "THING",
+          "LURCH",
+          "WEDNESDAY",
+          "FESTER"
+        ]
+      },
+      {
+        "label": "FAT ___",
+        "level": 3,
+        "words": [
+          "CAT",
+          "CHANCE",
+          "LIP",
+          "TUESDAY"
+        ]
+      }
+    ]
+  }
+}

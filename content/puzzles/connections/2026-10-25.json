@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "FALSIFY",
+        "level": 0,
+        "words": [
+          "FAKE",
+          "FORGE",
+          "FABRICATE",
+          "FIX"
+        ]
+      },
+      {
+        "label": "MILD OATHS",
+        "level": 1,
+        "words": [
+          "FUDGE",
+          "FIE",
+          "FRICK",
+          "FIDDLESTICKS"
+        ]
+      },
+      {
+        "label": "TV SHOWS",
+        "level": 2,
+        "words": [
+          "FIREFLY",
+          "FLEABAG",
+          "FLIPPER",
+          "FARGO"
+        ]
+      },
+      {
+        "label": "FAST ___",
+        "level": 3,
+        "words": [
+          "FOOD",
+          "FASHION",
+          "FORWARD",
+          "FRIENDS"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "FRIEND",
+        "level": 0,
+        "words": [
+          "BUD",
+          "MATE",
+          "CHUM",
+          "PAL"
+        ]
+      },
+      {
+        "label": "COOKWEAR",
+        "level": 1,
+        "words": [
+          "CROCK",
+          "POT",
+          "WOK",
+          "SKILLET"
+        ]
+      },
+      {
+        "label": "SHOES",
+        "level": 2,
+        "words": [
+          "PUMP",
+          "WEDGE",
+          "SLIDE",
+          "CLOG"
+        ]
+      },
+      {
+        "label": "SLANG FOR CANNABIS",
+        "level": 3,
+        "words": [
+          "HERB",
+          "GRASS",
+          "MARY JANE",
+          "WEED"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "CONTAINERS",
+        "level": 0,
+        "words": [
+          "HAMPER",
+          "BASKET",
+          "CHEST",
+          "BIN"
+        ]
+      },
+      {
+        "label": "CIRCULAR SHAPES",
+        "level": 1,
+        "words": [
+          "HOOP",
+          "RING",
+          "BAND",
+          "CIRCLE"
+        ]
+      },
+      {
+        "label": "RESTRICT",
+        "level": 2,
+        "words": [
+          "CAP",
+          "CURB",
+          "CHECK",
+          "LIMIT"
+        ]
+      },
+      {
+        "label": "___ JAM",
+        "level": 3,
+        "words": [
+          "NBA",
+          "PAPER",
+          "PEARL",
+          "TRAFFIC"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "STRUCTURES BY THE SHORE",
+        "level": 0,
+        "words": [
+          "DOCK",
+          "WHARF",
+          "LIGHTHOUSE",
+          "BOARDWALK"
+        ]
+      },
+      {
+        "label": "SMALL IMPERFECTION",
+        "level": 1,
+        "words": [
+          "DING",
+          "NICK",
+          "SCRATCH",
+          "DENT"
+        ]
+      },
+      {
+        "label": "SOUNDS A CUCKOO CLOCK MAKES",
+        "level": 2,
+        "words": [
+          "TICK",
+          "TOCK",
+          "CHIME",
+          "CUCKOO"
+        ]
+      },
+      {
+        "label": "___TAIL",
+        "level": 3,
+        "words": [
+          "COCK",
+          "PONY",
+          "MOCK",
+          "PIG"
+        ]
+      }
+    ]
+  }
+}

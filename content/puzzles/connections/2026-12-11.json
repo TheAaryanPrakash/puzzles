@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "MOVIE SUMMARY INFO",
+        "level": 0,
+        "words": [
+          "PLOT",
+          "TITLE",
+          "CAST",
+          "GENRE"
+        ]
+      },
+      {
+        "label": "PRETENSE",
+        "level": 1,
+        "words": [
+          "CHARADE",
+          "FRONT",
+          "AIRS",
+          "AFFECT"
+        ]
+      },
+      {
+        "label": "FAMOUS GUITARISTS",
+        "level": 2,
+        "words": [
+          "KING",
+          "BERRY",
+          "PAGE",
+          "WATERS"
+        ]
+      },
+      {
+        "label": "SECOND ___",
+        "level": 3,
+        "words": [
+          "GUESS",
+          "WIND",
+          "NATURE",
+          "FIDDLE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "EAT A LITTLE",
+        "level": 0,
+        "words": [
+          "SNACK",
+          "PECK",
+          "NIBBLE",
+          "GRAZE"
+        ]
+      },
+      {
+        "label": "PURSUE",
+        "level": 1,
+        "words": [
+          "STALK",
+          "HUNT",
+          "TRACK",
+          "TRAIL"
+        ]
+      },
+      {
+        "label": "INGREDIENTS IN MINESTRONE",
+        "level": 2,
+        "words": [
+          "STOCK",
+          "BEANS",
+          "PASTA",
+          "VEGETABLES"
+        ]
+      },
+      {
+        "label": "___CAST",
+        "level": 3,
+        "words": [
+          "POD",
+          "TYPE",
+          "BROAD",
+          "FORE"
+        ]
+      }
+    ]
+  }
+}

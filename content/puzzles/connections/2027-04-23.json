@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "EYE PARTS",
+        "level": 0,
+        "words": [
+          "IRIS",
+          "LENS",
+          "PUPIL",
+          "RETINA"
+        ]
+      },
+      {
+        "label": "COUNTERFEIT",
+        "level": 1,
+        "words": [
+          "FAKE",
+          "BOGUS",
+          "SHAM",
+          "PHONY"
+        ]
+      },
+      {
+        "label": "RADIO LINGO",
+        "level": 2,
+        "words": [
+          "OUT",
+          "COPY",
+          "ROGER",
+          "OVER"
+        ]
+      },
+      {
+        "label": "SONGS THAT ARE NAMES",
+        "level": 3,
+        "words": [
+          "MICHELLE",
+          "STAN",
+          "LOLA",
+          "ALEJANDRO"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "INHERENT NATURE",
+        "level": 0,
+        "words": [
+          "SOUL",
+          "HEART",
+          "SPIRIT",
+          "ESSENCE"
+        ]
+      },
+      {
+        "label": "FERMENTED ALCOHOLIC BEVERAGES",
+        "level": 1,
+        "words": [
+          "STOUT",
+          "SAKE",
+          "PORT",
+          "CIDER"
+        ]
+      },
+      {
+        "label": "PIXAR MOVIES",
+        "level": 2,
+        "words": [
+          "BRAVE",
+          "UP",
+          "CARS",
+          "COCO"
+        ]
+      },
+      {
+        "label": "___ TAPE",
+        "level": 3,
+        "words": [
+          "SCOTCH",
+          "RED",
+          "TICKER",
+          "DEMO"
+        ]
+      }
+    ]
+  }
+}

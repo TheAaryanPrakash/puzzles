@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "RELIGIOUS FIGURES",
+        "level": 0,
+        "words": [
+          "CARDINAL",
+          "PASTOR",
+          "LAMA",
+          "MONK"
+        ]
+      },
+      {
+        "label": "PRIMATES",
+        "level": 1,
+        "words": [
+          "GORILLA",
+          "GIBBON",
+          "BABOON",
+          "BONOBO"
+        ]
+      },
+      {
+        "label": "CHUTNEY VARIETIES",
+        "level": 2,
+        "words": [
+          "MINT",
+          "TOMATO",
+          "MANGO",
+          "TAMARIND"
+        ]
+      },
+      {
+        "label": "IMITATE",
+        "level": 3,
+        "words": [
+          "MIRROR",
+          "PARROT",
+          "APE",
+          "MIME"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "STATES OF MATTER",
+        "level": 0,
+        "words": [
+          "GAS",
+          "LIQUID",
+          "SOLID",
+          "PLASMA"
+        ]
+      },
+      {
+        "label": "ENERGY",
+        "level": 1,
+        "words": [
+          "JUICE",
+          "STEAM",
+          "SPIRIT",
+          "VIGOR"
+        ]
+      },
+      {
+        "label": "CLASSICAL ELEMENTS",
+        "level": 2,
+        "words": [
+          "WATER",
+          "EARTH",
+          "FIRE",
+          "AIR"
+        ]
+      },
+      {
+        "label": "THINGS WITH RINGS",
+        "level": 3,
+        "words": [
+          "TREE",
+          "CIRCUS",
+          "SATURN",
+          "WEDDING"
+        ]
+      }
+    ]
+  }
+}

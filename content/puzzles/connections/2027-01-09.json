@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "“LIONS AND TIGERS AND BEARS, OH MY!”",
+        "level": 0,
+        "words": [
+          "LIONS",
+          "TIGERS",
+          "BEARS",
+          "OH MY"
+        ]
+      },
+      {
+        "label": "BELOVED, AS A FRIEND",
+        "level": 1,
+        "words": [
+          "DEAR",
+          "CLOSE",
+          "TIGHT",
+          "INTIMATE"
+        ]
+      },
+      {
+        "label": "WORDS THAT SOUND LIKE PLURAL LETTERS",
+        "level": 2,
+        "words": [
+          "JAYS",
+          "USE",
+          "BEES",
+          "EASE"
+        ]
+      },
+      {
+        "label": "WHEN TRIPLED, HIT SONG TITLES",
+        "level": 3,
+        "words": [
+          "BILLS",
+          "BYE",
+          "PLEASE",
+          "GIMME"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "UNIT OF LANGUAGE",
+        "level": 0,
+        "words": [
+          "WORD",
+          "LETTER",
+          "SENTENCE",
+          "PARAGRAPH"
+        ]
+      },
+      {
+        "label": "TRADEMARK",
+        "level": 1,
+        "words": [
+          "STAMP",
+          "FEATURE",
+          "HALLMARK",
+          "TRAIT"
+        ]
+      },
+      {
+        "label": "FUNNY PERSON",
+        "level": 2,
+        "words": [
+          "CLOWN",
+          "CARD",
+          "JOKER",
+          "CUTUP"
+        ]
+      },
+      {
+        "label": "THINGS WITH LEAVES",
+        "level": 3,
+        "words": [
+          "TEA",
+          "BOOK",
+          "TREE",
+          "TABLE"
+        ]
+      }
+    ]
+  }
+}

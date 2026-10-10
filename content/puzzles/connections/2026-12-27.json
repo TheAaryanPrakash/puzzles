@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "RESTAURANT WORKERS",
+        "level": 0,
+        "words": [
+          "CHEF",
+          "HOST",
+          "BARTENDER",
+          "SERVER"
+        ]
+      },
+      {
+        "label": "MOTOR VEHICLES",
+        "level": 1,
+        "words": [
+          "CAR",
+          "BUS",
+          "TRUCK",
+          "MOTORCYCLE"
+        ]
+      },
+      {
+        "label": "MUPPETS",
+        "level": 2,
+        "words": [
+          "ANIMAL",
+          "SCOOTER",
+          "BEAKER",
+          "GONZO"
+        ]
+      },
+      {
+        "label": "HAND- AND FOOT-RELATED SLANG",
+        "level": 3,
+        "words": [
+          "DOG",
+          "MITT",
+          "DIGIT",
+          "PIGGY"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "STORAGE CONTAINERS",
+        "level": 0,
+        "words": [
+          "CHEST",
+          "TRUNK",
+          "CASE",
+          "CRATE"
+        ]
+      },
+      {
+        "label": "SCHNOZZ",
+        "level": 1,
+        "words": [
+          "SNOOT",
+          "BEAK",
+          "SNOUT",
+          "HONKER"
+        ]
+      },
+      {
+        "label": "ONES WITH DISCERNING TASTES",
+        "level": 2,
+        "words": [
+          "SNOB",
+          "EXPERT",
+          "CRITIC",
+          "CONNOISSEUR"
+        ]
+      },
+      {
+        "label": "STARTS OF SWIMMING STROKES",
+        "level": 3,
+        "words": [
+          "BREAST",
+          "FREE",
+          "BUTTER",
+          "BACK"
+        ]
+      }
+    ]
+  }
+}

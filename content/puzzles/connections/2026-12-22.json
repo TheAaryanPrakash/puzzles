@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "UNITS OF VOLUME",
+        "level": 0,
+        "words": [
+          "PINT",
+          "CUP",
+          "GALLON",
+          "QUART"
+        ]
+      },
+      {
+        "label": "EXTREMELY",
+        "level": 1,
+        "words": [
+          "AWFUL",
+          "SUPER",
+          "VERY",
+          "QUITE"
+        ]
+      },
+      {
+        "label": "WORLD CURRENCIES",
+        "level": 2,
+        "words": [
+          "REAL",
+          "WON",
+          "RAND",
+          "STERLING"
+        ]
+      },
+      {
+        "label": "___ CAKE",
+        "level": 3,
+        "words": [
+          "CARROT",
+          "SPONGE",
+          "COFFEE",
+          "POUND"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "GOLF COURSE PARTS",
+        "level": 0,
+        "words": [
+          "ROUGH",
+          "GREEN",
+          "BUNKER",
+          "FAIRWAY"
+        ]
+      },
+      {
+        "label": "“I GIVE!”",
+        "level": 1,
+        "words": [
+          "STOP",
+          "ENOUGH",
+          "UNCLE",
+          "MERCY"
+        ]
+      },
+      {
+        "label": "INDECENT",
+        "level": 2,
+        "words": [
+          "BLUE",
+          "COARSE",
+          "BAWDY",
+          "RISQUE"
+        ]
+      },
+      {
+        "label": "”-OUGH” WORDS THAT DON’T RHYME",
+        "level": 3,
+        "words": [
+          "TOUGH",
+          "DOUGH",
+          "COUGH",
+          "BOUGH"
+        ]
+      }
+    ]
+  }
+}

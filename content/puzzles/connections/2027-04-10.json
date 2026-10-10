@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "SODA FOUNTAIN ORDERS",
+        "level": 0,
+        "words": [
+          "FLOAT",
+          "SUNDAE",
+          "SHAKE",
+          "MALT"
+        ]
+      },
+      {
+        "label": "SET, AS PLANS",
+        "level": 1,
+        "words": [
+          "FIRM",
+          "CONCRETE",
+          "SOLID",
+          "TANGIBLE"
+        ]
+      },
+      {
+        "label": "M. NIGHT SHYAMALAN MOVIES",
+        "level": 2,
+        "words": [
+          "SPLIT",
+          "GLASS",
+          "OLD",
+          "SIGNS"
+        ]
+      },
+      {
+        "label": "___BOARD",
+        "level": 3,
+        "words": [
+          "STAR",
+          "HOVER",
+          "KEY",
+          "DASH"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "SEEN AT THE CIRCUS",
+        "level": 0,
+        "words": [
+          "RING",
+          "CLOWN",
+          "TENT",
+          "TRAPEZE"
+        ]
+      },
+      {
+        "label": "“THE WIZARD OF OZ” FIGURES",
+        "level": 1,
+        "words": [
+          "WITCH",
+          "LION",
+          "SCARECROW",
+          "WIZARD"
+        ]
+      },
+      {
+        "label": "FILM DEPARTMENTS",
+        "level": 2,
+        "words": [
+          "HAIR",
+          "WARDROBE",
+          "MAKEUP",
+          "PROPS"
+        ]
+      },
+      {
+        "label": "“I’M A ___” (LYRICS IN “THE JOKER”)",
+        "level": 3,
+        "words": [
+          "JOKER",
+          "SINNER",
+          "SMOKER",
+          "LOVER"
+        ]
+      }
+    ]
+  }
+}

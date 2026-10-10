@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "VARIETIES",
+        "level": 0,
+        "words": [
+          "STRIPES",
+          "SORTS",
+          "TYPES",
+          "KINDS"
+        ]
+      },
+      {
+        "label": "TRANSFER",
+        "level": 1,
+        "words": [
+          "HAND",
+          "DELIVER",
+          "PASS",
+          "GIVE"
+        ]
+      },
+      {
+        "label": "RATINGS SYSTEMS",
+        "level": 2,
+        "words": [
+          "STARS",
+          "THUMBS",
+          "A-F",
+          "PERCENTAGE"
+        ]
+      },
+      {
+        "label": "THINGS WITH KINGS",
+        "level": 3,
+        "words": [
+          "DECK OF CARDS",
+          "MONARCHY",
+          "NHL",
+          "CHECKERS"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "ABSOLVE",
+        "level": 0,
+        "words": [
+          "SPARE",
+          "EXCUSE",
+          "SAVE",
+          "PARDON"
+        ]
+      },
+      {
+        "label": "EXCESSIVELY",
+        "level": 1,
+        "words": [
+          "TOO",
+          "EXTRA",
+          "OVER",
+          "BEYOND"
+        ]
+      },
+      {
+        "label": "GLOBAL CURRENCIES",
+        "level": 2,
+        "words": [
+          "REAL",
+          "WON",
+          "POUND",
+          "YEN"
+        ]
+      },
+      {
+        "label": "___HEAD",
+        "level": 3,
+        "words": [
+          "FORE",
+          "ARROW",
+          "KNUCKLE",
+          "BLOCK"
+        ]
+      }
+    ]
+  }
+}

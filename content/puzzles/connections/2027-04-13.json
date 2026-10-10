@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "SYNONYMS FOR ANGRY",
+        "level": 0,
+        "words": [
+          "IRATE",
+          "FURIOUS",
+          "LIVID",
+          "INCENSED"
+        ]
+      },
+      {
+        "label": "THINGS THAT ARE YELLOW",
+        "level": 1,
+        "words": [
+          "CANARY",
+          "SCHOOL BUS",
+          "BANANA",
+          "SUNFLOWER"
+        ]
+      },
+      {
+        "label": "MARINE BIRDS",
+        "level": 2,
+        "words": [
+          "GULL",
+          "BOOBY",
+          "PELICAN",
+          "PUFFIN"
+        ]
+      },
+      {
+        "label": "___ BOYS",
+        "level": 3,
+        "words": [
+          "LOST",
+          "BEACH",
+          "BEASTIE",
+          "HARDY"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "USED IN BUILDING A FIRE",
+        "level": 0,
+        "words": [
+          "MATCH",
+          "TINDER",
+          "LOG",
+          "KINDLING"
+        ]
+      },
+      {
+        "label": "MESS UP",
+        "level": 1,
+        "words": [
+          "SPOIL",
+          "BUMBLE",
+          "FLUFF",
+          "BLOW"
+        ]
+      },
+      {
+        "label": "WORKSHOP TOOLS",
+        "level": 2,
+        "words": [
+          "DRILL",
+          "GRINDER",
+          "SAW",
+          "ROUTER"
+        ]
+      },
+      {
+        "label": "PARTS OF A DOOR",
+        "level": 3,
+        "words": [
+          "HINGE",
+          "LOCK",
+          "HANDLE",
+          "FRAME"
+        ]
+      }
+    ]
+  }
+}

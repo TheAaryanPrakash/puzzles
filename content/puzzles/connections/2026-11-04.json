@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "AUDIO APPS",
+        "level": 0,
+        "words": [
+          "SHAZAM",
+          "AUDIBLE",
+          "TIDAL",
+          "PANDORA"
+        ]
+      },
+      {
+        "label": "INDICATE",
+        "level": 1,
+        "words": [
+          "SPELL",
+          "MEAN",
+          "SIGNIFY",
+          "SUGGEST"
+        ]
+      },
+      {
+        "label": "CHURCH OF ENGLAND WEDDING VOW VERBS",
+        "level": 2,
+        "words": [
+          "LOVE",
+          "HOLD",
+          "HAVE",
+          "CHERISH"
+        ]
+      },
+      {
+        "label": "MAGIC WORDS",
+        "level": 3,
+        "words": [
+          "PLEASE",
+          "PRESTO",
+          "THANK YOU",
+          "ABRACADABRA"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "BIRD SOUNDS",
+        "level": 0,
+        "words": [
+          "TWEET",
+          "CAW",
+          "CHIRP",
+          "CLUCK"
+        ]
+      },
+      {
+        "label": "COLORS",
+        "level": 1,
+        "words": [
+          "BROWN",
+          "PINK",
+          "VIOLET",
+          "TURQUOISE"
+        ]
+      },
+      {
+        "label": "FISHING GEAR",
+        "level": 2,
+        "words": [
+          "ROD",
+          "TACKLE",
+          "REEL",
+          "LURE"
+        ]
+      },
+      {
+        "label": "FICTIONAL PIRATES",
+        "level": 3,
+        "words": [
+          "SILVER",
+          "SPARROW",
+          "HOOK",
+          "JONES"
+        ]
+      }
+    ]
+  }
+}

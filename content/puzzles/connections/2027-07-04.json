@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "DELIVER, AS A PACKAGE",
+        "level": 0,
+        "words": [
+          "SHIP",
+          "SEND",
+          "MAIL",
+          "POST"
+        ]
+      },
+      {
+        "label": "KINDS OF LIP MAKEUP",
+        "level": 1,
+        "words": [
+          "STAIN",
+          "LINER",
+          "BALM",
+          "GLOSS"
+        ]
+      },
+      {
+        "label": "PREDICAMENT",
+        "level": 2,
+        "words": [
+          "FIX",
+          "HOLE",
+          "SPOT",
+          "CORNER"
+        ]
+      },
+      {
+        "label": "MEASURED IN DEGREES",
+        "level": 3,
+        "words": [
+          "TEMPERATURE",
+          "ANGLE",
+          "EDUCATION",
+          "CRIME"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "NOT SMOOTH, AS TERRAIN",
+        "level": 0,
+        "words": [
+          "ROUGH",
+          "UNEVEN",
+          "RUGGED",
+          "BUMPY"
+        ]
+      },
+      {
+        "label": "BIT OF LAND FOR GROWING",
+        "level": 1,
+        "words": [
+          "BED",
+          "PATCH",
+          "PLOT",
+          "PARCEL"
+        ]
+      },
+      {
+        "label": "MEMBER OF A CARTOON DUO",
+        "level": 2,
+        "words": [
+          "CHIP",
+          "ROCKY",
+          "STITCH",
+          "SCRATCHY"
+        ]
+      },
+      {
+        "label": "___ PARK",
+        "level": 3,
+        "words": [
+          "PARALLEL",
+          "SOUTH",
+          "AMUSEMENT",
+          "NATIONAL"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "BREATHE HARD",
+        "level": 0,
+        "words": [
+          "PANT",
+          "HEAVE",
+          "GASP",
+          "PUFF"
+        ]
+      },
+      {
+        "label": "CATCHALL",
+        "level": 1,
+        "words": [
+          "BLANKET",
+          "UMBRELLA",
+          "GENERAL",
+          "BROAD"
+        ]
+      },
+      {
+        "label": "METAPHORS FOR EASY THINGS",
+        "level": 2,
+        "words": [
+          "BREEZE",
+          "PICNIC",
+          "PIE",
+          "ABC"
+        ]
+      },
+      {
+        "label": "SYNONYMS FOR REAR END MINUS LAST LETTER",
+        "level": 3,
+        "words": [
+          "BOOT",
+          "RUM",
+          "ARS",
+          "BUT"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "MERRIMENT",
+        "level": 0,
+        "words": [
+          "GLEE",
+          "FESTIVITY",
+          "CHEER",
+          "MIRTH"
+        ]
+      },
+      {
+        "label": "BOOKED FOR A WEDDING",
+        "level": 1,
+        "words": [
+          "FLORIST",
+          "BAND",
+          "CATERER",
+          "OFFICIANT"
+        ]
+      },
+      {
+        "label": "RHYMES",
+        "level": 2,
+        "words": [
+          "CHOIR",
+          "FIRE",
+          "FRYER",
+          "LIAR"
+        ]
+      },
+      {
+        "label": "___ PIT",
+        "level": 3,
+        "words": [
+          "TAR",
+          "ORCHESTRA",
+          "SNAKE",
+          "BARBECUE"
+        ]
+      }
+    ]
+  }
+}

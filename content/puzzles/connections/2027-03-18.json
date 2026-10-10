@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "REMOTE CONTROL BUTTONS",
+        "level": 0,
+        "words": [
+          "POWER",
+          "MENU",
+          "VOLUME",
+          "CHANNEL"
+        ]
+      },
+      {
+        "label": "HIDE FROM VIEW",
+        "level": 1,
+        "words": [
+          "SHIELD",
+          "SCREEN",
+          "BLOCK",
+          "COVER"
+        ]
+      },
+      {
+        "label": "DRINK GARNISHES",
+        "level": 2,
+        "words": [
+          "UMBRELLA",
+          "CHERRY",
+          "SWORD",
+          "OLIVE"
+        ]
+      },
+      {
+        "label": "FIRST WORD IN BOND MOVIE TITLES",
+        "level": 3,
+        "words": [
+          "CASINO",
+          "DIAMONDS",
+          "TOMORROW",
+          "QUANTUM"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "CONTEMPLATE",
+        "level": 0,
+        "words": [
+          "BROOD",
+          "REFLECT",
+          "MUSE",
+          "PONDER"
+        ]
+      },
+      {
+        "label": "RUDE THINGS TO DO",
+        "level": 1,
+        "words": [
+          "LITTER",
+          "POINT",
+          "STARE",
+          "INTERRUPT"
+        ]
+      },
+      {
+        "label": "VOCATION",
+        "level": 2,
+        "words": [
+          "TRADE",
+          "LINE",
+          "WORK",
+          "CRAFT"
+        ]
+      },
+      {
+        "label": "___ PATCH",
+        "level": 3,
+        "words": [
+          "NICOTINE",
+          "ROUGH",
+          "CABBAGE",
+          "SOUL"
+        ]
+      }
+    ]
+  }
+}

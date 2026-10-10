@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "VERY IMPORTANT",
+        "level": 0,
+        "words": [
+          "KEY",
+          "CENTRAL",
+          "VITAL",
+          "CRITICAL"
+        ]
+      },
+      {
+        "label": "RECYCLING CATEGORIES",
+        "level": 1,
+        "words": [
+          "METAL",
+          "PAPER",
+          "GLASS",
+          "PLASTIC"
+        ]
+      },
+      {
+        "label": "HUDSONS",
+        "level": 2,
+        "words": [
+          "ROCK",
+          "HENRY",
+          "JENNIFER",
+          "KATE"
+        ]
+      },
+      {
+        "label": "WHAT “BEAT” MAY MEAN",
+        "level": 3,
+        "words": [
+          "TEMPO",
+          "TIRED",
+          "ASSIGNMENT",
+          "DEFEAT"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "BIOMES",
+        "level": 0,
+        "words": [
+          "FOREST",
+          "DESERT",
+          "TUNDRA",
+          "GRASSLAND"
+        ]
+      },
+      {
+        "label": "LIZARDS",
+        "level": 1,
+        "words": [
+          "GECKO",
+          "MONITOR",
+          "IGUANA",
+          "CHAMELEON"
+        ]
+      },
+      {
+        "label": "YOGA POSES",
+        "level": 2,
+        "words": [
+          "TREE",
+          "LOTUS",
+          "COBRA",
+          "WARRIOR"
+        ]
+      },
+      {
+        "label": "DANCES WHEN DOUBLED",
+        "level": 3,
+        "words": [
+          "GO",
+          "CAN",
+          "CHA",
+          "NAE"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "SHIRTS",
+        "level": 0,
+        "words": [
+          "POLO",
+          "TEE",
+          "CROP",
+          "TANK"
+        ]
+      },
+      {
+        "label": "COOL, IN ’80S SLANG",
+        "level": 1,
+        "words": [
+          "BAD",
+          "FLY",
+          "FRESH",
+          "RAD"
+        ]
+      },
+      {
+        "label": "LETTER SPELLINGS",
+        "level": 2,
+        "words": [
+          "JAY",
+          "GEE",
+          "BEE",
+          "EX"
+        ]
+      },
+      {
+        "label": "___ GEORGE",
+        "level": 3,
+        "words": [
+          "SAINT",
+          "BOY",
+          "BY",
+          "CURIOUS"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "CREATURES IN FOLKLORE",
+        "level": 0,
+        "words": [
+          "GNOME",
+          "TROLL",
+          "GOBLIN",
+          "OGRE"
+        ]
+      },
+      {
+        "label": "FLOWER PARTS",
+        "level": 1,
+        "words": [
+          "LEAF",
+          "STALK",
+          "PETAL",
+          "BUD"
+        ]
+      },
+      {
+        "label": "ONE INVOLVED IN ESPIONAGE",
+        "level": 2,
+        "words": [
+          "MOLE",
+          "SPY",
+          "PLANT",
+          "AGENT"
+        ]
+      },
+      {
+        "label": "CHINESE ZODIAC ANIMALS",
+        "level": 3,
+        "words": [
+          "HORSE",
+          "DRAGON",
+          "RABBIT",
+          "TIGER"
+        ]
+      }
+    ]
+  }
+}

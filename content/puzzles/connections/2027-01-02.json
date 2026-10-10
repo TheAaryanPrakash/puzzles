@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "NEWSPAPER SECTIONS",
+        "level": 0,
+        "words": [
+          "SPORTS",
+          "BUSINESS",
+          "ARTS",
+          "COMICS"
+        ]
+      },
+      {
+        "label": "TREE FEATURES",
+        "level": 1,
+        "words": [
+          "CROWN",
+          "RINGS",
+          "ROOTS",
+          "BARK"
+        ]
+      },
+      {
+        "label": "KINDS OF SALAD",
+        "level": 2,
+        "words": [
+          "GREEK",
+          "CHEF",
+          "GARDEN",
+          "WEDGE"
+        ]
+      },
+      {
+        "label": "SEEN ON BACKS OF U.S. COINS",
+        "level": 3,
+        "words": [
+          "MONTICELLO",
+          "EAGLE",
+          "TORCH",
+          "SHIELD"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "ORIGIN",
+        "level": 0,
+        "words": [
+          "SOURCE",
+          "GERM",
+          "GENESIS",
+          "SEED"
+        ]
+      },
+      {
+        "label": "BIBLE BOOKS",
+        "level": 1,
+        "words": [
+          "JOB",
+          "ACTS",
+          "MARK",
+          "KINGS"
+        ]
+      },
+      {
+        "label": "N.H.L. TEAMS",
+        "level": 2,
+        "words": [
+          "WILD",
+          "STARS",
+          "KRAKEN",
+          "FLAMES"
+        ]
+      },
+      {
+        "label": "POWER ___",
+        "level": 3,
+        "words": [
+          "NAP",
+          "PLANT",
+          "RANGER",
+          "TRIP"
+        ]
+      }
+    ]
+  }
+}

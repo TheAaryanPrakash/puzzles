@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "CORE",
+        "level": 0,
+        "words": [
+          "SUBSTANCE",
+          "CRUX",
+          "HEART",
+          "ESSENCE"
+        ]
+      },
+      {
+        "label": "COMPLICATED",
+        "level": 1,
+        "words": [
+          "COMPLEX",
+          "BAROQUE",
+          "INVOLVED",
+          "ELABORATE"
+        ]
+      },
+      {
+        "label": "SYMBOLS USED IN MAKING LISTS",
+        "level": 2,
+        "words": [
+          "ARROW",
+          "HYPHEN",
+          "CHECKBOX",
+          "BULLET"
+        ]
+      },
+      {
+        "label": "WHAT “CROSS” MIGHT MEAN",
+        "level": 3,
+        "words": [
+          "CRUCIFIX",
+          "HYBRID",
+          "ANGRY",
+          "BETRAY"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "MOVE QUICKLY",
+        "level": 0,
+        "words": [
+          "DART",
+          "FLY",
+          "BOLT",
+          "DASH"
+        ]
+      },
+      {
+        "label": "FUN TIME",
+        "level": 1,
+        "words": [
+          "BALL",
+          "THRILL",
+          "BLAST",
+          "KICK"
+        ]
+      },
+      {
+        "label": "WORDS BEFORE AN ADDRESSEE",
+        "level": 2,
+        "words": [
+          "ATTENTION",
+          "DEAR",
+          "FOR",
+          "TO"
+        ]
+      },
+      {
+        "label": "NAME ___",
+        "level": 3,
+        "words": [
+          "DROP",
+          "GAME",
+          "BRAND",
+          "NAMES"
+        ]
+      }
+    ]
+  }
+}

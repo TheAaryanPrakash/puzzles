@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "SEEN IN A KITCHEN",
+        "level": 0,
+        "words": [
+          "SINK",
+          "RANGE",
+          "COUNTER",
+          "FRIDGE"
+        ]
+      },
+      {
+        "label": "GROUP OF ADVISORS",
+        "level": 1,
+        "words": [
+          "BOARD",
+          "PANEL",
+          "CABINET",
+          "COUNCIL"
+        ]
+      },
+      {
+        "label": "CORE EXERCISES",
+        "level": 2,
+        "words": [
+          "PLANK",
+          "BOAT",
+          "CRUNCH",
+          "MOUNTAIN CLIMBER"
+        ]
+      },
+      {
+        "label": "KINDS OF EARRINGS",
+        "level": 3,
+        "words": [
+          "DROP",
+          "STUD",
+          "CHANDELIER",
+          "HOOP"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "CANDY BARS",
+        "level": 0,
+        "words": [
+          "CRUNCH",
+          "MARS",
+          "PAYDAY",
+          "DOVE"
+        ]
+      },
+      {
+        "label": "GIST",
+        "level": 1,
+        "words": [
+          "SUBSTANCE",
+          "THRUST",
+          "MEAT",
+          "CORE"
+        ]
+      },
+      {
+        "label": "KINDS OF BRAS",
+        "level": 2,
+        "words": [
+          "DEMI",
+          "SPORTS",
+          "PUSH-UP",
+          "WIRELESS"
+        ]
+      },
+      {
+        "label": "___ BIRD",
+        "level": 3,
+        "words": [
+          "SUE",
+          "BIG",
+          "EARLY",
+          "LADY"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "PLAYGROUND EQUIPMENT",
+        "level": 0,
+        "words": [
+          "MONKEY BARS",
+          "SLIDE",
+          "SWINGS",
+          "TEETER-TOTTER"
+        ]
+      },
+      {
+        "label": "FOUND AT THE END OF A STRING/CORD",
+        "level": 1,
+        "words": [
+          "PENDULUM",
+          "TEA BAG",
+          "TETHERBALL",
+          "YO-YO"
+        ]
+      },
+      {
+        "label": "DESCRIBED AS DRY",
+        "level": 2,
+        "words": [
+          "MARTINI",
+          "HUMOR",
+          "TEETOTALER",
+          "DESERT"
+        ]
+      },
+      {
+        "label": "BABY ___",
+        "level": 3,
+        "words": [
+          "TEETH",
+          "STEPS",
+          "BOOMER",
+          "BLUES"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "BASIC TASTES",
+        "level": 0,
+        "words": [
+          "SOUR",
+          "BITTER",
+          "SWEET",
+          "SALTY"
+        ]
+      },
+      {
+        "label": "STAND UP TO, AS A CHALLENGE",
+        "level": 1,
+        "words": [
+          "BRAVE",
+          "FACE",
+          "MEET",
+          "CONFRONT"
+        ]
+      },
+      {
+        "label": "ILK",
+        "level": 2,
+        "words": [
+          "TYPE",
+          "KIND",
+          "VARIETY",
+          "SORT"
+        ]
+      },
+      {
+        "label": "ART MOVEMENTS, WITH -ISM",
+        "level": 3,
+        "words": [
+          "ROMANTIC",
+          "EXPRESSION",
+          "SURREAL",
+          "MANNER"
+        ]
+      }
+    ]
+  }
+}

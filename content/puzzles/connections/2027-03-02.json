@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "SEEN AT A SPORTS STADIUM",
+        "level": 0,
+        "words": [
+          "ASTROTURF",
+          "JUMBOTRON",
+          "SKYBOX",
+          "SCOREBOARD"
+        ]
+      },
+      {
+        "label": "CAMERA BRANDS",
+        "level": 1,
+        "words": [
+          "OLYMPUS",
+          "FUJIFILM",
+          "HASSELBLAD",
+          "POLAROID"
+        ]
+      },
+      {
+        "label": "ITALIAN DEMONYMS",
+        "level": 2,
+        "words": [
+          "PARMESAN",
+          "BOLOGNESE",
+          "NEAPOLITAN",
+          "VENETIAN"
+        ]
+      },
+      {
+        "label": "STARTING WITH ROCK BANDS",
+        "level": 3,
+        "words": [
+          "RUSHMORE",
+          "JOURNEYMAN",
+          "KISSCAM",
+          "CREAMSICLE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "HOT DRINKS",
+        "level": 0,
+        "words": [
+          "TEA",
+          "COFFEE",
+          "COCOA",
+          "CHAI"
+        ]
+      },
+      {
+        "label": "ANIMAL SOUNDS",
+        "level": 1,
+        "words": [
+          "BUZZ",
+          "MEOW",
+          "OINK",
+          "CLUCK"
+        ]
+      },
+      {
+        "label": "TREE FEATURES",
+        "level": 2,
+        "words": [
+          "BARK",
+          "ROOT",
+          "TRUNK",
+          "BRANCH"
+        ]
+      },
+      {
+        "label": "INSIDE INFO",
+        "level": 3,
+        "words": [
+          "DIRT",
+          "DISH",
+          "SKINNY",
+          "SCOOP"
+        ]
+      }
+    ]
+  }
+}

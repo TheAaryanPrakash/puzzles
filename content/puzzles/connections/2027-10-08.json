@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "ROCKY HORROR PICTURE SHOW",
+        "level": 0,
+        "words": [
+          "HORROR",
+          "PICTURE",
+          "SHOW",
+          "ROCKY"
+        ]
+      },
+      {
+        "label": "WHO FRAMED ROGER RABBIT",
+        "level": 1,
+        "words": [
+          "ROGER",
+          "WHO",
+          "FRAMED",
+          "RABBIT"
+        ]
+      },
+      {
+        "label": "WHEN HARRY MET SALLY",
+        "level": 2,
+        "words": [
+          "HARRY",
+          "MET",
+          "WHEN",
+          "SALLY"
+        ]
+      },
+      {
+        "label": "MAD MAX FURY ROAD",
+        "level": 3,
+        "words": [
+          "FURY",
+          "MAX",
+          "MAD",
+          "ROAD"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "BOARD GAMES",
+        "level": 0,
+        "words": [
+          "TROUBLE",
+          "RISK",
+          "SORRY",
+          "TABOO"
+        ]
+      },
+      {
+        "label": "NEWSPAPER SECTIONS",
+        "level": 1,
+        "words": [
+          "STYLE",
+          "NATIONAL",
+          "BUSINESS",
+          "OPINION"
+        ]
+      },
+      {
+        "label": "FIGURES IN GREEK MYTH",
+        "level": 2,
+        "words": [
+          "PARIS",
+          "ATLAS",
+          "NIKE",
+          "HERMES"
+        ]
+      },
+      {
+        "label": "FIRST WORDS IN RAPPERS’ NAMES",
+        "level": 3,
+        "words": [
+          "FOXY",
+          "KILLER",
+          "GUCCI",
+          "NOTORIOUS"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "INFO ON A BASEBALL CARD",
+        "level": 0,
+        "words": [
+          "TEAM",
+          "PLAYER",
+          "STAT",
+          "BIO"
+        ]
+      },
+      {
+        "label": "SCRUNCH, AS FABRIC",
+        "level": 1,
+        "words": [
+          "BUNCH",
+          "RUFFLE",
+          "GATHER",
+          "PUCKER"
+        ]
+      },
+      {
+        "label": "TIME ADVERBS",
+        "level": 2,
+        "words": [
+          "SOON",
+          "LATER",
+          "NOW",
+          "THEN"
+        ]
+      },
+      {
+        "label": "___ FOOD",
+        "level": 3,
+        "words": [
+          "FAST",
+          "SOUL",
+          "FINGER",
+          "JUNK"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "SOCIAL GATHERING",
+        "level": 0,
+        "words": [
+          "BASH",
+          "PARTY",
+          "BLOWOUT",
+          "SHINDIG"
+        ]
+      },
+      {
+        "label": "FOUND IN A KITCHEN",
+        "level": 1,
+        "words": [
+          "MIXER",
+          "RANGE",
+          "COUNTER",
+          "SINK"
+        ]
+      },
+      {
+        "label": "“PINOCCHIO” FIGURES",
+        "level": 2,
+        "words": [
+          "WHALE",
+          "PUPPET",
+          "CRICKET",
+          "WOODCARVER"
+        ]
+      },
+      {
+        "label": "EASTER ___",
+        "level": 3,
+        "words": [
+          "ISLAND",
+          "BUNNY",
+          "EGG",
+          "SUNDAY"
+        ]
+      }
+    ]
+  }
+}

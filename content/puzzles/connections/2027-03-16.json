@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "REGARD AS TRUE",
+        "level": 0,
+        "words": [
+          "BELIEVE",
+          "ACCEPT",
+          "TRUST",
+          "BUY"
+        ]
+      },
+      {
+        "label": "FACADE",
+        "level": 1,
+        "words": [
+          "SHOW",
+          "BLUFF",
+          "FRONT",
+          "SHAM"
+        ]
+      },
+      {
+        "label": "WAYS TO SECURE A TV",
+        "level": 2,
+        "words": [
+          "MOUNT",
+          "BASE",
+          "STAND",
+          "BRACKET"
+        ]
+      },
+      {
+        "label": "LIQUOR BOTTLE SIZES",
+        "level": 3,
+        "words": [
+          "HANDLE",
+          "FIFTH",
+          "PINT",
+          "LITER"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "PARTS OF A COMPENSATION PACKAGE",
+        "level": 0,
+        "words": [
+          "BONUS",
+          "SALARY",
+          "INSURANCE",
+          "VACATION"
+        ]
+      },
+      {
+        "label": "INDICATION",
+        "level": 1,
+        "words": [
+          "FLAG",
+          "TELL",
+          "GIVEAWAY",
+          "SIGN"
+        ]
+      },
+      {
+        "label": "THINGS TO DO WITH A DECK OF CARDS",
+        "level": 2,
+        "words": [
+          "FAN",
+          "CUT",
+          "DEAL",
+          "SHUFFLE"
+        ]
+      },
+      {
+        "label": "WHAT “BILL” MIGHT REFER TO",
+        "level": 3,
+        "words": [
+          "WILLIAM",
+          "BANKNOTE",
+          "BEAK",
+          "INVOICE"
+        ]
+      }
+    ]
+  }
+}

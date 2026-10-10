@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "ANNOUNCE",
+        "level": 0,
+        "words": [
+          "TRUMPET",
+          "HERALD",
+          "BROADCAST",
+          "DECLARE"
+        ]
+      },
+      {
+        "label": "THINGS INVOLVING MALLETS",
+        "level": 1,
+        "words": [
+          "CROQUET",
+          "WHAC-A-MOLE",
+          "XYLOPHONE",
+          "CARPENTRY"
+        ]
+      },
+      {
+        "label": "ICON EMBROIDERED ON A POLO SHIRT",
+        "level": 2,
+        "words": [
+          "CROCODILE",
+          "POLO PLAYER",
+          "LAUREL",
+          "SWOOSH"
+        ]
+      },
+      {
+        "label": "___ CLIP",
+        "level": 3,
+        "words": [
+          "PAPER",
+          "ALLIGATOR",
+          "HAIR",
+          "VIDEO"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "PARTY POOPER",
+        "level": 0,
+        "words": [
+          "DRAG",
+          "DRIP",
+          "BORE",
+          "DUD"
+        ]
+      },
+      {
+        "label": "MUSICAL SECTIONS",
+        "level": 1,
+        "words": [
+          "WIND",
+          "STRING",
+          "RHYTHM",
+          "BRASS"
+        ]
+      },
+      {
+        "label": "BIT OF LIQUID",
+        "level": 2,
+        "words": [
+          "DROP",
+          "TEAR",
+          "BEAD",
+          "GLOB"
+        ]
+      },
+      {
+        "label": "VEGETABLE HOMOPHONES",
+        "level": 3,
+        "words": [
+          "LEAK",
+          "BEAT",
+          "CHARRED",
+          "PEE"
+        ]
+      }
+    ]
+  }
+}

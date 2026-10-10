@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "FEMALE ANIMALS",
+        "level": 0,
+        "words": [
+          "DOE",
+          "HEN",
+          "COW",
+          "MARE"
+        ]
+      },
+      {
+        "label": "PRONOUNS",
+        "level": 1,
+        "words": [
+          "I",
+          "WE",
+          "IT",
+          "THEY"
+        ]
+      },
+      {
+        "label": "ROMAN NUMERALS",
+        "level": 2,
+        "words": [
+          "L",
+          "V",
+          "D",
+          "M"
+        ]
+      },
+      {
+        "label": "HOMOPHONES",
+        "level": 3,
+        "words": [
+          "U",
+          "YOU",
+          "EWE",
+          "YEW"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "BLUNDER",
+        "level": 0,
+        "words": [
+          "BOO-BOO",
+          "GOOF",
+          "FLUB",
+          "GAFFE"
+        ]
+      },
+      {
+        "label": "FLOWERS",
+        "level": 1,
+        "words": [
+          "DAISY",
+          "JASMINE",
+          "PETUNIA",
+          "POPPY"
+        ]
+      },
+      {
+        "label": "THINGS BEES DO",
+        "level": 2,
+        "words": [
+          "BUZZ",
+          "DANCE",
+          "STING",
+          "POLLINATE"
+        ]
+      },
+      {
+        "label": "FIRST NAMES OF YANKEES LEGENDS",
+        "level": 3,
+        "words": [
+          "BABE",
+          "MICKEY",
+          "YOGI",
+          "LOU"
+        ]
+      }
+    ]
+  }
+}

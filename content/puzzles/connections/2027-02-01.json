@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "OPEN SPACE",
+        "level": 0,
+        "words": [
+          "SQUARE",
+          "PLAZA",
+          "COURT",
+          "YARD"
+        ]
+      },
+      {
+        "label": "BOXING UNIT",
+        "level": 1,
+        "words": [
+          "MATCH",
+          "ROUND",
+          "CONTEST",
+          "BOUT"
+        ]
+      },
+      {
+        "label": "GLITZINESS",
+        "level": 2,
+        "words": [
+          "FLASH",
+          "RITZ",
+          "DAZZLE",
+          "POMP"
+        ]
+      },
+      {
+        "label": "EMOJI",
+        "level": 3,
+        "words": [
+          "HEART",
+          "FIRE",
+          "SPARKLES",
+          "SKULL"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "BOTTLED WATER BRANDS",
+        "level": 0,
+        "words": [
+          "FIJI",
+          "VOSS",
+          "DASANI",
+          "EVIAN"
+        ]
+      },
+      {
+        "label": "SLANG FOR COFFEE",
+        "level": 1,
+        "words": [
+          "MUD",
+          "JOE",
+          "BREW",
+          "JAVA"
+        ]
+      },
+      {
+        "label": "ISLAND COUNTRIES",
+        "level": 2,
+        "words": [
+          "PALAU",
+          "JAPAN",
+          "CUBA",
+          "MALTA"
+        ]
+      },
+      {
+        "label": "CEREAL MASCOTS",
+        "level": 3,
+        "words": [
+          "POP",
+          "SAM",
+          "TONY",
+          "LUCKY"
+        ]
+      }
+    ]
+  }
+}

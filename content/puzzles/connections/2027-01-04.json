@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "DELICATE",
+        "level": 0,
+        "words": [
+          "LIGHT",
+          "FAINT",
+          "SOFT",
+          "MILD"
+        ]
+      },
+      {
+        "label": "MAGNANIMOUS",
+        "level": 1,
+        "words": [
+          "GREAT",
+          "NOBLE",
+          "GRAND",
+          "LOFTY"
+        ]
+      },
+      {
+        "label": "THINGS WITH NECKS",
+        "level": 2,
+        "words": [
+          "LAMP",
+          "GIRAFFE",
+          "GUITAR",
+          "BOTTLE"
+        ]
+      },
+      {
+        "label": "FIRST NAMES IN JAZZ",
+        "level": 3,
+        "words": [
+          "DIZZY",
+          "COUNT",
+          "DUKE",
+          "CAB"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "CLEANING SUPPLIES",
+        "level": 0,
+        "words": [
+          "SPONGE",
+          "BROOM",
+          "RAG",
+          "MOP"
+        ]
+      },
+      {
+        "label": "ELEMENTS OF COOKING,  PER SAMIN NOSRAT",
+        "level": 1,
+        "words": [
+          "SALT",
+          "HEAT",
+          "FAT",
+          "ACID"
+        ]
+      },
+      {
+        "label": "THINGS THAT MAKE YOU SNEEZE",
+        "level": 2,
+        "words": [
+          "SMOKE",
+          "DUST",
+          "POLLEN",
+          "PEPPER"
+        ]
+      },
+      {
+        "label": "TITULAR FICTIONAL DETECTIVES",
+        "level": 3,
+        "words": [
+          "SHAFT",
+          "MONK",
+          "MAGNUM",
+          "TRACY"
+        ]
+      }
+    ]
+  }
+}

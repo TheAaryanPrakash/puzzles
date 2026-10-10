@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "TYPES OF RADIO",
+        "level": 0,
+        "words": [
+          "HAM",
+          "WALKIE-TALKIE",
+          "SATELLITE",
+          "AM"
+        ]
+      },
+      {
+        "label": "KINDS OF PLAY FIGHTS",
+        "level": 1,
+        "words": [
+          "SNOWBALL",
+          "PILLOW",
+          "FOOD",
+          "WATER BALLOON"
+        ]
+      },
+      {
+        "label": "SNACK CAKES",
+        "level": 2,
+        "words": [
+          "YODEL",
+          "DING DONG",
+          "DEVIL DOG",
+          "HOHO"
+        ]
+      },
+      {
+        "label": "CLASSIC JOKE STAPLES",
+        "level": 3,
+        "words": [
+          "LIGHT BULB",
+          "CHICKEN",
+          "BAR",
+          "KNOCK-KNOCK"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "DIGITAL NOTIFICATION SOUNDS",
+        "level": 0,
+        "words": [
+          "PING",
+          "CHIME",
+          "DING",
+          "RING"
+        ]
+      },
+      {
+        "label": "TATTLE",
+        "level": 1,
+        "words": [
+          "RAT",
+          "SING",
+          "SNITCH",
+          "SQUEAL"
+        ]
+      },
+      {
+        "label": "GROUP WITHIN A GROUP",
+        "level": 2,
+        "words": [
+          "CAMP",
+          "DIVISION",
+          "WING",
+          "FACTION"
+        ]
+      },
+      {
+        "label": "MICROSOFT PRODUCTS",
+        "level": 3,
+        "words": [
+          "BING",
+          "WORD",
+          "EDGE",
+          "SURFACE"
+        ]
+      }
+    ]
+  }
+}

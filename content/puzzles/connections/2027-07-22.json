@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "TABLEWARE",
+        "level": 0,
+        "words": [
+          "PLATE",
+          "DISH",
+          "SAUCER",
+          "BOWL"
+        ]
+      },
+      {
+        "label": "NONSENSE",
+        "level": 1,
+        "words": [
+          "BALONEY",
+          "CROCK",
+          "BUNK",
+          "TRIPE"
+        ]
+      },
+      {
+        "label": "BRA PARTS",
+        "level": 2,
+        "words": [
+          "HOOK",
+          "WIRE",
+          "CUP",
+          "STRAP"
+        ]
+      },
+      {
+        "label": "ACRONYMS",
+        "level": 3,
+        "words": [
+          "SPAM",
+          "RADAR",
+          "LASER",
+          "SCUBA"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "BUILDINGS AROUND TOWN",
+        "level": 0,
+        "words": [
+          "BANK",
+          "LAUNDROMAT",
+          "POST OFFICE",
+          "SUPERMARKET"
+        ]
+      },
+      {
+        "label": "HINDER",
+        "level": 1,
+        "words": [
+          "CHECK",
+          "HAMPER",
+          "CURB",
+          "INHIBIT"
+        ]
+      },
+      {
+        "label": "ANIMAL GROUP NAMES",
+        "level": 2,
+        "words": [
+          "PACK",
+          "SCHOOL",
+          "PRIDE",
+          "SWARM"
+        ]
+      },
+      {
+        "label": "STARTS OF U.S. PRESIDENTS",
+        "level": 3,
+        "words": [
+          "CART",
+          "WASHING",
+          "BIDE",
+          "NIX"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "FACIAL HAIR",
+        "level": 0,
+        "words": [
+          "BEARD",
+          "GOATEE",
+          "MUSTACHE",
+          "STUBBLE"
+        ]
+      },
+      {
+        "label": "BIKE PARTS",
+        "level": 1,
+        "words": [
+          "GEAR",
+          "HANDLEBAR",
+          "WHEEL",
+          "PEDAL"
+        ]
+      },
+      {
+        "label": "PURSUE",
+        "level": 2,
+        "words": [
+          "DOG",
+          "TRACK",
+          "TAIL",
+          "FOLLOW"
+        ]
+      },
+      {
+        "label": "THINGS THAT ARE CAST",
+        "level": 3,
+        "words": [
+          "SHADOW",
+          "VOTE",
+          "MOVIE",
+          "DOUBT"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "MOVE TO ACTION",
+        "level": 0,
+        "words": [
+          "DRIVE",
+          "PUSH",
+          "PROMPT",
+          "PROPEL"
+        ]
+      },
+      {
+        "label": "UNO CARDS",
+        "level": 1,
+        "words": [
+          "WILD",
+          "REVERSE",
+          "DRAW",
+          "SKIP"
+        ]
+      },
+      {
+        "label": "HAIL SIZE COMPARISONS",
+        "level": 2,
+        "words": [
+          "MARBLE",
+          "BASEBALL",
+          "PEA",
+          "GRAPEFRUIT"
+        ]
+      },
+      {
+        "label": "PLACES WITH BENCHES",
+        "level": 3,
+        "words": [
+          "GYM",
+          "PARK",
+          "DUGOUT",
+          "COURTROOM"
+        ]
+      }
+    ]
+  }
+}

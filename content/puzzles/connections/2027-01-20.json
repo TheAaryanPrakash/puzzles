@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "CARRY A TUNE",
+        "level": 0,
+        "words": [
+          "HUM",
+          "SING",
+          "WHISTLE",
+          "SCAT"
+        ]
+      },
+      {
+        "label": "WHOLE AMOUNT",
+        "level": 1,
+        "words": [
+          "GROSS",
+          "COUNT",
+          "SUM",
+          "TOTAL"
+        ]
+      },
+      {
+        "label": "MOJITO INGREDIENTS",
+        "level": 2,
+        "words": [
+          "SODA",
+          "MINT",
+          "LIME",
+          "RUM"
+        ]
+      },
+      {
+        "label": "THINGS THAT ARE “STICKY”",
+        "level": 3,
+        "words": [
+          "STICK",
+          "GUM",
+          "TAPE",
+          "GLUE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "AMAZON ANIMALS",
+        "level": 0,
+        "words": [
+          "JAGUAR",
+          "TOUCAN",
+          "ANACONDA",
+          "CAPYBARA"
+        ]
+      },
+      {
+        "label": "LOWEST POINT",
+        "level": 1,
+        "words": [
+          "BOTTOM",
+          "FOOT",
+          "FOUNDATION",
+          "BASE"
+        ]
+      },
+      {
+        "label": "MUSICALS",
+        "level": 2,
+        "words": [
+          "COMPANY",
+          "HAIR",
+          "GREASE",
+          "RENT"
+        ]
+      },
+      {
+        "label": "SEA ___",
+        "level": 3,
+        "words": [
+          "LEGS",
+          "LION",
+          "CUCUMBER",
+          "CHANGE"
+        ]
+      }
+    ]
+  }
+}

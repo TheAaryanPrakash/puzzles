@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "PRESUME",
+        "level": 0,
+        "words": [
+          "FIGURE",
+          "IMAGINE",
+          "SUSPECT",
+          "THINK"
+        ]
+      },
+      {
+        "label": "SOMEBODY",
+        "level": 1,
+        "words": [
+          "PERSON",
+          "INDIVIDUAL",
+          "CHARACTER",
+          "PARTY"
+        ]
+      },
+      {
+        "label": "CHARACTERS IN “THE EMPIRE STRIKES BACK,\" FAMILIARLY",
+        "level": 2,
+        "words": [
+          "SOLO",
+          "CHEWIE",
+          "BOBA",
+          "EMPEROR"
+        ]
+      },
+      {
+        "label": "WORDS AFTER “KITTY”",
+        "level": 3,
+        "words": [
+          "CAT",
+          "HAWK",
+          "CORNER",
+          "LITTER"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "CORRUPT",
+        "level": 0,
+        "words": [
+          "DIRTY",
+          "BASE",
+          "LOW",
+          "VILE"
+        ]
+      },
+      {
+        "label": "REACH OUT TO",
+        "level": 1,
+        "words": [
+          "PING",
+          "TEXT",
+          "CONTACT",
+          "MESSAGE"
+        ]
+      },
+      {
+        "label": "CLASSIC STILL LIFE COMPONENTS",
+        "level": 2,
+        "words": [
+          "FRUIT",
+          "PITCHER",
+          "TABLECLOTH",
+          "SKULL"
+        ]
+      },
+      {
+        "label": "BEER ___",
+        "level": 3,
+        "words": [
+          "PONG",
+          "GARDEN",
+          "BATTER",
+          "CAN"
+        ]
+      }
+    ]
+  }
+}

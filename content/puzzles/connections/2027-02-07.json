@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "EXPENDITURE",
+        "level": 0,
+        "words": [
+          "CHARGE",
+          "RATE",
+          "COST",
+          "PRICE"
+        ]
+      },
+      {
+        "label": "ONETIME",
+        "level": 1,
+        "words": [
+          "PAST",
+          "LATE",
+          "PRIOR",
+          "FORMER"
+        ]
+      },
+      {
+        "label": "MADE WITH HORIZONTAL LINES",
+        "level": 2,
+        "words": [
+          "DASH",
+          "UNDERSCORE",
+          "MINUS",
+          "HYPHEN"
+        ]
+      },
+      {
+        "label": "SIMPSON FAMILY MEMBERS WITH FIRST LETTER CHANGED",
+        "level": 3,
+        "words": [
+          "COMER",
+          "BARGE",
+          "BAGGIE",
+          "PISA"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "POP MEGASTARS",
+        "level": 0,
+        "words": [
+          "SWIFT",
+          "MARS",
+          "GRANDE",
+          "STYLES"
+        ]
+      },
+      {
+        "label": "METHOD",
+        "level": 1,
+        "words": [
+          "VEHICLE",
+          "MEANS",
+          "MEDIUM",
+          "CHANNEL"
+        ]
+      },
+      {
+        "label": "UNLIKELY, AS CHANCES",
+        "level": 2,
+        "words": [
+          "SMALL",
+          "OUTSIDE",
+          "SLIM",
+          "REMOTE"
+        ]
+      },
+      {
+        "label": "LIVING ___",
+        "level": 3,
+        "words": [
+          "LARGE",
+          "LEGEND",
+          "ROOM",
+          "PROOF"
+        ]
+      }
+    ]
+  }
+}

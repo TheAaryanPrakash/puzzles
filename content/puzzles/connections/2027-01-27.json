@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "GENTLE",
+        "level": 0,
+        "words": [
+          "SOFT",
+          "LIGHT",
+          "MELLOW",
+          "MILD"
+        ]
+      },
+      {
+        "label": "CUTS OF PORK",
+        "level": 1,
+        "words": [
+          "SHOULDER",
+          "CHOP",
+          "BELLY",
+          "HOCK"
+        ]
+      },
+      {
+        "label": "STATUE OF LIBERTY FEATURES",
+        "level": 2,
+        "words": [
+          "CROWN",
+          "ROBE",
+          "TORCH",
+          "TABLET"
+        ]
+      },
+      {
+        "label": "THINGS TO BLOW ON FOR WISHES/LUCK",
+        "level": 3,
+        "words": [
+          "DICE",
+          "CANDLE",
+          "EYELASH",
+          "DANDELION"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "ORDERLY",
+        "level": 0,
+        "words": [
+          "NEAT",
+          "CLEAN",
+          "TIDY",
+          "TRIM"
+        ]
+      },
+      {
+        "label": "AUGMENTATIVE PREFIXES",
+        "level": 1,
+        "words": [
+          "SUPER",
+          "UBER",
+          "HYPER",
+          "ULTRA"
+        ]
+      },
+      {
+        "label": "BECOME LARGER",
+        "level": 2,
+        "words": [
+          "BALLOON",
+          "SWELL",
+          "SNOWBALL",
+          "MUSHROOM"
+        ]
+      },
+      {
+        "label": "ITEMS IN CLASSIC KIDS’ GAMES",
+        "level": 3,
+        "words": [
+          "STICK",
+          "DOMINO",
+          "JACK",
+          "MARBLE"
+        ]
+      }
+    ]
+  }
+}

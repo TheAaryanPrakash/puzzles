@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "“SETTLE DOWN!”",
+        "level": 0,
+        "words": [
+          "QUIET",
+          "EASY",
+          "ENOUGH",
+          "RELAX"
+        ]
+      },
+      {
+        "label": "MINOR AILMENTS",
+        "level": 1,
+        "words": [
+          "COLD",
+          "BUG",
+          "COUGH",
+          "CHILL"
+        ]
+      },
+      {
+        "label": "WHAT HUMPBACK WHALES DO",
+        "level": 2,
+        "words": [
+          "BREACH",
+          "SING",
+          "DIVE",
+          "SPOUT"
+        ]
+      },
+      {
+        "label": "___ CITY NICKNAMES",
+        "level": 3,
+        "words": [
+          "MAGIC",
+          "SIN",
+          "WINDY",
+          "MOTOR"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "FOOTBALL POSITIONS",
+        "level": 0,
+        "words": [
+          "SAFETY",
+          "QUARTERBACK",
+          "GUARD",
+          "CENTER"
+        ]
+      },
+      {
+        "label": "CABLE CHANNELS",
+        "level": 1,
+        "words": [
+          "NICKELODEON",
+          "HISTORY",
+          "DISCOVERY",
+          "OXYGEN"
+        ]
+      },
+      {
+        "label": "FICTIONAL CLOWNS",
+        "level": 2,
+        "words": [
+          "PENNYWISE",
+          "HOMEY",
+          "JOKER",
+          "RONALD"
+        ]
+      },
+      {
+        "label": "WHAT “D” MIGHT STAND FOR",
+        "level": 3,
+        "words": [
+          "DRIVE",
+          "DIMENSIONAL",
+          "DEFENSE",
+          "DEMOCRAT"
+        ]
+      }
+    ]
+  }
+}

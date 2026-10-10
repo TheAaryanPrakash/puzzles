@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "SYMBOLIC RODS",
+        "level": 0,
+        "words": [
+          "STAFF",
+          "SCEPTER",
+          "WAND",
+          "BATON"
+        ]
+      },
+      {
+        "label": "DENTAL TERMS",
+        "level": 1,
+        "words": [
+          "CROWN",
+          "FILLING",
+          "CAVITY",
+          "PLAQUE"
+        ]
+      },
+      {
+        "label": "RUBBER STAMP WORDS",
+        "level": 2,
+        "words": [
+          "APPROVED",
+          "VOID",
+          "PAID",
+          "URGENT"
+        ]
+      },
+      {
+        "label": "___ YEAR",
+        "level": 3,
+        "words": [
+          "SCHOOL",
+          "GAP",
+          "LIGHT",
+          "LEAP"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "FOUND ON A STOVE TOP",
+        "level": 0,
+        "words": [
+          "PAN",
+          "KETTLE",
+          "POT",
+          "GRIDDLE"
+        ]
+      },
+      {
+        "label": "ORNAMENTAL BORDER",
+        "level": 1,
+        "words": [
+          "RUFFLE",
+          "TRIM",
+          "FRINGE",
+          "FRILL"
+        ]
+      },
+      {
+        "label": "DEPOSIT, WITH “DOWN”",
+        "level": 2,
+        "words": [
+          "LAY",
+          "SET",
+          "PLACE",
+          "PUT"
+        ]
+      },
+      {
+        "label": "WORDS THAT SOUND LIKE PLURAL LETTERS",
+        "level": 3,
+        "words": [
+          "TEASE",
+          "WISE",
+          "GEEZ",
+          "SEIZE"
+        ]
+      }
+    ]
+  }
+}

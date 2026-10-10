@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "TEACH",
+        "level": 0,
+        "words": [
+          "TRAIN",
+          "SCHOOL",
+          "COACH",
+          "GUIDE"
+        ]
+      },
+      {
+        "label": "CACHE",
+        "level": 1,
+        "words": [
+          "BANK",
+          "STORE",
+          "RESERVE",
+          "POOL"
+        ]
+      },
+      {
+        "label": "DRIVING INSTRUCTOR DIRECTIVES",
+        "level": 2,
+        "words": [
+          "PARK",
+          "SIGNAL",
+          "TURN",
+          "BRAKE"
+        ]
+      },
+      {
+        "label": "___WORM",
+        "level": 3,
+        "words": [
+          "BOOK",
+          "EARTH",
+          "INCH",
+          "GLOW"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "PLACES IN NEW YORK CITY",
+        "level": 0,
+        "words": [
+          "DUMBO",
+          "WALL STREET",
+          "CHINATOWN",
+          "MANHATTAN"
+        ]
+      },
+      {
+        "label": "RHYMING TITLES",
+        "level": 1,
+        "words": [
+          "E.T.",
+          "KILL BILL",
+          "FRIGHT NIGHT",
+          "BE KIND REWIND"
+        ]
+      },
+      {
+        "label": "ENDING IN UNITS OF MEASUREMENT",
+        "level": 2,
+        "words": [
+          "MY LEFT FOOT",
+          "THE GREEN MILE",
+          "HEDWIG AND THE ANGRY INCH",
+          "THE LONGEST YARD"
+        ]
+      },
+      {
+        "label": "STARTING WITH ANIMALS",
+        "level": 3,
+        "words": [
+          "DOGMA",
+          "BEETLEJUICE",
+          "FOXY BROWN",
+          "OCTOPUSSY"
+        ]
+      }
+    ]
+  }
+}

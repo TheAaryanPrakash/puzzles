@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "CROPS",
+        "level": 0,
+        "words": [
+          "CORN",
+          "PEPPER",
+          "TOMATO",
+          "CUCUMBER"
+        ]
+      },
+      {
+        "label": "SLANG FOR HEAD",
+        "level": 1,
+        "words": [
+          "NOODLE",
+          "CROWN",
+          "DOME",
+          "MELON"
+        ]
+      },
+      {
+        "label": "SONG",
+        "level": 2,
+        "words": [
+          "NUMBER",
+          "SINGLE",
+          "TRACK",
+          "CUT"
+        ]
+      },
+      {
+        "label": "THINGS THAT WHISTLE",
+        "level": 3,
+        "words": [
+          "KETTLE",
+          "TRAIN",
+          "BIRD",
+          "REFEREE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "DVR BUTTONS",
+        "level": 0,
+        "words": [
+          "STOP",
+          "PLAY",
+          "RECORD",
+          "PAUSE"
+        ]
+      },
+      {
+        "label": "GROUNDBREAKING",
+        "level": 1,
+        "words": [
+          "DIFFERENT",
+          "NEW",
+          "NOVEL",
+          "ORIGINAL"
+        ]
+      },
+      {
+        "label": "COMMUNICATE THROUGH WRITING",
+        "level": 2,
+        "words": [
+          "MESSAGE",
+          "TEXT",
+          "CORRESPOND",
+          "WRITE"
+        ]
+      },
+      {
+        "label": "THINGS WITH FEET",
+        "level": 3,
+        "words": [
+          "POEM",
+          "YARDSTICK",
+          "FURNITURE",
+          "BIPED"
+        ]
+      }
+    ]
+  }
+}

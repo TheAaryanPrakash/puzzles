@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "THINGS THAT ARE RED",
+        "level": 0,
+        "words": [
+          "STRAWBERRY",
+          "ROSE",
+          "MARS",
+          "DEVIL"
+        ]
+      },
+      {
+        "label": "BE IN COMMISSION",
+        "level": 1,
+        "words": [
+          "RUN",
+          "WORK",
+          "FUNCTION",
+          "OPERATE"
+        ]
+      },
+      {
+        "label": "MICROSOFT PRODUCTS",
+        "level": 2,
+        "words": [
+          "OFFICE",
+          "TEAMS",
+          "EDGE",
+          "WINDOWS"
+        ]
+      },
+      {
+        "label": "BIOPICS",
+        "level": 3,
+        "words": [
+          "MILK",
+          "BLONDE",
+          "JOBS",
+          "VICE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "NOT WORKING RELIABLY",
+        "level": 0,
+        "words": [
+          "BUGGY",
+          "ERRATIC",
+          "SPOTTY",
+          "GLITCHY"
+        ]
+      },
+      {
+        "label": "CAR PARTS",
+        "level": 1,
+        "words": [
+          "BUMPER",
+          "MIRROR",
+          "GRILLE",
+          "RIM"
+        ]
+      },
+      {
+        "label": "WHAT A SITTER MIGHT SIT",
+        "level": 2,
+        "words": [
+          "BABY",
+          "HOUSE",
+          "PLANT",
+          "PET"
+        ]
+      },
+      {
+        "label": "___ BAND",
+        "level": 3,
+        "words": [
+          "RUBBER",
+          "TRIBUTE",
+          "WEDDING",
+          "BOY"
+        ]
+      }
+    ]
+  }
+}

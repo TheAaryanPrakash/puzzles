@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "INTELLIGENCE OPERATIVE",
+        "level": 0,
+        "words": [
+          "MOLE",
+          "SLEEPER",
+          "ASSET",
+          "AGENT"
+        ]
+      },
+      {
+        "label": "UNITS IN POETRY",
+        "level": 1,
+        "words": [
+          "FOOT",
+          "VERSE",
+          "LINE",
+          "METER"
+        ]
+      },
+      {
+        "label": "EXPRESS INDIRECTLY",
+        "level": 2,
+        "words": [
+          "COUCH",
+          "INTIMATE",
+          "SUGGEST",
+          "IMPLY"
+        ]
+      },
+      {
+        "label": "WHAT “K” MIGHT MEAN",
+        "level": 3,
+        "words": [
+          "OKAY",
+          "KELVIN",
+          "THOUSAND",
+          "POTASSIUM"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "KITCHEN UTENSILS",
+        "level": 0,
+        "words": [
+          "LADLE",
+          "WHISK",
+          "GRATER",
+          "PEELER"
+        ]
+      },
+      {
+        "label": "VERTEBRATES",
+        "level": 1,
+        "words": [
+          "FISH",
+          "BIRD",
+          "REPTILE",
+          "MAMMAL"
+        ]
+      },
+      {
+        "label": "SUPER MARIO-RELATED",
+        "level": 2,
+        "words": [
+          "PRINCESS",
+          "DINOSAUR",
+          "MUSHROOM",
+          "PLUMBER"
+        ]
+      },
+      {
+        "label": "SITCOM FAMILIES",
+        "level": 3,
+        "words": [
+          "CLEAVER",
+          "PARTRIDGE",
+          "TANNER",
+          "BUNKER"
+        ]
+      }
+    ]
+  }
+}

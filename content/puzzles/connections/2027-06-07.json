@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "IGNITE",
+        "level": 0,
+        "words": [
+          "LIGHT",
+          "KINDLE",
+          "TORCH",
+          "BURN"
+        ]
+      },
+      {
+        "label": "INFORMATION",
+        "level": 1,
+        "words": [
+          "NEWS",
+          "INTEL",
+          "DATA",
+          "INFO"
+        ]
+      },
+      {
+        "label": "SMALL WOODED AREA",
+        "level": 2,
+        "words": [
+          "VALLEY",
+          "DELL",
+          "GLEN",
+          "HOLLOW"
+        ]
+      },
+      {
+        "label": "THINGS WITH CORES",
+        "level": 3,
+        "words": [
+          "COMPUTER",
+          "APPLE",
+          "PLANET",
+          "REACTOR"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "PRODUCED BY TREES",
+        "level": 0,
+        "words": [
+          "CONE",
+          "POLLEN",
+          "ACORN",
+          "SAP"
+        ]
+      },
+      {
+        "label": "CANDY STORE TREATS",
+        "level": 1,
+        "words": [
+          "GUM",
+          "CHOCOLATE",
+          "LICORICE",
+          "LOLLIPOP"
+        ]
+      },
+      {
+        "label": "TARGET OF A SCHEME",
+        "level": 2,
+        "words": [
+          "FOOL",
+          "MARK",
+          "CHUMP",
+          "SUCKER"
+        ]
+      },
+      {
+        "label": "THINGS WITH EYE(S)",
+        "level": 3,
+        "words": [
+          "POTATO",
+          "FACE",
+          "NEEDLE",
+          "HURRICANE"
+        ]
+      }
+    ]
+  }
+}

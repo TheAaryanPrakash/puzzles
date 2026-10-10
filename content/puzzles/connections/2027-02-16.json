@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "FARM TOOLS",
+        "level": 0,
+        "words": [
+          "PLOW",
+          "SICKLE",
+          "RAKE",
+          "HOE"
+        ]
+      },
+      {
+        "label": "SCHEME",
+        "level": 1,
+        "words": [
+          "PLOT",
+          "PLOY",
+          "TRICK",
+          "RUSE"
+        ]
+      },
+      {
+        "label": "MAKE HAPPY",
+        "level": 2,
+        "words": [
+          "TICKLE",
+          "AMUSE",
+          "PLEASE",
+          "DELIGHT"
+        ]
+      },
+      {
+        "label": "ONOMATOPOEIA",
+        "level": 3,
+        "words": [
+          "PLOP",
+          "BANG",
+          "SPLASH",
+          "THUD"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "EXITED",
+        "level": 0,
+        "words": [
+          "DEPARTED",
+          "LEFT",
+          "SPLIT",
+          "WENT"
+        ]
+      },
+      {
+        "label": "ONE FLYING AN AIRPLANE",
+        "level": 1,
+        "words": [
+          "AVIATOR",
+          "ACE",
+          "FLIER",
+          "PILOT"
+        ]
+      },
+      {
+        "label": "KINDS OF WHALES",
+        "level": 2,
+        "words": [
+          "BLUE",
+          "GRAY",
+          "RIGHT",
+          "FIN"
+        ]
+      },
+      {
+        "label": "THINGS WITH SLOTS",
+        "level": 3,
+        "words": [
+          "CASINO",
+          "SPATULA",
+          "ATM",
+          "SCHEDULE"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "DECLINE",
+        "level": 0,
+        "words": [
+          "FLAG",
+          "FADE",
+          "EBB",
+          "WANE"
+        ]
+      },
+      {
+        "label": "ABSOLUTE",
+        "level": 1,
+        "words": [
+          "PURE",
+          "UTTER",
+          "SHEER",
+          "TOTAL"
+        ]
+      },
+      {
+        "label": "EXPRESS",
+        "level": 2,
+        "words": [
+          "STATE",
+          "AIR",
+          "SPEAK",
+          "VOICE"
+        ]
+      },
+      {
+        "label": "SUPERHERO LAST NAMES",
+        "level": 3,
+        "words": [
+          "PRINCE",
+          "BANNER",
+          "STARK",
+          "WAYNE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "ORIGIN",
+        "level": 0,
+        "words": [
+          "SOURCE",
+          "GERM",
+          "GENESIS",
+          "SEED"
+        ]
+      },
+      {
+        "label": "BIBLE BOOKS",
+        "level": 1,
+        "words": [
+          "JOB",
+          "ACTS",
+          "MARK",
+          "KINGS"
+        ]
+      },
+      {
+        "label": "N.H.L. TEAMS",
+        "level": 2,
+        "words": [
+          "WILD",
+          "STARS",
+          "KRAKEN",
+          "FLAMES"
+        ]
+      },
+      {
+        "label": "POWER ___",
+        "level": 3,
+        "words": [
+          "NAP",
+          "PLANT",
+          "RANGER",
+          "TRIP"
+        ]
+      }
+    ]
+  }
+}

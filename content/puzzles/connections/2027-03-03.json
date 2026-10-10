@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "JUMPING ANIMALS",
+        "level": 0,
+        "words": [
+          "CRICKET",
+          "FROG",
+          "KANGAROO",
+          "HARE"
+        ]
+      },
+      {
+        "label": "APPLY PRESSURE TO",
+        "level": 1,
+        "words": [
+          "SQUASH",
+          "PRESS",
+          "CRUSH",
+          "MASH"
+        ]
+      },
+      {
+        "label": "OLYMPIC SPORTS",
+        "level": 2,
+        "words": [
+          "HOCKEY",
+          "BREAKING",
+          "SKELETON",
+          "TRAMPOLINE"
+        ]
+      },
+      {
+        "label": "THINGS YOU CAN SET",
+        "level": 3,
+        "words": [
+          "VOLLEYBALL",
+          "TABLE",
+          "RECORD",
+          "MOOD"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "ANIMAL GROUPS",
+        "level": 0,
+        "words": [
+          "SCHOOL",
+          "PRIDE",
+          "COLONY",
+          "HERD"
+        ]
+      },
+      {
+        "label": "SMALL OPENING",
+        "level": 1,
+        "words": [
+          "CRANNY",
+          "NOOK",
+          "RECESS",
+          "NICHE"
+        ]
+      },
+      {
+        "label": "PARADIGMATIC",
+        "level": 2,
+        "words": [
+          "MODEL",
+          "TEXTBOOK",
+          "CLASSIC",
+          "DEFINITIVE"
+        ]
+      },
+      {
+        "label": "RHYMING COMPOUND WORDS",
+        "level": 3,
+        "words": [
+          "DOWNTOWN",
+          "RAGTAG",
+          "BIGWIG",
+          "BACKPACK"
+        ]
+      }
+    ]
+  }
+}

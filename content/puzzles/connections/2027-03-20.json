@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "CONCEAL",
+        "level": 0,
+        "words": [
+          "MASK",
+          "BLOCK",
+          "HIDE",
+          "COVER"
+        ]
+      },
+      {
+        "label": "PARTS OF A WATCH",
+        "level": 1,
+        "words": [
+          "CROWN",
+          "DIAL",
+          "HAND",
+          "STRAP"
+        ]
+      },
+      {
+        "label": "WONDER WOMAN’S COSTUME",
+        "level": 2,
+        "words": [
+          "SWORD",
+          "TIARA",
+          "LASSO",
+          "SHIELD"
+        ]
+      },
+      {
+        "label": "THINGS THAT CAN RUN",
+        "level": 3,
+        "words": [
+          "NOSE",
+          "FAUCET",
+          "MASCARA",
+          "CANDIDATE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "PESTERS",
+        "level": 0,
+        "words": [
+          "BUGS",
+          "HOUNDS",
+          "BADGERS",
+          "NAGS"
+        ]
+      },
+      {
+        "label": "TONY WINNERS FOR BEST MUSICAL",
+        "level": 1,
+        "words": [
+          "COMPANY",
+          "CATS",
+          "CABARET",
+          "ANNIE"
+        ]
+      },
+      {
+        "label": "THEY HAVE KEYS",
+        "level": 2,
+        "words": [
+          "SUPER",
+          "COMPUTER",
+          "PIANO",
+          "TESTS"
+        ]
+      },
+      {
+        "label": "SCHOOL OF ___",
+        "level": 3,
+        "words": [
+          "FISH",
+          "HARD KNOCKS",
+          "ROCK",
+          "THOUGHT"
+        ]
+      }
+    ]
+  }
+}

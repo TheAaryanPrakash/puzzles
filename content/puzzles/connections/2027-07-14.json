@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "HEARTWARMING",
+        "level": 0,
+        "words": [
+          "MOVING",
+          "TENDER",
+          "TOUCHING",
+          "SWEET"
+        ]
+      },
+      {
+        "label": "SNEAKING SUSPICION",
+        "level": 1,
+        "words": [
+          "SENSE",
+          "FEELING",
+          "HUNCH",
+          "IMPRESSION"
+        ]
+      },
+      {
+        "label": "LEGAL SESSION",
+        "level": 2,
+        "words": [
+          "HEARING",
+          "PROCEEDING",
+          "INQUIRY",
+          "TRIAL"
+        ]
+      },
+      {
+        "label": "EASY ___",
+        "level": 3,
+        "words": [
+          "STREET",
+          "MONEY",
+          "LISTENING",
+          "CHAIR"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "DANCE STYLES",
+        "level": 0,
+        "words": [
+          "MODERN",
+          "SWING",
+          "TAP",
+          "JAZZ"
+        ]
+      },
+      {
+        "label": "STEAL",
+        "level": 1,
+        "words": [
+          "PALM",
+          "POCKET",
+          "SWIPE",
+          "LIFT"
+        ]
+      },
+      {
+        "label": "PERFORM WELL ON",
+        "level": 2,
+        "words": [
+          "ROCK",
+          "NAIL",
+          "ACE",
+          "CRUSH"
+        ]
+      },
+      {
+        "label": "___BALL PITCHES",
+        "level": 3,
+        "words": [
+          "FAST",
+          "SCREW",
+          "KNUCKLE",
+          "CURVE"
+        ]
+      }
+    ]
+  }
+}

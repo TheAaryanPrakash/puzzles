@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "VOCAL MUSIC",
+        "level": 0,
+        "words": [
+          "BARBERSHOP",
+          "A CAPPELLA",
+          "DOO-WOP",
+          "MADRIGAL"
+        ]
+      },
+      {
+        "label": "A HANDFUL OF",
+        "level": 1,
+        "words": [
+          "A FEW",
+          "CERTAIN",
+          "VARIOUS",
+          "SOME"
+        ]
+      },
+      {
+        "label": "BOOK SUBTITLES",
+        "level": 2,
+        "words": [
+          "ESSAYS",
+          "A LIFE",
+          "PART ONE",
+          "A NOVEL"
+        ]
+      },
+      {
+        "label": "___ IS ___ (IS ___)",
+        "level": 3,
+        "words": [
+          "LOVE",
+          "A ROSE",
+          "ENOUGH",
+          "A DEAL"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "STATE ABBREVIATIONS",
+        "level": 0,
+        "words": [
+          "MA",
+          "LA",
+          "OK",
+          "HI"
+        ]
+      },
+      {
+        "label": "CABLE CHANNELS",
+        "level": 1,
+        "words": [
+          "BET",
+          "USA",
+          "E",
+          "HALLMARK"
+        ]
+      },
+      {
+        "label": "IN THE NATO ALPHABET",
+        "level": 2,
+        "words": [
+          "ALFA",
+          "TANGO",
+          "BRAVO",
+          "ROMEO"
+        ]
+      },
+      {
+        "label": "___-___",
+        "level": 3,
+        "words": [
+          "POM",
+          "YO",
+          "BOO",
+          "TOM"
+        ]
+      }
+    ]
+  }
+}

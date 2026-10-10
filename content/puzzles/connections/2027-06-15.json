@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "PIECES OF FURNITURE",
+        "level": 0,
+        "words": [
+          "CHAIR",
+          "BED",
+          "TABLE",
+          "COUCH"
+        ]
+      },
+      {
+        "label": "CARRY, AS A FEELING",
+        "level": 1,
+        "words": [
+          "BEAR",
+          "HARBOR",
+          "MAINTAIN",
+          "HOLD"
+        ]
+      },
+      {
+        "label": "WINE TASTING DESCRIPTORS",
+        "level": 2,
+        "words": [
+          "SWEET",
+          "DRY",
+          "BALANCED",
+          "FULL"
+        ]
+      },
+      {
+        "label": "STARTING WITH METALS",
+        "level": 3,
+        "words": [
+          "TINDER",
+          "GOLDILOCKS",
+          "LEADERSHIP",
+          "IRONIC"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "IN PRISTINE CONDITION",
+        "level": 0,
+        "words": [
+          "NEW",
+          "ORIGINAL",
+          "MINT",
+          "UNUSED"
+        ]
+      },
+      {
+        "label": "MEDICAL ROLES",
+        "level": 1,
+        "words": [
+          "FELLOW",
+          "ATTENDING",
+          "RESIDENT",
+          "INTERN"
+        ]
+      },
+      {
+        "label": "SINGULAR NOUN IN A FAMOUS “JULIUS CAESAR” LINE",
+        "level": 2,
+        "words": [
+          "ROMAN",
+          "EAR",
+          "FRIEND",
+          "COUNTRYMAN"
+        ]
+      },
+      {
+        "label": "___ SQUARE",
+        "level": 3,
+        "words": [
+          "TIMES",
+          "TOWN",
+          "POCKET",
+          "PERFECT"
+        ]
+      }
+    ]
+  }
+}

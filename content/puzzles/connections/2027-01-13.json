@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "DELIBERATION",
+        "level": 0,
+        "words": [
+          "CONSIDERATION",
+          "REFLECTION",
+          "THOUGHT",
+          "SCRUTINY"
+        ]
+      },
+      {
+        "label": "USED IN STARTING A FIRE",
+        "level": 1,
+        "words": [
+          "LIGHTER",
+          "MAGNIFYING GLASS",
+          "MATCHES",
+          "FLINT"
+        ]
+      },
+      {
+        "label": "USED TO VIEW A BIOLOGICAL SAMPLE",
+        "level": 2,
+        "words": [
+          "STAIN",
+          "MICROSCOPE",
+          "SLIDE",
+          "SPECIMEN"
+        ]
+      },
+      {
+        "label": "WORDS AFTER “X”",
+        "level": 3,
+        "words": [
+          "RAY",
+          "FACTOR",
+          "GAMES",
+          "FILES"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "NEVERTHELESS",
+        "level": 0,
+        "words": [
+          "YET",
+          "STILL",
+          "HOWEVER",
+          "THOUGH"
+        ]
+      },
+      {
+        "label": "REPEATED WORDS IN EXPRESSIONS",
+        "level": 1,
+        "words": [
+          "THERE",
+          "TUT",
+          "KNOCK",
+          "HEAR"
+        ]
+      },
+      {
+        "label": "WORDS ABBREVIATED WITH LETTERS",
+        "level": 2,
+        "words": [
+          "ARE",
+          "YOU",
+          "SEE",
+          "WHY"
+        ]
+      },
+      {
+        "label": "ROYAL ___",
+        "level": 3,
+        "words": [
+          "WE",
+          "JELLY",
+          "FAMILY",
+          "FLUSH"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "EXPLOSIVE SOUND",
+        "level": 0,
+        "words": [
+          "THUNDER",
+          "ROAR",
+          "BOOM",
+          "CRASH"
+        ]
+      },
+      {
+        "label": "CHILI PEPPER QUALITY",
+        "level": 1,
+        "words": [
+          "KICK",
+          "HEAT",
+          "FIRE",
+          "SPICE"
+        ]
+      },
+      {
+        "label": "CLASSIC BARBERSHOP SUPPLIES",
+        "level": 2,
+        "words": [
+          "BRUSH",
+          "GEL",
+          "CLIPPERS",
+          "CAPE"
+        ]
+      },
+      {
+        "label": "KINDS OF CARDS",
+        "level": 3,
+        "words": [
+          "SET",
+          "MAGIC",
+          "TAROT",
+          "BASEBALL"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "DIVULGE, AS PRIVATE INFORMATION",
+        "level": 0,
+        "words": [
+          "TALK",
+          "DISH",
+          "TELL",
+          "SPILL"
+        ]
+      },
+      {
+        "label": "DIVIDE",
+        "level": 1,
+        "words": [
+          "FORK",
+          "PART",
+          "SPLIT",
+          "BRANCH"
+        ]
+      },
+      {
+        "label": "SILENT “K”",
+        "level": 2,
+        "words": [
+          "UNKNOWN",
+          "DOORKNOB",
+          "KNIFE",
+          "TOPKNOT"
+        ]
+      },
+      {
+        "label": "KEY TO SUCCESS, SO TO SPEAK",
+        "level": 3,
+        "words": [
+          "FORMULA",
+          "RECIPE",
+          "SECRET",
+          "TICKET"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "PERCEIVE",
+        "level": 0,
+        "words": [
+          "CLOCK",
+          "REGISTER",
+          "CATCH",
+          "NOTICE"
+        ]
+      },
+      {
+        "label": "CADENCE",
+        "level": 1,
+        "words": [
+          "TIME",
+          "BEAT",
+          "METER",
+          "RHYTHM"
+        ]
+      },
+      {
+        "label": "ONE IN A GROUP OF TWELVE",
+        "level": 2,
+        "words": [
+          "DONUT",
+          "MONTH",
+          "INCH",
+          "JUROR"
+        ]
+      },
+      {
+        "label": "DOG ___",
+        "level": 3,
+        "words": [
+          "PADDLE",
+          "TIRED",
+          "TAG",
+          "DAYS"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "STREAMING SERVICES",
+        "level": 0,
+        "words": [
+          "PRIME",
+          "PEACOCK",
+          "HULU",
+          "NETFLIX"
+        ]
+      },
+      {
+        "label": "CONDIMENTS",
+        "level": 1,
+        "words": [
+          "TARTAR",
+          "RELISH",
+          "KETCHUP",
+          "MAYO"
+        ]
+      },
+      {
+        "label": "SYNONYMS FOR SAD",
+        "level": 2,
+        "words": [
+          "BLUE",
+          "GLUM",
+          "DOWN",
+          "LOW"
+        ]
+      },
+      {
+        "label": "CLUE CHARACTERS",
+        "level": 3,
+        "words": [
+          "MUSTARD",
+          "PLUM",
+          "GREEN",
+          "SCARLET"
+        ]
+      }
+    ]
+  }
+}

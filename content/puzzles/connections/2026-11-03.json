@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "RIP OFF",
+        "level": 0,
+        "words": [
+          "HOSE",
+          "FLEECE",
+          "STIFF",
+          "ROB"
+        ]
+      },
+      {
+        "label": "THINGS MADE OF WAX",
+        "level": 1,
+        "words": [
+          "CANDLE",
+          "CRAYON",
+          "SEAL",
+          "HONEYCOMB"
+        ]
+      },
+      {
+        "label": "PARTS OF AN AIRPLANE",
+        "level": 2,
+        "words": [
+          "WING",
+          "CABIN",
+          "NOSE",
+          "ENGINE"
+        ]
+      },
+      {
+        "label": "UNITS OF VEGETABLES",
+        "level": 3,
+        "words": [
+          "HEAD",
+          "BULB",
+          "EAR",
+          "STALK"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "THINGS THAT PREVENT LEAKS",
+        "level": 0,
+        "words": [
+          "CAP",
+          "SEAL",
+          "COVER",
+          "PLUG"
+        ]
+      },
+      {
+        "label": "KINDS OF HATS",
+        "level": 1,
+        "words": [
+          "BERET",
+          "DERBY",
+          "PILLBOX",
+          "SNAPBACK"
+        ]
+      },
+      {
+        "label": "COLLEGE FOOTBALL TEAM MEMBERS",
+        "level": 2,
+        "words": [
+          "GATOR",
+          "WOLVERINE",
+          "VOLUNTEER",
+          "SOONER"
+        ]
+      },
+      {
+        "label": "GO ___",
+        "level": 3,
+        "words": [
+          "ROGUE",
+          "COMMANDO",
+          "FIGURE",
+          "BANANAS"
+        ]
+      }
+    ]
+  }
+}

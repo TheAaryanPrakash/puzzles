@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "SECTION",
+        "level": 0,
+        "words": [
+          "RANK",
+          "CLASS",
+          "DIVISION",
+          "TIER"
+        ]
+      },
+      {
+        "label": "INCLUDING",
+        "level": 1,
+        "words": [
+          "AND",
+          "PLUS",
+          "WITH",
+          "ALSO"
+        ]
+      },
+      {
+        "label": "DOG BREEDS, INFORMALLY",
+        "level": 2,
+        "words": [
+          "GOLDEN",
+          "PIT",
+          "BOSTON",
+          "LAB"
+        ]
+      },
+      {
+        "label": "FAMOUS POEMS",
+        "level": 3,
+        "words": [
+          "HOWL",
+          "IF",
+          "HARLEM",
+          "DADDY"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "HOW FAST SOMETHING IS GOING",
+        "level": 0,
+        "words": [
+          "PACE",
+          "SPEED",
+          "RATE",
+          "CLIP"
+        ]
+      },
+      {
+        "label": "\"STEP ON IT!\"",
+        "level": 1,
+        "words": [
+          "MOVE",
+          "FASTER",
+          "GO",
+          "HURRY"
+        ]
+      },
+      {
+        "label": "N.B.A. TEAM PLAYER",
+        "level": 2,
+        "words": [
+          "CLIPPER",
+          "ROCKET",
+          "SPUR",
+          "PACER"
+        ]
+      },
+      {
+        "label": "TELE___",
+        "level": 3,
+        "words": [
+          "MEDICINE",
+          "PROMPTER",
+          "COMMUTE",
+          "VISION"
+        ]
+      }
+    ]
+  }
+}

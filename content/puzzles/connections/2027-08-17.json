@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "INCREASE",
+        "level": 0,
+        "words": [
+          "GROW",
+          "SWELL",
+          "MOUNT",
+          "BUILD"
+        ]
+      },
+      {
+        "label": "EXCELLENT, IN OLD SLANG",
+        "level": 1,
+        "words": [
+          "ACES",
+          "NEATO",
+          "NIFTY",
+          "KEEN"
+        ]
+      },
+      {
+        "label": "FINE BUBBLES",
+        "level": 2,
+        "words": [
+          "HEAD",
+          "LATHER",
+          "FOAM",
+          "FROTH"
+        ]
+      },
+      {
+        "label": "SPHERICAL THINGS",
+        "level": 3,
+        "words": [
+          "GLOBE",
+          "BUBBLE",
+          "MARBLE",
+          "PEARL"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "HEARSAY",
+        "level": 0,
+        "words": [
+          "TALK",
+          "WHISPERS",
+          "SPECULATION",
+          "RUMBLING"
+        ]
+      },
+      {
+        "label": "MOVE STEALTHILY",
+        "level": 1,
+        "words": [
+          "SLIP",
+          "STEAL",
+          "TIPTOE",
+          "CREEP"
+        ]
+      },
+      {
+        "label": "CAR RENTAL COMPANIES",
+        "level": 2,
+        "words": [
+          "NATIONAL",
+          "BUDGET",
+          "ENTERPRISE",
+          "THRIFTY"
+        ]
+      },
+      {
+        "label": "ENDING WITH CHEMICAL ELEMENTS",
+        "level": 3,
+        "words": [
+          "LATIN",
+          "JARGON",
+          "ENVIRON",
+          "PLEAD"
+        ]
+      }
+    ]
+  }
+}

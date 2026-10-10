@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "MOVIE TITLE CITIES",
+        "level": 0,
+        "words": [
+          "CHICAGO",
+          "PHILADELPHIA",
+          "RIO",
+          "MUNICH"
+        ]
+      },
+      {
+        "label": "FASHION MAGAZINES",
+        "level": 1,
+        "words": [
+          "W",
+          "GLAMOUR",
+          "ALLURE",
+          "ELLE"
+        ]
+      },
+      {
+        "label": "STORMS",
+        "level": 2,
+        "words": [
+          "CYCLONE",
+          "TORNADO",
+          "SQUALL",
+          "BLIZZARD"
+        ]
+      },
+      {
+        "label": "COCKTAILS",
+        "level": 3,
+        "words": [
+          "HURRICANE",
+          "MANHATTAN",
+          "COSMOPOLITAN",
+          "SCREWDRIVER"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "FEELING SOME TYPE OF WAY",
+        "level": 0,
+        "words": [
+          "SALTY",
+          "BITTER",
+          "UPSET",
+          "SORE"
+        ]
+      },
+      {
+        "label": "THROW HERE AND THERE",
+        "level": 1,
+        "words": [
+          "PEPPER",
+          "SPRINKLE",
+          "SCATTER",
+          "STREW"
+        ]
+      },
+      {
+        "label": "THINGS WITH LAYERS",
+        "level": 2,
+        "words": [
+          "CAKE",
+          "ONION",
+          "EARTH",
+          "PLYWOOD"
+        ]
+      },
+      {
+        "label": "___ POTATO",
+        "level": 3,
+        "words": [
+          "BAKED",
+          "SWEET",
+          "COUCH",
+          "HOT"
+        ]
+      }
+    ]
+  }
+}

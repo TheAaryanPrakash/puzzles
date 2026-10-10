@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "TURN TAIL",
+        "level": 0,
+        "words": [
+          "RETREAT",
+          "LEAVE",
+          "FLEE",
+          "WITHDRAW"
+        ]
+      },
+      {
+        "label": "THINGS CATS DO",
+        "level": 1,
+        "words": [
+          "SHED",
+          "SCRATCH",
+          "KNEAD",
+          "PURR"
+        ]
+      },
+      {
+        "label": "PAGES ON A WEBSITE",
+        "level": 2,
+        "words": [
+          "ABOUT",
+          "LOGIN",
+          "HOME",
+          "CONTACT"
+        ]
+      },
+      {
+        "label": "___ CHEESE",
+        "level": 3,
+        "words": [
+          "CREAM",
+          "COTTAGE",
+          "GOAT",
+          "STRING"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "EXERCISES",
+        "level": 0,
+        "words": [
+          "BRIDGE",
+          "CRUNCH",
+          "SQUAT",
+          "DIP"
+        ]
+      },
+      {
+        "label": "FEATURED IN WESTERNS",
+        "level": 1,
+        "words": [
+          "COWBOY",
+          "BOUNTY",
+          "DUEL",
+          "SALOON"
+        ]
+      },
+      {
+        "label": "LEADERS WHO RECEIVED THE NOBEL PEACE PRIZE",
+        "level": 2,
+        "words": [
+          "CARTER",
+          "KING",
+          "TUTU",
+          "GORE"
+        ]
+      },
+      {
+        "label": "___ BEE",
+        "level": 3,
+        "words": [
+          "QUEEN",
+          "HONEY",
+          "BUSY",
+          "SPELLING"
+        ]
+      }
+    ]
+  }
+}

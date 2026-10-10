@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "CONTACT VIA TELEPHONE",
+        "level": 0,
+        "words": [
+          "RING",
+          "PHONE",
+          "DIAL",
+          "CALL"
+        ]
+      },
+      {
+        "label": "PARTS OF A CAR",
+        "level": 1,
+        "words": [
+          "WHEEL",
+          "HORN",
+          "BELT",
+          "MIRROR"
+        ]
+      },
+      {
+        "label": "LEVELS OF BIOLOGICAL ORGANIZATION",
+        "level": 2,
+        "words": [
+          "TISSUE",
+          "ORGAN",
+          "CELL",
+          "ATOM"
+        ]
+      },
+      {
+        "label": "ENDING WITH UNITS OF MEASURE",
+        "level": 3,
+        "words": [
+          "BIGFOOT",
+          "THERMOMETER",
+          "INSTAGRAM",
+          "COMPOUND"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "COMFY SHOES",
+        "level": 0,
+        "words": [
+          "CROC",
+          "MOCCASIN",
+          "SLIPPER",
+          "LOAFER"
+        ]
+      },
+      {
+        "label": "THINGS MADE WITH FEATHERS",
+        "level": 1,
+        "words": [
+          "PILLOW",
+          "SHUTTLECOCK",
+          "BOA",
+          "HEADDRESS"
+        ]
+      },
+      {
+        "label": "PROGRAMMING LANGUAGES",
+        "level": 2,
+        "words": [
+          "RUBY",
+          "PYTHON",
+          "BASIC",
+          "JAVA"
+        ]
+      },
+      {
+        "label": "THINGS THAT CAN STRIKE",
+        "level": 3,
+        "words": [
+          "COBRA",
+          "LIGHTNING",
+          "INSPIRATION",
+          "UNION"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "BODY PARTS IN “HEAD, SHOULDERS, KNEES AND TOES”",
+        "level": 0,
+        "words": [
+          "KNEES",
+          "SHOULDERS",
+          "HEAD",
+          "TOES"
+        ]
+      },
+      {
+        "label": "CAR, INFORMALLY",
+        "level": 1,
+        "words": [
+          "WHEELS",
+          "RIDE",
+          "WHIP",
+          "AUTO"
+        ]
+      },
+      {
+        "label": "REMOVES THE COVERING OF",
+        "level": 2,
+        "words": [
+          "PEELS",
+          "SHELLS",
+          "SHUCKS",
+          "PARES"
+        ]
+      },
+      {
+        "label": "“BUZZY” THINGS",
+        "level": 3,
+        "words": [
+          "BEES",
+          "GOSSIP",
+          "CAFFEINE",
+          "INTERCOMS"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "COMMERCIAL ORGANIZATION",
+        "level": 0,
+        "words": [
+          "AGENCY",
+          "FIRM",
+          "COMPANY",
+          "ENTERPRISE"
+        ]
+      },
+      {
+        "label": "FARM FIXTURES",
+        "level": 1,
+        "words": [
+          "PEN",
+          "STABLE",
+          "COOP",
+          "STY"
+        ]
+      },
+      {
+        "label": "CLASSIC DOG NAMES",
+        "level": 2,
+        "words": [
+          "SPOT",
+          "REX",
+          "ROVER",
+          "FLUFFY"
+        ]
+      },
+      {
+        "label": "COLORS MINUS THEIR FIRST LETTERS",
+        "level": 3,
+        "words": [
+          "INK",
+          "OLD",
+          "LACK",
+          "RANGE"
+        ]
+      }
+    ]
+  }
+}

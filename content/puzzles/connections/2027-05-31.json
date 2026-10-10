@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "SENSES",
+        "level": 0,
+        "words": [
+          "TASTE",
+          "TOUCH",
+          "SIGHT",
+          "SMELL"
+        ]
+      },
+      {
+        "label": "APPEARANCE",
+        "level": 1,
+        "words": [
+          "LOOK",
+          "STYLE",
+          "DRESS",
+          "MANNER"
+        ]
+      },
+      {
+        "label": "“AGREE!”",
+        "level": 2,
+        "words": [
+          "SAME",
+          "SECOND",
+          "DITTO",
+          "LIKEWISE"
+        ]
+      },
+      {
+        "label": "___ MOON",
+        "level": 3,
+        "words": [
+          "NEW",
+          "SAILOR",
+          "HARVEST",
+          "BLUE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "HALLOWEEN SYMBOLS",
+        "level": 0,
+        "words": [
+          "SPIDER",
+          "BAT",
+          "PUMPKIN",
+          "WITCH"
+        ]
+      },
+      {
+        "label": "PROHIBIT",
+        "level": 1,
+        "words": [
+          "BLOCK",
+          "BAN",
+          "FORBID",
+          "DENY"
+        ]
+      },
+      {
+        "label": "FOUND ON SHEET MUSIC",
+        "level": 2,
+        "words": [
+          "ACCIDENTAL",
+          "STAFF",
+          "NOTE",
+          "REST"
+        ]
+      },
+      {
+        "label": "CANDY ___",
+        "level": 3,
+        "words": [
+          "CANE",
+          "BAR",
+          "APPLE",
+          "CORN"
+        ]
+      }
+    ]
+  }
+}

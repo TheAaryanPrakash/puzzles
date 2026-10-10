@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "STADIUMS",
+        "level": 0,
+        "words": [
+          "DOME",
+          "BOWL",
+          "COLISEUM",
+          "ARENA"
+        ]
+      },
+      {
+        "label": "STREET SUFFIXES",
+        "level": 1,
+        "words": [
+          "ALLEY",
+          "COURT",
+          "LANE",
+          "DRIVE"
+        ]
+      },
+      {
+        "label": "ASSOCIATED WITH SCALES",
+        "level": 2,
+        "words": [
+          "FISH",
+          "JUSTICE",
+          "SOLFEGE",
+          "LIBRA"
+        ]
+      },
+      {
+        "label": "THINGS WITH SPOUTS",
+        "level": 3,
+        "words": [
+          "GUTTER",
+          "WHALE",
+          "TEAPOT",
+          "FOUNTAIN"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "PARTS OF A FOOT",
+        "level": 0,
+        "words": [
+          "SOLE",
+          "BALL",
+          "ARCH",
+          "HEEL"
+        ]
+      },
+      {
+        "label": "ONE DOLLAR",
+        "level": 1,
+        "words": [
+          "SINGLE",
+          "CLAM",
+          "BUCK",
+          "SMACKER"
+        ]
+      },
+      {
+        "label": "KINDS OF MUSHROOMS",
+        "level": 2,
+        "words": [
+          "BUTTON",
+          "OYSTER",
+          "TRUMPET",
+          "MOREL"
+        ]
+      },
+      {
+        "label": "POT___",
+        "level": 3,
+        "words": [
+          "STICKER",
+          "BELLY",
+          "HOLE",
+          "LUCK"
+        ]
+      }
+    ]
+  }
+}

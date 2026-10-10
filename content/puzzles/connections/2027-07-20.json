@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "CONCOCTION",
+        "level": 0,
+        "words": [
+          "COCKTAIL",
+          "SOLUTION",
+          "COMPOUND",
+          "MIXTURE"
+        ]
+      },
+      {
+        "label": "TYPES OF SENTENCES",
+        "level": 1,
+        "words": [
+          "QUESTION",
+          "STATEMENT",
+          "COMMAND",
+          "EXCLAMATION"
+        ]
+      },
+      {
+        "label": "KINDS OF BROS",
+        "level": 2,
+        "words": [
+          "FINANCE",
+          "TECH",
+          "CRYPTO",
+          "PHARMA"
+        ]
+      },
+      {
+        "label": "COMPLAINT HOMOPHONES",
+        "level": 3,
+        "words": [
+          "WHALE",
+          "GROWN",
+          "WINE",
+          "MOWN"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "APPRECIATION",
+        "level": 0,
+        "words": [
+          "THANKS",
+          "PRAISE",
+          "CREDIT",
+          "RECOGNITION"
+        ]
+      },
+      {
+        "label": "FRAUDSTER",
+        "level": 1,
+        "words": [
+          "QUACK",
+          "CON",
+          "CHEAT",
+          "FAKE"
+        ]
+      },
+      {
+        "label": "EAT VORACIOUSLY",
+        "level": 2,
+        "words": [
+          "GOBBLE",
+          "BOLT",
+          "DOWN",
+          "SCARF"
+        ]
+      },
+      {
+        "label": "___ TUESDAY",
+        "level": 3,
+        "words": [
+          "GIVING",
+          "FAT",
+          "TACO",
+          "SUPER"
+        ]
+      }
+    ]
+  }
+}

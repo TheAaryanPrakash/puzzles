@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "TIME OFF",
+        "level": 0,
+        "words": [
+          "LEAVE",
+          "BREAK",
+          "HOLIDAY",
+          "RECESS"
+        ]
+      },
+      {
+        "label": "FEATURES OF A BELT",
+        "level": 1,
+        "words": [
+          "BUCKLE",
+          "LOOP",
+          "HOLE",
+          "STRAP"
+        ]
+      },
+      {
+        "label": "HOMOPHONES",
+        "level": 2,
+        "words": [
+          "HOLI",
+          "HOLY",
+          "HOLEY",
+          "WHOLLY"
+        ]
+      },
+      {
+        "label": "___WOOD",
+        "level": 3,
+        "words": [
+          "DRIFT",
+          "SANDAL",
+          "HOLLY",
+          "DOG"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "AIRLINES",
+        "level": 0,
+        "words": [
+          "FRONTIER",
+          "SPIRIT",
+          "VIRGIN",
+          "UNITED"
+        ]
+      },
+      {
+        "label": "GREEK LETTERS",
+        "level": 1,
+        "words": [
+          "IOTA",
+          "DELTA",
+          "CHI",
+          "BETA"
+        ]
+      },
+      {
+        "label": "SILENT “G”",
+        "level": 2,
+        "words": [
+          "GNOME",
+          "GNOCCHI",
+          "GNAW",
+          "GNAT"
+        ]
+      },
+      {
+        "label": "HOMOPHONES",
+        "level": 3,
+        "words": [
+          "KNEW",
+          "NEW",
+          "NU",
+          "GNU"
+        ]
+      }
+    ]
+  }
+}

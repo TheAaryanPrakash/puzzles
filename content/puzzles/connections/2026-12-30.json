@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "INVENT AS YOU GO",
+        "level": 0,
+        "words": [
+          "FREESTYLE",
+          "MAKE UP",
+          "AD-LIB",
+          "IMPROV"
+        ]
+      },
+      {
+        "label": "THINGS BABIES DO",
+        "level": 1,
+        "words": [
+          "CRAWL",
+          "BABBLE",
+          "COO",
+          "NURSE"
+        ]
+      },
+      {
+        "label": "SUPERFICIAL",
+        "level": 2,
+        "words": [
+          "SURFACE",
+          "COSMETIC",
+          "EXTERNAL",
+          "SHALLOW"
+        ]
+      },
+      {
+        "label": "___ EFFECT",
+        "level": 3,
+        "words": [
+          "SIDE",
+          "BUTTERFLY",
+          "DOMINO",
+          "PLACEBO"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "TOPIC OF DISCUSSION",
+        "level": 0,
+        "words": [
+          "POINT",
+          "SUBJECT",
+          "MATTER",
+          "ISSUE"
+        ]
+      },
+      {
+        "label": "SECTION OF ONE’S LIFE",
+        "level": 1,
+        "words": [
+          "STAGE",
+          "PERIOD",
+          "CHAPTER",
+          "PHASE"
+        ]
+      },
+      {
+        "label": "PARTS OF A CAR, INFORMALLY",
+        "level": 2,
+        "words": [
+          "SHOCK",
+          "WHEEL",
+          "DASH",
+          "TANK"
+        ]
+      },
+      {
+        "label": "COLOR HOMOPHONES",
+        "level": 3,
+        "words": [
+          "READ",
+          "BLEW",
+          "ROWS",
+          "CHORAL"
+        ]
+      }
+    ]
+  }
+}

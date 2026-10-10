@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "IMPOSTOR",
+        "level": 0,
+        "words": [
+          "QUACK",
+          "SHAM",
+          "FRAUD",
+          "CHARLATAN"
+        ]
+      },
+      {
+        "label": "UTTERANCE",
+        "level": 1,
+        "words": [
+          "WORD",
+          "PEEP",
+          "SOUND",
+          "NOISE"
+        ]
+      },
+      {
+        "label": "ONE WHO LIKES SHOWING OFF",
+        "level": 2,
+        "words": [
+          "HOT DOG",
+          "PEACOCK",
+          "HAM",
+          "SHOWBOAT"
+        ]
+      },
+      {
+        "label": "LOONEY TUNES CHARACTERS MINUS A LETTER",
+        "level": 3,
+        "words": [
+          "BUG",
+          "TWEET",
+          "PORK",
+          "SPEED"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "MONTHLY BILLS",
+        "level": 0,
+        "words": [
+          "WATER",
+          "GAS",
+          "ELECTRIC",
+          "CABLE"
+        ]
+      },
+      {
+        "label": "RELATED TO SOUND/HEARING",
+        "level": 1,
+        "words": [
+          "SONIC",
+          "ACOUSTIC",
+          "HEARD",
+          "AUDITORY"
+        ]
+      },
+      {
+        "label": "CONNECT",
+        "level": 2,
+        "words": [
+          "LINK",
+          "COUPLE",
+          "HITCH",
+          "TIE"
+        ]
+      },
+      {
+        "label": "EXCITE, WITH “UP”",
+        "level": 3,
+        "words": [
+          "FIRE",
+          "PUMP",
+          "AMP",
+          "HYPE"
+        ]
+      }
+    ]
+  }
+}

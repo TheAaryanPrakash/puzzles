@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "SEA CREATURES",
+        "level": 0,
+        "words": [
+          "SPONGE",
+          "RAY",
+          "CRAB",
+          "SQUID"
+        ]
+      },
+      {
+        "label": "BASIC TWO-DIMENSIONAL SHAPES",
+        "level": 1,
+        "words": [
+          "SQUARE",
+          "CIRCLE",
+          "DIAMOND",
+          "TRIANGLE"
+        ]
+      },
+      {
+        "label": "BOXING MANEUVERS",
+        "level": 2,
+        "words": [
+          "BOB",
+          "HOOK",
+          "CROSS",
+          "WEAVE"
+        ]
+      },
+      {
+        "label": "FANCY ___",
+        "level": 3,
+        "words": [
+          "PANTS",
+          "FREE",
+          "THAT",
+          "FEAST"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "INTREPIDITY",
+        "level": 0,
+        "words": [
+          "PLUCK",
+          "NERVE",
+          "HEART",
+          "GRIT"
+        ]
+      },
+      {
+        "label": "ROAD",
+        "level": 1,
+        "words": [
+          "DRAG",
+          "ARTERY",
+          "DRIVE",
+          "AVENUE"
+        ]
+      },
+      {
+        "label": "KINDS OF PAPER",
+        "level": 2,
+        "words": [
+          "TISSUE",
+          "WAX",
+          "GRAPH",
+          "CONSTRUCTION"
+        ]
+      },
+      {
+        "label": "KINDS OF TENNIS COURTS",
+        "level": 3,
+        "words": [
+          "CARPET",
+          "CLAY",
+          "GRASS",
+          "HARD"
+        ]
+      }
+    ]
+  }
+}

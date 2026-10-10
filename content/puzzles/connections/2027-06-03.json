@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "BIT OF NEWSPAPER WRITING",
+        "level": 0,
+        "words": [
+          "STORY",
+          "COLUMN",
+          "FEATURE",
+          "ARTICLE"
+        ]
+      },
+      {
+        "label": "NOISY DISTURBANCE",
+        "level": 1,
+        "words": [
+          "ROW",
+          "RACKET",
+          "CLATTER",
+          "RUCKUS"
+        ]
+      },
+      {
+        "label": "TABLE TENNIS NEEDS",
+        "level": 2,
+        "words": [
+          "PADDLE",
+          "NET",
+          "BALL",
+          "TABLE"
+        ]
+      },
+      {
+        "label": "HOMOPHONES OF COORDINATING CONJUNCTIONS",
+        "level": 3,
+        "words": [
+          "SEW",
+          "OAR",
+          "FORE",
+          "BUTT"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "IN A BAD MOOD",
+        "level": 0,
+        "words": [
+          "SHORT",
+          "CROSS",
+          "TESTY",
+          "SURLY"
+        ]
+      },
+      {
+        "label": "EXPERIMENTAL",
+        "level": 1,
+        "words": [
+          "PILOT",
+          "TRIAL",
+          "EXPLORATORY",
+          "PRELIMINARY"
+        ]
+      },
+      {
+        "label": "STARTS OF BROADWAY MUSICALS",
+        "level": 2,
+        "words": [
+          "KINKY",
+          "FIDDLER",
+          "MERRILY",
+          "JERSEY"
+        ]
+      },
+      {
+        "label": "PETER ___",
+        "level": 3,
+        "words": [
+          "PAN",
+          "RABBIT",
+          "PARKER",
+          "PIPER"
+        ]
+      }
+    ]
+  }
+}

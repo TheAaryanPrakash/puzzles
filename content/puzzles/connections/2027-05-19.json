@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "BRIEF MOMENT",
+        "level": 0,
+        "words": [
+          "JIFFY",
+          "SECOND",
+          "FLASH",
+          "WINK"
+        ]
+      },
+      {
+        "label": "PRIMARY",
+        "level": 1,
+        "words": [
+          "FIRST",
+          "CHIEF",
+          "PRINCIPAL",
+          "MAIN"
+        ]
+      },
+      {
+        "label": "AVENUES IN N.Y.C.",
+        "level": 2,
+        "words": [
+          "BROADWAY",
+          "PARK",
+          "FIFTH",
+          "MADISON"
+        ]
+      },
+      {
+        "label": "___ HOUR",
+        "level": 3,
+        "words": [
+          "AMATEUR",
+          "HAPPY",
+          "RUSH",
+          "ELEVENTH"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "FOOD-RELATED JUMBLES",
+        "level": 0,
+        "words": [
+          "SCRAMBLE",
+          "SALAD",
+          "STEW",
+          "HASH"
+        ]
+      },
+      {
+        "label": "PUBLIC STANDING",
+        "level": 1,
+        "words": [
+          "NAME",
+          "CHARACTER",
+          "IMAGE",
+          "REPUTATION"
+        ]
+      },
+      {
+        "label": "INFO ON A MUSEUM PLACARD",
+        "level": 2,
+        "words": [
+          "ARTIST",
+          "YEAR",
+          "MEDIUM",
+          "TITLE"
+        ]
+      },
+      {
+        "label": "ANAGRAMS OF FAMOUS PAINTERS",
+        "level": 3,
+        "words": [
+          "EGADS",
+          "YOGA",
+          "DIAL",
+          "MONTE"
+        ]
+      }
+    ]
+  }
+}

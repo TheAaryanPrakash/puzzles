@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "QUANTITY",
+        "level": 0,
+        "words": [
+          "COUNT",
+          "NUMBER",
+          "TOTAL",
+          "AMOUNT"
+        ]
+      },
+      {
+        "label": "INCIDENT",
+        "level": 1,
+        "words": [
+          "EPISODE",
+          "MATTER",
+          "AFFAIR",
+          "EVENT"
+        ]
+      },
+      {
+        "label": "THINGS RECEIVED IN THE MAIL",
+        "level": 2,
+        "words": [
+          "CATALOG",
+          "LETTER",
+          "BILL",
+          "CARD"
+        ]
+      },
+      {
+        "label": "WHAT “SPRING” MIGHT REFER TO",
+        "level": 3,
+        "words": [
+          "COIL",
+          "SEASON",
+          "BOUNCE",
+          "GEYSER"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "EQUIP",
+        "level": 0,
+        "words": [
+          "OUTFIT",
+          "STOCK",
+          "PROVISION",
+          "FURNISH"
+        ]
+      },
+      {
+        "label": "INDIVIDUALITY",
+        "level": 1,
+        "words": [
+          "EGO",
+          "CHARACTER",
+          "BEING",
+          "SELF"
+        ]
+      },
+      {
+        "label": "FURNITURE",
+        "level": 2,
+        "words": [
+          "VANITY",
+          "WARDROBE",
+          "CONSOLE",
+          "CHEST"
+        ]
+      },
+      {
+        "label": "WORDS WITH APOSTROPHES REMOVED",
+        "level": 3,
+        "words": [
+          "SHELL",
+          "ID",
+          "CANT",
+          "WERE"
+        ]
+      }
+    ]
+  }
+}

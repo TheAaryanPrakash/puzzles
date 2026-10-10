@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "HAIR SALON OFFERINGS",
+        "level": 0,
+        "words": [
+          "COLOR",
+          "BLOWOUT",
+          "CUT",
+          "TRIM"
+        ]
+      },
+      {
+        "label": "CRITICIZE",
+        "level": 1,
+        "words": [
+          "BASH",
+          "PAN",
+          "BLAST",
+          "SLAM"
+        ]
+      },
+      {
+        "label": "OBTAIN",
+        "level": 2,
+        "words": [
+          "BAG",
+          "LAND",
+          "SCORE",
+          "SNAG"
+        ]
+      },
+      {
+        "label": "MEASURED IN FOOTBALL STATS",
+        "level": 3,
+        "words": [
+          "SACK",
+          "RECEPTION",
+          "YARD",
+          "ATTEMPT"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "DAYS OF THE WEEK",
+        "level": 0,
+        "words": [
+          "SUNDAY",
+          "SATURDAY",
+          "FRIDAY",
+          "THURSDAY"
+        ]
+      },
+      {
+        "label": "GO BAD",
+        "level": 1,
+        "words": [
+          "TURN",
+          "SOUR",
+          "SPOIL",
+          "ROT"
+        ]
+      },
+      {
+        "label": "“THE ADDAMS FAMILY” CHARACTERS",
+        "level": 2,
+        "words": [
+          "THING",
+          "LURCH",
+          "WEDNESDAY",
+          "FESTER"
+        ]
+      },
+      {
+        "label": "FAT ___",
+        "level": 3,
+        "words": [
+          "CAT",
+          "CHANCE",
+          "LIP",
+          "TUESDAY"
+        ]
+      }
+    ]
+  }
+}

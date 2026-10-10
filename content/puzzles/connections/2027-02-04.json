@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "PROMOTE",
+        "level": 0,
+        "words": [
+          "PITCH",
+          "MARKET",
+          "HYPE",
+          "SELL"
+        ]
+      },
+      {
+        "label": "THROW",
+        "level": 1,
+        "words": [
+          "FLING",
+          "CHUCK",
+          "CAST",
+          "HURL"
+        ]
+      },
+      {
+        "label": "BOOKSTORE SECTIONS",
+        "level": 2,
+        "words": [
+          "ROMANCE",
+          "TRAVEL",
+          "FICTION",
+          "HUMOR"
+        ]
+      },
+      {
+        "label": "___ SOCKS",
+        "level": 3,
+        "words": [
+          "TUBE",
+          "CREW",
+          "SWEAT",
+          "ANKLE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "ADVERTISING FORMAT",
+        "level": 0,
+        "words": [
+          "SIGN",
+          "BANNER",
+          "POSTER",
+          "BILLBOARD"
+        ]
+      },
+      {
+        "label": "INAUGURAL",
+        "level": 1,
+        "words": [
+          "INITIAL",
+          "MAIDEN",
+          "PREMIER",
+          "FIRST"
+        ]
+      },
+      {
+        "label": "ADVOCATE FOR",
+        "level": 2,
+        "words": [
+          "ENDORSE",
+          "CHAMPION",
+          "SUPPORT",
+          "BACK"
+        ]
+      },
+      {
+        "label": "PRONOUN PLUS “E”",
+        "level": 3,
+        "words": [
+          "HERE",
+          "WEE",
+          "THEME",
+          "USE"
+        ]
+      }
+    ]
+  }
+}

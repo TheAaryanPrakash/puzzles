@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "DARLING",
+        "level": 0,
+        "words": [
+          "BABY",
+          "LOVE",
+          "BOO",
+          "DEAR"
+        ]
+      },
+      {
+        "label": "BASIC GEOMETRIC OBJECTS",
+        "level": 1,
+        "words": [
+          "LINE",
+          "POINT",
+          "RAY",
+          "SEGMENT"
+        ]
+      },
+      {
+        "label": "OOMPH",
+        "level": 2,
+        "words": [
+          "ZIP",
+          "ENERGY",
+          "JUICE",
+          "FIRE"
+        ]
+      },
+      {
+        "label": "SECRET ___",
+        "level": 3,
+        "words": [
+          "SANTA",
+          "SAUCE",
+          "CODE",
+          "AGENT"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "APPROXIMATELY",
+        "level": 0,
+        "words": [
+          "LIKE",
+          "ROUGHLY",
+          "ABOUT",
+          "AROUND"
+        ]
+      },
+      {
+        "label": "TREES",
+        "level": 1,
+        "words": [
+          "ELDER",
+          "SPRUCE",
+          "PINE",
+          "PALM"
+        ]
+      },
+      {
+        "label": "SIZABLE, AS AN AMOUNT",
+        "level": 2,
+        "words": [
+          "TIDY",
+          "HANDSOME",
+          "HEALTHY",
+          "RESPECTABLE"
+        ]
+      },
+      {
+        "label": "U.S. STATE ABBREVIATIONS, PER AP STYLE GUIDE",
+        "level": 3,
+        "words": [
+          "ALA",
+          "MISS",
+          "ARK",
+          "ORE"
+        ]
+      }
+    ]
+  }
+}

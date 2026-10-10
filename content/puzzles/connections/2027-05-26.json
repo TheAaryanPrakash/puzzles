@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "HOPPING MAD",
+        "level": 0,
+        "words": [
+          "STEAMING",
+          "BOILING",
+          "FUMING",
+          "LIVID"
+        ]
+      },
+      {
+        "label": "STATUS",
+        "level": 1,
+        "words": [
+          "RANKING",
+          "STATION",
+          "POSITION",
+          "STANDING"
+        ]
+      },
+      {
+        "label": "WORDS THAT MAKE UP THE ACRONYM “HVAC”",
+        "level": 2,
+        "words": [
+          "AIR",
+          "HEATING",
+          "VENTILATION",
+          "CONDITIONING"
+        ]
+      },
+      {
+        "label": "ACTIVITIES THAT INVOLVE FOLDING",
+        "level": 3,
+        "words": [
+          "POKER",
+          "BAKING",
+          "LAUNDRY",
+          "ORIGAMI"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "DATA SET DATA",
+        "level": 0,
+        "words": [
+          "RANGE",
+          "MODE",
+          "MEAN",
+          "MEDIAN"
+        ]
+      },
+      {
+        "label": "CHEMISTRY TERMS",
+        "level": 1,
+        "words": [
+          "BASE",
+          "BOND",
+          "SOLUTION",
+          "ELEMENT"
+        ]
+      },
+      {
+        "label": "ADJECTIVE INTENSIFIERS",
+        "level": 2,
+        "words": [
+          "PRETTY",
+          "RATHER",
+          "REAL",
+          "AWFUL"
+        ]
+      },
+      {
+        "label": "RADIO HALL OF FAME MEMBERS",
+        "level": 3,
+        "words": [
+          "GROSS",
+          "GLASS",
+          "STERN",
+          "KING"
+        ]
+      }
+    ]
+  }
+}

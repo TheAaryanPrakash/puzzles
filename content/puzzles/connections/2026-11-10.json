@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "ROOMS IN A HOUSE",
+        "level": 0,
+        "words": [
+          "STUDY",
+          "KITCHEN",
+          "DEN",
+          "BEDROOM"
+        ]
+      },
+      {
+        "label": "LAND SURROUNDED BY WATER",
+        "level": 1,
+        "words": [
+          "KEY",
+          "ISLAND",
+          "BAR",
+          "ATOLL"
+        ]
+      },
+      {
+        "label": "FILL TO EXCESS",
+        "level": 2,
+        "words": [
+          "STUFF",
+          "PACK",
+          "JAM",
+          "CRAM"
+        ]
+      },
+      {
+        "label": "BEAN ___",
+        "level": 3,
+        "words": [
+          "BAG",
+          "COUNTER",
+          "DIP",
+          "SPROUT"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "TIMEKEEPING DEVICES",
+        "level": 0,
+        "words": [
+          "WATCH",
+          "CLOCK",
+          "SUNDIAL",
+          "HOURGLASS"
+        ]
+      },
+      {
+        "label": "HAIRSTYLES",
+        "level": 1,
+        "words": [
+          "BOB",
+          "CROP",
+          "PIXIE",
+          "SHAG"
+        ]
+      },
+      {
+        "label": "UNITS OF MEASURE",
+        "level": 2,
+        "words": [
+          "MOLE",
+          "SECOND",
+          "NEWTON",
+          "HERTZ"
+        ]
+      },
+      {
+        "label": "DR. ___",
+        "level": 3,
+        "words": [
+          "PEPPER",
+          "EVIL",
+          "NO",
+          "J"
+        ]
+      }
+    ]
+  }
+}

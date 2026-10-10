@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "SPRINKLE",
+        "level": 0,
+        "words": [
+          "SHOWER",
+          "PEPPER",
+          "DUST",
+          "SCATTER"
+        ]
+      },
+      {
+        "label": "SCENTS OF WINE",
+        "level": 1,
+        "words": [
+          "AROMA",
+          "BOUQUET",
+          "NOSE",
+          "NOTE"
+        ]
+      },
+      {
+        "label": "“AAH, ENOUGH!”",
+        "level": 2,
+        "words": [
+          "STOP",
+          "UNCLE",
+          "TRUCE",
+          "MERCY"
+        ]
+      },
+      {
+        "label": "WORDS FAMOUSLY PRONOUNCED DIFFERENT WAYS",
+        "level": 3,
+        "words": [
+          "AUNT",
+          "VASE",
+          "TOMATO",
+          "EITHER"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "TIME OFF",
+        "level": 0,
+        "words": [
+          "BREAK",
+          "LEAVE",
+          "REST",
+          "VACATION"
+        ]
+      },
+      {
+        "label": "FOLLOW A MEANDERING COURSE",
+        "level": 1,
+        "words": [
+          "SNAKE",
+          "WIND",
+          "WEAVE",
+          "CURVE"
+        ]
+      },
+      {
+        "label": "BOWLING RESULTS",
+        "level": 2,
+        "words": [
+          "DOUBLE",
+          "STRIKE",
+          "SPARE",
+          "TURKEY"
+        ]
+      },
+      {
+        "label": "___FISH",
+        "level": 3,
+        "words": [
+          "BLOW",
+          "CAT",
+          "SWORD",
+          "GOLD"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "ICE CREAM TREATS",
+        "level": 0,
+        "words": [
+          "SHAKE",
+          "FLOAT",
+          "SPLIT",
+          "SUNDAE"
+        ]
+      },
+      {
+        "label": "HARDWARE FASTENERS",
+        "level": 1,
+        "words": [
+          "NAIL",
+          "SCREW",
+          "BOLT",
+          "RIVET"
+        ]
+      },
+      {
+        "label": "KINDS OF COOKING OIL",
+        "level": 2,
+        "words": [
+          "PEANUT",
+          "PALM",
+          "OLIVE",
+          "CORN"
+        ]
+      },
+      {
+        "label": "STICKY ___",
+        "level": 3,
+        "words": [
+          "RICE",
+          "NOTE",
+          "FINGERS",
+          "WICKET"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "ENORMOUS",
+        "level": 0,
+        "words": [
+          "GREAT",
+          "BIG",
+          "GIANT",
+          "HUGE"
+        ]
+      },
+      {
+        "label": "BOOKSTORE SECTIONS",
+        "level": 1,
+        "words": [
+          "POETRY",
+          "HUMOR",
+          "FICTION",
+          "TRAVEL"
+        ]
+      },
+      {
+        "label": "TV SHOWS WITH HAPPY-SOUNDING NAMES",
+        "level": 2,
+        "words": [
+          "GLEE",
+          "FELICITY",
+          "CHEERS",
+          "EUPHORIA"
+        ]
+      },
+      {
+        "label": "___ CRANE",
+        "level": 3,
+        "words": [
+          "CONSTRUCTION",
+          "PAPER",
+          "WHOOPING",
+          "FRASIER"
+        ]
+      }
+    ]
+  }
+}

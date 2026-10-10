@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "MARINE MAMMALS",
+        "level": 0,
+        "words": [
+          "SEAL",
+          "DOLPHIN",
+          "OTTER",
+          "MANATEE"
+        ]
+      },
+      {
+        "label": "BIKE PARTS",
+        "level": 1,
+        "words": [
+          "SPOKE",
+          "CHAIN",
+          "SADDLE",
+          "BRAKE"
+        ]
+      },
+      {
+        "label": "SYNONYMS FOR SELL",
+        "level": 2,
+        "words": [
+          "MOVE",
+          "HAWK",
+          "PEDDLE",
+          "VEND"
+        ]
+      },
+      {
+        "label": "COUNTRIES WHEN “A” IS ADDED",
+        "level": 3,
+        "words": [
+          "CUB",
+          "CHIN",
+          "MALT",
+          "TONG"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "FOOTWEAR",
+        "level": 0,
+        "words": [
+          "PUMP",
+          "LOAFER",
+          "BOOT",
+          "SNEAKER"
+        ]
+      },
+      {
+        "label": "UNITS OF LENGTH",
+        "level": 1,
+        "words": [
+          "FOOT",
+          "LEAGUE",
+          "YARD",
+          "MILE"
+        ]
+      },
+      {
+        "label": "MAGAZINES",
+        "level": 2,
+        "words": [
+          "TIME",
+          "US",
+          "PEOPLE",
+          "ESSENCE"
+        ]
+      },
+      {
+        "label": "LETTER HOMOPHONES",
+        "level": 3,
+        "words": [
+          "SEA",
+          "WHY",
+          "ARE",
+          "QUEUE"
+        ]
+      }
+    ]
+  }
+}

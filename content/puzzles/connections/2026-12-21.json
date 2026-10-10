@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "DEPART QUICKLY",
+        "level": 0,
+        "words": [
+          "BOOK",
+          "BOUNCE",
+          "RUN",
+          "SPLIT"
+        ]
+      },
+      {
+        "label": "ANIMALS THAT END WITH “X”",
+        "level": 1,
+        "words": [
+          "FOX",
+          "LYNX",
+          "ORYX",
+          "IBEX"
+        ]
+      },
+      {
+        "label": "SHADES OF BLACK",
+        "level": 2,
+        "words": [
+          "JET",
+          "ONYX",
+          "RAVEN",
+          "EBONY"
+        ]
+      },
+      {
+        "label": "WORDS BEFORE DAYS OF THE WEEK",
+        "level": 3,
+        "words": [
+          "ASH",
+          "BLACK",
+          "CYBER",
+          "FAT"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "ROOMS IN THE GAME CLUE",
+        "level": 0,
+        "words": [
+          "STUDY",
+          "HALL",
+          "LOUNGE",
+          "LIBRARY"
+        ]
+      },
+      {
+        "label": "COLLEAGUE",
+        "level": 1,
+        "words": [
+          "FELLOW",
+          "PEER",
+          "ASSOCIATE",
+          "PARTNER"
+        ]
+      },
+      {
+        "label": "SEEN DURING EASTER",
+        "level": 2,
+        "words": [
+          "PEEP",
+          "BUNNY",
+          "EGG",
+          "JELLY BEAN"
+        ]
+      },
+      {
+        "label": "WHAT A MOLE CAN BE",
+        "level": 3,
+        "words": [
+          "SPY",
+          "BIRTHMARK",
+          "ANIMAL",
+          "UNIT"
+        ]
+      }
+    ]
+  }
+}

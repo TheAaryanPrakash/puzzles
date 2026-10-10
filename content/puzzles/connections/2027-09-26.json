@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "BOATS",
+        "level": 0,
+        "words": [
+          "TUG",
+          "JUNK",
+          "FERRY",
+          "YACHT"
+        ]
+      },
+      {
+        "label": "SANDWICHES",
+        "level": 1,
+        "words": [
+          "CLUB",
+          "SUB",
+          "CUBAN",
+          "MELT"
+        ]
+      },
+      {
+        "label": "CUTS OF BEEF",
+        "level": 2,
+        "words": [
+          "SHANK",
+          "FLANK",
+          "LOIN",
+          "ROUND"
+        ]
+      },
+      {
+        "label": "NICKNAMES THAT ARE VERBS",
+        "level": 3,
+        "words": [
+          "CHUCK",
+          "ROB",
+          "SUE",
+          "JOSH"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "PUTDOWN",
+        "level": 0,
+        "words": [
+          "CRACK",
+          "SLIGHT",
+          "DIG",
+          "BARB"
+        ]
+      },
+      {
+        "label": "SMALL LIKENESS",
+        "level": 1,
+        "words": [
+          "MINIATURE",
+          "DOLL",
+          "FIGURE",
+          "MODEL"
+        ]
+      },
+      {
+        "label": "USED TO CLEAR SNOW",
+        "level": 2,
+        "words": [
+          "SALT",
+          "SAND",
+          "SHOVEL",
+          "PLOW"
+        ]
+      },
+      {
+        "label": "DOCTORS IN POP CULTURE",
+        "level": 3,
+        "words": [
+          "OCTOPUS",
+          "PEPPER",
+          "WHO",
+          "NO"
+        ]
+      }
+    ]
+  }
+}

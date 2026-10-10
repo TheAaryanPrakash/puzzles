@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "SMIDGEN",
+        "level": 0,
+        "words": [
+          "PINCH",
+          "TOUCH",
+          "DASH",
+          "BIT"
+        ]
+      },
+      {
+        "label": "BARGAIN",
+        "level": 1,
+        "words": [
+          "DEAL",
+          "BUY",
+          "STEAL",
+          "VALUE"
+        ]
+      },
+      {
+        "label": "BILLIARDS EQUIPMENT",
+        "level": 2,
+        "words": [
+          "CHALK",
+          "RACK",
+          "BALL",
+          "CUE"
+        ]
+      },
+      {
+        "label": "___BOOK (THAT’S NOT A BOOK)",
+        "level": 3,
+        "words": [
+          "MATCH",
+          "FACE",
+          "POCKET",
+          "MAC"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "OFFICIAL SANCTIONING",
+        "level": 0,
+        "words": [
+          "SUPPORT",
+          "BLESSING",
+          "CONSENT",
+          "APPROVAL"
+        ]
+      },
+      {
+        "label": "TORUS-SHAPED THINGS",
+        "level": 1,
+        "words": [
+          "TIRE",
+          "BAGEL",
+          "LIFESAVER",
+          "WREATH"
+        ]
+      },
+      {
+        "label": "BAD GOLF SHOTS",
+        "level": 2,
+        "words": [
+          "SLICE",
+          "WHIFF",
+          "HOOK",
+          "SHANK"
+        ]
+      },
+      {
+        "label": "FOOTWEAR MINUS “ER” SOUND",
+        "level": 3,
+        "words": [
+          "SNEAK",
+          "SLIP",
+          "LOAF",
+          "WADE"
+        ]
+      }
+    ]
+  }
+}

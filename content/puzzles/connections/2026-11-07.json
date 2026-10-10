@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "TREAT WITH EXCESSIVE CARE",
+        "level": 0,
+        "words": [
+          "BABY",
+          "MOTHER",
+          "SPOIL",
+          "PAMPER"
+        ]
+      },
+      {
+        "label": "BACKSIDE",
+        "level": 1,
+        "words": [
+          "CAN",
+          "BOOTY",
+          "REAR",
+          "BUM"
+        ]
+      },
+      {
+        "label": "THINGS IN A SPA LOCKER ROOM",
+        "level": 2,
+        "words": [
+          "TOWEL",
+          "SLIPPERS",
+          "ROBE",
+          "WASHCLOTH"
+        ]
+      },
+      {
+        "label": "CAT’S ___",
+        "level": 3,
+        "words": [
+          "CRADLE",
+          "MEOW",
+          "PAJAMAS",
+          "EYE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "MOVE TO ACTION",
+        "level": 0,
+        "words": [
+          "DRIVE",
+          "PUSH",
+          "PROMPT",
+          "PROPEL"
+        ]
+      },
+      {
+        "label": "UNO CARDS",
+        "level": 1,
+        "words": [
+          "WILD",
+          "REVERSE",
+          "DRAW",
+          "SKIP"
+        ]
+      },
+      {
+        "label": "HAIL SIZE COMPARISONS",
+        "level": 2,
+        "words": [
+          "MARBLE",
+          "BASEBALL",
+          "PEA",
+          "GRAPEFRUIT"
+        ]
+      },
+      {
+        "label": "PLACES WITH BENCHES",
+        "level": 3,
+        "words": [
+          "GYM",
+          "PARK",
+          "DUGOUT",
+          "COURTROOM"
+        ]
+      }
+    ]
+  }
+}

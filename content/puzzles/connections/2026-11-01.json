@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "ESPECIALLY",
+        "level": 0,
+        "words": [
+          "PRETTY",
+          "REALLY",
+          "MIGHTY",
+          "VERY"
+        ]
+      },
+      {
+        "label": "DISNEY CHARACTERS",
+        "level": 1,
+        "words": [
+          "HAPPY",
+          "LADY",
+          "DAISY",
+          "GOOFY"
+        ]
+      },
+      {
+        "label": "KINDS OF BLUE",
+        "level": 2,
+        "words": [
+          "SKY",
+          "BABY",
+          "NAVY",
+          "TIFFANY"
+        ]
+      },
+      {
+        "label": "BODY PARTS PLUS \"Y\"",
+        "level": 3,
+        "words": [
+          "SHINY",
+          "ARMY",
+          "LIVERY",
+          "COLONY"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "BUILDINGS AROUND TOWN",
+        "level": 0,
+        "words": [
+          "BANK",
+          "LAUNDROMAT",
+          "POST OFFICE",
+          "SUPERMARKET"
+        ]
+      },
+      {
+        "label": "HINDER",
+        "level": 1,
+        "words": [
+          "CHECK",
+          "HAMPER",
+          "CURB",
+          "INHIBIT"
+        ]
+      },
+      {
+        "label": "ANIMAL GROUP NAMES",
+        "level": 2,
+        "words": [
+          "PACK",
+          "SCHOOL",
+          "PRIDE",
+          "SWARM"
+        ]
+      },
+      {
+        "label": "STARTS OF U.S. PRESIDENTS",
+        "level": 3,
+        "words": [
+          "CART",
+          "WASHING",
+          "BIDE",
+          "NIX"
+        ]
+      }
+    ]
+  }
+}

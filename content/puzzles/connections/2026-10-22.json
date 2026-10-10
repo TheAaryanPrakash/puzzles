@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "FOLLOW ATTENTIVELY",
+        "level": 0,
+        "words": [
+          "WATCH",
+          "MONITOR",
+          "TRACK",
+          "SURVEY"
+        ]
+      },
+      {
+        "label": "WHERE YOU MIGHT FIND SAND",
+        "level": 1,
+        "words": [
+          "DESERT",
+          "HOURGLASS",
+          "BEACH",
+          "PLAYGROUND"
+        ]
+      },
+      {
+        "label": "OVEN BUTTONS",
+        "level": 2,
+        "words": [
+          "LIGHT",
+          "BAKE",
+          "TIMER",
+          "BROIL"
+        ]
+      },
+      {
+        "label": "BRITPOP BANDS",
+        "level": 3,
+        "words": [
+          "OASIS",
+          "BLUR",
+          "PULP",
+          "SUEDE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "TAKE ON, AS A RESPONSIBILITY",
+        "level": 0,
+        "words": [
+          "BEAR",
+          "SHOULDER",
+          "HANDLE",
+          "ASSUME"
+        ]
+      },
+      {
+        "label": "CORNERS",
+        "level": 1,
+        "words": [
+          "CROOK",
+          "ELBOW",
+          "BEND",
+          "ANGLE"
+        ]
+      },
+      {
+        "label": "ASSOCIATED WITH POPEYE",
+        "level": 2,
+        "words": [
+          "SPINACH",
+          "ANCHOR",
+          "PIPE",
+          "FOREARM"
+        ]
+      },
+      {
+        "label": "___ SHEET",
+        "level": 3,
+        "words": [
+          "COOKIE",
+          "CHEAT",
+          "FITTED",
+          "BALANCE"
+        ]
+      }
+    ]
+  }
+}

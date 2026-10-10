@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "ROAD NAMES",
+        "level": 0,
+        "words": [
+          "DRIVE",
+          "STREET",
+          "ALLEY",
+          "LANE"
+        ]
+      },
+      {
+        "label": "PAPER IN A BOOK",
+        "level": 1,
+        "words": [
+          "LEAF",
+          "PAGE",
+          "SHEET",
+          "FOLIO"
+        ]
+      },
+      {
+        "label": "RESTRAIN",
+        "level": 2,
+        "words": [
+          "STEM",
+          "CHECK",
+          "CURB",
+          "LIMIT"
+        ]
+      },
+      {
+        "label": "THINGS YOU CAN DO TO YOUR NOSE",
+        "level": 3,
+        "words": [
+          "THUMB",
+          "PICK",
+          "BLOW",
+          "HOLD"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "WAYS TO SHOW RESPECT",
+        "level": 0,
+        "words": [
+          "BOW",
+          "STAND",
+          "SALUTE",
+          "KNEEL"
+        ]
+      },
+      {
+        "label": "IPHONE APPS",
+        "level": 1,
+        "words": [
+          "CLOCK",
+          "NOTES",
+          "MAIL",
+          "MAPS"
+        ]
+      },
+      {
+        "label": "ANIMAL COVERINGS",
+        "level": 2,
+        "words": [
+          "SHELL",
+          "DOWN",
+          "SCALES",
+          "FUR"
+        ]
+      },
+      {
+        "label": "“POINTERS”",
+        "level": 3,
+        "words": [
+          "DOG",
+          "ARROW",
+          "FINGER",
+          "HINT"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "TAUNTS",
+        "level": 0,
+        "words": [
+          "RASPBERRY",
+          "HISS",
+          "BOO",
+          "JEER"
+        ]
+      },
+      {
+        "label": "FAILURE",
+        "level": 1,
+        "words": [
+          "LEMON",
+          "BOMB",
+          "FLOP",
+          "DUD"
+        ]
+      },
+      {
+        "label": "RUDELY BREAK OFF CONTACT",
+        "level": 2,
+        "words": [
+          "GHOST",
+          "DESERT",
+          "IGNORE",
+          "JILT"
+        ]
+      },
+      {
+        "label": "ROCK ___",
+        "level": 3,
+        "words": [
+          "GARDEN",
+          "STAR",
+          "CANDY",
+          "BOTTOM"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "BRIDAL ACCESSORIES",
+        "level": 0,
+        "words": [
+          "TRAIN",
+          "RING",
+          "BOUQUET",
+          "VEIL"
+        ]
+      },
+      {
+        "label": "“C” WORDS FOR “ENVELOP”",
+        "level": 1,
+        "words": [
+          "COAT",
+          "CAKE",
+          "CRUST",
+          "COVER"
+        ]
+      },
+      {
+        "label": "JACKS",
+        "level": 2,
+        "words": [
+          "MA",
+          "BLACK",
+          "FROST",
+          "SPARROW"
+        ]
+      },
+      {
+        "label": "SOCIAL MEDIA APP ENDINGS",
+        "level": 3,
+        "words": [
+          "GRAM",
+          "BOOK",
+          "TUBE",
+          "IN"
+        ]
+      }
+    ]
+  }
+}

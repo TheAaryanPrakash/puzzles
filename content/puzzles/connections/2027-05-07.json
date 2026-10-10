@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "ANIMALS WHOSE NAMES ARE TWO ANIMALS",
+        "level": 0,
+        "words": [
+          "CATFISH",
+          "BULLDOG",
+          "HORSEFLY",
+          "TURTLEDOVE"
+        ]
+      },
+      {
+        "label": "SHARP TURNS",
+        "level": 1,
+        "words": [
+          "HAIRPIN",
+          "SWITCHBACK",
+          "DOGLEG",
+          "ZAG"
+        ]
+      },
+      {
+        "label": "CLASSIC PARTY GAMES",
+        "level": 2,
+        "words": [
+          "FISHBOWL",
+          "WEREWOLF",
+          "CATEGORIES",
+          "CHARADES"
+        ]
+      },
+      {
+        "label": "THINGS WITH SPRING/S",
+        "level": 3,
+        "words": [
+          "TRAMPOLINE",
+          "MOUSETRAP",
+          "MATTRESS",
+          "CLOCK"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "VERBS IN A CAKE RECIPE",
+        "level": 0,
+        "words": [
+          "FROST",
+          "BEAT",
+          "BAKE",
+          "PREHEAT"
+        ]
+      },
+      {
+        "label": "WHAT A HEART DOES WHEN EXCITED",
+        "level": 1,
+        "words": [
+          "PUMP",
+          "RACE",
+          "POUND",
+          "THROB"
+        ]
+      },
+      {
+        "label": "ECCLESIASTICAL TITLES",
+        "level": 2,
+        "words": [
+          "POPE",
+          "BISHOP",
+          "PRIOR",
+          "PASTOR"
+        ]
+      },
+      {
+        "label": "___ BOYS",
+        "level": 3,
+        "words": [
+          "BEACH",
+          "PET SHOP",
+          "HARDY",
+          "BAD"
+        ]
+      }
+    ]
+  }
+}

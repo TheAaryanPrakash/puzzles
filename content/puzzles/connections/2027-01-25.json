@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "GRAINS",
+        "level": 0,
+        "words": [
+          "OAT",
+          "BARLEY",
+          "SPELT",
+          "RYE"
+        ]
+      },
+      {
+        "label": "ROYAL AND NOBLE TITLES",
+        "level": 1,
+        "words": [
+          "KING",
+          "EARL",
+          "BARON",
+          "PRINCE"
+        ]
+      },
+      {
+        "label": "UNIVERSITIES",
+        "level": 2,
+        "words": [
+          "RICE",
+          "DUKE",
+          "BROWN",
+          "HOWARD"
+        ]
+      },
+      {
+        "label": "BEST DIRECTOR OSCAR WINNERS",
+        "level": 3,
+        "words": [
+          "STONE",
+          "BONG",
+          "FORD",
+          "LEE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "FABRICS",
+        "level": 0,
+        "words": [
+          "TWEED",
+          "LINEN",
+          "DENIM",
+          "CORDUROY"
+        ]
+      },
+      {
+        "label": "APPARITIONS",
+        "level": 1,
+        "words": [
+          "SPECTER",
+          "SPIRIT",
+          "GHOST",
+          "PHANTOM"
+        ]
+      },
+      {
+        "label": "SYNONYMS FOR BOTHER",
+        "level": 2,
+        "words": [
+          "RIB",
+          "NEEDLE",
+          "POKE",
+          "TEASE"
+        ]
+      },
+      {
+        "label": "DISNEY CHARACTERS",
+        "level": 3,
+        "words": [
+          "SCAR",
+          "BEAST",
+          "STITCH",
+          "GENIE"
+        ]
+      }
+    ]
+  }
+}

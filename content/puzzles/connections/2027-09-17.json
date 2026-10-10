@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "UPSWING",
+        "level": 0,
+        "words": [
+          "BOOM",
+          "SPIKE",
+          "RISE",
+          "SURGE"
+        ]
+      },
+      {
+        "label": "THINGS WITH WHEELS",
+        "level": 1,
+        "words": [
+          "DOLLY",
+          "SKATEBOARD",
+          "WAGON",
+          "ROLLERBLADE"
+        ]
+      },
+      {
+        "label": "KINDS OF TAPE",
+        "level": 2,
+        "words": [
+          "PACKING",
+          "GAFFER",
+          "DUCT",
+          "ELECTRICAL"
+        ]
+      },
+      {
+        "label": "RETAIL CHAINS WITH A LETTER CHANGED",
+        "level": 3,
+        "words": [
+          "IDEA",
+          "BEST BOY",
+          "STABLES",
+          "KRONER"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "KINDS OF BEANS",
+        "level": 0,
+        "words": [
+          "NAVY",
+          "KIDNEY",
+          "PINTO",
+          "MUNG"
+        ]
+      },
+      {
+        "label": "ATTRACT",
+        "level": 1,
+        "words": [
+          "DRAW",
+          "HOOK",
+          "PULL",
+          "GRAB"
+        ]
+      },
+      {
+        "label": "AUTOMATIC GEAR SHIFTER POSITIONS",
+        "level": 2,
+        "words": [
+          "DRIVE",
+          "NEUTRAL",
+          "LOW",
+          "REVERSE"
+        ]
+      },
+      {
+        "label": "___POOL",
+        "level": 3,
+        "words": [
+          "WHIRL",
+          "LIVER",
+          "CAR",
+          "DEAD"
+        ]
+      }
+    ]
+  }
+}

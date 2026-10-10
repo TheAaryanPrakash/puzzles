@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "'60S BAND MEMBERS",
+        "level": 0,
+        "words": [
+          "BEACH BOY",
+          "BEATLE",
+          "BYRD",
+          "MONKEE"
+        ]
+      },
+      {
+        "label": "DANCE FADS",
+        "level": 1,
+        "words": [
+          "TWIST",
+          "MASHED POTATO",
+          "DOUGIE",
+          "MACARENA"
+        ]
+      },
+      {
+        "label": "MAGAZINES",
+        "level": 2,
+        "words": [
+          "ROLLING STONE",
+          "WIRED",
+          "FORTUNE",
+          "VOGUE"
+        ]
+      },
+      {
+        "label": "THINGS WITH LINKS",
+        "level": 3,
+        "words": [
+          "CHAIN",
+          "WEBSITE",
+          "SAUSAGE",
+          "GOLF COURSE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "TECH COMPANIES",
+        "level": 0,
+        "words": [
+          "META",
+          "APPLE",
+          "ALPHABET",
+          "AMAZON"
+        ]
+      },
+      {
+        "label": "KINDS OF EXAMS",
+        "level": 1,
+        "words": [
+          "PHYSICAL",
+          "BAR",
+          "FINAL",
+          "ORAL"
+        ]
+      },
+      {
+        "label": "SOMETHING EXEMPLARY",
+        "level": 2,
+        "words": [
+          "BEAUTY",
+          "PEACH",
+          "GEM",
+          "MARVEL"
+        ]
+      },
+      {
+        "label": "___ TOOTH",
+        "level": 3,
+        "words": [
+          "WISDOM",
+          "BABY",
+          "EYE",
+          "SWEET"
+        ]
+      }
+    ]
+  }
+}

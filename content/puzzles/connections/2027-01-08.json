@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "BIRD FEATURES",
+        "level": 0,
+        "words": [
+          "TALON",
+          "WING",
+          "FEATHER",
+          "BEAK"
+        ]
+      },
+      {
+        "label": "BLINK OF AN EYE",
+        "level": 1,
+        "words": [
+          "HEARTBEAT",
+          "FLASH",
+          "SECOND",
+          "WINK"
+        ]
+      },
+      {
+        "label": "MAHJONG TILES",
+        "level": 2,
+        "words": [
+          "DRAGON",
+          "SEASON",
+          "BAMBOO",
+          "WIND"
+        ]
+      },
+      {
+        "label": "___ BUTTON",
+        "level": 3,
+        "words": [
+          "HOT",
+          "BELLY",
+          "SNOOZE",
+          "PANIC"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "MONOTONOUS SOUNDS",
+        "level": 0,
+        "words": [
+          "PURR",
+          "BUZZ",
+          "DRONE",
+          "HUM"
+        ]
+      },
+      {
+        "label": "BOATS",
+        "level": 1,
+        "words": [
+          "DORY",
+          "BARGE",
+          "SCOW",
+          "SLOOP"
+        ]
+      },
+      {
+        "label": "CAPTAINS",
+        "level": 2,
+        "words": [
+          "NEMO",
+          "AMERICA",
+          "HOOK",
+          "MORGAN"
+        ]
+      },
+      {
+        "label": "PREFIXES WITH -CRACY",
+        "level": 3,
+        "words": [
+          "PLUTO",
+          "AUTO",
+          "DEMO",
+          "BUREAU"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "FRUIT",
+        "level": 0,
+        "words": [
+          "KIWI",
+          "ORANGE",
+          "DATE",
+          "LEMON"
+        ]
+      },
+      {
+        "label": "COUNTRIES",
+        "level": 1,
+        "words": [
+          "JORDAN",
+          "GEORGIA",
+          "TOGO",
+          "CHAD"
+        ]
+      },
+      {
+        "label": "BIRDS",
+        "level": 2,
+        "words": [
+          "TURKEY",
+          "JAY",
+          "CRANE",
+          "SWALLOW"
+        ]
+      },
+      {
+        "label": "ZODIAC SYMBOLS",
+        "level": 3,
+        "words": [
+          "TWINS",
+          "GOAT",
+          "SCALES",
+          "FISH"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "PAINTING ACCESSORIES",
+        "level": 0,
+        "words": [
+          "BRUSH",
+          "CANVAS",
+          "EASEL",
+          "PALETTE"
+        ]
+      },
+      {
+        "label": "AUTOMATIC TRANSMISSION SETTINGS",
+        "level": 1,
+        "words": [
+          "PARK",
+          "NEUTRAL",
+          "DRIVE",
+          "REVERSE"
+        ]
+      },
+      {
+        "label": "THINGS WITH TEETH",
+        "level": 2,
+        "words": [
+          "GEAR",
+          "COMB",
+          "SAW",
+          "ZIPPER"
+        ]
+      },
+      {
+        "label": "___ CHAIR",
+        "level": 3,
+        "words": [
+          "FOLDING",
+          "HIGH",
+          "LAWN",
+          "FIRST"
+        ]
+      }
+    ]
+  }
+}

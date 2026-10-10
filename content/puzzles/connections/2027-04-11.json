@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "THINGS THAT ARE YELLOW",
+        "level": 0,
+        "words": [
+          "MUSTARD",
+          "LEMON",
+          "MINION",
+          "CANARY"
+        ]
+      },
+      {
+        "label": "BUILDING ADD-ONS",
+        "level": 1,
+        "words": [
+          "WING",
+          "ADDITION",
+          "EXTENSION",
+          "ANNEX"
+        ]
+      },
+      {
+        "label": "CONCERNS FOR A DENTIST",
+        "level": 2,
+        "words": [
+          "TARTAR",
+          "CALCULUS",
+          "PLAQUE",
+          "CAVITY"
+        ]
+      },
+      {
+        "label": "WORDS THAT SEEM LONGER WRITTEN THAN SPOKEN",
+        "level": 3,
+        "words": [
+          "WEDNESDAY",
+          "WORCESTERSHIRE",
+          "COLONEL",
+          "PHARAOH"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "THINGS A DOG CAN FETCH",
+        "level": 0,
+        "words": [
+          "STICK",
+          "BONE",
+          "BALL",
+          "FRISBEE"
+        ]
+      },
+      {
+        "label": "CONCEAL",
+        "level": 1,
+        "words": [
+          "HIDE",
+          "BLOCK",
+          "OBSCURE",
+          "COVER"
+        ]
+      },
+      {
+        "label": "MAC KEYBOARD KEYS",
+        "level": 2,
+        "words": [
+          "SHIFT",
+          "COMMAND",
+          "CONTROL",
+          "OPTION"
+        ]
+      },
+      {
+        "label": "EXPERIENCE A MEMORY LAPSE",
+        "level": 3,
+        "words": [
+          "BLANK",
+          "SPACE",
+          "FLAKE",
+          "FORGET"
+        ]
+      }
+    ]
+  }
+}

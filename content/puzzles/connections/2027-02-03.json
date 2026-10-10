@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "PARTS OF AN AIRPORT",
+        "level": 0,
+        "words": [
+          "RUNWAY",
+          "TERMINAL",
+          "HANGAR",
+          "TARMAC"
+        ]
+      },
+      {
+        "label": "LEGAL TERMS",
+        "level": 1,
+        "words": [
+          "LAWSUIT",
+          "CLAIM",
+          "COMPLAINT",
+          "ACTION"
+        ]
+      },
+      {
+        "label": "THINGS A JUGGLER JUGGLES",
+        "level": 2,
+        "words": [
+          "CLUB",
+          "BEANBAG",
+          "TORCH",
+          "RING"
+        ]
+      },
+      {
+        "label": "WORDS ENDING IN CLOTHING",
+        "level": 3,
+        "words": [
+          "WINDSOCK",
+          "TURNCOAT",
+          "FOXGLOVE",
+          "GUMSHOE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "“DON’T DELAY!”",
+        "level": 0,
+        "words": [
+          "HURRY",
+          "NOW",
+          "STAT",
+          "PRONTO"
+        ]
+      },
+      {
+        "label": "OCEAN PHENOMENA",
+        "level": 1,
+        "words": [
+          "WAVE",
+          "CURRENT",
+          "DRIFT",
+          "TIDE"
+        ]
+      },
+      {
+        "label": "DUMBBELL EXERCISES",
+        "level": 2,
+        "words": [
+          "PRESS",
+          "FLY",
+          "CURL",
+          "ROW"
+        ]
+      },
+      {
+        "label": "PHILOSOPHER HOMOPHONES",
+        "level": 3,
+        "words": [
+          "LOCK",
+          "PANE",
+          "MARKS",
+          "RUSTLE"
+        ]
+      }
+    ]
+  }
+}

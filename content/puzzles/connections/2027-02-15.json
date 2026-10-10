@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "MASSIVE",
+        "level": 0,
+        "words": [
+          "SUPER",
+          "JUMBO",
+          "MONSTER",
+          "GIANT"
+        ]
+      },
+      {
+        "label": "USED WHEN SERVING SOUP",
+        "level": 1,
+        "words": [
+          "BOWL",
+          "SPOON",
+          "POT",
+          "LADLE"
+        ]
+      },
+      {
+        "label": "SOMEBODY",
+        "level": 2,
+        "words": [
+          "PARTY",
+          "PERSON",
+          "CHARACTER",
+          "INDIVIDUAL"
+        ]
+      },
+      {
+        "label": "SCI-FI FRANCHISES",
+        "level": 3,
+        "words": [
+          "TRON",
+          "ALIEN",
+          "DUNE",
+          "AVATAR"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "FRUITS",
+        "level": 0,
+        "words": [
+          "FIG",
+          "LIME",
+          "APRICOT",
+          "GRAPE"
+        ]
+      },
+      {
+        "label": "LUXURIOUS",
+        "level": 1,
+        "words": [
+          "GRAND",
+          "DELUXE",
+          "LAVISH",
+          "OPULENT"
+        ]
+      },
+      {
+        "label": "BEST ACTRESS OSCAR WINNERS",
+        "level": 2,
+        "words": [
+          "SWANK",
+          "STONE",
+          "FOSTER",
+          "BERRY"
+        ]
+      },
+      {
+        "label": "WHAT “GREEN” MIGHT MEAN",
+        "level": 3,
+        "words": [
+          "FRESH",
+          "ENVIOUS",
+          "NAIVE",
+          "UNWELL"
+        ]
+      }
+    ]
+  }
+}

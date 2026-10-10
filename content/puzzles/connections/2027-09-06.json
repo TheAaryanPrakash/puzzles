@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "DIVISION",
+        "level": 0,
+        "words": [
+          "WING",
+          "CHAPTER",
+          "BRANCH",
+          "ARM"
+        ]
+      },
+      {
+        "label": "IMPERIAL UNITS",
+        "level": 1,
+        "words": [
+          "STONE",
+          "PECK",
+          "TON",
+          "BUSHEL"
+        ]
+      },
+      {
+        "label": "M.L.B. TEAM MEMBER",
+        "level": 2,
+        "words": [
+          "ANGEL",
+          "RED",
+          "CUB",
+          "MET"
+        ]
+      },
+      {
+        "label": "INSECT HOMOPHONES",
+        "level": 3,
+        "words": [
+          "FLEE",
+          "BEATLE",
+          "AUNT",
+          "NAT"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "BOARD GAMES",
+        "level": 0,
+        "words": [
+          "CHESS",
+          "GO",
+          "CHECKERS",
+          "BACKGAMMON"
+        ]
+      },
+      {
+        "label": "MATTRESS SIZES",
+        "level": 1,
+        "words": [
+          "KING",
+          "TWIN",
+          "QUEEN",
+          "FULL"
+        ]
+      },
+      {
+        "label": "THINGS THAT ARE RED",
+        "level": 2,
+        "words": [
+          "FIRE TRUCK",
+          "RUBY",
+          "CHERRY",
+          "STOP SIGN"
+        ]
+      },
+      {
+        "label": "THINGS WITH KEYS",
+        "level": 3,
+        "words": [
+          "LOCKSMITH",
+          "PIANO",
+          "FLORIDA",
+          "CRYPTOGRAPHY"
+        ]
+      }
+    ]
+  }
+}

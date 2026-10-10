@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "KINDS OF SHIRTS",
+        "level": 0,
+        "words": [
+          "POLO",
+          "OXFORD",
+          "TEE",
+          "FLANNEL"
+        ]
+      },
+      {
+        "label": "SPHERES IN MILK TEA",
+        "level": 1,
+        "words": [
+          "BOBA",
+          "BUBBLE",
+          "PEARL",
+          "TAPIOCA"
+        ]
+      },
+      {
+        "label": "MARINE INVERTEBRATES, FAMILIARLY",
+        "level": 2,
+        "words": [
+          "STAR",
+          "SPONGE",
+          "CORAL",
+          "JELLY"
+        ]
+      },
+      {
+        "label": "STARTS OF PASTA NAMES",
+        "level": 3,
+        "words": [
+          "FETT",
+          "PENN",
+          "TORTE",
+          "ZIT"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "EAT VORACIOUSLY",
+        "level": 0,
+        "words": [
+          "SCARF",
+          "WOLF",
+          "DOWN",
+          "INHALE"
+        ]
+      },
+      {
+        "label": "AREAS OF ACADEMIC FOCUS",
+        "level": 1,
+        "words": [
+          "MAJOR",
+          "DEGREE",
+          "CONCENTRATION",
+          "MINOR"
+        ]
+      },
+      {
+        "label": "UNIVERSAL",
+        "level": 2,
+        "words": [
+          "BLANKET",
+          "GENERAL",
+          "BROAD",
+          "SWEEPING"
+        ]
+      },
+      {
+        "label": "SPACE ___",
+        "level": 3,
+        "words": [
+          "CADET",
+          "BAR",
+          "HEATER",
+          "STATION"
+        ]
+      }
+    ]
+  }
+}

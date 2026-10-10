@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "TIME PERIODS",
+        "level": 0,
+        "words": [
+          "YEAR",
+          "DECADE",
+          "CENTURY",
+          "MILLENNIUM"
+        ]
+      },
+      {
+        "label": "BREAKFAST FOODS",
+        "level": 1,
+        "words": [
+          "PANCAKE",
+          "CEREAL",
+          "OMELET",
+          "WAFFLE"
+        ]
+      },
+      {
+        "label": "PAINTERS",
+        "level": 2,
+        "words": [
+          "CLOSE",
+          "BACON",
+          "MUNCH",
+          "WHISTLER"
+        ]
+      },
+      {
+        "label": "ONE IN A DOZEN",
+        "level": 3,
+        "words": [
+          "ROSE",
+          "MONTH",
+          "EGG",
+          "JUROR"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "SORE TO THE TOUCH",
+        "level": 0,
+        "words": [
+          "RAW",
+          "DELICATE",
+          "SENSITIVE",
+          "TENDER"
+        ]
+      },
+      {
+        "label": "RESTAURANT COURSES",
+        "level": 1,
+        "words": [
+          "DESSERT",
+          "SIDE",
+          "STARTER",
+          "MAIN"
+        ]
+      },
+      {
+        "label": "ANIMAL HOMOPHONES",
+        "level": 2,
+        "words": [
+          "BARE",
+          "NEW",
+          "MOUSSE",
+          "DEAR"
+        ]
+      },
+      {
+        "label": "RED ___",
+        "level": 3,
+        "words": [
+          "CARPET",
+          "MEAT",
+          "DELICIOUS",
+          "TAPE"
+        ]
+      }
+    ]
+  }
+}

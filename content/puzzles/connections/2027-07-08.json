@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "HIGHLY SKILLED",
+        "level": 0,
+        "words": [
+          "ACE",
+          "CRACKERJACK",
+          "HOTSHOT",
+          "EXPERT"
+        ]
+      },
+      {
+        "label": "USED TO FIX A FLAT",
+        "level": 1,
+        "words": [
+          "JACK",
+          "WRENCH",
+          "TIRE",
+          "CHOCK"
+        ]
+      },
+      {
+        "label": "JOAQUIN PHOENIX MOVIES",
+        "level": 2,
+        "words": [
+          "JOKER",
+          "HER",
+          "SIGNS",
+          "GLADIATOR"
+        ]
+      },
+      {
+        "label": "WORDS STARTING WITH MUSIC GENRES",
+        "level": 3,
+        "words": [
+          "POPCORN",
+          "RAPTURE",
+          "SOULMATE",
+          "ROCKETRY"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "TERMS OF ENDEARMENT",
+        "level": 0,
+        "words": [
+          "LOVE",
+          "PUMPKIN",
+          "TREASURE",
+          "DARLING"
+        ]
+      },
+      {
+        "label": "THINGS YOU CAN DO WITH YOUR EYELIDS",
+        "level": 1,
+        "words": [
+          "BAT",
+          "BLINK",
+          "FLUTTER",
+          "WINK"
+        ]
+      },
+      {
+        "label": "SPORTS CARS",
+        "level": 2,
+        "words": [
+          "SPIDER",
+          "DIABLO",
+          "VIPER",
+          "MUSTANG"
+        ]
+      },
+      {
+        "label": "___ HUNT",
+        "level": 3,
+        "words": [
+          "EGG",
+          "WITCH",
+          "JOB",
+          "SCAVENGER"
+        ]
+      }
+    ]
+  }
+}

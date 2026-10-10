@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "WALK HEAVILY",
+        "level": 0,
+        "words": [
+          "LUMBER",
+          "TRUDGE",
+          "STOMP",
+          "PLOD"
+        ]
+      },
+      {
+        "label": "FLEXIBLE",
+        "level": 1,
+        "words": [
+          "PLASTIC",
+          "LIMBER",
+          "ELASTIC",
+          "SUPPLE"
+        ]
+      },
+      {
+        "label": "FENCING EQUIPMENT",
+        "level": 2,
+        "words": [
+          "FOIL",
+          "GLOVE",
+          "MASK",
+          "JACKET"
+        ]
+      },
+      {
+        "label": "WORDS BEGINNING WITH INSTRUMENTS",
+        "level": 3,
+        "words": [
+          "CELLOPHANE",
+          "ORGANISM",
+          "HARPOON",
+          "BASSINET"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "CHEESES, FAMILIARLY",
+        "level": 0,
+        "words": [
+          "BLUE",
+          "AMERICAN",
+          "SWISS",
+          "JACK"
+        ]
+      },
+      {
+        "label": "TRACK AND FIELD EQUIPMENT",
+        "level": 1,
+        "words": [
+          "POLE",
+          "HURDLE",
+          "HAMMER",
+          "JAVELIN"
+        ]
+      },
+      {
+        "label": "KINDS OF HEELS",
+        "level": 2,
+        "words": [
+          "CUBAN",
+          "KITTEN",
+          "WEDGE",
+          "STILETTO"
+        ]
+      },
+      {
+        "label": "DOUBLE ___",
+        "level": 3,
+        "words": [
+          "SPACE",
+          "DUTCH",
+          "JEOPARDY",
+          "DATE"
+        ]
+      }
+    ]
+  }
+}

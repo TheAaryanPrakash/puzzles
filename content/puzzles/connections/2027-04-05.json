@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "BEDS",
+        "level": 0,
+        "words": [
+          "CANOPY",
+          "MURPHY",
+          "BUNK",
+          "TRUNDLE"
+        ]
+      },
+      {
+        "label": "FAMOUS BROTHERS",
+        "level": 1,
+        "words": [
+          "MARX",
+          "WRIGHT",
+          "JONAS",
+          "WARNER"
+        ]
+      },
+      {
+        "label": "HONDAS",
+        "level": 2,
+        "words": [
+          "PASSPORT",
+          "PILOT",
+          "ACCORD",
+          "CIVIC"
+        ]
+      },
+      {
+        "label": "VIDEO GAME CHARACTERS",
+        "level": 3,
+        "words": [
+          "LINK",
+          "SONIC",
+          "CRASH",
+          "MARIO"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "STOOL PIGEON",
+        "level": 0,
+        "words": [
+          "RAT",
+          "CANARY",
+          "SNITCH",
+          "FINK"
+        ]
+      },
+      {
+        "label": "CRAM INTO A TIGHT SPACE",
+        "level": 1,
+        "words": [
+          "PACK",
+          "JAM",
+          "STUFF",
+          "SQUEEZE"
+        ]
+      },
+      {
+        "label": "YOGA POSES",
+        "level": 2,
+        "words": [
+          "MOUNTAIN",
+          "CAT",
+          "COW",
+          "TRIANGLE"
+        ]
+      },
+      {
+        "label": "___FLY",
+        "level": 3,
+        "words": [
+          "DRAGON",
+          "BUTTER",
+          "HORSE",
+          "FIRE"
+        ]
+      }
+    ]
+  }
+}

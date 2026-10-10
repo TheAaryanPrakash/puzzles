@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "DESSERTS",
+        "level": 0,
+        "words": [
+          "COBBLER",
+          "PIE",
+          "TART",
+          "CAKE"
+        ]
+      },
+      {
+        "label": "OCCUPATIONAL SURNAMES",
+        "level": 1,
+        "words": [
+          "SMITH",
+          "FISHER",
+          "MASON",
+          "MILLER"
+        ]
+      },
+      {
+        "label": "ALTER DECEPTIVELY",
+        "level": 2,
+        "words": [
+          "FUDGE",
+          "DOCTOR",
+          "TWIST",
+          "DISTORT"
+        ]
+      },
+      {
+        "label": "SQUARE ___",
+        "level": 3,
+        "words": [
+          "MEAL",
+          "ROOT",
+          "DANCE",
+          "ONE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "DRINK VESSELS",
+        "level": 0,
+        "words": [
+          "STEIN",
+          "TUMBLER",
+          "GOBLET",
+          "SNIFTER"
+        ]
+      },
+      {
+        "label": "WOODWINDS",
+        "level": 1,
+        "words": [
+          "FLUTE",
+          "OBOE",
+          "CLARINET",
+          "SAXOPHONE"
+        ]
+      },
+      {
+        "label": "AMERICAN POETS",
+        "level": 2,
+        "words": [
+          "POUND",
+          "BISHOP",
+          "FROST",
+          "OLDS"
+        ]
+      },
+      {
+        "label": "CONSECUTIVE DOUBLE LETTERS",
+        "level": 3,
+        "words": [
+          "COFFEE",
+          "FRICASSEE",
+          "BASSOON",
+          "BALLOON"
+        ]
+      }
+    ]
+  }
+}

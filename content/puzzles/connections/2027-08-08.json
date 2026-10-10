@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "BEVERAGES",
+        "level": 0,
+        "words": [
+          "JUICE",
+          "PUNCH",
+          "MILK",
+          "SODA"
+        ]
+      },
+      {
+        "label": "CARE FOR A PLANT",
+        "level": 1,
+        "words": [
+          "PRUNE",
+          "POT",
+          "WATER",
+          "FERTILIZE"
+        ]
+      },
+      {
+        "label": "ITEM SOLD IN PAIRS",
+        "level": 2,
+        "words": [
+          "SKI",
+          "SOCK",
+          "EARBUD",
+          "BOOKEND"
+        ]
+      },
+      {
+        "label": "BUGS PLUS STARTING LETTER",
+        "level": 3,
+        "words": [
+          "PANT",
+          "SMITE",
+          "BLOUSE",
+          "STICK"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "BRIEF MOMENT",
+        "level": 0,
+        "words": [
+          "FLASH",
+          "WINK",
+          "HEARTBEAT",
+          "JIFF"
+        ]
+      },
+      {
+        "label": "DISPUTE",
+        "level": 1,
+        "words": [
+          "CLASH",
+          "TIFF",
+          "SCRAP",
+          "TANGLE"
+        ]
+      },
+      {
+        "label": "SLANG FOR ZERO",
+        "level": 2,
+        "words": [
+          "ZIP",
+          "LOVE",
+          "SQUAT",
+          "JACK"
+        ]
+      },
+      {
+        "label": "ACCESSORIES FOR MR. PEANUT",
+        "level": 3,
+        "words": [
+          "SPAT",
+          "CANE",
+          "MONOCLE",
+          "TOP HAT"
+        ]
+      }
+    ]
+  }
+}

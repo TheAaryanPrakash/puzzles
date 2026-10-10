@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "ACCESSORIES",
+        "level": 0,
+        "words": [
+          "WATCH",
+          "TIE",
+          "BRACELET",
+          "BELT"
+        ]
+      },
+      {
+        "label": "COMEDIAN’S OUTPUT",
+        "level": 1,
+        "words": [
+          "SKETCH",
+          "ROUTINE",
+          "BIT",
+          "JOKE"
+        ]
+      },
+      {
+        "label": "ATTRACTION",
+        "level": 2,
+        "words": [
+          "DRAW",
+          "CHARM",
+          "PULL",
+          "APPEAL"
+        ]
+      },
+      {
+        "label": "TWO LETTERS + NUMBER",
+        "level": 3,
+        "words": [
+          "FREIGHT",
+          "OFTEN",
+          "CANINE",
+          "STONE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "WAY OF SOLVING A PROBLEM",
+        "level": 0,
+        "words": [
+          "SOLUTION",
+          "FIX",
+          "ANSWER",
+          "REMEDY"
+        ]
+      },
+      {
+        "label": "COLLECT, AS FROM AN ORCHARD",
+        "level": 1,
+        "words": [
+          "PICK",
+          "HARVEST",
+          "REAP",
+          "GATHER"
+        ]
+      },
+      {
+        "label": "PHOTOSHOP TOOLS",
+        "level": 2,
+        "words": [
+          "EYEDROPPER",
+          "ERASER",
+          "MAGIC WAND",
+          "LASSO"
+        ]
+      },
+      {
+        "label": "OBJECTS THAT MAY BE RIGHT- OR LEFT-HANDED",
+        "level": 3,
+        "words": [
+          "GUITAR",
+          "CAN OPENER",
+          "BASEBALL GLOVE",
+          "GOLF CLUB"
+        ]
+      }
+    ]
+  }
+}
