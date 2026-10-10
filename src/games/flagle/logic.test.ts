@@ -1,6 +1,4 @@
 import { describe, it, expect } from "vitest";
-import { readFileSync } from "node:fs";
-import { resolve } from "node:path";
 import {
   isWon,
   isLost,
@@ -15,15 +13,20 @@ import {
   type FlagleState,
 } from "./logic";
 
-// Read with node:fs rather than a static JSON import: the file lives under public/, outside
-// tsconfig.app.json's "src" rootDir, so a static import would fail `tsc -b` during `pnpm build`.
-// Vitest's root is the repo root, so this resolves the same way `pnpm test` is always invoked.
-const countryNamesPath = resolve(process.cwd(), "public/assets/shared/country-names.json");
-const countryNames = JSON.parse(readFileSync(countryNamesPath, "utf8")) as Record<
-  string,
-  { name: string; aliases: string[] }
->;
-const POOL_CODES = Object.keys(countryNames);
+// A handful of real pool entries, including ones that could plausibly trip up a naive "leaks the
+// answer" check (codes that are common short words, names that share letters with the UI's own
+// text). The exhaustive, whole-pool version of this property (every one of the 231 generated
+// countries) lives in scripts/flagle/content.test.ts instead: it needs node:fs to read
+// public/assets/shared/country-names.json, which sits outside tsconfig.app.json's "src" rootDir —
+// fine for a scripts/ test (not part of the `tsc -b` program), not fine for one under src/.
+const SAMPLE_COUNTRIES: Record<string, string> = {
+  AG: "Antigua and Barbuda",
+  IN: "India",
+  US: "United States",
+  FR: "France",
+  CI: "Ivory Coast",
+};
+const POOL_CODES = Object.keys(SAMPLE_COUNTRIES);
 
 describe("isWon / isLost / isOver", () => {
   it("is won once the target has been guessed", () => {
@@ -160,11 +163,11 @@ describe("buildSummary", () => {
 
   it("never contains the target's ISO code or name, for every country in the pool", () => {
     for (const code of POOL_CODES) {
-      const other = code === "AF" ? "ZW" : "AF"; // any other pool code as a filler wrong guess
+      const other = POOL_CODES.find((c) => c !== code)!; // any other pool code as a filler wrong guess
       const state: FlagleState = { guesses: [other, code] };
       const summary = buildSummary(state, code, 42);
       expect(summary).not.toContain(code);
-      expect(summary).not.toContain(countryNames[code].name);
+      expect(summary).not.toContain(SAMPLE_COUNTRIES[code]);
     }
   });
 });
