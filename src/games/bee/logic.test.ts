@@ -4,6 +4,7 @@ import {
   RANKS,
   GENIUS_INDEX,
   buildSummary,
+  initialOuterOrder,
   isPangram,
   isQueenBee,
   normalizeWord,
@@ -151,6 +152,22 @@ describe("state restorability (edge cases 11 and 13)", () => {
     const state = { ...DEFAULT_STATE, ...playState };
     expect(state.found).toEqual([]);
     expect(() => totalScore(state.found, puzzle)).not.toThrow();
+  });
+});
+
+describe("initialOuterOrder", () => {
+  it("is deterministic for the same puzzle and date", () => {
+    expect(initialOuterOrder(puzzle, "2026-10-17")).toEqual(initialOuterOrder(puzzle, "2026-10-17"));
+  });
+  it("is a permutation of the outer letters", () => {
+    expect(initialOuterOrder(puzzle, "2026-10-17").slice().sort()).toEqual(
+      puzzle.outer.slice().sort(),
+    );
+  });
+  it("differs across different dates (not always alphabetical)", () => {
+    const a = initialOuterOrder(puzzle, "2026-10-17");
+    const b = initialOuterOrder(puzzle, "2026-11-20");
+    expect(a).not.toEqual(b);
   });
 });
 

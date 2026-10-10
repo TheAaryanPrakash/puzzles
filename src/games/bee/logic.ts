@@ -1,3 +1,5 @@
+import { mulberry32, shuffle } from "../../lib/daily";
+
 export interface BeePuzzle {
   center: string;
   outer: string[];
@@ -145,6 +147,22 @@ export function rankFor(score: number, puzzle: BeePuzzle): RankStatus {
 /** "Won" per the task contract: reached Genius (or above) by the time the play is finished. */
 export function reachedGenius(score: number, puzzle: BeePuzzle): boolean {
   return score >= rankThreshold(RANKS[GENIUS_INDEX], puzzle);
+}
+
+function hashString(input: string): number {
+  let h = 5381;
+  for (let i = 0; i < input.length; i++) h = (h * 33) ^ input.charCodeAt(i);
+  return h >>> 0;
+}
+
+/**
+ * Deterministic starting order for the 6 outer hexes — same across her devices for a given
+ * puzzle day, but different from day to day, so the hive doesn't always start alphabetical.
+ * Re-shuffling via the Shuffle button is intentionally ephemeral UI state, not persisted here.
+ */
+export function initialOuterOrder(puzzle: BeePuzzle, date: string): string[] {
+  const seed = hashString(`${date}:${puzzle.center}:${puzzle.outer.join("")}`);
+  return shuffle(puzzle.outer, mulberry32(seed));
 }
 
 /**
