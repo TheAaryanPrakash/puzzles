@@ -99,8 +99,8 @@ is excluded the same way, while Hong Kong (SAR of China but ~1,030 km², with th
 peninsula + islands shape) is **kept**, since it clears both the "big enough to recognise" and "a
 distinct, famous outline" bars even though it's also an SAR.
 
-The full excluded list (30 codes) with reasons is generated into `scripts/out/worldle-samples.md` by
-the generator itself, not hand-maintained in two places.
+The full excluded list (~30 codes) with reasons is written into `scripts/out/worldle-samples.md` by
+the generator itself.
 
 Kosovo, Taiwan, Hong Kong, Palestine and Western Sahara — flagged in the shared data agent's own
 README as political-geography choices already baked into `countries.json` — are **not** touched
