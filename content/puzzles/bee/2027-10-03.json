@@ -1,0 +1,45 @@
+{
+  "payload": {
+    "center": "O",
+    "outer": [
+      "C",
+      "I",
+      "N",
+      "T",
+      "X",
+      "Y"
+    ],
+    "answers": [
+      "COCO",
+      "COCOON",
+      "COIN",
+      "CONCOCTION",
+      "CONN",
+      "COTTON",
+      "ICON",
+      "ICONIC",
+      "INTO",
+      "IONIC",
+      "NOON",
+      "NOTION",
+      "ONION",
+      "ONTO",
+      "ONYX",
+      "OTTO",
+      "OXYTOCIN",
+      "TONIC",
+      "TONY",
+      "TOON",
+      "TOOT",
+      "TOXIC",
+      "TOXICITY",
+      "TOXIN",
+      "TYCOON"
+    ],
+    "pangrams": [
+      "OXYTOCIN"
+    ],
+    "maxScore": 100
+  },
+  "reserve": null
+}

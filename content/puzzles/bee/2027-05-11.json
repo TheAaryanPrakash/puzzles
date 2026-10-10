@@ -1,0 +1,45 @@
+{
+  "payload": {
+    "center": "O",
+    "outer": [
+      "C",
+      "E",
+      "L",
+      "M",
+      "P",
+      "X"
+    ],
+    "answers": [
+      "CELLO",
+      "COCO",
+      "COLE",
+      "COME",
+      "COMP",
+      "COMPEL",
+      "COMPLEX",
+      "COOL",
+      "COOP",
+      "COPE",
+      "EXPO",
+      "LOCO",
+      "LOOM",
+      "LOOP",
+      "MEMO",
+      "MOLE",
+      "PEOPLE",
+      "POEM",
+      "POLE",
+      "POLL",
+      "POLO",
+      "POMP",
+      "POOL",
+      "POOP",
+      "POPE"
+    ],
+    "pangrams": [
+      "COMPLEX"
+    ],
+    "maxScore": 52
+  },
+  "reserve": null
+}

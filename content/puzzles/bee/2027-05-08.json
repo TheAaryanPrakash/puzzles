@@ -1,0 +1,58 @@
+{
+  "payload": {
+    "center": "I",
+    "outer": [
+      "A",
+      "C",
+      "D",
+      "O",
+      "R",
+      "T"
+    ],
+    "answers": [
+      "ACACIA",
+      "ACID",
+      "ACIDIC",
+      "ADDICT",
+      "AORTIC",
+      "ARCADIA",
+      "ARCTIC",
+      "ARIA",
+      "ARID",
+      "ATTIC",
+      "CACTI",
+      "CARDIAC",
+      "CAROTID",
+      "CIAO",
+      "CIRCA",
+      "CORRIDOR",
+      "CRITIC",
+      "DICTATOR",
+      "DIDACTIC",
+      "DIRT",
+      "DITTO",
+      "IDIOT",
+      "IDIOTIC",
+      "IOTA",
+      "RADIATOR",
+      "RADIO",
+      "RAID",
+      "RATIO",
+      "RIOT",
+      "TACIT",
+      "TACTIC",
+      "TIARA",
+      "TORI",
+      "TRAIT",
+      "TRAITOR",
+      "TRIAD",
+      "TRIO"
+    ],
+    "pangrams": [
+      "CAROTID",
+      "DICTATOR"
+    ],
+    "maxScore": 188
+  },
+  "reserve": null
+}
