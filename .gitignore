@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+# Claude Code worktrees for parallel agents
+.claude/worktrees/
+.claude/settings.local.json
+
+# Python caches inside skills, and archives
+__pycache__/
+*.pyc
+.coverage
+*.zip
