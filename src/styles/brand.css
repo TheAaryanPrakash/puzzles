@@ -1,0 +1,132 @@
+/* Sansita's Puzzles — design tokens.
+   Token NAMES here are frozen (see CLAUDE.md "Parallel work rules"): the design agent may change
+   values, never rename or remove a token. Game tiers (--game-*, --tile-*) get their real values
+   from src/games/<id>/theme.css under [data-game="<id>"] — these are neutral placeholders. */
+
+@import "tailwindcss";
+
+:root {
+  /* ───────────── site tier ───────────── */
+  --brand-bg: #fdf6ec;
+  --brand-fg: #2b2320;
+  --brand-surface: #ffffff;
+  --brand-surface-2: #f6efe3;
+  --brand-border: #e8ddcc;
+  --brand-accent: #ef8354;
+  --brand-accent-fg: #ffffff;
+  --brand-muted: #8a7f70;
+  --brand-success: #4caf7d;
+  --brand-danger: #e0564f;
+
+  --brand-font: "Fredoka", sans-serif;
+  --brand-font-body: "Nunito", sans-serif;
+
+  --brand-space-1: 0.25rem;
+  --brand-space-2: 0.5rem;
+  --brand-space-3: 0.75rem;
+  --brand-space-4: 1rem;
+  --brand-space-5: 1.5rem;
+  --brand-space-6: 2rem;
+  --brand-space-7: 3rem;
+
+  --brand-radius-sm: 0.5rem;
+  --brand-radius-md: 0.875rem;
+  --brand-radius-lg: 1.5rem;
+  --brand-radius-full: 999px;
+
+  --brand-duration-fast: 120ms;
+  --brand-duration-base: 220ms;
+  --brand-duration-slow: 420ms;
+  --brand-ease: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* ───────────── game tier (defaults; each game overrides under [data-game]) ───────────── */
+  --game-bg: var(--brand-bg);
+  --game-fg: var(--brand-fg);
+  --game-surface: var(--brand-surface);
+  --game-surface-2: var(--brand-surface-2);
+  --game-border: var(--brand-border);
+  --game-accent: var(--brand-accent);
+  --game-accent-fg: var(--brand-accent-fg);
+  --game-muted: var(--brand-muted);
+  --game-font: var(--brand-font);
+
+  --tile-radius: var(--brand-radius-sm);
+  --tile-empty: var(--game-surface);
+  --tile-filled: var(--game-surface-2);
+  --tile-fg: var(--game-fg);
+  --tile-selected: var(--game-accent);
+  --tile-correct: #6aaa64;
+  --tile-present: #c9b458;
+  --tile-absent: #787c7e;
+}
+
+@theme inline {
+  --color-brand-bg: var(--brand-bg);
+  --color-brand-fg: var(--brand-fg);
+  --color-brand-surface: var(--brand-surface);
+  --color-brand-surface-2: var(--brand-surface-2);
+  --color-brand-border: var(--brand-border);
+  --color-brand-accent: var(--brand-accent);
+  --color-brand-accent-fg: var(--brand-accent-fg);
+  --color-brand-muted: var(--brand-muted);
+  --color-brand-success: var(--brand-success);
+  --color-brand-danger: var(--brand-danger);
+
+  --color-game-bg: var(--game-bg);
+  --color-game-fg: var(--game-fg);
+  --color-game-surface: var(--game-surface);
+  --color-game-surface-2: var(--game-surface-2);
+  --color-game-border: var(--game-border);
+  --color-game-accent: var(--game-accent);
+  --color-game-accent-fg: var(--game-accent-fg);
+  --color-game-muted: var(--game-muted);
+
+  --color-tile-empty: var(--tile-empty);
+  --color-tile-filled: var(--tile-filled);
+  --color-tile-fg: var(--tile-fg);
+  --color-tile-selected: var(--tile-selected);
+  --color-tile-correct: var(--tile-correct);
+  --color-tile-present: var(--tile-present);
+  --color-tile-absent: var(--tile-absent);
+
+  --font-brand: var(--brand-font);
+  --font-brand-body: var(--brand-font-body);
+  --font-game: var(--game-font);
+
+  --radius-brand-sm: var(--brand-radius-sm);
+  --radius-brand-md: var(--brand-radius-md);
+  --radius-brand-lg: var(--brand-radius-lg);
+  --radius-brand-full: var(--brand-radius-full);
+  --radius-tile: var(--tile-radius);
+
+  --spacing-brand-1: var(--brand-space-1);
+  --spacing-brand-2: var(--brand-space-2);
+  --spacing-brand-3: var(--brand-space-3);
+  --spacing-brand-4: var(--brand-space-4);
+  --spacing-brand-5: var(--brand-space-5);
+  --spacing-brand-6: var(--brand-space-6);
+  --spacing-brand-7: var(--brand-space-7);
+
+  --duration-brand-fast: var(--brand-duration-fast);
+  --duration-brand-base: var(--brand-duration-base);
+  --duration-brand-slow: var(--brand-duration-slow);
+  --ease-brand: var(--brand-ease);
+}
+
+html,
+body {
+  background: var(--brand-bg);
+  color: var(--brand-fg);
+  font-family: var(--brand-font-body);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

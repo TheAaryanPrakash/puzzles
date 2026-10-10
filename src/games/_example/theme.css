@@ -1,0 +1,15 @@
+[data-game="_example"] {
+  --game-bg: var(--brand-bg);
+  --game-fg: var(--brand-fg);
+  --game-surface: var(--brand-surface);
+  --game-surface-2: var(--brand-surface-2);
+  --game-border: var(--brand-border);
+  --game-accent: #8a7f70;
+  --game-accent-fg: #ffffff;
+  --game-muted: var(--brand-muted);
+  --game-font: "Inter", sans-serif;
+
+  --tile-correct: #4caf7d;
+  --tile-present: #c9b458;
+  --tile-absent: #787c7e;
+}
