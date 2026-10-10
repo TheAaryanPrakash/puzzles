@@ -52,27 +52,44 @@ Neighbor order is shuffled with the day's `mulberry32` stream so different days 
 A node-expansion budget forces a fresh random restart (new start cell) rather than exploring a bad
 branch forever; this comfortably finds full paths on 8×8 within a handful of restarts.
 
-### Checkpoints and uniqueness (`scripts/zip/hamiltonian.ts: countSolutions`, `scripts/zip/generate.ts`)
-`countSolutions` is the state-space-tree solver from the ITB paper's model: DFS that extends a
+### Checkpoints and uniqueness (`scripts/zip/hamiltonian.ts: findSolutions/countSolutions`, `scripts/zip/generate.ts`)
+`findSolutions` is the state-space-tree solver from the ITB paper's model: DFS that extends a
 simple path one cell at a time, pruning immediately if a candidate cell is a checkpoint visited out
-of order, pruning via the same connectivity check as the generator, and capping at 2 found solutions
-(we only need "is it exactly 1", never the full count). The win condition it checks is the full rule
-set: every cell visited, checkpoints hit in increasing order, **and the path's last cell is the
-highest checkpoint** (matching "ending at the highest number" — see Edge cases below).
+of order, pruning via the same connectivity check as the generator, and capping at a small number of
+found solutions (we rarely need more than 2 — just "is it exactly 1?"). The win condition it checks
+is the full rule set: every cell visited, checkpoints hit in increasing order, **and the path's last
+cell is the highest checkpoint** (matching "ending at the highest number" — see Edge cases below).
+`countSolutions` is the same search when only the count is needed.
 
-Generation per day, per CLAUDE.md's "add constraints until there is exactly one solution":
+Generation per day, per CLAUDE.md's "add constraints until there is exactly one solution" — directly
+implementing Puzzle Madness's and Rikudo's **search for a second solution, then eliminate it**
+technique (see §2–3), rather than guessing constraints blindly:
 1. Build a random Hamiltonian path for the day's size.
-2. Start with a baseline checkpoint count (one per row, roughly matching real Zip's density) and
-   place them at evenly-spaced-with-jitter positions along the path, always including the first and
-   last cell.
-3. Run `countSolutions` (capped at 2, with a node budget). If it comes back 1, done.
-4. Otherwise add one more checkpoint (at the path's current largest gap) and retry.
-5. If checkpoints reach a ceiling (half the grid) without reaching uniqueness, add a wall on a
-   "chord" edge (two grid-adjacent cells that are **not** consecutive on the solution path, so the
-   true solution can never cross it) and reset to the baseline checkpoint count, then repeat from
-   step 3.
-6. If a size runs out of attempts entirely, build a brand-new random path and start over. The whole
-   generator throws if a day can't be solved within the attempt budget (per CLAUDE.md).
+2. Start with a baseline checkpoint count (one per row, roughly matching real Zip's density),
+   placed at evenly-spaced-with-jitter positions along the path, always including the first and
+   last cell. **Checkpoints are then left at this baseline** — see why below.
+3. Run `findSolutions` (capped at 2, with a node budget). If it comes back with exactly 1, done.
+4. Otherwise it came back with (at least) one *other* valid Hamiltonian path. Take that alternate
+   path and find one edge it steps across that the true solution never does
+   (`pickDifferingEdge`), and wall it off. That specific alternate is now impossible, and the true
+   solution — which never used that edge — is untouched. Go back to step 3.
+5. Only if there's no such edge left to try (walls have run out, or the search returned no
+   alternate to learn from) does a checkpoint get added instead, at the path's current largest gap.
+6. If a path exhausts its attempt budget entirely, build a brand-new random path and start over.
+   The whole generator throws if a day can't be solved within the attempt budget (per CLAUDE.md).
+
+**Checkpoints stay sparse; walls carry the uniqueness burden.** An earlier version of this
+generator tried to grow checkpoints first and treat walls as the fallback (closer to how the
+baseline requirements read), with walls picked as arbitrary "chord" edges not on the solution path.
+Measuring it directly: a uniformly random Hamiltonian path on a 6×6 grid routinely needed numbering
+**15–20 of the 36 cells** before checkpoints alone forced uniqueness (verified with
+`countSolutions` while iterating on this file — see the git history of this section), because a
+random grid-graph path has vastly more alternate Hamiltonian paths than a hand-designed one.
+Arbitrary chord walls fared even worse (often 15+ walls). Flipping the priority — try a
+witness-driven wall first, only grow checkpoints when that's exhausted — brought every measured
+puzzle back down to baseline checkpoints (`size - 1`) plus roughly 3–15 walls, because each wall is
+chosen to kill a *specific, confirmed* alternate solution instead of guessing. This still means
+Zip boards here lean on walls more than LinkedIn's hand-authored ones typically do; see HANDOFF.md.
 
 This is deterministic: a single `mulberry32(51)` stream (seed 51, per the task prompt) is advanced
 sequentially across all `SCHEDULE_DAYS` days in date order, so re-running the generator reproduces

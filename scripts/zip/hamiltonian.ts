@@ -111,41 +111,6 @@ export function buildHamiltonianPath(rng: () => number, size: number): Cell[] | 
   return null;
 }
 
-/** Up to 2 for a "chord" edge to add as a wall: grid-adjacent cells not consecutive on `path`. */
-function chordCandidates(size: number, path: Cell[], existingWalls: Wall[]): Wall[] {
-  const pathIndex = new Map<string, number>();
-  path.forEach((c, i) => pathIndex.set(`${c.row},${c.col}`, i));
-  const candidates: Wall[] = [];
-  for (let r = 0; r < size; r++) {
-    for (let c = 0; c < size; c++) {
-      const a: Cell = { row: r, col: c };
-      const right: Cell = { row: r, col: c + 1 };
-      const down: Cell = { row: r + 1, col: c };
-      for (const b of [right, down]) {
-        if (b.row >= size || b.col >= size) continue;
-        const ia = pathIndex.get(`${a.row},${a.col}`)!;
-        const ib = pathIndex.get(`${b.row},${b.col}`)!;
-        if (Math.abs(ia - ib) === 1) continue; // would block the true solution
-        if (hasWall(existingWalls, a, b)) continue;
-        candidates.push({ a, b });
-      }
-    }
-  }
-  return candidates;
-}
-
-/** Picks one random wall candidate (a chord edge), or `null` if there are none left to try. */
-export function pickRandomWall(
-  size: number,
-  path: Cell[],
-  existingWalls: Wall[],
-  rng: () => number,
-): Wall | null {
-  const candidates = chordCandidates(size, path, existingWalls);
-  if (candidates.length === 0) return null;
-  return shuffle(candidates, rng)[0];
-}
-
 /**
  * Picks `count` checkpoints along `path`: always the first and last cell, plus `count - 2`
  * intermediate positions spaced roughly evenly along the path with a little random jitter (so
@@ -205,25 +170,28 @@ export function growCheckpoints(path: Cell[], checkpoints: Checkpoint[]): Checkp
 export type SolutionCount = number; // capped at `cap`
 
 /**
- * Counts Hamiltonian paths that start at `checkpoints[0]`, cover every cell, hit every checkpoint
- * in increasing numeric order, never cross a wall, and end exactly on the last checkpoint — the
- * full win condition (see logic.ts `isSolved`). Stops exploring once `cap` solutions are found, so
- * this only ever needs to answer "is it unique (1), or not (0 or ≥2)".
+ * Finds up to `cap` Hamiltonian paths that start at `checkpoints[0]`, cover every cell, hit every
+ * checkpoint in increasing numeric order, never cross a wall, and end exactly on the last
+ * checkpoint — the full win condition (see logic.ts `isSolved`). Stops exploring once `cap`
+ * solutions are found. `countSolutions` below is the common case (just "is it unique?"); this is
+ * exported separately for the generator's uniqueness-by-search loop, which needs an actual
+ * alternate solution to know *which* edge to wall off (see RESEARCH.md's "Checkpoints and
+ * uniqueness").
  */
-export function countSolutions(
+export function findSolutions(
   size: number,
   checkpoints: Checkpoint[],
   walls: Wall[],
   cap: number,
   nodeBudget: number,
-): { count: SolutionCount; budgetExceeded: boolean } {
+): { solutions: Cell[][]; budgetExceeded: boolean } {
   const total = size * size;
   const puzzle = { size, checkpoints, walls, solution: [] as Cell[] };
   const start = checkpoints[0];
   const visited = new Uint8Array(total);
   const path: Cell[] = [start];
   visited[start.row * size + start.col] = 1;
-  let found = 0;
+  const solutions: Cell[][] = [];
   let nodes = 0;
   let budgetExceeded = false;
 
@@ -260,18 +228,18 @@ export function countSolutions(
   }
 
   function dfs(current: Cell): void {
-    if (found >= cap || budgetExceeded) return;
+    if (solutions.length >= cap || budgetExceeded) return;
     nodes++;
     if (nodes > nodeBudget) {
       budgetExceeded = true;
       return;
     }
     if (path.length === total) {
-      if (cellsEqual(current, checkpoints[checkpoints.length - 1])) found++;
+      if (cellsEqual(current, checkpoints[checkpoints.length - 1])) solutions.push([...path]);
       return;
     }
     for (const n of neighborsOf(current)) {
-      if (found >= cap || budgetExceeded) return;
+      if (solutions.length >= cap || budgetExceeded) return;
       if (!canExtend(puzzle, path, n)) continue;
       const ni = n.row * size + n.col;
       visited[ni] = 1;
@@ -285,5 +253,42 @@ export function countSolutions(
   }
 
   dfs(start);
-  return { count: found, budgetExceeded };
+  return { solutions, budgetExceeded };
+}
+
+/** "Is it unique?" over `findSolutions` — the common case, which doesn't need the actual paths. */
+export function countSolutions(
+  size: number,
+  checkpoints: Checkpoint[],
+  walls: Wall[],
+  cap: number,
+  nodeBudget: number,
+): { count: SolutionCount; budgetExceeded: boolean } {
+  const { solutions, budgetExceeded } = findSolutions(size, checkpoints, walls, cap, nodeBudget);
+  return { count: solutions.length, budgetExceeded };
+}
+
+/**
+ * Given an alternate solution (`alt`, found by `findSolutions` alongside the true `solution`),
+ * picks a grid-adjacent pair of cells that `alt` steps between but `solution` never does — walling
+ * that edge eliminates `alt` (and everything else that relies on that exact step) without ever
+ * blocking `solution`, since `solution` doesn't use it. Returns `null` only if `alt` turns out to
+ * be identical to `solution` (nothing to wall off).
+ */
+export function pickDifferingEdge(alt: Cell[], solution: Cell[], existingWalls: Wall[]): Wall | null {
+  const solutionSteps = new Set<string>();
+  for (let i = 0; i < solution.length - 1; i++) {
+    const a = solution[i];
+    const b = solution[i + 1];
+    solutionSteps.add(`${a.row},${a.col}|${b.row},${b.col}`);
+    solutionSteps.add(`${b.row},${b.col}|${a.row},${a.col}`);
+  }
+  for (let i = 0; i < alt.length - 1; i++) {
+    const a = alt[i];
+    const b = alt[i + 1];
+    if (solutionSteps.has(`${a.row},${a.col}|${b.row},${b.col}`)) continue;
+    if (hasWall(existingWalls, a, b)) continue;
+    return { a, b };
+  }
+  return null;
 }

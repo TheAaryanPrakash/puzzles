@@ -4,8 +4,9 @@ import { isAdjacent } from "../../src/games/zip/logic";
 import {
   buildHamiltonianPath,
   countSolutions,
+  findSolutions,
   growCheckpoints,
-  pickRandomWall,
+  pickDifferingEdge,
   selectCheckpoints,
 } from "./hamiltonian";
 import type { Cell, Checkpoint } from "../../src/games/zip/logic";
@@ -143,15 +144,49 @@ describe("growCheckpoints", () => {
   });
 });
 
-describe("pickRandomWall", () => {
-  it("never picks an edge the solution path actually uses", () => {
-    const path = buildHamiltonianPath(mulberry32(13), 6)!;
-    const wall = pickRandomWall(6, path, [], mulberry32(14));
+describe("pickDifferingEdge", () => {
+  it("picks an edge the alternate solution uses that the true solution never does", () => {
+    const size = 4;
+    const path = buildHamiltonianPath(mulberry32(5), size)!;
+    const checkpoints: Checkpoint[] = [
+      { num: 1, row: path[0].row, col: path[0].col },
+      { num: 2, row: path[path.length - 1].row, col: path[path.length - 1].col },
+    ];
+    const { solutions } = findSolutions(size, checkpoints, [], 3, 200_000);
+    const alt = solutions.find((s) => !pathsEqual(s, path))!;
+    expect(alt).toBeDefined();
+
+    const wall = pickDifferingEdge(alt, path, []);
     expect(wall).not.toBeNull();
-    const pathIndex = new Map<string, number>();
-    path.forEach((c, i) => pathIndex.set(`${c.row},${c.col}`, i));
-    const ia = pathIndex.get(`${wall!.a.row},${wall!.a.col}`)!;
-    const ib = pathIndex.get(`${wall!.b.row},${wall!.b.col}`)!;
-    expect(Math.abs(ia - ib)).not.toBe(1);
+
+    // The wall must actually eliminate this alternate: it steps across it...
+    const usedByAlt = alt.some(
+      (c, i) =>
+        i < alt.length - 1 &&
+        ((cellEq(c, wall!.a) && cellEq(alt[i + 1], wall!.b)) ||
+          (cellEq(c, wall!.b) && cellEq(alt[i + 1], wall!.a))),
+    );
+    expect(usedByAlt).toBe(true);
+    // ...but the true solution never steps across it, so it can never block the true solution.
+    const usedByTruth = path.some(
+      (c, i) =>
+        i < path.length - 1 &&
+        ((cellEq(c, wall!.a) && cellEq(path[i + 1], wall!.b)) ||
+          (cellEq(c, wall!.b) && cellEq(path[i + 1], wall!.a))),
+    );
+    expect(usedByTruth).toBe(false);
+  });
+
+  it("returns null when the only solution given is the true one (nothing to eliminate)", () => {
+    const path: Cell[] = [{ row: 0, col: 0 }, { row: 0, col: 1 }];
+    expect(pickDifferingEdge(path, path, [])).toBeNull();
   });
 });
+
+function cellEq(a: Cell, b: Cell): boolean {
+  return a.row === b.row && a.col === b.col;
+}
+
+function pathsEqual(a: Cell[], b: Cell[]): boolean {
+  return a.length === b.length && a.every((c, i) => cellEq(c, b[i]));
+}
