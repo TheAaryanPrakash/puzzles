@@ -21,7 +21,7 @@ reveal for a **2×3 grid of opaque tiles over the full flag**, one tile lifted p
 | Project | Approach | Strengths | Known issues / edge cases | A11y & mobile | Licence |
 |---|---|---|---|---|---|
 | [amckenna41/flagle](https://github.com/amckenna41/flagle) | React + TS + Tailwind. Direction + distance hint per guess using country lat/lon centroids (Google public dataset) and `flag-icons` for flag art; subdivision flags added from Wikipedia for territories. | Closest architecture to ours: React, `flag-icons`, geo-distance feedback, autocomplete. Confirms `flag-icons` is the right source for crisp small flags (vector SVG, not a fixed-resolution PNG sprite sheet, so it stays sharp at tile size). | Mixes full countries and subnational flags in one pool without clearly documenting how autocomplete disambiguates them. | CRA-based, no stated a11y audit. | **MIT** |
-| [khui0/flaggle](https://codeberg.org/ju4b... / github mirror) | Svelte/SvelteKit + TS. Three modes (Classic/Lightning/Daily); feedback is a **similarity score** against the target's flag *attributes* (colours, emblem, etc.) rather than geography. Fuzzy-search autocomplete, Tab-to-accept-first-match, search by ISO code. | The fuzzy-match + "search by ISO code" autocomplete UX is worth copying: typing "fr" should surface France even before the user finishes typing the full name. Visual-similarity feedback is a neat idea for a *flag* game specifically (more on-theme than geography), but it needs a hand-built per-flag attribute table we don't have time to build and verify for 236 countries — noted under "deliberately left out". | Not React/Tailwind (Svelte), so no code reuse, only UX ideas. | Repo page didn't surface a licence string — nothing copied from it regardless. |
+| [khui0/flaggle](https://codeberg.org/ju4b... / github mirror) | Svelte/SvelteKit + TS. Three modes (Classic/Lightning/Daily); feedback is a **similarity score** against the target's flag *attributes* (colours, emblem, etc.) rather than geography. Fuzzy-search autocomplete, Tab-to-accept-first-match, search by ISO code. | The fuzzy-match + "search by ISO code" autocomplete UX is worth copying: typing "fr" should surface France even before the user finishes typing the full name. Visual-similarity feedback is a neat idea for a *flag* game specifically (more on-theme than geography), but it needs a hand-built per-flag attribute table we don't have time to build and verify for 231 countries — noted under "deliberately left out". | Not React/Tailwind (Svelte), so no code reuse, only UX ideas. | Repo page didn't surface a licence string — nothing copied from it regardless. |
 | [eddmann — "Building a Flag Guessing Game using React Hooks"](https://eddmann.com/posts/building-a-flag-guessing-game-using-react-hooks/) | Tutorial-grade CRA + Hooks walk-through of a simple (non-daily, non-Wordle) flag quiz: show a flag, pick the right name from 4 options. | Clean example of keeping all quiz state in a single reducer/hook and treating "what's revealed so far" as pure derived state — the same pattern this game's `logic.ts` uses for `hiddenTiles`. | No daily puzzle, no streak, no autocomplete — a multiple-choice quiz, not a Wordle clone. | N/A (tutorial, not a finished app). | Blog post, no licence; nothing copied verbatim. |
 
 Also checked **[janschupke/flags](https://github.com/janschupke/flags)** (Svelte quiz, not a daily
@@ -66,7 +66,7 @@ genuinely hard early and gets easier as tiles lift, matching the source game's d
   to read "↗️ 1,240 km · 78% close" without a new mental model.
 - **Autocomplete** matches on country `name` **and** `aliases` from
   `public/assets/shared/country-names.json` (prefix-insensitive, case-insensitive, substring match —
-  not full fuzzy edit-distance; 236 entries is small enough that a simple substring filter stays fast
+  not full fuzzy edit-distance; 231 entries is small enough that a simple substring filter stays fast
   and predictable), filters out already-guessed countries, and is a proper ARIA combobox (role,
   `aria-expanded`, `aria-activedescendant`, arrow-key + Enter + Escape) per `ui-ux-pro-max`'s
   Accessibility (critical) and `web-design-guidelines` keyboard-navigation rules. Lets a player type
@@ -78,16 +78,24 @@ genuinely hard early and gets easier as tiles lift, matching the source game's d
   precomputes `public/assets/flagle/centroids.json` (`{ code: [lon, lat] }`, ~4 KB) once, offline,
   exactly the "public/assets/<id>/ non-secret runtime files" pattern in CLAUDE.md.
 - **Pool size vs. schedule length — a necessary deviation.** The task says "seed 71, no repeats",
-  but the full country pool with both a `flag-icons` flag *and* an entry in
-  `country-names.json` is **236** (every one of the 236 — see §"Generator" below), while
-  `SCHEDULE_DAYS` is 365. Strict "no repeats" is impossible for more days than the pool has
-  countries, and CLAUDE.md separately requires generators to **throw** if there aren't enough
-  valid puzzles for every day rather than silently reuse one. Reconciling both rules the same way
-  the `worldle` prompt spells out explicitly ("no repeats *until the pool is used up*"): shuffle the
-  236-country pool with `mulberry32(71)`, use it in order, and once exhausted reshuffle
+  but the full country pool with both a `flag-icons` flag *and* an entry in `country-names.json` is
+  **236**, while `SCHEDULE_DAYS` is 365. Strict "no repeats" is impossible for more days than the
+  pool has countries, and CLAUDE.md separately requires generators to **throw** if there aren't
+  enough valid puzzles for every day rather than silently reuse one. Reconciling both rules the same
+  way the `worldle` prompt spells out explicitly ("no repeats *until the pool is used up*"): shuffle
+  the pool with `mulberry32(71)`, use it in order, and once exhausted reshuffle
   (`mulberry32(71 + cycle)`) and continue — with a boundary check that swaps the new shuffle's first
   country if it would otherwise repeat the just-used last one. Documented here and in `HANDOFF.md`
   per CLAUDE.md's "Deviations... are welcome when the research supports them".
+- **Five uninhabited territories dropped after reading the generator's own output.** The first
+  generator run's `scripts/out/flagle-samples.md` happened to sample "French Southern and Antarctic
+  Lands" (`TF`) as one of 5 random days — not a fair or fun flag for a friend to recognise, since
+  nobody lives there. Checking the rest of `country-names.json` by hand for the same problem turned
+  up four more scientific-station-only/no-permanent-population entries: `AQ` Antarctica, `GS` South
+  Georgia & the South Sandwich Islands, `HM` Heard Island & McDonald Islands, and `IO` British Indian
+  Ocean Territory. All five are excluded (`scripts/flagle/pool.ts`'s `EXCLUDED_UNINHABITED`),
+  bringing the real, playable pool to **231** countries — population size alone isn't disqualifying
+  (Niue, Pitcairn, Vatican City all stay), only having zero residents is.
 - **Theme.** Neutral background, `Inter` throughout (per the task), a cool slate palette (checked
   against `ui-ux-pro-max`'s `color` domain for a puzzle-game palette, then simplified to a true
   neutral: flags are the colour; the UI shouldn't compete) with a single blue accent for focus states
@@ -115,18 +123,18 @@ genuinely hard early and gets easier as tiles lift, matching the source game's d
   throwing (defensive — every pool country has a centroid by construction, but a hand-typed ISO code
   from a test shouldn't crash the page).
 - `buildSummary` never contains the target's ISO code or, transitively, its name (tested against the
-  whole 236-country pool, not a handful of samples, since the emoji-grid summary only ever encodes
+  whole 231-country pool, not a handful of samples, since the emoji-grid summary only ever encodes
   right/wrong per guess — there's no numeric index into the pool to accidentally leak).
 - State round-trips through `JSON.parse(JSON.stringify(...))` to an identical game (guesses array of
   plain strings — no Date/Map/Set objects that don't survive JSON).
 - Generator: every one of the 365 scheduled days gets a puzzle; the 237th day (first day of the 2nd
-  shuffle cycle) never repeats the 236th day's country; every written code exists in both
+  shuffle cycle) never repeats the 231st day's country; every written code exists in both
   `country-names.json` and has a `flag-icons` 4×3 SVG.
 
 ## Deliberately left out
 
 - **No visual-similarity hint** (`khui0/flaggle`'s idea) — would need a hand-built per-flag colour/
-  emblem attribute table for all 236 countries, unverifiable in the time available, and the task
+  emblem attribute table for all 231 countries, unverifiable in the time available, and the task
   explicitly asks for geo feedback instead.
 - **No zoom-crop reveal** — superseded by the task's tile-grid requirement (see "Chosen approach").
 - **No "give up" button** — none of the clones offer one in daily mode, and `isOver` already blocks
