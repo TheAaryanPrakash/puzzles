@@ -2,6 +2,11 @@ import { Modal } from "./Modal";
 import { useStats } from "../lib/hooks";
 import type { StatsModalProps } from "./types";
 
+/**
+ * A game that scores its plays (e.g. guesses-to-win) can build a guess-distribution chart from
+ * `usePlays(gameId)`'s `score` field and pass it as `extraContent`, instead of inventing its own
+ * stats storage.
+ */
 export function StatsModal({
   open,
   onClose,

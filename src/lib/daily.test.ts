@@ -1,5 +1,5 @@
-import { describe, it, expect, vi, afterEach } from "vitest";
-import { todayKey, addDays, dayIndex, mulberry32, shuffle } from "./daily";
+import { describe, it, expect, vi, afterEach, beforeEach } from "vitest";
+import { todayKey, resolvePuzzleDate, addDays, dayIndex, mulberry32, shuffle } from "./daily";
 import { LAUNCH_DATE } from "../config";
 
 describe("todayKey", () => {
@@ -24,6 +24,62 @@ describe("todayKey", () => {
     window.history.pushState({}, "", "/?date=2099-01-01");
     expect(todayKey()).toBe(import.meta.env.DEV ? "2099-01-01" : expect.any(String));
     window.history.pushState({}, "", original);
+  });
+});
+
+describe("resolvePuzzleDate", () => {
+  // today = LAUNCH_DATE + 10, fixed via fake timers at a safe midday-IST instant.
+  const TODAY = addDays(LAUNCH_DATE, 10);
+
+  beforeEach(() => {
+    vi.useFakeTimers();
+    vi.setSystemTime(new Date(`${TODAY}T08:00:00.000Z`));
+  });
+
+  afterEach(() => {
+    vi.useRealTimers();
+    window.history.pushState({}, "", "/");
+  });
+
+  it("is today with no ?day= param", () => {
+    expect(resolvePuzzleDate()).toBe(TODAY);
+  });
+
+  it("is the requested day when it's between LAUNCH_DATE and today", () => {
+    const day = addDays(LAUNCH_DATE, 5);
+    window.history.pushState({}, "", `/wordle?day=${day}`);
+    expect(resolvePuzzleDate()).toBe(day);
+  });
+
+  it("accepts the boundaries: LAUNCH_DATE and today itself", () => {
+    window.history.pushState({}, "", `/wordle?day=${LAUNCH_DATE}`);
+    expect(resolvePuzzleDate()).toBe(LAUNCH_DATE);
+
+    window.history.pushState({}, "", `/wordle?day=${TODAY}`);
+    expect(resolvePuzzleDate()).toBe(TODAY);
+  });
+
+  it("falls back to today when the day is before LAUNCH_DATE", () => {
+    window.history.pushState({}, "", `/wordle?day=${addDays(LAUNCH_DATE, -1)}`);
+    expect(resolvePuzzleDate()).toBe(TODAY);
+  });
+
+  it("falls back to today when the day is in the future", () => {
+    window.history.pushState({}, "", `/wordle?day=${addDays(TODAY, 1)}`);
+    expect(resolvePuzzleDate()).toBe(TODAY);
+  });
+
+  it("falls back to today for a malformed day", () => {
+    window.history.pushState({}, "", "/wordle?day=not-a-date");
+    expect(resolvePuzzleDate()).toBe(TODAY);
+  });
+
+  it("works in production builds too (not gated on DEV)", () => {
+    const day = addDays(LAUNCH_DATE, 2);
+    window.history.pushState({}, "", `/wordle?day=${day}`);
+    // Sanity: this test doesn't stub import.meta.env.DEV at all, unlike todayKey's ?date= test —
+    // resolvePuzzleDate must not read it.
+    expect(resolvePuzzleDate()).toBe(day);
   });
 });
 

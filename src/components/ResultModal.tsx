@@ -6,6 +6,11 @@ import { NextPuzzleCountdown } from "./NextPuzzleCountdown";
 import { useStats } from "../lib/hooks";
 import type { ResultModalProps } from "./types";
 
+/**
+ * A game that scores its plays (e.g. guesses-to-win) can build a guess-distribution chart from
+ * `usePlays(gameId)`'s `score` field and pass it as `statsExtraContent`, instead of inventing its
+ * own stats storage.
+ */
 export function ResultModal({
   open,
   onClose,

@@ -22,25 +22,41 @@ function primaryState(state: KeyState | KeyState[] | undefined): KeyState {
   return STATE_PRIORITY.find((s) => state.includes(s)) ?? "unused";
 }
 
-/** On-screen keyboard that also listens for the physical keyboard. */
+const EDITABLE_TAGS = new Set(["INPUT", "TEXTAREA", "SELECT"]);
+
+function isEditableTarget(target: EventTarget | null): boolean {
+  if (!(target instanceof HTMLElement)) return false;
+  if (EDITABLE_TAGS.has(target.tagName)) return true;
+  if (target.isContentEditable) return true;
+  // Belt-and-suspenders over `isContentEditable` (which some test environments don't compute):
+  // the nearest `contenteditable` attribute is "true" or "" (an enumerated attribute — the empty
+  // string also means true), as opposed to an explicit "false".
+  const editableAncestor = target.closest("[contenteditable]");
+  return editableAncestor !== null && editableAncestor.getAttribute("contenteditable") !== "false";
+}
+
+/** On-screen keyboard that also listens for the physical keyboard (unless `physicalKeys` is false). */
 export function Keyboard({
   onKey,
   keyStates,
   layout = DEFAULT_LAYOUT,
   renderKey,
   disabled,
+  physicalKeys = true,
 }: KeyboardProps) {
   useEffect(() => {
-    if (disabled) return;
+    if (disabled || !physicalKeys) return;
     function onPhysicalKey(e: globalThis.KeyboardEvent) {
+      if (e.defaultPrevented) return;
       if (e.metaKey || e.ctrlKey || e.altKey) return;
+      if (isEditableTarget(e.target)) return;
       if (e.key === "Enter") onKey("Enter");
       else if (e.key === "Backspace") onKey("Backspace");
       else if (/^[a-zA-Z]$/.test(e.key)) onKey(e.key.toUpperCase());
     }
     window.addEventListener("keydown", onPhysicalKey);
     return () => window.removeEventListener("keydown", onPhysicalKey);
-  }, [onKey, disabled]);
+  }, [onKey, disabled, physicalKeys]);
 
   return (
     <div className="flex flex-col items-center gap-1.5" role="group" aria-label="Keyboard">

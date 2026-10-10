@@ -114,12 +114,17 @@ export interface DataSource {
   finishPlay(gameId: string, date: string, result: { won: boolean; state: unknown; summary: string; score?: number }): Promise<void>;
   getStats(): Promise<Record<string, { played: number; won: number; currentStreak: number; maxStreak: number }>>;
   getFriendsResults(gameId: string, date: string): Promise<{ name: string; status: PlayStatus; summary: string; score?: number }[]>;
+  listPlays(gameId: string): Promise<{ date: string; status: PlayStatus; score?: number }[]>;
 }
 ```
 Hooks wrap this. A game uses only:
-- `usePuzzle<T>(id)` → `{ date, puzzle, status: "loading" | "ready" | "missing" }` (respects the play's variant)
+- `usePuzzle<T>(id)` → `{ date, puzzle, status: "loading" | "ready" | "missing" }` (respects the play's
+  variant, and — via `?day=` — an archive day; see "Game contract")
 - `usePlay<S>(id, date)` → `{ play, start, save, finish }`. `save` is debounced (~400 ms) and flushed on
   `visibilitychange`/`pagehide`. `finish` calls `completeGame`.
+- `usePlays(id)` → `{ plays, loading, refresh }`, every play for one game, sorted by date. Powers
+  GameLayout's built-in Archive button; a game can also build its own stats (e.g. a guess-distribution
+  chart) from `plays[].score`.
 
 ## Game contract
 ```ts
@@ -141,6 +146,18 @@ export const meta: GameMeta = {
   NoPuzzleToday, AlreadyPlayed. Theme them via tokens; don't fork them.
 - Reserve puzzles (Connections, Mini): "Seen this before? Skip" is offered only before the first
   move, and switches the play's variant. The database refuses a switch after that.
+- **Day files.** `content/puzzles/<id>/<date>.json` = `{ "payload": <puzzle>, "reserve": <puzzle> | null }`.
+  Where a game's own prompt says "Day file `{ ... }`", that's the **payload** shape for that game —
+  use `"reserve": null` unless the prompt asks for a reserve.
+- **The `{}` gotcha.** Right after `start()`, `play.state` is briefly `{}` — the database's own
+  `default '{}'::jsonb`, mirrored by the local adapter — not yet shaped like the game's state. Derive
+  state as `{ ...DEFAULT_STATE, ...play?.state }`, **never** `play?.state ?? DEFAULT_STATE`: the
+  latter only catches `null`/`undefined`, so it still crashes on that empty-but-truthy `{}` in the
+  render between `start()` resolving and the first `save()` landing.
+- **Archive days** arrive through `?day=<date>` (resolved by `src/lib/daily.ts`'s `resolvePuzzleDate`,
+  LAUNCH_DATE ≤ day ≤ today, otherwise today) and `GameLayout`'s built-in Archive button — a game needs
+  no code for either. Always use the `date` that `usePuzzle` returns; never call `todayKey()` directly
+  inside a game.
 
 ## Daily rules
 - Puzzle day = calendar date in `PUZZLE_TIMEZONE` for every player, everywhere. `todayKey()` uses

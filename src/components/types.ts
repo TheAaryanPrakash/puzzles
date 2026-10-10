@@ -104,6 +104,8 @@ export interface KeyboardProps {
   layout?: string[][];
   renderKey?: (key: string, state: KeyState | KeyState[] | undefined) => ReactNode;
   disabled?: boolean;
+  /** Listen for the physical keyboard too (default true). Off if a game hosts its own listener. */
+  physicalKeys?: boolean;
 }
 
 export interface ShareButtonProps {

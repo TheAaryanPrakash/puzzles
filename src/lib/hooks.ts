@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { dataSource } from "./data";
 import type { Play, PlayStatus } from "./data/types";
-import { todayKey } from "./daily";
+import { resolvePuzzleDate } from "./daily";
 import { completeGame, type GameResult } from "./result";
 
 const SAVE_DEBOUNCE_MS = 400;
@@ -14,8 +14,12 @@ export interface UsePuzzleResult<T> {
   status: PuzzleStatus;
 }
 
-/** Loads today's (or `date`'s) puzzle, respecting the play's variant if one has been started. */
-export function usePuzzle<T>(gameId: string, date: string = todayKey()): UsePuzzleResult<T> {
+/**
+ * Loads today's puzzle — or, with `?day=` in the URL, that archive day's — respecting the play's
+ * variant if one has been started. A game should never call `todayKey()` itself for this: always
+ * use the `date` this hook returns, so GameLayout's Archive picker works with no game-side code.
+ */
+export function usePuzzle<T>(gameId: string, date: string = resolvePuzzleDate()): UsePuzzleResult<T> {
   const [state, setState] = useState<{ status: PuzzleStatus; puzzle: T | null }>({
     status: "loading",
     puzzle: null,
@@ -221,4 +225,45 @@ export function useFriendsResults(gameId: string, date: string): UseFriendsResul
   }, [gameId, date]);
 
   return { results, loading };
+}
+
+export interface PlaySummary {
+  date: string;
+  status: PlayStatus;
+  score?: number;
+}
+
+export interface UsePlaysResult {
+  plays: PlaySummary[];
+  loading: boolean;
+  refresh: () => void;
+}
+
+/**
+ * Every play the member has for one game, sorted by date. Powers GameLayout's built-in Archive
+ * button (which dates are already played) — a game can also use it to build its own stats, e.g. a
+ * guess-distribution chart passed as ResultModal's/StatsModal's `statsExtraContent` from `score`.
+ */
+export function usePlays(gameId: string): UsePlaysResult {
+  const [plays, setPlays] = useState<PlaySummary[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [tick, setTick] = useState(0);
+
+  useEffect(() => {
+    let cancelled = false;
+    setLoading(true);
+    void dataSource.listPlays(gameId).then((p) => {
+      if (!cancelled) {
+        setPlays(p);
+        setLoading(false);
+      }
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [gameId, tick]);
+
+  const refresh = useCallback(() => setTick((t) => t + 1), []);
+
+  return { plays, loading, refresh };
 }

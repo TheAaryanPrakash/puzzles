@@ -33,4 +33,5 @@ export interface DataSource {
     gameId: string,
     date: string,
   ): Promise<{ name: string; status: PlayStatus; summary: string; score?: number }[]>;
+  listPlays(gameId: string): Promise<{ date: string; status: PlayStatus; score?: number }[]>;
 }

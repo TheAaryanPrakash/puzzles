@@ -10,6 +10,14 @@ research supports, note it in HANDOFF.md, and continue.
 - `pnpm install`
 - Confirm `pnpm test` passes on the untouched foundation before you change anything.
 - Copy the shape of `src/games/_example/`. It shows the whole contract working end to end.
+- Three things the foundation agent found while building it:
+  - **Day files** are `content/puzzles/<id>/<date>.json` = `{ "payload": <puzzle>, "reserve": <puzzle> | null }`.
+    Where your prompt says "Day file `{ ... }`", that's the **payload**. Use `"reserve": null` unless
+    your prompt asks for a reserve.
+  - **The `{}` gotcha:** right after `start()`, `play.state` is briefly `{}`. Derive state as
+    `{ ...DEFAULT_STATE, ...play?.state }`, never `play?.state ?? DEFAULT_STATE`, or the page crashes.
+  - **Archive days** come in through `?day=` and GameLayout's built-in Archive button. Your game needs
+    nothing extra: always use the `date` that `usePuzzle` returns, never `todayKey()` directly.
 
 ## 2. Research → `src/games/<id>/RESEARCH.md`
 Follow CLAUDE.md "Research first", using the **Research focus** in your prompt file.

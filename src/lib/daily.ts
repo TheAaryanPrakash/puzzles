@@ -27,6 +27,21 @@ export function todayKey(): string {
   return `${map.year}-${map.month}-${map.day}`;
 }
 
+/**
+ * The puzzle date a page should actually show: `?day=YYYY-MM-DD` if present and in range
+ * (LAUNCH_DATE ≤ day ≤ today) — otherwise today. Unlike `?date=` (dev
+ * only, changes what "today" *is*, for testing rollover), `?day=` works in every build: it's how
+ * GameLayout's Archive picker and `usePuzzle` resolve a past day a member navigates to, e.g.
+ * `/wordle?day=2026-10-12`. The single exported helper so every caller agrees on the same rules.
+ */
+export function resolvePuzzleDate(): string {
+  const today = todayKey();
+  if (typeof window === "undefined") return today;
+  const day = new URLSearchParams(window.location.search).get("day");
+  if (day && DATE_RE.test(day) && day >= LAUNCH_DATE && day <= today) return day;
+  return today;
+}
+
 function parseDateKey(date: string): { y: number; m: number; d: number } {
   const [y, m, d] = date.split("-").map(Number);
   return { y, m, d };

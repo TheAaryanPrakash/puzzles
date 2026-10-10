@@ -31,4 +31,7 @@ export const supabaseDataSource: DataSource = {
   > {
     notImplemented();
   },
+  listPlays(): Promise<{ date: string; status: PlayStatus; score?: number }[]> {
+    notImplemented();
+  },
 };

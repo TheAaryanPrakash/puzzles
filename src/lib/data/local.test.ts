@@ -198,3 +198,42 @@ describe("getFriendsResults", () => {
     }
   });
 });
+
+describe("listPlays", () => {
+  it("is empty when nothing has been played", async () => {
+    setIstDay("2026-10-10");
+    expect(await localDataSource.listPlays("demo")).toEqual([]);
+  });
+
+  it("lists every play for the game, sorted by date, including in-progress ones", async () => {
+    setIstDay("2026-10-08");
+    await localDataSource.startPlay("demo", "2026-10-08");
+    await localDataSource.finishPlay("demo", "2026-10-08", {
+      won: true,
+      state: {},
+      summary: "w",
+      score: 4,
+    });
+
+    setIstDay("2026-10-10");
+    await localDataSource.startPlay("demo", "2026-10-10");
+    await localDataSource.finishPlay("demo", "2026-10-10", { won: false, state: {}, summary: "l" });
+
+    await localDataSource.startPlay("demo", "2026-10-09");
+
+    expect(await localDataSource.listPlays("demo")).toEqual([
+      { date: "2026-10-08", status: "won", score: 4 },
+      { date: "2026-10-09", status: "in_progress", score: undefined },
+      { date: "2026-10-10", status: "lost", score: undefined },
+    ]);
+  });
+
+  it("only lists plays for the requested game", async () => {
+    setIstDay("2026-10-10");
+    await localDataSource.startPlay("demo", "2026-10-10");
+    await localDataSource.startPlay("other", "2026-10-10");
+
+    const demoPlays = await localDataSource.listPlays("demo");
+    expect(demoPlays.map((p) => p.date)).toEqual(["2026-10-10"]);
+  });
+});

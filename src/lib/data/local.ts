@@ -198,4 +198,10 @@ export const localDataSource: DataSource = {
       };
     });
   },
+
+  async listPlays(gameId: string) {
+    return allPlaysFor(gameId)
+      .map((p) => ({ date: p.date, status: p.status, score: p.score }))
+      .sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0));
+  },
 };

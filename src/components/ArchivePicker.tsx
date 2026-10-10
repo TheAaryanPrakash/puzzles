@@ -2,6 +2,9 @@ import { LAUNCH_DATE } from "../config";
 import { addDays, todayKey, dayIndex } from "../lib/daily";
 import type { ArchivePickerProps } from "./types";
 
+// No visible heading here — ArchivePicker is always shown inside a titled Modal (GameLayout's
+// Archive button), so a second "Archive" heading would just be noise. `title` still labels the
+// section for assistive tech.
 export function ArchivePicker({ gameId, playedDates, onSelect, title = "Archive" }: ArchivePickerProps) {
   const dates: string[] = [];
   for (let d = addDays(todayKey(), -1); d >= LAUNCH_DATE; d = addDays(d, -1)) {
@@ -11,8 +14,7 @@ export function ArchivePicker({ gameId, playedDates, onSelect, title = "Archive"
 
   return (
     <section aria-label={`${title} for ${gameId}`}>
-      <h3 className="font-brand text-sm font-semibold text-game-muted">{title}</h3>
-      <ul className="mt-2 grid grid-cols-4 gap-2">
+      <ul className="grid grid-cols-4 gap-2">
         {dates.map((date) => {
           const played = playedSet.has(date);
           return (
