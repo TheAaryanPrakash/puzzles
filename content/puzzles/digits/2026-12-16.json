@@ -1,0 +1,67 @@
+{
+  "payload": {
+    "rounds": [
+      {
+        "numbers": [
+          7,
+          21,
+          22,
+          1,
+          1,
+          7
+        ],
+        "target": 132,
+        "minSteps": 2
+      },
+      {
+        "numbers": [
+          14,
+          22,
+          7,
+          9,
+          19,
+          15
+        ],
+        "target": 296,
+        "minSteps": 3
+      },
+      {
+        "numbers": [
+          25,
+          8,
+          6,
+          22,
+          9,
+          10
+        ],
+        "target": 301,
+        "minSteps": 3
+      },
+      {
+        "numbers": [
+          8,
+          20,
+          6,
+          11,
+          8,
+          19
+        ],
+        "target": 453,
+        "minSteps": 4
+      },
+      {
+        "numbers": [
+          7,
+          7,
+          9,
+          15,
+          16,
+          7
+        ],
+        "target": 611,
+        "minSteps": 5
+      }
+    ]
+  },
+  "reserve": null
+}
