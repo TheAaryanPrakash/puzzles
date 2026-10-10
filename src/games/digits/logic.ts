@@ -92,6 +92,34 @@ export function poolAfterSteps(numbers: number[], steps: Step[]): number[] | und
   return pool;
 }
 
+export interface Tile {
+  /** Stable only within one render of one round's current steps — not persisted. */
+  id: string;
+  value: number;
+}
+
+/**
+ * Replays `steps` into a list of UI tiles with stable-for-this-render ids (`n0`..`n5` for the
+ * original numbers, `m0`, `m1`, ... for each step's result, in step order) — used only for
+ * rendering/animation keys, never persisted (the persisted `Step[]` only stores values; see
+ * RESEARCH.md "Game design"). Falls back to the bare numbers if a step turns out illegal, so a
+ * stale tap (e.g. racing an undo) can never crash the render.
+ */
+export function deriveTiles(numbers: number[], steps: Step[]): Tile[] {
+  let tiles: Tile[] = numbers.map((value, i) => ({ id: `n${i}`, value }));
+  for (let i = 0; i < steps.length; i++) {
+    const step = steps[i];
+    const idxA = tiles.findIndex((t) => t.value === step.a);
+    if (idxA === -1) return numbers.map((value, j) => ({ id: `n${j}`, value }));
+    const afterA = [...tiles.slice(0, idxA), ...tiles.slice(idxA + 1)];
+    const idxB = afterA.findIndex((t) => t.value === step.b);
+    if (idxB === -1) return numbers.map((value, j) => ({ id: `n${j}`, value }));
+    const afterB = [...afterA.slice(0, idxB), ...afterA.slice(idxB + 1)];
+    tiles = [...afterB, { id: `m${i}`, value: step.result }];
+  }
+  return tiles;
+}
+
 // ─────────────────────────── scoring ───────────────────────────
 
 export function starsFor(diff: number): Stars {

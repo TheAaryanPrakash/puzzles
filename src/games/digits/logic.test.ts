@@ -3,6 +3,7 @@ import {
   evalOp,
   applyStep,
   poolAfterSteps,
+  deriveTiles,
   starsFor,
   scoreRound,
   totalStars,
@@ -89,6 +90,19 @@ describe("applyStep / poolAfterSteps", () => {
     const numbers = [2, 3];
     const steps: Step[] = [{ a: 2, b: 3, op: "-", result: -1 }]; // negative: illegal
     expect(poolAfterSteps(numbers, steps)).toBeUndefined();
+  });
+});
+
+describe("deriveTiles", () => {
+  it("assigns stable ids to the original numbers and to each merge result", () => {
+    const tiles = deriveTiles([2, 3, 5], [{ a: 2, b: 3, op: "+", result: 5 }]);
+    expect(tiles.map((t) => t.value)).toEqual([5, 5]);
+    expect(new Set(tiles.map((t) => t.id)).size).toBe(2); // ids are distinct even with equal values
+  });
+
+  it("falls back to the bare numbers if a step is stale/illegal", () => {
+    const tiles = deriveTiles([2, 3, 5], [{ a: 99, b: 3, op: "+", result: 102 }]);
+    expect(tiles.map((t) => t.value)).toEqual([2, 3, 5]);
   });
 });
 
