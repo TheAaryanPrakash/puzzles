@@ -1,0 +1,27 @@
+[data-game="wordle"] {
+  --game-bg: #ffffff;
+  --game-fg: #1a1a1b;
+  --game-surface: #ffffff;
+  --game-surface-2: #f6f6f6;
+  --game-border: #d3d6da;
+  --game-accent: #6aaa64;
+  --game-accent-fg: #ffffff;
+  --game-muted: #878a8c;
+  --game-font: "Libre Franklin", sans-serif;
+
+  /* Square tiles — no rounding, per the original. */
+  --tile-radius: 0px;
+  --tile-empty: #ffffff;
+  --tile-filled: #ffffff;
+  --tile-fg: #1a1a1b;
+  --tile-selected: #878a8c;
+  --tile-correct: #6aaa64;
+  --tile-present: #c9b458;
+  --tile-absent: #787c7e;
+}
+
+/* The title alone uses the serif display face; body copy stays on Libre Franklin. */
+[data-game="wordle"] header h1 {
+  font-family: "DM Serif Display", serif;
+  letter-spacing: 0.02em;
+}
