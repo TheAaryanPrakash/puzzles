@@ -1,0 +1,356 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "T",
+        "number": 2
+      },
+      {
+        "answer": "A",
+        "number": 3
+      },
+      {
+        "answer": "M",
+        "number": 4
+      },
+      {
+        "answer": "P",
+        "number": 5
+      },
+      {
+        "answer": "N",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "I",
+        "number": 7
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "F",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "F",
+        "number": 9
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "STAMP",
+          "clue": "Mailing need",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "NOBEL",
+          "clue": "Dynamite guy",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "INAWE",
+          "clue": "Blown away",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "FETED",
+          "clue": "Entertained lavishly",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "FRED",
+          "clue": "Armisen of \"Portlandia\"",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "SNIFF",
+          "clue": "Scratch and ___",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "TONER",
+          "clue": "Copier supply",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "ABATE",
+          "clue": "Subside",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "MEWED",
+          "clue": "Made a sound like a kitten",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "PLED",
+          "clue": "Implored",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "B",
+        "number": 1
+      },
+      {
+        "answer": "I",
+        "number": 2
+      },
+      {
+        "answer": "O",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "D",
+        "number": 4
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "G",
+        "number": 5
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "O",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "Y"
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 7
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "BIO",
+          "clue": "H.S. class",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "DOFF",
+          "clue": "Remove, as a hat",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "GROFF",
+          "clue": "Jonathan ___, 'Frozen' voice actor",
+          "source": "written"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "OAKY",
+          "clue": "Wine nuance word",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "TBS",
+          "clue": "'Conan' network",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "BOOKS",
+          "clue": "Reserves",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "IFFY",
+          "clue": "Uncertain",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "OFF",
+          "clue": "Not running",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "DRAB",
+          "clue": "Humdrum",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "GOT",
+          "clue": "Received",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

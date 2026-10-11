@@ -1,0 +1,355 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "V",
+        "number": 1
+      },
+      {
+        "answer": "O",
+        "number": 2
+      },
+      {
+        "answer": "D",
+        "number": 3
+      },
+      {
+        "answer": "K",
+        "number": 4
+      },
+      {
+        "answer": "A",
+        "number": 5
+      },
+      {
+        "answer": "O",
+        "number": 6
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "X",
+        "number": 7
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      null,
+      {
+        "answer": "O",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "K"
+      },
+      null,
+      null,
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "Y"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "VODKA",
+          "clue": "Cosmopolitan spirits",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "ORION",
+          "clue": "Celestial hunter",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "XENON",
+          "clue": "Fifth noble gas",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 3,
+          "answer": "OAK",
+          "clue": "Strong tree",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "SHY",
+          "clue": "Retiring",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "VOX",
+          "clue": "Popular news and opinion site",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "OREOS",
+          "clue": "Longtime cookies",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "DINAH",
+          "clue": "\"Empty Nest\" actress Manoff",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "KOOKY",
+          "clue": "'They're creepy and they're ___' (start of the 'Addams Family' theme song)",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "ANN",
+          "clue": "Raggedy -",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "B",
+        "number": 1
+      },
+      {
+        "answer": "U",
+        "number": 2
+      },
+      {
+        "answer": "S",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "H",
+        "number": 4
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "Y",
+        "number": 5
+      },
+      {
+        "answer": "M",
+        "number": 6
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "M",
+        "number": 7
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "E",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "BUS",
+          "clue": "Clear dishes",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "HOLLY",
+          "clue": "Seasonal greenery",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "MUTED",
+          "clue": "Like pastel colors",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "MIRES",
+          "clue": "Involves in intrigue",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "EAT",
+          "clue": "Have",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "BOUIE",
+          "clue": "Jamelle ___, political columnist",
+          "source": "written"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "ULTRA",
+          "clue": "Extremist",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "SLEET",
+          "clue": "Frozen rain",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "HMM",
+          "clue": "'Interesting'",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 4,
+          "length": 3,
+          "answer": "YDS",
+          "clue": "NFL gains",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

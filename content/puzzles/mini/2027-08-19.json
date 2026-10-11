@@ -1,0 +1,362 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "H",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "H",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "L",
+        "number": 4
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "W",
+        "number": 5
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "V",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "S"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "HAH",
+          "clue": "'Funny!'",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "LALA",
+          "clue": "'Ooh ___!'",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "WEBBY",
+          "clue": "Award for internet excellence",
+          "source": "written"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "VALUE",
+          "clue": "Merit",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 4,
+          "col": 0,
+          "length": 5,
+          "answer": "ADAMS",
+          "clue": "NBA player Steven",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "HABLA",
+          "clue": "'Se ___ espanol'",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "ALBUM",
+          "clue": "Book; LP",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "HAYES",
+          "clue": "MSNBC's Chris",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "LEAD",
+          "clue": "Top escort",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "WVA",
+          "clue": "West Virginia, on a map, for short",
+          "source": "written"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "G",
+        "number": 1
+      },
+      {
+        "answer": "E",
+        "number": 2
+      },
+      {
+        "answer": "T",
+        "number": 3
+      },
+      {
+        "answer": "B",
+        "number": 4
+      },
+      {
+        "answer": "Y",
+        "number": 5
+      },
+      {
+        "answer": "N",
+        "number": 6
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "R",
+        "number": 8
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "L",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "S"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "GETBY",
+          "clue": "Manage",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "NEURO",
+          "clue": "Prefix with surgeon or toxin",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "ARRAY",
+          "clue": "Matrix",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "RINGO",
+          "clue": "Call round for drummer",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "LESS",
+          "clue": "Take away",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "GNARL",
+          "clue": "Knot on a tree trunk",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "EERIE",
+          "clue": "Chilling",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "TURNS",
+          "clue": "In borscht urn some goes bad",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "BRAGS",
+          "clue": "Self-promotes aggressively",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "YOYO",
+          "clue": "Toy",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "D",
+        "number": 1
+      },
+      {
+        "answer": "R",
+        "number": 2
+      },
+      {
+        "answer": "A",
+        "number": 3
+      },
+      {
+        "answer": "G",
+        "number": 4
+      },
+      {
+        "answer": "C",
+        "number": 5
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "M",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "O",
+        "number": 7
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      null,
+      {
+        "answer": "N",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "D"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "DRAG",
+          "clue": "___ queen",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "CUOMO",
+          "clue": "Family name in New York politics",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "MOWED",
+          "clue": "Worked in the yard",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "OMEN",
+          "clue": "Herald",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "NOD",
+          "clue": "Drop off",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "DUOMO",
+          "clue": "Florentine attraction",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "ROWED",
+          "clue": "Manned the oars",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "AMEN",
+          "clue": "So be it!",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "GOD",
+          "clue": "'Geez!'",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "CMON",
+          "clue": "\"Speed it up!\"",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "R",
+        "number": 1
+      },
+      {
+        "answer": "I",
+        "number": 2
+      },
+      {
+        "answer": "D",
+        "number": 3
+      },
+      {
+        "answer": "G",
+        "number": 4
+      },
+      {
+        "answer": "E",
+        "number": 5
+      },
+      {
+        "answer": "E",
+        "number": 6
+      },
+      {
+        "answer": "Q"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T",
+        "number": 8
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "RIDGE",
+          "clue": "Range of hills",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "EQUAL",
+          "clue": "Match",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "SUMMA",
+          "clue": "Highest, on a diploma",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "TIBET",
+          "clue": "Land with yaks",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 5,
+          "answer": "STORE",
+          "clue": "Warehouse",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "RESTS",
+          "clue": "Work breaks",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "IQUIT",
+          "clue": "'You can't fire me!'",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "DUMBO",
+          "clue": "Disney elephant",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "GAMER",
+          "clue": "Fortnite player, e.g",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "ELATE",
+          "clue": "Delight",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

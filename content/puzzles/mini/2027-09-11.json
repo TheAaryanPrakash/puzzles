@@ -1,0 +1,489 @@
+{
+  "payload": {
+    "size": 7,
+    "cells": [
+      null,
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "C",
+        "number": 2
+      },
+      {
+        "answer": "O",
+        "number": 3
+      },
+      {
+        "answer": "O",
+        "number": 4
+      },
+      {
+        "answer": "C",
+        "number": 5
+      },
+      {
+        "answer": "H",
+        "number": 6
+      },
+      null,
+      {
+        "answer": "H",
+        "number": 7
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 8
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "I",
+        "number": 9
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "K"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 10
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "C",
+        "number": 11
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "G",
+        "number": 12
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "I",
+        "number": 13
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 14
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "S"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 6,
+          "answer": "SCOOCH",
+          "clue": "Shift over slightly",
+          "source": "written"
+        },
+        {
+          "number": 7,
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "answer": "HANDLE",
+          "clue": "It may be within your grasp",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 2,
+          "col": 1,
+          "length": 6,
+          "answer": "ACADIA",
+          "clue": "Former name of Nova Scotia",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "answer": "IRK",
+          "clue": "Bug",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 3,
+          "col": 4,
+          "length": 3,
+          "answer": "SNL",
+          "clue": "Longtime NBC hit",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "COLGATE",
+          "clue": "Toothpaste brand",
+          "source": "written"
+        },
+        {
+          "number": 13,
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "answer": "INERROR",
+          "clue": "Wrong",
+          "source": "dataset"
+        },
+        {
+          "number": 14,
+          "row": 6,
+          "col": 1,
+          "length": 6,
+          "answer": "ASPENS",
+          "clue": "Shivering trees",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "answer": "SHARONA",
+          "clue": "'My ___,' hit by The Knack",
+          "source": "written"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "CACKLES",
+          "clue": "Witch's laughs",
+          "source": "written"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "answer": "ONA",
+          "clue": "___ mission",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "ODDSARE",
+          "clue": "\"It's a safe bet...\"",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "answer": "CLINTON",
+          "clue": "Katie Got Bandz aka Drillary ___",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 0,
+          "col": 6,
+          "length": 7,
+          "answer": "HEALERS",
+          "clue": "Those who practice energy medicine",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "answer": "ICI",
+          "clue": "Henri's \"here\"",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 4,
+          "col": 3,
+          "length": 3,
+          "answer": "GRP",
+          "clue": "Org",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "P",
+        "number": 1
+      },
+      {
+        "answer": "S",
+        "number": 2
+      },
+      {
+        "answer": "S",
+        "number": 3
+      },
+      {
+        "answer": "T",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 5
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "E",
+        "number": 6
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "D",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "I",
+        "number": 9
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "PSST",
+          "clue": "Soft summons",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "TITHE",
+          "clue": "Church donation",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "SNARL",
+          "clue": "\"Grrr!\" is one",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "DANES",
+          "clue": "Scandinavians born in a backward miserable setting",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 1,
+          "length": 4,
+          "answer": "IDEA",
+          "clue": "Conception",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "PTSD",
+          "clue": "VA concern",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "SINAI",
+          "clue": "Exodus peak",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "STAND",
+          "clue": "Easel or tripod",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "THREE",
+          "clue": "III",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 4,
+          "length": 4,
+          "answer": "ELSA",
+          "clue": "\"Frozen\" sister",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

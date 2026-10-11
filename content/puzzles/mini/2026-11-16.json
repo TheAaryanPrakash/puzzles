@@ -1,0 +1,451 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "C",
+        "number": 1
+      },
+      {
+        "answer": "H",
+        "number": 2
+      },
+      {
+        "answer": "E",
+        "number": 3
+      },
+      {
+        "answer": "A",
+        "number": 4
+      },
+      {
+        "answer": "P",
+        "number": 5
+      },
+      {
+        "answer": "S",
+        "number": 6
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "X"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "P",
+        "number": 7
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "A",
+        "number": 8
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "Y"
+      },
+      null,
+      {
+        "answer": "N",
+        "number": 9
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "T"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "CHEAP",
+          "clue": "Not built to last",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "SIXTH",
+          "clue": "Musical interval from A to F, say",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "PLUTO",
+          "clue": "Dwarf planet beyond Neptune",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "ALLY",
+          "clue": "Fellow fighter",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "NYT",
+          "clue": "WSJ competitor",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "CSPAN",
+          "clue": "Congressional channel",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "HILLY",
+          "clue": "Like some dirt bike tracks S (nonverbal)",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "EXULT",
+          "clue": "Express great joy",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "ATTY",
+          "clue": "Lawyer abbreviation",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "PHO",
+          "clue": "Vietnamese noodle soup",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 7,
+    "cells": [
+      null,
+      null,
+      null,
+      {
+        "answer": "M",
+        "number": 1
+      },
+      {
+        "answer": "U",
+        "number": 2
+      },
+      {
+        "answer": "S",
+        "number": 3
+      },
+      {
+        "answer": "K",
+        "number": 4
+      },
+      null,
+      null,
+      {
+        "answer": "M",
+        "number": 5
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "M",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "A",
+        "number": 8
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "L",
+        "number": 9
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null,
+      {
+        "answer": "T",
+        "number": 10
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "MUSK",
+          "clue": "Perfume ingredient",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 2,
+          "length": 5,
+          "answer": "MINCE",
+          "clue": "Cut into small pieces",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 6,
+          "answer": "MONDAY",
+          "clue": "Part of the week",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 7,
+          "answer": "SAPIENS",
+          "clue": "Homo ___, modern humans",
+          "source": "written"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 6,
+          "answer": "ACTORS",
+          "clue": "The 'A' of SAG",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 5,
+          "col": 0,
+          "length": 5,
+          "answer": "LYONS",
+          "clue": "City at the confluence of the Rhone and Saone",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 6,
+          "col": 0,
+          "length": 4,
+          "answer": "TSPS",
+          "clue": "Cough syrup amts",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "answer": "MINIONS",
+          "clue": "Underlings",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 4,
+          "length": 6,
+          "answer": "UNDERS",
+          "clue": "Betting option opposite overs",
+          "source": "written"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 5,
+          "length": 5,
+          "answer": "SCANS",
+          "clue": "Electronic readings",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 6,
+          "length": 4,
+          "answer": "KEYS",
+          "clue": "Piano parts",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 2,
+          "length": 6,
+          "answer": "MOPTOP",
+          "clue": "Beatlesque hairstyle",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 5,
+          "answer": "MACYS",
+          "clue": "'Miracle on 34th Street' store",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "SALT",
+          "clue": "Pretzel topper",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

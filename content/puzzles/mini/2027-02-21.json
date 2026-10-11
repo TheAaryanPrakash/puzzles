@@ -1,0 +1,354 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "L",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "B",
+        "number": 3
+      },
+      {
+        "answer": "L",
+        "number": 4
+      },
+      {
+        "answer": "E",
+        "number": 5
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "E",
+        "number": 6
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "V",
+        "number": 7
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "I",
+        "number": 8
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "LAB",
+          "clue": "Science room",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "LEAFY",
+          "clue": "Like some greens",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "EMCEE",
+          "clue": "Show host",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "VIEWS",
+          "clue": "YouTube data",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "ITS",
+          "clue": "\"- a deal!\"",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "LACES",
+          "clue": "Sneaker features",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "AFEW",
+          "clue": "Just some",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "BYES",
+          "clue": "Top seeds' rewards",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "LEVI",
+          "clue": "___ Strauss & Co",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "EMIT",
+          "clue": "Spew out",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "A",
+        "number": 1
+      },
+      {
+        "answer": "P",
+        "number": 2
+      },
+      {
+        "answer": "E",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 4
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "B",
+        "number": 5
+      },
+      {
+        "answer": "H",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "E",
+        "number": 7
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "F",
+        "number": 8
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "Y"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "APE",
+          "clue": "Galoot",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "THUMB",
+          "clue": "Leaf through",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "HAPPY",
+          "clue": "Smiling, probably",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "ELITE",
+          "clue": "Ins",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "FLY",
+          "clue": "Aviate",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "AHALF",
+          "clue": "'...and ___' (extra bit, as in 'an hour and ___')",
+          "source": "written"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "PUPIL",
+          "clue": "Iris aperture",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "EMPTY",
+          "clue": "Needing fuel",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "THE",
+          "clue": "Part of GWTW",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 4,
+          "length": 3,
+          "answer": "BYE",
+          "clue": "\"Adios!\"",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

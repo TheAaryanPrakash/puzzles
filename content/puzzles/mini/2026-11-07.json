@@ -1,0 +1,479 @@
+{
+  "payload": {
+    "size": 7,
+    "cells": [
+      null,
+      null,
+      null,
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "F",
+        "number": 3
+      },
+      {
+        "answer": "E",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "B",
+        "number": 5
+      },
+      {
+        "answer": "O",
+        "number": 6
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "F",
+        "number": 7
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E",
+        "number": 8
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "F"
+      },
+      null,
+      {
+        "answer": "R",
+        "number": 9
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "A",
+        "number": 10
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "T",
+        "number": 11
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R",
+        "number": 12
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 13
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "M"
+      },
+      null,
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "SAFE",
+          "clue": "Vault",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "answer": "BOILER",
+          "clue": "Tough old bird one keeping house warm",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "FIFTEEN",
+          "clue": "RU team's wages finally withdrawn, papers being collected",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "answer": "ELF",
+          "clue": "Goblin",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 3,
+          "col": 4,
+          "length": 3,
+          "answer": "RBI",
+          "clue": "Batter's stat",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "ALITTLE",
+          "clue": "'Ish'",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "answer": "RECUSE",
+          "clue": "Disqualify (oneself)",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 6,
+          "col": 0,
+          "length": 4,
+          "answer": "STEM",
+          "clue": "Shoot",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "answer": "SIT",
+          "clue": "\"Park it\"",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 4,
+          "length": 6,
+          "answer": "ALERTS",
+          "clue": "Advisories",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 5,
+          "length": 6,
+          "answer": "FEEBLE",
+          "clue": "Pathetic",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 6,
+          "length": 5,
+          "answer": "ERNIE",
+          "clue": "Bert's roommate",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "answer": "BILLET",
+          "clue": "Liz poorly inside accommodation",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 2,
+          "length": 6,
+          "answer": "OFFICE",
+          "clue": "Position retired skater might be in",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "FEARS",
+          "clue": "Phobias",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 3,
+          "length": 3,
+          "answer": "TUM",
+          "clue": "Stomach, cutely",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "M",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "S",
+        "number": 3
+      },
+      {
+        "answer": "S",
+        "number": 4
+      },
+      {
+        "answer": "S",
+        "number": 5
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "P",
+        "number": 6
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "R",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "T"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "MASS",
+          "clue": "Church rite",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "SALTY",
+          "clue": "Like ocean air",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "PRIUS",
+          "clue": "Toyota hybrid",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "AGENT",
+          "clue": "Catalyst",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "RENT",
+          "clue": "Digs dough",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "MARGE",
+          "clue": "Bart's mom",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "ALIEN",
+          "clue": "Strange",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "STUNT",
+          "clue": "___ double",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "SYST",
+          "clue": "Network (abbreviation)",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "SPAR",
+          "clue": "Mast",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,476 @@
+{
+  "payload": {
+    "size": 7,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "M",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "D",
+        "number": 3
+      },
+      null,
+      null,
+      null,
+      {
+        "answer": "P",
+        "number": 4
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "S",
+        "number": 5
+      },
+      null,
+      {
+        "answer": "H",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "L",
+        "number": 7
+      },
+      {
+        "answer": "A",
+        "number": 8
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "H"
+      },
+      null,
+      {
+        "answer": "M",
+        "number": 9
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "W",
+        "number": 10
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "E",
+        "number": 11
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "T"
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 12
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "X"
+      },
+      null,
+      null,
+      null,
+      {
+        "answer": "D",
+        "number": 13
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "D"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "MAD",
+          "clue": "Wild",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 5,
+          "answer": "PARIS",
+          "clue": "City on the Seine",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "HOTMAIL",
+          "clue": "Predecessor of Outlook",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "answer": "ASH",
+          "clue": "Pipe waste",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 3,
+          "col": 4,
+          "length": 3,
+          "answer": "MOO",
+          "clue": "Cattle call",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "WIPEOUT",
+          "clue": "Surfing fall, or total defeat",
+          "source": "written"
+        },
+        {
+          "number": 12,
+          "row": 5,
+          "col": 1,
+          "length": 5,
+          "answer": "THANX",
+          "clue": "Save-a-letter sincerity",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 6,
+          "col": 2,
+          "length": 3,
+          "answer": "DUD",
+          "clue": "Total flop",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "MATHPHD",
+          "clue": "Advanced numbers degree, briefly",
+          "source": "written"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "answer": "ARM",
+          "clue": "Sofa part",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "DIAMOND",
+          "clue": "No heart: such a person might be rough",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 5,
+          "answer": "POSIT",
+          "clue": "Presume",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 5,
+          "length": 5,
+          "answer": "SIOUX",
+          "clue": "People involved with the #NoDAPL movement",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "HAW",
+          "clue": "Hem's partner",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 6,
+          "length": 3,
+          "answer": "LOT",
+          "clue": "Truckload",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 3,
+          "length": 3,
+          "answer": "EAU",
+          "clue": "Evian water",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "T",
+        "number": 2
+      },
+      {
+        "answer": "R",
+        "number": 3
+      },
+      {
+        "answer": "A",
+        "number": 4
+      },
+      {
+        "answer": "W",
+        "number": 5
+      },
+      {
+        "answer": "I",
+        "number": 6
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "M",
+        "number": 7
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "O",
+        "number": 8
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "N",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "S"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "STRAW",
+          "clue": "Scarecrow stuff",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "IRISH",
+          "clue": "From Dublin",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "MASSE",
+          "clue": "En ___ (as a large group)",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "OCEAN",
+          "clue": "Poet Vuong",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 5,
+          "answer": "NERDS",
+          "clue": "Uncool group",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "SIMON",
+          "clue": "\"Plaza Suite\" playwright",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "TRACE",
+          "clue": "Find and copy",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "RISER",
+          "clue": "Stage platform",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "ASSAD",
+          "clue": "Family name in Mideast politics",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "WHENS",
+          "clue": "'Since ___?' (incredulous question)",
+          "source": "written"
+        }
+      ]
+    }
+  }
+}

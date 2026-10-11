@@ -1,0 +1,359 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "C",
+        "number": 1
+      },
+      {
+        "answer": "S",
+        "number": 2
+      },
+      {
+        "answer": "P",
+        "number": 3
+      },
+      {
+        "answer": "A",
+        "number": 4
+      },
+      {
+        "answer": "N",
+        "number": 5
+      },
+      {
+        "answer": "H",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T",
+        "number": 8
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      null,
+      {
+        "answer": "D",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "W"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "CSPAN",
+          "clue": "Congressional channel",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "HORSE",
+          "clue": "Jockey's mount",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "ALIKE",
+          "clue": "Similar",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "TIMED",
+          "clue": "Used a stopwatch",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "DEW",
+          "clue": "Condensation",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "CHAT",
+          "clue": "Natter",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "SOLID",
+          "clue": "Not hollow",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "PRIME",
+          "clue": "Of the best quality",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "ASKEW",
+          "clue": "Out of whack",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "NEED",
+          "clue": "Requisite",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "N",
+        "number": 2
+      },
+      {
+        "answer": "O",
+        "number": 3
+      },
+      {
+        "answer": "G",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 5
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "J",
+        "number": 6
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "B",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "SNOG",
+          "clue": "Game partners try turning over to canoodle",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "TOFU",
+          "clue": "Meat alternative",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "JIFFY",
+          "clue": "Blink of an eye",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "ALEE",
+          "clue": "Helm heading",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "BEER",
+          "clue": "Bar serving",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "STILE",
+          "clue": "Steps over a wall",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "NOFEE",
+          "clue": "Credit card draw",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "OFFER",
+          "clue": "Volunteer",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "GUY",
+          "clue": "Fella",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "JAB",
+          "clue": "Barb",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

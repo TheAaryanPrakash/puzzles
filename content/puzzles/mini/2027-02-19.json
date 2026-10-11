@@ -1,0 +1,358 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "F",
+        "number": 1
+      },
+      {
+        "answer": "U",
+        "number": 2
+      },
+      {
+        "answer": "R",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "P",
+        "number": 4
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R",
+        "number": 5
+      },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D",
+        "number": 7
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "D"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "Y"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "FUR",
+          "clue": "Dog coater",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "PAPER",
+          "clue": "Printer supply",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "AISLE",
+          "clue": "Gangway",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "DREAD",
+          "clue": "Extreme fear",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "STY",
+          "clue": "Farm pen",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "FAIRS",
+          "clue": "Expos",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "UPSET",
+          "clue": "Displeased",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "RELAY",
+          "clue": "Team race",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "PAD",
+          "clue": "___ thai",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 4,
+          "length": 3,
+          "answer": "RED",
+          "clue": "Scarlet",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "F",
+        "number": 1
+      },
+      {
+        "answer": "U",
+        "number": 2
+      },
+      {
+        "answer": "R",
+        "number": 3
+      },
+      {
+        "answer": "S",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "O",
+        "number": 5
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "P",
+        "number": 6
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E",
+        "number": 7
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "J"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "Z",
+        "number": 8
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "P"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "FURS",
+          "clue": "Astor's wares",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "ONIT",
+          "clue": "'Will do'",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "PRIOR",
+          "clue": "Earlier arrest",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "EMOJI",
+          "clue": "Text adornment",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 5,
+          "answer": "ZSNAP",
+          "clue": "Sassy finger-snap gesture, in a Z shape",
+          "source": "written"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "FORMS",
+          "clue": "Application documents",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "UNION",
+          "clue": "Wedding",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "RIOJA",
+          "clue": "Spanish red wine",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "STRIP",
+          "clue": "Slice of bacon",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "PEZ",
+          "clue": "Candy in dispensers",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,370 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "M",
+        "number": 2
+      },
+      {
+        "answer": "O",
+        "number": 3
+      },
+      {
+        "answer": "C",
+        "number": 4
+      },
+      {
+        "answer": "K",
+        "number": 5
+      },
+      {
+        "answer": "K",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "I",
+        "number": 7
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "F",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "F",
+        "number": 9
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "K"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "SMOCK",
+          "clue": "Artist's coverall",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "KAUAI",
+          "clue": "\"The Garden Island\"",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "INTRO",
+          "clue": "Prologue",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "FOILS",
+          "clue": "Some hair highlights",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 5,
+          "answer": "FREAK",
+          "clue": "Abnormal thing or event",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "SKIFF",
+          "clue": "A small utility boat",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "MANOR",
+          "clue": "Stately home",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "OUTIE",
+          "clue": "Navel formation",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "CARLA",
+          "clue": "Chef Hall",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "KIOSK",
+          "clue": "Mall stall",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "I",
+        "number": 2
+      },
+      {
+        "answer": "G",
+        "number": 3
+      },
+      {
+        "answer": "H",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "E",
+        "number": 5
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "L",
+        "number": 6
+      },
+      {
+        "answer": "R",
+        "number": 7
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "F",
+        "number": 8
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "S"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "SIGH",
+          "clue": "Exhale sadly",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "EMAIL",
+          "clue": "Inbox pileup",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "ROUTE",
+          "clue": "Course",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "FUGUE",
+          "clue": "A contrapuntal musical composition",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 5,
+          "answer": "STEPS",
+          "clue": "Fitbit units",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "SERFS",
+          "clue": "Medieval laborers",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "IMOUT",
+          "clue": "\"Shark Tank\" turndown",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "GAUGE",
+          "clue": "Speedometer, e.g",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "HITUP",
+          "clue": "Call on for cash",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 4,
+          "length": 4,
+          "answer": "LEES",
+          "clue": "Dregs",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

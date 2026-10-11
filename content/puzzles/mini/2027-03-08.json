@@ -1,0 +1,354 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "G",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "S",
+        "number": 3
+      },
+      {
+        "answer": "P",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "O",
+        "number": 5
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "S",
+        "number": 6
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "U",
+        "number": 7
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "Y"
+      },
+      null,
+      {
+        "answer": "B",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "GASP",
+          "clue": "Shocked sound",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "ONTO",
+          "clue": "Aboard",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "SUGAR",
+          "clue": "Tea sweetener",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "UGLY",
+          "clue": "Unsightly",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "BEES",
+          "clue": "Hive dwellers",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "GOUGE",
+          "clue": "Charge too much",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "ANGLE",
+          "clue": "Hidden motive",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "STAYS",
+          "clue": "Collar inserts",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "POR",
+          "clue": "___ ejemplo",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "SUB",
+          "clue": "Navy vessel",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "H",
+        "number": 1
+      },
+      {
+        "answer": "U",
+        "number": 2
+      },
+      {
+        "answer": "S",
+        "number": 3
+      },
+      {
+        "answer": "K",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "O",
+        "number": 5
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "H",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "HUSK",
+          "clue": "Tamal wrapper",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "ONCE",
+          "clue": "Formerly",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "AWFUL",
+          "clue": "Very bad",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "STUMP",
+          "clue": "Throw what remains of tree",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "HON",
+          "clue": "Sweets",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "HOWTO",
+          "clue": "Tutorial",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "UNFUN",
+          "clue": "Not enjoyable at all",
+          "source": "written"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "SCUM",
+          "clue": "Pond buildup",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "KELP",
+          "clue": "Seaweed",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "ASH",
+          "clue": "Tree",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

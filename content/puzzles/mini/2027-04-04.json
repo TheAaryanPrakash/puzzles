@@ -1,0 +1,488 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "H",
+        "number": 1
+      },
+      {
+        "answer": "I",
+        "number": 2
+      },
+      {
+        "answer": "S",
+        "number": 3
+      },
+      {
+        "answer": "S",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "U",
+        "number": 5
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "T",
+        "number": 6
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "K",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "S"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "HISS",
+          "clue": "Boo's partner",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "UNCUT",
+          "clue": "Not censored",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "SLICE",
+          "clue": "Pizzeria buy",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "KAFKA",
+          "clue": "'A Hunger Artist' writer",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 5,
+          "answer": "SWISS",
+          "clue": "Airline to Geneva",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "HUSKS",
+          "clue": "Tamal wrappers",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "INLAW",
+          "clue": "Kin by marriage",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "SCIFI",
+          "clue": "\"Star Wars\" genre",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "SUCKS",
+          "clue": "Local expresses derision with Pole losing the head with Huey, Dewey and Louie",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 4,
+          "length": 4,
+          "answer": "TEAS",
+          "clue": "Steeped drinks",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 7,
+    "cells": [
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "F",
+        "number": 3
+      },
+      {
+        "answer": "A",
+        "number": 4
+      },
+      {
+        "answer": "R",
+        "number": 5
+      },
+      {
+        "answer": "I",
+        "number": 6
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      null,
+      {
+        "answer": "I",
+        "number": 8
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "L",
+        "number": 9
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "R",
+        "number": 10
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "F",
+        "number": 11
+      },
+      null,
+      {
+        "answer": "N",
+        "number": 12
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "D",
+        "number": 13
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "G",
+        "number": 14
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 15
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "S"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 6,
+          "answer": "SAFARI",
+          "clue": "Game trip",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 1,
+          "col": 0,
+          "length": 6,
+          "answer": "AWAKEN",
+          "clue": "Rouse",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 2,
+          "col": 0,
+          "length": 6,
+          "answer": "INCAPS",
+          "clue": "LIKE THIS CLUE",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "answer": "LIE",
+          "clue": "Fish story",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 3,
+          "col": 4,
+          "length": 3,
+          "answer": "REF",
+          "clue": "NFL arbiter",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 4,
+          "col": 1,
+          "length": 6,
+          "answer": "NODICE",
+          "clue": "\"Forget it!\"",
+          "source": "dataset"
+        },
+        {
+          "number": 14,
+          "row": 5,
+          "col": 1,
+          "length": 6,
+          "answer": "GUESTS",
+          "clue": "Party people",
+          "source": "dataset"
+        },
+        {
+          "number": 15,
+          "row": 6,
+          "col": 1,
+          "length": 6,
+          "answer": "STRESS",
+          "clue": "Emphasis",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "SAIL",
+          "clue": "Wind catcher",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "answer": "AWNINGS",
+          "clue": "Storefront coverings",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "FACEOUT",
+          "clue": "Positioned for visibility on a shelf, as a book",
+          "source": "written"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "answer": "AKA",
+          "clue": "Alias",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "REPRISE",
+          "clue": "Musical repetition",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "answer": "INSECTS",
+          "clue": "Beetles and bees",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 3,
+          "col": 6,
+          "length": 4,
+          "answer": "FESS",
+          "clue": "Own (up)",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 4,
+          "col": 3,
+          "length": 3,
+          "answer": "DER",
+          "clue": "German \"the\"",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

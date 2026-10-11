@@ -1,0 +1,359 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "B",
+        "number": 1
+      },
+      {
+        "answer": "Z",
+        "number": 2
+      },
+      {
+        "answer": "Z",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "F",
+        "number": 4
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "T",
+        "number": 5
+      },
+      {
+        "answer": "O",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "B",
+        "number": 7
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "Y"
+      },
+      null,
+      {
+        "answer": "M",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "Y"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "BZZ",
+          "clue": "Buzzer's sound",
+          "source": "written"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "FRUIT",
+          "clue": "___ Roll-Ups",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "OOMPH",
+          "clue": "Vigor",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "BOBBY",
+          "clue": "Man is 25, single and collects books",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "MAY",
+          "clue": "Hedging word",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "BROOM",
+          "clue": "Witch craft",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "ZUMBA",
+          "clue": "Jazzercise cousin",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "ZIPBY",
+          "clue": "Speed past quickly, with 'by'",
+          "source": "written"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "FOB",
+          "clue": "Watch attachment",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 4,
+          "length": 3,
+          "answer": "THY",
+          "clue": "Biblical 'your'",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "A",
+        "number": 1
+      },
+      {
+        "answer": "F",
+        "number": 2
+      },
+      {
+        "answer": "C",
+        "number": 3
+      },
+      null,
+      null,
+      {
+        "answer": "N",
+        "number": 4
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "T",
+        "number": 5
+      },
+      {
+        "answer": "H",
+        "number": 6
+      },
+      {
+        "answer": "D",
+        "number": 7
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "V"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "O",
+        "number": 8
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "R",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "S"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "AFC",
+          "clue": "The LA Chargers play in it",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "NORTH",
+          "clue": "Cardinal point",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "DRIVE",
+          "clue": "Car trip",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "OCEAN",
+          "clue": "Large sea",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 5,
+          "answer": "REDDS",
+          "clue": "___' Apple, flavored malt beverage brand",
+          "source": "written"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "ANDOR",
+          "clue": "Slashed conjunction",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "FORCE",
+          "clue": "Physical strength",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "CRIED",
+          "clue": "Showed sorrow",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 3,
+          "length": 4,
+          "answer": "TVAD",
+          "clue": "Spot on the tube",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 4,
+          "length": 4,
+          "answer": "HENS",
+          "clue": "Farm cluckers",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

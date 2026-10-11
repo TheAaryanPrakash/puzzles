@@ -1,0 +1,457 @@
+{
+  "payload": {
+    "size": 7,
+    "cells": [
+      null,
+      null,
+      null,
+      {
+        "answer": "B",
+        "number": 1
+      },
+      {
+        "answer": "I",
+        "number": 2
+      },
+      {
+        "answer": "F",
+        "number": 3
+      },
+      {
+        "answer": "F",
+        "number": 4
+      },
+      null,
+      null,
+      {
+        "answer": "G",
+        "number": 5
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S",
+        "number": 6
+      },
+      {
+        "answer": "W",
+        "number": 7
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "W",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A",
+        "number": 9
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "B",
+        "number": 10
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "T"
+      },
+      null,
+      null,
+      {
+        "answer": "S",
+        "number": 11
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "BIFF",
+          "clue": "'Back to the Future' antagonist",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 2,
+          "length": 5,
+          "answer": "GENRE",
+          "clue": "Suspense, e.g",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "SWEATER",
+          "clue": "Pullover",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 7,
+          "answer": "WEATHER",
+          "clue": "Climate",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "ALREADY",
+          "clue": "Adult female holding on so soon",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 5,
+          "col": 0,
+          "length": 5,
+          "answer": "BLURT",
+          "clue": "___ out (say suddenly)",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 6,
+          "col": 0,
+          "length": 4,
+          "answer": "SIPS",
+          "clue": "Tries the coffee",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "answer": "BEATERS",
+          "clue": "Some Quidditch players",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 4,
+          "length": 6,
+          "answer": "INTHAT",
+          "clue": "Because",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 5,
+          "length": 5,
+          "answer": "FREED",
+          "clue": "Unleashed",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 6,
+          "length": 5,
+          "answer": "FERRY",
+          "clue": "River-crossing service",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 2,
+          "length": 6,
+          "answer": "GEARUP",
+          "clue": "Get ready (for)",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "SWABS",
+          "clue": "Lab kit supply",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 1,
+          "length": 5,
+          "answer": "WELLI",
+          "clue": "'___ never!' (shocked reply)",
+          "source": "written"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "U",
+        "number": 2
+      },
+      {
+        "answer": "M",
+        "number": 3
+      },
+      {
+        "answer": "O",
+        "number": 4
+      },
+      {
+        "answer": "B",
+        "number": 5
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "L",
+        "number": 7
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "D",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "S"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "SUMO",
+          "clue": "Wrestler in a mawashi",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "BASIL",
+          "clue": "Pho garnish",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "AMEND",
+          "clue": "Set right",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "LOBES",
+          "clue": "Some piercing spots",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "DAYS",
+          "clue": "Calendar squares",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "SAMOA",
+          "clue": "Pacific island group",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "USEBY",
+          "clue": "Words on a milk jug",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "MINES",
+          "clue": "Pits",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "OLDS",
+          "clue": "Poet Sharon",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "BALD",
+          "clue": "Unvarnished",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

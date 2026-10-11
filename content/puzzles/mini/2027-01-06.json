@@ -1,0 +1,368 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "C",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "R",
+        "number": 3
+      },
+      {
+        "answer": "D",
+        "number": 4
+      },
+      {
+        "answer": "S",
+        "number": 5
+      },
+      {
+        "answer": "F",
+        "number": 6
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L",
+        "number": 7
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "A",
+        "number": 8
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "T",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "Y"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "CARDS",
+          "clue": "Hand makeup",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "FLORA",
+          "clue": "Vegetation",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "LOUIS",
+          "clue": "French monarch's name",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "ANNES",
+          "clue": "Authors Rice and Tyler",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 5,
+          "answer": "TEDDY",
+          "clue": "Baby's bear",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "CFLAT",
+          "clue": "B's equivalent",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "ALONE",
+          "clue": "Solely",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "ROUND",
+          "clue": "Circular",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "DRIED",
+          "clue": "cut and ___",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "SASSY",
+          "clue": "Spunky",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "N",
+        "number": 2
+      },
+      {
+        "answer": "A",
+        "number": 3
+      },
+      {
+        "answer": "G",
+        "number": 4
+      },
+      {
+        "answer": "S",
+        "number": 5
+      },
+      {
+        "answer": "T",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "E",
+        "number": 7
+      },
+      {
+        "answer": "V"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "M",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "C"
+      },
+      null,
+      {
+        "answer": "L",
+        "number": 9
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "L"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "SNAGS",
+          "clue": "Hosiery mishaps",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "TAMMY",
+          "clue": "Country singer Wynette",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "EVIAN",
+          "clue": "Aquafina rival",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "MAGIC",
+          "clue": "Wizard's skill",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "LOL",
+          "clue": "'Ha-ha!'",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "STEM",
+          "clue": "Stop",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "NAVAL",
+          "clue": "Fleet-based",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "AMIGO",
+          "clue": "\"Hombre\" pal",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "GMAIL",
+          "clue": "Its logo has a blue, red, orange, yellow and green 'M'",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "SYNC",
+          "clue": "Bring together",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

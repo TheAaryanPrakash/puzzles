@@ -1,0 +1,361 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "L",
+        "number": 1
+      },
+      {
+        "answer": "E",
+        "number": 2
+      },
+      {
+        "answer": "F",
+        "number": 3
+      },
+      {
+        "answer": "T",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 5
+      },
+      {
+        "answer": "Q"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "A"
+      },
+      null,
+      {
+        "answer": "N",
+        "number": 6
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E",
+        "number": 7
+      },
+      {
+        "answer": "E",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "H"
+      },
+      null,
+      {
+        "answer": "L",
+        "number": 9
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "LEFT",
+          "clue": "Bailed",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "AQUA",
+          "clue": "Watery shade",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "NURSE",
+          "clue": "Drink slowly",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "EARTH",
+          "clue": "Planet",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 1,
+          "length": 4,
+          "answer": "LYES",
+          "clue": "Caustic cleaners",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "LANE",
+          "clue": "Narrow road",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "EQUAL",
+          "clue": "50-50",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "FURRY",
+          "clue": "Like some friends",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "TASTE",
+          "clue": "Hint",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "answer": "EHS",
+          "clue": "Canadian interjections",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "L",
+        "number": 1
+      },
+      {
+        "answer": "E",
+        "number": 2
+      },
+      {
+        "answer": "T",
+        "number": 3
+      },
+      {
+        "answer": "S",
+        "number": 4
+      },
+      {
+        "answer": "R",
+        "number": 5
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "C",
+        "number": 7
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "E",
+        "number": 8
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "U"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "LETS",
+          "clue": "\"It's a date!\"",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "RIGHT",
+          "clue": "'That's correct!'",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "AGREE",
+          "clue": "Tally",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "CHEEP",
+          "clue": "Tweet costing little, by the sound of it (wordplay)",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "ETTU",
+          "clue": "Words to Brutus",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "LIGHT",
+          "clue": "Radiance",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "EGRET",
+          "clue": "Swamp thing",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "THEEU",
+          "clue": "Group for Finland and France",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "STEP",
+          "clue": "Dance bit",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "RACE",
+          "clue": "Speed",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

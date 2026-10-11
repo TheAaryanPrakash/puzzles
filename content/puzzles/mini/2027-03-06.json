@@ -1,0 +1,451 @@
+{
+  "payload": {
+    "size": 7,
+    "cells": [
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "T",
+        "number": 2
+      },
+      {
+        "answer": "A",
+        "number": 3
+      },
+      {
+        "answer": "S",
+        "number": 4
+      },
+      {
+        "answer": "H",
+        "number": 5
+      },
+      null,
+      null,
+      {
+        "answer": "T",
+        "number": 6
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      null,
+      {
+        "answer": "L",
+        "number": 7
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "G",
+        "number": 8
+      },
+      null,
+      null,
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      null,
+      {
+        "answer": "T",
+        "number": 10
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "D",
+        "number": 11
+      },
+      null,
+      null,
+      {
+        "answer": "D",
+        "number": 12
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      null,
+      {
+        "answer": "S",
+        "number": 13
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "X"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "STASH",
+          "clue": "Hide",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "TRIKE",
+          "clue": "Tot's three-wheeler",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 6,
+          "answer": "LURING",
+          "clue": "Enticing, tempting",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "answer": "SPADE",
+          "clue": "Black jack, e.g",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 4,
+          "col": 1,
+          "length": 6,
+          "answer": "TORRID",
+          "clue": "Hot, hot, hot",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 5,
+          "col": 2,
+          "length": 5,
+          "answer": "DEICE",
+          "clue": "Remove frozen crystals from",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 6,
+          "col": 2,
+          "length": 5,
+          "answer": "SAXON",
+          "clue": "Germanic marauder",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "STL",
+          "clue": "Cardinals' letters",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "TRUST",
+          "clue": "Belief",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "AIRPODS",
+          "clue": "Apple's wireless earbuds",
+          "source": "written"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "answer": "SKIAREA",
+          "clue": "Aspen or Alta",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "HENDRIX",
+          "clue": "Jimi ___, guitar legend",
+          "source": "written"
+        },
+        {
+          "number": 8,
+          "row": 2,
+          "col": 5,
+          "length": 5,
+          "answer": "GEICO",
+          "clue": "State Farm competitor",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 6,
+          "length": 3,
+          "answer": "DEN",
+          "clue": "Hotbed",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "N",
+        "number": 2
+      },
+      {
+        "answer": "O",
+        "number": 3
+      },
+      {
+        "answer": "W",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 5
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "B",
+        "number": 6
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "E",
+        "number": 7
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 8
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "SNOW",
+          "clue": "Skier's need",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "AURA",
+          "clue": "Mystique",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "BUDDY",
+          "clue": "Pal",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "EDGE",
+          "clue": "Leg up",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "TIER",
+          "clue": "Strata",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "SAUDI",
+          "clue": "- Arabia",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "NUDGE",
+          "clue": "Gentle push",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "ORDER",
+          "clue": "Court command",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "WAY",
+          "clue": "Course",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "BET",
+          "clue": "Parlay, say",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

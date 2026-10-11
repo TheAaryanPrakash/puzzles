@@ -1,0 +1,359 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "B",
+        "number": 1
+      },
+      {
+        "answer": "U",
+        "number": 2
+      },
+      {
+        "answer": "T",
+        "number": 3
+      },
+      {
+        "answer": "C",
+        "number": 4
+      },
+      {
+        "answer": "L",
+        "number": 5
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "H",
+        "number": 6
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E",
+        "number": 7
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "F",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "X"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "BUT",
+          "clue": "'However . . .'",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "CLONE",
+          "clue": "Sci-fi duplicate",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "HITIT",
+          "clue": "Directive to a band",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "EMOTE",
+          "clue": "Milk a scene",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "FOX",
+          "clue": "Aesopian animal",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "BOTOX",
+          "clue": "Shot to the face",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "UNIT",
+          "clue": "Gallon, e.g",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "TETE",
+          "clue": "Henri's head",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "CHEF",
+          "clue": "Cook",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "LIMO",
+          "clue": "Star's ride",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "C",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "B",
+        "number": 3
+      },
+      {
+        "answer": "L",
+        "number": 4
+      },
+      {
+        "answer": "E",
+        "number": 5
+      },
+      {
+        "answer": "B",
+        "number": 6
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "D",
+        "number": 7
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 8
+      },
+      {
+        "answer": "Q"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "A"
+      },
+      null,
+      {
+        "answer": "N",
+        "number": 9
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "Y"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "CABLE",
+          "clue": "Suspension bridge support",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "BLUES",
+          "clue": "Music tones",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "DORMS",
+          "clue": "College residences",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "answer": "AQUA",
+          "clue": "Watery blue",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 1,
+          "length": 4,
+          "answer": "NARY",
+          "clue": "- a one (zero)",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "CBD",
+          "clue": "Substance in some adult gummies",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "ALOAN",
+          "clue": "Take out ___",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "BURQA",
+          "clue": "Head-to-toe garment",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "LEMUR",
+          "clue": "Primate",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "ESSAY",
+          "clue": "Bacon piece",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

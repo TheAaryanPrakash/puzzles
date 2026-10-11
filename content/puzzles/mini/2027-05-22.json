@@ -1,0 +1,568 @@
+{
+  "payload": {
+    "size": 7,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "P",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "S",
+        "number": 3
+      },
+      {
+        "answer": "T",
+        "number": 4
+      },
+      {
+        "answer": "A",
+        "number": 5
+      },
+      null,
+      {
+        "answer": "W",
+        "number": 6
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "M",
+        "number": 7
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "I",
+        "number": 8
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "X",
+        "number": 9
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "E",
+        "number": 10
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      null,
+      null,
+      {
+        "answer": "S",
+        "number": 11
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      null,
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "PASTA",
+          "clue": "Edible elbows",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "answer": "WEBCAM",
+          "clue": "Network mostly for soldiers bringing others to view the site",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "MANDATE",
+          "clue": "Island lover gives order",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 7,
+          "answer": "IGNORES",
+          "clue": "Tunes out",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 6,
+          "answer": "XGAMES",
+          "clue": "Competition with skateboarders",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 5,
+          "col": 0,
+          "length": 5,
+          "answer": "ELMER",
+          "clue": "Fudd of cartoons",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 6,
+          "col": 0,
+          "length": 4,
+          "answer": "SEEN",
+          "clue": "Beheld",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "PENNAME",
+          "clue": "Author's alias",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "answer": "ABDOMEN",
+          "clue": "Belly",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 6,
+          "answer": "SCARER",
+          "clue": "One who frightens, like Sulley in 'Monsters, Inc.'",
+          "source": "written"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 5,
+          "length": 5,
+          "answer": "TATES",
+          "clue": "Crispy cookie brand",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 6,
+          "length": 4,
+          "answer": "AMES",
+          "clue": "Iowa State home",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "answer": "WAGGLE",
+          "clue": "Move side to side",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "MIXES",
+          "clue": "Blends",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 7,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "U",
+        "number": 2
+      },
+      {
+        "answer": "N",
+        "number": 3
+      },
+      null,
+      null,
+      null,
+      {
+        "answer": "C",
+        "number": 4
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "Y",
+        "number": 5
+      },
+      null,
+      {
+        "answer": "C",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "O",
+        "number": 8
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "G"
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 9
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "M",
+        "number": 10
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "C",
+        "number": 11
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "Y"
+      },
+      null,
+      {
+        "answer": "L",
+        "number": 12
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null,
+      null,
+      {
+        "answer": "A",
+        "number": 13
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "SUN",
+          "clue": "Day warmer",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 5,
+          "answer": "CASEY",
+          "clue": "Ill-fated batter",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "CANAPES",
+          "clue": "Party food in tin with mushy peas",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "answer": "OMG",
+          "clue": "\"!!!\"",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 3,
+          "col": 4,
+          "length": 3,
+          "answer": "TAO",
+          "clue": "Religion",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "MERCURY",
+          "clue": "Heavenly body which rises when hot",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 5,
+          "col": 1,
+          "length": 5,
+          "answer": "LIONS",
+          "clue": "Really big cats",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 6,
+          "col": 2,
+          "length": 3,
+          "answer": "AWE",
+          "clue": "Knock out",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "SANGRIA",
+          "clue": "Tapas bar drink",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "answer": "USA",
+          "clue": "Made in ___",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "NEPTUNE",
+          "clue": "Eighth planet",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 5,
+          "answer": "CAMEL",
+          "clue": "Animal at an oasis",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 5,
+          "length": 5,
+          "answer": "YEARS",
+          "clue": "Decade divisions",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "COM",
+          "clue": "Common address ender",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 6,
+          "length": 3,
+          "answer": "SOY",
+          "clue": "Tofu base",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 3,
+          "length": 3,
+          "answer": "COW",
+          "clue": "Farm grazer",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "L",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "C",
+        "number": 3
+      },
+      {
+        "answer": "E",
+        "number": 4
+      },
+      {
+        "answer": "A",
+        "number": 5
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "P",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E",
+        "number": 7
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "LACE",
+          "clue": "Shoestring",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "ALPHA",
+          "clue": "___ dog",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "PARIS",
+          "clue": "Champs-Elysees city",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "EMILY",
+          "clue": "Innovative poet Dickinson",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "SALE",
+          "clue": "BOGO event",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "LLAMA",
+          "clue": "Camel cousin",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "APRIL",
+          "clue": "Month",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "CHILE",
+          "clue": "Long-and-narrow South American nation",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "EASY",
+          "clue": "\"Relax\"",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "APES",
+          "clue": "Big galoots",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "D",
+        "number": 1
+      },
+      {
+        "answer": "W",
+        "number": 2
+      },
+      {
+        "answer": "A",
+        "number": 3
+      },
+      {
+        "answer": "R",
+        "number": 4
+      },
+      {
+        "answer": "F",
+        "number": 5
+      },
+      {
+        "answer": "R",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "G",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "DWARF",
+          "clue": "Sneezy, for one",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "RADAR",
+          "clue": "Weather aid",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "AGONY",
+          "clue": "Torment",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "GORGE",
+          "clue": "Deep, natural crevice",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 5,
+          "answer": "SNEER",
+          "clue": "Evil grin",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "DRAGS",
+          "clue": "Puffs",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "WAGON",
+          "clue": "Prairie schooner, for example",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "ADORE",
+          "clue": "Love",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "RANGE",
+          "clue": "Diversity",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "FRYER",
+          "clue": "Cooking device in a fast-food restaurant",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

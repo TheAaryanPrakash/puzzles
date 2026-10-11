@@ -1,0 +1,452 @@
+{
+  "payload": {
+    "size": 7,
+    "cells": [
+      null,
+      null,
+      null,
+      {
+        "answer": "B",
+        "number": 1
+      },
+      {
+        "answer": "O",
+        "number": 2
+      },
+      {
+        "answer": "W",
+        "number": 3
+      },
+      {
+        "answer": "L",
+        "number": 4
+      },
+      null,
+      null,
+      {
+        "answer": "C",
+        "number": 5
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 6
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "R",
+        "number": 7
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "U",
+        "number": 8
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "B",
+        "number": 9
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "Y"
+      },
+      null,
+      null,
+      {
+        "answer": "E",
+        "number": 10
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "BOWL",
+          "clue": "Dish for oatmeal",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 2,
+          "length": 5,
+          "answer": "CANOE",
+          "clue": "Dugout, e.g",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 6,
+          "answer": "TUBING",
+          "clue": "Floating down a lazy river on an inner tube",
+          "source": "written"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 7,
+          "answer": "REBOOKS",
+          "clue": "Changes flights, say",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 6,
+          "answer": "UNIONS",
+          "clue": "They're sometimes striking",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 5,
+          "col": 0,
+          "length": 5,
+          "answer": "BONNY",
+          "clue": "Scottish word for pretty",
+          "source": "written"
+        },
+        {
+          "number": 10,
+          "row": 6,
+          "col": 0,
+          "length": 4,
+          "answer": "ERGS",
+          "clue": "Measures of work",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "answer": "BABOONS",
+          "clue": "Large primates with colorful rumps",
+          "source": "written"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 4,
+          "length": 6,
+          "answer": "ONIONY",
+          "clue": "Like the taste of a bialy",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 5,
+          "length": 5,
+          "answer": "WONKS",
+          "clue": "Detail-oriented sorts",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 6,
+          "length": 4,
+          "answer": "LEGS",
+          "clue": "Lower limbs",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 2,
+          "length": 6,
+          "answer": "CUBING",
+          "clue": "Solving a Rubik's puzzle",
+          "source": "written"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 5,
+          "answer": "TENOR",
+          "clue": "Overall tone",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "RUBE",
+          "clue": "Cartoonist Goldberg",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "A",
+        "number": 1
+      },
+      {
+        "answer": "R",
+        "number": 2
+      },
+      {
+        "answer": "K",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "C",
+        "number": 4
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S",
+        "number": 5
+      },
+      {
+        "answer": "L",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "M",
+        "number": 8
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "C"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "ARK",
+          "clue": "Noah's ship",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "CLUES",
+          "clue": "This puzzle has 78",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "LOBBY",
+          "clue": "Entrance hall",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "ASIAN",
+          "clue": "Indian, say",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 5,
+          "answer": "MSNBC",
+          "clue": "Rachel Maddow network",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "ALOSS",
+          "clue": "At ___ for words",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "RUBIN",
+          "clue": "Apply, as lotion",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "KEBAB",
+          "clue": "Food on skewer",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "CLAM",
+          "clue": "Mollusc",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 4,
+          "length": 4,
+          "answer": "SYNC",
+          "clue": "Dubbing concern",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

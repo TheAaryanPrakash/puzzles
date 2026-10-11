@@ -1,0 +1,358 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "A",
+        "number": 1
+      },
+      {
+        "answer": "R",
+        "number": 2
+      },
+      {
+        "answer": "C",
+        "number": 3
+      },
+      null,
+      null,
+      {
+        "answer": "G",
+        "number": 4
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L",
+        "number": 5
+      },
+      null,
+      {
+        "answer": "E",
+        "number": 6
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R",
+        "number": 7
+      },
+      null,
+      {
+        "answer": "Y",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "I"
+      },
+      null,
+      null,
+      {
+        "answer": "B",
+        "number": 9
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "O"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "ARC",
+          "clue": "Joan of -",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "GOAL",
+          "clue": "Rink success",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "ERROR",
+          "clue": "Boob",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "answer": "YOGI",
+          "clue": "Guru's student",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 2,
+          "length": 3,
+          "answer": "BOO",
+          "clue": "Scare word",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "AGE",
+          "clue": "Era",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "RORY",
+          "clue": "___ Storm and the Hurricanes (Ringo's band before the Beatles)",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "CAROB",
+          "clue": "Trail mix sweet",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 3,
+          "length": 4,
+          "answer": "LOGO",
+          "clue": "Company emblem",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "answer": "RIO",
+          "clue": "201",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "T",
+        "number": 1
+      },
+      {
+        "answer": "E",
+        "number": 2
+      },
+      {
+        "answer": "S",
+        "number": 3
+      },
+      {
+        "answer": "L",
+        "number": 4
+      },
+      {
+        "answer": "A",
+        "number": 5
+      },
+      {
+        "answer": "W",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I",
+        "number": 7
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "T",
+        "number": 9
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "TESLA",
+          "clue": "Musk's car brand",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "WATER",
+          "clue": "Sea filler",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "IRATE",
+          "clue": "Livid",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "SLIMS",
+          "clue": "Virginia ___, slender cigarette brand",
+          "source": "written"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "TYRE",
+          "clue": "Wheel-ring",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "TWIST",
+          "clue": "Wind, distort",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "EARLY",
+          "clue": "Before dawn",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "STAIR",
+          "clue": "Single step",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "LETME",
+          "clue": "'I can do that'",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "ARES",
+          "clue": "Son of Hera",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

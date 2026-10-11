@@ -1,0 +1,448 @@
+{
+  "payload": {
+    "size": 7,
+    "cells": [
+      null,
+      null,
+      null,
+      {
+        "answer": "H",
+        "number": 1
+      },
+      {
+        "answer": "E",
+        "number": 2
+      },
+      {
+        "answer": "A",
+        "number": 3
+      },
+      {
+        "answer": "T",
+        "number": 4
+      },
+      null,
+      null,
+      {
+        "answer": "M",
+        "number": 5
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "X"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "C",
+        "number": 7
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "L",
+        "number": 8
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "E",
+        "number": 9
+      },
+      {
+        "answer": "V"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null,
+      {
+        "answer": "F",
+        "number": 10
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "HEAT",
+          "clue": "Warmth",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 2,
+          "length": 5,
+          "answer": "MOXIE",
+          "clue": "Spirit",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 6,
+          "answer": "SATURN",
+          "clue": "Titan circles it",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 7,
+          "answer": "CHILLED",
+          "clue": "In the fridge",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 6,
+          "answer": "LIMITS",
+          "clue": "Bounds",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 5,
+          "col": 0,
+          "length": 5,
+          "answer": "EVENS",
+          "clue": "1/1",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 6,
+          "col": 0,
+          "length": 4,
+          "answer": "FADE",
+          "clue": "Dwindle",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "answer": "HOTLINE",
+          "clue": "Emergency telephone",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 4,
+          "length": 6,
+          "answer": "EXULTS",
+          "clue": "Celebrates big-time",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 5,
+          "length": 5,
+          "answer": "AIRES",
+          "clue": "Winds, in a South American city name",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 6,
+          "length": 4,
+          "answer": "TEND",
+          "clue": "See to",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 2,
+          "length": 6,
+          "answer": "MAIMED",
+          "clue": "Badly wounded",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 5,
+          "answer": "SHIVA",
+          "clue": "Hindu god",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "CLEF",
+          "clue": "Pitch setter",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "L",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "W",
+        "number": 3
+      },
+      {
+        "answer": "F",
+        "number": 4
+      },
+      {
+        "answer": "L",
+        "number": 5
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "L",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "W",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "LAW",
+          "clue": "Ordinance",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "FLUSH",
+          "clue": "Loaded flat",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "LOCKE",
+          "clue": "Enlightenment philosopher from England",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "ARISE",
+          "clue": "Surface",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "WED",
+          "clue": "Make one",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "LUCID",
+          "clue": "Crystal clear",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "ASKS",
+          "clue": "Inquires",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "WHEE",
+          "clue": "\"What a ride!\"",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "FLAW",
+          "clue": "Defect",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "LORE",
+          "clue": "Folk history",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

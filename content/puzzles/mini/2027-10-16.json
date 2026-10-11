@@ -1,0 +1,456 @@
+{
+  "payload": {
+    "size": 7,
+    "cells": [
+      null,
+      null,
+      null,
+      {
+        "answer": "C",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "R",
+        "number": 3
+      },
+      {
+        "answer": "E",
+        "number": 4
+      },
+      null,
+      null,
+      {
+        "answer": "P",
+        "number": 5
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      null,
+      {
+        "answer": "M",
+        "number": 6
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "M",
+        "number": 7
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "O",
+        "number": 8
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "Y"
+      },
+      null,
+      {
+        "answer": "C",
+        "number": 9
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "K",
+        "number": 10
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "T"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "CARE",
+          "clue": "Give a fig",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 2,
+          "length": 5,
+          "answer": "PANED",
+          "clue": "Having glass sections",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 6,
+          "answer": "MUSCLE",
+          "clue": "Local thug would be legless without it",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 7,
+          "answer": "MARTIAN",
+          "clue": "Alien bird covers area",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 6,
+          "answer": "OSPREY",
+          "clue": "Fish-eating bird",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "answer": "COLONS",
+          "clue": "Punctuation marks before a list",
+          "source": "written"
+        },
+        {
+          "number": 10,
+          "row": 6,
+          "col": 0,
+          "length": 5,
+          "answer": "KNELT",
+          "clue": "Prepared to propose",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "answer": "CASTROL",
+          "clue": "Motor oil brand",
+          "source": "written"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "ANCIENT",
+          "clue": "Very old key in crushed tin can",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 5,
+          "length": 6,
+          "answer": "RELAYS",
+          "clue": "Track events with batons",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 6,
+          "length": 4,
+          "answer": "EDEN",
+          "clue": "Fall place",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 2,
+          "length": 6,
+          "answer": "PURPLE",
+          "clue": "Red and blue",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 5,
+          "answer": "MASON",
+          "clue": "Bricklayer",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "MOCK",
+          "clue": "Just pretend",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "L",
+        "number": 1
+      },
+      {
+        "answer": "I",
+        "number": 2
+      },
+      {
+        "answer": "S",
+        "number": 3
+      },
+      {
+        "answer": "T",
+        "number": 4
+      },
+      {
+        "answer": "R",
+        "number": 5
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N",
+        "number": 7
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "G",
+        "number": 8
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "W"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "LIST",
+          "clue": "Roster",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "RANCH",
+          "clue": "Dressing choice",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "ASTRO",
+          "clue": "Houston athlete",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "NEWER",
+          "clue": "Updated drainage system, reversing initial direction",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "GROW",
+          "clue": "Increase",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "LASER",
+          "clue": "Tag beam",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "INTWO",
+          "clue": "Halved",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "SCREW",
+          "clue": "Threaded hardware",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "THOR",
+          "clue": "Marvel god",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "RANG",
+          "clue": "Pealed",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

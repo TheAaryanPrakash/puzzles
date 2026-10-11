@@ -1,0 +1,363 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "A",
+        "number": 1
+      },
+      {
+        "answer": "L",
+        "number": 2
+      },
+      {
+        "answer": "P",
+        "number": 3
+      },
+      {
+        "answer": "S",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "H",
+        "number": 5
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "S",
+        "number": 6
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "B",
+        "number": 8
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "ALPS",
+          "clue": "\"Heidi\" setting",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "HOOPS",
+          "clue": "Court game",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "ATRIA",
+          "clue": "Heart parts",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "BUCKS",
+          "clue": "Dollars",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 1,
+          "length": 4,
+          "answer": "SHES",
+          "clue": "\"I'll have what ___ having\"",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "AHAB",
+          "clue": "Melville mariner",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "LOTUS",
+          "clue": "Yoga's ___ position",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "PORCH",
+          "clue": "Church under pressure to keep gold in hall",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "SPIKE",
+          "clue": "___ Lee, director of Da 5 Bloods",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 4,
+          "length": 4,
+          "answer": "SASS",
+          "clue": "Attitude",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "H",
+        "number": 2
+      },
+      {
+        "answer": "O",
+        "number": 3
+      },
+      {
+        "answer": "T",
+        "number": 4
+      },
+      {
+        "answer": "S",
+        "number": 5
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "R",
+        "number": 7
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "A",
+        "number": 8
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "SHOT",
+          "clue": "Knackered",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "SHADY",
+          "clue": "Suspicious-seeming",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "AESOP",
+          "clue": "Greek fabulist",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "RETRO",
+          "clue": "In again",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "APES",
+          "clue": "Big galoots",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "SHEEP",
+          "clue": "Farm flock",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "HASTE",
+          "clue": "Hurry",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "ODORS",
+          "clue": "Smells",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "TYPO",
+          "clue": "Spelling mistake",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "SARA",
+          "clue": "Singer Bareilles",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "P",
+        "number": 2
+      },
+      {
+        "answer": "I",
+        "number": 3
+      },
+      {
+        "answer": "N",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "P",
+        "number": 5
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "P",
+        "number": 6
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "I"
+      },
+      null,
+      {
+        "answer": "D",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "SPIN",
+          "clue": "Twirl",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "PINE",
+          "clue": "Knotty wood",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "PINOT",
+          "clue": "Burgundy wine grape",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "ANTI",
+          "clue": "Against",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "DEAL",
+          "clue": "\"You're on!\"",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "SPINE",
+          "clue": "Gumption",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "PINTA",
+          "clue": "Falafel bread",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "INOIL",
+          "clue": "Packed like anchovies, maybe",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "NET",
+          "clue": "Web",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "PAD",
+          "clue": "Lily ___",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "C",
+        "number": 1
+      },
+      {
+        "answer": "L",
+        "number": 2
+      },
+      {
+        "answer": "U",
+        "number": 3
+      },
+      {
+        "answer": "B",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "H",
+        "number": 5
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N",
+        "number": 6
+      },
+      {
+        "answer": "I",
+        "number": 7
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "P",
+        "number": 8
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "CLUB",
+          "clue": "Diamond alternative",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "HASAN",
+          "clue": "'Patriot Act' host Minhaj",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "ITALY",
+          "clue": "Rome's home",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "PHILS",
+          "clue": "Pennsylvania N.L. team, familiarly",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 5,
+          "answer": "SENSE",
+          "clue": "Logic",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "CHIPS",
+          "clue": "Some munchies",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "LATHE",
+          "clue": "Table leg creator",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "USAIN",
+          "clue": "Bolting Bolt",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "BALLS",
+          "clue": "Prolate spheroids on the gridiron",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 4,
+          "length": 4,
+          "answer": "NYSE",
+          "clue": "Big Board org",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

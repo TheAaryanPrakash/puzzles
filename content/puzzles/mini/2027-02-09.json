@@ -1,0 +1,366 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "W",
+        "number": 1
+      },
+      {
+        "answer": "E",
+        "number": 2
+      },
+      {
+        "answer": "B",
+        "number": 3
+      },
+      {
+        "answer": "S",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "E",
+        "number": 5
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 6
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "T",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "O"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "WEBS",
+          "clue": "Spider creations",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "ETRE",
+          "clue": "French 101 verb",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "SHOES",
+          "clue": "Closet pairs",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "TOKYO",
+          "clue": "Asian capital once named Edo",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 1,
+          "length": 4,
+          "answer": "SEAL",
+          "clue": "Grown-up pup",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "WEST",
+          "clue": "Sunset site",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "ETHOS",
+          "clue": "Group spirit",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "BROKE",
+          "clue": "Completely out of money",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "SEEYA",
+          "clue": "\"Buh-bye\"",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "answer": "SOL",
+          "clue": "Our sun",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "D",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "N",
+        "number": 3
+      },
+      {
+        "answer": "K",
+        "number": 4
+      },
+      {
+        "answer": "E",
+        "number": 5
+      },
+      {
+        "answer": "O",
+        "number": 6
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R",
+        "number": 7
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "M",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "E"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "DANKE",
+          "clue": "'Merci,' in Mainz",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "OPINE",
+          "clue": "Speak out",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "ROTOR",
+          "clue": "Engine part",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "MERCI",
+          "clue": "French \"thanks\"",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 5,
+          "answer": "STOKE",
+          "clue": "Tend, as a fire",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "DORMS",
+          "clue": "Brown buildings",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "APOET",
+          "clue": "'I think like ___' (poetic self-description)",
+          "source": "written"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "NITRO",
+          "clue": "Blaster's buy",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "KNOCK",
+          "clue": "Hit",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "EERIE",
+          "clue": "Surreal",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

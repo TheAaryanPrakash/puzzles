@@ -1,0 +1,354 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "H",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "H",
+        "number": 3
+      },
+      {
+        "answer": "A",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "O",
+        "number": 5
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "T",
+        "number": 6
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "O",
+        "number": 7
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "K"
+      },
+      null,
+      {
+        "answer": "M",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "S"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "HAHA",
+          "clue": "\"Funny!\"",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "OKAY",
+          "clue": "So-so",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "TWINE",
+          "clue": "Strong string",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "OINK",
+          "clue": "Farm sound",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "MEDS",
+          "clue": "Pharma products",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "HOWIE",
+          "clue": "Name that rhymes with Maui",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "AKIND",
+          "clue": "'One of ___' (unique)",
+          "source": "written"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "HANKS",
+          "clue": "Forrest Gump player",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "AYE",
+          "clue": "Yes,  at sea",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "TOM",
+          "clue": "Mr. turkey",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "H",
+        "number": 1
+      },
+      {
+        "answer": "U",
+        "number": 2
+      },
+      {
+        "answer": "G",
+        "number": 3
+      },
+      {
+        "answer": "T",
+        "number": 4
+      },
+      {
+        "answer": "H",
+        "number": 5
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R",
+        "number": 6
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "P",
+        "number": 8
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "N"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "HUG",
+          "clue": "O, in a love letter",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "THETA",
+          "clue": "Eighth Greek letter",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "RURAL",
+          "clue": "Agrarian",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "ALOHA",
+          "clue": "Oahu greeting",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "PUN",
+          "clue": "Word-wit bit",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "HERON",
+          "clue": "Ibis's cousin",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "UTAH",
+          "clue": "Jazz home",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "GALA",
+          "clue": "Festival",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "TRAP",
+          "clue": "Snare",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "HULU",
+          "clue": "Prime Video competitor",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

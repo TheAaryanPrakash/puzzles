@@ -1,0 +1,363 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "G",
+        "number": 1
+      },
+      {
+        "answer": "N",
+        "number": 2
+      },
+      {
+        "answer": "A",
+        "number": 3
+      },
+      {
+        "answer": "T",
+        "number": 4
+      },
+      {
+        "answer": "F",
+        "number": 5
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "L",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "O",
+        "number": 7
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "P",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "GNAT",
+          "clue": "Teeny fly",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "FLUTE",
+          "clue": "One may be raised at a wedding",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "LADLE",
+          "clue": "Tureen accessory",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "ORGAN",
+          "clue": "Body part",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "PEES",
+          "clue": "Repeated things in 'Peter Piper picked a peck of pickled peppers'",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "GLARE",
+          "clue": "Nasty look",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "NUDGE",
+          "clue": "Push gently",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "ATLAS",
+          "clue": "Map collection",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "TEEN",
+          "clue": "___ Vogue",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "FLOP",
+          "clue": "Turkey",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "F",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "T",
+        "number": 3
+      },
+      {
+        "answer": "E",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "E",
+        "number": 5
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "T",
+        "number": 6
+      },
+      {
+        "answer": "D",
+        "number": 7
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "P"
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 9
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "FATE",
+          "clue": "Kismet",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "EGYPT",
+          "clue": "Land of the Pharaohs",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "DISCO",
+          "clue": "70s nightclub",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "STOOP",
+          "clue": "Front steps",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 1,
+          "length": 4,
+          "answer": "ANTS",
+          "clue": "Wee workers",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "FEDS",
+          "clue": "Ottawa types (wordplay)",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "AGITA",
+          "clue": "Nervous stress",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "TYSON",
+          "clue": "\"Iron Mike\" in the ring",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "EPCOT",
+          "clue": "Florida theme park",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 4,
+          "length": 4,
+          "answer": "TOPS",
+          "clue": "The best",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

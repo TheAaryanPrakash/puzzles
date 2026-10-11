@@ -1,0 +1,363 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "T",
+        "number": 1
+      },
+      {
+        "answer": "V",
+        "number": 2
+      },
+      {
+        "answer": "S",
+        "number": 3
+      },
+      {
+        "answer": "B",
+        "number": 4
+      },
+      {
+        "answer": "R",
+        "number": 5
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "D",
+        "number": 6
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "Y",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "TVS",
+          "clue": "Sharp offerings",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "BRAIN",
+          "clue": "Intellectual",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "DUNNO",
+          "clue": "\"Beats me!\"",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "ASKEW",
+          "clue": "Out of whack",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "YES",
+          "clue": "\"Sure\"",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "TANKS",
+          "clue": "Sleeveless shirts",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "VINE",
+          "clue": "Place for leaves",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "SNOW",
+          "clue": "Frozen rain",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "BDAY",
+          "clue": "Present time, for short",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "RUSE",
+          "clue": "Gambit",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "T",
+        "number": 1
+      },
+      {
+        "answer": "R",
+        "number": 2
+      },
+      {
+        "answer": "O",
+        "number": 3
+      },
+      {
+        "answer": "L",
+        "number": 4
+      },
+      {
+        "answer": "L",
+        "number": 5
+      },
+      {
+        "answer": "H",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "E",
+        "number": 7
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "F",
+        "number": 8
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T",
+        "number": 9
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "TROLL",
+          "clue": "Ugly dwarf",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "HANOI",
+          "clue": "Vietnam's capital",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "ELECT",
+          "clue": "Choose",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "FLUKE",
+          "clue": "Unlikely occurrence",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 5,
+          "answer": "TYPES",
+          "clue": "Varieties",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "THEFT",
+          "clue": "Stealing",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "RALLY",
+          "clue": "Recover",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "ONEUP",
+          "clue": "Do better than",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "LOCKE",
+          "clue": "John ___, English philosopher (1632-1704)",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "LITES",
+          "clue": "Low-calorie beers, informally",
+          "source": "written"
+        }
+      ]
+    }
+  }
+}

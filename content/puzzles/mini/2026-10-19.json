@@ -1,0 +1,359 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "B",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "N",
+        "number": 3
+      },
+      {
+        "answer": "K",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "I",
+        "number": 5
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "S",
+        "number": 6
+      },
+      {
+        "answer": "G",
+        "number": 7
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "U"
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 9
+      },
+      {
+        "answer": "X"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "BANK",
+          "clue": "Loan source",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "IRONS",
+          "clue": "Golf bag set",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "GETIT",
+          "clue": "Endure punishment",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "SNAFU",
+          "clue": "Big boo-boo",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 1,
+          "length": 4,
+          "answer": "AXED",
+          "clue": "Fired",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "BIGS",
+          "clue": "Major leagues, slangily, with \"the\"",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "ARENA",
+          "clue": "Bowl, say",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "NOTAX",
+          "clue": "Benefit of some online purchases",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "KNIFE",
+          "clue": "Blade",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 4,
+          "length": 4,
+          "answer": "STUD",
+          "clue": "Poker variant",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "T",
+        "number": 2
+      },
+      {
+        "answer": "E",
+        "number": 3
+      },
+      {
+        "answer": "P",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 5
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "M",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T",
+        "number": 7
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "V",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "STEP",
+          "clue": "Dance bit",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "THAI",
+          "clue": "Asian national",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "MARGE",
+          "clue": "Mum to Bart",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "TREE",
+          "clue": "Elm or oak",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "VEER",
+          "clue": "Swerve (into)",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "STARE",
+          "clue": "Long look",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "THREE",
+          "clue": "\"Me ___!\"",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "EAGER",
+          "clue": "Avid",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "PIE",
+          "clue": "Sweetie ___",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "MTV",
+          "clue": "VH1 sister channel",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

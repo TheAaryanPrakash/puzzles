@@ -1,0 +1,358 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "O",
+        "number": 2
+      },
+      {
+        "answer": "N",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "J",
+        "number": 4
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R",
+        "number": 5
+      },
+      {
+        "answer": "I",
+        "number": 6
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "G",
+        "number": 7
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "T"
+      },
+      null,
+      {
+        "answer": "P",
+        "number": 8
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "Y"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "SON",
+          "clue": "Male heir",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "JUROR",
+          "clue": "One of 12, usually",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "INDIA",
+          "clue": "Agra's land",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "GUEST",
+          "clue": "Visitor",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "PRY",
+          "clue": "Be nosey",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "SUNUP",
+          "clue": "Bedtime for a raver, maybe",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "ORDER",
+          "clue": "Request drinks",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "NOISY",
+          "clue": "Raucous",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "JIG",
+          "clue": "Word before saw",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 4,
+          "length": 3,
+          "answer": "RAT",
+          "clue": "Stoolie",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "P",
+        "number": 2
+      },
+      {
+        "answer": "I",
+        "number": 3
+      },
+      {
+        "answer": "N",
+        "number": 4
+      },
+      {
+        "answer": "O",
+        "number": 5
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "H",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "N",
+        "number": 7
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "O",
+        "number": 8
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "X"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "SPIN",
+          "clue": "Quick drive",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "OPINE",
+          "clue": "Speculate",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "HANDS",
+          "clue": "Ranch crew",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "NIKES",
+          "clue": "Air Jordans, e.g",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "ONYX",
+          "clue": "Dark rock",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "SPAIN",
+          "clue": "Iberian nation",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "PINKY",
+          "clue": "Small digit",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "INDEX",
+          "clue": "Alphabetical list",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "NESS",
+          "clue": "Famous loch",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "OHNO",
+          "clue": "\"Oops!\"",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,354 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "C",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "B",
+        "number": 3
+      },
+      {
+        "answer": "J",
+        "number": 4
+      },
+      {
+        "answer": "O",
+        "number": 5
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "D",
+        "number": 7
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E",
+        "number": 8
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "F"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "CAB",
+          "clue": "City transport",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "JOLLY",
+          "clue": "Happy, as Santa Claus",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "ALIST",
+          "clue": "Group of stars",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "DAFOE",
+          "clue": "Willem of \"Platoon\"",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "EFF",
+          "clue": "___ Gee",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "CLIFF",
+          "clue": "Steep face",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "ALSO",
+          "clue": "Plus",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "BYTE",
+          "clue": "Information unit",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "JADE",
+          "clue": "Gem associated with good luck in Chinese culture",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "OLAF",
+          "clue": "Disney snowman",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "P",
+        "number": 1
+      },
+      {
+        "answer": "R",
+        "number": 2
+      },
+      {
+        "answer": "O",
+        "number": 3
+      },
+      {
+        "answer": "B",
+        "number": 4
+      },
+      {
+        "answer": "O",
+        "number": 5
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "B",
+        "number": 7
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E",
+        "number": 8
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "PRO",
+          "clue": "Virtuoso",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "BORON",
+          "clue": "B in chemistry",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "ALICE",
+          "clue": "Rabbit hole ___",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "BACKS",
+          "clue": "Some football players",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "EYE",
+          "clue": "Centre",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "PRICE",
+          "clue": "Number on a tag",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "ROCK",
+          "clue": "Pebble, e.g",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "ONES",
+          "clue": "Low digits",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "BABE",
+          "clue": "Hon",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "OLAY",
+          "clue": "Encouraging word*",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "C",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "S",
+        "number": 3
+      },
+      {
+        "answer": "T",
+        "number": 4
+      },
+      {
+        "answer": "S",
+        "number": 5
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "I",
+        "number": 6
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "X"
+      },
+      {
+        "answer": "P",
+        "number": 7
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "CAST",
+          "clue": "Fling",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "SAUCE",
+          "clue": "Cheek (informal)",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "INDEX",
+          "clue": "Guide, table",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "PAINT",
+          "clue": "Daub",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "SLOT",
+          "clue": "Thin opening",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "CANAL",
+          "clue": "Waterway",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "AUDIO",
+          "clue": "Sound recording",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "SCENT",
+          "clue": "On the ___",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "TEXT",
+          "clue": "Prose",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "SIPS",
+          "clue": "Tries the soup",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "W",
+        "number": 2
+      },
+      {
+        "answer": "I",
+        "number": 3
+      },
+      {
+        "answer": "G",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "C",
+        "number": 5
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "F",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "B",
+        "number": 7
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "H"
+      },
+      null,
+      {
+        "answer": "I",
+        "number": 8
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "Y"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "SWIG",
+          "clue": "Gulp from a flask",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "CUTE",
+          "clue": "Baby-faced",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "FORCE",
+          "clue": "Coercion",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "BUSH",
+          "clue": "Item on Fox trashing Republican president",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "ITTY",
+          "clue": "Teeny",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "SCOUT",
+          "clue": "Talent seeker cut so badly",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "WURST",
+          "clue": "Brats, for instance",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "ITCHY",
+          "clue": "Restless",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "GEE",
+          "clue": "\"Golly!\"",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "FBI",
+          "clue": "Hoover creation",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

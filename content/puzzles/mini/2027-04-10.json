@@ -1,0 +1,472 @@
+{
+  "payload": {
+    "size": 7,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "B",
+        "number": 1
+      },
+      {
+        "answer": "I",
+        "number": 2
+      },
+      {
+        "answer": "T",
+        "number": 3
+      },
+      null,
+      null,
+      null,
+      {
+        "answer": "S",
+        "number": 4
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "V"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N",
+        "number": 5
+      },
+      null,
+      {
+        "answer": "H",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "W",
+        "number": 7
+      },
+      {
+        "answer": "A",
+        "number": 8
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "T"
+      },
+      null,
+      {
+        "answer": "H",
+        "number": 9
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "J",
+        "number": 10
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "L",
+        "number": 11
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "R",
+        "number": 12
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null,
+      null,
+      {
+        "answer": "Y",
+        "number": 13
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "BIT",
+          "clue": "Trace",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 5,
+          "answer": "SEVEN",
+          "clue": "Early evening",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "HOLYCOW",
+          "clue": "How extraordinary! (informal)",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "answer": "ALT",
+          "clue": "Model Carol",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 3,
+          "col": 4,
+          "length": 3,
+          "answer": "HUE",
+          "clue": "Color",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "JAWLINE",
+          "clue": "Chiseled facial feature",
+          "source": "written"
+        },
+        {
+          "number": 12,
+          "row": 5,
+          "col": 1,
+          "length": 5,
+          "answer": "RATES",
+          "clue": "Assesses",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 6,
+          "col": 2,
+          "length": 3,
+          "answer": "YES",
+          "clue": "OK",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "BELTWAY",
+          "clue": "Washington, D.C.'s ring road",
+          "source": "written"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "answer": "IVY",
+          "clue": "Wall climber",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "TECHIES",
+          "clue": "Crash analyzers",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 5,
+          "answer": "SOLAR",
+          "clue": "Energy choice",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 5,
+          "length": 5,
+          "answer": "NOUNS",
+          "clue": "Dog and cat, e.g",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "HAJ",
+          "clue": "Leon Uris novel, with \"The\"",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 6,
+          "length": 3,
+          "answer": "WEE",
+          "clue": "Teensy",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 3,
+          "length": 3,
+          "answer": "LTE",
+          "clue": "4G ___: mobile device standard",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "M",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "R",
+        "number": 3
+      },
+      {
+        "answer": "I",
+        "number": 4
+      },
+      {
+        "answer": "A",
+        "number": 5
+      },
+      {
+        "answer": "F",
+        "number": 6
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 9
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "T"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "MARIA",
+          "clue": "Opera's Callas",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "FLING",
+          "clue": "Throw",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "APPLE",
+          "clue": "Pie fruit",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "SHOES",
+          "clue": "Closet pairs",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "ANT",
+          "clue": "Picnic pest",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "MFAS",
+          "clue": "Advanced degrees for some filmmakers",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "ALPHA",
+          "clue": "___ dog",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "RIPON",
+          "clue": "City in North Yorkshire",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "INLET",
+          "clue": "Small bay",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "AGES",
+          "clue": "Mellows",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "G",
+        "number": 1
+      },
+      {
+        "answer": "Y",
+        "number": 2
+      },
+      {
+        "answer": "M",
+        "number": 3
+      },
+      {
+        "answer": "S",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "R",
+        "number": 5
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S",
+        "number": 6
+      },
+      {
+        "answer": "I",
+        "number": 7
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "M",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "A"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "T"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "GYMS",
+          "clue": "Places with kettlebells",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "RIOTS",
+          "clue": "Hilarious ones",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "IKNOW",
+          "clue": "'That's no surprise'",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "MEDIA",
+          "clue": "___ circus",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 1,
+          "length": 4,
+          "answer": "SECT",
+          "clue": "Quakers, for one",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "GRIM",
+          "clue": "Unpleasant",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "YIKES",
+          "clue": "'Uh-oh!'",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "MONDE",
+          "clue": "World, en Francais",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "STOIC",
+          "clue": "Unflappable",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 4,
+          "length": 4,
+          "answer": "SWAT",
+          "clue": "Powerful blow",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "U",
+        "number": 2
+      },
+      {
+        "answer": "I",
+        "number": 3
+      },
+      {
+        "answer": "T",
+        "number": 4
+      },
+      {
+        "answer": "D",
+        "number": 5
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "H",
+        "number": 8
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "T"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "SUIT",
+          "clue": "Formal garment",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "DUNNO",
+          "clue": "'Beats me!'",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "ASPEN",
+          "clue": "'Quaking' tree",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "SHIRE",
+          "clue": "Frodo's home, with \"the\"",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "HINT",
+          "clue": "Subtle taste",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "SUSHI",
+          "clue": "Japan's raw fish",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "UNPIN",
+          "clue": "Remove, as a brooch",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "INERT",
+          "clue": "Dormant",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "TONE",
+          "clue": "Timbre",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "DASH",
+          "clue": "Trace race",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "C",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "S",
+        "number": 3
+      },
+      {
+        "answer": "H",
+        "number": 4
+      },
+      {
+        "answer": "R",
+        "number": 5
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "H",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "CASH",
+          "clue": "Dough",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "RODEO",
+          "clue": "Clown's workplace",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "AMMAN",
+          "clue": "Jordan's capital",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "SMIRK",
+          "clue": "Smug expression",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "HATS",
+          "clue": "Kepi and kufi",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "COMMA",
+          "clue": "Butterfly",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "ADMIT",
+          "clue": "Concede",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "SEARS",
+          "clue": "Chicago's ___ Tower",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "HONK",
+          "clue": "Hit a horn",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "RASH",
+          "clue": "Reckless",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "W",
+        "number": 1
+      },
+      {
+        "answer": "F",
+        "number": 2
+      },
+      {
+        "answer": "H",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 4
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T",
+        "number": 5
+      },
+      {
+        "answer": "P",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      null,
+      {
+        "answer": "K",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "Y"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "WFH",
+          "clue": "Remote work setup, for short",
+          "source": "written"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "SHOOT",
+          "clue": "Take a photo of",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "PARKA",
+          "clue": "Heavy jacket",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "ACTED",
+          "clue": "Took steps",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "KEY",
+          "clue": "Coral reef",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "WHACK",
+          "clue": "Strike hard",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "FORTE",
+          "clue": "Thing you're good at",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "HOKEY",
+          "clue": "Cornball",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "SPA",
+          "clue": "Hot tub",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 4,
+          "length": 3,
+          "answer": "TAD",
+          "clue": "Shade",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "J",
+        "number": 1
+      },
+      {
+        "answer": "I",
+        "number": 2
+      },
+      {
+        "answer": "N",
+        "number": 3
+      },
+      {
+        "answer": "X",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 5
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S",
+        "number": 6
+      },
+      {
+        "answer": "D",
+        "number": 7
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "E",
+        "number": 8
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "J"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "Y"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "S"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "JINX",
+          "clue": "Bringer of bad luck",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "ARIES",
+          "clue": "Spring sign",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "DONNA",
+          "clue": "Summer of music",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "ENJOY",
+          "clue": "'Have fun!'",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 1,
+          "length": 4,
+          "answer": "SANS",
+          "clue": "Without",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "JADE",
+          "clue": "Material for some Forbidden City carvings",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "IRONS",
+          "clue": "Some clubs",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "NINJA",
+          "clue": "Japanese warrior",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "XENON",
+          "clue": "Inert gas",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 4,
+          "length": 4,
+          "answer": "SAYS",
+          "clue": "Voices",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "F",
+        "number": 1
+      },
+      {
+        "answer": "I",
+        "number": 2
+      },
+      {
+        "answer": "R",
+        "number": 3
+      },
+      {
+        "answer": "S",
+        "number": 4
+      },
+      {
+        "answer": "T",
+        "number": 5
+      },
+      {
+        "answer": "E",
+        "number": 6
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "T",
+        "number": 7
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "C",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "H",
+        "number": 9
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "FIRST",
+          "clue": "Foremost",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "EMAIL",
+          "clue": "Inbox filler",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "THIRD",
+          "clue": "Bronze ordinal",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "CODER",
+          "clue": "Tech worker",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "HTS",
+          "clue": "Cleveland ___ abbreviation",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "FETCH",
+          "clue": "'Go get it, Fido!'",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "IMHOT",
+          "clue": "\"Let's open a window\"",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "RAIDS",
+          "clue": "Police actions",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "SIRE",
+          "clue": "Foal's father",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "TLDR",
+          "clue": "Initials before a summary",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

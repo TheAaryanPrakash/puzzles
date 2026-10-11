@@ -1,0 +1,449 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "A",
+        "number": 1
+      },
+      {
+        "answer": "R",
+        "number": 2
+      },
+      {
+        "answer": "C",
+        "number": 3
+      },
+      null,
+      null,
+      {
+        "answer": "M",
+        "number": 4
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "L",
+        "number": 5
+      },
+      {
+        "answer": "S",
+        "number": 6
+      },
+      {
+        "answer": "F",
+        "number": 7
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "M",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "A"
+      },
+      null,
+      null,
+      {
+        "answer": "K",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "Y"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "ARC",
+          "clue": "Story ___",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "MULLS",
+          "clue": "___ over (ponders)",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "FLOAT",
+          "clue": "Parade entry",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "MECCA",
+          "clue": "Umrah destination",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 2,
+          "length": 3,
+          "answer": "KEY",
+          "clue": "Critical",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "AMFM",
+          "clue": "Boom-box button",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "RULE",
+          "clue": "Govern",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "CLOCK",
+          "clue": "Strike 19 notice",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 3,
+          "length": 4,
+          "answer": "LACE",
+          "clue": "Doily fabric",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 4,
+          "length": 4,
+          "answer": "STAY",
+          "clue": "Dwell",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 7,
+    "cells": [
+      null,
+      null,
+      null,
+      {
+        "answer": "C",
+        "number": 1
+      },
+      {
+        "answer": "H",
+        "number": 2
+      },
+      {
+        "answer": "I",
+        "number": 3
+      },
+      {
+        "answer": "P",
+        "number": 4
+      },
+      null,
+      null,
+      {
+        "answer": "N",
+        "number": 5
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "W",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "P",
+        "number": 7
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "A",
+        "number": 8
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null,
+      {
+        "answer": "S",
+        "number": 10
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "D"
+      },
+      null,
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "CHIP",
+          "clue": "Intel product",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 2,
+          "length": 5,
+          "answer": "NIECE",
+          "clue": "Family relative",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 6,
+          "answer": "WARREN",
+          "clue": "Rabbits' home",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 7,
+          "answer": "POPCORN",
+          "clue": "Fizzy drink, cold or not, initially it's enjoyed at the cinema (wordplay)",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 6,
+          "answer": "ANKLES",
+          "clue": "Hopping joints (wordplay)",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 5,
+          "col": 0,
+          "length": 5,
+          "answer": "SKIES",
+          "clue": "Take to the ___ (fly)",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 6,
+          "col": 0,
+          "length": 4,
+          "answer": "SAND",
+          "clue": "Beach cover",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "answer": "CIRCLED",
+          "clue": "Flew around, as a vulture",
+          "source": "written"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 4,
+          "length": 6,
+          "answer": "HEROES",
+          "clue": "Protagonists, often",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 5,
+          "length": 5,
+          "answer": "ICERS",
+          "clue": "Ones writing 'Happy Birthday,' maybe",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 6,
+          "length": 4,
+          "answer": "PENN",
+          "clue": "Ivy League team",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 2,
+          "length": 6,
+          "answer": "NAPKIN",
+          "clue": "Linen item ___ type mostly used after sleep",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 5,
+          "answer": "WONKA",
+          "clue": "Confectioner of fiction",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "PASS",
+          "clue": "'No thanks'",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

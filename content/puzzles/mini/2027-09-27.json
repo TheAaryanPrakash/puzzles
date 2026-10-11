@@ -1,0 +1,353 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "T",
+        "number": 1
+      },
+      {
+        "answer": "B",
+        "number": 2
+      },
+      {
+        "answer": "S",
+        "number": 3
+      },
+      {
+        "answer": "P",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "L",
+        "number": 5
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "C",
+        "number": 6
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E",
+        "number": 7
+      },
+      null,
+      {
+        "answer": "D",
+        "number": 8
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "K"
+      },
+      null,
+      null,
+      {
+        "answer": "G",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "TBSP",
+          "clue": "Cookbook amt",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "LIME",
+          "clue": "Green hue",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "CRANE",
+          "clue": "Large wading bird",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "answer": "DUCK",
+          "clue": "Love bird",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 2,
+          "length": 3,
+          "answer": "GEE",
+          "clue": "Wow!",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "TLC",
+          "clue": "Coddling, briefly",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "BIRD",
+          "clue": "Eg, flycatcher",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "SMAUG",
+          "clue": "Dragon in 'The Hobbit'",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "PENCE",
+          "clue": "Shilling's five",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "answer": "EKE",
+          "clue": "Scrape (out)",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "W",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "X",
+        "number": 3
+      },
+      {
+        "answer": "S",
+        "number": 4
+      },
+      {
+        "answer": "T",
+        "number": 5
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "L",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "G",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "WAX",
+          "clue": "Candle stuff",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "STORM",
+          "clue": "Bad weather",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "LARGE",
+          "clue": "Sizable",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "ADDON",
+          "clue": "Second story, perhaps",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "GAS",
+          "clue": "Auto fuel",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "WORDS",
+          "clue": "Language units",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "ARGO",
+          "clue": "Jason's vessel",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "XMEN",
+          "clue": "Marvel supergroup",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "SLAG",
+          "clue": "Metallic waste",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "TADA",
+          "clue": "\"There!\"",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

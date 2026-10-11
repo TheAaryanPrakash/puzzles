@@ -1,0 +1,359 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "W",
+        "number": 1
+      },
+      {
+        "answer": "I",
+        "number": 2
+      },
+      {
+        "answer": "F",
+        "number": 3
+      },
+      {
+        "answer": "I",
+        "number": 4
+      },
+      {
+        "answer": "S",
+        "number": 5
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "O",
+        "number": 6
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "L",
+        "number": 7
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "E",
+        "number": 8
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "S"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "WIFI",
+          "clue": "In-flight amenity",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "SONOS",
+          "clue": "Wireless speaker brand",
+          "source": "written"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "OWNUP",
+          "clue": "Admit academic robe's no good at college",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "LEERY",
+          "clue": "Guarded",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "ERRS",
+          "clue": "Flubs it",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "WOWER",
+          "clue": "One who dazzles a crowd",
+          "source": "written"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "INNER",
+          "clue": "Interior",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "FOURS",
+          "clue": "Two make eight",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "ISPY",
+          "clue": "Kid's guessing game",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "SOLE",
+          "clue": "Only",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "H",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "N",
+        "number": 3
+      },
+      {
+        "answer": "G",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "O",
+        "number": 5
+      },
+      {
+        "answer": "V"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "Z",
+        "number": 7
+      },
+      null,
+      {
+        "answer": "W",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "Z"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "HANG",
+          "clue": "Put up",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "OVER",
+          "clue": "Canceled",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "TOPAZ",
+          "clue": "November birthstone",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "answer": "WAZE",
+          "clue": "Traveler's app that can use crowdsourced data",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 1,
+          "length": 4,
+          "answer": "SLED",
+          "clue": "Toboggan",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "HOT",
+          "clue": "Blazing",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "AVOWS",
+          "clue": "States with certainty",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "NEPAL",
+          "clue": "Asian nation",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "GRAZE",
+          "clue": "Barely touch bone from Bronze Age",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "answer": "ZED",
+          "clue": "British ending",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

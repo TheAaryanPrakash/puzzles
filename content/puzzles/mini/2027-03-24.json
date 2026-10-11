@@ -1,0 +1,356 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "M",
+        "number": 1
+      },
+      {
+        "answer": "E",
+        "number": 2
+      },
+      {
+        "answer": "A",
+        "number": 3
+      },
+      {
+        "answer": "N",
+        "number": 4
+      },
+      {
+        "answer": "M",
+        "number": 5
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "C",
+        "number": 7
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "D"
+      },
+      null,
+      {
+        "answer": "H",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "S"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "MEAN",
+          "clue": "Cruel",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "MARCH",
+          "clue": "Month",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "APRIL",
+          "clue": "Spring time",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "CLOD",
+          "clue": "Lummox",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "HERS",
+          "clue": "That woman's",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "MAPLE",
+          "clue": "Syrup tree",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "ERROR",
+          "clue": "Slip-up",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "ACIDS",
+          "clue": "Lab liquids",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "NHL",
+          "clue": "Flyers' org",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "MACH",
+          "clue": "___ 1 (speed of sound)",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "C",
+        "number": 1
+      },
+      {
+        "answer": "H",
+        "number": 2
+      },
+      {
+        "answer": "E",
+        "number": 3
+      },
+      {
+        "answer": "F",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "H",
+        "number": 5
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "C",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "O"
+      },
+      null,
+      {
+        "answer": "M",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "W"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "CHEF",
+          "clue": "Apron wearer",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "HELL",
+          "clue": "Hades",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "COLBY",
+          "clue": "Cheddar-like cheese",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "ARLO",
+          "clue": "Guthrie of folk",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "MEOW",
+          "clue": "Cat's comment",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "CHORE",
+          "clue": "It's no fun",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "HELLO",
+          "clue": "Celebrity mag",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "ELBOW",
+          "clue": "Jostle",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "FLY",
+          "clue": "Take a plane",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "CAM",
+          "clue": "Rotating part",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

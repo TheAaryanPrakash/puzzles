@@ -1,0 +1,355 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "I",
+        "number": 1
+      },
+      {
+        "answer": "C",
+        "number": 2
+      },
+      {
+        "answer": "E",
+        "number": 3
+      },
+      null,
+      null,
+      {
+        "answer": "M",
+        "number": 4
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "T",
+        "number": 5
+      },
+      {
+        "answer": "H",
+        "number": 6
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "C",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null,
+      {
+        "answer": "Y",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "ICE",
+          "clue": "Frappe",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "MONTH",
+          "clue": "May, say",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "ACTII",
+          "clue": "Intermission ___",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "CORDS",
+          "clue": "Winter fuel units",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 2,
+          "length": 3,
+          "answer": "YES",
+          "clue": "'Sure'",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "IMAC",
+          "clue": "Apple choice",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "COCO",
+          "clue": "Chanel perfume",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "ENTRY",
+          "clue": "Ledger item",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 3,
+          "length": 4,
+          "answer": "TIDE",
+          "clue": "Ocean motion",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 4,
+          "length": 4,
+          "answer": "HISS",
+          "clue": "Snake's sound",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "F",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "R",
+        "number": 3
+      },
+      {
+        "answer": "M",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 5
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "P",
+        "number": 6
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "N",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "O"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "FARM",
+          "clue": "Rural spread",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "ALUM",
+          "clue": "Returning grad",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "PRISM",
+          "clue": "Polyhedron",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "AGES",
+          "clue": "Gets on",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "NONO",
+          "clue": "It's forbidden",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "FARGO",
+          "clue": "Wells and ___",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "ALIEN",
+          "clue": "Romulan, e.g",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "RUSSO",
+          "clue": "___-Japanese War",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "MMM",
+          "clue": "'Dee-lish!'",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "PAN",
+          "clue": "Camera move",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

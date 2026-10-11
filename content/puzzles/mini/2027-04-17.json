@@ -1,0 +1,455 @@
+{
+  "payload": {
+    "size": 7,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "D",
+        "number": 1
+      },
+      {
+        "answer": "R",
+        "number": 2
+      },
+      {
+        "answer": "E",
+        "number": 3
+      },
+      {
+        "answer": "S",
+        "number": 4
+      },
+      {
+        "answer": "S",
+        "number": 5
+      },
+      null,
+      {
+        "answer": "P",
+        "number": 6
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "C",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "R",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "K"
+      },
+      null,
+      {
+        "answer": "U",
+        "number": 10
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "D"
+      },
+      null,
+      null,
+      {
+        "answer": "B",
+        "number": 11
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "G"
+      },
+      null,
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "DRESS",
+          "clue": "Attire",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "answer": "PUERTO",
+          "clue": "- Rico",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "SHEERAN",
+          "clue": "Ed ___, 'Shape of You' singer",
+          "source": "written"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 7,
+          "answer": "COLLARS",
+          "clue": "Shirt parts, or arrests, informally",
+          "source": "written"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 6,
+          "answer": "RELINK",
+          "clue": "Reconnect, as a broken hyperlink",
+          "source": "written"
+        },
+        {
+          "number": 10,
+          "row": 5,
+          "col": 0,
+          "length": 5,
+          "answer": "UBEND",
+          "clue": "Letter-shaped plumbing trap",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 6,
+          "col": 0,
+          "length": 4,
+          "answer": "BERG",
+          "clue": "Polar hazard",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "DUELLER",
+          "clue": "Pistol-drawing combatant",
+          "source": "written"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "answer": "REELING",
+          "clue": "Woozy",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 6,
+          "answer": "ERRAND",
+          "clue": "Task",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 5,
+          "length": 5,
+          "answer": "STARK",
+          "clue": "Desolate",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 6,
+          "length": 4,
+          "answer": "SONS",
+          "clue": "Some babies",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "answer": "PHOEBE",
+          "clue": "A moon of Saturn - or a character in Friends",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "SCRUB",
+          "clue": "Scour brushwood",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "F",
+        "number": 1
+      },
+      {
+        "answer": "L",
+        "number": 2
+      },
+      {
+        "answer": "A",
+        "number": 3
+      },
+      {
+        "answer": "N",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 5
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "M",
+        "number": 6
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "X"
+      },
+      {
+        "answer": "U",
+        "number": 7
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      null,
+      {
+        "answer": "D",
+        "number": 8
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "FLAN",
+          "clue": "Open tart",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "AIDY",
+          "clue": "'SNL' Emmy nominee Bryant",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "MRFOX",
+          "clue": "Roald Dahl's 'Fantastic ___'",
+          "source": "written"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "USER",
+          "clue": "Utiliser",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "DIRE",
+          "clue": "Desperate",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "FARSI",
+          "clue": "What Iranians speak",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "LIFER",
+          "clue": "Rifle shot convict",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "ADORE",
+          "clue": "Love",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "NYX",
+          "clue": "Greek goddess of night",
+          "source": "written"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "MUD",
+          "clue": "Dirt + water",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,450 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "A",
+        "number": 1
+      },
+      {
+        "answer": "D",
+        "number": 2
+      },
+      {
+        "answer": "S",
+        "number": 3
+      },
+      null,
+      null,
+      {
+        "answer": "D",
+        "number": 4
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "G",
+        "number": 5
+      },
+      {
+        "answer": "H",
+        "number": 6
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "M",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null,
+      {
+        "answer": "Y",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "ADS",
+          "clue": "Radio spots",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "DOUGH",
+          "clue": "Mixture to make bread",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "ADDLE",
+          "clue": "Discombobulate",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "MOSES",
+          "clue": "Early tablet user",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 2,
+          "length": 3,
+          "answer": "YES",
+          "clue": "Not no",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "ADAM",
+          "clue": "First name",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "DODO",
+          "clue": "Dotard",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "SUDSY",
+          "clue": "Like some bathwater",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 3,
+          "length": 4,
+          "answer": "GLEE",
+          "clue": "Jubilation",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 4,
+          "length": 4,
+          "answer": "HESS",
+          "clue": "Oil company since the 1930s",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 7,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "B",
+        "number": 1
+      },
+      {
+        "answer": "C",
+        "number": 2
+      },
+      {
+        "answer": "C",
+        "number": 3
+      },
+      null,
+      null,
+      null,
+      {
+        "answer": "T",
+        "number": 4
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A",
+        "number": 5
+      },
+      null,
+      {
+        "answer": "V",
+        "number": 6
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "T",
+        "number": 7
+      },
+      {
+        "answer": "I",
+        "number": 8
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      null,
+      {
+        "answer": "H",
+        "number": 10
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "X"
+      },
+      null,
+      null,
+      null,
+      {
+        "answer": "S",
+        "number": 11
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "BCC",
+          "clue": "Secretly loop in",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 5,
+          "answer": "TIARA",
+          "clue": "Small crown",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "VERMONT",
+          "clue": "Quebec neighbor",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 7,
+          "answer": "INDIANA",
+          "clue": "Jones who ran from a big boulder",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "STILTED",
+          "clue": "Awkward when trying to gain height thus (wordplay)",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 5,
+          "col": 1,
+          "length": 5,
+          "answer": "HELIX",
+          "clue": "Spiral shape",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 6,
+          "col": 2,
+          "length": 3,
+          "answer": "SEA",
+          "clue": "Irish ___",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "BIRDIES",
+          "clue": "One-under-par golf scores",
+          "source": "written"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "answer": "CAMILLE",
+          "clue": "Composer Saint-Saens",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "CROATIA",
+          "clue": "Nation on the Adriatic",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 5,
+          "answer": "TENTH",
+          "clue": "Like J, in the alphabet",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 5,
+          "length": 5,
+          "answer": "ANNEX",
+          "clue": "Building addition",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "VIS",
+          "clue": "Word on either side of \"-a-\"",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 6,
+          "length": 3,
+          "answer": "TAD",
+          "clue": "Skosh",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

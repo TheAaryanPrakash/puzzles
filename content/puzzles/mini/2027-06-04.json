@@ -1,0 +1,358 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "T",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "D",
+        "number": 3
+      },
+      {
+        "answer": "A",
+        "number": 4
+      },
+      {
+        "answer": "B",
+        "number": 5
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "O",
+        "number": 6
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "S"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "TADA",
+          "clue": "'Voila!'",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "BUYIN",
+          "clue": "Pay to participate",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "OCEAN",
+          "clue": "Huge sea",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "SCALE",
+          "clue": "Go over, say",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "SIRS",
+          "clue": "Titles for knights",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "TUCCI",
+          "clue": "Actor Stanley",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "AYEAR",
+          "clue": "Annually",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "DIALS",
+          "clue": "Oven features",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "ANNE",
+          "clue": "Author Rice",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "BOSS",
+          "clue": "Office head",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "C",
+        "number": 1
+      },
+      {
+        "answer": "O",
+        "number": 2
+      },
+      {
+        "answer": "N",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 4
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "O",
+        "number": 5
+      },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "Z",
+        "number": 7
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "O"
+      },
+      null,
+      {
+        "answer": "N",
+        "number": 8
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "H"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "CON",
+          "clue": "Trick",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "TOKYO",
+          "clue": "Ginza locale",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "ALAMO",
+          "clue": "Texan mission",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "ZIPPO",
+          "clue": "Lighter brand",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "NIH",
+          "clue": "Dr. Fauci's agcy",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "COLIN",
+          "clue": "Civil rights activist Kaepernick",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "OKAPI",
+          "clue": "Cousin of a giraffe",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "NYMPH",
+          "clue": "Woodland deity and young dragonfly",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "TAZ",
+          "clue": "\"Bedevilled Rabbit\" antagonist",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 4,
+          "length": 3,
+          "answer": "OOO",
+          "clue": "Game-winning line",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

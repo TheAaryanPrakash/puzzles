@@ -1,0 +1,449 @@
+{
+  "payload": {
+    "size": 7,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "D",
+        "number": 1
+      },
+      {
+        "answer": "O",
+        "number": 2
+      },
+      {
+        "answer": "S",
+        "number": 3
+      },
+      null,
+      null,
+      null,
+      {
+        "answer": "M",
+        "number": 4
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S",
+        "number": 5
+      },
+      null,
+      {
+        "answer": "C",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R",
+        "number": 7
+      },
+      {
+        "answer": "A",
+        "number": 8
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "X"
+      },
+      {
+        "answer": "R",
+        "number": 9
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "R",
+        "number": 10
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null,
+      null,
+      {
+        "answer": "G",
+        "number": 11
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "D"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "DOS",
+          "clue": "Galas",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 5,
+          "answer": "MINTS",
+          "clue": "Produces, as pennies",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "CARTIER",
+          "clue": "Tiffany rival",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 7,
+          "answer": "ANTHRAX",
+          "clue": "Disease of sheep and cattle",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "ROBERTS",
+          "clue": "Rehnquist's successor",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 5,
+          "col": 1,
+          "length": 5,
+          "answer": "RAGES",
+          "clue": "Fits of fury",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 6,
+          "col": 2,
+          "length": 3,
+          "answer": "GOD",
+          "clue": "'Geez!'",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "DIRTBAG",
+          "clue": "Disreputable person, informally",
+          "source": "written"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "answer": "ONTHEGO",
+          "clue": "Very active (informal)",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "STIRRED",
+          "clue": "Mixed (using a spoon)",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 5,
+          "answer": "MANOR",
+          "clue": "Estate residence",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 5,
+          "length": 5,
+          "answer": "SEATS",
+          "clue": "Places to perch",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "CAR",
+          "clue": "Vehicle",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 6,
+          "length": 3,
+          "answer": "RXS",
+          "clue": "Prescriptions, for short",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "H",
+        "number": 2
+      },
+      {
+        "answer": "O",
+        "number": 3
+      },
+      {
+        "answer": "W",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "L",
+        "number": 5
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S",
+        "number": 6
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "I",
+        "number": 7
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "C",
+        "number": 8
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "SHOW",
+          "clue": "Unmask",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "LIFE",
+          "clue": "Supreme Court term",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "SURFS",
+          "clue": "Gets on board (wordplay)",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "ISEE",
+          "clue": "\"Ohhh!\"",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "CHER",
+          "clue": "'Moonstruck' star",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "SLUSH",
+          "clue": "Semi-wet snow",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "HIREE",
+          "clue": "Newly employed person",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "OFFER",
+          "clue": "Bid",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "WES",
+          "clue": "'Isle of Dogs' director Anderson",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "SIC",
+          "clue": "Attack command",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

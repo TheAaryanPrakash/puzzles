@@ -1,0 +1,355 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "D",
+        "number": 1
+      },
+      {
+        "answer": "O",
+        "number": 2
+      },
+      {
+        "answer": "W",
+        "number": 3
+      },
+      {
+        "answer": "N",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "E",
+        "number": 5
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "L",
+        "number": 6
+      },
+      {
+        "answer": "V",
+        "number": 7
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "V"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "R",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "F"
+      },
+      null,
+      null,
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "DOWN",
+          "clue": "Not working",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "EMAIL",
+          "clue": "Cybermissive",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "VALVE",
+          "clue": "Flow-regulating device",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "answer": "REEF",
+          "clue": "Barrier ___",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 2,
+          "length": 3,
+          "answer": "SAT",
+          "clue": "Waited",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "DEV",
+          "clue": "Actor Patel",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "OMAR",
+          "clue": "___ Khayyam",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "WALES",
+          "clue": "Cardiff's land",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "NIVEA",
+          "clue": "Skin care brand",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 4,
+          "length": 4,
+          "answer": "LEFT",
+          "clue": "Flew the coop",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "E",
+        "number": 1
+      },
+      {
+        "answer": "V",
+        "number": 2
+      },
+      {
+        "answer": "E",
+        "number": 3
+      },
+      {
+        "answer": "N",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "R",
+        "number": 5
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "O",
+        "number": 6
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "F",
+        "number": 7
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "R"
+      },
+      null,
+      {
+        "answer": "F",
+        "number": 8
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "Y"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "EVEN",
+          "clue": "Tied up",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "REMY",
+          "clue": "\"Ratatouille\" rat",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "ORNOT",
+          "clue": "'Believe It ___!'",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "FOUR",
+          "clue": "Number",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "FREY",
+          "clue": "Glenn of the Eagles",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "ERROR",
+          "clue": "Boob",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "VENUE",
+          "clue": "Locale",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "EMORY",
+          "clue": "Atlanta school",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "NYT",
+          "clue": "Paper HQ'd in Manhattan",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "OFF",
+          "clue": "Canceled",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

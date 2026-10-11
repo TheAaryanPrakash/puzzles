@@ -1,0 +1,358 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "A",
+        "number": 1
+      },
+      {
+        "answer": "C",
+        "number": 2
+      },
+      {
+        "answer": "H",
+        "number": 3
+      },
+      {
+        "answer": "Y",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 5
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "F",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E",
+        "number": 7
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "A"
+      },
+      null,
+      {
+        "answer": "E",
+        "number": 8
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "N"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "ACHY",
+          "clue": "Needing liniment",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "TRUE",
+          "clue": "Accurate",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "FOAMS",
+          "clue": "Brewery heads",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "EMMA",
+          "clue": "Female name",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "ESPN",
+          "clue": "'NFL Live' channel",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "ATOMS",
+          "clue": "Smashable items",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "CRAMP",
+          "clue": "Seizure",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "HUMAN",
+          "clue": "Word with interest and error",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "YES",
+          "clue": "\"I do\"",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "FEE",
+          "clue": "Payment",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "G",
+        "number": 1
+      },
+      {
+        "answer": "U",
+        "number": 2
+      },
+      {
+        "answer": "S",
+        "number": 3
+      },
+      {
+        "answer": "T",
+        "number": 4
+      },
+      {
+        "answer": "C",
+        "number": 5
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "Z"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "L",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "V"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "W",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "E"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "GUST",
+          "clue": "Sudden wind",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "CUZCO",
+          "clue": "Center of the Incan Empire",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "LABOR",
+          "clue": "Work hard",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "AVERT",
+          "clue": "Fend off",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "WAKE",
+          "clue": "What's aft a ship's aft",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "GUAVA",
+          "clue": "Tropical fruit",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "UZBEK",
+          "clue": "Language of Tashkent",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "SCORE",
+          "clue": "Group of 20",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "TORT",
+          "clue": "Battery, e.g",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "CLAW",
+          "clue": "Talon",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

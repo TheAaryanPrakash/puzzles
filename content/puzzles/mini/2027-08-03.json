@@ -1,0 +1,362 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "W",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "V",
+        "number": 3
+      },
+      {
+        "answer": "E",
+        "number": 4
+      },
+      {
+        "answer": "S",
+        "number": 5
+      },
+      {
+        "answer": "O",
+        "number": 6
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "L",
+        "number": 7
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "F",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "I"
+      },
+      null,
+      {
+        "answer": "D",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "WAVES",
+          "clue": "Choppy waters",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "OHARE",
+          "clue": "Chicago air hub",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "LEGIT",
+          "clue": "Aboveboard",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "FAUCI",
+          "clue": "Infectious disease expert Anthony",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 1,
+          "length": 4,
+          "answer": "DEAN",
+          "clue": "Campus figure",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "WOLF",
+          "clue": "Gobble (down)",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "AHEAD",
+          "clue": "Upcoming",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "VAGUE",
+          "clue": "Type of neck fit for woolly",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "ERICA",
+          "clue": "Hill of CNN",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "SETIN",
+          "clue": "Take effect slowly",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "A",
+        "number": 1
+      },
+      {
+        "answer": "D",
+        "number": 2
+      },
+      {
+        "answer": "A",
+        "number": 3
+      },
+      {
+        "answer": "M",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "D",
+        "number": 5
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "A"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 6
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      null,
+      {
+        "answer": "U",
+        "number": 8
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "H"
+      },
+      null,
+      {
+        "answer": "P",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "ADAM",
+          "clue": "First man",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "DACA",
+          "clue": "Policy for \"Dreamers\" abbreviation",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "SPUDS",
+          "clue": "Potatoes",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "answer": "UTAH",
+          "clue": "Jazz home",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 1,
+          "length": 4,
+          "answer": "PETE",
+          "clue": "Singer Seeger",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "ADS",
+          "clue": "Spots",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "DAPUP",
+          "clue": "Greet with a fist bump, with 'up'",
+          "source": "written"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "ACUTE",
+          "clue": "Critical",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "MADAT",
+          "clue": "Furious with",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "answer": "SHE",
+          "clue": "That lass",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

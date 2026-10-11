@@ -1,0 +1,358 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "G",
+        "number": 1
+      },
+      {
+        "answer": "I",
+        "number": 2
+      },
+      {
+        "answer": "L",
+        "number": 3
+      },
+      {
+        "answer": "L",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "O",
+        "number": 5
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "M",
+        "number": 6
+      },
+      {
+        "answer": "V",
+        "number": 7
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T",
+        "number": 8
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      null,
+      {
+        "answer": "L",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "S"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "GILL",
+          "clue": "Breathing organ for a fish",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "ONEAM",
+          "clue": "Night shift hr",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "VODKA",
+          "clue": "Clear spirit from Poland, Russia and Sweden, made mainly of water and ethanol",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "TIGER",
+          "clue": "Fierce fighter",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 1,
+          "length": 4,
+          "answer": "LESS",
+          "clue": "Not so",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "GOVT",
+          "clue": "The 'G' of Geico abbreviation",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "INOIL",
+          "clue": "A way to saute",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "LEDGE",
+          "clue": "Overlook",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "LAKES",
+          "clue": "Shuswap and Wakaw",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 4,
+          "length": 4,
+          "answer": "MARS",
+          "clue": "The Red Planet",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "U",
+        "number": 2
+      },
+      {
+        "answer": "N",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 4
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "A",
+        "number": 5
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "P",
+        "number": 6
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "SUN",
+          "clue": "Tan",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "SUNY",
+          "clue": "New York's public university system, by its initials",
+          "source": "written"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "ANNIE",
+          "clue": "Sandy's owner",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "PINOT",
+          "clue": "****___ gris",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "SPIN",
+          "clue": "Revolve",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "SUNNI",
+          "clue": "Islamic denomination",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "UNION",
+          "clue": "Labor group",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "NYET",
+          "clue": "No, to Nabokov",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "SNIP",
+          "clue": "Trim",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "APS",
+          "clue": "Coll.-level classes",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

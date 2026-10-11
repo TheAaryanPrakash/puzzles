@@ -1,0 +1,476 @@
+{
+  "payload": {
+    "size": 7,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "O",
+        "number": 1
+      },
+      {
+        "answer": "L",
+        "number": 2
+      },
+      {
+        "answer": "D",
+        "number": 3
+      },
+      null,
+      null,
+      null,
+      {
+        "answer": "S",
+        "number": 4
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N",
+        "number": 5
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 6
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N",
+        "number": 7
+      },
+      {
+        "answer": "I",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 9
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "P",
+        "number": 10
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "T",
+        "number": 11
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "P",
+        "number": 12
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "Y"
+      },
+      null,
+      null,
+      null,
+      {
+        "answer": "M",
+        "number": 13
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "OLD",
+          "clue": "Vintage",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 5,
+          "answer": "SPOON",
+          "clue": "Ice cream utensil",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "SNOWMAN",
+          "clue": "Frosty of a Christmas song",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "answer": "IOS",
+          "clue": "FaceTime platform",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 3,
+          "col": 4,
+          "length": 3,
+          "answer": "ASA",
+          "clue": "Dry - bone",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "POSTITS",
+          "clue": "Sticky notes",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 5,
+          "col": 1,
+          "length": 5,
+          "answer": "PUNNY",
+          "clue": "Like Nash poetry",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 6,
+          "col": 2,
+          "length": 3,
+          "answer": "MTS",
+          "clue": "Atlas abbr",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "OPOSSUM",
+          "clue": "American marsupial",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "answer": "LOW",
+          "clue": "Deep; moo",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "DOMAINS",
+          "clue": "Dotcoms' addresses",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 5,
+          "answer": "SNOOP",
+          "clue": "Be nosy",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 5,
+          "length": 5,
+          "answer": "NASTY",
+          "clue": "Rank",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "SIP",
+          "clue": "Sample",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 6,
+          "length": 3,
+          "answer": "NAS",
+          "clue": "Rapper Lil ___ X",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 3,
+          "length": 3,
+          "answer": "TNT",
+          "clue": "Tunnel blaster",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "V",
+        "number": 1
+      },
+      {
+        "answer": "E",
+        "number": 2
+      },
+      {
+        "answer": "G",
+        "number": 3
+      },
+      {
+        "answer": "A",
+        "number": 4
+      },
+      {
+        "answer": "N",
+        "number": 5
+      },
+      {
+        "answer": "E",
+        "number": 6
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R",
+        "number": 7
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E",
+        "number": 9
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "VEGAN",
+          "clue": "Avoider of animal products",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "EMOTE",
+          "clue": "Act",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "RANTS",
+          "clue": "Tirades",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "SIGHT",
+          "clue": "Vision",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 5,
+          "answer": "ELSES",
+          "clue": "'It's nobody ___ business'",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "VERSE",
+          "clue": "Poet's forte",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "EMAIL",
+          "clue": "Online memo",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "GONGS",
+          "clue": "Instruments in temples",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "ATTHE",
+          "clue": "___ moment (right now)",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "NESTS",
+          "clue": "Cozy spots",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

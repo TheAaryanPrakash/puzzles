@@ -1,0 +1,352 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "H",
+        "number": 1
+      },
+      {
+        "answer": "B",
+        "number": 2
+      },
+      {
+        "answer": "O",
+        "number": 3
+      },
+      null,
+      null,
+      {
+        "answer": "E",
+        "number": 4
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "S",
+        "number": 5
+      },
+      null,
+      {
+        "answer": "N",
+        "number": 6
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "T",
+        "number": 7
+      },
+      null,
+      {
+        "answer": "L",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "R"
+      },
+      null,
+      null,
+      {
+        "answer": "N",
+        "number": 9
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "Y"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "HBO",
+          "clue": "\"Veep\" airer",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "EARS",
+          "clue": "Maize units",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "NIGHT",
+          "clue": "Bedtime story time",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "answer": "LAIR",
+          "clue": "Den",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 2,
+          "length": 3,
+          "answer": "NAY",
+          "clue": "Thumbs-down vote",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "HEN",
+          "clue": "Female fowl",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "BAIL",
+          "clue": "Court security",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "ORGAN",
+          "clue": "Body part",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 3,
+          "length": 4,
+          "answer": "SHIA",
+          "clue": "Branch of Islam",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "answer": "TRY",
+          "clue": "'___ this!'",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "F",
+        "number": 1
+      },
+      {
+        "answer": "U",
+        "number": 2
+      },
+      {
+        "answer": "T",
+        "number": 3
+      },
+      {
+        "answer": "Z",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "I",
+        "number": 5
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 6
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 8
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "E",
+        "number": 9
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "A"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "FUTZ",
+          "clue": "Fiddle around, with 'with'",
+          "source": "written"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "INRE",
+          "clue": "Concerning",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "TIARA",
+          "clue": "Fancy crown",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "answer": "TWOS",
+          "clue": "Deuces",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 1,
+          "length": 4,
+          "answer": "ELSA",
+          "clue": "Film lioness",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "FIT",
+          "clue": "___ like a glove",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "UNITE",
+          "clue": "Merge",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "TRAWL",
+          "clue": "Search",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "ZEROS",
+          "clue": "000",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "answer": "ASA",
+          "clue": "Sly ___ fox",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

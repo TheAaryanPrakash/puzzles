@@ -1,0 +1,346 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "T",
+        "number": 1
+      },
+      {
+        "answer": "I",
+        "number": 2
+      },
+      {
+        "answer": "C",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "J",
+        "number": 4
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "J",
+        "number": 5
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "O"
+      },
+      null,
+      {
+        "answer": "M",
+        "number": 7
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "TIC",
+          "clue": "___-tac-toe",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "JUNO",
+          "clue": "Hera's Roman counterpart",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "JIFFY",
+          "clue": "Blink of an eye",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "ALTO",
+          "clue": "Sax range",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "MLS",
+          "clue": "Sports group that includes the L.A. Galaxy",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "TUFTS",
+          "clue": "Clumps",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "INFO",
+          "clue": "Data",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "COY",
+          "clue": "Affectedly shy",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "JILL",
+          "clue": "Character also falling sick after Jack (wordplay)",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "JAM",
+          "clue": "Toast spread",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "V",
+        "number": 1
+      },
+      {
+        "answer": "I",
+        "number": 2
+      },
+      {
+        "answer": "S",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "B",
+        "number": 4
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "R",
+        "number": 5
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "U",
+        "number": 6
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      null,
+      {
+        "answer": "N",
+        "number": 7
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "VIS",
+          "clue": "\"___ for Vengeance\" (Grafton book)",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "BACK",
+          "clue": "Browser command",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "RELAY",
+          "clue": "Track race",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "USER",
+          "clue": "Patron",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "NOTE",
+          "clue": "Mark down",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "VALET",
+          "clue": "One moving to a lot",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "ICARE",
+          "clue": "'It matters to me'",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "SKY",
+          "clue": "Firmament",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "BESO",
+          "clue": "Kiss, in Spanish",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "RUN",
+          "clue": "Flee",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,449 @@
+{
+  "payload": {
+    "size": 7,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "R",
+        "number": 1
+      },
+      {
+        "answer": "E",
+        "number": 2
+      },
+      {
+        "answer": "P",
+        "number": 3
+      },
+      null,
+      null,
+      null,
+      {
+        "answer": "F",
+        "number": 4
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "X"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S",
+        "number": 5
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E",
+        "number": 7
+      },
+      {
+        "answer": "A",
+        "number": 8
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "P",
+        "number": 9
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "V"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 10
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      null,
+      null,
+      {
+        "answer": "T",
+        "number": 11
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "Y"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "REP",
+          "clue": "Gym unit",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 5,
+          "answer": "FOXES",
+          "clue": "Cunning canines",
+          "source": "written"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "TOOLATE",
+          "clue": "Not in time",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 7,
+          "answer": "AUTOBOT",
+          "clue": "Good-guy Transformer",
+          "source": "written"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "PROVOKE",
+          "clue": "Egg on show, sandwiching in order",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 5,
+          "col": 1,
+          "length": 5,
+          "answer": "SUEDE",
+          "clue": "Velvety leather",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 6,
+          "col": 2,
+          "length": 3,
+          "answer": "TRY",
+          "clue": "Attempt",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "ROOTOUT",
+          "clue": "Eliminate completely, with 'out'",
+          "source": "written"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "answer": "EXLOVER",
+          "clue": "Former flame",
+          "source": "written"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "PEABODY",
+          "clue": "Prestigious broadcasting award",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 5,
+          "answer": "FOURS",
+          "clue": "Two make eight",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 5,
+          "length": 5,
+          "answer": "STOKE",
+          "clue": "Stir up",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "TAP",
+          "clue": "Spigot",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 6,
+          "length": 3,
+          "answer": "ETE",
+          "clue": "Paris summer",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "H",
+        "number": 1
+      },
+      {
+        "answer": "O",
+        "number": 2
+      },
+      {
+        "answer": "G",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "H",
+        "number": 4
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "S",
+        "number": 5
+      },
+      {
+        "answer": "O",
+        "number": 6
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "T",
+        "number": 7
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "Y"
+      },
+      null,
+      {
+        "answer": "R",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "HOG",
+          "clue": "Monopolize",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "HOURS",
+          "clue": "Day divisions",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "ONTOP",
+          "clue": "In first place",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "TODAY",
+          "clue": "Time to solve this crossword",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "RON",
+          "clue": "Guitarist Wood",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "HONOR",
+          "clue": "___ system",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "OUTDO",
+          "clue": "Exceed",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "GROAN",
+          "clue": "Creak loudly",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "HOT",
+          "clue": "Stolen",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 4,
+          "length": 3,
+          "answer": "SPY",
+          "clue": "Mole, e.g",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

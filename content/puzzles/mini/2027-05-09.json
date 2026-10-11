@@ -1,0 +1,357 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "A",
+        "number": 1
+      },
+      {
+        "answer": "B",
+        "number": 2
+      },
+      {
+        "answer": "C",
+        "number": 3
+      },
+      null,
+      null,
+      {
+        "answer": "Z",
+        "number": 4
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "D",
+        "number": 5
+      },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "U",
+        "number": 7
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "R",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      null,
+      null,
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "A"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "ABC",
+          "clue": "As easy as ___",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "ZELDA",
+          "clue": "Video game princess",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "UTURN",
+          "clue": "Road reversal",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "ROBIN",
+          "clue": "Small songbird",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 2,
+          "length": 3,
+          "answer": "SPA",
+          "clue": "Pool place",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "AZUR",
+          "clue": "Cote d'___",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "BETO",
+          "clue": "O'Rourke from El Paso",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "CLUBS",
+          "clue": "Black suit",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 3,
+          "length": 4,
+          "answer": "DRIP",
+          "clue": "Twit; leak",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 4,
+          "length": 4,
+          "answer": "ANNA",
+          "clue": "Elsa's sister",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "C",
+        "number": 1
+      },
+      {
+        "answer": "H",
+        "number": 2
+      },
+      {
+        "answer": "I",
+        "number": 3
+      },
+      {
+        "answer": "P",
+        "number": 4
+      },
+      {
+        "answer": "F",
+        "number": 5
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "L",
+        "number": 6
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "I",
+        "number": 7
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      null,
+      {
+        "answer": "P",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "G"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "CHIP",
+          "clue": "Potato ___",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "FAUCI",
+          "clue": "Immunologist Anthony",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "LIMIT",
+          "clue": "Put a cap on",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "IRAN",
+          "clue": "Persia, today",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "PONG",
+          "clue": "Beer ___",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "CAIRO",
+          "clue": "City near pyramids",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "HUMAN",
+          "clue": "Man, woman or child",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "ICING",
+          "clue": "Cake decoration",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "PIT",
+          "clue": "Plum part",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "FLIP",
+          "clue": "Do a somersault",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

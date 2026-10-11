@@ -1,0 +1,485 @@
+{
+  "payload": {
+    "size": 7,
+    "cells": [
+      null,
+      {
+        "answer": "F",
+        "number": 1
+      },
+      {
+        "answer": "R",
+        "number": 2
+      },
+      {
+        "answer": "I",
+        "number": 3
+      },
+      {
+        "answer": "D",
+        "number": 4
+      },
+      {
+        "answer": "A",
+        "number": 5
+      },
+      {
+        "answer": "Y",
+        "number": 6
+      },
+      null,
+      {
+        "answer": "L",
+        "number": 7
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "O",
+        "number": 8
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "N",
+        "number": 9
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "P"
+      },
+      null,
+      {
+        "answer": "R",
+        "number": 10
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "I",
+        "number": 11
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L",
+        "number": 12
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "A"
+      },
+      null,
+      {
+        "answer": "N",
+        "number": 13
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      null,
+      {
+        "answer": "O",
+        "number": 14
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "S"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 6,
+          "answer": "FRIDAY",
+          "clue": "Period in which I would always support father",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "answer": "LOCALE",
+          "clue": "Site",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 2,
+          "col": 1,
+          "length": 6,
+          "answer": "ONEILL",
+          "clue": "Playwright Eugene",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "answer": "NAP",
+          "clue": "Snooze",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 3,
+          "col": 4,
+          "length": 3,
+          "answer": "REP",
+          "clue": "Gym unit",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 0,
+          "length": 6,
+          "answer": "ITALIA",
+          "clue": "Roma's country",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "answer": "NEUTER",
+          "clue": "Render ineffective",
+          "source": "dataset"
+        },
+        {
+          "number": 14,
+          "row": 6,
+          "col": 0,
+          "length": 6,
+          "answer": "ORLESS",
+          "clue": "'25 Words ___' (game show)",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "answer": "FLOATER",
+          "clue": "Flexible worker",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "RONPAUL",
+          "clue": "Libertarian congressman and presidential candidate",
+          "source": "written"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "answer": "ICE",
+          "clue": "Frappe",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "DAIRIES",
+          "clue": "Cheese-making sites",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "answer": "ALLEARS",
+          "clue": "Prepared to listen",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 0,
+          "col": 6,
+          "length": 4,
+          "answer": "YELP",
+          "clue": "Sharp bark",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "NINO",
+          "clue": "Spanish boy",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 4,
+          "col": 3,
+          "length": 3,
+          "answer": "LTE",
+          "clue": "5G ___: mobile standard",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "T",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "M",
+        "number": 3
+      },
+      {
+        "answer": "E",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "I",
+        "number": 5
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L",
+        "number": 6
+      },
+      {
+        "answer": "P",
+        "number": 7
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "Y",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "H"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "TAME",
+          "clue": "Not feral",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "IDEAL",
+          "clue": "Epitome",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "PEDRO",
+          "clue": "Martinez with three Cy Youngs",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "SLITS",
+          "clue": "Thin cuts",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "YEAH",
+          "clue": "\"Uh-huh\"",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "TIPSY",
+          "clue": "A little tight",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "ADELE",
+          "clue": "'Skyfall' singer",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "MEDIA",
+          "clue": "Podcasts, etc",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "EARTH",
+          "clue": "Mother ___",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 4,
+          "length": 3,
+          "answer": "LOS",
+          "clue": "- Gatos",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

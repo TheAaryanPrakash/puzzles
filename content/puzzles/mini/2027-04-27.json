@@ -1,0 +1,449 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "M",
+        "number": 1
+      },
+      {
+        "answer": "O",
+        "number": 2
+      },
+      {
+        "answer": "P",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "J",
+        "number": 4
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "B",
+        "number": 5
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "O",
+        "number": 6
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "P",
+        "number": 7
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "Y"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "MOP",
+          "clue": "Unkempt hair",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "JUNE",
+          "clue": "6, written out",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "BIDEN",
+          "clue": "#2 for #44",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "OLDS",
+          "clue": "Cutlass, e.g",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "PLY",
+          "clue": "Paper layer",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "MUDDY",
+          "clue": "Not clear, as water",
+          "source": "written"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "ONES",
+          "clue": "Low digits",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "PEN",
+          "clue": "Gel ___",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "JILL",
+          "clue": "Singer Scott",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "BOP",
+          "clue": "Conk",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 7,
+    "cells": [
+      null,
+      {
+        "answer": "P",
+        "number": 1
+      },
+      {
+        "answer": "R",
+        "number": 2
+      },
+      {
+        "answer": "I",
+        "number": 3
+      },
+      {
+        "answer": "N",
+        "number": 4
+      },
+      {
+        "answer": "T",
+        "number": 5
+      },
+      null,
+      null,
+      {
+        "answer": "L",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      null,
+      {
+        "answer": "H",
+        "number": 7
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "Y",
+        "number": 8
+      },
+      {
+        "answer": "O",
+        "number": 9
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "V"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "G",
+        "number": 10
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "A"
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 11
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null,
+      null,
+      {
+        "answer": "T",
+        "number": 12
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "Y"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "PRINT",
+          "clue": "Make a hard copy of",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 1,
+          "length": 5,
+          "answer": "LONER",
+          "clue": "Reclusive one",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "HALFWAY",
+          "clue": "How you might meet someone",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 3,
+          "col": 0,
+          "length": 7,
+          "answer": "ONLEAVE",
+          "clue": "Taking a sabbatical",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "GEORGIA",
+          "clue": "Nation on the Black Sea",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 5,
+          "col": 1,
+          "length": 5,
+          "answer": "TUNES",
+          "clue": "Melodies",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 6,
+          "col": 2,
+          "length": 3,
+          "answer": "TOY",
+          "clue": "'___ Story'",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 6,
+          "answer": "PLANET",
+          "clue": "Earth, e.g",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "ROLLOUT",
+          "clue": "Gradual public launch of a product",
+          "source": "written"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "answer": "INFERNO",
+          "clue": "Huge fire",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "NEWAGEY",
+          "clue": "Involving crystals and incense, say",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 5,
+          "length": 6,
+          "answer": "TRAVIS",
+          "clue": "Country star Randy",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "HOG",
+          "clue": "Large porker",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 2,
+          "col": 6,
+          "length": 3,
+          "answer": "YEA",
+          "clue": "'Up' vote",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,452 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "A",
+        "number": 1
+      },
+      {
+        "answer": "W",
+        "number": 2
+      },
+      {
+        "answer": "W",
+        "number": 3
+      },
+      {
+        "answer": "H",
+        "number": 4
+      },
+      {
+        "answer": "U",
+        "number": 5
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I",
+        "number": 6
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "P",
+        "number": 7
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "Z"
+      },
+      {
+        "answer": "Z"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "K"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "AWW",
+          "clue": "'That's sooo cute!'",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "HUMOR",
+          "clue": "Comic's forte",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "INAWE",
+          "clue": "Mesmerized",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "PIZZA",
+          "clue": "Italian dish",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 5,
+          "answer": "STEAK",
+          "clue": "Ribeye, e.g",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "AMAZE",
+          "clue": "Astound",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "WOWZA",
+          "clue": "'Wow!' intensified",
+          "source": "written"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "WREAK",
+          "clue": "Cause (havoc)",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "HIPS",
+          "clue": "Coxae, familiarly",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "UNIT",
+          "clue": "BTU's \"U\"",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 7,
+    "cells": [
+      null,
+      null,
+      null,
+      {
+        "answer": "P",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "C",
+        "number": 3
+      },
+      {
+        "answer": "T",
+        "number": 4
+      },
+      null,
+      null,
+      {
+        "answer": "F",
+        "number": 5
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "M",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "I",
+        "number": 8
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "R",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null,
+      {
+        "answer": "E",
+        "number": 10
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "PACT",
+          "clue": "Treaty",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 2,
+          "length": 5,
+          "answer": "FABLE",
+          "clue": "Aesop creation",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 6,
+          "answer": "MONROE",
+          "clue": "Madison's successor",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 7,
+          "answer": "SARCASM",
+          "clue": "Mockery scars a wretched maiden",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 6,
+          "answer": "IMGAME",
+          "clue": "\"Let's do it!\"",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 5,
+          "col": 0,
+          "length": 5,
+          "answer": "REEKS",
+          "clue": "Gives a strong impression (of)",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 6,
+          "col": 0,
+          "length": 4,
+          "answer": "ETRE",
+          "clue": "To be, to Camus",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "answer": "PANCAKE",
+          "clue": "Crepe",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 4,
+          "length": 6,
+          "answer": "ABRAMS",
+          "clue": "Stacey ___, Georgia political figure",
+          "source": "written"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 5,
+          "length": 5,
+          "answer": "CLOSE",
+          "clue": "\"Almost!\"",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 6,
+          "length": 4,
+          "answer": "TEEM",
+          "clue": "Overbrim",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 2,
+          "length": 6,
+          "answer": "FORGER",
+          "clue": "Counterfeiter",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 5,
+          "answer": "MAMET",
+          "clue": "\"Glengarry Glen Ross\" playwright",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "SIRE",
+          "clue": "Beget",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "H",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "M",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "P",
+        "number": 4
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "P",
+        "number": 5
+      },
+      {
+        "answer": "L",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "T"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "C"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "HAM",
+          "clue": "Stage hog",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "PEPUP",
+          "clue": "Invigorate",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "LAPSE",
+          "clue": "Failure",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "SPLIT",
+          "clue": "Rend",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "SEC",
+          "clue": "Min/60",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "HEAPS",
+          "clue": "Unruly piles",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "APPLE",
+          "clue": "Pipped fruit",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "MUSIC",
+          "clue": "Noted work",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "PLS",
+          "clue": "Texting counterpart of 'ty'",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 4,
+          "length": 3,
+          "answer": "PET",
+          "clue": "Stroke",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "E",
+        "number": 1
+      },
+      {
+        "answer": "L",
+        "number": 2
+      },
+      {
+        "answer": "F",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 4
+      },
+      {
+        "answer": "Q"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "D",
+        "number": 5
+      },
+      {
+        "answer": "O",
+        "number": 6
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D",
+        "number": 7
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "A",
+        "number": 8
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "ELF",
+          "clue": "Pixie, imp",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "SQUAD",
+          "clue": "Group of soldiers - team of players",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "OUNCE",
+          "clue": "Small weight",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "DUGIN",
+          "clue": "Began eating",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 5,
+          "answer": "ASSET",
+          "clue": "Strength",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "EQUUS",
+          "clue": "Lumet film whose title is Latin for \"horse\"",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "LUNGS",
+          "clue": "Chest organs",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "FACIE",
+          "clue": "Prima ___ (self-evident, in law)",
+          "source": "written"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "SODA",
+          "clue": "Bar mixer",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 4,
+          "length": 4,
+          "answer": "DENT",
+          "clue": "Fender bump",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,470 @@
+{
+  "payload": {
+    "size": 7,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "G",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "P",
+        "number": 3
+      },
+      null,
+      null,
+      null,
+      {
+        "answer": "Z",
+        "number": 4
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "S",
+        "number": 5
+      },
+      null,
+      {
+        "answer": "N",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "H",
+        "number": 7
+      },
+      {
+        "answer": "B",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "B"
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 9
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "A",
+        "number": 10
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "Z",
+        "number": 11
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "G"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 12
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "T"
+      },
+      null,
+      null,
+      null,
+      {
+        "answer": "K",
+        "number": 13
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "G"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "GAP",
+          "clue": "Space",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 5,
+          "answer": "ZEROS",
+          "clue": "000",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "NOTMUCH",
+          "clue": "'___, you?' (chat reply)",
+          "source": "written"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "answer": "BOB",
+          "clue": "Jerky movement",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 3,
+          "col": 4,
+          "length": 3,
+          "answer": "TAU",
+          "clue": "Greek T",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "AMAZING",
+          "clue": "Really awesome",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 5,
+          "col": 1,
+          "length": 5,
+          "answer": "SCENT",
+          "clue": "Get wind of",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 6,
+          "col": 2,
+          "length": 3,
+          "answer": "KEG",
+          "clue": "Beer barrel",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "GETBACK",
+          "clue": "Hit many years ago, exact revenge",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "answer": "ARM",
+          "clue": "Equip",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "POUTING",
+          "clue": "Sulking with a pushed-out lip",
+          "source": "written"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 5,
+          "answer": "ZOOMS",
+          "clue": "Whizzes (by)",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 5,
+          "length": 5,
+          "answer": "SCANT",
+          "clue": "Slight",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "NBA",
+          "clue": "76ers' org",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 6,
+          "length": 3,
+          "answer": "HUG",
+          "clue": "Embrace",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 3,
+          "length": 3,
+          "answer": "ZEE",
+          "clue": "Half of a jazz duo",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "J",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "Z",
+        "number": 3
+      },
+      {
+        "answer": "Z",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "D",
+        "number": 5
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "B",
+        "number": 6
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
+      },
+      null,
+      {
+        "answer": "I",
+        "number": 8
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 9
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "K"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "JAZZ",
+          "clue": "Dixieland band's music",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "DWEEB",
+          "clue": "Nerd",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "SABRA",
+          "clue": "Israeli native",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "answer": "IRON",
+          "clue": "Scrap ___",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 1,
+          "length": 4,
+          "answer": "TASK",
+          "clue": "Job jar item",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "JDS",
+          "clue": "Law school graduates, in brief",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "AWAIT",
+          "clue": "Hang around for",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "ZEBRA",
+          "clue": "Serengeti equine",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "ZEROS",
+          "clue": "000",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 4,
+          "length": 4,
+          "answer": "BANK",
+          "clue": "Riverside",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

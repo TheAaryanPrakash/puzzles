@@ -1,0 +1,484 @@
+{
+  "payload": {
+    "size": 7,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "T",
+        "number": 1
+      },
+      {
+        "answer": "Y",
+        "number": 2
+      },
+      {
+        "answer": "P",
+        "number": 3
+      },
+      {
+        "answer": "E",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 5
+      },
+      {
+        "answer": "C",
+        "number": 6
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "T",
+        "number": 8
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "O",
+        "number": 9
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "P"
+      },
+      null,
+      {
+        "answer": "C",
+        "number": 10
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "P",
+        "number": 11
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "S",
+        "number": 12
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "S",
+        "number": 13
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 14
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 4,
+          "answer": "TYPE",
+          "clue": "Variety",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "answer": "SCHOOLS",
+          "clue": "Institutions found in this puzzle's circled squares",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "THEWALL",
+          "clue": "Debated border barrier proposal, with 'the'",
+          "source": "written"
+        },
+        {
+          "number": 9,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "answer": "OOP",
+          "clue": "Basketball highlight, informally",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 3,
+          "col": 4,
+          "length": 3,
+          "answer": "CIA",
+          "clue": "Spies in VA",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "PROSHOP",
+          "clue": "What might be in trouble if it's out of the woods (wordplay)",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "answer": "SEPTETS",
+          "clue": "Largish singing groups",
+          "source": "dataset"
+        },
+        {
+          "number": 14,
+          "row": 6,
+          "col": 1,
+          "length": 4,
+          "answer": "SEED",
+          "clue": "Kernel, e.g",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "THEPOPE",
+          "clue": "Leader of the Catholic Church, with 'the'",
+          "source": "written"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "answer": "YOW",
+          "clue": "'That hurts!'",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "POACHED",
+          "clue": "Cooked gently in simmering liquid, as an egg",
+          "source": "written"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 5,
+          "length": 6,
+          "answer": "ELLIOT",
+          "clue": "The Cars guitarist Easton",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "STOPS",
+          "clue": "Shuts down",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "answer": "CHORES",
+          "clue": "Specific tasks to be done",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 1,
+          "col": 6,
+          "length": 5,
+          "answer": "SLAPS",
+          "clue": "Is really good",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 4,
+          "col": 3,
+          "length": 3,
+          "answer": "STE",
+          "clue": "Sault ___ Marie",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "F",
+        "number": 1
+      },
+      {
+        "answer": "I",
+        "number": 2
+      },
+      {
+        "answer": "N",
+        "number": 3
+      },
+      {
+        "answer": "E",
+        "number": 4
+      },
+      {
+        "answer": "R",
+        "number": 5
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "X"
+      },
+      {
+        "answer": "O",
+        "number": 6
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "V"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "M",
+        "number": 7
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "A",
+        "number": 8
+      },
+      {
+        "answer": "X"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "L"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "FINE",
+          "clue": "'Works for me'",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "RELAX",
+          "clue": "\"Chill out!\"",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "OLIVE",
+          "clue": "Green shade",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "MIKES",
+          "clue": "Hard lemonade brand",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "AXEL",
+          "clue": "Skating feat",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "FELIX",
+          "clue": "\"The Odd Couple\" neatnik",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "ILIKE",
+          "clue": "\"Thumbs-up!\"",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "NAVEL",
+          "clue": "Umbilicus: central point",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "EXES",
+          "clue": "They've split",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "ROMA",
+          "clue": "\"Arrivederci -\"",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

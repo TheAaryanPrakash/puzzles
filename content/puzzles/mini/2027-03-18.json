@@ -1,0 +1,363 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "T",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "P",
+        "number": 3
+      },
+      {
+        "answer": "E",
+        "number": 4
+      },
+      {
+        "answer": "M",
+        "number": 5
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E",
+        "number": 6
+      },
+      {
+        "answer": "Q"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "K"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "TAPE",
+          "clue": "Race goal",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "MODEL",
+          "clue": "Exemplify",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "EQUAL",
+          "clue": "___ pay",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "SULK",
+          "clue": "Put on a pouty face",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "SET",
+          "clue": "Fixed",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "TOQUE",
+          "clue": "Hat for a chef",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "ADULT",
+          "clue": "Mature",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "PEAK",
+          "clue": "K2, e.g",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "ELL",
+          "clue": "Wing",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "MESS",
+          "clue": "Pigsty",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "G",
+        "number": 1
+      },
+      {
+        "answer": "U",
+        "number": 2
+      },
+      {
+        "answer": "L",
+        "number": 3
+      },
+      {
+        "answer": "L",
+        "number": 4
+      },
+      {
+        "answer": "S",
+        "number": 5
+      },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "L",
+        "number": 7
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "A",
+        "number": 8
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "E"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "GULLS",
+          "clue": "Fish-eaters are fools",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "ALIEN",
+          "clue": "Romulan, e.g",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "LONGA",
+          "clue": "Vowel sound in 'grace'",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "ACTUP",
+          "clue": "Earn a timeout",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 5,
+          "answer": "SKYPE",
+          "clue": "Webcam app",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "GALAS",
+          "clue": "Big dos",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "ULOCK",
+          "clue": "Sturdy bike theft deterrent, named for its shape",
+          "source": "written"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "LINTY",
+          "clue": "Like a fuzzy navel (wordplay)",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "LEGUP",
+          "clue": "Assistance, with \"a\"",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "SNAPE",
+          "clue": "Hogwarts potions professor",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

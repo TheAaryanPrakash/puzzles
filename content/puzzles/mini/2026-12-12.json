@@ -1,0 +1,514 @@
+{
+  "payload": {
+    "size": 7,
+    "cells": [
+      {
+        "answer": "G",
+        "number": 1
+      },
+      {
+        "answer": "U",
+        "number": 2
+      },
+      {
+        "answer": "M",
+        "number": 3
+      },
+      {
+        "answer": "S",
+        "number": 4
+      },
+      {
+        "answer": "H",
+        "number": 5
+      },
+      {
+        "answer": "O",
+        "number": 6
+      },
+      {
+        "answer": "E",
+        "number": 7
+      },
+      {
+        "answer": "A",
+        "number": 8
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null,
+      {
+        "answer": "L",
+        "number": 10
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      null,
+      {
+        "answer": "C",
+        "number": 11
+      },
+      {
+        "answer": "H",
+        "number": 12
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E",
+        "number": 13
+      },
+      {
+        "answer": "A",
+        "number": 14
+      },
+      {
+        "answer": "S",
+        "number": 15
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I",
+        "number": 16
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "N"
+      },
+      null,
+      {
+        "answer": "Y",
+        "number": 17
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "M"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 7,
+          "answer": "GUMSHOE",
+          "clue": "One like Sam Spade sticks to house wine ultimately",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "answer": "AIRPODS",
+          "clue": "Apple's wireless earbuds",
+          "source": "written"
+        },
+        {
+          "number": 9,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "SECONDS",
+          "clue": "Supporters that Oliver requested (wordplay)",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 3,
+          "col": 2,
+          "length": 3,
+          "answer": "LIE",
+          "clue": "Untruth",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "CHELSEA",
+          "clue": "Side issue for Clintons",
+          "source": "dataset"
+        },
+        {
+          "number": 15,
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "answer": "SEASTAR",
+          "clue": "Five-armed ocean creature",
+          "source": "dataset"
+        },
+        {
+          "number": 16,
+          "row": 6,
+          "col": 0,
+          "length": 3,
+          "answer": "INN",
+          "clue": "Tavern",
+          "source": "dataset"
+        },
+        {
+          "number": 17,
+          "row": 6,
+          "col": 4,
+          "length": 3,
+          "answer": "YUM",
+          "clue": "\"Delish!\"",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "GAS",
+          "clue": "Vapour",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "UIE",
+          "clue": "180-degree turn, in slang",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "MRCLEAN",
+          "clue": "Dude with an impeccable rep",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 6,
+          "answer": "SPOILS",
+          "clue": "Loot",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "HONESTY",
+          "clue": "It's said to be the best policy",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 0,
+          "col": 5,
+          "length": 3,
+          "answer": "ODD",
+          "clue": "Quirky",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 0,
+          "col": 6,
+          "length": 3,
+          "answer": "ESS",
+          "clue": "Snaky curve",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "CSI",
+          "clue": "CBS franchise",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "HEN",
+          "clue": "Egg layer",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 4,
+          "col": 5,
+          "length": 3,
+          "answer": "EAU",
+          "clue": "- de cologne",
+          "source": "dataset"
+        },
+        {
+          "number": 14,
+          "row": 4,
+          "col": 6,
+          "length": 3,
+          "answer": "ARM",
+          "clue": "Body part",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "L",
+        "number": 2
+      },
+      {
+        "answer": "E",
+        "number": 3
+      },
+      {
+        "answer": "D",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "H",
+        "number": 5
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "D",
+        "number": 6
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "I",
+        "number": 7
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "H"
+      },
+      null,
+      {
+        "answer": "N",
+        "number": 8
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "SLED",
+          "clue": "Toboggan",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "HAIR",
+          "clue": "Tresses",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "DINGY",
+          "clue": "Hard to leave boat looking shabby",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "INCH",
+          "clue": "Creep (along)",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "NYET",
+          "clue": "Russian 'no'",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "SHINY",
+          "clue": "Like waxed cars",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "LANCE",
+          "clue": "Cavalry weapon",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "EIGHT",
+          "clue": "Rowing team",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "DRY",
+          "clue": "Parched",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "DIN",
+          "clue": "Clamor",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

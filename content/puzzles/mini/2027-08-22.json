@@ -1,0 +1,449 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "O",
+        "number": 1
+      },
+      {
+        "answer": "N",
+        "number": 2
+      },
+      {
+        "answer": "E",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "Z",
+        "number": 4
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "S",
+        "number": 5
+      },
+      {
+        "answer": "Z",
+        "number": 6
+      },
+      {
+        "answer": "Z"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "Z",
+        "number": 7
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "Y"
+      },
+      null,
+      {
+        "answer": "D",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "E"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "ONE",
+          "clue": "A single",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "ZOOMS",
+          "clue": "Whizzes (by)",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "ZZTOP",
+          "clue": "Frank Beard is this band's beardless member",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "ZESTY",
+          "clue": "Full of spice",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "DOE",
+          "clue": "Ms Deer",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "OOZED",
+          "clue": "Seeped",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "NOTSO",
+          "clue": "'Untrue!'",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "EMOTE",
+          "clue": "Gush",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "ZZZ",
+          "clue": "Only three-letter word in Scrabble that requires both blank tiles",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 4,
+          "length": 3,
+          "answer": "SPY",
+          "clue": "Operative",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 7,
+    "cells": [
+      null,
+      null,
+      null,
+      {
+        "answer": "M",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "Y",
+        "number": 3
+      },
+      {
+        "answer": "A",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "U",
+        "number": 5
+      },
+      {
+        "answer": "N",
+        "number": 6
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "X"
+      },
+      null,
+      {
+        "answer": "N",
+        "number": 7
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "P"
+      },
+      null,
+      {
+        "answer": "M",
+        "number": 9
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "P",
+        "number": 10
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      null,
+      {
+        "answer": "H",
+        "number": 11
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "MAYA",
+          "clue": "Writer Angelou",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "answer": "UNISEX",
+          "clue": "Like some bathrooms",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 1,
+          "length": 6,
+          "answer": "NESTLE",
+          "clue": "Snuggle",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "answer": "SUNUP",
+          "clue": "What happens soon after Aurora raises matter involving a Parisian",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 6,
+          "answer": "MUTATE",
+          "clue": "Change genetically",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "answer": "PREMED",
+          "clue": "Program for a future doc",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 6,
+          "col": 0,
+          "length": 4,
+          "answer": "HERE",
+          "clue": "'Take it'",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "answer": "MISNAME",
+          "clue": "Identify incorrectly",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 4,
+          "length": 6,
+          "answer": "ASTUTE",
+          "clue": "Quite sharp",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 5,
+          "length": 6,
+          "answer": "YELPED",
+          "clue": "Cried out sharply in pain",
+          "source": "written"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 6,
+          "length": 3,
+          "answer": "AXE",
+          "clue": "Hatchet",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "answer": "UNSURE",
+          "clue": "Central fund issues currency when confidence is lacking",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 2,
+          "length": 6,
+          "answer": "NEUTER",
+          "clue": "Fix at the vet's",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "MPH",
+          "clue": "Speedometer stat",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

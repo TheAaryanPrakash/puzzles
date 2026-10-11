@@ -1,0 +1,355 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "W",
+        "number": 1
+      },
+      {
+        "answer": "O",
+        "number": 2
+      },
+      {
+        "answer": "L",
+        "number": 3
+      },
+      {
+        "answer": "F",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "O",
+        "number": 5
+      },
+      {
+        "answer": "V"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L"
+      },
+      null,
+      {
+        "answer": "V",
+        "number": 6
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N",
+        "number": 7
+      },
+      {
+        "answer": "E",
+        "number": 8
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "Y"
+      },
+      null,
+      null,
+      {
+        "answer": "R",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "C"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "WOLF",
+          "clue": "Animal that howls at the moon",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "OVAL",
+          "clue": "Track",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "VEGAN",
+          "clue": "Like soy milk",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "ENEMY",
+          "clue": "Opposition",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 2,
+          "length": 3,
+          "answer": "REC",
+          "clue": "___ room",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "WOVE",
+          "clue": "Made a basket",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "OVEN",
+          "clue": "Chef's need",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "LAGER",
+          "clue": "Ale alternative",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "FLAME",
+          "clue": "Appropriate torch song topic",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "answer": "NYC",
+          "clue": "The Big Apple, for short",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "D",
+        "number": 1
+      },
+      {
+        "answer": "M",
+        "number": 2
+      },
+      {
+        "answer": "V",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 4
+      },
+      {
+        "answer": "V"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "D",
+        "number": 5
+      },
+      {
+        "answer": "G",
+        "number": 6
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "V"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "E",
+        "number": 7
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "D",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "D"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "DMV",
+          "clue": "Place to get an ID",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "AVOID",
+          "clue": "Refrain from",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "GRAVY",
+          "clue": "Sauce for meat",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "EENIE",
+          "clue": "Start of a counting rhyme",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "DAD",
+          "clue": "Pops",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "DVRED",
+          "clue": "Recorded for later, as a show",
+          "source": "written"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "MOANA",
+          "clue": "Disney Polynesian toon",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "VIVID",
+          "clue": "Having striking colour",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "AGE",
+          "clue": "Period",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 4,
+          "length": 3,
+          "answer": "DYE",
+          "clue": "Recolor",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

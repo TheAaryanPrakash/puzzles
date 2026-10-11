@@ -1,0 +1,485 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "D",
+        "number": 1
+      },
+      {
+        "answer": "O",
+        "number": 2
+      },
+      {
+        "answer": "F",
+        "number": 3
+      },
+      {
+        "answer": "F",
+        "number": 4
+      },
+      {
+        "answer": "S",
+        "number": 5
+      },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "N",
+        "number": 7
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "C",
+        "number": 8
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E",
+        "number": 9
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "H"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "DOFFS",
+          "clue": "Tips, as one's cap",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "APRIL",
+          "clue": "4, in a date",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "NEERA",
+          "clue": "___ Tanden, policy advisor",
+          "source": "written"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "CRESS",
+          "clue": "Pungent salad green",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 5,
+          "answer": "EARTH",
+          "clue": "Google ___",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "DANCE",
+          "clue": "Reel, say",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "OPERA",
+          "clue": "Eg, Turandot",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "FREER",
+          "clue": "Less inhibited",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "FIRST",
+          "clue": "Earliest",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "SLASH",
+          "clue": "/",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 7,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "N",
+        "number": 1
+      },
+      {
+        "answer": "O",
+        "number": 2
+      },
+      {
+        "answer": "D",
+        "number": 3
+      },
+      null,
+      null,
+      {
+        "answer": "S",
+        "number": 4
+      },
+      {
+        "answer": "P",
+        "number": 5
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "S",
+        "number": 6
+      },
+      {
+        "answer": "H",
+        "number": 7
+      },
+      {
+        "answer": "N",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A",
+        "number": 9
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "I"
+      },
+      null,
+      {
+        "answer": "B",
+        "number": 10
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "R",
+        "number": 11
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "R",
+        "number": 12
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "F",
+        "number": 13
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null,
+      {
+        "answer": "A",
+        "number": 14
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "D"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "NOD",
+          "clue": "Doze (off)",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "answer": "SPANISH",
+          "clue": "What's spoken in Barcelona",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "NAMASTE",
+          "clue": "Yoga studio greeting",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "answer": "ALI",
+          "clue": "___ Baba",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 3,
+          "col": 4,
+          "length": 3,
+          "answer": "BAR",
+          "clue": "Rail",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "REBRAND",
+          "clue": "Strategic corporate name change",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "answer": "FRIENDS",
+          "clue": "Close group",
+          "source": "dataset"
+        },
+        {
+          "number": 14,
+          "row": 6,
+          "col": 2,
+          "length": 3,
+          "answer": "ADD",
+          "clue": "Annex",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "NAMIBIA",
+          "clue": "Country of one billion and rising, Amnesty International fellow to tour",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "answer": "ONA",
+          "clue": "- budget",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "DISBAND",
+          "clue": "Break up underworld gang",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "SNARF",
+          "clue": "Chow (down)",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 5,
+          "answer": "PALER",
+          "clue": "More ashen",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 5,
+          "length": 5,
+          "answer": "STAND",
+          "clue": "Remain upright",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 1,
+          "col": 6,
+          "length": 5,
+          "answer": "HERDS",
+          "clue": "Grazing groups",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 4,
+          "col": 3,
+          "length": 3,
+          "answer": "RED",
+          "clue": "Carmine",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

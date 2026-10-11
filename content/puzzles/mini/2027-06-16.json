@@ -1,0 +1,506 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "M",
+        "number": 1
+      },
+      {
+        "answer": "U",
+        "number": 2
+      },
+      {
+        "answer": "G",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "C",
+        "number": 4
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "L",
+        "number": 5
+      },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "P",
+        "number": 7
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 8
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "D"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "MUG",
+          "clue": "Coffee cup",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "CAROL",
+          "clue": "Winter song",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "ARGUE",
+          "clue": "Contend",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "PIERS",
+          "clue": "Ships' docking spots",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "ADD",
+          "clue": "Mix in",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "MARIA",
+          "clue": "Tennis pro Sharapova",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "URGED",
+          "clue": "Impelled",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "GOURD",
+          "clue": "Melon, e.g",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "CAP",
+          "clue": "Top",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 4,
+          "length": 3,
+          "answer": "LES",
+          "clue": "___ Etats-Unis",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 7,
+    "cells": [
+      {
+        "answer": "B",
+        "number": 1
+      },
+      {
+        "answer": "R",
+        "number": 2
+      },
+      {
+        "answer": "O",
+        "number": 3
+      },
+      {
+        "answer": "T",
+        "number": 4
+      },
+      {
+        "answer": "H",
+        "number": 5
+      },
+      {
+        "answer": "E",
+        "number": 6
+      },
+      {
+        "answer": "R",
+        "number": 7
+      },
+      {
+        "answer": "M",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "W",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "F"
+      },
+      null,
+      null,
+      {
+        "answer": "D",
+        "number": 10
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "H"
+      },
+      null,
+      null,
+      {
+        "answer": "O",
+        "number": 11
+      },
+      {
+        "answer": "C",
+        "number": 12
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "D",
+        "number": 13
+      },
+      {
+        "answer": "A",
+        "number": 14
+      },
+      {
+        "answer": "L",
+        "number": 15
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "D",
+        "number": 16
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 7,
+          "answer": "BROTHER",
+          "clue": "Male sibling",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "answer": "MANHOLE",
+          "clue": "Sewer entrance",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "WEAROFF",
+          "clue": "Gradually diminish, as an effect",
+          "source": "written"
+        },
+        {
+          "number": 10,
+          "row": 3,
+          "col": 2,
+          "length": 3,
+          "answer": "DOH",
+          "clue": "Homer's holler",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "OCANADA",
+          "clue": "English national anthem originally in French",
+          "source": "dataset"
+        },
+        {
+          "number": 15,
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "answer": "LATEHIT",
+          "clue": "Penalized football foul after the whistle",
+          "source": "written"
+        },
+        {
+          "number": 16,
+          "row": 6,
+          "col": 0,
+          "length": 7,
+          "answer": "DRESSES",
+          "clue": "Gets into something",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "BMW",
+          "clue": "Audi rival",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "RAE",
+          "clue": "Issa on HBO",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "ONADATE",
+          "clue": "Hanging together, say (wordplay)",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "answer": "THRONES",
+          "clue": "Royal seats",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "HOOHAHS",
+          "clue": "Big fusses",
+          "source": "written"
+        },
+        {
+          "number": 6,
+          "row": 0,
+          "col": 5,
+          "length": 3,
+          "answer": "ELF",
+          "clue": "Pole worker",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 0,
+          "col": 6,
+          "length": 3,
+          "answer": "REF",
+          "clue": "Ency., e.g",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "OLD",
+          "clue": "Stale",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "CAR",
+          "clue": "Z4 or Q50",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 4,
+          "col": 5,
+          "length": 3,
+          "answer": "DIE",
+          "clue": "Fade out",
+          "source": "dataset"
+        },
+        {
+          "number": 14,
+          "row": 4,
+          "col": 6,
+          "length": 3,
+          "answer": "ATS",
+          "clue": "Symbols in Twitter handles",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

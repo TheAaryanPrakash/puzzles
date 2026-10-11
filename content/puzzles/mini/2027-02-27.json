@@ -1,0 +1,489 @@
+{
+  "payload": {
+    "size": 7,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "M",
+        "number": 1
+      },
+      {
+        "answer": "E",
+        "number": 2
+      },
+      {
+        "answer": "G",
+        "number": 3
+      },
+      null,
+      null,
+      null,
+      {
+        "answer": "M",
+        "number": 4
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "X"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S",
+        "number": 5
+      },
+      null,
+      {
+        "answer": "M",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "N",
+        "number": 7
+      },
+      {
+        "answer": "A",
+        "number": 8
+      },
+      {
+        "answer": "V"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 10
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E",
+        "number": 11
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      null,
+      {
+        "answer": "I",
+        "number": 12
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D",
+        "number": 13
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "A"
+      },
+      null,
+      {
+        "answer": "N",
+        "number": 14
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "T"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "MEG",
+          "clue": "Ryan of movies",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 5,
+          "answer": "MAXES",
+          "clue": "Upper limits",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "MODELUN",
+          "clue": "School club simulating the General Assembly, briefly",
+          "source": "written"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 7,
+          "answer": "AVOCADO",
+          "clue": "Guacamole base",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "TEN",
+          "clue": "Toe count",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 4,
+          "col": 4,
+          "length": 3,
+          "answer": "TON",
+          "clue": "Passel",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 5,
+          "col": 0,
+          "length": 3,
+          "answer": "EON",
+          "clue": "Mega years",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 5,
+          "col": 4,
+          "length": 3,
+          "answer": "IKE",
+          "clue": "Prez #34",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 6,
+          "col": 0,
+          "length": 3,
+          "answer": "DNA",
+          "clue": "Genetic ID",
+          "source": "dataset"
+        },
+        {
+          "number": 14,
+          "row": 6,
+          "col": 4,
+          "length": 3,
+          "answer": "NUT",
+          "clue": "Maniac",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "MADONNA",
+          "clue": "Virgin Mary",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "EXEC",
+          "clue": "Biz biggie",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "GELATIN",
+          "clue": "Jiggly dessert",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "answer": "MOVEON",
+          "clue": "Get over a past relationship",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 5,
+          "length": 6,
+          "answer": "SUDOKU",
+          "clue": "Kudos built on university logic puzzle",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "MATED",
+          "clue": "Ship's officer died, finished off on board",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 6,
+          "length": 5,
+          "answer": "NONET",
+          "clue": "Music for nine",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "E",
+        "number": 2
+      },
+      {
+        "answer": "E",
+        "number": 3
+      },
+      {
+        "answer": "D",
+        "number": 4
+      },
+      {
+        "answer": "S",
+        "number": 5
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "K",
+        "number": 6
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "I",
+        "number": 7
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "M",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "SEED",
+          "clue": "Spawn",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "SURGE",
+          "clue": "Power issue",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "KINGS",
+          "clue": "Pieces that can be put in check",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "ITSOK",
+          "clue": "'There, there'",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "METS",
+          "clue": "Big Apple sluggers",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "SUITE",
+          "clue": "Software bundle",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "ERNST",
+          "clue": "Young's partner",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "EGGOS",
+          "clue": "Some frozen waffles",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "DESK",
+          "clue": "Writing ___",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "SKIM",
+          "clue": "Brush",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

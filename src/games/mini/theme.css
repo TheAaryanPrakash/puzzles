@@ -1,0 +1,136 @@
+/* Mini crossword — classic newspaper look: crisp white grid, ink-black blocks, no frills. */
+[data-game="mini"] {
+  --game-bg: var(--brand-bg);
+  --game-fg: var(--brand-fg);
+  --game-surface: #ffffff;
+  --game-surface-2: var(--brand-surface-2);
+  --game-border: #c9c2b4;
+  --game-accent: #1f2937;
+  --game-accent-fg: #ffffff;
+  --game-muted: var(--brand-muted);
+  --game-font: "Libre Franklin", sans-serif;
+
+  --tile-empty: #ffffff;
+  --tile-filled: #ffffff;
+  --tile-selected: #ffe9a8;
+  --tile-correct: #4caf7d;
+  --tile-present: #c9b458;
+  --tile-absent: #787c7e;
+
+  /* Mini-only tokens (not part of the shared tile/game set — plain CSS, not Tailwind utilities). */
+  --mini-black: #1b1b1b;
+  --mini-word: #d8ebff;
+  --mini-wrong: #f6c6c2;
+  --mini-number: #6b7280;
+}
+
+.mini-board {
+  display: grid;
+  gap: 2px;
+  background: var(--mini-black);
+  border: 2px solid var(--mini-black);
+  border-radius: var(--radius-brand-sm);
+  width: min(100%, 420px);
+  aspect-ratio: 1 / 1;
+  touch-action: manipulation;
+  user-select: none;
+}
+
+.mini-cell {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--tile-empty);
+  font-family: var(--game-font);
+  font-weight: 600;
+  font-size: clamp(0.95rem, 4.5vw, 1.4rem);
+  color: var(--game-fg);
+  cursor: pointer;
+  line-height: 1;
+}
+
+.mini-cell.is-black {
+  background: var(--mini-black);
+  cursor: default;
+}
+
+.mini-cell.is-in-word {
+  background: var(--mini-word);
+}
+
+.mini-cell.is-selected {
+  background: var(--tile-selected);
+}
+
+.mini-cell.is-wrong {
+  background: var(--mini-wrong);
+}
+
+.mini-cell-number {
+  position: absolute;
+  top: 2px;
+  left: 3px;
+  font-size: clamp(0.5rem, 1.8vw, 0.65rem);
+  font-weight: 500;
+  color: var(--mini-number);
+  line-height: 1;
+}
+
+.mini-clue-bar {
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  border: 1px solid var(--game-border);
+  border-radius: var(--radius-brand-sm);
+  background: var(--game-surface);
+  overflow: hidden;
+}
+
+.mini-clue-bar button {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  color: var(--game-muted);
+  background: transparent;
+}
+
+.mini-clue-bar button:hover {
+  background: var(--game-surface-2);
+}
+
+.mini-clue-bar .mini-clue-text {
+  flex: 1 1 auto;
+  width: auto;
+  min-width: 0;
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-brand-2);
+  padding: var(--spacing-brand-2) var(--spacing-brand-3);
+  font-size: 0.95rem;
+  min-width: 0;
+}
+
+.mini-clue-bar .mini-clue-text .mini-clue-number {
+  font-weight: 700;
+  color: var(--game-accent);
+  flex-shrink: 0;
+}
+
+.mini-clue-bar .mini-clue-text .mini-clue-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Visually hidden but still focusable/typeable — captures the physical/mobile keyboard. */
+.mini-input-trap {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  pointer-events: none;
+}

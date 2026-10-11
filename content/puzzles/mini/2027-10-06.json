@@ -1,0 +1,472 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "L",
+        "number": 1
+      },
+      {
+        "answer": "I",
+        "number": 2
+      },
+      {
+        "answer": "T",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "M",
+        "number": 4
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R",
+        "number": 5
+      },
+      {
+        "answer": "D",
+        "number": 6
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "D"
+      },
+      null,
+      {
+        "answer": "X",
+        "number": 8
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "Z"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "LIT",
+          "clue": "Ignited",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "MOTOR",
+          "clue": "Travel by car",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "DRAPE",
+          "clue": "Fall loosely",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "SALAD",
+          "clue": "Green lunch",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "XYZ",
+          "clue": "Historic 'Affair' of 1797-98",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "LORAX",
+          "clue": "Seuss' tree protector",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "ITALY",
+          "clue": "G7 nation",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "TOPAZ",
+          "clue": "Birthstone after opal",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "MDS",
+          "clue": "Script writers",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 4,
+          "length": 3,
+          "answer": "RED",
+          "clue": "___ tape",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 7,
+    "cells": [
+      null,
+      {
+        "answer": "T",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "L",
+        "number": 3
+      },
+      {
+        "answer": "K",
+        "number": 4
+      },
+      {
+        "answer": "S",
+        "number": 5
+      },
+      null,
+      null,
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "P",
+        "number": 8
+      },
+      {
+        "answer": "B",
+        "number": 9
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 10
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "C",
+        "number": 11
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "I",
+        "number": 12
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      null,
+      {
+        "answer": "I",
+        "number": 13
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null,
+      null,
+      {
+        "answer": "Y",
+        "number": 14
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "TALKS",
+          "clue": "Conversations",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 1,
+          "length": 5,
+          "answer": "ALIEN",
+          "clue": "E.T., e.g",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "AIRDROP",
+          "clue": "Deliver via parachute",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "answer": "BCE",
+          "clue": "Prior to AD",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 3,
+          "col": 4,
+          "length": 3,
+          "answer": "APE",
+          "clue": "Copy",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "CHAITEA",
+          "clue": "*Indian spiced drink",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 5,
+          "col": 1,
+          "length": 5,
+          "answer": "IDRIS",
+          "clue": "\"Luther\" star Elba",
+          "source": "dataset"
+        },
+        {
+          "number": 14,
+          "row": 6,
+          "col": 2,
+          "length": 3,
+          "answer": "YEN",
+          "clue": "Urge",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 6,
+          "answer": "TAICHI",
+          "clue": "Chinese system of calisthenics",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "ALREADY",
+          "clue": "In a surprisingly short time",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "answer": "LID",
+          "clue": "Cover",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "KERATIN",
+          "clue": "Fingernail makeup",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 5,
+          "length": 6,
+          "answer": "SNOPES",
+          "clue": "Fact-checking website",
+          "source": "written"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "ABC",
+          "clue": "Alphabet starter",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 2,
+          "col": 6,
+          "length": 3,
+          "answer": "PEA",
+          "clue": "Pod piece",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 4,
+          "col": 3,
+          "length": 3,
+          "answer": "IRE",
+          "clue": "Wrath",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

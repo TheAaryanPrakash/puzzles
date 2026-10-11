@@ -1,0 +1,506 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "H",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "T",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "F",
+        "number": 4
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S",
+        "number": 5
+      },
+      {
+        "answer": "D",
+        "number": 6
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "R",
+        "number": 7
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "Y"
+      },
+      null,
+      {
+        "answer": "E",
+        "number": 8
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "S"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "HAT",
+          "clue": "Headgear",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "FIRES",
+          "clue": "Inspires, with \"up\"",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "DRINK",
+          "clue": "Risk losing one's license, say",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "REEDY",
+          "clue": "Thin-sounding",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "ESS",
+          "clue": "Slow start",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "HIREE",
+          "clue": "New face at a firm",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "ARIES",
+          "clue": "Ram above",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "TENDS",
+          "clue": "Has an inclination",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "FDR",
+          "clue": "32nd POTUS",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 4,
+          "length": 3,
+          "answer": "SKY",
+          "clue": "___ blue",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 7,
+    "cells": [
+      {
+        "answer": "P",
+        "number": 1
+      },
+      {
+        "answer": "I",
+        "number": 2
+      },
+      {
+        "answer": "K",
+        "number": 3
+      },
+      {
+        "answer": "A",
+        "number": 4
+      },
+      {
+        "answer": "C",
+        "number": 5
+      },
+      {
+        "answer": "H",
+        "number": 6
+      },
+      {
+        "answer": "U",
+        "number": 7
+      },
+      {
+        "answer": "E",
+        "number": 8
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "N",
+        "number": 9
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "A"
+      },
+      null,
+      null,
+      {
+        "answer": "N",
+        "number": 10
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T"
+      },
+      null,
+      null,
+      {
+        "answer": "W",
+        "number": 11
+      },
+      {
+        "answer": "H",
+        "number": 12
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E",
+        "number": 13
+      },
+      {
+        "answer": "N",
+        "number": 14
+      },
+      {
+        "answer": "I",
+        "number": 15
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "N",
+        "number": 16
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "L"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 7,
+          "answer": "PIKACHU",
+          "clue": "Pokemon species with lightning bolt-shaped tails",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "answer": "EDIBLES",
+          "clue": "Cannabis cookies",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "NODRAMA",
+          "clue": "Onetime descriptor for Obama",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 3,
+          "col": 2,
+          "length": 3,
+          "answer": "NET",
+          "clue": "Clear",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "WHEATEN",
+          "clue": "Wholemeal, we note, has high temperature inside",
+          "source": "dataset"
+        },
+        {
+          "number": 15,
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "answer": "IMYSELF",
+          "clue": "'I ___ am to blame'",
+          "source": "written"
+        },
+        {
+          "number": 16,
+          "row": 6,
+          "col": 0,
+          "length": 7,
+          "answer": "NOSTRIL",
+          "clue": "Nose aperture",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "PEN",
+          "clue": "Pigsty",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "IDO",
+          "clue": "Vow avowal",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "KIDNEYS",
+          "clue": "Nephrology focus",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "answer": "ABREAST",
+          "clue": "Side by side",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "CLATTER",
+          "clue": "Din",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 0,
+          "col": 5,
+          "length": 3,
+          "answer": "HEM",
+          "clue": "Sewed edge",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 0,
+          "col": 6,
+          "length": 3,
+          "answer": "USA",
+          "clue": "___ Today",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "WIN",
+          "clue": "Pitching stat",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "HMO",
+          "clue": "Managed care grp",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 4,
+          "col": 5,
+          "length": 3,
+          "answer": "ELI",
+          "clue": "QB Manning",
+          "source": "dataset"
+        },
+        {
+          "number": 14,
+          "row": 4,
+          "col": 6,
+          "length": 3,
+          "answer": "NFL",
+          "clue": "Vikings' org",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

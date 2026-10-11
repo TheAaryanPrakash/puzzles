@@ -1,0 +1,449 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "M",
+        "number": 1
+      },
+      {
+        "answer": "L",
+        "number": 2
+      },
+      {
+        "answer": "B",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "L",
+        "number": 4
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "Z",
+        "number": 5
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "Z"
+      },
+      {
+        "answer": "Z"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "O",
+        "number": 6
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "Y"
+      },
+      null,
+      {
+        "answer": "O",
+        "number": 7
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "K"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "MLB",
+          "clue": "Organization in which you'd hear the answers to starred clues",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "LUAU",
+          "clue": "Hawaiian bash",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "ZAZZY",
+          "clue": "Flashy and bold, informally",
+          "source": "written"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "OLAY",
+          "clue": "Oil of ___",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "OAK",
+          "clue": "Acorn source",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "MUZAK",
+          "clue": "Piped music",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "LAZY",
+          "clue": "___ Susan",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "BUY",
+          "clue": "Hand over money for",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "LALA",
+          "clue": "'Ooh ___!'",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "ZOO",
+          "clue": "Bloke",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 7,
+    "cells": [
+      null,
+      {
+        "answer": "F",
+        "number": 1
+      },
+      {
+        "answer": "O",
+        "number": 2
+      },
+      {
+        "answer": "A",
+        "number": 3
+      },
+      {
+        "answer": "M",
+        "number": 4
+      },
+      {
+        "answer": "S",
+        "number": 5
+      },
+      null,
+      null,
+      {
+        "answer": "I",
+        "number": 6
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T"
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "M",
+        "number": 8
+      },
+      {
+        "answer": "N",
+        "number": 9
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "I",
+        "number": 10
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "D"
+      },
+      null,
+      {
+        "answer": "G",
+        "number": 11
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null,
+      null,
+      {
+        "answer": "N",
+        "number": 12
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "Y"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "FOAMS",
+          "clue": "Features of beer and sponges",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 1,
+          "length": 5,
+          "answer": "INLET",
+          "clue": "Cove",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "ANAGRAM",
+          "clue": "Plane to Nepal, for instance (wordplay)",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 3,
+          "col": 0,
+          "length": 7,
+          "answer": "NIGERIA",
+          "clue": "West African country",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "INABIND",
+          "clue": "Between a rock and a hard place, say",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 5,
+          "col": 1,
+          "length": 5,
+          "answer": "GIRLS",
+          "clue": "Young ladies",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 6,
+          "col": 2,
+          "length": 3,
+          "answer": "NAY",
+          "clue": "Split",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 6,
+          "answer": "FINING",
+          "clue": "Punishing financially",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "ONAGAIN",
+          "clue": "Back after cancellation",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "answer": "ALGEBRA",
+          "clue": "Symbolic mathematics",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "MERRILY",
+          "clue": "Cheerfully, as one rows a boat",
+          "source": "written"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 5,
+          "length": 6,
+          "answer": "STAINS",
+          "clue": "Laundry woes",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "ANI",
+          "clue": "Black cuckoo",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 2,
+          "col": 6,
+          "length": 3,
+          "answer": "MAD",
+          "clue": "Livid",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

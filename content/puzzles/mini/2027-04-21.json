@@ -1,0 +1,467 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "D",
+        "number": 1
+      },
+      {
+        "answer": "J",
+        "number": 2
+      },
+      {
+        "answer": "S",
+        "number": 3
+      },
+      {
+        "answer": "U",
+        "number": 4
+      },
+      {
+        "answer": "S",
+        "number": 5
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "N",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "L",
+        "number": 7
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "V",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "X"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "DJS",
+          "clue": "VIPs of clubs",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "USEUP",
+          "clue": "Exhaust",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "NOTRE",
+          "clue": "University of ___ Dame",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "LLOYD",
+          "clue": "Composer Andrew ___ Webber",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "VOX",
+          "clue": "Popular news and opinion site",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "DETOX",
+          "clue": "Removal of unhealthy substances from the body, for short",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "JURY",
+          "clue": "Peer group",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "SPED",
+          "clue": "Rushed",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "UNLV",
+          "clue": "Howard Hughes endowed its engineering school",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "SOLO",
+          "clue": "Whist variant",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 7,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "D",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "M",
+        "number": 3
+      },
+      null,
+      null,
+      null,
+      {
+        "answer": "J",
+        "number": 4
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N",
+        "number": 5
+      },
+      null,
+      {
+        "answer": "P",
+        "number": 6
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N",
+        "number": 7
+      },
+      {
+        "answer": "E",
+        "number": 8
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
+      },
+      null,
+      {
+        "answer": "E",
+        "number": 9
+      },
+      {
+        "answer": "X"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "D",
+        "number": 10
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "F",
+        "number": 11
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "D"
+      },
+      null,
+      {
+        "answer": "R",
+        "number": 12
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "N"
+      },
+      null,
+      null,
+      null,
+      {
+        "answer": "D",
+        "number": 13
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "DAM",
+          "clue": "Block up",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 5,
+          "answer": "JAPAN",
+          "clue": "Eastern country",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "PUMPKIN",
+          "clue": "Orange-yellow fruit",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "answer": "ERA",
+          "clue": "Disco ___",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 3,
+          "col": 4,
+          "length": 3,
+          "answer": "EXO",
+          "clue": "Prefix with skeleton",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "DOGFOOD",
+          "clue": "Chow chow chow",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 5,
+          "col": 1,
+          "length": 5,
+          "answer": "RERUN",
+          "clue": "Syndication offering",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 6,
+          "col": 2,
+          "length": 3,
+          "answer": "DOT",
+          "clue": "URL bit",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "DAMAGED",
+          "clue": "Broken",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "answer": "APP",
+          "clue": "___ store",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "MAKEOUT",
+          "clue": "___ session (smooching time)",
+          "source": "written"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 5,
+          "answer": "JUROR",
+          "clue": "One of twelve jugglers missing early trick",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 5,
+          "length": 5,
+          "answer": "NIXON",
+          "clue": "President with nothing doing!",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "PED",
+          "clue": "___ XING: crosswalk sign",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 6,
+          "length": 3,
+          "answer": "NOD",
+          "clue": "Doze",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 3,
+          "length": 3,
+          "answer": "FRO",
+          "clue": "To and -",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

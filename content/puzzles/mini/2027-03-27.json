@@ -1,0 +1,478 @@
+{
+  "payload": {
+    "size": 7,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "O",
+        "number": 2
+      },
+      {
+        "answer": "U",
+        "number": 3
+      },
+      {
+        "answer": "L",
+        "number": 4
+      },
+      null,
+      null,
+      {
+        "answer": "B",
+        "number": 5
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "W",
+        "number": 6
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "O",
+        "number": 8
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "F",
+        "number": 9
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "U",
+        "number": 10
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A",
+        "number": 11
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "P",
+        "number": 12
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "G"
+      },
+      null,
+      null,
+      {
+        "answer": "D",
+        "number": 13
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 4,
+          "answer": "SOUL",
+          "clue": "Heart and ___",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "answer": "BYENOW",
+          "clue": "\"So long!\"",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "SUNRISE",
+          "clue": "Time students must be backed with increase (wordplay)",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "answer": "OLE",
+          "clue": "Corrida cry",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 3,
+          "col": 4,
+          "length": 3,
+          "answer": "FIR",
+          "clue": "Christmas buy",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "UKRAINE",
+          "clue": "Country of eastern Europe",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "answer": "PEGLEG",
+          "clue": "Pirate's prop to fix on stage (wordplay)",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 6,
+          "col": 1,
+          "length": 4,
+          "answer": "DYES",
+          "clue": "Recolors",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "SYNERGY",
+          "clue": "Cooperative interaction",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "answer": "OER",
+          "clue": "Key preposition",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "UNIFIES",
+          "clue": "Brings together as one",
+          "source": "written"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 5,
+          "length": 6,
+          "answer": "LOSING",
+          "clue": "Take cab from log cabins giving someone the slip",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "answer": "BULKED",
+          "clue": "Added muscle, with 'up'",
+          "source": "written"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 6,
+          "length": 4,
+          "answer": "WERE",
+          "clue": "Existed",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 4,
+          "answer": "SOUP",
+          "clue": "Juice (up)",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 3,
+          "length": 3,
+          "answer": "ALE",
+          "clue": "Pub drink",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "O",
+        "number": 2
+      },
+      {
+        "answer": "L",
+        "number": 3
+      },
+      {
+        "answer": "V",
+        "number": 4
+      },
+      {
+        "answer": "E",
+        "number": 5
+      },
+      {
+        "answer": "C",
+        "number": 6
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "I",
+        "number": 7
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "F",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "L"
+      },
+      null,
+      {
+        "answer": "I",
+        "number": 9
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "SOLVE",
+          "clue": "Figure out",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "CLUES",
+          "clue": "72 things in this puzzle",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "IDRIS",
+          "clue": "Elba of \"Cats\"",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "FEEL",
+          "clue": "Use taction",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "IRS",
+          "clue": "Returns org",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "SCIFI",
+          "clue": "'Star Wars' genre",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "OLDER",
+          "clue": "Farther along",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "LURES",
+          "clue": "Tempts",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "VEIL",
+          "clue": "Face covering",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "ESS",
+          "clue": "Road zigzag",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

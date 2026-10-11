@@ -1,0 +1,473 @@
+{
+  "payload": {
+    "size": 7,
+    "cells": [
+      null,
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "E",
+        "number": 2
+      },
+      {
+        "answer": "G",
+        "number": 3
+      },
+      {
+        "answer": "W",
+        "number": 4
+      },
+      {
+        "answer": "A",
+        "number": 5
+      },
+      {
+        "answer": "Y",
+        "number": 6
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "A"
+      },
+      null,
+      {
+        "answer": "P",
+        "number": 8
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "O",
+        "number": 9
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "T"
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 10
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "A",
+        "number": 11
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "B",
+        "number": 12
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "K",
+        "number": 13
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null,
+      {
+        "answer": "G",
+        "number": 14
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "A"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 6,
+          "answer": "SEGWAY",
+          "clue": "Mall cop's ride",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "answer": "ARMADA",
+          "clue": "Fleet",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 2,
+          "col": 1,
+          "length": 6,
+          "answer": "PICKON",
+          "clue": "Bully",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "answer": "OPT",
+          "clue": "Choose",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 3,
+          "col": 4,
+          "length": 3,
+          "answer": "ARK",
+          "clue": "Bible boat",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "AIRBNBS",
+          "clue": "Vacation home rentals, informally",
+          "source": "written"
+        },
+        {
+          "number": 13,
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "answer": "KNEADS",
+          "clue": "Folds and stretches",
+          "source": "dataset"
+        },
+        {
+          "number": 14,
+          "row": 6,
+          "col": 1,
+          "length": 4,
+          "answer": "GAGA",
+          "clue": "Bonkers",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "answer": "SAPPING",
+          "clue": "Gradually draining, as energy",
+          "source": "written"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "ERITREA",
+          "clue": "Asmara's country",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "answer": "GMC",
+          "clue": "Sierra automaker",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "WAKANDA",
+          "clue": "Fictional home of Black Panther",
+          "source": "written"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 5,
+          "length": 6,
+          "answer": "ADORBS",
+          "clue": "'Totes ___!': really cute",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 0,
+          "col": 6,
+          "length": 5,
+          "answer": "YANKS",
+          "clue": "BoSox rivals",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "answer": "OAK",
+          "clue": "Tree",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 4,
+          "col": 3,
+          "length": 3,
+          "answer": "BAG",
+          "clue": "Suitcase",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "H",
+        "number": 2
+      },
+      {
+        "answer": "E",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 4
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "R",
+        "number": 5
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "O",
+        "number": 6
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "C",
+        "number": 7
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "SHE",
+          "clue": "Pronoun",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "STAY",
+          "clue": "Linger",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "RHYME",
+          "clue": "Poetry",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "OILS",
+          "clue": "Rembrandt works",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "CHE",
+          "clue": "Senor Gueverra",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "STYLE",
+          "clue": "Elan",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "HAMS",
+          "clue": "They act badly",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "EYE",
+          "clue": "Look at",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "SHIH",
+          "clue": "___ Tzu",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "ROC",
+          "clue": "Bird of myth",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}
