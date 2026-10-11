@@ -103,6 +103,9 @@
 
 .mini-clue-bar .mini-clue-text {
   flex: 1 1 auto;
+  width: auto;
+  min-width: 0;
+  justify-content: flex-start;
   display: flex;
   align-items: center;
   gap: var(--spacing-brand-2);

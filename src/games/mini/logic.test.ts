@@ -78,6 +78,16 @@ describe("wordCells / clueAt / cluesAt", () => {
     expect(activeDirections(puzzle, 0, 0)).toEqual(["across", "down"]);
     expect(activeDirections(puzzle, 0, 1)).toEqual(["across"]);
   });
+
+  it("cluesAt returns both clues for a cell shared by across and down", () => {
+    const clues = cluesAt(puzzle, 0, 0);
+    expect(clues.across?.answer).toBe("CAT");
+    expect(clues.down?.answer).toBe("CAR");
+  });
+
+  it("cluesAt omits a direction with no entry through the cell", () => {
+    expect(cluesAt(puzzle, 0, 1).down).toBeUndefined();
+  });
 });
 
 describe("resolveTapDirection", () => {
