@@ -184,14 +184,14 @@ describe("getFriendsResults", () => {
   it("is empty until I have finished", async () => {
     setIstDay("2026-10-10");
     await localDataSource.startPlay("demo", "2026-10-10");
-    expect(await localDataSource.getFriendsResults("demo", "2026-10-10")).toEqual([]);
+    expect(await localDataSource.getFriendsResults("demo", "2026-10-10", "g1")).toEqual([]);
   });
 
   it("shows friends once I've finished", async () => {
     setIstDay("2026-10-10");
     await localDataSource.startPlay("demo", "2026-10-10");
     await localDataSource.finishPlay("demo", "2026-10-10", { won: true, state: {}, summary: "w" });
-    const friends = await localDataSource.getFriendsResults("demo", "2026-10-10");
+    const friends = await localDataSource.getFriendsResults("demo", "2026-10-10", "g1");
     expect(friends.length).toBe(2);
     for (const f of friends) {
       expect(["won", "lost"]).toContain(f.status);
@@ -235,5 +235,111 @@ describe("listPlays", () => {
 
     const demoPlays = await localDataSource.listPlays("demo");
     expect(demoPlays.map((p) => p.date)).toEqual(["2026-10-10"]);
+  });
+});
+
+describe("groups", () => {
+  it("seeds one believable group, created by a friend, with fake friends already in it", async () => {
+    const groups = await localDataSource.listMyGroups();
+    expect(groups.length).toBe(1);
+    expect(groups[0]).toMatchObject({ name: "Puzzle Pals", memberCount: 3, isCreator: false });
+    expect(groups[0].inviteCode).toBeTruthy();
+  });
+
+  it("creates a group, up to 3 per creator", async () => {
+    const seed = (await localDataSource.listMyGroups())[0];
+    const g1 = await localDataSource.createGroup("Book Club");
+    const g2 = await localDataSource.createGroup("Quiz Night");
+    const g3 = await localDataSource.createGroup("Trivia");
+    expect(new Set([seed.inviteCode, g1.inviteCode, g2.inviteCode, g3.inviteCode]).size).toBe(4);
+    await expect(localDataSource.createGroup("One Too Many")).rejects.toThrow();
+    const groups = await localDataSource.listMyGroups();
+    expect(groups.length).toBe(4);
+  });
+
+  it("rejects a name outside 1-40 characters", async () => {
+    await expect(localDataSource.createGroup("")).rejects.toThrow();
+    await expect(localDataSource.createGroup("x".repeat(41))).rejects.toThrow();
+  });
+
+  it("joins a group by code and previews one without joining", async () => {
+    const seed = (await localDataSource.listMyGroups())[0];
+    const preview = await localDataSource.previewGroup(seed.inviteCode);
+    expect(preview).toEqual({ id: seed.id, name: seed.name });
+    expect(await localDataSource.previewGroup("not-a-real-code")).toBeNull();
+
+    const created = await localDataSource.createGroup("Other Group");
+    // Simulate joining as if not already a member by removing self first isn't supported locally,
+    // so this just exercises the success path (membership is idempotent either way).
+    const joined = await localDataSource.joinGroup(created.inviteCode);
+    expect(joined.id).toBe(created.id);
+    await expect(localDataSource.joinGroup("not-a-real-code")).rejects.toThrow();
+  });
+
+  it("cannot leave your last group", async () => {
+    const [only] = await localDataSource.listMyGroups();
+    await expect(localDataSource.leaveGroup(only.id)).rejects.toThrow();
+  });
+
+  it("can leave a group that isn't the last one", async () => {
+    const created = await localDataSource.createGroup("Spare Group");
+    await localDataSource.leaveGroup(created.id);
+    const groups = await localDataSource.listMyGroups();
+    expect(groups.find((g) => g.id === created.id)).toBeUndefined();
+  });
+
+  it("a non-creator cannot rename, regenerate the code, or remove a member of someone else's group", async () => {
+    const seed = (await localDataSource.listMyGroups())[0]; // Amal created this one, not me
+    expect(seed.isCreator).toBe(false);
+    await expect(localDataSource.renameGroup(seed.id, "Nope")).rejects.toThrow();
+    await expect(localDataSource.regenerateInviteCode(seed.id)).rejects.toThrow();
+    await expect(localDataSource.removeMember(seed.id, "local-friend-amal")).rejects.toThrow();
+  });
+
+  it("the creator can rename, regenerate the code, or remove a member of their own group", async () => {
+    const created = await localDataSource.createGroup("My Own Group");
+    await localDataSource.renameGroup(created.id, "Renamed");
+    expect((await localDataSource.listMyGroups()).find((g) => g.id === created.id)?.name).toBe(
+      "Renamed",
+    );
+    const newCode = await localDataSource.regenerateInviteCode(created.id);
+    expect(newCode).not.toBe(created.inviteCode);
+  });
+
+  it("refuses to remove yourself via removeMember", async () => {
+    const created = await localDataSource.createGroup("Solo Group");
+    await expect(localDataSource.removeMember(created.id, "local-dev")).rejects.toThrow();
+  });
+
+  it("lists group members, flagging the creator", async () => {
+    const seed = (await localDataSource.listMyGroups())[0];
+    const members = await localDataSource.listGroupMembers(seed.id);
+    expect(members.length).toBe(3);
+    expect(members.find((m) => m.displayName === "Amal")?.isCreator).toBe(true);
+    expect(members.find((m) => m.userId === "local-dev")?.isCreator).toBe(false);
+  });
+});
+
+describe("getLeaderboard", () => {
+  it("returns ranked rows that include the member themself", async () => {
+    const seed = (await localDataSource.listMyGroups())[0];
+    const rows = await localDataSource.getLeaderboard("group", { groupId: seed.id, period: "day" });
+    expect(rows.length).toBeGreaterThan(0);
+    expect(rows.some((r) => r.isMe)).toBe(true);
+    expect(rows).toEqual([...rows].sort((a, b) => b.points - a.points));
+    expect(rows.map((r) => r.rank)).toEqual(rows.map((_, i) => i + 1));
+  });
+
+  it("is deterministic for the same scope/group/period/date", async () => {
+    const seed = (await localDataSource.listMyGroups())[0];
+    const a = await localDataSource.getLeaderboard("group", { groupId: seed.id, period: "day", date: "2026-10-10" });
+    const b = await localDataSource.getLeaderboard("group", { groupId: seed.id, period: "day", date: "2026-10-10" });
+    expect(a).toEqual(b);
+  });
+
+  it("a global board can include more members than one group", async () => {
+    await localDataSource.createGroup("Another Group");
+    const rows = await localDataSource.getLeaderboard("global", { period: "day" });
+    expect(rows.some((r) => r.isMe)).toBe(true);
   });
 });

@@ -5,7 +5,7 @@
 // the frozen `DataSource` interface.
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 import type { Database } from "../../../supabase/types";
-import type { DataSource, FinaleMessage, Play, PlayStatus } from "./types";
+import type { DataSource, FinaleMessage, Group, GroupMember, LeaderboardRow, Play, PlayStatus } from "./types";
 
 // Created lazily, not at module load: this module is imported unconditionally by
 // src/lib/data/index.ts (so the `local` adapter's import graph includes it too), and every game
@@ -53,8 +53,26 @@ export function friendlyError(error: { message: string; code?: string }): Error 
   if (/profiles_display_name_check/.test(msg)) {
     return new Error("Name must be between 1 and 30 characters.");
   }
+  if (/groups_name_check/.test(msg)) {
+    return new Error("Name must be between 1 and 40 characters.");
+  }
   if (/cannot switch to the reserve puzzle/.test(msg)) {
     return new Error("You can only switch to the reserve puzzle before your first move.");
+  }
+  if (/you can create at most 3 groups/.test(msg)) {
+    return new Error("You can create at most 3 groups.");
+  }
+  if (/only the creator can/.test(msg)) {
+    return new Error("Only the group's creator can do that.");
+  }
+  if (/use leave_group to remove yourself/.test(msg)) {
+    return new Error('Use "Leave group" instead of removing yourself.');
+  }
+  if (/cannot leave your last group/.test(msg)) {
+    return new Error("You can't leave your last group.");
+  }
+  if (/not a member of this group/.test(msg)) {
+    return new Error("You're not a member of that group.");
   }
   if (/not signed in|members only/.test(msg)) {
     return new Error("Sign in and join to play.");
@@ -200,9 +218,14 @@ export const supabaseDataSource: DataSource = {
   async getFriendsResults(
     gameId: string,
     date: string,
+    groupId: string,
   ): Promise<{ name: string; status: PlayStatus; summary: string; score?: number }[]> {
     const db = getSupabaseClient();
-    const { data, error } = await db.rpc("friends_results", { p_game: gameId, p_date: date });
+    const { data, error } = await db.rpc("friends_results", {
+      p_game: gameId,
+      p_group_id: groupId,
+      p_date: date,
+    });
     if (error) throw friendlyError(error);
     return (data ?? []).map((row) => ({
       name: row.display_name,
@@ -240,5 +263,106 @@ export const supabaseDataSource: DataSource = {
       .maybeSingle();
     if (error) throw friendlyError(error);
     return data ? (data.content as FinaleMessage) : null;
+  },
+
+  async listMyGroups(): Promise<Group[]> {
+    const db = getSupabaseClient();
+    const { data, error } = await db.rpc("my_groups");
+    if (error) throw friendlyError(error);
+    return (data ?? []).map((row) => ({
+      id: row.id,
+      name: row.name,
+      inviteCode: row.invite_code,
+      memberCount: row.member_count,
+      isCreator: row.is_creator,
+    }));
+  },
+
+  async createGroup(name: string): Promise<{ id: string; inviteCode: string }> {
+    const db = getSupabaseClient();
+    const { data, error } = await db.rpc("create_group", { name });
+    if (error) throw friendlyError(error);
+    const row = data?.[0];
+    if (!row) throw new Error("Something went wrong. Please try again.");
+    return { id: row.id, inviteCode: row.invite_code };
+  },
+
+  async joinGroup(code: string): Promise<{ id: string; name: string }> {
+    const db = getSupabaseClient();
+    // join_with_invite's `name` only becomes the profile's display name the first time a profile
+    // is created; this placeholder is never stored for a call made by an existing member, which is
+    // the only way the UI calls joinGroup (the very first join goes through useAuth().joinWithInvite,
+    // which collects the real name on the Join form).
+    const { data, error } = await db.rpc("join_with_invite", { code, name: "Member" });
+    if (error) throw friendlyError(error);
+    const row = data?.[0];
+    if (!row) throw new Error("That invite code isn't right.");
+    return { id: row.group_id, name: row.group_name };
+  },
+
+  async previewGroup(code: string): Promise<{ id: string; name: string } | null> {
+    const db = getSupabaseClient();
+    const { data, error } = await db.rpc("group_preview", { code });
+    if (error) throw friendlyError(error);
+    const row = data?.[0];
+    return row ? { id: row.id, name: row.name } : null;
+  },
+
+  async leaveGroup(groupId: string): Promise<void> {
+    const db = getSupabaseClient();
+    const { error } = await db.rpc("leave_group", { p_group_id: groupId });
+    if (error) throw friendlyError(error);
+  },
+
+  async renameGroup(groupId: string, name: string): Promise<void> {
+    const db = getSupabaseClient();
+    const { error } = await db.rpc("rename_group", { p_group_id: groupId, p_name: name });
+    if (error) throw friendlyError(error);
+  },
+
+  async regenerateInviteCode(groupId: string): Promise<string> {
+    const db = getSupabaseClient();
+    const { data, error } = await db.rpc("regenerate_invite_code", { p_group_id: groupId });
+    if (error) throw friendlyError(error);
+    return data as string;
+  },
+
+  async listGroupMembers(groupId: string): Promise<GroupMember[]> {
+    const db = getSupabaseClient();
+    const { data, error } = await db.rpc("list_group_members", { p_group_id: groupId });
+    if (error) throw friendlyError(error);
+    return (data ?? []).map((row) => ({
+      userId: row.user_id,
+      displayName: row.display_name,
+      isCreator: row.is_creator,
+    }));
+  },
+
+  async removeMember(groupId: string, userId: string): Promise<void> {
+    const db = getSupabaseClient();
+    const { error } = await db.rpc("remove_member", { p_group_id: groupId, p_user_id: userId });
+    if (error) throw friendlyError(error);
+  },
+
+  async getLeaderboard(
+    scope: "group" | "global",
+    opts: { groupId?: string; period: "day" | "week"; date?: string },
+  ): Promise<LeaderboardRow[]> {
+    const db = getSupabaseClient();
+    const { data, error } = await db.rpc("leaderboard", {
+      p_scope: scope,
+      p_group_id: opts.groupId ?? null,
+      p_period: opts.period,
+      p_date: opts.date ?? null,
+    });
+    if (error) throw friendlyError(error);
+    return (data ?? []).map((row) => ({
+      rank: row.rank,
+      displayName: row.display_name,
+      points: row.points,
+      wins: row.wins,
+      gamesPlayed: row.games_played,
+      isMe: row.is_me,
+    }));
   },
 };

@@ -106,6 +106,13 @@ export interface Play<S = unknown> {
   gameId: string; date: string; variant: "main" | "reserve";
   status: PlayStatus; state: S; summary?: string; score?: number;
 }
+export interface Group {
+  id: string; name: string; inviteCode: string; memberCount: number; isCreator: boolean;
+}
+export interface GroupMember { userId: string; displayName: string; isCreator: boolean; }
+export interface LeaderboardRow {
+  rank: number; displayName: string; points: number; wins: number; gamesPlayed: number; isMe: boolean;
+}
 export interface DataSource {
   getPuzzle<T>(gameId: string, date: string): Promise<{ main: T; reserve?: T } | null>; // null = missing or not released
   getPlay<S>(gameId: string, date: string): Promise<Play<S> | null>;
@@ -113,10 +120,27 @@ export interface DataSource {
   savePlay<S>(gameId: string, date: string, patch: Partial<Pick<Play<S>, "state" | "variant">>): Promise<void>;
   finishPlay(gameId: string, date: string, result: { won: boolean; state: unknown; summary: string; score?: number }): Promise<void>;
   getStats(): Promise<Record<string, { played: number; won: number; currentStreak: number; maxStreak: number }>>;
-  getFriendsResults(gameId: string, date: string): Promise<{ name: string; status: PlayStatus; summary: string; score?: number }[]>;
+  getFriendsResults(gameId: string, date: string, groupId: string): Promise<{ name: string; status: PlayStatus; summary: string; score?: number }[]>;
   listPlays(gameId: string): Promise<{ date: string; status: PlayStatus; score?: number }[]>;
+  listMyGroups(): Promise<Group[]>;
+  createGroup(name: string): Promise<{ id: string; inviteCode: string }>;
+  joinGroup(code: string): Promise<{ id: string; name: string }>;
+  previewGroup(code: string): Promise<{ id: string; name: string } | null>;
+  leaveGroup(groupId: string): Promise<void>;
+  renameGroup(groupId: string, name: string): Promise<void>;
+  regenerateInviteCode(groupId: string): Promise<string>;
+  listGroupMembers(groupId: string): Promise<GroupMember[]>;
+  removeMember(groupId: string, userId: string): Promise<void>;
+  getLeaderboard(scope: "group" | "global", opts: { groupId?: string; period: "day" | "week"; date?: string }): Promise<LeaderboardRow[]>;
 }
 ```
+A member can belong to several friend groups (up to 3 created per person); every board/leaderboard
+call is scoped to one group via `groupId`, except `getLeaderboard("global", ...)`, which ranks every
+member regardless of group. `src/lib/groups.ts`'s `useActiveGroup` tracks which group is "active"
+(remembered per user in localStorage) — `FriendsBoard` reads it internally, so games never see a
+`groupId` prop. See `supabase/migrations/0004_groups.sql` for the full rules (points, streak bonuses,
+the Sunday–Saturday week, creator-only actions).
+
 Hooks wrap this. A game uses only:
 - `usePuzzle<T>(id)` → `{ date, puzzle, status: "loading" | "ready" | "missing" }` (respects the play's
   variant, and — via `?day=` — an archive day; see "Game contract")

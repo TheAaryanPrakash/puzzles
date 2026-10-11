@@ -269,9 +269,142 @@ describe("getFriendsResults", () => {
       ],
       error: null,
     });
-    expect(await ds.getFriendsResults("wordle", "2026-10-10")).toEqual([
+    expect(await ds.getFriendsResults("wordle", "2026-10-10", "g1")).toEqual([
       { name: "Amal", status: "won", summary: "🟩🟩🟩🟩🟩", score: 3 },
       { name: "Riya", status: "lost", summary: "", score: undefined },
+    ]);
+  });
+});
+
+describe("groups errors", () => {
+  it("maps the 3-group creation limit", () => {
+    expect(friendlyError({ message: "you can create at most 3 groups" }).message).toBe(
+      "You can create at most 3 groups.",
+    );
+  });
+
+  it("maps a creator-only action", () => {
+    expect(friendlyError({ message: "only the creator can rename this group" }).message).toBe(
+      "Only the group's creator can do that.",
+    );
+  });
+
+  it("maps trying to leave your last group", () => {
+    expect(friendlyError({ message: "cannot leave your last group" }).message).toBe(
+      "You can't leave your last group.",
+    );
+  });
+
+  it("maps a group name constraint violation", () => {
+    expect(
+      friendlyError({ message: 'new row violates check constraint "groups_name_check"' }).message,
+    ).toBe("Name must be between 1 and 40 characters.");
+  });
+});
+
+describe("listMyGroups", () => {
+  it("maps RPC rows to camelCase groups", async () => {
+    const ds = await withClient([], {
+      data: [
+        { id: "g1", name: "Puzzle Pals", invite_code: "amber-otter-01", member_count: 3, is_creator: true },
+      ],
+      error: null,
+    });
+    expect(await ds.listMyGroups()).toEqual([
+      { id: "g1", name: "Puzzle Pals", inviteCode: "amber-otter-01", memberCount: 3, isCreator: true },
+    ]);
+  });
+});
+
+describe("createGroup", () => {
+  it("returns the new group's id and invite code", async () => {
+    const ds = await withClient([], { data: [{ id: "g2", invite_code: "calm-maple-07" }], error: null });
+    expect(await ds.createGroup("Book Club")).toEqual({ id: "g2", inviteCode: "calm-maple-07" });
+  });
+
+  it("maps the creation limit to a friendly error", async () => {
+    const ds = await withClient([], { data: null, error: { message: "you can create at most 3 groups" } });
+    await expect(ds.createGroup("One Too Many")).rejects.toThrow("You can create at most 3 groups.");
+  });
+});
+
+describe("joinGroup", () => {
+  it("returns the joined group's id and name", async () => {
+    const ds = await withClient([], {
+      data: [{ group_id: "g1", group_name: "Puzzle Pals" }],
+      error: null,
+    });
+    expect(await ds.joinGroup("amber-otter-01")).toEqual({ id: "g1", name: "Puzzle Pals" });
+  });
+
+  it("maps an invalid code", async () => {
+    const ds = await withClient([], { data: null, error: { message: "invalid invite code" } });
+    await expect(ds.joinGroup("nope")).rejects.toThrow("That invite code isn't right.");
+  });
+});
+
+describe("previewGroup", () => {
+  it("returns the group's name without joining", async () => {
+    const ds = await withClient([], { data: [{ id: "g1", name: "Puzzle Pals" }], error: null });
+    expect(await ds.previewGroup("amber-otter-01")).toEqual({ id: "g1", name: "Puzzle Pals" });
+  });
+
+  it("returns null when the code doesn't resolve", async () => {
+    const ds = await withClient([], { data: [], error: null });
+    expect(await ds.previewGroup("nope")).toBeNull();
+  });
+});
+
+describe("leaveGroup / renameGroup / regenerateInviteCode / removeMember", () => {
+  it("leaveGroup maps 'last group' to a friendly error", async () => {
+    const ds = await withClient([], { data: null, error: { message: "cannot leave your last group" } });
+    await expect(ds.leaveGroup("g1")).rejects.toThrow("You can't leave your last group.");
+  });
+
+  it("renameGroup resolves on success", async () => {
+    const ds = await withClient([], { data: null, error: null });
+    await expect(ds.renameGroup("g1", "New Name")).resolves.toBeUndefined();
+  });
+
+  it("regenerateInviteCode returns the new code", async () => {
+    const ds = await withClient([], { data: "dusty-willow-42", error: null });
+    expect(await ds.regenerateInviteCode("g1")).toBe("dusty-willow-42");
+  });
+
+  it("removeMember maps a non-creator attempt", async () => {
+    const ds = await withClient([], { data: null, error: { message: "only the creator can remove members" } });
+    await expect(ds.removeMember("g1", "u2")).rejects.toThrow("Only the group's creator can do that.");
+  });
+});
+
+describe("listGroupMembers", () => {
+  it("maps rows to camelCase members", async () => {
+    const ds = await withClient([], {
+      data: [
+        { user_id: "u1", display_name: "Sansita", joined_at: "x", is_creator: true },
+        { user_id: "u2", display_name: "Amal", joined_at: "y", is_creator: false },
+      ],
+      error: null,
+    });
+    expect(await ds.listGroupMembers("g1")).toEqual([
+      { userId: "u1", displayName: "Sansita", isCreator: true },
+      { userId: "u2", displayName: "Amal", isCreator: false },
+    ]);
+  });
+});
+
+describe("getLeaderboard", () => {
+  it("maps RPC rows to camelCase leaderboard entries", async () => {
+    const ds = await withClient([], {
+      data: [
+        { rank: 1, display_name: "Sansita", points: 5, wins: 3, games_played: 3, is_me: true },
+        { rank: 2, display_name: "Amal", points: 2, wins: 1, games_played: 2, is_me: false },
+      ],
+      error: null,
+    });
+    expect(await ds.getLeaderboard("group", { groupId: "g1", period: "day" })).toEqual([
+      { rank: 1, displayName: "Sansita", points: 5, wins: 3, gamesPlayed: 3, isMe: true },
+      { rank: 2, displayName: "Amal", points: 2, wins: 1, gamesPlayed: 2, isMe: false },
     ]);
   });
 });
