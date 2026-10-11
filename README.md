@@ -1,10 +1,8 @@
-# Sansita's Puzzles
+# Puzzles
 
 A private, invite-only daily puzzle site. Fourteen original browser puzzle games, one new puzzle
 per game per day, shared by a small group of friends who sign in with Google and join by invite
 code. Streaks, a shareable spoiler-free result, friend groups, and group/global leaderboards.
-
-Live at [sansitalovespuzzles.xyz](https://www.sansitalovespuzzles.xyz).
 
 ## Features
 
