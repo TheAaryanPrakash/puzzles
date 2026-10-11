@@ -1,0 +1,42 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - link "Back to hub" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - text: ←
+    - heading "Spelling Bee" [level=1] [ref=e6]
+    - generic [ref=e7]:
+      - button "Archive" [ref=e8]: 🗓️
+      - button "How to play" [ref=e9]: ❓
+  - main [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - generic [ref=e15]: Beginner
+          - generic [ref=e16]: 1 pts
+        - progressbar "Rank progress" [ref=e17]
+        - paragraph [ref=e27]: 3 points to Good Start
+      - status [ref=e28]
+      - generic [ref=e29]:
+        - generic [ref=e58]: A
+        - generic [ref=e59]: R
+        - generic [ref=e60]: E
+        - generic [ref=e61]: A
+      - group "Letter hive" [ref=e31]:
+        - button "Letter O (center, required in every word)" [ref=e51] [cursor=pointer]: O
+        - button "Letter E" [ref=e33] [cursor=pointer]: E
+        - button "Letter A" [active] [ref=e34] [cursor=pointer]: A
+        - button "Letter R" [ref=e35] [cursor=pointer]: R
+        - button "Letter D" [ref=e36] [cursor=pointer]: D
+        - button "Letter M" [ref=e37] [cursor=pointer]: M
+        - button "Letter J" [ref=e38] [cursor=pointer]: J
+      - generic [ref=e39]:
+        - button "Delete" [ref=e40]
+        - button "Shuffle letters" [ref=e41]: 🔀 Shuffle
+        - button "Enter" [ref=e42]
+      - button "Finish for today" [ref=e43]
+      - generic [ref=e52]:
+        - paragraph [ref=e53]: 1 word found
+        - list "Found words" [ref=e54]:
+          - listitem [ref=e55]:
+            - generic [ref=e56]: DOOR
+            - generic [ref=e57]: "1"

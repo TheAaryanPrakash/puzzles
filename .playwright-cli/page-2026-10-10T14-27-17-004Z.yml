@@ -1,0 +1,42 @@
+- generic [ref=f6e3]:
+  - banner [ref=f6e4]:
+    - link "Back to hub" [ref=f6e5] [cursor=pointer]:
+      - /url: /
+      - text: ←
+    - heading "Spelling Bee" [level=1] [ref=f6e6]
+    - generic [ref=f6e7]:
+      - button "Archive" [ref=f6e8]: 🗓️
+      - button "How to play" [ref=f6e9]: ❓
+  - generic [ref=f6e10]:
+    - generic [ref=f6e11]: "Puzzle #2 · Oct 18, 2026"
+    - generic [aria-hidden] [ref=f6e12]: ·
+    - link "Back to today" [ref=f6e13] [cursor=pointer]:
+      - /url: /bee?date=2026-10-19
+  - main [ref=f6e14]:
+    - generic [ref=f6e15]:
+      - generic [ref=f6e17]:
+        - generic [ref=f6e18]:
+          - generic [ref=f6e19]: Beginner
+          - generic [ref=f6e20]: 1 pts
+        - progressbar "Rank progress" [ref=f6e21]
+        - paragraph [ref=f6e31]: 1 point to Good Start
+      - status [ref=f6e32]: Nice!
+      - group "Letter hive" [ref=f6e35]:
+        - button "Letter T (center, required in every word)" [ref=f6e51] [cursor=pointer]: T
+        - button "Letter E" [ref=f6e37] [cursor=pointer]: E
+        - button "Letter Y" [ref=f6e38] [cursor=pointer]: "Y"
+        - button "Letter N" [ref=f6e39] [cursor=pointer]: "N"
+        - button "Letter H" [ref=f6e40] [cursor=pointer]: H
+        - button "Letter U" [ref=f6e41] [cursor=pointer]: U
+        - button "Letter C" [ref=f6e42] [cursor=pointer]: C
+      - generic [ref=f6e43]:
+        - button "Delete" [disabled] [ref=f6e44]
+        - button "Shuffle letters" [ref=f6e45]: 🔀 Shuffle
+        - button "Enter" [disabled] [ref=f6e46]
+      - button "Finish for today" [ref=f6e47]
+      - generic [ref=f6e52]:
+        - paragraph [ref=f6e53]: 1 word found
+        - list "Found words" [ref=f6e54]:
+          - listitem [ref=f6e55]:
+            - generic [ref=f6e56]: CENT
+            - generic [ref=f6e57]: "1"

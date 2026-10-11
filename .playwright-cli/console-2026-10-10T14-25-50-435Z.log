@@ -1,0 +1,5 @@
+[     105ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5203/node_modules/.vite/deps/react-dom_client.js?v=22a18c5d:15804
+[    4478ms] Error: this puzzle has already been played
+    at Object.savePlay (http://localhost:5203/src/lib/data/local.ts:110:48)
+    at http://localhost:5203/src/lib/hooks.ts:78:30
+[   43671ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5203/@vite/client:1082

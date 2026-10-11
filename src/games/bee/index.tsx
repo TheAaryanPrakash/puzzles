@@ -67,6 +67,9 @@ export default function BeeGame() {
   const [resultOpen, setResultOpen] = useState(false);
   const messageTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const finishingRef = useRef(false);
+  // Which date's "was this already in progress from a prior session" check has run — a `save()`
+  // during this session updates `play` optimistically, which must NOT retrigger the check below.
+  const autoFinishCheckedForRef = useRef<string | null>(null);
 
   useEffect(() => {
     if (puzzle) setOuterOrder(initialOuterOrder(puzzle, date));
@@ -102,16 +105,21 @@ export default function BeeGame() {
   }
 
   // An earlier day's puzzle left in progress auto-finishes the moment it's reopened, so one
-  // calendar day never bleeds indefinitely into the next (see RESEARCH.md "Completion").
+  // calendar day never bleeds indefinitely into the next (see RESEARCH.md "Completion"). Runs
+  // exactly once per date, right after that date's play has finished loading — NOT on every
+  // `play` update, since `save()` below updates `play` optimistically while actively playing an
+  // archive day in this same session, and that must never retrigger this check.
   // `todayKey()` here only detects "is this a past day" — never which puzzle to show, which
   // always comes from `usePuzzle`'s own `date`.
   useEffect(() => {
-    if (status !== "ready" || !puzzle || !play) return;
-    if (play.status === "in_progress" && date < todayKey()) {
+    if (status !== "ready" || !puzzle || loading) return;
+    if (autoFinishCheckedForRef.current === date) return;
+    autoFinishCheckedForRef.current = date;
+    if (play && play.status === "in_progress" && date < todayKey()) {
       void doFinish((play.state as Partial<BeeState> | undefined)?.found ?? [], puzzle);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [status, puzzle, play, date]);
+  }, [status, puzzle, loading, date, play]);
 
   useEffect(() => {
     function onPhysicalKey(e: KeyboardEvent) {
