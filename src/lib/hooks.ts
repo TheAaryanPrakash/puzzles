@@ -11,6 +11,13 @@ export type PuzzleStatus = "loading" | "ready" | "missing";
 export interface UsePuzzleResult<T> {
   date: string;
   puzzle: T | null;
+  /**
+   * The reserve payload, if this game has one for the day, regardless of the play's current
+   * variant. Lets a game switch to it the instant `start("reserve")`/`save({ variant: "reserve" })`
+   * resolves, without waiting for this hook to refetch — see `puzzle`'s resolution below for why
+   * that refetch doesn't happen automatically.
+   */
+  reserve: T | null;
   status: PuzzleStatus;
 }
 
@@ -18,16 +25,23 @@ export interface UsePuzzleResult<T> {
  * Loads today's puzzle — or, with `?day=` in the URL, that archive day's — respecting the play's
  * variant if one has been started. A game should never call `todayKey()` itself for this: always
  * use the `date` this hook returns, so GameLayout's Archive picker works with no game-side code.
+ *
+ * `puzzle` resolves the variant once, from whichever play exists when this effect first runs —
+ * it does not react to a later `start("reserve")`/`save({ variant: "reserve" })` on the same
+ * mount (that would need this hook to depend on `play`, which it does not fetch reactively). A
+ * game that offers "skip to reserve" should use `reserve` directly once its own `play.variant`
+ * becomes `"reserve"`, instead of relying on `puzzle` to update.
  */
 export function usePuzzle<T>(gameId: string, date: string = resolvePuzzleDate()): UsePuzzleResult<T> {
-  const [state, setState] = useState<{ status: PuzzleStatus; puzzle: T | null }>({
+  const [state, setState] = useState<{ status: PuzzleStatus; puzzle: T | null; reserve: T | null }>({
     status: "loading",
     puzzle: null,
+    reserve: null,
   });
 
   useEffect(() => {
     let cancelled = false;
-    setState({ status: "loading", puzzle: null });
+    setState({ status: "loading", puzzle: null, reserve: null });
 
     void (async () => {
       const [puzzles, play] = await Promise.all([
@@ -36,13 +50,13 @@ export function usePuzzle<T>(gameId: string, date: string = resolvePuzzleDate())
       ]);
       if (cancelled) return;
       if (!puzzles) {
-        setState({ status: "missing", puzzle: null });
+        setState({ status: "missing", puzzle: null, reserve: null });
         return;
       }
+      const reserve = puzzles.reserve ?? null;
       const wantsReserve = play?.variant === "reserve";
-      const puzzle =
-        wantsReserve && puzzles.reserve !== undefined ? puzzles.reserve : puzzles.main;
-      setState({ status: "ready", puzzle });
+      const puzzle = wantsReserve && reserve !== null ? reserve : puzzles.main;
+      setState({ status: "ready", puzzle, reserve });
     })();
 
     return () => {
@@ -50,7 +64,7 @@ export function usePuzzle<T>(gameId: string, date: string = resolvePuzzleDate())
     };
   }, [gameId, date]);
 
-  return { date, puzzle: state.puzzle, status: state.status };
+  return { date, puzzle: state.puzzle, reserve: state.reserve, status: state.status };
 }
 
 export interface UsePlayResult<S> {

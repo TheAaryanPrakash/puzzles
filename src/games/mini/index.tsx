@@ -45,8 +45,9 @@ function firstCursor(puzzle: MiniPuzzle): Cursor {
 }
 
 export default function MiniGame() {
-  const { date, puzzle, status } = usePuzzle<MiniPuzzle>(meta.id);
+  const { date, puzzle, reserve, status } = usePuzzle<MiniPuzzle>(meta.id);
   const { play, loading, start, save, finish } = usePlay<MiniState>(meta.id, date);
+  const activePuzzle = play?.variant === "reserve" && reserve ? reserve : puzzle;
 
   const [cursor, setCursor] = useState<Cursor>({ row: 0, col: 0, direction: "across" });
   // Optimistic, synchronous source of truth for the grid while typing: `play.state.letters`
@@ -67,12 +68,13 @@ export default function MiniGame() {
   // `play === null` before the first start() resolves, so they share one in-flight promise.
   const startPromiseRef = useRef<Promise<unknown> | null>(null);
 
-  // Reset to the puzzle's first entry whenever the viewed day changes (new puzzle object).
+  // Reset to the puzzle's first entry whenever the viewed day changes (new puzzle object), or
+  // the play switches to the reserve puzzle.
   useEffect(() => {
-    if (puzzle) setCursor(firstCursor(puzzle));
+    if (activePuzzle) setCursor(firstCursor(activePuzzle));
     setLocalLetters(null);
     startPromiseRef.current = null;
-  }, [puzzle, date]);
+  }, [activePuzzle, date]);
 
   const over = play ? play.status !== "in_progress" : false;
 
@@ -110,8 +112,10 @@ export default function MiniGame() {
       </GameLayout>
     );
   }
+  // `puzzle` is non-null past the guard above, and the ternary above only ever substitutes a
+  // truthy `reserve`, so `activePuzzle` is non-null here too — this re-narrows it for TypeScript.
+  if (!activePuzzle) return null;
 
-  const activePuzzle = puzzle;
   // See logic.ts's DEFAULT_STATE comment: merge, don't `??`, so the moment right after start()
   // (state === {}) doesn't crash the render.
   const state: MiniState = { ...DEFAULT_STATE, ...play?.state };
@@ -238,9 +242,6 @@ export default function MiniGame() {
 
   async function handleSkipToReserve() {
     await start("reserve");
-    // usePuzzle resolves the reserve puzzle from the play's variant on mount, so a reload is the
-    // simplest way to pick it up — see HANDOFF.md "Shared changes requested".
-    window.location.reload();
   }
 
   const summary = buildSummary(activePuzzle, puzzleNumber, state.elapsed, state.revealed);

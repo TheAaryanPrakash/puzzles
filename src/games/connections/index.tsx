@@ -39,7 +39,7 @@ const TOAST_MS = 1600;
 const SHAKE_MS = 400;
 
 export default function ConnectionsGame() {
-  const { date, puzzle, status } = usePuzzle<ConnectionsPuzzle>(meta.id);
+  const { date, puzzle, reserve, status } = usePuzzle<ConnectionsPuzzle>(meta.id);
   const { play, loading, start, save, finish } = usePlay<ConnectionsState>(meta.id, date);
   const reduceMotion = Boolean(useReducedMotion());
 
@@ -64,7 +64,9 @@ export default function ConnectionsGame() {
     );
   }
 
-  const activePuzzle = puzzle;
+  // `usePuzzle`'s own `puzzle` only resolves the variant once, at mount — see its doc comment —
+  // so "Skip" (below) switches boards immediately by reading `reserve` directly off `play.variant`.
+  const activePuzzle = play?.variant === "reserve" && reserve ? reserve : puzzle;
   // See logic.ts DEFAULT_STATE: merge, don't `??`, so the {} window right after start() doesn't crash.
   const state: ConnectionsState = { ...DEFAULT_STATE, ...play?.state };
   const order = effectiveOrder(state, activePuzzle, date);

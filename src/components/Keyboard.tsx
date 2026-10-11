@@ -59,9 +59,9 @@ export function Keyboard({
   }, [onKey, disabled, physicalKeys]);
 
   return (
-    <div className="flex flex-col items-center gap-1.5" role="group" aria-label="Keyboard">
+    <div className="flex w-full max-w-md flex-col items-center gap-1.5" role="group" aria-label="Keyboard">
       {layout.map((row, i) => (
-        <div key={i} className="flex gap-1.5">
+        <div key={i} className="flex w-full gap-1 sm:gap-1.5">
           {row.map((key) => {
             const state = keyStates?.[key];
             const wide = key === "Enter" || key === "Backspace";
@@ -72,7 +72,8 @@ export function Keyboard({
                 disabled={disabled}
                 onClick={() => onKey(key)}
                 aria-label={key}
-                className={`flex h-12 min-w-9 touch-manipulation items-center justify-center rounded-brand-sm font-brand text-sm font-semibold uppercase transition-[background-color,transform] duration-brand-fast active:scale-95 disabled:opacity-60 ${wide ? "px-3" : "w-9"} ${STATE_CLASSES[primaryState(state)]}`}
+                style={{ WebkitTapHighlightColor: "transparent" }}
+                className={`flex h-12 max-w-14 touch-manipulation items-center justify-center rounded-brand-sm px-0.5 font-brand text-sm font-semibold uppercase transition-[background-color,transform] duration-brand-fast active:scale-95 disabled:opacity-60 ${wide ? "flex-[1.6]" : "flex-1"} ${STATE_CLASSES[primaryState(state)]}`}
               >
                 {renderKey ? renderKey(key, state) : key === "Backspace" ? "⌫" : key}
               </button>
