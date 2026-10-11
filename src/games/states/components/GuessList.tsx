@@ -36,7 +36,11 @@ export function GuessList({ guesses }: GuessListProps) {
               {!g.correct && (
                 <>
                   <span>{g.distanceKm.toLocaleString()} km</span>
-                  <span aria-hidden className="text-base">
+                  <span
+                    aria-hidden
+                    className="flex h-6 w-6 items-center justify-center rounded-full text-sm"
+                    style={{ backgroundColor: "var(--states-indigo)", color: "var(--states-indigo-fg)" }}
+                  >
                     {g.arrow}
                   </span>
                 </>
