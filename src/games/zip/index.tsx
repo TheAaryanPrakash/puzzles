@@ -49,9 +49,43 @@ export default function ZipGame() {
   const isFinished = play?.status === "won" || play?.status === "lost";
   const puzzleNumber = dayIndex(date) + 1;
 
+  // Same staleness problem as the ticker above, for the same reason: path-mutating handlers are
+  // called from a window-level keydown listener (and, via ZipGrid, from pointer events outside
+  // React's own render cycle) that can fire more than once before React re-renders in between —
+  // e.g. two arrow-key presses in quick succession. A handler that closes over `state.path`
+  // directly would compute both moves from the same pre-first-move path, so the second move's
+  // "last cell" is wrong — observed as the path appearing to retract instead of extend. Reading
+  // through a ref kept current every render fixes it: each call always sees the latest path.
+  const stateRef = useRef(state);
+  stateRef.current = state;
+
+  // `commitPath` must never read `play` from its own closure: the window-level keydown listener
+  // below is registered by an effect keyed on [puzzle, isFinished, helpOpen, resultOpen] — none of
+  // which change the instant `play` itself first loads (isFinished is false both when play is null
+  // and when it's a fresh in-progress row), so that effect does not re-run then, and onKeyDown goes
+  // on calling the stale commitPath closed over from the very first render, where play was still
+  // null. That stale closure's `if (!play)` stays permanently true, so every arrow-key move tries
+  // to start() a play that already exists — the server rejects the duplicate insert, the throwing
+  // await never reaches save() below it, and the move is silently dropped forever. Reading through
+  // a ref sidesteps the whole problem: correctness no longer depends on the effect's timing.
+  const playRef = useRef(play);
+  playRef.current = play;
+
+  // Dedupes concurrent "first move" start() calls (same pattern as mini/index.tsx's
+  // startPromiseRef): several moves fired in quick succession — e.g. two arrow-key presses, or a
+  // fast drag across cells — can each see `play === null` before the first start() resolves. Each
+  // would otherwise call start() independently, and the second insert hits the plays table's
+  // primary key, throwing "You've already played this one." — an unhandled rejection that silently
+  // drops that move's save() (never reached, since it's after the throwing await). Sharing one
+  // in-flight promise fixes it: only the first caller starts the play, everyone else awaits it.
+  const startPromiseRef = useRef<Promise<unknown> | null>(null);
+  useEffect(() => {
+    startPromiseRef.current = null;
+  }, [puzzle, date]);
+
   tickRef.current = () => {
     if (!play || play.status !== "in_progress") return;
-    save({ state: { path: state.path, elapsed: state.elapsed + 1 } });
+    save({ state: { path: stateRef.current.path, elapsed: stateRef.current.elapsed + 1 } });
   };
 
   useEffect(() => {
@@ -64,29 +98,33 @@ export default function ZipGame() {
   }, [play?.status]);
 
   async function commitPath(puzzle: ZipPuzzle, next: Cell[]) {
-    if (!play) await start();
-    const nextState: ZipState = { path: next, elapsed: state.elapsed };
+    if (!playRef.current) {
+      if (!startPromiseRef.current) startPromiseRef.current = start();
+      await startPromiseRef.current;
+    }
+    const nextState: ZipState = { path: next, elapsed: stateRef.current.elapsed };
     save({ state: nextState });
     if (isSolved(puzzle, next)) {
-      await finish({ won: true, state: nextState, summary: buildSummary(puzzleNumber, state.elapsed) });
+      if (startPromiseRef.current) await startPromiseRef.current;
+      await finish({ won: true, state: nextState, summary: buildSummary(puzzleNumber, stateRef.current.elapsed) });
       setResultOpen(true);
     }
   }
 
   function handleInteract(activePuzzle: ZipPuzzle, cell: Cell) {
     if (isFinished) return;
-    const next = applyCellInteraction(activePuzzle, state.path, cell);
-    if (next === state.path) return;
+    const next = applyCellInteraction(activePuzzle, stateRef.current.path, cell);
+    if (next === stateRef.current.path) return;
     void commitPath(activePuzzle, next);
   }
 
   function handleUndo(activePuzzle: ZipPuzzle) {
-    if (isFinished || state.path.length === 0) return;
-    void commitPath(activePuzzle, undo(state.path));
+    if (isFinished || stateRef.current.path.length === 0) return;
+    void commitPath(activePuzzle, undo(stateRef.current.path));
   }
 
   function handleClear(activePuzzle: ZipPuzzle) {
-    if (isFinished || state.path.length === 0) return;
+    if (isFinished || stateRef.current.path.length === 0) return;
     void commitPath(activePuzzle, clearPath());
   }
 
@@ -101,14 +139,17 @@ export default function ZipGame() {
       const direction = ARROW_DIRECTIONS[e.key];
       if (!direction) return;
       e.preventDefault();
-      const next = moveInDirection(puzzle!, state.path, direction);
-      if (next === state.path) return;
+      const next = moveInDirection(puzzle!, stateRef.current.path, direction);
+      if (next === stateRef.current.path) return;
       void commitPath(puzzle!, next);
     }
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
+    // state.path deliberately excluded: handlers read the latest path via stateRef instead, so
+    // this listener doesn't need to be torn down and recreated on every single move (which, for
+    // a window-level listener, left a stale-closured one live across back-to-back keydowns).
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [puzzle, isFinished, helpOpen, resultOpen, state.path]);
+  }, [puzzle, isFinished, helpOpen, resultOpen]);
 
   if (status === "loading" || loading) return null;
 
