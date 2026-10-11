@@ -3,8 +3,9 @@
 //
 // Content file shape, one per day, used by every game's generator and by scripts/upload-puzzles.ts:
 //   { "payload": <game-specific main puzzle>, "reserve": <game-specific reserve puzzle> | null }
-import type { DataSource, Play, PlayStatus } from "./types";
+import type { DataSource, FinaleMessage, Play, PlayStatus } from "./types";
 import { todayKey, addDays, mulberry32 } from "../daily";
+import { BIRTHDAY } from "../../config";
 
 const PLAY_PREFIX = "puzzles:play:";
 
@@ -116,6 +117,28 @@ async function fetchContent<T>(
 
 const FAKE_FRIENDS = ["Amal", "Riya"];
 
+// Dev-only threshold for unlocking the finale locally — the real one is whatever `required_games`
+// the human sets on her `messages` row (see PLAN.md's SQL snippet), enforced by the database.
+const FINALE_REQUIRED_GAMES = 3;
+
+// Dev-only placeholder — see PLAN.md's SQL insert for the real message's content shape.
+const PLACEHOLDER_FINALE_MESSAGE: FinaleMessage = {
+  title: "Happy Birthday, Sansita!",
+  body: "A whole year of puzzles made just for you. Here's to today, and every day after it.",
+  photos: [],
+  video: null,
+};
+
+function distinctGamesFinishedOn(date: string): number {
+  const finished = new Set<string>();
+  for (const gameId of gameIdsInStorage()) {
+    if (allPlaysFor(gameId).some((p) => p.date === date && p.status !== "in_progress")) {
+      finished.add(gameId);
+    }
+  }
+  return finished.size;
+}
+
 export const localDataSource: DataSource = {
   async getPuzzle<T>(gameId: string, date: string) {
     if (date > todayKey()) return null; // never released
@@ -203,5 +226,15 @@ export const localDataSource: DataSource = {
     return allPlaysFor(gameId)
       .map((p) => ({ date: p.date, status: p.status, score: p.score }))
       .sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0));
+  },
+
+  async getMessage(): Promise<FinaleMessage | null> {
+    // Mirrors "recipient reads unlocked messages" in 0001_init.sql: unlock_date <= today, and
+    // enough distinct games finished *on unlock_date* (archive catch-ups for other days don't
+    // count). Local dev only ever has one recipient (the fake member), so unlock_date is just
+    // BIRTHDAY itself.
+    if (todayKey() < BIRTHDAY) return null;
+    if (distinctGamesFinishedOn(BIRTHDAY) < FINALE_REQUIRED_GAMES) return null;
+    return PLACEHOLDER_FINALE_MESSAGE;
   },
 };

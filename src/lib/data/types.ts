@@ -12,6 +12,16 @@ export interface Play<S = unknown> {
   score?: number;
 }
 
+/** The birthday finale's content — see `messages.content` in supabase/migrations/0001_init.sql.
+ *  `photos`/`video` are paths within the private "finale" Storage bucket, under the recipient's
+ *  own user-id folder (`<user_id>/<file>`) — never public URLs. */
+export interface FinaleMessage {
+  title: string;
+  body: string;
+  photos: string[];
+  video: string | null;
+}
+
 export interface DataSource {
   getPuzzle<T>(gameId: string, date: string): Promise<{ main: T; reserve?: T } | null>; // null = missing or not released
   getPlay<S>(gameId: string, date: string): Promise<Play<S> | null>;
@@ -34,4 +44,7 @@ export interface DataSource {
     date: string,
   ): Promise<{ name: string; status: PlayStatus; summary: string; score?: number }[]>;
   listPlays(gameId: string): Promise<{ date: string; status: PlayStatus; score?: number }[]>;
+  /** Null until the signed-in member is the message's recipient, it's `unlock_date`, and they've
+   *  finished `required_games` different games that day — all enforced server-side, not just here. */
+  getMessage(): Promise<FinaleMessage | null>;
 }

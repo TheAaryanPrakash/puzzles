@@ -5,7 +5,7 @@
 // the frozen `DataSource` interface.
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 import type { Database } from "../../../supabase/types";
-import type { DataSource, Play, PlayStatus } from "./types";
+import type { DataSource, FinaleMessage, Play, PlayStatus } from "./types";
 
 // Created lazily, not at module load: this module is imported unconditionally by
 // src/lib/data/index.ts (so the `local` adapter's import graph includes it too), and every game
@@ -225,5 +225,20 @@ export const supabaseDataSource: DataSource = {
       status: row.status,
       score: row.score ?? undefined,
     }));
+  },
+
+  async getMessage(): Promise<FinaleMessage | null> {
+    const db = getSupabaseClient();
+    // No filters beyond RLS: "recipient reads unlocked messages" already restricts this to rows
+    // where the signed-in member is the recipient, it's unlock_date or later, and they've finished
+    // required_games distinct games that day — nothing left to check client-side.
+    const { data, error } = await db
+      .from("messages")
+      .select("content")
+      .order("id", { ascending: true })
+      .limit(1)
+      .maybeSingle();
+    if (error) throw friendlyError(error);
+    return data ? (data.content as FinaleMessage) : null;
   },
 };

@@ -13,7 +13,9 @@ let pass = 0, fail = 0;
 const ok = (name, cond) => { cond ? pass++ : fail++; console.log(`${cond ? "PASS" : "FAIL"}  ${name}`); };
 const throws = async (name, fn) => { try { await fn(); ok(name, false); } catch (e) { ok(`${name}  (${e.message.split("\n")[0]})`, true); } };
 
-// Supabase shim: roles, auth schema, auth.uid() from a session setting
+// Supabase shim: roles, auth schema, auth.uid() from a session setting, and a minimal storage
+// schema (just enough of buckets/objects for 0003's policy — real Supabase Storage's extra
+// columns/functions aren't needed to test an RLS policy's logic).
 await db.exec(`
   create role anon; create role authenticated;
   create schema auth;
@@ -21,6 +23,16 @@ await db.exec(`
   create function auth.uid() returns uuid language sql stable as
     $$ select nullif(current_setting('request.jwt.claim.sub', true), '')::uuid $$;
   insert into auth.users values ('${A}'), ('${B}'), ('${C}');
+
+  create schema storage;
+  create table storage.buckets (id text primary key, name text not null, public boolean not null default false);
+  create table storage.objects (
+    id bigint generated always as identity primary key,
+    bucket_id text references storage.buckets(id),
+    name text not null,
+    owner uuid
+  );
+  alter table storage.objects enable row level security;
 `);
 const migrationsDir = dirname(process.argv[2]);
 const migrationFiles = readdirSync(migrationsDir).filter((f) => f.endsWith(".sql")).sort();
@@ -28,8 +40,9 @@ for (const file of migrationFiles) {
   await db.exec(readFileSync(join(migrationsDir, file), "utf8"));
 }
 await db.exec(`
-  grant usage on schema public, auth to anon, authenticated;
+  grant usage on schema public, auth, storage to anon, authenticated;
   grant select, insert, update, delete on all tables in schema public to authenticated;
+  grant select on storage.buckets, storage.objects to anon, authenticated;
   grant execute on function auth.uid() to anon, authenticated;
   insert into private.app_config values ('invite_code', 'sunflower-23');
   insert into public.puzzles (game_id, puzzle_date, payload, reserve)
@@ -133,6 +146,20 @@ const msgs = (await as(A, "select content->>'title' as t from messages")).rows.m
 ok("recipient sees message once required games are finished", JSON.stringify(msgs) === '["finale"]');
 ok("other members cannot read someone else's message",
   (await as(B, "select * from messages")).rows.length === 0);
+
+// 0003: finale Storage bucket — A's own message is unlocked (required_games=2, met above); B has
+// no unlocked message at all. One file in each member's own folder.
+await db.exec(`
+  insert into storage.objects (bucket_id, name, owner) values
+    ('finale', '${A}/photo.jpg', '${A}'),
+    ('finale', '${B}/photo.jpg', '${B}');
+`);
+ok("recipient reads her own file once her message is unlocked",
+  (await as(A, "select name from storage.objects where bucket_id = 'finale'")).rows.length === 1);
+ok("recipient cannot read another member's folder even if hers is unlocked",
+  (await as(A, `select name from storage.objects where bucket_id = 'finale' and name = '${B}/photo.jpg'`)).rows.length === 0);
+ok("a member with no unlocked message reads no finale files, even her own",
+  (await as(B, "select name from storage.objects where bucket_id = 'finale'")).rows.length === 0);
 
 // 0002: RLS performance indexes exist (see docs/research/backend.md)
 const indexNames = (await db.query(
