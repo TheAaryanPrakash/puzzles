@@ -1,17 +1,23 @@
 import { useState } from "react";
-import { useAuth } from "../lib/auth";
+import { useLocation } from "react-router";
+import { readInviteCode, useAuth } from "../lib/auth";
 import { Button } from "../components/Button";
 
 export function SignIn() {
   const { signInWithGoogle } = useAuth();
+  const location = useLocation();
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+
+  const state = location.state as { message?: string; code?: string } | null;
+  const inviteCode = state?.code ?? readInviteCode();
 
   async function handleClick() {
     setError(null);
     setLoading(true);
     try {
-      await signInWithGoogle();
+      const redirectPath = inviteCode ? `/join?code=${encodeURIComponent(inviteCode)}` : undefined;
+      await signInWithGoogle(redirectPath);
       // On success the browser navigates away to Google; loading stays true until it does.
     } catch (err) {
       setLoading(false);
@@ -23,7 +29,8 @@ export function SignIn() {
     <div className="flex min-h-screen flex-col items-center justify-center gap-6 bg-brand-bg p-6 text-center">
       <h1 className="font-brand text-2xl font-semibold">Sansita's Puzzles</h1>
       <p className="max-w-xs text-brand-muted">
-        An invite-only puzzle club for friends. Sign in with Google to play today's puzzles.
+        {state?.message ??
+          "An invite-only puzzle club for friends. Sign in with Google to play today's puzzles."}
       </p>
       <Button onClick={() => void handleClick()} disabled={loading} autoFocus>
         <GoogleMark />

@@ -12,7 +12,7 @@ export type AuthStatus = "loading" | "signed-out" | "signed-in-not-member" | "me
 export interface AuthState {
   status: AuthStatus;
   member: Member | null;
-  signInWithGoogle: () => Promise<void>;
+  signInWithGoogle: (redirectPath?: string) => Promise<void>;
   signOut: () => Promise<void>;
   joinWithInvite: (code: string, name: string) => Promise<void>;
   updateDisplayName: (name: string) => Promise<void>;
@@ -21,6 +21,35 @@ export interface AuthState {
 const AuthContext = createContext<AuthState | null>(null);
 
 const FAKE_MEMBER: Member = { userId: "local-dev", displayName: "Sansita" };
+
+// Remembers an invite code across the full-page round trip to Google and back — the OAuth
+// redirect already carries it as a `?code=` query param, but this is a defensive fallback in
+// case that gets stripped somewhere along the way.
+const INVITE_CODE_KEY = "sansitas-puzzles:invite-code";
+
+export function saveInviteCode(code: string): void {
+  try {
+    localStorage.setItem(INVITE_CODE_KEY, code);
+  } catch {
+    // Unavailable (private browsing, disabled storage) — the URL param alone still works.
+  }
+}
+
+export function readInviteCode(): string | null {
+  try {
+    return localStorage.getItem(INVITE_CODE_KEY);
+  } catch {
+    return null;
+  }
+}
+
+export function clearInviteCode(): void {
+  try {
+    localStorage.removeItem(INVITE_CODE_KEY);
+  } catch {
+    // ignore
+  }
+}
 
 // Mirrors src/lib/data/index.ts's own switch, so the two always agree on which world we're in.
 const usesSupabase = import.meta.env.VITE_DATA_SOURCE === "supabase";
@@ -109,11 +138,11 @@ function SupabaseAuthProvider({ children }: { children: ReactNode }) {
   const value: AuthState = {
     status,
     member,
-    async signInWithGoogle() {
+    async signInWithGoogle(redirectPath?: string) {
       const db = getSupabaseClient();
       const { error } = await db.auth.signInWithOAuth({
         provider: "google",
-        options: { redirectTo: window.location.origin },
+        options: { redirectTo: `${window.location.origin}${redirectPath ?? ""}` },
       });
       if (error) throw friendlyError(error);
     },

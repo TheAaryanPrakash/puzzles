@@ -1,17 +1,25 @@
-import { useState, type FormEvent } from "react";
-import { useLocation, useNavigate, useSearchParams, type Location } from "react-router";
-import { useAuth } from "../lib/auth";
+import { useEffect, useState, type FormEvent } from "react";
+import { Navigate, useLocation, useNavigate, useSearchParams, type Location } from "react-router";
+import { clearInviteCode, readInviteCode, saveInviteCode, useAuth } from "../lib/auth";
 import { Button } from "../components/Button";
 
 export function Join() {
-  const { joinWithInvite } = useAuth();
+  const { status, joinWithInvite } = useAuth();
   const [searchParams] = useSearchParams();
-  const [code, setCode] = useState(searchParams.get("code") ?? "");
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const urlCode = searchParams.get("code");
+  const [code, setCode] = useState(() => urlCode ?? readInviteCode() ?? "");
   const [name, setName] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
-  const navigate = useNavigate();
-  const location = useLocation();
+
+  // Keeps the invite code recoverable across the full-page round trip to Google and back, in
+  // case the OAuth redirect's own `?code=` query param gets dropped somewhere along the way.
+  useEffect(() => {
+    if (code.trim()) saveInviteCode(code.trim());
+  }, [code]);
 
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
@@ -19,12 +27,25 @@ export function Join() {
     setLoading(true);
     try {
       await joinWithInvite(code.trim(), name.trim());
+      clearInviteCode();
       const from = (location.state as { from?: Location } | null)?.from;
       navigate(from ? `${from.pathname}${from.search}${from.hash}` : "/", { replace: true });
     } catch (err) {
       setError(err instanceof Error ? err.message : "Something went wrong. Please try again.");
       setLoading(false);
     }
+  }
+
+  if (status === "loading") return null;
+  if (status === "member") return <Navigate to="/" replace />;
+  if (status === "signed-out") {
+    return (
+      <Navigate
+        to="/signin"
+        state={{ message: "Sign in with Google to join.", code: code.trim() || undefined }}
+        replace
+      />
+    );
   }
 
   return (
