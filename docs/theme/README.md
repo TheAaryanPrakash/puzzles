@@ -24,15 +24,20 @@ colors pairwise with a redmean perceptual distance — not eyeballed.
 
 ## Site palette (`src/styles/brand.css`)
 
-Built around `#E89E88` (H14° S68% L72%). `--brand-bg`/`--brand-surface`/`--brand-surface-2` are
-soft, barely-saturated tints of that hue — pale blush, near-white, a slightly deeper blush card
-tint. `#E89E88` itself measures only ~2:1 against white, far under the 4.5:1 a link or button
-needs, so `--brand-accent` is a **deeper shade of the same 14° hue** (`#b64220`, ~5.2–5.5:1 as
-text/link color, ~5.5:1 with white button text) rather than the pastel itself. Because the accent
-is now dark enough to need white text, `--brand-accent-fg` flips from the original's warm-dark
-text to white. `--brand-danger` and `--brand-muted` were both nudged slightly to clear 4.5:1 against
-the new warmer backgrounds (pre-existing values were ~0.2–0.3 short). Token **names** are
-untouched — only values changed, per CLAUDE.md.
+Started around `#E89E88` (H14° S68% L72%), then revised once more on request toward a more
+visibly **pink** rose rather than that orange-coral: `--brand-bg`/`--brand-surface-2`/
+`--brand-border` moved to H345° (true rose/pink, not 14°'s orange-leaning coral) and gained real
+saturation (bg went from S22% to S55%) so the backdrop reads as pink rather than a barely-tinted
+cream. `--brand-accent` is a deep rose/raspberry (`#ad1f42`, same 345° hue, darkened+saturated)
+for buttons and links — `#E89E88` itself only measures ~2:1 against white, far under the 4.5:1 a
+link or button needs, so the accent was never going to be the pastel itself; it clears 5.5–6.7:1
+as text/link color against every surface it sits on, and 6.9:1 with white button text.
+`--brand-accent-fg` is white (the original's warm-dark-text-on-light-accent trick doesn't fit once
+the accent itself is this dark). `--brand-danger` was nudged a touch darker to hold 4.5:1 against
+the pinker bg, and now sits ~68+ units from the rose accent under every colour-blindness
+simulation (the old, more orange-leaning accent was only ~23–30 units from danger — rose and
+red-orange are further apart than rust and red-orange were). Token **names** are untouched — only
+values changed, per CLAUDE.md.
 
 ## Wordle feedback trio
 
