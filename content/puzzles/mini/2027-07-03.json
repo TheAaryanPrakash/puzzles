@@ -1,0 +1,506 @@
+{
+  "payload": {
+    "size": 7,
+    "cells": [
+      {
+        "answer": "T",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "X",
+        "number": 3
+      },
+      {
+        "answer": "F",
+        "number": 4
+      },
+      {
+        "answer": "O",
+        "number": 5
+      },
+      {
+        "answer": "R",
+        "number": 6
+      },
+      {
+        "answer": "M",
+        "number": 7
+      },
+      {
+        "answer": "I",
+        "number": 8
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      null,
+      null,
+      {
+        "answer": "N",
+        "number": 10
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "C"
+      },
+      null,
+      null,
+      {
+        "answer": "M",
+        "number": 11
+      },
+      {
+        "answer": "A",
+        "number": 12
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "A",
+        "number": 13
+      },
+      {
+        "answer": "Y",
+        "number": 14
+      },
+      {
+        "answer": "I",
+        "number": 15
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D",
+        "number": 16
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 7,
+          "answer": "TAXFORM",
+          "clue": "Return document",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "answer": "INSALES",
+          "clue": "'He's ___' (job description lead-in)",
+          "source": "written"
+        },
+        {
+          "number": 9,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "STANDIN",
+          "clue": "New Democrat in smear is deputy",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 3,
+          "col": 2,
+          "length": 3,
+          "answer": "NBC",
+          "clue": "\"SNL\" network",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "MADEHAY",
+          "clue": "Seized an opportunity when available",
+          "source": "dataset"
+        },
+        {
+          "number": 15,
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "answer": "ISOLATE",
+          "clue": "Place apart",
+          "source": "dataset"
+        },
+        {
+          "number": 16,
+          "row": 6,
+          "col": 0,
+          "length": 7,
+          "answer": "DUSTPAN",
+          "clue": "Receptacle for sweepings",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "TIS",
+          "clue": "It is, condensed",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "ANT",
+          "clue": "Dict. opp",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "XSANDOS",
+          "clue": "Tic-tac-toe marks, collectively",
+          "source": "written"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "answer": "FANBELT",
+          "clue": "Engine part",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "OLDCHAP",
+          "clue": "Brit's term of affection",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 0,
+          "col": 5,
+          "length": 3,
+          "answer": "REI",
+          "clue": "Portuguese royal",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 0,
+          "col": 6,
+          "length": 3,
+          "answer": "MSN",
+          "clue": "Major Web portal",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "MID",
+          "clue": "Prefix with night",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "ASU",
+          "clue": "Tempe sch",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 4,
+          "col": 5,
+          "length": 3,
+          "answer": "ATA",
+          "clue": "- glance",
+          "source": "dataset"
+        },
+        {
+          "number": 14,
+          "row": 4,
+          "col": 6,
+          "length": 3,
+          "answer": "YEN",
+          "clue": "Longing",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "A",
+        "number": 1
+      },
+      {
+        "answer": "J",
+        "number": 2
+      },
+      {
+        "answer": "A",
+        "number": 3
+      },
+      {
+        "answer": "X",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "L",
+        "number": 5
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "V"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "Y",
+        "number": 6
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "U",
+        "number": 7
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      null,
+      {
+        "answer": "K",
+        "number": 8
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "S"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "AJAX",
+          "clue": "Powder cleanser brand",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "LOVE",
+          "clue": "Adore",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "YIKES",
+          "clue": "'Uh-oh!'",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "UBER",
+          "clue": "Summoned ride",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "KISS",
+          "clue": "Smack",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "ALIBI",
+          "clue": "Excuse",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "JOKES",
+          "clue": "'Inside' ones may be hard to get",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "AVERS",
+          "clue": "Declares",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "XES",
+          "clue": "Marks a ballot",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "YUK",
+          "clue": "Guffaw",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

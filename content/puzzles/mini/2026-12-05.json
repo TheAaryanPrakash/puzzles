@@ -1,0 +1,607 @@
+{
+  "payload": {
+    "size": 7,
+    "cells": [
+      {
+        "answer": "R",
+        "number": 1
+      },
+      {
+        "answer": "U",
+        "number": 2
+      },
+      {
+        "answer": "N",
+        "number": 3
+      },
+      {
+        "answer": "I",
+        "number": 4
+      },
+      {
+        "answer": "N",
+        "number": 5
+      },
+      {
+        "answer": "S",
+        "number": 6
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L"
+      },
+      null,
+      {
+        "answer": "V",
+        "number": 8
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "P",
+        "number": 9
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 10
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "I",
+        "number": 11
+      },
+      null,
+      {
+        "answer": "G",
+        "number": 12
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I",
+        "number": 13
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "H",
+        "number": 14
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 15
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "T"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 6,
+          "answer": "RUNINS",
+          "clue": "Confrontations with John Q. Law",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 1,
+          "col": 0,
+          "length": 6,
+          "answer": "SPIRAL",
+          "clue": "Helical shape",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 2,
+          "col": 0,
+          "length": 6,
+          "answer": "VRGAME",
+          "clue": "Headset-required title, for short",
+          "source": "written"
+        },
+        {
+          "number": 9,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "answer": "PIE",
+          "clue": "Chart type",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 3,
+          "col": 4,
+          "length": 3,
+          "answer": "API",
+          "clue": "App-building interface, for short",
+          "source": "written"
+        },
+        {
+          "number": 12,
+          "row": 4,
+          "col": 1,
+          "length": 6,
+          "answer": "GRISTS",
+          "clue": "Grains ready for milling",
+          "source": "written"
+        },
+        {
+          "number": 14,
+          "row": 5,
+          "col": 1,
+          "length": 6,
+          "answer": "HILTON",
+          "clue": "Bill Marriott contemporary",
+          "source": "dataset"
+        },
+        {
+          "number": 15,
+          "row": 6,
+          "col": 1,
+          "length": 6,
+          "answer": "TALENT",
+          "clue": "Skill",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "RSVP",
+          "clue": "\"Answer, please\"",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "answer": "UPRIGHT",
+          "clue": "Standing straight",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "NIGERIA",
+          "clue": "West African nation",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "answer": "IRA",
+          "clue": "S&L offering",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "NAMASTE",
+          "clue": "Respectful greeting",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "answer": "SLEPTON",
+          "clue": "'___ it' (took time to decide)",
+          "source": "written"
+        },
+        {
+          "number": 11,
+          "row": 3,
+          "col": 6,
+          "length": 4,
+          "answer": "ISNT",
+          "clue": "Does not exist",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 4,
+          "col": 3,
+          "length": 3,
+          "answer": "ILL",
+          "clue": "Sick",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 7,
+    "cells": [
+      null,
+      {
+        "answer": "C",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "E",
+        "number": 3
+      },
+      {
+        "answer": "S",
+        "number": 4
+      },
+      {
+        "answer": "A",
+        "number": 5
+      },
+      {
+        "answer": "R",
+        "number": 6
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A"
+      },
+      null,
+      {
+        "answer": "M",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "X"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "R",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "M"
+      },
+      null,
+      {
+        "answer": "C",
+        "number": 10
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E",
+        "number": 11
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "P",
+        "number": 12
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "D",
+        "number": 13
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 14
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "S"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 6,
+          "answer": "CAESAR",
+          "clue": "Roman ruler",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "answer": "ANGELA",
+          "clue": "Actress Kinsey of 'The Office'",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 2,
+          "col": 1,
+          "length": 6,
+          "answer": "MEGXIT",
+          "clue": "Royal family departure nicknamed for a duchess",
+          "source": "written"
+        },
+        {
+          "number": 9,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "answer": "REM",
+          "clue": "Sleep phase",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 3,
+          "col": 4,
+          "length": 3,
+          "answer": "CAS",
+          "clue": "Court of Arbitration for Sport, for short",
+          "source": "written"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 0,
+          "length": 6,
+          "answer": "ELOPES",
+          "clue": "Skips a ceremony",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "answer": "DONGLE",
+          "clue": "Computer plug-in",
+          "source": "dataset"
+        },
+        {
+          "number": 14,
+          "row": 6,
+          "col": 0,
+          "length": 6,
+          "answer": "STEALS",
+          "clue": "Engages in thievery",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "answer": "CAMELOT",
+          "clue": "Animal returned to Arthur's place (wordplay)",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "ANEMONE",
+          "clue": "Terribly mean individual in plant",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "answer": "EGG",
+          "clue": "Omelet start",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "SEXCELL",
+          "clue": "Sperm or egg, biologically",
+          "source": "written"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "answer": "ALIASES",
+          "clue": "Rap sheet list",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 0,
+          "col": 6,
+          "length": 4,
+          "answer": "RATS",
+          "clue": "\"Darn!\"",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "REDS",
+          "clue": "Stop lights",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 4,
+          "col": 3,
+          "length": 3,
+          "answer": "PGA",
+          "clue": "Course org",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

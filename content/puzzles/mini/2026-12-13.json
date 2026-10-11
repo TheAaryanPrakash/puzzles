@@ -1,0 +1,518 @@
+{
+  "payload": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "B",
+        "number": 1
+      },
+      {
+        "answer": "O",
+        "number": 2
+      },
+      {
+        "answer": "G",
+        "number": 3
+      },
+      null,
+      null,
+      {
+        "answer": "T",
+        "number": 4
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E",
+        "number": 5
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 6
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      null,
+      null,
+      {
+        "answer": "L",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "G"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "BOG",
+          "clue": "Marshy spot",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "TORE",
+          "clue": "Ripped",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "SHOES",
+          "clue": "Pumps, for instance",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "answer": "SHEA",
+          "clue": "___ butter",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 2,
+          "length": 3,
+          "answer": "LEG",
+          "clue": "KFC choice",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "BTS",
+          "clue": "'Mic Drop' K-pop group",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "OOHS",
+          "clue": "Evinces awe",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "GROHL",
+          "clue": "Dave ___, Foo Fighters frontman",
+          "source": "written"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 3,
+          "length": 4,
+          "answer": "EEEE",
+          "clue": "Scream of fright, in a comic",
+          "source": "written"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "answer": "SAG",
+          "clue": "Droop",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 7,
+    "cells": [
+      {
+        "answer": "B",
+        "number": 1
+      },
+      {
+        "answer": "F",
+        "number": 2
+      },
+      {
+        "answer": "F",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 4
+      },
+      {
+        "answer": "A",
+        "number": 5
+      },
+      {
+        "answer": "B",
+        "number": 6
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "B",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T"
+      },
+      null,
+      null,
+      {
+        "answer": "E",
+        "number": 10
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "O"
+      },
+      null,
+      null,
+      {
+        "answer": "D",
+        "number": 11
+      },
+      {
+        "answer": "R",
+        "number": 12
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "C",
+        "number": 13
+      },
+      {
+        "answer": "I",
+        "number": 14
+      },
+      {
+        "answer": "M",
+        "number": 15
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "V",
+        "number": 16
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "X"
+      },
+      null,
+      {
+        "answer": "I",
+        "number": 17
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "S"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "BFF",
+          "clue": "Lifelong bud",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "TAB",
+          "clue": "Indent key",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "answer": "ALIBABA",
+          "clue": "Chinese e-commerce giant",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "SUREBET",
+          "clue": "Overwhelming favorite",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 3,
+          "col": 2,
+          "length": 3,
+          "answer": "EGO",
+          "clue": "I",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "DRFAUCI",
+          "clue": "Prominent pandemic-era immunologist, informally",
+          "source": "written"
+        },
+        {
+          "number": 15,
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "answer": "MOONLIT",
+          "clue": "Ripe for romance, as a stroll",
+          "source": "dataset"
+        },
+        {
+          "number": 16,
+          "row": 6,
+          "col": 0,
+          "length": 3,
+          "answer": "VEX",
+          "clue": "Bug",
+          "source": "dataset"
+        },
+        {
+          "number": 17,
+          "row": 6,
+          "col": 4,
+          "length": 3,
+          "answer": "INS",
+          "clue": "Entrances",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "BAS",
+          "clue": "Univ. degrees",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "FLU",
+          "clue": "Viral bug",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "FIREFOX",
+          "clue": "Mozilla's web browser",
+          "source": "written"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "TABOULI",
+          "clue": "Parsley-and-bulgur salad",
+          "source": "written"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 5,
+          "length": 3,
+          "answer": "ABE",
+          "clue": "1860s prez",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 0,
+          "col": 6,
+          "length": 3,
+          "answer": "BAT",
+          "clue": "Sports club",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 1,
+          "col": 3,
+          "length": 5,
+          "answer": "BEGAN",
+          "clue": "Set off",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "DMV",
+          "clue": "Issuer of Real ID cards",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "ROE",
+          "clue": "Fish eggs",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 4,
+          "col": 5,
+          "length": 3,
+          "answer": "CIN",
+          "clue": "The Reds, on scoreboards",
+          "source": "dataset"
+        },
+        {
+          "number": 14,
+          "row": 4,
+          "col": 6,
+          "length": 3,
+          "answer": "ITS",
+          "clue": "Of itself",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

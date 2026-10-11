@@ -1,0 +1,633 @@
+{
+  "payload": {
+    "size": 7,
+    "cells": [
+      {
+        "answer": "B",
+        "number": 1
+      },
+      {
+        "answer": "I",
+        "number": 2
+      },
+      {
+        "answer": "G",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 4
+      },
+      {
+        "answer": "L",
+        "number": 5
+      },
+      {
+        "answer": "L",
+        "number": 6
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 8
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "H",
+        "number": 9
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S",
+        "number": 10
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "A",
+        "number": 11
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "M",
+        "number": 12
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A",
+        "number": 13
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "T"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 14
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "S",
+        "number": 15
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 16
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "H"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "BIG",
+          "clue": "Major",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "ALL",
+          "clue": "100%",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "ARE",
+          "clue": "Make",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 1,
+          "col": 4,
+          "length": 3,
+          "answer": "TIE",
+          "clue": "Lace",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "HOTSHOT",
+          "clue": "VIP in recently taken snap",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 3,
+          "col": 0,
+          "length": 7,
+          "answer": "ANCIENT",
+          "clue": "Dating from a remote period",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "MAURICE",
+          "clue": "Sendak, author of 'Where the Wild Things Are'",
+          "source": "written"
+        },
+        {
+          "number": 13,
+          "row": 5,
+          "col": 0,
+          "length": 3,
+          "answer": "AGT",
+          "clue": "FBI figure",
+          "source": "dataset"
+        },
+        {
+          "number": 14,
+          "row": 5,
+          "col": 4,
+          "length": 3,
+          "answer": "SUR",
+          "clue": "Prefix with realist",
+          "source": "dataset"
+        },
+        {
+          "number": 15,
+          "row": 6,
+          "col": 0,
+          "length": 3,
+          "answer": "SEE",
+          "clue": "Get",
+          "source": "dataset"
+        },
+        {
+          "number": 16,
+          "row": 6,
+          "col": 4,
+          "length": 3,
+          "answer": "TBH",
+          "clue": "Texter's \"Truthfully ...\"",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 7,
+          "answer": "BAHAMAS",
+          "clue": "Nassau's islands",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "answer": "IRONAGE",
+          "clue": "Historical period",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "GETCUTE",
+          "clue": "Try to be overly clever, with 'don't'",
+          "source": "written"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "ATHEIST",
+          "clue": "Sceptic",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "answer": "LIONCUB",
+          "clue": "Den member",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 0,
+          "col": 6,
+          "length": 7,
+          "answer": "LETTERH",
+          "clue": "Silent starter of 'honest'",
+          "source": "written"
+        },
+        {
+          "number": 10,
+          "row": 2,
+          "col": 3,
+          "length": 3,
+          "answer": "SIR",
+          "clue": "'Yes, ___!'",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 7,
+    "cells": [
+      {
+        "answer": "R",
+        "number": 1
+      },
+      {
+        "answer": "U",
+        "number": 2
+      },
+      {
+        "answer": "S",
+        "number": 3
+      },
+      {
+        "answer": "H",
+        "number": 4
+      },
+      null,
+      null,
+      null,
+      {
+        "answer": "E",
+        "number": 5
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R",
+        "number": 6
+      },
+      {
+        "answer": "T",
+        "number": 7
+      },
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "A",
+        "number": 10
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 11
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "L",
+        "number": 12
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "P",
+        "number": 13
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "E",
+        "number": 14
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      null,
+      null,
+      {
+        "answer": "S",
+        "number": 15
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "RUSH",
+          "clue": "Hurry",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "answer": "ESPORTS",
+          "clue": "Posters produced for video games contests",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "SORTOUT",
+          "clue": "Deal with",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "answer": "APE",
+          "clue": "Goon",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 3,
+          "col": 4,
+          "length": 3,
+          "answer": "ALE",
+          "clue": "Brew",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "LEAPDAY",
+          "clue": "29th February",
+          "source": "dataset"
+        },
+        {
+          "number": 14,
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "answer": "ENDLINE",
+          "clue": "Football boundary",
+          "source": "dataset"
+        },
+        {
+          "number": 15,
+          "row": 6,
+          "col": 3,
+          "length": 4,
+          "answer": "SEER",
+          "clue": "Crystal gazer",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 6,
+          "answer": "RESALE",
+          "clue": "Antique shop deal",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 6,
+          "answer": "USOPEN",
+          "clue": "Annual Queens sports event",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 6,
+          "answer": "SPREAD",
+          "clue": "Distribute or disperse widely",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "answer": "HOT",
+          "clue": "Stolen",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 4,
+          "length": 6,
+          "answer": "ROADIE",
+          "clue": "Tour worker",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 1,
+          "col": 5,
+          "length": 6,
+          "answer": "TULANE",
+          "clue": "Pelican State campus",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 1,
+          "col": 6,
+          "length": 6,
+          "answer": "STEYER",
+          "clue": "Tom ___, billionaire presidential candidate",
+          "source": "written"
+        },
+        {
+          "number": 13,
+          "row": 4,
+          "col": 3,
+          "length": 3,
+          "answer": "PLS",
+          "clue": "Tactful text intro",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}

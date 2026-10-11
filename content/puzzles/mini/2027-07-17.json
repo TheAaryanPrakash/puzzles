@@ -1,0 +1,507 @@
+{
+  "payload": {
+    "size": 7,
+    "cells": [
+      {
+        "answer": "C",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "B",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 4
+      },
+      {
+        "answer": "K",
+        "number": 5
+      },
+      {
+        "answer": "I",
+        "number": 6
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "I"
+      },
+      null,
+      {
+        "answer": "W",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "J",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "S",
+        "number": 10
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "O",
+        "number": 11
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "L",
+        "number": 12
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "E",
+        "number": 13
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "O"
+      },
+      null,
+      {
+        "answer": "I",
+        "number": 14
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "S",
+        "number": 15
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "X"
+      },
+      null,
+      {
+        "answer": "N",
+        "number": 16
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "CAB",
+          "clue": "Napa nickname",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "SKI",
+          "clue": "Enjoy Aspen",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "AMI",
+          "clue": "Gallic pal",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 1,
+          "col": 4,
+          "length": 3,
+          "answer": "WET",
+          "clue": "Rainy",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "JERSEYS",
+          "clue": "Team uniforms, pluralized",
+          "source": "written"
+        },
+        {
+          "number": 11,
+          "row": 3,
+          "col": 0,
+          "length": 7,
+          "answer": "ORDEALS",
+          "clue": "Harrowing experiences",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "LIBERIA",
+          "clue": "African land",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 5,
+          "col": 0,
+          "length": 3,
+          "answer": "ECO",
+          "clue": "- -friendly",
+          "source": "dataset"
+        },
+        {
+          "number": 14,
+          "row": 5,
+          "col": 4,
+          "length": 3,
+          "answer": "IMF",
+          "clue": "Global finance org",
+          "source": "dataset"
+        },
+        {
+          "number": 15,
+          "row": 6,
+          "col": 0,
+          "length": 3,
+          "answer": "SAX",
+          "clue": "Combo instrument",
+          "source": "dataset"
+        },
+        {
+          "number": 16,
+          "row": 6,
+          "col": 4,
+          "length": 3,
+          "answer": "NEE",
+          "clue": "By birth",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 7,
+          "answer": "CAJOLES",
+          "clue": "Coaxes",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "answer": "AMERICA",
+          "clue": "Continent",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "BIRDBOX",
+          "clue": "Thriller in which characters go blindfolded to survive",
+          "source": "written"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "SWEARIN",
+          "clue": "Administer an oath to",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "answer": "KEYLIME",
+          "clue": "Kylie ordered me a fruit pie",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 0,
+          "col": 6,
+          "length": 7,
+          "answer": "ITSSAFE",
+          "clue": "'You can come out now'",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 2,
+          "col": 3,
+          "length": 3,
+          "answer": "SEE",
+          "clue": "Notice",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "E",
+        "number": 1
+      },
+      {
+        "answer": "M",
+        "number": 2
+      },
+      {
+        "answer": "U",
+        "number": 3
+      },
+      {
+        "answer": "S",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "L",
+        "number": 5
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "U"
+      },
+      null,
+      {
+        "answer": "F",
+        "number": 6
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      null,
+      {
+        "answer": "E",
+        "number": 8
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "O"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "EMUS",
+          "clue": "Big birds",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "LULU",
+          "clue": "\"The Farewell\" director Wang",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "FLOSS",
+          "clue": "Strand at the dentist's office (wordplay)",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "answer": "ECHO",
+          "clue": "Repeat",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 1,
+          "length": 4,
+          "answer": "SKIN",
+          "clue": "Apple's exterior",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "ELF",
+          "clue": "Trickster",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "MULES",
+          "clue": "Some slip-ons",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "ULOCK",
+          "clue": "Sturdy bike theft deterrent, named for its shape",
+          "source": "written"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "SUSHI",
+          "clue": "Japanese fare",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "answer": "SON",
+          "clue": "\"My boy\"",
+          "source": "dataset"
+        }
+      ]
+    }
+  }
+}
