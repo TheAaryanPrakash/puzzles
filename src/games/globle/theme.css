@@ -1,0 +1,22 @@
+[data-game="globle"] {
+  --game-bg: #0b1026;
+  --game-fg: #eef1ff;
+  --game-surface: #121935;
+  --game-surface-2: #1a2347;
+  --game-border: #2a3566;
+  --game-accent: #c41426;
+  --game-accent-fg: #ffffff;
+  --game-muted: #8793c7;
+  --game-font: "Space Grotesk", sans-serif;
+
+  --tile-correct: #2ee6a6;
+  --tile-present: #ef8354;
+  --tile-absent: #2a3566;
+
+  /* Globle-specific tokens, consumed by Globe.tsx/logic.ts's color helpers and components. */
+  --globle-ocean: #0b1026;
+  --globle-unguessed: #16213f;
+  --globle-graticule: #1f2a52;
+  --globle-outline: #0b1026;
+  --globle-glow: 0 0 18px rgba(196, 20, 38, 0.45);
+}
