@@ -1,7 +1,36 @@
 import { useEffect, useState, type FormEvent } from "react";
 import { Navigate, useLocation, useNavigate, useSearchParams, type Location } from "react-router";
 import { clearInviteCode, readInviteCode, saveInviteCode, useAuth } from "../lib/auth";
+import { dataSource } from "../lib/data";
 import { Button } from "../components/Button";
+
+/** Looks a code up to preview the group's name, debounced lightly by only re-running when the
+ *  trimmed code actually changes. Silently empty for a blank or not-yet-valid code. */
+function useGroupPreview(code: string): string | null {
+  const [name, setName] = useState<string | null>(null);
+  const trimmed = code.trim();
+
+  useEffect(() => {
+    if (!trimmed) {
+      setName(null);
+      return;
+    }
+    let cancelled = false;
+    dataSource
+      .previewGroup(trimmed)
+      .then((g) => {
+        if (!cancelled) setName(g?.name ?? null);
+      })
+      .catch(() => {
+        if (!cancelled) setName(null);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [trimmed]);
+
+  return name;
+}
 
 export function Join() {
   const { status, joinWithInvite } = useAuth();
@@ -14,6 +43,7 @@ export function Join() {
   const [name, setName] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
+  const previewName = useGroupPreview(code);
 
   // Keeps the invite code recoverable across the full-page round trip to Google and back, in
   // case the OAuth redirect's own `?code=` query param gets dropped somewhere along the way.
@@ -36,8 +66,50 @@ export function Join() {
     }
   }
 
+  async function handleJoinAnotherGroup(e: FormEvent) {
+    e.preventDefault();
+    setError(null);
+    setLoading(true);
+    try {
+      await dataSource.joinGroup(code.trim());
+      clearInviteCode();
+      navigate("/", { replace: true });
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Something went wrong. Please try again.");
+      setLoading(false);
+    }
+  }
+
   if (status === "loading") return null;
-  if (status === "member") return <Navigate to="/" replace />;
+
+  // Already a member: a bare /join has nothing to do, but a code in the URL (e.g. a friend's
+  // link, opened while already signed in) joins that extra group and heads to the Hub.
+  if (status === "member") {
+    if (!urlCode) return <Navigate to="/" replace />;
+    return (
+      <div className="flex min-h-screen flex-col items-center justify-center gap-6 bg-brand-bg p-6">
+        <div className="w-full max-w-sm text-center">
+          <h1 className="font-brand text-2xl font-semibold">
+            {previewName ? `Join "${previewName}"?` : "Join this group?"}
+          </h1>
+          <p className="mt-2 text-sm text-brand-muted">
+            Your display name is shown to your groups and on the site-wide leaderboard.
+          </p>
+        </div>
+        <form onSubmit={handleJoinAnotherGroup} className="flex w-full max-w-sm flex-col gap-4">
+          {error && (
+            <p role="alert" className="text-sm text-brand-danger">
+              {error}
+            </p>
+          )}
+          <Button type="submit" disabled={loading} fullWidth>
+            {loading ? "Joining…" : "Join group"}
+          </Button>
+        </form>
+      </div>
+    );
+  }
+
   if (status === "signed-out") {
     return (
       <Navigate
@@ -51,7 +123,9 @@ export function Join() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center gap-6 bg-brand-bg p-6">
       <div className="w-full max-w-sm text-center">
-        <h1 className="font-brand text-2xl font-semibold">Join Sansita's Puzzles</h1>
+        <h1 className="font-brand text-2xl font-semibold">
+          {previewName ? `Join "${previewName}"` : "Join Sansita's Puzzles"}
+        </h1>
         <p className="mt-2 text-sm text-brand-muted">
           You're signed in. Enter your invite code and pick a name to start playing.
         </p>
@@ -70,9 +144,10 @@ export function Join() {
             maxLength={30}
             value={name}
             onChange={(e) => setName(e.target.value)}
-            placeholder="e.g. Sansita"
+            placeholder="Your name"
             className="rounded-brand-sm border border-brand-border bg-brand-surface p-2 text-brand-fg outline-none focus:ring-2 focus:ring-brand-accent"
           />
+          <p className="text-xs text-brand-muted">Shown to your groups and the site-wide leaderboard.</p>
         </div>
         <div className="flex flex-col gap-1 text-left">
           <label htmlFor="join-code" className="text-sm font-medium text-brand-fg">
@@ -85,7 +160,6 @@ export function Join() {
             required
             value={code}
             onChange={(e) => setCode(e.target.value)}
-            placeholder="e.g. sunflower-23"
             aria-invalid={error ? true : undefined}
             aria-describedby={error ? "join-error" : undefined}
             className="rounded-brand-sm border border-brand-border bg-brand-surface p-2 text-brand-fg outline-none focus:ring-2 focus:ring-brand-accent"

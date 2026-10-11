@@ -6,6 +6,8 @@ import { Hub } from "./pages/Hub";
 import { SignIn } from "./pages/SignIn";
 import { Join } from "./pages/Join";
 import { Profile } from "./pages/Profile";
+import { Groups } from "./pages/Groups";
+import { Leaderboard } from "./pages/Leaderboard";
 import { Finale } from "./pages/Finale";
 import { DevThemes } from "./pages/DevThemes";
 
@@ -52,6 +54,8 @@ export const routes: RouteObject[] = [
   { path: "/signin", element: <SignIn /> },
   { path: "/join", element: <Join /> },
   { path: "/profile", element: <RequireMember><Profile /></RequireMember> },
+  { path: "/groups", element: <RequireMember><Groups /></RequireMember> },
+  { path: "/leaderboard", element: <RequireMember><Leaderboard /></RequireMember> },
   { path: "/finale", element: <RequireMember><Finale /></RequireMember> },
   ...gameRoutes(),
   ...(import.meta.env.DEV ? [{ path: "/dev/themes", element: <DevThemes /> }] : []),

@@ -7,6 +7,8 @@ import { dataSource } from "../lib/data";
 import { todayKey, dayIndex } from "../lib/daily";
 import { BIRTHDAY } from "../config";
 import { useAuth } from "../lib/auth";
+import { useActiveGroup } from "../lib/groups";
+import { useLeaderboard } from "../lib/hooks";
 import type { FinaleMessage, PlayStatus } from "../lib/data/types";
 
 type HubStatus = PlayStatus | "none";
@@ -136,6 +138,8 @@ export function Hub() {
           </p>
         </div>
 
+        <LeaderboardCard />
+
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4">
           {gameMetas.map((meta, i) => {
             const badge = STATUS_BADGE[statusByGame[meta.id] ?? "none"];
@@ -179,5 +183,36 @@ export function Hub() {
         </div>
       </main>
     </div>
+  );
+}
+
+/** Today's rank in the active group, linking through to the full /leaderboard page. Stays quiet
+ *  (renders nothing) rather than showing an empty state while nothing's loaded yet. */
+function LeaderboardCard() {
+  const { activeGroupId, activeGroup, loading: groupLoading } = useActiveGroup();
+  const { rows, loading } = useLeaderboard("group", { groupId: activeGroupId ?? undefined, period: "day" });
+
+  if (groupLoading || loading || !activeGroup) return null;
+  const mine = rows.find((r) => r.isMe);
+
+  return (
+    <Link
+      to="/leaderboard"
+      className="mb-6 flex items-center justify-between gap-3 rounded-brand-lg border border-brand-border bg-brand-surface px-4 py-3 shadow-brand-sm transition-[transform,box-shadow] duration-brand-base ease-brand hover:-translate-y-0.5 hover:shadow-brand-md"
+    >
+      <span className="min-w-0">
+        <span className="block font-brand text-sm font-semibold text-brand-fg">
+          🏆 {activeGroup.name} leaderboard
+        </span>
+        <span className="block text-xs text-brand-muted">
+          {mine
+            ? `You're #${mine.rank} today with ${mine.points} point${mine.points === 1 ? "" : "s"}`
+            : "See how everyone's doing today"}
+        </span>
+      </span>
+      <span aria-hidden className="shrink-0 text-brand-muted">
+        →
+      </span>
+    </Link>
   );
 }

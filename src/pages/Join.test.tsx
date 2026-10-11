@@ -7,9 +7,10 @@ import { Join } from "./Join";
 
 (globalThis as { IS_REACT_ACT_ENVIRONMENT?: boolean }).IS_REACT_ACT_ENVIRONMENT = true;
 
-const { statusRef, joinWithInvite } = vi.hoisted(() => ({
+const { statusRef, joinWithInvite, dataSourceMock } = vi.hoisted(() => ({
   statusRef: { current: "signed-in-not-member" as AuthStatus },
   joinWithInvite: vi.fn(),
+  dataSourceMock: { previewGroup: vi.fn(), joinGroup: vi.fn() },
 }));
 
 // Real saveInviteCode/readInviteCode/clearInviteCode (they only touch localStorage) stay intact;
@@ -21,6 +22,11 @@ vi.mock("../lib/auth", async (importOriginal) => {
     useAuth: () => ({ status: statusRef.current, joinWithInvite }),
   };
 });
+
+// previewGroup/joinGroup are the only DataSource calls Join.tsx makes directly (everything else
+// goes through useAuth().joinWithInvite, mocked above) — stubbed so these tests don't depend on
+// local.ts's fake fixture data.
+vi.mock("../lib/data", () => ({ dataSource: dataSourceMock }));
 
 let container: HTMLDivElement;
 let root: Root;
@@ -90,6 +96,8 @@ async function flush() {
 
 beforeEach(() => {
   joinWithInvite.mockReset();
+  dataSourceMock.previewGroup.mockReset().mockResolvedValue(null);
+  dataSourceMock.joinGroup.mockReset();
   statusRef.current = "signed-in-not-member";
   localStorage.clear();
   container = document.createElement("div");
@@ -204,10 +212,32 @@ describe("Join", () => {
     expect(localStorage.getItem("sansitas-puzzles:invite-code")).toBe("sunflower-23");
   });
 
-  it("when already a member, redirects straight to the hub", async () => {
+  it("when already a member with no code, redirects straight to the hub", async () => {
     statusRef.current = "member";
-    await renderJoin(["/join?code=sunflower-23"]);
+    await renderJoin(["/join"]);
 
+    expect(container.querySelector("[data-testid=landing]")?.textContent).toBe("/");
+  });
+
+  it("when already a member with a code, previews and offers to join that extra group", async () => {
+    statusRef.current = "member";
+    dataSourceMock.previewGroup.mockResolvedValue({ id: "g2", name: "Book Club" });
+    await renderJoin(["/join?code=book-club-07"]);
+    await act(async () => {
+      await flush();
+    });
+
+    expect(container.textContent).toContain('Join "Book Club"?');
+
+    dataSourceMock.joinGroup.mockResolvedValue({ id: "g2", name: "Book Club" });
+    await act(async () => {
+      container.querySelector("form")!.dispatchEvent(
+        new Event("submit", { bubbles: true, cancelable: true }),
+      );
+      await flush();
+    });
+
+    expect(dataSourceMock.joinGroup).toHaveBeenCalledWith("book-club-07");
     expect(container.querySelector("[data-testid=landing]")?.textContent).toBe("/");
   });
 });
