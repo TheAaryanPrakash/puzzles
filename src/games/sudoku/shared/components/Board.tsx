@@ -125,6 +125,10 @@ export function Board({
               style={{
                 borderRightWidth: boxEdgeRight ? "2.5px" : "0.5px",
                 borderBottomWidth: boxEdgeBottom ? "2.5px" : "0.5px",
+                // Box dividers read as a bold ink line (var(--game-fg)); ordinary cell borders stay
+                // the quieter var(--game-border) set by the shared `border-game-border` class.
+                borderRightColor: boxEdgeRight ? "var(--game-fg)" : undefined,
+                borderBottomColor: boxEdgeBottom ? "var(--game-fg)" : undefined,
               }}
               className={[
                 "relative flex items-center justify-center border-game-border text-[min(4.2vw,1.35rem)] font-semibold outline-none",

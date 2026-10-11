@@ -127,6 +127,10 @@ export default function SudokuGame() {
   useEffect(() => {
     function onKeyDown(e: KeyboardEvent) {
       if (!puzzle || solved || finished) return;
+      // Any open Modal (Help, Result, GameLayout's own Archive/Stats) renders role="dialog" and
+      // moves focus into itself; skip so typing to dismiss it or read it never edits the board
+      // hidden behind it.
+      if (document.querySelector('[role="dialog"]')) return;
       if ((e.key === "z" || e.key === "Z") && (e.ctrlKey || e.metaKey)) {
         e.preventDefault();
         handleUndo();
@@ -174,7 +178,7 @@ export default function SudokuGame() {
               type="button"
               onClick={() => setCheckMistakes((v) => !v)}
               aria-pressed={checkMistakes}
-              className={`rounded-brand-sm border px-2 py-1 text-xs font-semibold transition-colors duration-brand-fast ${
+              className={`rounded-brand-sm border px-2 py-1 text-xs font-semibold outline-none transition-colors duration-brand-fast focus-visible:ring-2 focus-visible:ring-game-accent focus-visible:ring-offset-1 ${
                 checkMistakes
                   ? "border-game-accent text-game-accent"
                   : "border-game-border text-game-muted hover:bg-game-surface-2"

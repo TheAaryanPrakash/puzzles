@@ -47,7 +47,7 @@ export function NumberPad({
               onClick={() => onNumber(value)}
               whileTap={disabled || complete ? undefined : tap}
               aria-label={`Enter ${value}${notesMode ? " as a note" : ""}`}
-              className="flex h-11 min-w-11 items-center justify-center rounded-brand-sm border border-game-border bg-game-surface text-lg font-semibold text-game-fg transition-colors duration-brand-fast hover:bg-game-surface-2 disabled:opacity-30"
+              className="flex h-11 min-w-11 items-center justify-center rounded-brand-sm border border-game-border bg-game-surface text-lg font-semibold text-game-fg outline-none transition-colors duration-brand-fast hover:bg-game-surface-2 focus-visible:ring-2 focus-visible:ring-game-accent focus-visible:ring-offset-1 disabled:opacity-30"
             >
               {value}
             </motion.button>
@@ -62,7 +62,7 @@ export function NumberPad({
           whileTap={tap}
           aria-pressed={notesMode}
           aria-label="Notes mode"
-          className={`flex h-11 flex-1 items-center justify-center gap-2 rounded-brand-sm border px-3 text-sm font-semibold transition-colors duration-brand-fast ${
+          className={`flex h-11 flex-1 items-center justify-center gap-2 rounded-brand-sm border px-3 text-sm font-semibold outline-none transition-colors duration-brand-fast focus-visible:ring-2 focus-visible:ring-game-accent focus-visible:ring-offset-1 ${
             notesMode
               ? "border-game-accent bg-game-accent text-game-accent-fg"
               : "border-game-border bg-game-surface text-game-fg hover:bg-game-surface-2"
@@ -76,7 +76,7 @@ export function NumberPad({
           disabled={disabled}
           whileTap={disabled ? undefined : tap}
           aria-label="Erase cell"
-          className="flex h-11 flex-1 items-center justify-center gap-2 rounded-brand-sm border border-game-border bg-game-surface px-3 text-sm font-semibold text-game-fg transition-colors duration-brand-fast hover:bg-game-surface-2 disabled:opacity-30"
+          className="flex h-11 flex-1 items-center justify-center gap-2 rounded-brand-sm border border-game-border bg-game-surface px-3 text-sm font-semibold text-game-fg outline-none transition-colors duration-brand-fast hover:bg-game-surface-2 focus-visible:ring-2 focus-visible:ring-game-accent focus-visible:ring-offset-1 disabled:opacity-30"
         >
           <span aria-hidden>⌫</span> Erase
         </motion.button>
@@ -86,7 +86,7 @@ export function NumberPad({
           disabled={disabled || !canUndo}
           whileTap={disabled || !canUndo ? undefined : tap}
           aria-label="Undo"
-          className="flex h-11 flex-1 items-center justify-center gap-2 rounded-brand-sm border border-game-border bg-game-surface px-3 text-sm font-semibold text-game-fg transition-colors duration-brand-fast hover:bg-game-surface-2 disabled:opacity-30"
+          className="flex h-11 flex-1 items-center justify-center gap-2 rounded-brand-sm border border-game-border bg-game-surface px-3 text-sm font-semibold text-game-fg outline-none transition-colors duration-brand-fast hover:bg-game-surface-2 focus-visible:ring-2 focus-visible:ring-game-accent focus-visible:ring-offset-1 disabled:opacity-30"
         >
           <span aria-hidden>↶</span> Undo
         </motion.button>
