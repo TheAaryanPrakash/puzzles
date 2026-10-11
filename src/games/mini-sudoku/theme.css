@@ -1,24 +1,27 @@
-/* Pastel mini sudoku: soft lilac/pink, big rounded cells, friendly rounded Nunito — a pocket-sized,
-   playful counterpart to the full-size paper sudoku. */
+/* Pastel mini sudoku: soft magenta-pink, big rounded cells, friendly rounded Nunito — a
+   pocket-sized, playful counterpart to the full-size paper sudoku. Already close to the family's
+   softness; mainly nudged the magenta deeper for --game-accent, which [role="gridcell"] renders
+   as text for the selected cell's number and which GameLayout renders as the header-hover/
+   archive-link text — the original bright magenta read at ~3:1 against this card's own surfaces. */
 [data-game="mini-sudoku"] {
-  --game-bg: #fdf4fb;
-  --game-fg: #4a3356;
-  --game-surface: #ffffff;
-  --game-surface-2: #f6e9f6;
-  --game-border: #ecd3ea;
-  --game-accent: #c15fb0;
+  --game-bg: #faf2f7;
+  --game-fg: #462a3d;
+  --game-surface: #fdfcfd;
+  --game-surface-2: #f2deeb;
+  --game-border: #e3c9db;
+  --game-accent: #9b3b7b;
   --game-accent-fg: #ffffff;
-  --game-muted: #9b7fa6;
+  --game-muted: #845875;
   --game-font: "Nunito", sans-serif;
 
   --tile-radius: 0.9rem;
-  --tile-empty: #ffffff;
-  --tile-filled: #f0e0f6;
-  --tile-fg: #4a3356;
-  --tile-selected: #c15fb0;
-  --tile-correct: #7fc9a6;
-  --tile-present: #f3c969;
-  --tile-absent: #c9bcd1;
+  --tile-empty: #fdfcfd;
+  --tile-filled: #f2deeb;
+  --tile-fg: #462a3d;
+  --tile-selected: #9b3b7b;
+  --tile-correct: #7cc09e;
+  --tile-present: #dabf81;
+  --tile-absent: #cdc1c9;
 }
 
 /* Rounder cells and a chunkier board grid than the full-size sudoku, to read as a smaller, softer

@@ -7,7 +7,7 @@ export const WORD_LENGTH = 5;
  * because `ResultModal` renders through a `createPortal` outside `[data-game="quordle"]` — CSS
  * custom properties scoped to that selector don't reach portaled content, so anything drawn inside
  * the result modal (e.g. the win recap) needs the color as a plain value, not a `var()` lookup. */
-export const BOARD_COLORS = ["#6a5acd", "#228175", "#cb4a27", "#966c24"] as const;
+export const BOARD_COLORS = ["#5144a7", "#2d766f", "#b43f2d", "#726a18"] as const;
 /** Quordle's shared guess budget: boards + 5, the formula every multi-board Wordle variant uses
  * (see RESEARCH.md) — enough slack to solve 4 words without needing to play perfectly. */
 export const MAX_GUESSES = BOARD_COUNT + 5;

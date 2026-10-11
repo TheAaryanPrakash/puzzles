@@ -1,38 +1,42 @@
+/* Soft tangerine: a step more orange/yellow than the site's pink hue so the two don't blur
+   together on the hub. --game-accent is darkened off the tangerine until it cleared 4.5:1 as
+   text (header hover/archive link, via GameLayout); the pastel round circles stay light and airy
+   since they only ever carry --game-fg text, not accent text. */
 [data-game="digits"] {
-  --game-bg: #fdf3ee;
-  --game-fg: #3a2b24;
-  --game-surface: #ffffff;
-  --game-surface-2: #fbe8de;
-  --game-border: #f0d7c8;
-  --game-accent: #e8795a;
+  --game-bg: #fbf6f1;
+  --game-fg: #352b22;
+  --game-surface: #fdfcfc;
+  --game-surface-2: #f5e7db;
+  --game-border: #e7d5c6;
+  --game-accent: #9c581c;
   --game-accent-fg: #ffffff;
-  --game-muted: #9c8577;
+  --game-muted: #7a6552;
   --game-font: "Libre Franklin", sans-serif;
 
   /* Kept at their brand.css defaults — Digits doesn't have Wordle-style letter feedback, but the
      tokens stay defined so nothing that reads them (e.g. a future shared component) breaks. */
-  --tile-correct: #6aaa64;
-  --tile-present: #c9b458;
-  --tile-absent: #787c7e;
+  --tile-correct: #367846;
+  --tile-present: #8a6a28;
+  --tile-absent: #6d757e;
 
   /* One pastel per round (1-indexed via [data-round]) for the "pastel circles" board — chosen with
      enough contrast against --game-fg for AA on body text at the tile's size (checked with
      web-design-guidelines). */
-  --digits-round-1: #ffd9e6;
-  --digits-round-2: #d6f0e3;
-  --digits-round-3: #d8e6ff;
-  --digits-round-4: #fff0c2;
-  --digits-round-5: #e7dcff;
+  --digits-round-1: #f1d0d5;
+  --digits-round-2: #d0f1e0;
+  --digits-round-3: #d0e3f1;
+  --digits-round-4: #f1e9d0;
+  --digits-round-5: #ded0f1;
 
-  --digits-tile-fg: #3a2b24;
-  --digits-tile-border: rgba(58, 43, 36, 0.12);
-  --digits-tile-selected: #e8795a;
+  --digits-tile-fg: #352b22;
+  --digits-tile-border: rgba(53, 43, 34, 0.12);
+  --digits-tile-selected: #9c581c;
   --digits-tile-selected-fg: #ffffff;
   --digits-tile-disabled: #efe6df;
 
-  --digits-op-bg: #3a2b24;
+  --digits-op-bg: #352b22;
   --digits-op-fg: #ffffff;
-  --digits-op-selected: #e8795a;
+  --digits-op-selected: #9c581c;
 }
 
 [data-game="digits"] [data-round="1"] {

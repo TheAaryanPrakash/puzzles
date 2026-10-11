@@ -1,22 +1,30 @@
+/* Exception within an exception: Globle keeps the night-globe darkness — softening it toward a
+   light pastel would wreck the "warm heat scale glowing on a dark globe" effect the original
+   relies on — but the deep crimson accent measured only ~2.9:1 as text against its own dark
+   surfaces (the header-hover/archive-link text every game renders via GameLayout, and the ring
+   focus color), a pre-existing gap. Brightened to a warm coral-red that clears 4.5:1 both as that
+   text AND with dark-navy text for its own background usage (so --game-accent-fg flips to the
+   ocean navy here, not white). See logic.ts for the heat-scale gradient itself (FAR_COLOR →
+   CLOSE_COLOR → SOLVED_COLOR), softened to match and re-checked for colour-blind separation. */
 [data-game="globle"] {
-  --game-bg: #0b1026;
+  --game-bg: #12172b;
   --game-fg: #eef1ff;
-  --game-surface: #121935;
-  --game-surface-2: #1a2347;
-  --game-border: #2a3566;
-  --game-accent: #c41426;
-  --game-accent-fg: #ffffff;
-  --game-muted: #8793c7;
+  --game-surface: #171d38;
+  --game-surface-2: #1f2744;
+  --game-border: #323c6c;
+  --game-accent: #e46772;
+  --game-accent-fg: #12172b;
+  --game-muted: #93a0d2;
   --game-font: "Space Grotesk", sans-serif;
 
-  --tile-correct: #2ee6a6;
-  --tile-present: #ef8354;
-  --tile-absent: #2a3566;
+  --tile-correct: #5fd9ab;
+  --tile-present: #c8404c;
+  --tile-absent: #323c6c;
 
   /* Globle-specific tokens, consumed by Globe.tsx/logic.ts's color helpers and components. */
-  --globle-ocean: #0b1026;
-  --globle-unguessed: #16213f;
-  --globle-graticule: #1f2a52;
-  --globle-outline: #0b1026;
-  --globle-glow: 0 0 18px rgba(196, 20, 38, 0.45);
+  --globle-ocean: #12172b;
+  --globle-unguessed: #1a2140;
+  --globle-graticule: #2b3350;
+  --globle-outline: #12172b;
+  --globle-glow: 0 0 18px rgba(228, 103, 114, 0.45);
 }

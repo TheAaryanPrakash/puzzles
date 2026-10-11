@@ -1,24 +1,24 @@
 /* Paper-white sudoku: ink-blue entries on a cream paper surface, serif headline + mono digits —
-   evokes a printed newspaper puzzle page. */
+   evokes a printed newspaper puzzle page. Softened: warmer paper, a touch more lift in the ink. */
 [data-game="sudoku"] {
-  --game-bg: #faf7f0;
-  --game-fg: #1f2733;
-  --game-surface: #fffdf8;
-  --game-surface-2: #f0ebdd;
-  --game-border: #d8cfb8;
-  --game-accent: #1e3a8a;
+  --game-bg: #f9f7f3;
+  --game-fg: #38301e;
+  --game-surface: #fdfdfc;
+  --game-surface-2: #efeae1;
+  --game-border: #dcd5c6;
+  --game-accent: #324b85;
   --game-accent-fg: #ffffff;
-  --game-muted: #6b6456;
+  --game-muted: #736957;
   --game-font: "Source Serif 4", serif;
 
   --tile-radius: 0.25rem;
-  --tile-empty: #fffdf8;
-  --tile-filled: #efe9da;
-  --tile-fg: #1f2733;
-  --tile-selected: #1e3a8a;
-  --tile-correct: #1e3a8a;
-  --tile-present: #c9b458;
-  --tile-absent: #787c7e;
+  --tile-empty: #fdfdfc;
+  --tile-filled: #efeae1;
+  --tile-fg: #38301e;
+  --tile-selected: #324b85;
+  --tile-correct: #324b85;
+  --tile-present: #8a6a28;
+  --tile-absent: #6d757e;
 }
 
 [data-game="sudoku"] .font-mono-ink {

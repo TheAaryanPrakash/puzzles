@@ -1,25 +1,27 @@
 /* Terracotta + indigo on cream — warm, earthy, with indigo reserved for the signature accent
    (the guessed-state pin color and the won state). Poppins for a geometric, friendly display face.
-   Palette checked against ui-ux-pro-max's color domain for contrast (see RESEARCH.md). */
+   Softened and pulled a touch further from the site's own pink hue (14°) toward a deeper rust
+   (16°, lower/darker) so States doesn't blur into the hub chrome. */
 [data-game="states"] {
-  --game-bg: #fbf1e2;
-  --game-fg: #3a2a1f;
-  --game-surface: #ffffff;
-  --game-surface-2: #f3e3cd;
-  --game-border: #e3cdab;
-  --game-accent: #b5542e;
+  --game-bg: #f8f3ef;
+  --game-fg: #392c22;
+  --game-surface: #fdfcfc;
+  --game-surface-2: #efe4dc;
+  --game-border: #e0cec2;
+  --game-accent: #a24e2f;
   --game-accent-fg: #ffffff;
-  --game-muted: #8a6f58;
+  --game-muted: #786254;
   --game-font: "Poppins", sans-serif;
 
-  --tile-correct: #4c6b4f;
+  --tile-correct: #40775c;
   --tile-present: #c99a3b;
   --tile-absent: #8a7f70;
 
-  /* Game-specific tokens (not in the shared token set — scoped under this selector only). */
-  --states-indigo: #3f3d82;
+  /* Game-specific tokens (not in the shared token set — scoped under this selector only). SVG
+     fills, not text, so not AA-checked the way --game-accent is. */
+  --states-indigo: #474280;
   --states-indigo-fg: #ffffff;
-  --states-silhouette: #c9793f;
-  --states-silhouette-won: #4c6b4f;
-  --states-silhouette-lost: #8a5a3f;
+  --states-silhouette: #be6d37;
+  --states-silhouette-won: #40775c;
+  --states-silhouette-lost: #855847;
 }

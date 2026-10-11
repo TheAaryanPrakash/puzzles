@@ -5,6 +5,6 @@ export const meta: GameMeta = {
   title: "Quordle",
   order: 2,
   tagline: "Four Wordles, nine shared guesses",
-  hubAccent: "#6a5acd",
+  hubAccent: "#5144a7",
   font: "Libre Franklin",
 };

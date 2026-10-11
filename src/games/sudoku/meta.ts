@@ -5,6 +5,6 @@ export const meta: GameMeta = {
   title: "Sudoku",
   order: 5,
   tagline: "Fill the grid — every row, column and box, 1 to 9",
-  hubAccent: "#1e3a8a",
+  hubAccent: "#324b85",
   font: "Source Serif 4",
 };

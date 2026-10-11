@@ -5,6 +5,6 @@ export const meta: GameMeta = {
   title: "Mini Sudoku",
   order: 6,
   tagline: "A pocket-sized sudoku — 6x6, every row, column and box 1 to 6",
-  hubAccent: "#d46ab4",
+  hubAccent: "#9b3b7b",
   font: "Nunito",
 };

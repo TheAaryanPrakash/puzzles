@@ -1,19 +1,27 @@
-/* Flagle — neutral/slate palette so the flags themselves stay the colour story; one blue accent
-   for the input/focus states and "close" guesses. Inter throughout, per the task. */
+/* Flagle — kept close to its current neutral/slate palette: softening it toward the family's
+   warm pastels would mean tinting the backdrop, and every guessed flag already drops its own
+   colour onto that backdrop, so a neutral slate stays the one choice where the flag is reliably
+   the only strong colour on the page (see docs/theme/README.md). Two small AA fixes: --game-muted
+   darkened a touch (it was 4.2:1 on --game-bg, under the 4.5:1 floor) and --game-surface-2
+   lightened a touch (the accent was 4.19:1 against it as the header-hover/archive-link text every
+   game renders via GameLayout — see "the {} gotcha" style cross-game note in GameLayout.tsx). */
 [data-game="flagle"] {
   --game-bg: #eef1f5;
   --game-fg: #1e293b;
   --game-surface: #ffffff;
-  --game-surface-2: #e2e8f0;
+  --game-surface-2: #edf0f4;
   --game-border: #cbd5e1;
   --game-accent: #2563eb;
   --game-accent-fg: #ffffff;
-  --game-muted: #64748b;
+  --game-muted: #5a697f;
   --game-font: "Inter", sans-serif;
 
   /* Repurposed for per-guess-row geo feedback, not letter states: correct = the actual country,
-     present = "close" (>=60% proximity), absent = everything further away. */
-  --tile-correct: #16a34a;
-  --tile-present: #c08a1e;
+     present = "close" (>=60% proximity), absent = everything further away (not actually rendered
+     today — GuessHistory.tsx falls back to --game-border/--game-surface past "close"). Darkened
+     off the original green since GuessHistory.tsx renders a "Correct! 🎯" label in --tile-correct
+     text, which measured 2.9:1 against --game-bg before (own hue kept, just deeper). */
+  --tile-correct: #117e39;
+  --tile-present: #966c17;
   --tile-absent: #94a3b8;
 }

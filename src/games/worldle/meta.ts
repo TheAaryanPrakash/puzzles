@@ -5,6 +5,6 @@ export const meta: GameMeta = {
   title: "Worldle",
   order: 9,
   tagline: "Guess the country from its silhouette",
-  hubAccent: "#3f6b5e",
+  hubAccent: "#2b735b",
   font: "Inter",
 };

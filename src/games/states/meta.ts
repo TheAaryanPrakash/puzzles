@@ -5,6 +5,6 @@ export const meta: GameMeta = {
   title: "States",
   order: 14,
   tagline: "Guess the Indian state or UT from its silhouette",
-  hubAccent: "#B5542E",
+  hubAccent: "#be6d37",
   font: "Poppins",
 };

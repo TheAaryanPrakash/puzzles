@@ -5,6 +5,6 @@ export const meta: GameMeta = {
   title: "Travle",
   order: 12,
   tagline: "Chart a land route from one country to another",
-  hubAccent: "#4f7a8c",
+  hubAccent: "#356e82",
   font: "Inter",
 };

@@ -5,6 +5,6 @@ export const meta: GameMeta = {
   title: "Connections",
   order: 6,
   tagline: "Group the sixteen words into four",
-  hubAccent: "#dca52e",
+  hubAccent: "#c8a641",
   font: "Libre Franklin",
 };

@@ -5,8 +5,8 @@ import { checkpointAt, type Cell, type ZipPuzzle } from "../logic";
 // Keep these two in sync with theme.css's --zip-path-start/--zip-path-end: SVG `stroke` can't
 // portably resolve a gradient-along-a-path from a CSS custom property, so the tube's color is
 // interpolated here in JS instead.
-const PATH_START = [0xef, 0x83, 0x54]; // #ef8354
-const PATH_END = [0x7c, 0x5c, 0xbf]; // #7c5cbf
+const PATH_START = [0xe7, 0xa5, 0x40]; // #e7a540
+const PATH_END = [0x87, 0x60, 0xbe]; // #8760be
 const STROKE_WIDTH = 0.26;
 
 function pathColorAt(t: number): string {

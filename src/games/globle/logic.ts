@@ -51,12 +51,14 @@ export function closestSoFar(state: GlobleState): GlobleGuess[] {
     .map(({ g }) => g);
 }
 
-const FAR_COLOR = { r: 255, g: 232, b: 186 }; // pale warm gold — "far"
-const CLOSE_COLOR = { r: 196, g: 20, b: 38 }; // deep warm red — "close"
-/** Distinct from the warm scale so a correct guess doesn't read as merely "very close". */
-export const SOLVED_COLOR = "#2ee6a6";
+const FAR_COLOR = { r: 247, g: 227, b: 196 }; // pale warm gold — "far"
+const CLOSE_COLOR = { r: 200, g: 64, b: 76 }; // soft deep red — "close"
+/** Distinct from the warm scale so a correct guess doesn't read as merely "very close" — kept a
+ * true mint-green (not nudged toward the red/gold scale) so it stays a different hue family under
+ * protanopia/deuteranopia simulation too, not just a different lightness. */
+export const SOLVED_COLOR = "#5fd9ab";
 /** Country never guessed — a faint tint of the globe's own surface, not part of the warm scale. */
-export const UNGUESSED_COLOR = "#16213f";
+export const UNGUESSED_COLOR = "#1a2140";
 
 function lerp(a: number, b: number, t: number): number {
   return Math.round(a + (b - a) * t);

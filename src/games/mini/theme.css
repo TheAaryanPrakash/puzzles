@@ -1,27 +1,30 @@
-/* Mini crossword — classic newspaper look: crisp white grid, ink-black blocks, no frills. */
+/* Mini crossword — classic newspaper look, softened off the pink site bg into its own warm
+   near-neutral so the paper still reads as paper. The ink block stays near-black (just warm, not
+   jet) and the accent is a quiet ink-blue — same role the original's near-black accent played,
+   now distinct enough from pure neutral to serve as the game's own hue on the hub. */
 [data-game="mini"] {
-  --game-bg: var(--brand-bg);
-  --game-fg: var(--brand-fg);
+  --game-bg: #f8f7f6;
+  --game-fg: #272421;
   --game-surface: #ffffff;
-  --game-surface-2: var(--brand-surface-2);
-  --game-border: #c9c2b4;
-  --game-accent: #1f2937;
+  --game-surface-2: #f4f2f1;
+  --game-border: #d9d6d3;
+  --game-accent: #324b67;
   --game-accent-fg: #ffffff;
-  --game-muted: var(--brand-muted);
+  --game-muted: #756c64;
   --game-font: "Libre Franklin", sans-serif;
 
   --tile-empty: #ffffff;
   --tile-filled: #ffffff;
-  --tile-selected: #ffe9a8;
-  --tile-correct: #4caf7d;
-  --tile-present: #c9b458;
-  --tile-absent: #787c7e;
+  --tile-selected: #f5dfa0;
+  --tile-correct: #367846;
+  --tile-present: #8a6a28;
+  --tile-absent: #6d757e;
 
   /* Mini-only tokens (not part of the shared tile/game set — plain CSS, not Tailwind utilities). */
-  --mini-black: #1b1b1b;
-  --mini-word: #d8ebff;
-  --mini-wrong: #f6c6c2;
-  --mini-number: #6b7280;
+  --mini-black: #2a2420;
+  --mini-word: #dde3f5;
+  --mini-wrong: #f3d3cf;
+  --mini-number: #746c63;
 }
 
 .mini-board {

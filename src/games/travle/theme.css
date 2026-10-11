@@ -1,23 +1,27 @@
+/* Soft sea-teal, warmed off a colder slate blue. --tile-absent ("unconnected") deliberately leans
+   cooler/slate rather than the family's usual warm neutral: a warm tan read too close to the
+   green "on-path" tile under a protanopia/deuteranopia simulation, and this map is sea/teal
+   themed anyway, so a cool slate still belongs (see docs/theme/README.md). */
 [data-game="travle"] {
-  --game-bg: #e8f1f4;
-  --game-fg: #223034;
-  --game-surface: #ffffff;
-  --game-surface-2: #f3f8fa;
-  --game-border: #cfe0e5;
-  --game-accent: #4f7a8c;
+  --game-bg: #f0f5f8;
+  --game-fg: #212d31;
+  --game-surface: #fcfdfd;
+  --game-surface-2: #e1ebef;
+  --game-border: #c4d7de;
+  --game-accent: #356e82;
   --game-accent-fg: #ffffff;
-  --game-muted: #647a80;
+  --game-muted: #556c75;
   --game-font: "Inter", sans-serif;
 
   /* Reused for the 3-tier guess classification (see logic.ts's GuessCategory). */
-  --tile-correct: #4f8f6a; /* on-path */
-  --tile-present: #d79b3b; /* adjacent */
-  --tile-absent: #b9a98d; /* unconnected — same family as land, just a guess "used up" */
+  --tile-correct: #317252; /* on-path */
+  --tile-present: #866327; /* adjacent */
+  --tile-absent: #5a7887; /* unconnected */
 
   /* Map-only tokens: muted atlas palette, not part of the frozen --game- / --tile- set. */
-  --travle-sea: #bcdce6;
+  --travle-sea: #c3dfe6;
   --travle-land: #ecdfc4;
   --travle-land-border: #d8c9a8;
-  --travle-start: #d2603a;
-  --travle-end: #2b6f77;
+  --travle-start: #c6633f;
+  --travle-end: #2e6b73;
 }

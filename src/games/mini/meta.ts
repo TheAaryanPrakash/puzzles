@@ -5,6 +5,6 @@ export const meta: GameMeta = {
   title: "Mini Crossword",
   order: 7,
   tagline: "A tiny crossword, fresh every day",
-  hubAccent: "#2b2320",
+  hubAccent: "#2a2420",
   font: "Libre Franklin",
 };

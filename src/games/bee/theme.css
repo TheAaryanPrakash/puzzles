@@ -1,24 +1,29 @@
+/* Soft hive: a honey-cream page instead of the pink site bg, so Bee reads apart from the hub.
+   --game-accent is a deep honey — darkened off the bright hive yellow until it cleared 4.5:1 as
+   text (the header hover/archive-link text everygame renders via GameLayout); the hive hexagons
+   themselves use their own --bee-center-bg, which stays a bright, soft sunflower yellow since it's
+   only ever a background behind dark text, never text itself. */
 [data-game="bee"] {
-  --game-bg: var(--brand-bg);
-  --game-fg: #2b2320;
-  --game-surface: #ffffff;
-  --game-surface-2: #f5f3ec;
-  --game-border: #e4e1d6;
-  --game-accent: #f7da21;
-  --game-accent-fg: #2b2320;
-  --game-muted: var(--brand-muted);
+  --game-bg: #faf8f2;
+  --game-fg: #312e21;
+  --game-surface: #fdfdfc;
+  --game-surface-2: #f2edd9;
+  --game-border: #e3dcbf;
+  --game-accent: #7c660e;
+  --game-accent-fg: #ffffff;
+  --game-muted: #736b4c;
   --game-font: "Libre Franklin", sans-serif;
 
-  --tile-correct: #4caf7d;
-  --tile-present: #c9b458;
-  --tile-absent: #787c7e;
+  --tile-correct: #367846;
+  --tile-present: #8a6a28;
+  --tile-absent: #6d757e;
 
   /* ───────────── hive ───────────── */
-  --bee-center-bg: #f7da21;
+  --bee-center-bg: #ebca47;
   --bee-center-fg: #2b2320;
-  --bee-outer-bg: #e6e3da;
+  --bee-outer-bg: #e0dccc;
   --bee-outer-fg: #2b2320;
-  --bee-outer-found-bg: #d3cfc1;
+  --bee-outer-found-bg: #d3cebb;
   --bee-hex-size: 4.5rem;
 }
 

@@ -7,19 +7,23 @@
 
 :root {
   /* ───────────── site tier ───────────── */
-  --brand-bg: #fdf6ec;
+  /* Soft pink built around #E89E88 (H13.8° S68% L72%). Backgrounds/surfaces stay that same soft,
+     barely-tinted blush; --brand-accent is a deeper, more saturated shade of the *same hue* —
+     #E89E88 itself measures ~2:1 against white, far under the 4.5:1 text needs as a link/button
+     color, so buttons/links/text-on-accent use this deeper #b64220 instead (same 13.6° hue,
+     darkened+saturated — see docs/theme/README.md "Site palette"). White text on it is 5.5:1+;
+     the site's old warm-dark accent-fg trick (dark text on a *light* accent) no longer fits once
+     the accent itself is this dark, so accent-fg flips to white here. */
+  --brand-bg: #fdf6f3;
   --brand-fg: #2b2320;
-  --brand-surface: #ffffff;
-  --brand-surface-2: #f6efe3;
-  --brand-border: #e8ddcc;
-  --brand-accent: #ef8354;
-  /* Dark warm text on the light coral accent, not white: ~5.9:1 contrast vs. ~2.6:1 for white
-     on this coral. Keeps the cheerful peachy hue instead of darkening it into burnt orange just
-     to make white text legible — see docs/research/design-system.md "Palette". */
-  --brand-accent-fg: #2b2320;
-  --brand-muted: #6f6355;
+  --brand-surface: #fffdfc;
+  --brand-surface-2: #f3d6ce;
+  --brand-border: #e0b9ae;
+  --brand-accent: #b64220;
+  --brand-accent-fg: #ffffff;
+  --brand-muted: #8a6b5e;
   --brand-success: #357a57;
-  --brand-danger: #d33f38;
+  --brand-danger: #cc3a2e;
 
   --brand-font: "Fredoka", sans-serif;
   --brand-font-body: "Nunito", sans-serif;
@@ -46,7 +50,7 @@
      only: no existing token was renamed or removed. */
   --brand-shadow-sm: 0 1px 2px rgba(43, 35, 32, 0.06), 0 2px 6px rgba(43, 35, 32, 0.05);
   --brand-shadow-md: 0 4px 10px rgba(43, 35, 32, 0.08), 0 10px 24px rgba(43, 35, 32, 0.08);
-  --brand-ring: #ef8354;
+  --brand-ring: #b64220;
 
   /* ───────────── game tier (defaults; each game overrides under [data-game]) ───────────── */
   --game-bg: var(--brand-bg);

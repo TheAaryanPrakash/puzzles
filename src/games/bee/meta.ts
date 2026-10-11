@@ -5,6 +5,6 @@ export const meta: GameMeta = {
   title: "Spelling Bee",
   order: 3,
   tagline: "Find words that use the center letter",
-  hubAccent: "#f7da21",
+  hubAccent: "#ebca47",
   font: "Libre Franklin",
 };

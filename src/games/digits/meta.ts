@@ -5,6 +5,6 @@ export const meta: GameMeta = {
   title: "Digits",
   order: 5,
   tagline: "Hit the target with + − × ÷",
-  hubAccent: "#f4a896",
+  hubAccent: "#9c581c",
   font: "Libre Franklin",
 };

@@ -5,6 +5,6 @@ export const meta: GameMeta = {
   title: "Zip",
   order: 9,
   tagline: "Draw one path through every cell, in order",
-  hubAccent: "#ef8354",
+  hubAccent: "#e7a540",
   font: "Nunito",
 };
