@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "center": "A",
+    "outer": [
+      "B",
+      "C",
+      "D",
+      "H",
+      "K",
+      "R"
+    ],
+    "answers": [
+      "ABACK",
+      "ABBA",
+      "ARCH",
+      "BABA",
+      "BACH",
+      "BACK",
+      "BARB",
+      "BARD",
+      "BARK",
+      "BARRACK",
+      "BRAD",
+      "CARB",
+      "CARD",
+      "CARR",
+      "CHAD",
+      "CHAKRA",
+      "CHAR",
+      "CRAB",
+      "CRACK",
+      "DADA",
+      "DARK",
+      "DRAB",
+      "HACK",
+      "HAHA",
+      "HARD",
+      "HARDBACK",
+      "HARK",
+      "RACK",
+      "RADAR"
+    ],
+    "pangrams": [
+      "HARDBACK"
+    ],
+    "maxScore": 66
+  },
+  "reserve": null
+}

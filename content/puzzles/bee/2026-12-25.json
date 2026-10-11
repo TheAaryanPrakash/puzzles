@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "center": "L",
+    "outer": [
+      "B",
+      "C",
+      "I",
+      "P",
+      "U",
+      "Y"
+    ],
+    "answers": [
+      "BILL",
+      "BILLY",
+      "BLIP",
+      "BUBBLY",
+      "BULB",
+      "BULL",
+      "BULLY",
+      "CLIP",
+      "CLUB",
+      "CULL",
+      "CYCLIC",
+      "LILY",
+      "LULL",
+      "LULU",
+      "PILL",
+      "PUBLIC",
+      "PUBLICLY",
+      "PULL",
+      "PULP",
+      "PUPIL"
+    ],
+    "pangrams": [
+      "PUBLICLY"
+    ],
+    "maxScore": 61
+  },
+  "reserve": null
+}

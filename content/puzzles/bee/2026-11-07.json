@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "center": "C",
+    "outer": [
+      "E",
+      "H",
+      "K",
+      "O",
+      "T",
+      "U"
+    ],
+    "answers": [
+      "CHECK",
+      "CHECKOUT",
+      "CHEEK",
+      "CHOCK",
+      "CHOKE",
+      "CHUCK",
+      "CHUTE",
+      "COCO",
+      "COKE",
+      "COOK",
+      "COTE",
+      "COUCH",
+      "CUCKOO",
+      "CUTE",
+      "CUTOUT",
+      "ECHO",
+      "ETCH",
+      "HECK",
+      "HOCK",
+      "HUCK",
+      "HUTCH",
+      "OUCH",
+      "TOUCH",
+      "TUCK"
+    ],
+    "pangrams": [
+      "CHECKOUT"
+    ],
+    "maxScore": 84
+  },
+  "reserve": null
+}

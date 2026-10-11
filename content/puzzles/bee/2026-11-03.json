@@ -1,0 +1,40 @@
+{
+  "payload": {
+    "center": "A",
+    "outer": [
+      "C",
+      "D",
+      "I",
+      "T",
+      "U",
+      "Y"
+    ],
+    "answers": [
+      "ACACIA",
+      "ACID",
+      "ACIDIC",
+      "ACIDITY",
+      "ACTA",
+      "ACUITY",
+      "ADDICT",
+      "ATTIC",
+      "AUDACITY",
+      "AUDIT",
+      "CACTI",
+      "CADDY",
+      "DADA",
+      "DADDY",
+      "DATA",
+      "DIDACTIC",
+      "TACIT",
+      "TACT",
+      "TACTIC",
+      "TAUT"
+    ],
+    "pangrams": [
+      "AUDACITY"
+    ],
+    "maxScore": 96
+  },
+  "reserve": null
+}

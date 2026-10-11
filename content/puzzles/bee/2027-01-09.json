@@ -1,0 +1,42 @@
+{
+  "payload": {
+    "center": "I",
+    "outer": [
+      "G",
+      "H",
+      "L",
+      "M",
+      "T",
+      "Y"
+    ],
+    "answers": [
+      "GILL",
+      "GILT",
+      "HIGH",
+      "HIGHLIGHT",
+      "HIGHLY",
+      "HILL",
+      "HILLY",
+      "HILT",
+      "LIGHT",
+      "LIGHTLY",
+      "LILY",
+      "LIMIT",
+      "MIGHT",
+      "MIGHTILY",
+      "MIGHTY",
+      "MILL",
+      "MITT",
+      "THIGH",
+      "TIGHT",
+      "TIGHTLY",
+      "TILL",
+      "TILT"
+    ],
+    "pangrams": [
+      "MIGHTILY"
+    ],
+    "maxScore": 90
+  },
+  "reserve": null
+}
