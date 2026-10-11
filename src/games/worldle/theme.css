@@ -1,0 +1,46 @@
+[data-game="worldle"] {
+  --game-bg: #eef1ee;
+  --game-fg: #1f2b26;
+  --game-surface: #f7f9f6;
+  --game-surface-2: #e3e8e1;
+  --game-border: #c9d2c5;
+  --game-accent: #3f6b5e;
+  --game-accent-fg: #ffffff;
+  --game-muted: #6b7a72;
+  --game-font: "Inter", sans-serif;
+
+  /* The silhouette itself: dark, almost-black fill on the light grey/green map surface. */
+  --worldle-silhouette: #22281f;
+  --worldle-silhouette-outline: #0f1310;
+
+  --tile-correct: #3f6b5e;
+  --tile-present: #c9b458;
+  --tile-absent: #9aa49a;
+
+  --worldle-proximity-high: #3f6b5e;
+  --worldle-proximity-mid: #c9a227;
+  --worldle-proximity-low: #d08a3e;
+  --worldle-proximity-cold: #9aa49a;
+}
+
+/* Game-specific classes (not representable as semantic Tailwind utilities — see theme.css note
+   in CLAUDE.md "Design": components reference these classes, never a raw hex value). */
+[data-game="worldle"] .worldle-silhouette path {
+  fill: var(--worldle-silhouette);
+  stroke: var(--worldle-silhouette-outline);
+  stroke-width: 0.75;
+  stroke-linejoin: round;
+}
+
+[data-game="worldle"] .worldle-proximity-high {
+  background: var(--worldle-proximity-high);
+}
+[data-game="worldle"] .worldle-proximity-mid {
+  background: var(--worldle-proximity-mid);
+}
+[data-game="worldle"] .worldle-proximity-low {
+  background: var(--worldle-proximity-low);
+}
+[data-game="worldle"] .worldle-proximity-cold {
+  background: var(--worldle-proximity-cold);
+}
