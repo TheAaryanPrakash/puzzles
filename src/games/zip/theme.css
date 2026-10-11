@@ -1,0 +1,25 @@
+[data-game="zip"] {
+  --game-bg: #faf7f2;
+  --game-fg: #231d1a;
+  --game-surface: #ffffff;
+  --game-surface-2: #f1ece2;
+  --game-border: #e4dbc9;
+  --game-accent: #ef8354;
+  --game-accent-fg: #ffffff;
+  --game-muted: #8a7f70;
+  --game-font: "Nunito", sans-serif;
+
+  --tile-correct: #4caf7d;
+  --tile-present: #c9b458;
+  --tile-absent: #787c7e;
+
+  /* Zip-only tokens: the path's signature orange→purple gradient. Grid.tsx interpolates between
+     these two colors in JS (SVG `stroke` can't reference CSS custom properties portably across
+     browsers for gradients-along-a-path), so keep these two values in sync with the hex constants
+     at the top of components/Grid.tsx if either ever changes. */
+  --zip-path-start: #ef8354;
+  --zip-path-end: #7c5cbf;
+  --zip-checkpoint-bg: #ffffff;
+  --zip-checkpoint-ring: #d8cdb8;
+  --zip-wall: #2f2a26;
+}
