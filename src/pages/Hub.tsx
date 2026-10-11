@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router";
+import { Link, useSearchParams } from "react-router";
 import { motion, useReducedMotion } from "motion/react";
 import { SiteHeader } from "../components/SiteHeader";
 import { gameMetas } from "../routes";
@@ -7,7 +7,7 @@ import { dataSource } from "../lib/data";
 import { todayKey, dayIndex } from "../lib/daily";
 import { BIRTHDAY } from "../config";
 import { useAuth } from "../lib/auth";
-import type { PlayStatus } from "../lib/data/types";
+import type { FinaleMessage, PlayStatus } from "../lib/data/types";
 
 type HubStatus = PlayStatus | "none";
 
@@ -30,8 +30,14 @@ function formatToday(date: string): string {
 export function Hub() {
   const [today] = useState(todayKey);
   const [statusByGame, setStatusByGame] = useState<Record<string, HubStatus>>({});
+  const [message, setMessage] = useState<FinaleMessage | null>(null);
   const { member } = useAuth();
   const reduceMotion = useReducedMotion();
+  const [searchParams] = useSearchParams();
+  // Carries dev's `?date=` override through to /finale (same reasoning as GameLayout's `?day=`
+  // link building): a plain `<Link to="/finale">` would drop it, and todayKey() would revert to
+  // the real date on that page, making an unlocked message look locked again.
+  const finaleHref = searchParams.toString() ? `/finale?${searchParams.toString()}` : "/finale";
 
   useEffect(() => {
     let cancelled = false;
@@ -50,7 +56,21 @@ export function Hub() {
 
   const puzzleNumber = dayIndex(today) + 1;
   const solvedCount = gameMetas.filter((m) => statusByGame[m.id] === "won").length;
-  const isBirthday = today === BIRTHDAY;
+  const isBirthday = today >= BIRTHDAY;
+
+  // Re-checks after every finished game (statusByGame changes whenever a game's status does, and
+  // returning to the Hub after finishing one re-runs the effect above first) — "she doesn't get
+  // spoiled" for the surprise card the same way the friends board works for a puzzle's results.
+  useEffect(() => {
+    if (!isBirthday) return;
+    let cancelled = false;
+    dataSource.getMessage().then((m) => {
+      if (!cancelled) setMessage(m);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [isBirthday, statusByGame]);
 
   return (
     <div className="min-h-screen bg-brand-bg">
@@ -84,6 +104,22 @@ export function Hub() {
             <p className="mt-1 text-sm">
               A whole year of puzzles made just for you. Here’s to today’s round, and many more.
             </p>
+          </motion.div>
+        )}
+
+        {message && (
+          <motion.div
+            initial={reduceMotion ? false : { opacity: 0, scale: 0.96 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ type: "spring", stiffness: 300, damping: 24 }}
+            className="mb-6"
+          >
+            <Link
+              to={finaleHref}
+              className="flex items-center justify-center gap-2 rounded-brand-lg border-2 border-dashed border-brand-accent bg-brand-surface px-5 py-4 text-center font-brand font-semibold text-brand-accent shadow-brand-sm transition-[transform,box-shadow] duration-brand-base ease-brand hover:-translate-y-0.5 hover:shadow-brand-md"
+            >
+              🎁 Open your surprise
+            </Link>
           </motion.div>
         )}
 
