@@ -47,7 +47,10 @@ function firstCursor(puzzle: MiniPuzzle): Cursor {
 export default function MiniGame() {
   const { date, puzzle, reserve, status } = usePuzzle<MiniPuzzle>(meta.id);
   const { play, loading, start, save, finish } = usePlay<MiniState>(meta.id, date);
-  const activePuzzle = play?.variant === "reserve" && reserve ? reserve : puzzle;
+  // Nullable here (`puzzle` isn't narrowed yet) — only for the cursor-reset effect below, which
+  // already guards for null. The non-null `activePuzzle` used everywhere else is declared after
+  // the "missing puzzle" return, where `puzzle`'s narrowing makes it non-null too.
+  const viewedPuzzle = play?.variant === "reserve" && reserve ? reserve : puzzle;
 
   const [cursor, setCursor] = useState<Cursor>({ row: 0, col: 0, direction: "across" });
   // Optimistic, synchronous source of truth for the grid while typing: `play.state.letters`
@@ -71,10 +74,10 @@ export default function MiniGame() {
   // Reset to the puzzle's first entry whenever the viewed day changes (new puzzle object), or
   // the play switches to the reserve puzzle.
   useEffect(() => {
-    if (activePuzzle) setCursor(firstCursor(activePuzzle));
+    if (viewedPuzzle) setCursor(firstCursor(viewedPuzzle));
     setLocalLetters(null);
     startPromiseRef.current = null;
-  }, [activePuzzle, date]);
+  }, [viewedPuzzle, date]);
 
   const over = play ? play.status !== "in_progress" : false;
 
@@ -112,10 +115,8 @@ export default function MiniGame() {
       </GameLayout>
     );
   }
-  // `puzzle` is non-null past the guard above, and the ternary above only ever substitutes a
-  // truthy `reserve`, so `activePuzzle` is non-null here too — this re-narrows it for TypeScript.
-  if (!activePuzzle) return null;
 
+  const activePuzzle = play?.variant === "reserve" && reserve ? reserve : puzzle;
   // See logic.ts's DEFAULT_STATE comment: merge, don't `??`, so the moment right after start()
   // (state === {}) doesn't crash the render.
   const state: MiniState = { ...DEFAULT_STATE, ...play?.state };
