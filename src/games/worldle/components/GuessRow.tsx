@@ -14,9 +14,26 @@ function proximityClass(pct: number): string {
   return "worldle-proximity-cold";
 }
 
+const COMPASS_NAMES = [
+  "north",
+  "northeast",
+  "east",
+  "southeast",
+  "south",
+  "southwest",
+  "west",
+  "northwest",
+];
+
+/** Screen-reader text for a bearing in degrees — the arrow glyph itself is `aria-hidden`. */
+function compassName(deg: number): string {
+  const normalized = ((deg % 360) + 360) % 360;
+  return COMPASS_NAMES[Math.round(normalized / 45) % 8];
+}
+
 export function GuessRow({ feedback, name, index }: GuessRowProps) {
   const reducedMotion = useReducedMotion();
-  const { code, correct, distanceKm, arrow, proximityPct } = feedback;
+  const { code, correct, distanceKm, bearingDeg, arrow, proximityPct } = feedback;
 
   return (
     <motion.li
@@ -35,16 +52,16 @@ export function GuessRow({ feedback, name, index }: GuessRowProps) {
             {Math.round(distanceKm).toLocaleString()} km
           </span>
           <motion.span
-            aria-hidden="true"
             initial={reducedMotion ? false : { scale: 0, rotate: -45 }}
             animate={{ scale: 1, rotate: 0 }}
             transition={{ duration: 0.25, delay: reducedMotion ? 0 : index * 0.03 + 0.1 }}
             className="text-lg"
           >
-            {arrow}
+            <span aria-hidden="true">{arrow}</span>
+            <span className="sr-only">Direction: {compassName(bearingDeg)}</span>
           </motion.span>
           <span
-            className={`flex h-7 w-12 items-center justify-center rounded-brand-sm text-xs font-semibold text-white ${proximityClass(proximityPct)}`}
+            className={`flex h-7 w-12 items-center justify-center rounded-brand-sm text-xs font-semibold ${proximityClass(proximityPct)}`}
           >
             {proximityPct}%
           </span>

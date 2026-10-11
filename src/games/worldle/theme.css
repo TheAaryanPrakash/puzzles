@@ -32,15 +32,23 @@
   stroke-linejoin: round;
 }
 
+/* Text colour per badge is chosen for WCAG AA contrast (>= 4.5:1 at this small, bold
+   size) against that badge's own background — white text on the dark-green "high"
+   badge, dark text on the lighter mid/low/cold badges (white text on those measures
+   ~2.4-2.8:1, well under AA). */
 [data-game="worldle"] .worldle-proximity-high {
   background: var(--worldle-proximity-high);
+  color: #ffffff;
 }
 [data-game="worldle"] .worldle-proximity-mid {
   background: var(--worldle-proximity-mid);
+  color: var(--game-fg);
 }
 [data-game="worldle"] .worldle-proximity-low {
   background: var(--worldle-proximity-low);
+  color: var(--game-fg);
 }
 [data-game="worldle"] .worldle-proximity-cold {
   background: var(--worldle-proximity-cold);
+  color: var(--game-fg);
 }
