@@ -65,7 +65,7 @@ export function isWon(state: BoardState, puzzle: SudokuPuzzle): boolean {
   return isSolved(state.entries, puzzle.solution);
 }
 
-function formatElapsed(seconds: number): string {
+export function formatElapsed(seconds: number): string {
   const m = Math.floor(seconds / 60);
   const s = seconds % 60;
   return `${m}:${String(s).padStart(2, "0")}`;
