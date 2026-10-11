@@ -2,6 +2,13 @@ import { PGlite } from "@electric-sql/pglite";
 // Run: node supabase/tests/schema.test.mjs supabase/migrations/0001_init.sql  (needs @electric-sql/pglite)
 // Applies every *.sql file in that path's directory, in filename order — so a new migration
 // only needs a new file here, never a change to this invocation (package.json's test:db is frozen).
+//
+// The groups migration (0004) is applied partway through this file instead of up front: everything
+// before that point runs the original pre-groups suite almost unchanged, building up a realistic
+// database (members, puzzles, plays, streaks, messages) the way the real site would have one before
+// 0004 ever ran. Only then is 0004 applied, and a further section tests that it migrated that state
+// correctly (the old invite code becomes the first group, keeps working, etc.) plus everything new
+// (other groups, creator-only actions, per-group privacy, points, and the leaderboard).
 import { readFileSync, readdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 
@@ -9,6 +16,12 @@ const db = new PGlite();
 const A = "00000000-0000-0000-0000-00000000000a";
 const B = "00000000-0000-0000-0000-00000000000b";
 const C = "00000000-0000-0000-0000-00000000000c";
+const D = "00000000-0000-0000-0000-00000000000d";
+const E = "00000000-0000-0000-0000-00000000000e";
+const F = "00000000-0000-0000-0000-00000000000f";
+const G = "00000000-0000-0000-0000-000000000010";
+const H = "00000000-0000-0000-0000-000000000011";
+const I = "00000000-0000-0000-0000-000000000012";
 let pass = 0, fail = 0;
 const ok = (name, cond) => { cond ? pass++ : fail++; console.log(`${cond ? "PASS" : "FAIL"}  ${name}`); };
 const throws = async (name, fn) => { try { await fn(); ok(name, false); } catch (e) { ok(`${name}  (${e.message.split("\n")[0]})`, true); } };
@@ -22,7 +35,8 @@ await db.exec(`
   create table auth.users (id uuid primary key);
   create function auth.uid() returns uuid language sql stable as
     $$ select nullif(current_setting('request.jwt.claim.sub', true), '')::uuid $$;
-  insert into auth.users values ('${A}'), ('${B}'), ('${C}');
+  insert into auth.users values
+    ('${A}'), ('${B}'), ('${C}'), ('${D}'), ('${E}'), ('${F}'), ('${G}'), ('${H}'), ('${I}');
 
   create schema storage;
   create table storage.buckets (id text primary key, name text not null, public boolean not null default false);
@@ -36,7 +50,12 @@ await db.exec(`
 `);
 const migrationsDir = dirname(process.argv[2]);
 const migrationFiles = readdirSync(migrationsDir).filter((f) => f.endsWith(".sql")).sort();
-for (const file of migrationFiles) {
+const groupsIndex = migrationFiles.findIndex((f) => f.includes("groups"));
+const preGroupsFiles = groupsIndex === -1 ? migrationFiles : migrationFiles.slice(0, groupsIndex);
+const groupsFile = groupsIndex === -1 ? null : migrationFiles[groupsIndex];
+const postGroupsFiles = groupsIndex === -1 ? [] : migrationFiles.slice(groupsIndex + 1);
+
+for (const file of preGroupsFiles) {
   await db.exec(readFileSync(join(migrationsDir, file), "utf8"));
 }
 await db.exec(`
@@ -101,7 +120,7 @@ await as(B, "insert into plays (game_id, puzzle_date, started_at) values ('bee',
 const forged = (await as(B, "select started_at > now() - interval '1 minute' as fresh from plays where game_id='bee' and puzzle_date = puzzle_today() - 1")).rows[0];
 ok("client-supplied started_at is ignored on insert", forged.fresh === true);
 
-// Privacy + friends board
+// Privacy + friends board (pre-groups: still a single implicit site-wide group)
 ok("other members cannot read my plays directly",
   (await as(B, "select * from plays where game_id='wordle'")).rows.length === 0);
 ok("friends board is empty until you finish",
@@ -167,6 +186,179 @@ const indexNames = (await db.query(
 )).rows.map((r) => r.indexname);
 ok("plays has a (game_id, puzzle_date) index", indexNames.includes("plays_game_date_idx"));
 ok("messages has a recipient index", indexNames.includes("messages_recipient_idx"));
+
+// ═══════════════════════════ 0004: groups & leaderboard ═══════════════════════════
+// Applied on top of the realistic, already-populated database above — the same database the real
+// site would have had the moment before this migration runs for real.
+if (groupsFile) {
+  await db.exec(readFileSync(join(migrationsDir, groupsFile), "utf8"));
+  for (const file of postGroupsFiles) await db.exec(readFileSync(join(migrationsDir, file), "utf8"));
+  // Covers the two new tables; everything else was already granted above.
+  await db.exec(`grant select, insert, update, delete on all tables in schema public to authenticated;`);
+
+  // ───── migrating the existing site ─────
+  const migrated = (await db.query(
+    "select id, name, invite_code, created_by from groups",
+  )).rows;
+  ok("exactly one group exists after migration", migrated.length === 1);
+  const siteGroup = migrated[0];
+  ok("it keeps the old invite code", siteGroup?.invite_code === "sunflower-23");
+  ok("it's named by the human running the migration", siteGroup?.name === "iced-vanilla-latte");
+  ok("its creator is the earliest-joined existing profile", siteGroup?.created_by === A);
+  const migratedMembers = (await db.query(
+    `select user_id from group_members where group_id = '${siteGroup.id}' order by user_id`,
+  )).rows.map((r) => r.user_id);
+  ok("both existing profiles became members", JSON.stringify(migratedMembers.sort()) === JSON.stringify([A, B].sort()));
+  ok("is_member() still true for a migrated profile", (await as(A, "select is_member() as m")).rows[0].m === true);
+
+  // ───── existing invite links still work ─────
+  const joined = (await as(D, "select * from join_with_invite('sunflower-23', 'Deepa')")).rows[0];
+  ok("the old code still resolves to the migrated group", joined?.group_id === siteGroup.id);
+  ok("join_with_invite returns the group's name", joined?.group_name === "iced-vanilla-latte");
+  ok("the new joiner is now a member of the migrated group",
+    (await db.query(`select 1 from group_members where group_id = '${siteGroup.id}' and user_id = '${D}'`)).rows.length === 1);
+
+  // ───── profiles are now group-scoped, not site-wide ─────
+  ok("a member of the migrated group can read another member's profile",
+    (await as(D, `select display_name from profiles where user_id = '${A}'`)).rows.length === 1);
+
+  // get everyone else a profile + the migrated group, as the cheapest way in (mirrors D above)
+  for (const [uid, name] of [[E, "Esha"], [F, "Farah"], [G, "Gita"], [H, "Hari"]]) {
+    await as(uid, `select * from join_with_invite('sunflower-23', '${name}')`);
+  }
+
+  // ───── create_group, the 3-group limit, and membership vs. creation ─────
+  const group1 = (await as(E, "select * from create_group('Book Club')")).rows[0];
+  const group2 = (await as(E, "select * from create_group('Quiz Night')")).rows[0];
+  const group3 = (await as(E, "select * from create_group('Trivia')")).rows[0];
+  ok("creating a group makes the invite code unique and the creator a member",
+    group1.invite_code !== group2.invite_code &&
+    (await db.query(`select 1 from group_members where group_id = '${group1.id}' and user_id = '${E}'`)).rows.length === 1);
+  await throws("a 4th group hits the per-creator limit",
+    () => as(E, "select * from create_group('One Too Many')"));
+  const eGroups = (await as(E, "select * from my_groups() order by created_at")).rows;
+  ok("E belongs to 4 groups but created only 3",
+    eGroups.length === 4 && eGroups.filter((g) => g.is_creator).length === 3);
+
+  // ───── cross-group privacy: profiles and friends_results ─────
+  // Iris joins only E's private "Trivia" group — never the migrated site group — so she and A
+  // share no group at all, unlike every other test user above (all of whom also joined via
+  // 'sunflower-23' as the cheapest way to get a profile).
+  await as(I, `select * from join_with_invite('${group3.invite_code}', 'Iris')`);
+  ok("someone outside every shared group cannot read a member's profile",
+    (await as(I, `select display_name from profiles where user_id = '${A}'`)).rows.length === 0);
+  await as(E, "insert into plays (game_id, puzzle_date) values ('wordle', puzzle_today())");
+  await as(E, "update plays set status='won', summary='🟩' where game_id='wordle' and puzzle_date = puzzle_today()");
+  await throws("friends_results requires sharing that group",
+    () => as(A, `select * from friends_results('wordle', '${group1.id}')`));
+  const group1Board = (await as(E, `select display_name from friends_results('wordle', '${group1.id}')`)).rows;
+  ok("friends_results only shows that group's members", group1Board.length === 1 && group1Board[0].display_name === "Esha");
+
+  // ───── joining group1 (not creator) ─────
+  await as(F, `select * from join_with_invite('${group1.invite_code}', 'Farah')`);
+  await as(F, `select * from join_with_invite('sunflower-23', 'ignored-name')`); // already a member of the migrated group; no-op on the name
+
+  // ───── creator-only actions ─────
+  await throws("a non-creator cannot rename the group", () => as(F, `select rename_group('${group1.id}', 'New Name')`));
+  await as(E, `select rename_group('${group1.id}', 'Book Club Deluxe')`);
+  ok("the creator can rename the group",
+    (await as(E, "select * from my_groups()")).rows.find((g) => g.id === group1.id)?.name === "Book Club Deluxe");
+
+  await throws("a non-creator cannot regenerate the invite code",
+    () => as(F, `select regenerate_invite_code('${group1.id}')`));
+  const oldCode = group1.invite_code;
+  const newCode = (await as(E, `select regenerate_invite_code('${group1.id}') as c`)).rows[0].c;
+  ok("the creator gets a fresh code", newCode !== oldCode);
+  ok("the old code no longer resolves", (await db.query(`select * from group_preview('${oldCode}')`)).rows.length === 0);
+  ok("the new code resolves to the group", (await db.query(`select * from group_preview('${newCode}')`)).rows[0]?.name === "Book Club Deluxe");
+
+  await throws("a non-creator cannot remove a member", () => as(F, `select remove_member('${group1.id}', '${E}')`));
+  await as(E, `select remove_member('${group1.id}', '${F}')`);
+  ok("the removed member is gone from the roster",
+    (await as(E, `select * from list_group_members('${group1.id}')`)).rows.length === 1);
+  await throws("a removed member can no longer read that group's friends board",
+    () => as(F, `select * from friends_results('wordle', '${group1.id}')`));
+
+  // ───── leave_group, but never your last ─────
+  ok("F still has exactly the migrated group left",
+    (await as(F, "select * from my_groups()")).rows.length === 1);
+  await throws("cannot leave your only group", () => as(F, `select leave_group('${siteGroup.id}')`));
+  await as(E, `select leave_group('${siteGroup.id}')`);
+  ok("E can leave a group that isn't the last one",
+    (await as(E, "select * from my_groups()")).rows.length === 3);
+
+  // ═════════════ points, streaks, archive catch-ups, week boundary, global board ═════════════
+  await db.exec(`
+    insert into public.puzzles (game_id, puzzle_date, payload)
+    select 'points-demo', public.puzzle_today() + d, '{}'::jsonb from generate_series(-12, 0) d
+    union all
+    select 'week-demo', public.puzzle_today() + d, '{}'::jsonb from generate_series(-12, 12) d;
+  `);
+
+  // G: a 7-day on-day win streak (points-demo, days -9..-3), a loss (-4, already inside the
+  // streak's date range but a different game-day doesn't exist twice — use -4 before the streak
+  // starts isn't possible since -4 is inside -9..-3; use day 1 instead), and an archive catch-up
+  // (day -10, played today) that must score 0 regardless of being a win.
+  await db.exec(`
+    alter table plays disable trigger plays_guard;
+    insert into plays (user_id, game_id, puzzle_date, status, started_at, completed_at)
+    select '${G}', 'points-demo', public.puzzle_today() + d, 'won',
+           (public.puzzle_today() + d)::timestamp at time zone 'Asia/Kolkata' + interval '9 hours',
+           (public.puzzle_today() + d)::timestamp at time zone 'Asia/Kolkata' + interval '9 hours 5 minutes'
+    from generate_series(-9, -3) d;
+    insert into plays (user_id, game_id, puzzle_date, status, started_at, completed_at)
+    values ('${G}', 'points-demo', public.puzzle_today() - 11, 'lost',
+      (public.puzzle_today() - 11)::timestamp at time zone 'Asia/Kolkata' + interval '9 hours',
+      (public.puzzle_today() - 11)::timestamp at time zone 'Asia/Kolkata' + interval '9 hours 5 minutes');
+    insert into plays (user_id, game_id, puzzle_date, status, started_at, completed_at)
+    values ('${G}', 'points-demo', public.puzzle_today() - 10, 'won', now(), now());
+    alter table plays enable trigger plays_guard;
+  `);
+  const gGroup = (await as(G, "select * from my_groups()")).rows[0]; // the migrated group
+  const gDay = async (d) => (await as(G, `select * from leaderboard('group', '${gGroup.id}', 'day', puzzle_today() + ${d})`)).rows.find((r) => r.display_name === "Gita");
+  ok("1st win in a streak scores 1 point, no bonus", (await gDay(-9))?.points === 1);
+  ok("5th win in a streak scores the +1 bonus (position ≥ 3)", (await gDay(-5))?.points === 2);
+  ok("7th win in a streak scores the +2 bonus (position ≥ 7)", (await gDay(-3))?.points === 3);
+  ok("a loss scores 0 points but still counts as played", (await gDay(-11))?.points === 0 && (await gDay(-11))?.games_played === 1);
+  const gArchiveDay = (await as(G, "select * from leaderboard('group', '" + gGroup.id + "', 'day') ")).rows.find((r) => r.display_name === "Gita");
+  ok("an archive catch-up win (today) scores 0 points but counts as a win",
+    gArchiveDay?.points === 0 && gArchiveDay?.wins === 1 && gArchiveDay?.games_played === 1);
+
+  // H: the Sunday–Saturday week boundary. lastSaturday is the day before this week's Sunday;
+  // nextSunday is the day after this week's Saturday — both must fall outside "this week".
+  const dow = (await db.query("select extract(dow from public.puzzle_today())::int as d")).rows[0].d;
+  const weekStartOffset = -dow;
+  const lastSaturdayOffset = weekStartOffset - 1;
+  const nextSundayOffset = weekStartOffset + 7;
+  await db.exec(`
+    alter table plays disable trigger plays_guard;
+    insert into plays (user_id, game_id, puzzle_date, status, started_at, completed_at)
+    select '${H}', 'week-demo', public.puzzle_today() + d, 'won',
+           (public.puzzle_today() + d)::timestamp at time zone 'Asia/Kolkata' + interval '9 hours',
+           (public.puzzle_today() + d)::timestamp at time zone 'Asia/Kolkata' + interval '9 hours 5 minutes'
+    from unnest(array[${lastSaturdayOffset}, ${weekStartOffset}, ${nextSundayOffset}]) d;
+    alter table plays enable trigger plays_guard;
+  `);
+  const hGroup = (await as(H, "select * from my_groups()")).rows[0];
+  const hWeek = (await as(H, `select * from leaderboard('group', '${hGroup.id}', 'week', puzzle_today() + ${weekStartOffset})`)).rows.find((r) => r.display_name === "Hari");
+  ok("the week only counts this week's Sunday win, not last Saturday's or next Sunday's",
+    hWeek?.points === 1 && hWeek?.games_played === 1);
+  const hLastSaturday = (await as(H, `select * from leaderboard('group', '${hGroup.id}', 'day', puzzle_today() + ${lastSaturdayOffset})`)).rows.find((r) => r.display_name === "Hari");
+  ok("last Saturday's win still shows up on its own day", hLastSaturday?.points === 1);
+
+  // ───── the global board spans every member, ignoring group boundaries ─────
+  const globalToday = (await as(G, "select * from leaderboard('global', null, 'day')")).rows;
+  ok("the global board includes a member from another group entirely",
+    globalToday.some((r) => r.display_name === "Gita"));
+  const group3Board = (await as(E, `select * from leaderboard('group', '${group3.id}', 'day')`)).rows;
+  ok("a private group's board does not include someone who never joined it",
+    !group3Board.some((r) => r.display_name === "Gita"));
+  const myRow = globalToday.find((r) => r.is_me);
+  ok("is_me flags exactly the caller's own row", myRow?.display_name === "Gita");
+  const ranked = [...globalToday].sort((a, b) => a.rank - b.rank);
+  ok("rank is consistent with points, descending",
+    ranked.every((r, i) => i === 0 || ranked[i - 1].points >= r.points));
+}
 
 console.log(`\n${pass} passed, ${fail} failed`);
 process.exit(fail ? 1 : 0);
