@@ -1,0 +1,19 @@
+/* Flagle — neutral/slate palette so the flags themselves stay the colour story; one blue accent
+   for the input/focus states and "close" guesses. Inter throughout, per the task. */
+[data-game="flagle"] {
+  --game-bg: #eef1f5;
+  --game-fg: #1e293b;
+  --game-surface: #ffffff;
+  --game-surface-2: #e2e8f0;
+  --game-border: #cbd5e1;
+  --game-accent: #2563eb;
+  --game-accent-fg: #ffffff;
+  --game-muted: #64748b;
+  --game-font: "Inter", sans-serif;
+
+  /* Repurposed for per-guess-row geo feedback, not letter states: correct = the actual country,
+     present = "close" (>=60% proximity), absent = everything further away. */
+  --tile-correct: #16a34a;
+  --tile-present: #c08a1e;
+  --tile-absent: #94a3b8;
+}
