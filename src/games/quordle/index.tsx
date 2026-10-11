@@ -12,6 +12,7 @@ import { usePuzzle, usePlay } from "../../lib/hooks";
 import { dayIndex } from "../../lib/daily";
 import { meta } from "./meta";
 import {
+  BOARD_COLORS,
   DEFAULT_STATE,
   MAX_GUESSES,
   WORD_LENGTH,
@@ -203,7 +204,7 @@ function Recap({ answers, state }: { answers: readonly string[]; state: QuordleS
           <div
             key={i}
             className="flex items-center justify-between rounded-brand-sm px-2 py-1 text-sm font-semibold text-white"
-            style={{ backgroundColor: `var(--quordle-board-${i + 1})` }}
+            style={{ backgroundColor: BOARD_COLORS[i] }}
           >
             <span>{answer}</span>
             <span>{solvedAt ? `#${solvedAt}` : "✕"}</span>

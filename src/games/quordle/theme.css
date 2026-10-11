@@ -15,11 +15,14 @@
   --tile-absent: #787c7e;
 
   /* One tint per board: a subtle border + the quadrant keyboard color, in board order. Kept away
-     from the tile-state greens/yellows above so a tinted border never reads as "correct"/"present". */
+     from the tile-state greens/yellows above so a tinted border never reads as "correct"/"present".
+     Darkened from the first pass until each held >=4.5:1 contrast against white text (they're also
+     used as a white-on-color badge fill in Board.tsx and the win recap) — see logic.ts BOARD_COLORS,
+     which must stay in sync since the win recap can't reach these CSS vars (see its own comment). */
   --quordle-board-1: #6a5acd; /* indigo */
-  --quordle-board-2: #2a9d8f; /* teal */
-  --quordle-board-3: #e07a5f; /* terracotta */
-  --quordle-board-4: #d4a24c; /* amber */
+  --quordle-board-2: #228175; /* teal */
+  --quordle-board-3: #cb4a27; /* terracotta */
+  --quordle-board-4: #966c24; /* amber */
 
   --quordle-tile-gap: 0.1875rem;
 }

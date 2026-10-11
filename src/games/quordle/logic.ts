@@ -3,6 +3,11 @@ import type { KeyState } from "../../components/types";
 
 export const BOARD_COUNT = 4;
 export const WORD_LENGTH = 5;
+/** Same four tints as theme.css's `--quordle-board-1..4`, duplicated here as literal hex values
+ * because `ResultModal` renders through a `createPortal` outside `[data-game="quordle"]` — CSS
+ * custom properties scoped to that selector don't reach portaled content, so anything drawn inside
+ * the result modal (e.g. the win recap) needs the color as a plain value, not a `var()` lookup. */
+export const BOARD_COLORS = ["#6a5acd", "#228175", "#cb4a27", "#966c24"] as const;
 /** Quordle's shared guess budget: boards + 5, the formula every multi-board Wordle variant uses
  * (see RESEARCH.md) — enough slack to solve 4 words without needing to play perfectly. */
 export const MAX_GUESSES = BOARD_COUNT + 5;
