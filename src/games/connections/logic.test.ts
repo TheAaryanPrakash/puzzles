@@ -1,7 +1,4 @@
 import { describe, expect, it } from "vitest";
-import { readdirSync, readFileSync } from "node:fs";
-import { resolve, dirname } from "node:path";
-import { fileURLToPath } from "node:url";
 import {
   DEFAULT_STATE,
   MAX_MISTAKES,
