@@ -1,5 +1,6 @@
 import { useEffect, useRef, useId, type KeyboardEvent } from "react";
 import { createPortal } from "react-dom";
+import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import type { ModalProps } from "./types";
 
 function getFocusable(container: HTMLElement): HTMLElement[] {
@@ -26,6 +27,8 @@ export function Modal({
   const generatedId = useId();
   const titleId = labelledBy ?? generatedId;
 
+  const reduceMotion = useReducedMotion();
+
   useEffect(() => {
     if (!open) return;
     previouslyFocused.current = document.activeElement as HTMLElement | null;
@@ -34,8 +37,6 @@ export function Modal({
       previouslyFocused.current?.focus?.();
     };
   }, [open]);
-
-  if (!open) return null;
 
   function onKeyDown(e: KeyboardEvent<HTMLDivElement>) {
     if (e.key === "Escape") {
@@ -59,30 +60,46 @@ export function Modal({
   }
 
   return createPortal(
-    <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 p-4"
-      onMouseDown={(e) => {
-        if (closeOnBackdropClick && e.target === e.currentTarget) onClose();
-      }}
-    >
-      <div
-        ref={dialogRef}
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby={title ? titleId : undefined}
-        tabIndex={-1}
-        onKeyDown={onKeyDown}
-        className={`max-h-[90vh] w-full max-w-md overflow-y-auto rounded-brand-lg bg-brand-surface p-6 text-brand-fg shadow-xl outline-none ${className}`}
-      >
-        {title && (
-          <h2 id={titleId} className="font-brand text-xl font-semibold">
-            {title}
-          </h2>
-        )}
-        {headerExtra}
-        <div className="mt-4">{children}</div>
-      </div>
-    </div>,
+    <AnimatePresence>
+      {open && (
+        <motion.div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 p-4"
+          onMouseDown={(e) => {
+            if (closeOnBackdropClick && e.target === e.currentTarget) onClose();
+          }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: reduceMotion ? 0 : 0.18 }}
+        >
+          <motion.div
+            ref={dialogRef}
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby={title ? titleId : undefined}
+            tabIndex={-1}
+            onKeyDown={onKeyDown}
+            initial={reduceMotion ? false : { opacity: 0, y: 12, scale: 0.97 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={reduceMotion ? { opacity: 0 } : { opacity: 0, y: 8, scale: 0.98 }}
+            transition={
+              reduceMotion
+                ? { duration: 0 }
+                : { type: "spring", stiffness: 420, damping: 32 }
+            }
+            className={`max-h-[90vh] w-full max-w-md overflow-y-auto overscroll-contain rounded-brand-lg bg-brand-surface p-6 text-brand-fg shadow-brand-md outline-none ${className}`}
+          >
+            {title && (
+              <h2 id={titleId} className="text-balance font-brand text-xl font-semibold">
+                {title}
+              </h2>
+            )}
+            {headerExtra}
+            <div className="mt-4">{children}</div>
+          </motion.div>
+        </motion.div>
+      )}
+    </AnimatePresence>,
     document.body,
   );
 }

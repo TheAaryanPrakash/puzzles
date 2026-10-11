@@ -40,11 +40,15 @@ export function ResultModal({
       open={open}
       onClose={onClose}
       title={heading}
-      headerExtra={<p className="text-sm text-game-muted">#{puzzleNumber}</p>}
+      headerExtra={<p className="text-sm font-medium text-game-muted">Puzzle #{puzzleNumber}</p>}
     >
-      <div className="space-y-4">
+      <div className="space-y-5">
         {extraContent}
-        {score !== undefined && <p className="text-center font-brand text-lg">Score: {score}</p>}
+        {score !== undefined && (
+          <p className="text-center font-brand text-lg font-semibold tabular-nums text-game-fg">
+            Score: {score}
+          </p>
+        )}
 
         <div className="grid grid-cols-4 gap-2 text-center">
           <Stat label="Played" value={s.played} />
@@ -54,14 +58,16 @@ export function ResultModal({
         </div>
         {statsExtraContent}
 
-        <div className="flex items-center justify-between gap-3">
+        <div className="flex items-center justify-between gap-3 border-t border-game-border pt-4">
           <ShareButton text={summary} />
           <NextPuzzleCountdown />
         </div>
 
         <div>
           <h3 className="font-brand text-sm font-semibold text-game-muted">Friends</h3>
-          <FriendsBoard gameId={gameId} date={date} />
+          <div className="mt-2">
+            <FriendsBoard gameId={gameId} date={date} />
+          </div>
         </div>
 
         {children}
@@ -72,9 +78,9 @@ export function ResultModal({
 
 function Stat({ label, value }: { label: string; value: number }) {
   return (
-    <div>
-      <div className="font-brand text-2xl font-bold">{value}</div>
-      <div className="text-xs text-game-muted">{label}</div>
+    <div className="rounded-brand-md bg-game-surface-2 px-2 py-3">
+      <div className="font-brand text-2xl font-bold tabular-nums text-game-fg">{value}</div>
+      <div className="mt-0.5 text-xs text-game-muted">{label}</div>
     </div>
   );
 }

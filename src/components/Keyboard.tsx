@@ -8,10 +8,10 @@ const DEFAULT_LAYOUT = [
 ];
 
 const STATE_CLASSES: Record<KeyState, string> = {
-  correct: "bg-tile-correct text-white",
-  present: "bg-tile-present text-white",
+  correct: "bg-tile-correct text-white shadow-brand-sm",
+  present: "bg-tile-present text-white shadow-brand-sm",
   absent: "bg-tile-absent text-white",
-  unused: "bg-game-surface-2 text-game-fg",
+  unused: "bg-game-surface-2 text-game-fg hover:bg-game-border",
 };
 
 const STATE_PRIORITY: KeyState[] = ["correct", "present", "absent", "unused"];
@@ -72,7 +72,7 @@ export function Keyboard({
                 disabled={disabled}
                 onClick={() => onKey(key)}
                 aria-label={key}
-                className={`flex h-12 items-center justify-center rounded-brand-sm font-brand text-sm font-semibold uppercase transition-colors duration-brand-fast ${wide ? "px-3" : "w-9"} ${STATE_CLASSES[primaryState(state)]}`}
+                className={`flex h-12 min-w-9 touch-manipulation items-center justify-center rounded-brand-sm font-brand text-sm font-semibold uppercase transition-[background-color,transform] duration-brand-fast active:scale-95 disabled:opacity-60 ${wide ? "px-3" : "w-9"} ${STATE_CLASSES[primaryState(state)]}`}
               >
                 {renderKey ? renderKey(key, state) : key === "Backspace" ? "⌫" : key}
               </button>

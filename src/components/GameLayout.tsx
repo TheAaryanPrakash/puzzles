@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link, useNavigate, useSearchParams } from "react-router";
+import { motion, useReducedMotion } from "motion/react";
 import { Modal } from "./Modal";
 import { ArchivePicker } from "./ArchivePicker";
 import { usePlays } from "../lib/hooks";
@@ -15,6 +16,9 @@ function formatDate(date: string): string {
   });
 }
 
+const ICON_BUTTON =
+  "flex h-11 w-11 items-center justify-center rounded-brand-full text-lg transition-colors duration-brand-fast hover:bg-game-surface-2";
+
 export function GameLayout({
   game,
   title,
@@ -27,6 +31,7 @@ export function GameLayout({
   const [searchParams] = useSearchParams();
   const [archiveOpen, setArchiveOpen] = useState(false);
   const { plays } = usePlays(game);
+  const reduceMotion = useReducedMotion();
 
   const viewedDate = resolvePuzzleDate();
   const viewingPastDay = viewedDate !== todayKey();
@@ -47,38 +52,38 @@ export function GameLayout({
 
   return (
     <div data-game={game} className="min-h-screen bg-game-bg font-game text-game-fg">
-      <header className="flex items-center justify-between border-b border-game-border bg-game-surface px-4 py-3">
-        <Link to="/" aria-label="Back to hub" className="text-game-fg hover:text-game-accent">
+      <a
+        href="#main-content"
+        className="sr-only rounded-brand-sm bg-game-accent px-4 py-2 font-semibold text-game-accent-fg focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50"
+      >
+        Skip to main content
+      </a>
+      <header className="flex items-center justify-between border-b border-game-border bg-game-surface px-3 py-2.5">
+        <Link
+          to="/"
+          aria-label="Back to hub"
+          className={`${ICON_BUTTON} text-game-fg hover:text-game-accent`}
+        >
           ←
         </Link>
-        <h1 className="font-game text-lg font-semibold">{title}</h1>
-        <div className="flex items-center gap-2">
+        <h1 className="text-balance font-game text-lg font-semibold tracking-tight">{title}</h1>
+        <div className="flex items-center gap-1">
           {headerActions}
           <button
             type="button"
             onClick={() => setArchiveOpen(true)}
             aria-label="Archive"
-            className="rounded-brand-sm p-2 hover:bg-game-surface-2"
+            className={ICON_BUTTON}
           >
             🗓️
           </button>
           {onStats && (
-            <button
-              type="button"
-              onClick={onStats}
-              aria-label="Statistics"
-              className="rounded-brand-sm p-2 hover:bg-game-surface-2"
-            >
+            <button type="button" onClick={onStats} aria-label="Statistics" className={ICON_BUTTON}>
               📊
             </button>
           )}
           {onHelp && (
-            <button
-              type="button"
-              onClick={onHelp}
-              aria-label="How to play"
-              className="rounded-brand-sm p-2 hover:bg-game-surface-2"
-            >
+            <button type="button" onClick={onHelp} aria-label="How to play" className={ICON_BUTTON}>
               ❓
             </button>
           )}
@@ -97,7 +102,15 @@ export function GameLayout({
         </div>
       )}
 
-      <main className="mx-auto max-w-xl px-4 py-6">{children}</main>
+      <motion.main
+        id="main-content"
+        initial={reduceMotion ? false : { opacity: 0, y: 8 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
+        className="mx-auto max-w-xl px-4 py-6"
+      >
+        {children}
+      </motion.main>
 
       <Modal open={archiveOpen} onClose={() => setArchiveOpen(false)} title="Archive">
         <ArchivePicker
