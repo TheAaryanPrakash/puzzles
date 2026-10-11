@@ -122,17 +122,18 @@ export default function StatesGame() {
           name={over ? statesData.states[answerCode].name : undefined}
         />
 
-        <p className="text-sm text-game-muted">
-          Guess {Math.min(state.guesses.length + (over ? 0 : 1), MAX_GUESSES)} of {MAX_GUESSES}
-        </p>
-
         {!over && (
-          <StateCombobox
-            options={options}
-            nameIndex={nameIndex}
-            disabledCodes={disabledCodes}
-            onSubmit={(code) => void handleGuess(code)}
-          />
+          <>
+            <p className="text-sm text-game-muted">
+              Guess {state.guesses.length + 1} of {MAX_GUESSES}
+            </p>
+            <StateCombobox
+              options={options}
+              nameIndex={nameIndex}
+              disabledCodes={disabledCodes}
+              onSubmit={(code) => void handleGuess(code)}
+            />
+          </>
         )}
 
         <GuessList guesses={guessResults} />
