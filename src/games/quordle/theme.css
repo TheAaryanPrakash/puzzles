@@ -1,0 +1,25 @@
+[data-game="quordle"] {
+  --game-bg: var(--brand-bg);
+  --game-fg: var(--brand-fg);
+  --game-surface: var(--brand-surface);
+  --game-surface-2: var(--brand-surface-2);
+  --game-border: var(--brand-border);
+  --game-accent: #6a5acd;
+  --game-accent-fg: #ffffff;
+  --game-muted: var(--brand-muted);
+  --game-font: "Libre Franklin", sans-serif;
+
+  /* Wordle's own tile language — same colors, just denser tiles (see Board.tsx/theme below). */
+  --tile-correct: #6aaa64;
+  --tile-present: #c9b458;
+  --tile-absent: #787c7e;
+
+  /* One tint per board: a subtle border + the quadrant keyboard color, in board order. Kept away
+     from the tile-state greens/yellows above so a tinted border never reads as "correct"/"present". */
+  --quordle-board-1: #6a5acd; /* indigo */
+  --quordle-board-2: #2a9d8f; /* teal */
+  --quordle-board-3: #e07a5f; /* terracotta */
+  --quordle-board-4: #d4a24c; /* amber */
+
+  --quordle-tile-gap: 0.1875rem;
+}
