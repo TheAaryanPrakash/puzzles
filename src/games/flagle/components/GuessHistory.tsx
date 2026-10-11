@@ -13,7 +13,8 @@ export interface GuessHistoryProps {
 }
 
 function rowTone(feedback: GeoFeedback | null): string {
-  if (!feedback || feedback.correct) return "border-tile-correct bg-tile-correct/10";
+  if (!feedback) return "border-game-border bg-game-surface";
+  if (feedback.correct) return "border-tile-correct bg-tile-correct/10";
   if (feedback.proximityPct >= 60) return "border-tile-present bg-tile-present/10";
   return "border-game-border bg-game-surface";
 }
