@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
-import { Navigate } from "react-router";
+import { Navigate, useLocation } from "react-router";
 import { getSupabaseClient, friendlyError } from "./data/supabase";
 
 export interface Member {
@@ -24,6 +24,24 @@ const FAKE_MEMBER: Member = { userId: "local-dev", displayName: "Sansita" };
 
 // Mirrors src/lib/data/index.ts's own switch, so the two always agree on which world we're in.
 const usesSupabase = import.meta.env.VITE_DATA_SOURCE === "supabase";
+
+/**
+ * Reads the canonical profile row back from the database. Used after every mutation that
+ * changes membership or the display name, instead of trusting the mutation's own inputs — an
+ * `.update().eq(...)` that matches zero rows (wrong id, RLS) still reports no error, so an
+ * optimistic local patch would show "saved" even when nothing changed server-side.
+ */
+async function fetchProfile(
+  db: ReturnType<typeof getSupabaseClient>,
+  userId: string,
+): Promise<Member | null> {
+  const { data } = await db
+    .from("profiles")
+    .select("user_id, display_name")
+    .eq("user_id", userId)
+    .maybeSingle();
+  return data ? { userId: data.user_id, displayName: data.display_name } : null;
+}
 
 /**
  * Local dev mode: always signed in as a fake member, so every game can be built and tested
@@ -57,36 +75,23 @@ function SupabaseAuthProvider({ children }: { children: ReactNode }) {
     const db = getSupabaseClient();
     let cancelled = false;
 
-    async function loadProfile(userId: string) {
-      const { data, error } = await db
-        .from("profiles")
-        .select("user_id, display_name")
-        .eq("user_id", userId)
-        .maybeSingle();
-      if (cancelled) return;
-      if (error) {
-        // "members read profiles" requires is_member(), so a non-member's own select legitimately
-        // returns no row rather than an error — but surface anything else instead of hiding it.
-        setStatus("signed-in-not-member");
-        setMember(null);
-        return;
-      }
-      if (data) {
-        setMember({ userId: data.user_id, displayName: data.display_name });
-        setStatus("member");
-      } else {
-        setMember(null);
-        setStatus("signed-in-not-member");
-      }
-    }
-
+    // "members read profiles" requires is_member(), so a non-member's own select legitimately
+    // returns no row — that's `fetchProfile` returning null, not an error to surface.
     async function applySession(userId: string | undefined) {
       if (!userId) {
         setMember(null);
         setStatus("signed-out");
         return;
       }
-      await loadProfile(userId);
+      const profile = await fetchProfile(db, userId);
+      if (cancelled) return;
+      if (profile) {
+        setMember(profile);
+        setStatus("member");
+      } else {
+        setMember(null);
+        setStatus("signed-in-not-member");
+      }
     }
 
     void db.auth.getSession().then(({ data }) => applySession(data.session?.user.id));
@@ -125,8 +130,10 @@ function SupabaseAuthProvider({ children }: { children: ReactNode }) {
       if (error) throw friendlyError(error);
       const { data } = await db.auth.getSession();
       const userId = data.session?.user.id;
-      if (userId) {
-        setMember({ userId, displayName: name });
+      if (!userId) return;
+      const profile = await fetchProfile(db, userId);
+      if (profile) {
+        setMember(profile);
         setStatus("member");
       }
     },
@@ -138,7 +145,8 @@ function SupabaseAuthProvider({ children }: { children: ReactNode }) {
         .update({ display_name: name })
         .eq("user_id", member.userId);
       if (error) throw friendlyError(error);
-      setMember((m) => (m ? { ...m, displayName: name } : m));
+      const profile = await fetchProfile(db, member.userId);
+      if (profile) setMember(profile);
     },
   };
 
@@ -159,11 +167,17 @@ export function useAuth(): AuthState {
   return ctx;
 }
 
-/** Gates a route to signed-in members, sending everyone else to sign-in or join. */
+/**
+ * Gates a route to signed-in members, sending everyone else to sign-in or join. Carries the
+ * originally-requested location along so Join can send her back there once she's a member.
+ */
 export function RequireMember({ children }: { children: ReactNode }) {
   const { status } = useAuth();
+  const location = useLocation();
   if (status === "loading") return null;
-  if (status === "signed-out") return <Navigate to="/signin" replace />;
-  if (status === "signed-in-not-member") return <Navigate to="/join" replace />;
+  if (status === "signed-out") return <Navigate to="/signin" state={{ from: location }} replace />;
+  if (status === "signed-in-not-member") {
+    return <Navigate to="/join" state={{ from: location }} replace />;
+  }
   return <>{children}</>;
 }

@@ -1,5 +1,5 @@
 import { useState, type FormEvent } from "react";
-import { useSearchParams } from "react-router";
+import { useLocation, useNavigate, useSearchParams, type Location } from "react-router";
 import { useAuth } from "../lib/auth";
 import { Button } from "../components/Button";
 
@@ -10,6 +10,8 @@ export function Join() {
   const [name, setName] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
 
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
@@ -17,9 +19,10 @@ export function Join() {
     setLoading(true);
     try {
       await joinWithInvite(code.trim(), name.trim());
+      const from = (location.state as { from?: Location } | null)?.from;
+      navigate(from ? `${from.pathname}${from.search}${from.hash}` : "/", { replace: true });
     } catch (err) {
       setError(err instanceof Error ? err.message : "Something went wrong. Please try again.");
-    } finally {
       setLoading(false);
     }
   }
