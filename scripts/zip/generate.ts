@@ -34,6 +34,17 @@ function hardCheckpointCeiling(size: number): number {
   return Math.floor((size * size) / 2);
 }
 
+// A modest allowance of extra checkpoints (beyond the baseline) to try *before* reaching for a
+// wall each round. Pure wall-first (see git history) measured 6-13 walls on average, with the
+// generator's own samples report flagging most days as visually cluttered. Spending a few extra
+// checkpoints first — still far short of hardCheckpointCeiling — buys down the wall count without
+// re-creating the "15-20 of 36 cells numbered" problem RESEARCH.md measured for checkpoints-first.
+function softCheckpointAllowance(size: number): number {
+  // Larger grids have far more alternate Hamiltonian paths (the search space grows much faster
+  // than linearly), so they need a bigger allowance to keep walls down to the same rough level.
+  return size <= 6 ? 3 : size === 7 ? 6 : 10;
+}
+
 // A safety valve, not a target: the witness-driven wall (see generateDay's docstring) is always
 // tried first and almost always resolves it well under this. Measured runs stayed in single
 // digits to low teens of walls with checkpoints pinned at the baseline; see RESEARCH.md.
@@ -84,20 +95,27 @@ export function generateDay(rng: () => number, size: number): ZipPuzzle {
       if (budgetExceeded) break; // too expensive to resolve on this path — try a fresh one
 
       const alt = solutions.find((s) => !pathsEqual(s, path));
+      const softCap = baselineCheckpoints(size) + softCheckpointAllowance(size);
+      const tryGrow = (ceiling: number): boolean => {
+        if (checkpointCount >= ceiling) return false;
+        const grown = growCheckpoints(path, checkpoints);
+        if (grown.length <= checkpoints.length) return false;
+        checkpointCount++;
+        checkpoints = grown;
+        return true;
+      };
+
+      // Spend the modest checkpoint allowance first — cheaper visually than a wall, and it never
+      // runs away to the checkpoints-first problem RESEARCH.md measured, because it's capped low.
+      if (tryGrow(softCap)) continue;
+
       const wall = alt && walls.length < WALL_CAP ? pickDifferingEdge(alt, path, walls) : null;
       if (wall) {
         walls = [...walls, wall];
         continue;
       }
 
-      if (checkpointCount < hardCheckpointCeiling(size)) {
-        const grown = growCheckpoints(path, checkpoints);
-        if (grown.length > checkpoints.length) {
-          checkpointCount++;
-          checkpoints = grown;
-          continue;
-        }
-      }
+      if (tryGrow(hardCheckpointCeiling(size))) continue;
       break; // nothing left to try against this path — give up, try a new one
     }
   }

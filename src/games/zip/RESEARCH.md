@@ -78,18 +78,40 @@ technique (see §2–3), rather than guessing constraints blindly:
 6. If a path exhausts its attempt budget entirely, build a brand-new random path and start over.
    The whole generator throws if a day can't be solved within the attempt budget (per CLAUDE.md).
 
-**Checkpoints stay sparse; walls carry the uniqueness burden.** An earlier version of this
-generator tried to grow checkpoints first and treat walls as the fallback (closer to how the
-baseline requirements read), with walls picked as arbitrary "chord" edges not on the solution path.
-Measuring it directly: a uniformly random Hamiltonian path on a 6×6 grid routinely needed numbering
-**15–20 of the 36 cells** before checkpoints alone forced uniqueness (verified with
-`countSolutions` while iterating on this file — see the git history of this section), because a
-random grid-graph path has vastly more alternate Hamiltonian paths than a hand-designed one.
-Arbitrary chord walls fared even worse (often 15+ walls). Flipping the priority — try a
-witness-driven wall first, only grow checkpoints when that's exhausted — brought every measured
-puzzle back down to baseline checkpoints (`size - 1`) plus roughly 3–15 walls, because each wall is
-chosen to kill a *specific, confirmed* alternate solution instead of guessing. This still means
-Zip boards here lean on walls more than LinkedIn's hand-authored ones typically do; see HANDOFF.md.
+**Checkpoints stay sparse-ish; walls carry the rest of the uniqueness burden.** An earlier version
+of this generator tried to grow checkpoints first and treat walls as the fallback (closer to how
+the baseline requirements read), with walls picked as arbitrary "chord" edges not on the solution
+path. Measuring it directly: a uniformly random Hamiltonian path on a 6×6 grid routinely needed
+numbering **15–20 of the 36 cells** before checkpoints alone forced uniqueness (verified with
+`countSolutions` while iterating on this file), because a random grid-graph path has vastly more
+alternate Hamiltonian paths than a hand-designed one. Arbitrary chord walls fared even worse (often
+15+ walls). Flipping the priority — try a witness-driven wall first, only grow checkpoints when
+that's exhausted — brought checkpoints back down to baseline (`size - 1`), but pushed walls up to
+an average of **6.6 (6×6) / 10.0 (7×7) / 12.5 (8×8)**, with 68% of the full 365-day schedule needing
+more than 6 walls — the generator's own samples-report heuristic flags that as likely to look
+cluttered, and a look at the rendered sample grids (see git history of `scripts/out/zip-samples.md`)
+agreed: boards with a wall on nearly every row don't read as "Zip" any more.
+
+**Final tuning: a capped checkpoint allowance, tried before any wall.** Pure wall-first and pure
+checkpoint-first are each too extreme on their own; `generateDay` now tries growing checkpoints
+*first* each round, but only up to a modest `softCheckpointAllowance(size)` above baseline (3 extra
+for 6×6, 6 extra for 7×7, 10 extra for 8×8 — tuned by sampling, see `pnpm exec vitest` isn't used for
+this since it's a judgment call, not correctness: measured with an ad-hoc harness against
+`generateDay` directly). Only once that allowance is exhausted does it fall back to a witness wall;
+if walls also run out (`WALL_CAP`), it keeps growing checkpoints up to `hardCheckpointCeiling`
+before giving up on the path entirely. Larger grids need a bigger allowance because their alternate-path
+space grows much faster than linearly. Final measured numbers over the full 365-day schedule:
+
+| Size | Avg checkpoints (of total cells) | Avg walls | Days >6 walls |
+|---|---|---|---|
+| 6×6 | 8.0 (22%) | 3.9 | — |
+| 7×7 | 12.0 (24%) | 4.5 | — |
+| 8×8 | 17.0 (27%) | 5.2 | — |
+| **All 365 days** | — | — | 52/365 (14%, down from 68% pure-wall-first) |
+
+This keeps checkpoint density well under the ~45–55% that pure checkpoint-first needed, while
+cutting average walls roughly in half versus pure wall-first. Zip boards here still lean on both
+checkpoints and walls somewhat more than LinkedIn's hand-authored ones typically do; see HANDOFF.md.
 
 This is deterministic: a single `mulberry32(51)` stream (seed 51, per the task prompt) is advanced
 sequentially across all `SCHEDULE_DAYS` days in date order, so re-running the generator reproduces
