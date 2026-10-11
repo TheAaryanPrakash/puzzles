@@ -1,4 +1,8 @@
+/// <reference types="node" />
 import { describe, expect, it } from "vitest";
+import { readFileSync, readdirSync } from "node:fs";
+import { dirname, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
 import {
   DEFAULT_STATE,
   MAX_MISTAKES,
