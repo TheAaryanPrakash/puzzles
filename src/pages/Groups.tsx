@@ -9,7 +9,7 @@ import type { Group, GroupMember } from "../lib/data/types";
 const MAX_CREATED_GROUPS = 3;
 
 function inviteLinkFor(code: string): string {
-  return `${window.location.origin}/join?code=${encodeURIComponent(code)}`;
+  return `${window.location.origin}/join?invite=${encodeURIComponent(code)}`;
 }
 
 function CopyButton({ text }: { text: string }) {

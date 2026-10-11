@@ -38,7 +38,10 @@ export function Join() {
   const navigate = useNavigate();
   const location = useLocation();
 
-  const urlCode = searchParams.get("code");
+  // Named "invite", not "code": Supabase's own PKCE OAuth callback appends its own `?code=` to
+  // this page's URL on the way back from Google, which would otherwise collide with and silently
+  // overwrite an invite code of the same param name.
+  const urlCode = searchParams.get("invite");
   const [code, setCode] = useState(() => urlCode ?? readInviteCode() ?? "");
   const [name, setName] = useState("");
   const [error, setError] = useState<string | null>(null);

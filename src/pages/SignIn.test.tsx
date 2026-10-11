@@ -80,7 +80,7 @@ describe("SignIn", () => {
     expect(container.textContent).toContain("Sign in with Google to join.");
 
     await clickContinue();
-    expect(signInWithGoogle).toHaveBeenCalledWith("/join?code=sunflower-23");
+    expect(signInWithGoogle).toHaveBeenCalledWith("/join?invite=sunflower-23");
   });
 
   it("falls back to the locally-saved invite code when navigation state has none", async () => {
@@ -89,7 +89,7 @@ describe("SignIn", () => {
     await renderSignIn([{ pathname: "/signin" }]);
 
     await clickContinue();
-    expect(signInWithGoogle).toHaveBeenCalledWith("/join?code=sunflower-23");
+    expect(signInWithGoogle).toHaveBeenCalledWith("/join?invite=sunflower-23");
   });
 
   it("shows a friendly error and resets loading when sign-in fails", async () => {

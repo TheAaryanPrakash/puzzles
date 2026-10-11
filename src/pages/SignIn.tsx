@@ -16,7 +16,7 @@ export function SignIn() {
     setError(null);
     setLoading(true);
     try {
-      const redirectPath = inviteCode ? `/join?code=${encodeURIComponent(inviteCode)}` : undefined;
+      const redirectPath = inviteCode ? `/join?invite=${encodeURIComponent(inviteCode)}` : undefined;
       await signInWithGoogle(redirectPath);
       // On success the browser navigates away to Google; loading stays true until it does.
     } catch (err) {

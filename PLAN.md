@@ -190,7 +190,7 @@ With two accounts (yours plus a second Google account):
 - [ ] noindex meta and robots.txt present
 - [ ] Deploy to Vercel; add its URL to Supabase's Site URL and redirect URLs
 
-Launch: send `https://<site>/join?code=<invite code>` to your friends.
+Launch: send `https://<site>/join?invite=<invite code>` to your friends.
 
 Free-plan note: Supabase pauses a free project after about a week with too little activity. Daily
 players keep it awake; if everyone stops for a week, unpause it from the dashboard.

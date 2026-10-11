@@ -113,7 +113,7 @@ afterEach(() => {
 
 describe("Join", () => {
   it("pre-fills the invite code from the URL when signed in but not a member", async () => {
-    await renderJoin(["/join?code=sunflower-23"]);
+    await renderJoin(["/join?invite=sunflower-23"]);
 
     const codeInput = container.querySelector<HTMLInputElement>("#join-code")!;
     expect(codeInput.value).toBe("sunflower-23");
@@ -199,7 +199,7 @@ describe("Join", () => {
 
   it("when signed out, saves the invite code and sends the user to sign in", async () => {
     statusRef.current = "signed-out";
-    await renderJoin(["/join?code=sunflower-23"]);
+    await renderJoin(["/join?invite=sunflower-23"]);
 
     expect(container.querySelector("[data-testid=signin]")).not.toBeNull();
     expect(container.querySelector("[data-testid=signin-message]")?.textContent).toBe(
@@ -222,7 +222,7 @@ describe("Join", () => {
   it("when already a member with a code, previews and offers to join that extra group", async () => {
     statusRef.current = "member";
     dataSourceMock.previewGroup.mockResolvedValue({ id: "g2", name: "Book Club" });
-    await renderJoin(["/join?code=book-club-07"]);
+    await renderJoin(["/join?invite=book-club-07"]);
     await act(async () => {
       await flush();
     });
