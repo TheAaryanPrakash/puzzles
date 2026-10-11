@@ -107,14 +107,3 @@ export function buildSummary(
   const guessWord = state.guesses.length === 1 ? "guess" : "guesses";
   return `Globle #${puzzleNumber} ${won ? `${state.guesses.length} ${guessWord}` : "unsolved"}\n${grid}`;
 }
-
-/**
- * ISO 3166-1 alpha-2 → flag emoji, via the Unicode Regional Indicator Symbol trick (each letter
- * maps to U+1F1E6..U+1F1FF). Zero-asset: no flag image library needed just for the one reveal in
- * ResultModal, which would otherwise cost hundreds of KB of CSS for every country's flag.
- */
-export function isoToFlagEmoji(code: string): string {
-  return code
-    .toUpperCase()
-    .replace(/./g, (c) => String.fromCodePoint(0x1f1e6 - 65 + c.charCodeAt(0)));
-}
