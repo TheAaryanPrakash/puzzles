@@ -1,6 +1,9 @@
 import { PGlite } from "@electric-sql/pglite";
 // Run: node supabase/tests/schema.test.mjs supabase/migrations/0001_init.sql  (needs @electric-sql/pglite)
-import { readFileSync } from "node:fs";
+// Applies every *.sql file in that path's directory, in filename order — so a new migration
+// only needs a new file here, never a change to this invocation (package.json's test:db is frozen).
+import { readFileSync, readdirSync } from "node:fs";
+import { dirname, join } from "node:path";
 
 const db = new PGlite();
 const A = "00000000-0000-0000-0000-00000000000a";
@@ -19,7 +22,11 @@ await db.exec(`
     $$ select nullif(current_setting('request.jwt.claim.sub', true), '')::uuid $$;
   insert into auth.users values ('${A}'), ('${B}'), ('${C}');
 `);
-await db.exec(readFileSync(process.argv[2], "utf8"));
+const migrationsDir = dirname(process.argv[2]);
+const migrationFiles = readdirSync(migrationsDir).filter((f) => f.endsWith(".sql")).sort();
+for (const file of migrationFiles) {
+  await db.exec(readFileSync(join(migrationsDir, file), "utf8"));
+}
 await db.exec(`
   grant usage on schema public, auth to anon, authenticated;
   grant select, insert, update, delete on all tables in schema public to authenticated;
@@ -126,6 +133,13 @@ const msgs = (await as(A, "select content->>'title' as t from messages")).rows.m
 ok("recipient sees message once required games are finished", JSON.stringify(msgs) === '["finale"]');
 ok("other members cannot read someone else's message",
   (await as(B, "select * from messages")).rows.length === 0);
+
+// 0002: RLS performance indexes exist (see docs/research/backend.md)
+const indexNames = (await db.query(
+  "select indexname from pg_indexes where schemaname = 'public' and tablename in ('plays', 'messages')",
+)).rows.map((r) => r.indexname);
+ok("plays has a (game_id, puzzle_date) index", indexNames.includes("plays_game_date_idx"));
+ok("messages has a recipient index", indexNames.includes("messages_recipient_idx"));
 
 console.log(`\n${pass} passed, ${fail} failed`);
 process.exit(fail ? 1 : 0);
