@@ -1,0 +1,32 @@
+/* Pastel mini sudoku: soft lilac/pink, big rounded cells, friendly rounded Nunito — a pocket-sized,
+   playful counterpart to the full-size paper sudoku. */
+[data-game="mini-sudoku"] {
+  --game-bg: #fdf4fb;
+  --game-fg: #4a3356;
+  --game-surface: #ffffff;
+  --game-surface-2: #f6e9f6;
+  --game-border: #ecd3ea;
+  --game-accent: #c15fb0;
+  --game-accent-fg: #ffffff;
+  --game-muted: #9b7fa6;
+  --game-font: "Nunito", sans-serif;
+
+  --tile-radius: 0.9rem;
+  --tile-empty: #ffffff;
+  --tile-filled: #f0e0f6;
+  --tile-fg: #4a3356;
+  --tile-selected: #c15fb0;
+  --tile-correct: #7fc9a6;
+  --tile-present: #f3c969;
+  --tile-absent: #c9bcd1;
+}
+
+/* Rounder cells and a chunkier board grid than the full-size sudoku, to read as a smaller, softer
+   puzzle at a glance. */
+[data-game="mini-sudoku"] [role="grid"] {
+  border-radius: 1.1rem;
+}
+
+[data-game="mini-sudoku"] [role="gridcell"] {
+  border-radius: 0.5rem;
+}

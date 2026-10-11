@@ -1,0 +1,36 @@
+/* Paper-white sudoku: ink-blue entries on a cream paper surface, serif headline + mono digits —
+   evokes a printed newspaper puzzle page. */
+[data-game="sudoku"] {
+  --game-bg: #faf7f0;
+  --game-fg: #1f2733;
+  --game-surface: #fffdf8;
+  --game-surface-2: #f0ebdd;
+  --game-border: #d8cfb8;
+  --game-accent: #1e3a8a;
+  --game-accent-fg: #ffffff;
+  --game-muted: #6b6456;
+  --game-font: "Source Serif 4", serif;
+
+  --tile-radius: 0.25rem;
+  --tile-empty: #fffdf8;
+  --tile-filled: #efe9da;
+  --tile-fg: #1f2733;
+  --tile-selected: #1e3a8a;
+  --tile-correct: #1e3a8a;
+  --tile-present: #c9b458;
+  --tile-absent: #787c7e;
+}
+
+[data-game="sudoku"] .font-mono-ink {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+/* Board digits (both given and entered) read in the monospace "ink" face; everything chrome
+   around the board (title, buttons) keeps the serif headline font set via --game-font. */
+[data-game="sudoku"] [role="grid"] button {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+[data-game="sudoku"] [role="grid"] button span {
+  font-family: "IBM Plex Mono", monospace;
+}
