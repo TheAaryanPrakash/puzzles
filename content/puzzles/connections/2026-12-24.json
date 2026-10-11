@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "UNSPECIFIED QUANTITIES",
+        "level": 0,
+        "words": [
+          "SOME",
+          "FEW",
+          "HANDFUL",
+          "SEVERAL"
+        ]
+      },
+      {
+        "label": "CELESTIAL OBJECTS",
+        "level": 1,
+        "words": [
+          "MOON",
+          "COMET",
+          "PLANET",
+          "ASTEROID"
+        ]
+      },
+      {
+        "label": "NEWSPAPERS",
+        "level": 2,
+        "words": [
+          "GLOBE",
+          "POST",
+          "SUN",
+          "JOURNAL"
+        ]
+      },
+      {
+        "label": "FRUIT HOMOPHONES",
+        "level": 3,
+        "words": [
+          "LYME",
+          "PAIR",
+          "PLUMB",
+          "MELLON"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "MADE OF KERATIN",
+        "level": 0,
+        "words": [
+          "CLAW",
+          "HORN",
+          "HOOF",
+          "NAIL"
+        ]
+      },
+      {
+        "label": "ROAD RUNNER CARTOON STAPLES",
+        "level": 1,
+        "words": [
+          "BOULDER",
+          "ANVIL",
+          "COYOTE",
+          "TNT"
+        ]
+      },
+      {
+        "label": "KINDS OF PANTS",
+        "level": 2,
+        "words": [
+          "CARGO",
+          "HAMMER",
+          "STIRRUP",
+          "CAPRI"
+        ]
+      },
+      {
+        "label": "___ ROLL",
+        "level": 3,
+        "words": [
+          "CALIFORNIA",
+          "EGG",
+          "DRUM",
+          "HONOR"
+        ]
+      }
+    ]
+  }
+}

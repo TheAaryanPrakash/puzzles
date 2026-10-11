@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "DECEIVE",
+        "level": 0,
+        "words": [
+          "TRICK",
+          "FOOL",
+          "CON",
+          "DUPE"
+        ]
+      },
+      {
+        "label": "INSIDE INFO",
+        "level": 1,
+        "words": [
+          "WORD",
+          "SKINNY",
+          "SCOOP",
+          "DOPE"
+        ]
+      },
+      {
+        "label": "TILT TO ONE SIDE",
+        "level": 2,
+        "words": [
+          "LIST",
+          "CANT",
+          "LEAN",
+          "SLOPE"
+        ]
+      },
+      {
+        "label": "WORDS SPELLED WITH AN UPSIDE-DOWN CALCULATOR",
+        "level": 3,
+        "words": [
+          "HELLO",
+          "EGGSHELL",
+          "GIGGLE",
+          "BOOB"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "NOT PRESENT",
+        "level": 0,
+        "words": [
+          "MIA",
+          "ELSEWHERE",
+          "GONE",
+          "ABSENT"
+        ]
+      },
+      {
+        "label": "SUPPORTER",
+        "level": 1,
+        "words": [
+          "CHEERLEADER",
+          "CHAMPION",
+          "EXPONENT",
+          "ADVOCATE"
+        ]
+      },
+      {
+        "label": "ROCK GENRES",
+        "level": 2,
+        "words": [
+          "PUNK",
+          "GOTH",
+          "GLAM",
+          "METAL"
+        ]
+      },
+      {
+        "label": "SHOCK ___",
+        "level": 3,
+        "words": [
+          "HORROR",
+          "JOCK",
+          "WAVE",
+          "VALUE"
+        ]
+      }
+    ]
+  }
+}

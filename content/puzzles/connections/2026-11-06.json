@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "MUSIC GENRES",
+        "level": 0,
+        "words": [
+          "POP",
+          "RAP",
+          "JAZZ",
+          "PUNK"
+        ]
+      },
+      {
+        "label": "WEB BROWSERS",
+        "level": 1,
+        "words": [
+          "OPERA",
+          "SAFARI",
+          "CHROME",
+          "EDGE"
+        ]
+      },
+      {
+        "label": "“LITTLE WOMEN” SISTERS",
+        "level": 2,
+        "words": [
+          "JO",
+          "MEG",
+          "BETH",
+          "AMY"
+        ]
+      },
+      {
+        "label": "LIL ___ RAPPERS",
+        "level": 3,
+        "words": [
+          "BABY",
+          "WAYNE",
+          "KIM",
+          "JON"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "PLUNDER",
+        "level": 0,
+        "words": [
+          "SACK",
+          "ROB",
+          "LOOT",
+          "RAID"
+        ]
+      },
+      {
+        "label": "INFLUENCE",
+        "level": 1,
+        "words": [
+          "SWAY",
+          "PULL",
+          "WEIGHT",
+          "CLOUT"
+        ]
+      },
+      {
+        "label": "HAIRSTYLES",
+        "level": 2,
+        "words": [
+          "BOB",
+          "CROP",
+          "FADE",
+          "SHAG"
+        ]
+      },
+      {
+        "label": "___ PIN",
+        "level": 3,
+        "words": [
+          "SAFETY",
+          "PUSH",
+          "BOBBY",
+          "HAIR"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "JOKE AROUND WITH",
+        "level": 0,
+        "words": [
+          "KID",
+          "RIB",
+          "TEASE",
+          "RAZZ"
+        ]
+      },
+      {
+        "label": "POULTRY CUTS",
+        "level": 1,
+        "words": [
+          "THIGH",
+          "TENDER",
+          "BREAST",
+          "WING"
+        ]
+      },
+      {
+        "label": "BABY ANIMALS",
+        "level": 2,
+        "words": [
+          "CALF",
+          "KIT",
+          "FAWN",
+          "CUB"
+        ]
+      },
+      {
+        "label": "PUSH THROUGH A CROWD",
+        "level": 3,
+        "words": [
+          "SHOULDER",
+          "MUSCLE",
+          "JOSTLE",
+          "BARGE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "INDICATION OF THINGS TO COME",
+        "level": 0,
+        "words": [
+          "SIGN",
+          "WARNING",
+          "MESSAGE",
+          "OMEN"
+        ]
+      },
+      {
+        "label": "NAME PREFIXES",
+        "level": 1,
+        "words": [
+          "MS",
+          "REV",
+          "GEN",
+          "PROF"
+        ]
+      },
+      {
+        "label": "ART MEDIUMS",
+        "level": 2,
+        "words": [
+          "PAINT",
+          "PASTEL",
+          "INK",
+          "CHARCOAL"
+        ]
+      },
+      {
+        "label": "___ PEPPER",
+        "level": 3,
+        "words": [
+          "GHOST",
+          "BELL",
+          "BLACK",
+          "DR"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "HIT HARD",
+        "level": 0,
+        "words": [
+          "HAMMER",
+          "POUND",
+          "BANG",
+          "SLAM"
+        ]
+      },
+      {
+        "label": "NEWSPAPER NAMES",
+        "level": 1,
+        "words": [
+          "REGISTER",
+          "SUN",
+          "HERALD",
+          "CHRONICLE"
+        ]
+      },
+      {
+        "label": "CRESCENT-SHAPED THINGS",
+        "level": 2,
+        "words": [
+          "BANANA",
+          "SICKLE",
+          "MOON",
+          "CROISSANT"
+        ]
+      },
+      {
+        "label": "POWER-UPS IN SUPER MARIO WORLD",
+        "level": 3,
+        "words": [
+          "FLOWER",
+          "FEATHER",
+          "STAR",
+          "MUSHROOM"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "INTELLIGENT",
+        "level": 0,
+        "words": [
+          "SHARP",
+          "QUICK",
+          "BRIGHT",
+          "CLEVER"
+        ]
+      },
+      {
+        "label": "AIRLINES",
+        "level": 1,
+        "words": [
+          "FRONTIER",
+          "ALASKA",
+          "SPIRIT",
+          "SOUTHWEST"
+        ]
+      },
+      {
+        "label": "WESTERN TROPES",
+        "level": 2,
+        "words": [
+          "COWBOY",
+          "SHERIFF",
+          "OUTLAW",
+          "DRIFTER"
+        ]
+      },
+      {
+        "label": "TV SHOW TITLE SURNAMES",
+        "level": 3,
+        "words": [
+          "SMART",
+          "MARS",
+          "LASSO",
+          "ROGERS"
+        ]
+      }
+    ]
+  }
+}

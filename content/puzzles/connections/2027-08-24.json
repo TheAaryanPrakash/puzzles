@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "ALERT",
+        "level": 0,
+        "words": [
+          "SOS",
+          "FLARE",
+          "SIGNAL",
+          "ALARM"
+        ]
+      },
+      {
+        "label": "SPEND THE NIGHT (AT)",
+        "level": 1,
+        "words": [
+          "SLEEP",
+          "STAY",
+          "BUNK",
+          "CRASH"
+        ]
+      },
+      {
+        "label": "ASSOCIATED WITH EARLY MORNING",
+        "level": 2,
+        "words": [
+          "ROOSTER",
+          "SUNRISE",
+          "DEW",
+          "WORM"
+        ]
+      },
+      {
+        "label": "COOKIE CUTTER SHAPES IN “SQUID GAME”",
+        "level": 3,
+        "words": [
+          "UMBRELLA",
+          "STAR",
+          "CIRCLE",
+          "TRIANGLE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "PAINTING ACCESSORIES",
+        "level": 0,
+        "words": [
+          "BRUSH",
+          "CANVAS",
+          "EASEL",
+          "PALETTE"
+        ]
+      },
+      {
+        "label": "AUTOMATIC TRANSMISSION SETTINGS",
+        "level": 1,
+        "words": [
+          "PARK",
+          "NEUTRAL",
+          "DRIVE",
+          "REVERSE"
+        ]
+      },
+      {
+        "label": "THINGS WITH TEETH",
+        "level": 2,
+        "words": [
+          "GEAR",
+          "COMB",
+          "SAW",
+          "ZIPPER"
+        ]
+      },
+      {
+        "label": "___ CHAIR",
+        "level": 3,
+        "words": [
+          "FOLDING",
+          "HIGH",
+          "LAWN",
+          "FIRST"
+        ]
+      }
+    ]
+  }
+}

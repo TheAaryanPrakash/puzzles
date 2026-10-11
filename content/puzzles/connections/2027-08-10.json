@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "RESIDE",
+        "level": 0,
+        "words": [
+          "DWELL",
+          "STAY",
+          "LIVE",
+          "INHABIT"
+        ]
+      },
+      {
+        "label": "DECREASE",
+        "level": 1,
+        "words": [
+          "DWINDLE",
+          "DECLINE",
+          "EBB",
+          "DROP"
+        ]
+      },
+      {
+        "label": "DOOFUS",
+        "level": 2,
+        "words": [
+          "CLOWN",
+          "TURKEY",
+          "SAP",
+          "DWEEB"
+        ]
+      },
+      {
+        "label": "MEMBER OF A SEPTET",
+        "level": 3,
+        "words": [
+          "SEA",
+          "WONDER",
+          "SIN",
+          "DWARF"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "SLANG FOR FRIEND",
+        "level": 0,
+        "words": [
+          "BUD",
+          "MATE",
+          "CHUM",
+          "PAL"
+        ]
+      },
+      {
+        "label": "ADJECTIVES FOR A BASEMENT",
+        "level": 1,
+        "words": [
+          "DARK",
+          "COLD",
+          "DANK",
+          "MUSTY"
+        ]
+      },
+      {
+        "label": "STUBBLE",
+        "level": 2,
+        "words": [
+          "SHADOW",
+          "FUZZ",
+          "WHISKERS",
+          "SCRUFF"
+        ]
+      },
+      {
+        "label": "COLLECTION OF MONEY",
+        "level": 3,
+        "words": [
+          "KITTY",
+          "POT",
+          "POOL",
+          "FUND"
+        ]
+      }
+    ]
+  }
+}

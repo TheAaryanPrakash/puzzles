@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "DECLINE",
+        "level": 0,
+        "words": [
+          "DROP",
+          "DIP",
+          "SINK",
+          "FALL"
+        ]
+      },
+      {
+        "label": "MOVE WITH SPEED",
+        "level": 1,
+        "words": [
+          "TEAR",
+          "FLY",
+          "BLAZE",
+          "RACE"
+        ]
+      },
+      {
+        "label": "KINDS OF DANCE",
+        "level": 2,
+        "words": [
+          "TAP",
+          "SALSA",
+          "MODERN",
+          "SWING"
+        ]
+      },
+      {
+        "label": "BABY ___",
+        "level": 3,
+        "words": [
+          "TALK",
+          "SHOWER",
+          "CARROT",
+          "BOOM"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "SOUND LIKE A DOG",
+        "level": 0,
+        "words": [
+          "BAY",
+          "BARK",
+          "HOWL",
+          "SNARL"
+        ]
+      },
+      {
+        "label": "BROADCAST, AS ONLINE MEDIA",
+        "level": 1,
+        "words": [
+          "PLAY",
+          "STREAM",
+          "RUN",
+          "AIR"
+        ]
+      },
+      {
+        "label": "COCKTAIL-MAKING VERBS",
+        "level": 2,
+        "words": [
+          "STIR",
+          "GARNISH",
+          "MUDDLE",
+          "STRAIN"
+        ]
+      },
+      {
+        "label": "ORGANIZATIONAL STRUCTURES, METAPHORICALLY",
+        "level": 3,
+        "words": [
+          "CHAIN",
+          "TREE",
+          "PYRAMID",
+          "LADDER"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "CONTACT VIA PHONE",
+        "level": 0,
+        "words": [
+          "BUZZ",
+          "RING",
+          "CALL",
+          "DIAL"
+        ]
+      },
+      {
+        "label": "BOOK SECTIONS",
+        "level": 1,
+        "words": [
+          "INDEX",
+          "APPENDIX",
+          "CHAPTER",
+          "PREFACE"
+        ]
+      },
+      {
+        "label": "WEE",
+        "level": 2,
+        "words": [
+          "DINKY",
+          "SLIGHT",
+          "MINUTE",
+          "LITTLE"
+        ]
+      },
+      {
+        "label": "CARTOON MICE",
+        "level": 3,
+        "words": [
+          "ITCHY",
+          "PINKY",
+          "SPEEDY",
+          "JERRY"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "TAKE HOME, AS INCOME",
+        "level": 0,
+        "words": [
+          "MAKE",
+          "NET",
+          "CLEAR",
+          "EARN"
+        ]
+      },
+      {
+        "label": "PARTS OF A WIZARD COSTUME",
+        "level": 1,
+        "words": [
+          "STAFF",
+          "HAT",
+          "ROBE",
+          "BEARD"
+        ]
+      },
+      {
+        "label": "FOUND ON A SHIP",
+        "level": 2,
+        "words": [
+          "BRIDGE",
+          "HATCH",
+          "KEEL",
+          "DECK"
+        ]
+      },
+      {
+        "label": "C-___",
+        "level": 3,
+        "words": [
+          "SPAN",
+          "CLEF",
+          "SECTION",
+          "SUITE"
+        ]
+      }
+    ]
+  }
+}

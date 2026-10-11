@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "CELEBRATORY OCCASIONS",
+        "level": 0,
+        "words": [
+          "BIRTHDAY",
+          "WEDDING",
+          "ANNIVERSARY",
+          "SHOWER"
+        ]
+      },
+      {
+        "label": "PHONE CONNECTIVITY",
+        "level": 1,
+        "words": [
+          "BARS",
+          "RECEPTION",
+          "SERVICE",
+          "SIGNAL"
+        ]
+      },
+      {
+        "label": "CITIES AND TOWNS IN ENGLAND",
+        "level": 2,
+        "words": [
+          "BATH",
+          "SANDWICH",
+          "DERBY",
+          "READING"
+        ]
+      },
+      {
+        "label": "___ OPERA",
+        "level": 3,
+        "words": [
+          "ROCK",
+          "SOAP",
+          "COMIC",
+          "MET"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "STRONG SMELL",
+        "level": 0,
+        "words": [
+          "FUNK",
+          "TANG",
+          "MUSK",
+          "ODOR"
+        ]
+      },
+      {
+        "label": "MOVE BACK AND FORTH",
+        "level": 1,
+        "words": [
+          "WAVE",
+          "SWING",
+          "ROCK",
+          "SWAY"
+        ]
+      },
+      {
+        "label": "THINGS TO PICK",
+        "level": 2,
+        "words": [
+          "BONE",
+          "LOCK",
+          "AFRO",
+          "FIGHT"
+        ]
+      },
+      {
+        "label": "___ BALL",
+        "level": 3,
+        "words": [
+          "DISCO",
+          "CRYSTAL",
+          "GUTTER",
+          "FOUL"
+        ]
+      }
+    ]
+  }
+}

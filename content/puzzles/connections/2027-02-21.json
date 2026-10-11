@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "GET RED IN THE FACE",
+        "level": 0,
+        "words": [
+          "FLUSH",
+          "GLOW",
+          "BURN",
+          "BLUSH"
+        ]
+      },
+      {
+        "label": "CONTINUOUS",
+        "level": 1,
+        "words": [
+          "NONSTOP",
+          "SOLID",
+          "STRAIGHT",
+          "CONSECUTIVE"
+        ]
+      },
+      {
+        "label": "FLAVOR ASSORTMENT",
+        "level": 2,
+        "words": [
+          "FLIGHT",
+          "PLATTER",
+          "SAMPLER",
+          "TASTING"
+        ]
+      },
+      {
+        "label": "SITCOMS",
+        "level": 3,
+        "words": [
+          "COACH",
+          "FULL HOUSE",
+          "BLOSSOM",
+          "COMMUNITY"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "HIGHEST POINT",
+        "level": 0,
+        "words": [
+          "VERTEX",
+          "PEAK",
+          "CREST",
+          "SUMMIT"
+        ]
+      },
+      {
+        "label": "“CAN I GET YOUR ___?” (PHONE INFO REQUEST)",
+        "level": 1,
+        "words": [
+          "CELL",
+          "NUMBER",
+          "CONTACT",
+          "DIGITS"
+        ]
+      },
+      {
+        "label": "MODIFIERS MEANING “SMALL”",
+        "level": 2,
+        "words": [
+          "BABY",
+          "TOY",
+          "POCKET",
+          "MINI"
+        ]
+      },
+      {
+        "label": "INSIDE A SCRABBLE BOX",
+        "level": 3,
+        "words": [
+          "BAG",
+          "TILES",
+          "BOARD",
+          "RACKS"
+        ]
+      }
+    ]
+  }
+}

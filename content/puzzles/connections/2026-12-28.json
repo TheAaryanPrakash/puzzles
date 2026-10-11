@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "FOOT PARTS",
+        "level": 0,
+        "words": [
+          "SOLE",
+          "BALL",
+          "TOE",
+          "ARCH"
+        ]
+      },
+      {
+        "label": "MUSICAL INSTRUMENTS",
+        "level": 1,
+        "words": [
+          "HORN",
+          "BASS",
+          "HARP",
+          "ORGAN"
+        ]
+      },
+      {
+        "label": "DOG COMMANDS",
+        "level": 2,
+        "words": [
+          "DOWN",
+          "COME",
+          "SIT",
+          "STAY"
+        ]
+      },
+      {
+        "label": "BADDIE",
+        "level": 3,
+        "words": [
+          "DOG",
+          "SNAKE",
+          "HEEL",
+          "JERK"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "KINDS OF BEANS",
+        "level": 0,
+        "words": [
+          "NAVY",
+          "KIDNEY",
+          "PINTO",
+          "MUNG"
+        ]
+      },
+      {
+        "label": "ATTRACT",
+        "level": 1,
+        "words": [
+          "DRAW",
+          "HOOK",
+          "PULL",
+          "GRAB"
+        ]
+      },
+      {
+        "label": "AUTOMATIC GEAR SHIFTER POSITIONS",
+        "level": 2,
+        "words": [
+          "DRIVE",
+          "NEUTRAL",
+          "LOW",
+          "REVERSE"
+        ]
+      },
+      {
+        "label": "___POOL",
+        "level": 3,
+        "words": [
+          "WHIRL",
+          "LIVER",
+          "CAR",
+          "DEAD"
+        ]
+      }
+    ]
+  }
+}

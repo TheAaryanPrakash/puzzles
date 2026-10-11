@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "RASPY",
+        "level": 0,
+        "words": [
+          "HUSKY",
+          "GRUFF",
+          "ROUGH",
+          "HOARSE"
+        ]
+      },
+      {
+        "label": "FINGERS",
+        "level": 1,
+        "words": [
+          "LITTLE",
+          "RING",
+          "POINTER",
+          "MIDDLE"
+        ]
+      },
+      {
+        "label": "ALE STYLES",
+        "level": 2,
+        "words": [
+          "SOUR",
+          "STOUT",
+          "AMBER",
+          "PORTER"
+        ]
+      },
+      {
+        "label": "FRENCH ___",
+        "level": 3,
+        "words": [
+          "BULLDOG",
+          "KISS",
+          "HORN",
+          "FRY"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "PLAYFULLY BOTHER",
+        "level": 0,
+        "words": [
+          "KID",
+          "TEASE",
+          "RIB",
+          "JOSH"
+        ]
+      },
+      {
+        "label": "APEX",
+        "level": 1,
+        "words": [
+          "TOP",
+          "MAX",
+          "PEAK",
+          "HEIGHT"
+        ]
+      },
+      {
+        "label": "WORDS FOR SPECIFIC QUANTITIES",
+        "level": 2,
+        "words": [
+          "DOZEN",
+          "PAIR",
+          "GROSS",
+          "SCORE"
+        ]
+      },
+      {
+        "label": "WHAT “X” MIGHT MEAN",
+        "level": 3,
+        "words": [
+          "ADULT",
+          "TEN",
+          "TIMES",
+          "KISS"
+        ]
+      }
+    ]
+  }
+}

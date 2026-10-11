@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "BOVIDS",
+        "level": 0,
+        "words": [
+          "COW",
+          "GOAT",
+          "BUFFALO",
+          "SHEEP"
+        ]
+      },
+      {
+        "label": "EMIT LIGHT",
+        "level": 1,
+        "words": [
+          "SHINE",
+          "GLOW",
+          "BEAM",
+          "RADIATE"
+        ]
+      },
+      {
+        "label": "GYMNASTICS APPARATUS",
+        "level": 2,
+        "words": [
+          "FLOOR",
+          "HORSE",
+          "VAULT",
+          "RINGS"
+        ]
+      },
+      {
+        "label": "WORDS THAT SOUND LIKE TWO LETTERS",
+        "level": 3,
+        "words": [
+          "CUTIE",
+          "SEEDY",
+          "EXCEL",
+          "ENVY"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "BE CONTINGENT (ON)",
+        "level": 0,
+        "words": [
+          "REST",
+          "HINGE",
+          "DEPEND",
+          "RELY"
+        ]
+      },
+      {
+        "label": "“CALM DOWN”",
+        "level": 1,
+        "words": [
+          "RELAX",
+          "EASY",
+          "CHILL",
+          "ENOUGH"
+        ]
+      },
+      {
+        "label": "INGREDIENTS IN AN OLD FASHIONED",
+        "level": 2,
+        "words": [
+          "SUGAR",
+          "ORANGE",
+          "RYE",
+          "BITTERS"
+        ]
+      },
+      {
+        "label": "FEATURED IN THE MONTY HALL PROBLEM",
+        "level": 3,
+        "words": [
+          "GOAT",
+          "HOST",
+          "DOOR",
+          "CAR"
+        ]
+      }
+    ]
+  }
+}

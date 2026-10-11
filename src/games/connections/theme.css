@@ -1,0 +1,29 @@
+/* Off-white/beige, bold uppercase Libre Franklin — evokes the NYT Connections board. */
+[data-game="connections"] {
+  --game-bg: #fbf4e6;
+  --game-fg: #2b2320;
+  --game-surface: #ffffff;
+  --game-surface-2: #f1e6d1;
+  --game-border: #e3d5bb;
+  --game-accent: #dca52e;
+  --game-accent-fg: #2b2320;
+  --game-muted: #8a7f70;
+  --game-font: "Libre Franklin", sans-serif;
+
+  --tile-radius: 0.6rem;
+  --tile-empty: #f1e6d1;
+  --tile-filled: #f1e6d1;
+  --tile-fg: #2b2320;
+  --tile-selected: #2b2320;
+
+  /* Level colours: 0=yellow (easiest) .. 3=purple (trickiest) — see RESEARCH.md for the
+     contrast-checked pairs (each ≥ 4.5:1 against its own text colour). */
+  --connections-level-0-bg: #dca52e;
+  --connections-level-0-fg: #2b2320;
+  --connections-level-1-bg: #4f7d53;
+  --connections-level-1-fg: #ffffff;
+  --connections-level-2-bg: #3f6fa0;
+  --connections-level-2-fg: #ffffff;
+  --connections-level-3-bg: #7d5486;
+  --connections-level-3-fg: #ffffff;
+}

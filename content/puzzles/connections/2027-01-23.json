@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "HALLOWEEN PURCHASES",
+        "level": 0,
+        "words": [
+          "CANDY",
+          "PUMPKIN",
+          "COSTUME",
+          "DECORATIONS"
+        ]
+      },
+      {
+        "label": "PLANTS WITH SIMILAR FLAVORS",
+        "level": 1,
+        "words": [
+          "LICORICE",
+          "FENNEL",
+          "TARRAGON",
+          "ANISE"
+        ]
+      },
+      {
+        "label": "FOOD SLANG FOR HEAD",
+        "level": 2,
+        "words": [
+          "BEAN",
+          "MELON",
+          "NOODLE",
+          "NUT"
+        ]
+      },
+      {
+        "label": "GEMSTONE CUTS",
+        "level": 3,
+        "words": [
+          "PRINCESS",
+          "BAGUETTE",
+          "EMERALD",
+          "RADIANT"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "ANIMAL HOMES",
+        "level": 0,
+        "words": [
+          "HIVE",
+          "DEN",
+          "LAIR",
+          "NEST"
+        ]
+      },
+      {
+        "label": "VIRTUAL SPACES",
+        "level": 1,
+        "words": [
+          "CLOUD",
+          "WEB",
+          "NET",
+          "METAVERSE"
+        ]
+      },
+      {
+        "label": "EQUITABLE",
+        "level": 2,
+        "words": [
+          "EVEN",
+          "JUST",
+          "FAIR",
+          "EQUAL"
+        ]
+      },
+      {
+        "label": "___ BURGER",
+        "level": 3,
+        "words": [
+          "IMPOSSIBLE",
+          "GOOD",
+          "NOTHING",
+          "WARREN"
+        ]
+      }
+    ]
+  }
+}

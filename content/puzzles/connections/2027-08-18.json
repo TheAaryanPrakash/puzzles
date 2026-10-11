@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "FUND",
+        "level": 0,
+        "words": [
+          "POOL",
+          "PURSE",
+          "KITTY",
+          "POT"
+        ]
+      },
+      {
+        "label": "COURT FILING",
+        "level": 1,
+        "words": [
+          "ACTION",
+          "CLAIM",
+          "SUIT",
+          "CASE"
+        ]
+      },
+      {
+        "label": "LANDFORMS",
+        "level": 2,
+        "words": [
+          "BLUFF",
+          "CAPE",
+          "PLAIN",
+          "BASIN"
+        ]
+      },
+      {
+        "label": "THEY HAVE RAYS",
+        "level": 3,
+        "words": [
+          "SUN",
+          "AQUARIUM",
+          "GEOMETRY",
+          "TAMPA BAY"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "FOOTBALL POSITIONS",
+        "level": 0,
+        "words": [
+          "SAFETY",
+          "QUARTERBACK",
+          "GUARD",
+          "CENTER"
+        ]
+      },
+      {
+        "label": "CABLE CHANNELS",
+        "level": 1,
+        "words": [
+          "NICKELODEON",
+          "HISTORY",
+          "DISCOVERY",
+          "OXYGEN"
+        ]
+      },
+      {
+        "label": "FICTIONAL CLOWNS",
+        "level": 2,
+        "words": [
+          "PENNYWISE",
+          "HOMEY",
+          "JOKER",
+          "RONALD"
+        ]
+      },
+      {
+        "label": "WHAT “D” MIGHT STAND FOR",
+        "level": 3,
+        "words": [
+          "DRIVE",
+          "DIMENSIONAL",
+          "DEFENSE",
+          "DEMOCRAT"
+        ]
+      }
+    ]
+  }
+}

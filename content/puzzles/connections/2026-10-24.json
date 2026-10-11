@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "ONE WITH TOP BILLING",
+        "level": 0,
+        "words": [
+          "STAR",
+          "LEAD",
+          "PRINCIPAL",
+          "HEADLINER"
+        ]
+      },
+      {
+        "label": "VAMPIRE VULNERABILITIES",
+        "level": 1,
+        "words": [
+          "SILVER",
+          "CROSS",
+          "SUN",
+          "GARLIC"
+        ]
+      },
+      {
+        "label": "SATIRICAL PUBLICATIONS, FAMILIARLY",
+        "level": 2,
+        "words": [
+          "MAD",
+          "ONION",
+          "LAMPOON",
+          "CRACKED"
+        ]
+      },
+      {
+        "label": "CLUB ___",
+        "level": 3,
+        "words": [
+          "MUSIC",
+          "MED",
+          "SANDWICH",
+          "SODA"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "DANCE STYLES",
+        "level": 0,
+        "words": [
+          "MODERN",
+          "SWING",
+          "TAP",
+          "JAZZ"
+        ]
+      },
+      {
+        "label": "STEAL",
+        "level": 1,
+        "words": [
+          "PALM",
+          "POCKET",
+          "SWIPE",
+          "LIFT"
+        ]
+      },
+      {
+        "label": "PERFORM WELL ON",
+        "level": 2,
+        "words": [
+          "ROCK",
+          "NAIL",
+          "ACE",
+          "CRUSH"
+        ]
+      },
+      {
+        "label": "___BALL PITCHES",
+        "level": 3,
+        "words": [
+          "FAST",
+          "SCREW",
+          "KNUCKLE",
+          "CURVE"
+        ]
+      }
+    ]
+  }
+}

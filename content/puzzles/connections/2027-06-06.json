@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "COMPUTER EQUIPMENT",
+        "level": 0,
+        "words": [
+          "SPEAKER",
+          "MOUSE",
+          "MONITOR",
+          "KEYBOARD"
+        ]
+      },
+      {
+        "label": "RODENTS",
+        "level": 1,
+        "words": [
+          "RAT",
+          "VOLE",
+          "HAMSTER",
+          "GERBIL"
+        ]
+      },
+      {
+        "label": "MUSICAL INSTRUMENTS",
+        "level": 2,
+        "words": [
+          "HORN",
+          "TRIANGLE",
+          "HARP",
+          "ORGAN"
+        ]
+      },
+      {
+        "label": "SYNONYMS FOR COMPLAIN",
+        "level": 3,
+        "words": [
+          "CARP",
+          "GROUSE",
+          "MOAN",
+          "GRIPE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "SURVIVE",
+        "level": 0,
+        "words": [
+          "HACK IT",
+          "MAKE DO",
+          "MANAGE",
+          "GET BY"
+        ]
+      },
+      {
+        "label": "KINDS OF GREETING CARDS",
+        "level": 1,
+        "words": [
+          "BIRTHDAY",
+          "THANK YOU",
+          "GET WELL",
+          "CONGRATULATIONS"
+        ]
+      },
+      {
+        "label": "ARE WE CLEAR?",
+        "level": 2,
+        "words": [
+          "GET IT",
+          "SEE",
+          "UNDERSTAND",
+          "CAPISCE"
+        ]
+      },
+      {
+        "label": "WORDS AFTER “EYE”",
+        "level": 3,
+        "words": [
+          "CANDY",
+          "CONTACT",
+          "WITNESS",
+          "SHADOW"
+        ]
+      }
+    ]
+  }
+}

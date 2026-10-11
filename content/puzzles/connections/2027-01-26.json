@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "ENCOURAGE, WITH \"ON\"",
+        "level": 0,
+        "words": [
+          "EGG",
+          "GOAD",
+          "SPUR",
+          "URGE"
+        ]
+      },
+      {
+        "label": "SPHERICAL FOODS",
+        "level": 1,
+        "words": [
+          "ORANGE",
+          "MEATBALL",
+          "MOZZARELLA",
+          "JAWBREAKER"
+        ]
+      },
+      {
+        "label": "GROCERY STORE AISLES",
+        "level": 2,
+        "words": [
+          "PRODUCE",
+          "DAIRY",
+          "SNACK",
+          "FROZEN"
+        ]
+      },
+      {
+        "label": "GO ___",
+        "level": 3,
+        "words": [
+          "FIGURE",
+          "STEADY",
+          "FISH",
+          "BANANAS"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "MARK ONLINE FOR LATER",
+        "level": 0,
+        "words": [
+          "SAVE",
+          "LIKE",
+          "FAVORITE",
+          "BOOKMARK"
+        ]
+      },
+      {
+        "label": "BEHALF",
+        "level": 1,
+        "words": [
+          "SAKE",
+          "ADVANTAGE",
+          "INTEREST",
+          "BENEFIT"
+        ]
+      },
+      {
+        "label": "NBA LEGENDS, FAMILIARLY",
+        "level": 2,
+        "words": [
+          "CURRY",
+          "BIRD",
+          "MAGIC",
+          "KOBE"
+        ]
+      },
+      {
+        "label": "ENDING WITH GREEK LETTERS",
+        "level": 3,
+        "words": [
+          "PEPSI",
+          "MOCHI",
+          "FETA",
+          "BIOTA"
+        ]
+      }
+    ]
+  }
+}

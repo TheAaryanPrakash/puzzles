@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "FISH",
+        "level": 0,
+        "words": [
+          "SOLE",
+          "FLUKE",
+          "TANG",
+          "MULLET"
+        ]
+      },
+      {
+        "label": "WORDS IN AN AUCTION-ENDING PHRASE",
+        "level": 1,
+        "words": [
+          "GOING",
+          "SOLD",
+          "ONCE",
+          "TWICE"
+        ]
+      },
+      {
+        "label": "GLOBAL CURRENCIES",
+        "level": 2,
+        "words": [
+          "REAL",
+          "SOL",
+          "YUAN",
+          "POUND"
+        ]
+      },
+      {
+        "label": "WORDS BEFORE “CUP”",
+        "level": 3,
+        "words": [
+          "BUTTER",
+          "DIVA",
+          "SOLO",
+          "WORLD"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "STRONG SMELL",
+        "level": 0,
+        "words": [
+          "FUNK",
+          "TANG",
+          "MUSK",
+          "ODOR"
+        ]
+      },
+      {
+        "label": "MOVE BACK AND FORTH",
+        "level": 1,
+        "words": [
+          "WAVE",
+          "SWING",
+          "ROCK",
+          "SWAY"
+        ]
+      },
+      {
+        "label": "THINGS TO PICK",
+        "level": 2,
+        "words": [
+          "BONE",
+          "LOCK",
+          "AFRO",
+          "FIGHT"
+        ]
+      },
+      {
+        "label": "___ BALL",
+        "level": 3,
+        "words": [
+          "DISCO",
+          "CRYSTAL",
+          "GUTTER",
+          "FOUL"
+        ]
+      }
+    ]
+  }
+}

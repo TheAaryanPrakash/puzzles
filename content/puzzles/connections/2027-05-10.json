@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "HARDLY BUSTLING",
+        "level": 0,
+        "words": [
+          "SLOW",
+          "QUIET",
+          "SLEEPY",
+          "CALM"
+        ]
+      },
+      {
+        "label": "EARN",
+        "level": 1,
+        "words": [
+          "GROSS",
+          "MAKE",
+          "YIELD",
+          "NET"
+        ]
+      },
+      {
+        "label": "REMOTE CONTROL FUNCTIONS",
+        "level": 2,
+        "words": [
+          "STOP",
+          "HOME",
+          "VOLUME",
+          "MUTE"
+        ]
+      },
+      {
+        "label": "WORDS BEFORE “DRUM”",
+        "level": 3,
+        "words": [
+          "SNARE",
+          "KETTLE",
+          "EAR",
+          "OIL"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "THINGS THAT SOUND LIKE \"T\"",
+        "level": 0,
+        "words": [
+          "TEE (SHIRT)",
+          "TI (MUSICAL NOTE)",
+          "TEA",
+          "TEE (GOLF)"
+        ]
+      },
+      {
+        "label": "OBJECTS WITH TEETH",
+        "level": 1,
+        "words": [
+          "SAW",
+          "GEAR",
+          "ZIPPER",
+          "COMB"
+        ]
+      },
+      {
+        "label": "MILD OATHS",
+        "level": 2,
+        "words": [
+          "FUDGE",
+          "RATS",
+          "NUTS",
+          "GEEZ"
+        ]
+      },
+      {
+        "label": "PARTS OF A RIVER",
+        "level": 3,
+        "words": [
+          "BED",
+          "DELTA",
+          "MOUTH",
+          "BANK"
+        ]
+      }
+    ]
+  }
+}

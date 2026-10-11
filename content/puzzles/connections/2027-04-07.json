@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "SNAKES",
+        "level": 0,
+        "words": [
+          "PYTHON",
+          "BOA",
+          "MAMBA",
+          "VIPER"
+        ]
+      },
+      {
+        "label": "LINGERIE",
+        "level": 1,
+        "words": [
+          "GARTER",
+          "SLIP",
+          "THONG",
+          "TEDDY"
+        ]
+      },
+      {
+        "label": "SUMMARY",
+        "level": 2,
+        "words": [
+          "BRIEF",
+          "DIGEST",
+          "ABSTRACT",
+          "RUNDOWN"
+        ]
+      },
+      {
+        "label": "FULL ___",
+        "level": 3,
+        "words": [
+          "MONTY",
+          "MOON",
+          "CIRCLE",
+          "HOUSE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "INSPIRED",
+        "level": 0,
+        "words": [
+          "NOVEL",
+          "CREATIVE",
+          "FRESH",
+          "ORIGINAL"
+        ]
+      },
+      {
+        "label": "PROCURE IN ADVANCE",
+        "level": 1,
+        "words": [
+          "BOOK",
+          "SECURE",
+          "RESERVE",
+          "CHARTER"
+        ]
+      },
+      {
+        "label": "BIT OF PARTY DECORATION",
+        "level": 2,
+        "words": [
+          "BALLOON",
+          "BANNER",
+          "CONFETTI",
+          "GARLAND"
+        ]
+      },
+      {
+        "label": "ONLINE PERSONALITY",
+        "level": 3,
+        "words": [
+          "MODEL",
+          "AMBASSADOR",
+          "STREAMER",
+          "INFLUENCER"
+        ]
+      }
+    ]
+  }
+}

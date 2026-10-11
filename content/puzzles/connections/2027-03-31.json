@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "CLASSIC MOVIE THEATER EQUIPMENT",
+        "level": 0,
+        "words": [
+          "SCREEN",
+          "REEL",
+          "SPEAKER",
+          "PROJECTOR"
+        ]
+      },
+      {
+        "label": "TIER",
+        "level": 1,
+        "words": [
+          "STORY",
+          "DECK",
+          "FLOOR",
+          "LEVEL"
+        ]
+      },
+      {
+        "label": "NEWSPAPER NAMES",
+        "level": 2,
+        "words": [
+          "SUN",
+          "POST",
+          "GLOBE",
+          "MIRROR"
+        ]
+      },
+      {
+        "label": "PRANK VERBS",
+        "level": 3,
+        "words": [
+          "EGG",
+          "MOON",
+          "STREAK",
+          "TOILET PAPER"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "FAIRY TALE FIGURES",
+        "level": 0,
+        "words": [
+          "GIANT",
+          "WOLF",
+          "PRINCESS",
+          "WITCH"
+        ]
+      },
+      {
+        "label": "CHESS TERMS",
+        "level": 1,
+        "words": [
+          "GAMBIT",
+          "QUEEN",
+          "MATE",
+          "BISHOP"
+        ]
+      },
+      {
+        "label": "“PEANUTS” CHARACTERS",
+        "level": 2,
+        "words": [
+          "WOODSTOCK",
+          "CHARLIE",
+          "PEPPERMINT PATTY",
+          "PIGPEN"
+        ]
+      },
+      {
+        "label": "I LOVE ___",
+        "level": 3,
+        "words": [
+          "NEW YORK",
+          "ROCK 'N ROLL",
+          "YOU",
+          "LUCY"
+        ]
+      }
+    ]
+  }
+}

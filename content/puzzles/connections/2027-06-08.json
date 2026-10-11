@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "BASIC EMOTIONS",
+        "level": 0,
+        "words": [
+          "HAPPINESS",
+          "FEAR",
+          "ANGER",
+          "SURPRISE"
+        ]
+      },
+      {
+        "label": "BIT OF VOCAL FANFARE",
+        "level": 1,
+        "words": [
+          "PRESTO",
+          "VOILA",
+          "BEHOLD",
+          "TADA"
+        ]
+      },
+      {
+        "label": "OBTAIN",
+        "level": 2,
+        "words": [
+          "WIN",
+          "LAND",
+          "GET",
+          "SECURE"
+        ]
+      },
+      {
+        "label": "___ ANT",
+        "level": 3,
+        "words": [
+          "FIRE",
+          "ADAM",
+          "RED",
+          "CARPENTER"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "ROBUST",
+        "level": 0,
+        "words": [
+          "STRONG",
+          "SOUND",
+          "FIT",
+          "HEALTHY"
+        ]
+      },
+      {
+        "label": "DECLINE",
+        "level": 1,
+        "words": [
+          "FALL",
+          "DROP",
+          "SINK",
+          "DIP"
+        ]
+      },
+      {
+        "label": "WATER SOURCES",
+        "level": 2,
+        "words": [
+          "SPRING",
+          "TAP",
+          "FOUNTAIN",
+          "WELL"
+        ]
+      },
+      {
+        "label": "WOMEN SINGERS",
+        "level": 3,
+        "words": [
+          "SWIFT",
+          "KEYS",
+          "SUMMER",
+          "NICKS"
+        ]
+      }
+    ]
+  }
+}

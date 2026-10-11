@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "THINGS THAT ARE FUZZY",
+        "level": 0,
+        "words": [
+          "CATERPILLAR",
+          "PEACH",
+          "PIPE CLEANER",
+          "FLEECE"
+        ]
+      },
+      {
+        "label": "THINGS WITH SHELLS",
+        "level": 1,
+        "words": [
+          "CLAM",
+          "TURTLE",
+          "EGG",
+          "NUT"
+        ]
+      },
+      {
+        "label": "FIGURES IN “SHREK”",
+        "level": 2,
+        "words": [
+          "PRINCESS",
+          "DONKEY",
+          "DRAGON",
+          "OGRE"
+        ]
+      },
+      {
+        "label": "MAGIC ___",
+        "level": 3,
+        "words": [
+          "MUSHROOM",
+          "KINGDOM",
+          "MARKER",
+          "CARPET"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "VEGETABLES THAT ARE ALSO FRUITS",
+        "level": 0,
+        "words": [
+          "TOMATO",
+          "PEPPER",
+          "CUCUMBER",
+          "EGGPLANT"
+        ]
+      },
+      {
+        "label": "3-D SHAPES",
+        "level": 1,
+        "words": [
+          "CONE",
+          "PYRAMID",
+          "CUBE",
+          "SPHERE"
+        ]
+      },
+      {
+        "label": "WORDS WITH “i”",
+        "level": 2,
+        "words": [
+          "PAD",
+          "PHONE",
+          "MAC",
+          "POD"
+        ]
+      },
+      {
+        "label": "WORDS WITH TWO PRONUNCIATIONS",
+        "level": 3,
+        "words": [
+          "LIMA",
+          "POLISH",
+          "MOBILE",
+          "JOB"
+        ]
+      }
+    ]
+  }
+}

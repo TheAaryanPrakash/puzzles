@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "PERSON IN CHARGE",
+        "level": 0,
+        "words": [
+          "HEAD",
+          "CHAIR",
+          "DIRECTOR",
+          "CHIEF"
+        ]
+      },
+      {
+        "label": "GRASSY AREA",
+        "level": 1,
+        "words": [
+          "GROUNDS",
+          "GREEN",
+          "LAWN",
+          "FIELD"
+        ]
+      },
+      {
+        "label": "WORDS BEFORE “NUT”",
+        "level": 2,
+        "words": [
+          "PEA",
+          "CHEST",
+          "HAZEL",
+          "COCO"
+        ]
+      },
+      {
+        "label": "SECOND WORDS IN TARANTINO MOVIES",
+        "level": 3,
+        "words": [
+          "BROWN",
+          "FICTION",
+          "DOGS",
+          "UNCHAINED"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "THINGS THAT PREVENT LEAKS",
+        "level": 0,
+        "words": [
+          "CAP",
+          "SEAL",
+          "COVER",
+          "PLUG"
+        ]
+      },
+      {
+        "label": "KINDS OF HATS",
+        "level": 1,
+        "words": [
+          "BERET",
+          "DERBY",
+          "PILLBOX",
+          "SNAPBACK"
+        ]
+      },
+      {
+        "label": "COLLEGE FOOTBALL TEAM MEMBERS",
+        "level": 2,
+        "words": [
+          "GATOR",
+          "WOLVERINE",
+          "VOLUNTEER",
+          "SOONER"
+        ]
+      },
+      {
+        "label": "GO ___",
+        "level": 3,
+        "words": [
+          "ROGUE",
+          "COMMANDO",
+          "FIGURE",
+          "BANANAS"
+        ]
+      }
+    ]
+  }
+}

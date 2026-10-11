@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "AGENCY IN DECISIONMAKING",
+        "level": 0,
+        "words": [
+          "VOTE",
+          "CHOICE",
+          "SAY",
+          "VOICE"
+        ]
+      },
+      {
+        "label": "DOG COMMANDS",
+        "level": 1,
+        "words": [
+          "DOWN",
+          "SHAKE",
+          "HEEL",
+          "SPEAK"
+        ]
+      },
+      {
+        "label": "KINDS OF NOTES",
+        "level": 2,
+        "words": [
+          "FLAT",
+          "QUARTER",
+          "NATURAL",
+          "WHOLE"
+        ]
+      },
+      {
+        "label": "___ IRON",
+        "level": 3,
+        "words": [
+          "TIRE",
+          "PUMP",
+          "WAFFLE",
+          "STEAM"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "PREFIX MEANING “VERY”",
+        "level": 0,
+        "words": [
+          "SUPER",
+          "EXTRA",
+          "HYPER",
+          "OVER"
+        ]
+      },
+      {
+        "label": "KINDS OF PARTIES",
+        "level": 1,
+        "words": [
+          "BIRTHDAY",
+          "COCKTAIL",
+          "SURPRISE",
+          "DINNER"
+        ]
+      },
+      {
+        "label": "PBS SHOWS",
+        "level": 2,
+        "words": [
+          "NOVA",
+          "NATURE",
+          "MASTERPIECE",
+          "FRONTLINE"
+        ]
+      },
+      {
+        "label": "PLACES IN FRANCE",
+        "level": 3,
+        "words": [
+          "CHAMPAGNE",
+          "REUNION",
+          "NICE",
+          "ANGERS"
+        ]
+      }
+    ]
+  }
+}

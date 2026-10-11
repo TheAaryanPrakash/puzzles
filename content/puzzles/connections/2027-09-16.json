@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "CURMUDGEON",
+        "level": 0,
+        "words": [
+          "CRAB",
+          "CRANK",
+          "GRUMP",
+          "GROUCH"
+        ]
+      },
+      {
+        "label": "GET LOW",
+        "level": 1,
+        "words": [
+          "DUCK",
+          "STOOP",
+          "CROUCH",
+          "SQUAT"
+        ]
+      },
+      {
+        "label": "NATIONAL SYMBOLS",
+        "level": 2,
+        "words": [
+          "MOTTO",
+          "SEAL",
+          "FLAG",
+          "ANTHEM"
+        ]
+      },
+      {
+        "label": "SWINDLER",
+        "level": 3,
+        "words": [
+          "SHARK",
+          "QUACK",
+          "CROOK",
+          "CHEAT"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "STORAGE CONTAINERS",
+        "level": 0,
+        "words": [
+          "CHEST",
+          "TRUNK",
+          "CASE",
+          "CRATE"
+        ]
+      },
+      {
+        "label": "SCHNOZZ",
+        "level": 1,
+        "words": [
+          "SNOOT",
+          "BEAK",
+          "SNOUT",
+          "HONKER"
+        ]
+      },
+      {
+        "label": "ONES WITH DISCERNING TASTES",
+        "level": 2,
+        "words": [
+          "SNOB",
+          "EXPERT",
+          "CRITIC",
+          "CONNOISSEUR"
+        ]
+      },
+      {
+        "label": "STARTS OF SWIMMING STROKES",
+        "level": 3,
+        "words": [
+          "BREAST",
+          "FREE",
+          "BUTTER",
+          "BACK"
+        ]
+      }
+    ]
+  }
+}

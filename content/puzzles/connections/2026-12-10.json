@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "BAFFLE",
+        "level": 0,
+        "words": [
+          "PUZZLE",
+          "VEX",
+          "STUMP",
+          "PERPLEX"
+        ]
+      },
+      {
+        "label": "CURSE",
+        "level": 1,
+        "words": [
+          "HEX",
+          "POX",
+          "JINX",
+          "SPELL"
+        ]
+      },
+      {
+        "label": "“TOY STORY” CHARACTERS, FAMILIARLY",
+        "level": 2,
+        "words": [
+          "BUZZ",
+          "REX",
+          "SLINKY",
+          "HAMM"
+        ]
+      },
+      {
+        "label": "COLLOQUIAL SUFFIXES",
+        "level": 3,
+        "words": [
+          "MANIA",
+          "GATE",
+          "CORE",
+          "PILLED"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "GIVE A TITLE TO",
+        "level": 0,
+        "words": [
+          "CALL",
+          "DUB",
+          "NAME",
+          "LABEL"
+        ]
+      },
+      {
+        "label": "PARTS OF A FLIGHT",
+        "level": 1,
+        "words": [
+          "CRUISE",
+          "TAXI",
+          "TOUCHDOWN",
+          "TAKEOFF"
+        ]
+      },
+      {
+        "label": "FEEL AROUND (FOR)",
+        "level": 2,
+        "words": [
+          "FISH",
+          "FUMBLE",
+          "ROOT",
+          "RUMMAGE"
+        ]
+      },
+      {
+        "label": "COUNTRIES MINUS FIRST LETTER",
+        "level": 3,
+        "words": [
+          "WANDA",
+          "RAN",
+          "INLAND",
+          "OLIVIA"
+        ]
+      }
+    ]
+  }
+}

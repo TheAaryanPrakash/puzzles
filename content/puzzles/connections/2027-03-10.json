@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "ALARM CLOCK BUTTONS",
+        "level": 0,
+        "words": [
+          "SNOOZE",
+          "ALARM",
+          "HOUR",
+          "TIME SET"
+        ]
+      },
+      {
+        "label": "“HERE’S A THOUGHT ...”",
+        "level": 1,
+        "words": [
+          "WHAT IF",
+          "SAY",
+          "SUPPOSE",
+          "PERHAPS"
+        ]
+      },
+      {
+        "label": "CANDY PIECES",
+        "level": 2,
+        "words": [
+          "NERD",
+          "RUNT",
+          "KISS",
+          "WHOPPER"
+        ]
+      },
+      {
+        "label": "SEVEN DWARFS MINUS LAST LETTER",
+        "level": 3,
+        "words": [
+          "GRUMP",
+          "DO",
+          "DOPE",
+          "SLEEP"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "SNEAKER BRANDS",
+        "level": 0,
+        "words": [
+          "PUMA",
+          "NIKE",
+          "REEBOK",
+          "ADIDAS"
+        ]
+      },
+      {
+        "label": "MUSICALS BEGINNING WITH “C”",
+        "level": 1,
+        "words": [
+          "CATS",
+          "CAROUSEL",
+          "CHICAGO",
+          "CABARET"
+        ]
+      },
+      {
+        "label": "CLEANING VERBS",
+        "level": 2,
+        "words": [
+          "DUST",
+          "MOP",
+          "SWEEP",
+          "VACUUM"
+        ]
+      },
+      {
+        "label": "___ MAN SUPERHEROES",
+        "level": 3,
+        "words": [
+          "SPIDER",
+          "IRON",
+          "SUPER",
+          "BAT"
+        ]
+      }
+    ]
+  }
+}

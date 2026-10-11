@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "YELLOW ___",
+        "level": 0,
+        "words": [
+          "JACKET",
+          "CAB",
+          "PAGES",
+          "JOURNALISM"
+        ]
+      },
+      {
+        "label": "GREEN ___",
+        "level": 1,
+        "words": [
+          "GOBLIN",
+          "BERET",
+          "THUMB",
+          "SALAD"
+        ]
+      },
+      {
+        "label": "BLUE ___",
+        "level": 2,
+        "words": [
+          "JEANS",
+          "JAY",
+          "MOON",
+          "WHALE"
+        ]
+      },
+      {
+        "label": "PURPLE ___",
+        "level": 3,
+        "words": [
+          "RAIN",
+          "HAZE",
+          "HEART",
+          "PROSE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "ANIMAL GROUP NAMES",
+        "level": 0,
+        "words": [
+          "PRIDE",
+          "SWARM",
+          "COLONY",
+          "HERD"
+        ]
+      },
+      {
+        "label": "STONED",
+        "level": 1,
+        "words": [
+          "HIGH",
+          "LIT",
+          "BAKED",
+          "BLAZED"
+        ]
+      },
+      {
+        "label": "AP CLASSES",
+        "level": 2,
+        "words": [
+          "GOV",
+          "CHEM",
+          "BIO",
+          "STATS"
+        ]
+      },
+      {
+        "label": "TAXONOMY RANKS",
+        "level": 3,
+        "words": [
+          "CLASS",
+          "ORDER",
+          "FAMILY",
+          "DOMAIN"
+        ]
+      }
+    ]
+  }
+}

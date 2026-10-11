@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "AREAS BETWEEN MOUNTAINS AND HILLS",
+        "level": 0,
+        "words": [
+          "PASS",
+          "RAVINE",
+          "CANYON",
+          "GULCH"
+        ]
+      },
+      {
+        "label": "EAT VORACIOUSLY",
+        "level": 1,
+        "words": [
+          "SCARF",
+          "WOLF",
+          "GORGE",
+          "GULP"
+        ]
+      },
+      {
+        "label": "FEATURED IN “SNOW WHITE”",
+        "level": 2,
+        "words": [
+          "MIRROR",
+          "APPLE",
+          "BASHFUL",
+          "QUEEN"
+        ]
+      },
+      {
+        "label": "“C” + BIRD",
+        "level": 3,
+        "words": [
+          "CLARK",
+          "COWL",
+          "CRAVEN",
+          "CHEN"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "PLEASANT SMELLS",
+        "level": 0,
+        "words": [
+          "BOUQUET",
+          "SCENT",
+          "FRAGRANCE",
+          "AROMA"
+        ]
+      },
+      {
+        "label": "MUSIC GENRES",
+        "level": 1,
+        "words": [
+          "FUNK",
+          "COUNTRY",
+          "SOUL",
+          "BLUES"
+        ]
+      },
+      {
+        "label": "ROCK PAPER SCISSORS",
+        "level": 2,
+        "words": [
+          "ROCK",
+          "SHOOT",
+          "SCISSORS",
+          "PAPER"
+        ]
+      },
+      {
+        "label": "MALE ANIMALS",
+        "level": 3,
+        "words": [
+          "BUCK",
+          "BULL",
+          "JACK",
+          "BOAR"
+        ]
+      }
+    ]
+  }
+}

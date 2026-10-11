@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "LONG-HAIRED ANIMALS",
+        "level": 0,
+        "words": [
+          "AFGHAN",
+          "YAK",
+          "ANGORA",
+          "ALPACA"
+        ]
+      },
+      {
+        "label": "PRATTLE ON",
+        "level": 1,
+        "words": [
+          "JABBER",
+          "BLATHER",
+          "CHAT",
+          "GAB"
+        ]
+      },
+      {
+        "label": "SNEAKER BRANDS",
+        "level": 2,
+        "words": [
+          "PUMA",
+          "JORDAN",
+          "CONVERSE",
+          "VANS"
+        ]
+      },
+      {
+        "label": "___ BALLOON",
+        "level": 3,
+        "words": [
+          "SPEECH",
+          "WATER",
+          "LEAD",
+          "TRIAL"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "MODEL FOR REFERENCE",
+        "level": 0,
+        "words": [
+          "STANDARD",
+          "YARDSTICK",
+          "GAUGE",
+          "BENCHMARK"
+        ]
+      },
+      {
+        "label": "POKER ACTIONS",
+        "level": 1,
+        "words": [
+          "FOLD",
+          "CHECK",
+          "CALL",
+          "BET"
+        ]
+      },
+      {
+        "label": "SKIN TYPES",
+        "level": 2,
+        "words": [
+          "NORMAL",
+          "DRY",
+          "OILY",
+          "COMBINATION"
+        ]
+      },
+      {
+        "label": "STARTS OF U.S. STATES",
+        "level": 3,
+        "words": [
+          "MASS",
+          "MARY",
+          "WASH",
+          "KENT"
+        ]
+      }
+    ]
+  }
+}

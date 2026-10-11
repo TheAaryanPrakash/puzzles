@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "FACIAL FEATURES",
+        "level": 0,
+        "words": [
+          "MOUTH",
+          "NOSE",
+          "EYE",
+          "CHEEK"
+        ]
+      },
+      {
+        "label": "SYNONYMS FOR EAT",
+        "level": 1,
+        "words": [
+          "WOLF",
+          "CHOW",
+          "SCARF",
+          "GOBBLE"
+        ]
+      },
+      {
+        "label": "DOG BREEDS, INFORMALLY",
+        "level": 2,
+        "words": [
+          "LAB",
+          "POM",
+          "PIT",
+          "PEKE"
+        ]
+      },
+      {
+        "label": "MEMBERS OF A TRIO",
+        "level": 3,
+        "words": [
+          "AMIGO",
+          "STOOGE",
+          "KING",
+          "TENOR"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "PIECES OF CHICKEN",
+        "level": 0,
+        "words": [
+          "WING",
+          "TENDER",
+          "BREAST",
+          "DRUMSTICK"
+        ]
+      },
+      {
+        "label": "GOLF TERMS",
+        "level": 1,
+        "words": [
+          "DRIVER",
+          "EAGLE",
+          "STROKE",
+          "HOLE"
+        ]
+      },
+      {
+        "label": "DRUM SET COMPONENTS",
+        "level": 2,
+        "words": [
+          "TOM",
+          "SNARE",
+          "CYMBAL",
+          "KICK"
+        ]
+      },
+      {
+        "label": "ASSOCIATED WITH “CRAWL”",
+        "level": 3,
+        "words": [
+          "INFANT",
+          "PUB",
+          "SWIMMING",
+          "TICKER"
+        ]
+      }
+    ]
+  }
+}

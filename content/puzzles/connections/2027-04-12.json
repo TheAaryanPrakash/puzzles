@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "MODES OF TRANSPORTATION",
+        "level": 0,
+        "words": [
+          "PLANE",
+          "BOAT",
+          "CAR",
+          "TRAIN"
+        ]
+      },
+      {
+        "label": "NBA PLAYERS",
+        "level": 1,
+        "words": [
+          "SUN",
+          "THUNDER",
+          "KING",
+          "MAGIC"
+        ]
+      },
+      {
+        "label": "FAST FOOD CHAINS",
+        "level": 2,
+        "words": [
+          "SONIC",
+          "CHECKERS",
+          "SUBWAY",
+          "OUTBACK"
+        ]
+      },
+      {
+        "label": "BAND NAMES MINUS COLORS",
+        "level": 3,
+        "words": [
+          "DAY",
+          "STRIPES",
+          "FLOYD",
+          "SABBATH"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "SEGMENT OF A PROCESS",
+        "level": 0,
+        "words": [
+          "STAGE",
+          "CYCLE",
+          "ROUND",
+          "PHASE"
+        ]
+      },
+      {
+        "label": "CONSTELLATIONS",
+        "level": 1,
+        "words": [
+          "CYGNUS",
+          "ORION",
+          "PEGASUS",
+          "GEMINI"
+        ]
+      },
+      {
+        "label": "SPIRALS IN NATURE",
+        "level": 2,
+        "words": [
+          "SUNFLOWER",
+          "SNAIL",
+          "CYCLONE",
+          "GALAXY"
+        ]
+      },
+      {
+        "label": "ASSOCIATED WITH “ONE”",
+        "level": 3,
+        "words": [
+          "SOLITAIRE",
+          "CYCLOPS",
+          "UNICYCLE",
+          "MONOLOGUE"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "BRING ABOUT",
+        "level": 0,
+        "words": [
+          "PROVOKE",
+          "INSPIRE",
+          "PROMPT",
+          "GENERATE"
+        ]
+      },
+      {
+        "label": "THINGS THAT ARE OFTEN SCENTED",
+        "level": 1,
+        "words": [
+          "SOAP",
+          "CANDLE",
+          "INCENSE",
+          "LOTION"
+        ]
+      },
+      {
+        "label": "THINGS THAT MIGHT STING",
+        "level": 2,
+        "words": [
+          "NETTLE",
+          "INSULT",
+          "JELLYFISH",
+          "WASP"
+        ]
+      },
+      {
+        "label": "VIDEO GAME FRANCHISES",
+        "level": 3,
+        "words": [
+          "MADDEN",
+          "CIVILIZATION",
+          "HALO",
+          "METROID"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "BRING INTO BEING",
+        "level": 0,
+        "words": [
+          "DEVISE",
+          "COIN",
+          "CREATE",
+          "INVENT"
+        ]
+      },
+      {
+        "label": "EXCELLENT",
+        "level": 1,
+        "words": [
+          "PRIME",
+          "FINE",
+          "QUALITY",
+          "STERLING"
+        ]
+      },
+      {
+        "label": "SYMBOLS ABOVE NUMBERS ON A KEYBOARD",
+        "level": 2,
+        "words": [
+          "AT",
+          "DOLLAR",
+          "POUND",
+          "PERCENT"
+        ]
+      },
+      {
+        "label": "PASS THE ___",
+        "level": 3,
+        "words": [
+          "TIME",
+          "BAR",
+          "TORCH",
+          "BUCK"
+        ]
+      }
+    ]
+  }
+}

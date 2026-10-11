@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "PROPEL INTO THE AIR",
+        "level": 0,
+        "words": [
+          "LEAP",
+          "JUMP",
+          "SPRING",
+          "HOP"
+        ]
+      },
+      {
+        "label": "PLACE TO STORE VALUABLES",
+        "level": 1,
+        "words": [
+          "SAFE",
+          "VAULT",
+          "CHEST",
+          "COFFER"
+        ]
+      },
+      {
+        "label": "PERIOD",
+        "level": 2,
+        "words": [
+          "DAY",
+          "AGE",
+          "TIME",
+          "ERA"
+        ]
+      },
+      {
+        "label": "ANIMALS BACKWARD",
+        "level": 3,
+        "words": [
+          "TANG",
+          "FLOW",
+          "DRIB",
+          "REED"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "BLUNDER",
+        "level": 0,
+        "words": [
+          "BOO-BOO",
+          "GOOF",
+          "FLUB",
+          "GAFFE"
+        ]
+      },
+      {
+        "label": "FLOWERS",
+        "level": 1,
+        "words": [
+          "DAISY",
+          "JASMINE",
+          "PETUNIA",
+          "POPPY"
+        ]
+      },
+      {
+        "label": "THINGS BEES DO",
+        "level": 2,
+        "words": [
+          "BUZZ",
+          "DANCE",
+          "STING",
+          "POLLINATE"
+        ]
+      },
+      {
+        "label": "FIRST NAMES OF YANKEES LEGENDS",
+        "level": 3,
+        "words": [
+          "BABE",
+          "MICKEY",
+          "YOGI",
+          "LOU"
+        ]
+      }
+    ]
+  }
+}

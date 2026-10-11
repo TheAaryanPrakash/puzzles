@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "FILM SET DIRECTIVES",
+        "level": 0,
+        "words": [
+          "ACTION",
+          "CUT",
+          "CAMERA",
+          "LIGHTS"
+        ]
+      },
+      {
+        "label": "CONDITIONAL WORDS",
+        "level": 1,
+        "words": [
+          "CAN",
+          "MAY",
+          "MIGHT",
+          "COULD"
+        ]
+      },
+      {
+        "label": "FOREMOST",
+        "level": 2,
+        "words": [
+          "LEAD",
+          "PRIME",
+          "TOP",
+          "HEAD"
+        ]
+      },
+      {
+        "label": "___ PAPER",
+        "level": 3,
+        "words": [
+          "BUTCHER",
+          "WAX",
+          "TOILET",
+          "SCRAP"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "HOMOPHONES",
+        "level": 0,
+        "words": [
+          "BYE",
+          "BI",
+          "BUY",
+          "BY"
+        ]
+      },
+      {
+        "label": "MUSCLES, INFORMALLY",
+        "level": 1,
+        "words": [
+          "TRI",
+          "AB",
+          "QUAD",
+          "PEC"
+        ]
+      },
+      {
+        "label": "MUSIC GENRES",
+        "level": 2,
+        "words": [
+          "TRAP",
+          "POP",
+          "DUB",
+          "EMO"
+        ]
+      },
+      {
+        "label": "SETTINGS ON AN APPLIANCE KNOB",
+        "level": 3,
+        "words": [
+          "HI",
+          "OFF",
+          "MED",
+          "LO"
+        ]
+      }
+    ]
+  }
+}

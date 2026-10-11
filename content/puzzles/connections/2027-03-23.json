@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "PERFORMING ARTISTS",
+        "level": 0,
+        "words": [
+          "SINGER",
+          "DANCER",
+          "STAND-UP",
+          "ACTOR"
+        ]
+      },
+      {
+        "label": "SANTA’S REINDEER",
+        "level": 1,
+        "words": [
+          "COMET",
+          "CUPID",
+          "VIXEN",
+          "DASHER"
+        ]
+      },
+      {
+        "label": "SEEN ON VALENTINE’S DAY",
+        "level": 2,
+        "words": [
+          "HEART",
+          "CARD",
+          "ROSE",
+          "CHOCOLATE"
+        ]
+      },
+      {
+        "label": "“BAD ___” MOVIES",
+        "level": 3,
+        "words": [
+          "TASTE",
+          "SANTA",
+          "BOYS",
+          "LIEUTENANT"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "MOVIE GENRES",
+        "level": 0,
+        "words": [
+          "ROMANCE",
+          "HORROR",
+          "MUSICAL",
+          "WESTERN"
+        ]
+      },
+      {
+        "label": "PATTERNS",
+        "level": 1,
+        "words": [
+          "STRIPES",
+          "PAISLEY",
+          "PLAID",
+          "HOUNDSTOOTH"
+        ]
+      },
+      {
+        "label": "SYNONYMS FOR FALSEHOOD",
+        "level": 2,
+        "words": [
+          "FICTION",
+          "LIE",
+          "FIB",
+          "TALE"
+        ]
+      },
+      {
+        "label": "CANDY PIECES",
+        "level": 3,
+        "words": [
+          "KISS",
+          "DOT",
+          "WHOPPER",
+          "GOOBER"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "PROGRESS SLOWLY",
+        "level": 0,
+        "words": [
+          "DRAG",
+          "CRAWL",
+          "INCH",
+          "CREEP"
+        ]
+      },
+      {
+        "label": "WAYS TO ORDER A BEER",
+        "level": 1,
+        "words": [
+          "DRAFT",
+          "BOTTLE",
+          "TAP",
+          "CAN"
+        ]
+      },
+      {
+        "label": "CHEESY CORN SNACK UNIT",
+        "level": 2,
+        "words": [
+          "DOODLE",
+          "BALL",
+          "CURL",
+          "PUFF"
+        ]
+      },
+      {
+        "label": "___ EFFECT",
+        "level": 3,
+        "words": [
+          "DOMINO",
+          "BUTTERFLY",
+          "HALO",
+          "PLACEBO"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "COFFEE DRINKS",
+        "level": 0,
+        "words": [
+          "ESPRESSO",
+          "LATTE",
+          "AMERICANO",
+          "CAPPUCCINO"
+        ]
+      },
+      {
+        "label": "TREE NUTS",
+        "level": 1,
+        "words": [
+          "ALMOND",
+          "PECAN",
+          "WALNUT",
+          "CASHEW"
+        ]
+      },
+      {
+        "label": "SHADES OF GREEN",
+        "level": 2,
+        "words": [
+          "FOREST",
+          "KELLY",
+          "EMERALD",
+          "OLIVE"
+        ]
+      },
+      {
+        "label": "MR. ___",
+        "level": 3,
+        "words": [
+          "BEAN",
+          "CLEAN",
+          "PEANUT",
+          "FOX"
+        ]
+      }
+    ]
+  }
+}

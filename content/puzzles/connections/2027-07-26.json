@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "THINGS TO PAY",
+        "level": 0,
+        "words": [
+          "CHECK",
+          "BILL",
+          "TAB",
+          "INVOICE"
+        ]
+      },
+      {
+        "label": "THIEVE",
+        "level": 1,
+        "words": [
+          "ROB",
+          "SWIPE",
+          "PINCH",
+          "STEAL"
+        ]
+      },
+      {
+        "label": "MALE ANIMALS",
+        "level": 2,
+        "words": [
+          "JACK",
+          "BUCK",
+          "TOM",
+          "BULL"
+        ]
+      },
+      {
+        "label": "LEGWEAR, IN THE SINGULAR",
+        "level": 3,
+        "words": [
+          "TIGHT",
+          "JEAN",
+          "SHORT",
+          "PANT"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "SPLASHY WAYS TO ENTER A POOL",
+        "level": 0,
+        "words": [
+          "CANNONBALL",
+          "JACKKNIFE",
+          "BACKFLIP",
+          "BELLYFLOP"
+        ]
+      },
+      {
+        "label": "REITERATE",
+        "level": 1,
+        "words": [
+          "PARROT",
+          "QUOTE",
+          "ECHO",
+          "REPEAT"
+        ]
+      },
+      {
+        "label": "MAINSTAY",
+        "level": 2,
+        "words": [
+          "PILLAR",
+          "ANCHOR",
+          "CORNERSTONE",
+          "BACKBONE"
+        ]
+      },
+      {
+        "label": "___ RADIO",
+        "level": 3,
+        "words": [
+          "TALK",
+          "PIRATE",
+          "HAM",
+          "SATELLITE"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "DRINKS WITH CAFFEINE",
+        "level": 0,
+        "words": [
+          "COFFEE",
+          "MATE",
+          "COCOA",
+          "TEA"
+        ]
+      },
+      {
+        "label": "UNEXCITING",
+        "level": 1,
+        "words": [
+          "VANILLA",
+          "BORING",
+          "MUNDANE",
+          "DULL"
+        ]
+      },
+      {
+        "label": "COMEDIAN’S PERFORMANCE",
+        "level": 2,
+        "words": [
+          "SET",
+          "ACT",
+          "ROUTINE",
+          "BIT"
+        ]
+      },
+      {
+        "label": "MARTINI SPECIFICATIONS",
+        "level": 3,
+        "words": [
+          "UP",
+          "DRY",
+          "TWIST",
+          "DIRTY"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "DOG SOUNDS",
+        "level": 0,
+        "words": [
+          "WHINE",
+          "BARK",
+          "GROWL",
+          "HOWL"
+        ]
+      },
+      {
+        "label": "DEPARTMENT",
+        "level": 1,
+        "words": [
+          "WING",
+          "BRANCH",
+          "ARM",
+          "CHAPTER"
+        ]
+      },
+      {
+        "label": "ORIGIN",
+        "level": 2,
+        "words": [
+          "ROOT",
+          "CRADLE",
+          "FONT",
+          "SOURCE"
+        ]
+      },
+      {
+        "label": "COLORS WITH THEIR FIRST LETTERS CHANGED",
+        "level": 3,
+        "words": [
+          "CLUE",
+          "FROWN",
+          "PREEN",
+          "MELLOW"
+        ]
+      }
+    ]
+  }
+}

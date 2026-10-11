@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "LINEUP",
+        "level": 0,
+        "words": [
+          "SLATE",
+          "PROGRAM",
+          "SCHEDULE",
+          "BILL"
+        ]
+      },
+      {
+        "label": "NYT OFFERINGS",
+        "level": 1,
+        "words": [
+          "AUDIO",
+          "GAMES",
+          "NEWS",
+          "COOKING"
+        ]
+      },
+      {
+        "label": "THINGS MADE BY FOLDING PAPER",
+        "level": 2,
+        "words": [
+          "FORTUNE TELLER",
+          "CRANE",
+          "AIRPLANE",
+          "FAN"
+        ]
+      },
+      {
+        "label": "FRENCH WORDS",
+        "level": 3,
+        "words": [
+          "ADIEU",
+          "TEMPS",
+          "PAIN",
+          "BELLE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "ESCAPADE",
+        "level": 0,
+        "words": [
+          "CAPER",
+          "EXPLOIT",
+          "ANTIC",
+          "STUNT"
+        ]
+      },
+      {
+        "label": "KINDS OF PICKLES",
+        "level": 1,
+        "words": [
+          "SWEET",
+          "DILL",
+          "SOUR",
+          "KOSHER"
+        ]
+      },
+      {
+        "label": "RISQUÉ",
+        "level": 2,
+        "words": [
+          "BLUE",
+          "SPICY",
+          "ADULT",
+          "SUGGESTIVE"
+        ]
+      },
+      {
+        "label": "CUT THE ___",
+        "level": 3,
+        "words": [
+          "CHEESE",
+          "MUSTARD",
+          "DECK",
+          "CORD"
+        ]
+      }
+    ]
+  }
+}

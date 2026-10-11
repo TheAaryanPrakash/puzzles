@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "SEVEN DWARFS",
+        "level": 0,
+        "words": [
+          "DOC",
+          "HAPPY",
+          "GRUMPY",
+          "BASHFUL"
+        ]
+      },
+      {
+        "label": "FILE EXTENSIONS",
+        "level": 1,
+        "words": [
+          "ZIP",
+          "TIFF",
+          "GIF",
+          "PDF"
+        ]
+      },
+      {
+        "label": "FLIGHTLESS BIRDS",
+        "level": 2,
+        "words": [
+          "PENGUIN",
+          "KIWI",
+          "EMU",
+          "OSTRICH"
+        ]
+      },
+      {
+        "label": "TROPICAL FRUITS",
+        "level": 3,
+        "words": [
+          "COCONUT",
+          "BANANA",
+          "MANGO",
+          "PINEAPPLE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "“GROSS!”",
+        "level": 0,
+        "words": [
+          "EW",
+          "PU",
+          "UGH",
+          "ICK"
+        ]
+      },
+      {
+        "label": "MAGAZINES",
+        "level": 1,
+        "words": [
+          "OK",
+          "O",
+          "US",
+          "W"
+        ]
+      },
+      {
+        "label": "“YES” IN DIFFERENT LANGUAGES",
+        "level": 2,
+        "words": [
+          "SI",
+          "DA",
+          "JA",
+          "HAI"
+        ]
+      },
+      {
+        "label": "HOMOPHONES",
+        "level": 3,
+        "words": [
+          "WE",
+          "WII",
+          "WEE",
+          "OUI"
+        ]
+      }
+    ]
+  }
+}

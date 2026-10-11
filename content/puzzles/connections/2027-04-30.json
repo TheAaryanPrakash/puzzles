@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "BRAND-NAME",
+        "level": 0,
+        "words": [
+          "DESIGNER",
+          "LUXURY",
+          "HAUTE",
+          "HIGH-END"
+        ]
+      },
+      {
+        "label": "DEVISE",
+        "level": 1,
+        "words": [
+          "ENGINEER",
+          "HATCH",
+          "MASTERMIND",
+          "CONCOCT"
+        ]
+      },
+      {
+        "label": "NASA SPACECRAFT",
+        "level": 2,
+        "words": [
+          "GALILEO",
+          "VIKING",
+          "PIONEER",
+          "VOYAGER"
+        ]
+      },
+      {
+        "label": "GAMES WHERE YOU SAY THE GAME’S NAME",
+        "level": 3,
+        "words": [
+          "TAG",
+          "MARCO POLO",
+          "BINGO",
+          "UNO"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "EFFERVESCENCE",
+        "level": 0,
+        "words": [
+          "BUBBLES",
+          "FIZZ",
+          "FOAM",
+          "FROTH"
+        ]
+      },
+      {
+        "label": "BURGEON",
+        "level": 1,
+        "words": [
+          "PROGRESS",
+          "BLOSSOM",
+          "MATURE",
+          "DEVELOP"
+        ]
+      },
+      {
+        "label": "MUSIC PUBLICATIONS",
+        "level": 2,
+        "words": [
+          "SPIN",
+          "PITCHFORK",
+          "MOJO",
+          "BILLBOARD"
+        ]
+      },
+      {
+        "label": "ENDING WITH TABLEWARE",
+        "level": 3,
+        "words": [
+          "JACKKNIFE",
+          "BUTTERCUP",
+          "BOILERPLATE",
+          "WITHERSPOON"
+        ]
+      }
+    ]
+  }
+}

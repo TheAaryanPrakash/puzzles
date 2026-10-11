@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "ARMY RANKS",
+        "level": 0,
+        "words": [
+          "MAJOR",
+          "PRIVATE",
+          "CAPTAIN",
+          "GENERAL"
+        ]
+      },
+      {
+        "label": "PLACE TO PLUG SOMETHING IN",
+        "level": 1,
+        "words": [
+          "PORT",
+          "OUTLET",
+          "JACK",
+          "SOCKET"
+        ]
+      },
+      {
+        "label": "CONSUMER DESIRE, COLLECTIVELY",
+        "level": 2,
+        "words": [
+          "DEMAND",
+          "MARKET",
+          "AUDIENCE",
+          "APPETITE"
+        ]
+      },
+      {
+        "label": "___ AD",
+        "level": 3,
+        "words": [
+          "PERSONAL",
+          "POP-UP",
+          "WANT",
+          "ATTACK"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "CLASSIC ARCADE GAMES",
+        "level": 0,
+        "words": [
+          "BREAKOUT",
+          "ASTEROIDS",
+          "PONG",
+          "FROGGER"
+        ]
+      },
+      {
+        "label": "DANCES",
+        "level": 1,
+        "words": [
+          "SALSA",
+          "SWING",
+          "HUSTLE",
+          "TANGO"
+        ]
+      },
+      {
+        "label": "TOUCHSCREEN GESTURES",
+        "level": 2,
+        "words": [
+          "PINCH",
+          "SWIPE",
+          "TAP",
+          "SPREAD"
+        ]
+      },
+      {
+        "label": "RAPPERS MINUS NUMBERS",
+        "level": 3,
+        "words": [
+          "SAVAGE",
+          "CENT",
+          "PAC",
+          "CHAINZ"
+        ]
+      }
+    ]
+  }
+}

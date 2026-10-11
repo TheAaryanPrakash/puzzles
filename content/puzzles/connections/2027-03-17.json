@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "AVOID",
+        "level": 0,
+        "words": [
+          "ESCAPE",
+          "DUCK",
+          "SKIRT",
+          "DODGE"
+        ]
+      },
+      {
+        "label": "HITCHCOCK MOVIES",
+        "level": 1,
+        "words": [
+          "REBECCA",
+          "BIRDS",
+          "ROPE",
+          "NOTORIOUS"
+        ]
+      },
+      {
+        "label": "SIDEKICKS",
+        "level": 2,
+        "words": [
+          "ROBIN",
+          "GOOSE",
+          "HOBBES",
+          "WATSON"
+        ]
+      },
+      {
+        "label": "___ CHEESE",
+        "level": 3,
+        "words": [
+          "COTTAGE",
+          "CREAM",
+          "STRING",
+          "SAY"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "BLACK-AND-WHITE ANIMALS",
+        "level": 0,
+        "words": [
+          "PANDA",
+          "ORCA",
+          "SKUNK",
+          "ZEBRA"
+        ]
+      },
+      {
+        "label": "SEQUENCE",
+        "level": 1,
+        "words": [
+          "STRING",
+          "TRAIN",
+          "CHAIN",
+          "SERIES"
+        ]
+      },
+      {
+        "label": "HETERONYMS",
+        "level": 2,
+        "words": [
+          "DESERT",
+          "WIND",
+          "DOVE",
+          "BASS"
+        ]
+      },
+      {
+        "label": "___ TRAP",
+        "level": 3,
+        "words": [
+          "BEAR",
+          "SAND",
+          "SPEED",
+          "TOURIST"
+        ]
+      }
+    ]
+  }
+}

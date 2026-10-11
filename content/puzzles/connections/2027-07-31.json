@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "U.S. COINS",
+        "level": 0,
+        "words": [
+          "NICKEL",
+          "QUARTER",
+          "PENNY",
+          "DIME"
+        ]
+      },
+      {
+        "label": "METAL ELEMENTS",
+        "level": 1,
+        "words": [
+          "TIN",
+          "LEAD",
+          "IRON",
+          "ZINC"
+        ]
+      },
+      {
+        "label": "LUCKY CHARMS MARSHMALLOWS",
+        "level": 2,
+        "words": [
+          "HORSESHOE",
+          "RAINBOW",
+          "CLOVER",
+          "MOON"
+        ]
+      },
+      {
+        "label": "___ AND ___",
+        "level": 3,
+        "words": [
+          "HALF",
+          "NECK",
+          "SO",
+          "AGAIN"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "TIMEKEEPING DEVICES",
+        "level": 0,
+        "words": [
+          "WATCH",
+          "CLOCK",
+          "SUNDIAL",
+          "HOURGLASS"
+        ]
+      },
+      {
+        "label": "HAIRSTYLES",
+        "level": 1,
+        "words": [
+          "BOB",
+          "CROP",
+          "PIXIE",
+          "SHAG"
+        ]
+      },
+      {
+        "label": "UNITS OF MEASURE",
+        "level": 2,
+        "words": [
+          "MOLE",
+          "SECOND",
+          "NEWTON",
+          "HERTZ"
+        ]
+      },
+      {
+        "label": "DR. ___",
+        "level": 3,
+        "words": [
+          "PEPPER",
+          "EVIL",
+          "NO",
+          "J"
+        ]
+      }
+    ]
+  }
+}

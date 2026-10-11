@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "USED IN HAIR CARE",
+        "level": 0,
+        "words": [
+          "DRYER",
+          "HAIRSPRAY",
+          "COMB",
+          "ROLLERS"
+        ]
+      },
+      {
+        "label": "MONTHLY EXPENSES",
+        "level": 1,
+        "words": [
+          "INTERNET",
+          "RENT",
+          "GAS",
+          "PHONE"
+        ]
+      },
+      {
+        "label": "THINGS WITH SPOTS",
+        "level": 2,
+        "words": [
+          "DOMINO",
+          "LADYBUG",
+          "DALMATIAN",
+          "DIE"
+        ]
+      },
+      {
+        "label": "___ CRAB",
+        "level": 3,
+        "words": [
+          "FIDDLER",
+          "HORSESHOE",
+          "SPIDER",
+          "HERMIT"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "FUTURE LIKELIHOOD",
+        "level": 0,
+        "words": [
+          "CHANCE",
+          "OUTLOOK",
+          "FORECAST",
+          "PROSPECT"
+        ]
+      },
+      {
+        "label": "BACK TALK",
+        "level": 1,
+        "words": [
+          "LIP",
+          "SASS",
+          "CHEEK",
+          "ATTITUDE"
+        ]
+      },
+      {
+        "label": "FISH",
+        "level": 2,
+        "words": [
+          "BASS",
+          "FLUKE",
+          "PERCH",
+          "PIKE"
+        ]
+      },
+      {
+        "label": "COMPONENTS OF EYEGLASSES",
+        "level": 3,
+        "words": [
+          "TEMPLE",
+          "RIM",
+          "BRIDGE",
+          "LENS"
+        ]
+      }
+    ]
+  }
+}

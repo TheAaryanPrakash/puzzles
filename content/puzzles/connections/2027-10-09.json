@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "“AWESOME!”",
+        "level": 0,
+        "words": [
+          "NICE",
+          "SWEET",
+          "SICK",
+          "COOL"
+        ]
+      },
+      {
+        "label": "VARIETY",
+        "level": 1,
+        "words": [
+          "STYLE",
+          "KIND",
+          "TYPE",
+          "SORT"
+        ]
+      },
+      {
+        "label": "GIST",
+        "level": 2,
+        "words": [
+          "POINT",
+          "MESSAGE",
+          "DRIFT",
+          "IDEA"
+        ]
+      },
+      {
+        "label": "FRIED APPETIZER, INFORMALLY",
+        "level": 3,
+        "words": [
+          "RING",
+          "STICK",
+          "TENDER",
+          "WING"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "CURRENT SITUATION",
+        "level": 0,
+        "words": [
+          "SHAPE",
+          "STATE",
+          "FORM",
+          "CONDITION"
+        ]
+      },
+      {
+        "label": "REMOTE RURAL AREA",
+        "level": 1,
+        "words": [
+          "BUSH",
+          "COUNTRY",
+          "STICKS",
+          "WOODS"
+        ]
+      },
+      {
+        "label": "CLASSIC LAWN ORNAMENTS",
+        "level": 2,
+        "words": [
+          "FLAMINGO",
+          "FOUNTAIN",
+          "GNOME",
+          "PINWHEEL"
+        ]
+      },
+      {
+        "label": "___ TALE",
+        "level": 3,
+        "words": [
+          "FISH",
+          "FOLK",
+          "FAIRY",
+          "TALL"
+        ]
+      }
+    ]
+  }
+}

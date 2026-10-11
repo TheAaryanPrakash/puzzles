@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "PESTER",
+        "level": 0,
+        "words": [
+          "BUG",
+          "HOUND",
+          "BADGER",
+          "NAG"
+        ]
+      },
+      {
+        "label": "SPORTS VENUES",
+        "level": 1,
+        "words": [
+          "BOWL",
+          "FIELD",
+          "DOME",
+          "ARENA"
+        ]
+      },
+      {
+        "label": "SEPARATE",
+        "level": 2,
+        "words": [
+          "FORK",
+          "PART",
+          "SPLIT",
+          "DIVIDE"
+        ]
+      },
+      {
+        "label": "SILVER ___",
+        "level": 3,
+        "words": [
+          "SPOON",
+          "SCREEN",
+          "FOX",
+          "LINING"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "CRITICIZE",
+        "level": 0,
+        "words": [
+          "KNOCK",
+          "SLAM",
+          "PAN",
+          "ROAST"
+        ]
+      },
+      {
+        "label": "REALITY SHOWS",
+        "level": 1,
+        "words": [
+          "ALONE",
+          "CHOPPED",
+          "CATFISH",
+          "SURVIVOR"
+        ]
+      },
+      {
+        "label": "CAR BRANDS",
+        "level": 2,
+        "words": [
+          "MINI",
+          "RAM",
+          "JAGUAR",
+          "FIAT"
+        ]
+      },
+      {
+        "label": "___ PAD",
+        "level": 3,
+        "words": [
+          "MOUSE",
+          "LILY",
+          "BACHELOR",
+          "MAXI"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "BALDERDASH",
+        "level": 0,
+        "words": [
+          "BULL",
+          "ROT",
+          "NONSENSE",
+          "HOGWASH"
+        ]
+      },
+      {
+        "label": "HELM",
+        "level": 1,
+        "words": [
+          "LEAD",
+          "STEER",
+          "DIRECT",
+          "GUIDE"
+        ]
+      },
+      {
+        "label": "SINGLE/PLURAL ANIMALS",
+        "level": 2,
+        "words": [
+          "FISH",
+          "MOOSE",
+          "DEER",
+          "BUFFALO"
+        ]
+      },
+      {
+        "label": "GREAT ___",
+        "level": 3,
+        "words": [
+          "WHITE",
+          "LAKE",
+          "SEAL",
+          "DANE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "WINGED INSECTS",
+        "level": 0,
+        "words": [
+          "FLY",
+          "MOTH",
+          "GNAT",
+          "WASP"
+        ]
+      },
+      {
+        "label": "ARITHMETIC OPERATIONS",
+        "level": 1,
+        "words": [
+          "ADD",
+          "DIVIDE",
+          "SUBTRACT",
+          "MULTIPLY"
+        ]
+      },
+      {
+        "label": "FISH",
+        "level": 2,
+        "words": [
+          "SKATE",
+          "TANG",
+          "SOLE",
+          "TETRA"
+        ]
+      },
+      {
+        "label": "___ CAT",
+        "level": 3,
+        "words": [
+          "COPY",
+          "ALLEY",
+          "COOL",
+          "LAP"
+        ]
+      }
+    ]
+  }
+}

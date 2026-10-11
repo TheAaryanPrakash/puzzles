@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "PHOTO",
+        "level": 0,
+        "words": [
+          "STILL",
+          "SHOT",
+          "SNAP",
+          "PIC"
+        ]
+      },
+      {
+        "label": "ASSURE, AS A VICTORY",
+        "level": 1,
+        "words": [
+          "ICE",
+          "LOCK",
+          "SECURE",
+          "CINCH"
+        ]
+      },
+      {
+        "label": "MOVE IN AN EFFORTLESS WAY",
+        "level": 2,
+        "words": [
+          "COAST",
+          "BREEZE",
+          "SAIL",
+          "GLIDE"
+        ]
+      },
+      {
+        "label": "___ BLANKET",
+        "level": 3,
+        "words": [
+          "WET",
+          "SECURITY",
+          "PICNIC",
+          "THROW"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "AREA OF HIGH GROUND",
+        "level": 0,
+        "words": [
+          "BANK",
+          "DUNE",
+          "MOUND",
+          "HILL"
+        ]
+      },
+      {
+        "label": "SIGNIFICANCE",
+        "level": 1,
+        "words": [
+          "IMPORT",
+          "GRAVITY",
+          "WEIGHT",
+          "SUBSTANCE"
+        ]
+      },
+      {
+        "label": "ACTIONS IN FANTASY SPORTS",
+        "level": 2,
+        "words": [
+          "START",
+          "TRADE",
+          "DRAFT",
+          "BENCH"
+        ]
+      },
+      {
+        "label": "SCI-FI MOVIES, WITH “THE”",
+        "level": 3,
+        "words": [
+          "THING",
+          "MATRIX",
+          "ABYSS",
+          "FLY"
+        ]
+      }
+    ]
+  }
+}

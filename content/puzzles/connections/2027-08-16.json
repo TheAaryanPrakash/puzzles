@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "SPARSE/LACKING",
+        "level": 0,
+        "words": [
+          "SHORT",
+          "SPARE",
+          "LIGHT",
+          "THIN"
+        ]
+      },
+      {
+        "label": "FUN TIME",
+        "level": 1,
+        "words": [
+          "KICK",
+          "BALL",
+          "BLAST",
+          "RIOT"
+        ]
+      },
+      {
+        "label": "FILMMAKING EQUIPMENT",
+        "level": 2,
+        "words": [
+          "BOOM",
+          "DOLLY",
+          "TRIPOD",
+          "LENS"
+        ]
+      },
+      {
+        "label": "“GET A ___!”",
+        "level": 3,
+        "words": [
+          "ROOM",
+          "CLUE",
+          "GRIP",
+          "LIFE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "DESIRE",
+        "level": 0,
+        "words": [
+          "URGE",
+          "DRIVE",
+          "ITCH",
+          "IMPULSE"
+        ]
+      },
+      {
+        "label": "BARB",
+        "level": 1,
+        "words": [
+          "SPINE",
+          "STICKER",
+          "SPUR",
+          "THORN"
+        ]
+      },
+      {
+        "label": "INFO ON A RECORD",
+        "level": 2,
+        "words": [
+          "LABEL",
+          "TRACK",
+          "ARTIST",
+          "ALBUM"
+        ]
+      },
+      {
+        "label": "TURN THE ___",
+        "level": 3,
+        "words": [
+          "PAGE",
+          "TIDE",
+          "CORNER",
+          "TABLES"
+        ]
+      }
+    ]
+  }
+}

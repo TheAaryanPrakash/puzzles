@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "SHOE PARTS",
+        "level": 0,
+        "words": [
+          "SOLE",
+          "TONGUE",
+          "LACE",
+          "HEEL"
+        ]
+      },
+      {
+        "label": "BOARD GAMES",
+        "level": 1,
+        "words": [
+          "TROUBLE",
+          "SORRY",
+          "CLUE",
+          "RISK"
+        ]
+      },
+      {
+        "label": "FICTIONAL SPIES",
+        "level": 2,
+        "words": [
+          "HUNT",
+          "SMART",
+          "BOND",
+          "RYAN"
+        ]
+      },
+      {
+        "label": "RUBBER ___",
+        "level": 3,
+        "words": [
+          "CEMENT",
+          "SOUL",
+          "BAND",
+          "DUCKIE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "PRESIDENTS",
+        "level": 0,
+        "words": [
+          "FORD",
+          "GRANT",
+          "WILSON",
+          "LINCOLN"
+        ]
+      },
+      {
+        "label": "SPORTS PROFESSIONALS",
+        "level": 1,
+        "words": [
+          "SCOUT",
+          "COACH",
+          "GM",
+          "PLAYER"
+        ]
+      },
+      {
+        "label": "CAR COMPANIES",
+        "level": 2,
+        "words": [
+          "BMW",
+          "SUBARU",
+          "JAGUAR",
+          "HONDA"
+        ]
+      },
+      {
+        "label": "COMMON PREFIXES",
+        "level": 3,
+        "words": [
+          "AUTO",
+          "POST",
+          "SUB",
+          "SEMI"
+        ]
+      }
+    ]
+  }
+}

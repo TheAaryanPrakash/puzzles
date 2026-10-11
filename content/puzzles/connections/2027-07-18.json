@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "BAD THINGS FOR A VIDEO CALL TO DO",
+        "level": 0,
+        "words": [
+          "FREEZE",
+          "ECHO",
+          "DROP",
+          "LAG"
+        ]
+      },
+      {
+        "label": "COSTUMES WITH STRIPED SHIRTS",
+        "level": 1,
+        "words": [
+          "MIME",
+          "SAILOR",
+          "REFEREE",
+          "PRISONER"
+        ]
+      },
+      {
+        "label": "SEEN IN “ALADDIN”",
+        "level": 2,
+        "words": [
+          "PARROT",
+          "MONKEY",
+          "PRINCESS",
+          "GENIE"
+        ]
+      },
+      {
+        "label": "MOVIES MINUS NUMBERS",
+        "level": 3,
+        "words": [
+          "APOLLO",
+          "FANTASTIC",
+          "SAMURAI",
+          "CANDLES"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "NECKWEAR",
+        "level": 0,
+        "words": [
+          "SCARF",
+          "ASCOT",
+          "BOLO",
+          "TIE"
+        ]
+      },
+      {
+        "label": "SHIP DIRECTIONS",
+        "level": 1,
+        "words": [
+          "STERN",
+          "BOW",
+          "PORT",
+          "STARBOARD"
+        ]
+      },
+      {
+        "label": "DETERGENTS",
+        "level": 2,
+        "words": [
+          "TIDE",
+          "GAIN",
+          "ERA",
+          "ALL"
+        ]
+      },
+      {
+        "label": "___ TRIANGLE",
+        "level": 3,
+        "words": [
+          "BERMUDA",
+          "LOVE",
+          "RIGHT",
+          "ACUTE"
+        ]
+      }
+    ]
+  }
+}

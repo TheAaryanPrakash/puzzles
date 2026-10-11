@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "LAB EQUIPMENT",
+        "level": 0,
+        "words": [
+          "MICROSCOPE",
+          "BEAKER",
+          "DROPPER",
+          "GOGGLES"
+        ]
+      },
+      {
+        "label": "NEXUS",
+        "level": 1,
+        "words": [
+          "HEART",
+          "NUCLEUS",
+          "CENTER",
+          "HUB"
+        ]
+      },
+      {
+        "label": "SPREADSHEET TERMS",
+        "level": 2,
+        "words": [
+          "SHEET",
+          "CELL",
+          "FORMULA",
+          "SORT"
+        ]
+      },
+      {
+        "label": "___ LANGUAGE",
+        "level": 3,
+        "words": [
+          "BODY",
+          "SIGN",
+          "LOVE",
+          "ROMANCE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "RELAX",
+        "level": 0,
+        "words": [
+          "LOUNGE",
+          "LOAF",
+          "HANG",
+          "CHILL"
+        ]
+      },
+      {
+        "label": "CATCHY SONG",
+        "level": 1,
+        "words": [
+          "JAM",
+          "BANGER",
+          "GROOVE",
+          "BOP"
+        ]
+      },
+      {
+        "label": "BRITISH CUISINE",
+        "level": 2,
+        "words": [
+          "SCONE",
+          "TRIFLE",
+          "MASH",
+          "ROAST"
+        ]
+      },
+      {
+        "label": "STICKY SITUATION",
+        "level": 3,
+        "words": [
+          "PICKLE",
+          "SCRAPE",
+          "BIND",
+          "SPOT"
+        ]
+      }
+    ]
+  }
+}

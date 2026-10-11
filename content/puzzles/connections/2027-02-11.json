@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "FLUSTER",
+        "level": 0,
+        "words": [
+          "THROW",
+          "RATTLE",
+          "RUFFLE",
+          "FAZE"
+        ]
+      },
+      {
+        "label": "SERIES OF MESSAGES",
+        "level": 1,
+        "words": [
+          "THREAD",
+          "CHAT",
+          "CONVERSATION",
+          "CHAIN"
+        ]
+      },
+      {
+        "label": "PLACES TO LIE/SIT THAT MOVE",
+        "level": 2,
+        "words": [
+          "SWING",
+          "ROCKER",
+          "CRADLE",
+          "HAMMOCK"
+        ]
+      },
+      {
+        "label": "CYLINDER-SHAPED THINGS",
+        "level": 3,
+        "words": [
+          "ROLLER",
+          "SPOOL",
+          "CAN",
+          "SILO"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "FUNNY PERSON",
+        "level": 0,
+        "words": [
+          "LAUGH",
+          "JOKER",
+          "CARD",
+          "CHARACTER"
+        ]
+      },
+      {
+        "label": "RESISTANCE TRAINING EQUIPMENT",
+        "level": 1,
+        "words": [
+          "BAND",
+          "DUMBBELL",
+          "MAT",
+          "BENCH"
+        ]
+      },
+      {
+        "label": "CANDY BARS MINUS “S”",
+        "level": 2,
+        "words": [
+          "AIRHEAD",
+          "SNICKER",
+          "MAR",
+          "MOUND"
+        ]
+      },
+      {
+        "label": "SPEED ___",
+        "level": 3,
+        "words": [
+          "DEMON",
+          "CHESS",
+          "BUMP",
+          "DIAL"
+        ]
+      }
+    ]
+  }
+}

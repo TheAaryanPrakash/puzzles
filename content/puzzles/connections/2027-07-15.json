@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "FOODS WITH CRUSTS",
+        "level": 0,
+        "words": [
+          "TURNOVER",
+          "PIE",
+          "TART",
+          "PASTY"
+        ]
+      },
+      {
+        "label": "ENDING IN A SILENT “T”",
+        "level": 1,
+        "words": [
+          "BOUQUET",
+          "PARFAIT",
+          "RAPPORT",
+          "RAGOUT"
+        ]
+      },
+      {
+        "label": "COUNTRIES WITH RED AND WHITE FLAGS",
+        "level": 2,
+        "words": [
+          "TURKEY",
+          "POLAND",
+          "TUNISIA",
+          "JAPAN"
+        ]
+      },
+      {
+        "label": "N.B.A. GREATS",
+        "level": 3,
+        "words": [
+          "CURRY",
+          "BIRD",
+          "JORDAN",
+          "JAMES"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "FRIEND",
+        "level": 0,
+        "words": [
+          "BUD",
+          "MATE",
+          "CHUM",
+          "PAL"
+        ]
+      },
+      {
+        "label": "COOKWEAR",
+        "level": 1,
+        "words": [
+          "CROCK",
+          "POT",
+          "WOK",
+          "SKILLET"
+        ]
+      },
+      {
+        "label": "SHOES",
+        "level": 2,
+        "words": [
+          "PUMP",
+          "WEDGE",
+          "SLIDE",
+          "CLOG"
+        ]
+      },
+      {
+        "label": "SLANG FOR CANNABIS",
+        "level": 3,
+        "words": [
+          "HERB",
+          "GRASS",
+          "MARY JANE",
+          "WEED"
+        ]
+      }
+    ]
+  }
+}

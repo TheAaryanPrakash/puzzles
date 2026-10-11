@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "FLUFFY WHITE THINGS",
+        "level": 0,
+        "words": [
+          "CLOUD",
+          "COTTON BALL",
+          "DANDELION",
+          "SHEEP"
+        ]
+      },
+      {
+        "label": "ONE IN A RESEARCH STUDY",
+        "level": 1,
+        "words": [
+          "SUBJECT",
+          "GUINEA PIG",
+          "VOLUNTEER",
+          "PARTICIPANT"
+        ]
+      },
+      {
+        "label": "TAKE ISSUE",
+        "level": 2,
+        "words": [
+          "OBJECT",
+          "MIND",
+          "PROTEST",
+          "DISAPPROVE"
+        ]
+      },
+      {
+        "label": "___HORN",
+        "level": 3,
+        "words": [
+          "SHOE",
+          "BULL",
+          "FOG",
+          "MATTER"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "UNIT OF BREAD",
+        "level": 0,
+        "words": [
+          "BUN",
+          "LOAF",
+          "ROLL",
+          "BAGUETTE"
+        ]
+      },
+      {
+        "label": "ASSURE, AS A WIN",
+        "level": 1,
+        "words": [
+          "LOCK",
+          "SECURE",
+          "CLINCH",
+          "GUARANTEE"
+        ]
+      },
+      {
+        "label": "SMALL IMPERFECTION",
+        "level": 2,
+        "words": [
+          "CHIP",
+          "MARK",
+          "SCRATCH",
+          "NICK"
+        ]
+      },
+      {
+        "label": "HEAD OF ___",
+        "level": 3,
+        "words": [
+          "STEAM",
+          "HAIR",
+          "LETTUCE",
+          "STATE"
+        ]
+      }
+    ]
+  }
+}

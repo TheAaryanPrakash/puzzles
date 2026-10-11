@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "ENJOY",
+        "level": 0,
+        "words": [
+          "LIKE",
+          "FANCY",
+          "DIG",
+          "APPRECIATE"
+        ]
+      },
+      {
+        "label": "BLOCKBUSTER",
+        "level": 1,
+        "words": [
+          "SMASH",
+          "SUCCESS",
+          "HIT",
+          "SENSATION"
+        ]
+      },
+      {
+        "label": "CAMPAIGN SWAG",
+        "level": 2,
+        "words": [
+          "BUTTON",
+          "SHIRT",
+          "HAT",
+          "STICKER"
+        ]
+      },
+      {
+        "label": "WORDS AFTER “COPY”",
+        "level": 3,
+        "words": [
+          "THAT",
+          "CAT",
+          "EDITOR",
+          "PASTE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "SASSY",
+        "level": 0,
+        "words": [
+          "FRESH",
+          "CUTE",
+          "WISE",
+          "SMART"
+        ]
+      },
+      {
+        "label": "AMBIENCE",
+        "level": 1,
+        "words": [
+          "AIR",
+          "QUALITY",
+          "MOOD",
+          "FEELING"
+        ]
+      },
+      {
+        "label": "UNITS",
+        "level": 2,
+        "words": [
+          "BEL",
+          "BAR",
+          "LUX",
+          "MOLE"
+        ]
+      },
+      {
+        "label": "THE LITTLE ___",
+        "level": 3,
+        "words": [
+          "PRINCE",
+          "MERMAID",
+          "TRAMP",
+          "RASCALS"
+        ]
+      }
+    ]
+  }
+}

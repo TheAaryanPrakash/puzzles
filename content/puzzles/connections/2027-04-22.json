@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "SOCIAL MEDIA ACTIONS",
+        "level": 0,
+        "words": [
+          "LIKE",
+          "FOLLOW",
+          "SHARE",
+          "SUBSCRIBE"
+        ]
+      },
+      {
+        "label": "USE A NEEDLE AND THREAD",
+        "level": 1,
+        "words": [
+          "HEM",
+          "DARN",
+          "SEAM",
+          "SEW"
+        ]
+      },
+      {
+        "label": "SHOWS SET IN HOSPITALS",
+        "level": 2,
+        "words": [
+          "HOUSE",
+          "ER",
+          "SCRUBS",
+          "RATCHED"
+        ]
+      },
+      {
+        "label": "EXPRESSIONS OF HESITATION",
+        "level": 3,
+        "words": [
+          "WELL",
+          "UM",
+          "ERM",
+          "UH"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "SLIMY ANIMALS",
+        "level": 0,
+        "words": [
+          "EARTHWORM",
+          "SLUG",
+          "SALAMANDER",
+          "EEL"
+        ]
+      },
+      {
+        "label": "THINGS THAT LUMINESCE",
+        "level": 1,
+        "words": [
+          "GLOWSTICK",
+          "FIREFLY",
+          "RADIUM",
+          "AURORA"
+        ]
+      },
+      {
+        "label": "DUTCH SYMBOLS",
+        "level": 2,
+        "words": [
+          "CLOG",
+          "CANAL",
+          "WINDMILL",
+          "TULIP"
+        ]
+      },
+      {
+        "label": "ENDING WITH SYNONYMS FOR “PLUNGE”",
+        "level": 3,
+        "words": [
+          "WATERFALL",
+          "RAINDROP",
+          "SKYDIVE",
+          "GATECRASH"
+        ]
+      }
+    ]
+  }
+}

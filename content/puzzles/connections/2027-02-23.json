@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "U.S. MOUNTAIN STATES",
+        "level": 0,
+        "words": [
+          "UTAH",
+          "ARIZONA",
+          "COLORADO",
+          "NEVADA"
+        ]
+      },
+      {
+        "label": "SODA BRANDS",
+        "level": 1,
+        "words": [
+          "CRUSH",
+          "MUG",
+          "SQUIRT",
+          "SPRITE"
+        ]
+      },
+      {
+        "label": "CLASSIC ROCK BANDS",
+        "level": 2,
+        "words": [
+          "RUSH",
+          "GENESIS",
+          "YES",
+          "KANSAS"
+        ]
+      },
+      {
+        "label": "TONY ___",
+        "level": 3,
+        "words": [
+          "HAWK",
+          "MONTANA",
+          "STARK",
+          "SOPRANO"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "DOCUMENTS OF OWNERSHIP",
+        "level": 0,
+        "words": [
+          "TITLE",
+          "DEED",
+          "CERTIFICATE",
+          "RECEIPT"
+        ]
+      },
+      {
+        "label": "BITS IN A VARIETY SHOW",
+        "level": 1,
+        "words": [
+          "SONG",
+          "SKETCH",
+          "DANCE",
+          "MONOLOGUE"
+        ]
+      },
+      {
+        "label": "PROPS FOR CHARACTERS ON “THE SIMPSONS”",
+        "level": 2,
+        "words": [
+          "SKATEBOARD",
+          "DONUT",
+          "SAXOPHONE",
+          "PACIFIER"
+        ]
+      },
+      {
+        "label": "STARTING WITH “SHAKE, RATTLE AND ROLL”",
+        "level": 3,
+        "words": [
+          "SHAKESPEARE",
+          "RATTLESNAKE",
+          "ANDROID",
+          "ROLLERBLADE"
+        ]
+      }
+    ]
+  }
+}

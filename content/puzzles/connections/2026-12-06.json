@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "LONG SANDWICHES",
+        "level": 0,
+        "words": [
+          "HERO",
+          "GRINDER",
+          "SUB",
+          "HOAGIE"
+        ]
+      },
+      {
+        "label": "DATING APPS",
+        "level": 1,
+        "words": [
+          "MATCH",
+          "HINGE",
+          "TINDER",
+          "BUMBLE"
+        ]
+      },
+      {
+        "label": "VAMPIRE MOVIES",
+        "level": 2,
+        "words": [
+          "BLADE",
+          "TWILIGHT",
+          "LOST BOYS",
+          "NEAR DARK"
+        ]
+      },
+      {
+        "label": "ADAMS",
+        "level": 3,
+        "words": [
+          "DRIVER",
+          "SCOTT",
+          "WEST",
+          "ANT"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "STATES OF ELATION",
+        "level": 0,
+        "words": [
+          "CLOUD NINE",
+          "BLISS",
+          "HEAVEN",
+          "PARADISE"
+        ]
+      },
+      {
+        "label": "SCAM",
+        "level": 1,
+        "words": [
+          "RACKET",
+          "HUSTLE",
+          "CON",
+          "FAST ONE"
+        ]
+      },
+      {
+        "label": "GREETING GESTURES",
+        "level": 2,
+        "words": [
+          "WAVE",
+          "SHAKE",
+          "HIGH FIVE",
+          "HUG"
+        ]
+      },
+      {
+        "label": "___ LIST",
+        "level": 3,
+        "words": [
+          "TOP TEN",
+          "GUEST",
+          "BUCKET",
+          "WISH"
+        ]
+      }
+    ]
+  }
+}

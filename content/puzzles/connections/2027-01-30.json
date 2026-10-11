@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "CRITICIZE",
+        "level": 0,
+        "words": [
+          "TRASH",
+          "KNOCK",
+          "BLAST",
+          "SLAM"
+        ]
+      },
+      {
+        "label": "“MY MISTAKE!”",
+        "level": 1,
+        "words": [
+          "SORRY",
+          "OOPS",
+          "APOLOGIES",
+          "PARDON"
+        ]
+      },
+      {
+        "label": "ALIBI",
+        "level": 2,
+        "words": [
+          "OUT",
+          "EXCUSE",
+          "DEFENSE",
+          "REASON"
+        ]
+      },
+      {
+        "label": "PLAY ___",
+        "level": 3,
+        "words": [
+          "DIRTY",
+          "DATE",
+          "DOH",
+          "DEAD"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "PUNCH",
+        "level": 0,
+        "words": [
+          "SLUG",
+          "SOCK",
+          "BELT",
+          "BLOW"
+        ]
+      },
+      {
+        "label": "CRAM",
+        "level": 1,
+        "words": [
+          "SANDWICH",
+          "SHOEHORN",
+          "WEDGE",
+          "SQUEEZE"
+        ]
+      },
+      {
+        "label": "COMPANIES NAMED AFTER ANIMALS",
+        "level": 2,
+        "words": [
+          "CATERPILLAR",
+          "PUMA",
+          "DOVE",
+          "GREYHOUND"
+        ]
+      },
+      {
+        "label": "HOMOPHONES OF MUSIC GENRES",
+        "level": 3,
+        "words": [
+          "SEOUL",
+          "WRAP",
+          "METTLE",
+          "INDY"
+        ]
+      }
+    ]
+  }
+}

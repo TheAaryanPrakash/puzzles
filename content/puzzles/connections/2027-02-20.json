@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "LARGE BOAT",
+        "level": 0,
+        "words": [
+          "SHIP",
+          "CRAFT",
+          "BARGE",
+          "VESSEL"
+        ]
+      },
+      {
+        "label": "ALL-TIME GREAT",
+        "level": 1,
+        "words": [
+          "CHAMP",
+          "BEST",
+          "GOAT",
+          "LEGEND"
+        ]
+      },
+      {
+        "label": "REGARDING",
+        "level": 2,
+        "words": [
+          "ON",
+          "ABOUT",
+          "TOWARD",
+          "CONCERNING"
+        ]
+      },
+      {
+        "label": "HOMOPHONES OF BODY FEATURES",
+        "level": 3,
+        "words": [
+          "I",
+          "MUSSEL",
+          "HARE",
+          "NAVAL"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "LEG PARTS",
+        "level": 0,
+        "words": [
+          "KNEE",
+          "ANKLE",
+          "SHIN",
+          "THIGH"
+        ]
+      },
+      {
+        "label": "BABY ANIMALS",
+        "level": 1,
+        "words": [
+          "CUB",
+          "JOEY",
+          "CALF",
+          "KID"
+        ]
+      },
+      {
+        "label": "SLANG FOR TOILET",
+        "level": 2,
+        "words": [
+          "JOHN",
+          "THRONE",
+          "HEAD",
+          "CAN"
+        ]
+      },
+      {
+        "label": "___ FISH THAT AREN’T FISH",
+        "level": 3,
+        "words": [
+          "STAR",
+          "SILVER",
+          "JELLY",
+          "CRAY"
+        ]
+      }
+    ]
+  }
+}

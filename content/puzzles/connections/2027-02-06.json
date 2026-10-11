@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "COMMENT AFTER AN INSULT",
+        "level": 0,
+        "words": [
+          "SNAP",
+          "BURN",
+          "ZING",
+          "OUCH"
+        ]
+      },
+      {
+        "label": "TINY AMOUNT, WITH “A”",
+        "level": 1,
+        "words": [
+          "MITE",
+          "BIT",
+          "LITTLE",
+          "TAD"
+        ]
+      },
+      {
+        "label": "BIT OF CITRUS GARNISH",
+        "level": 2,
+        "words": [
+          "ZEST",
+          "WEDGE",
+          "SLICE",
+          "TWIST"
+        ]
+      },
+      {
+        "label": "BUNGLE, WITH “UP”",
+        "level": 3,
+        "words": [
+          "SCREW",
+          "LOUSE",
+          "MUCK",
+          "FOUL"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "MURKY CONDITION",
+        "level": 0,
+        "words": [
+          "CLOUD",
+          "FOG",
+          "HAZE",
+          "MIST"
+        ]
+      },
+      {
+        "label": "FOLLOW",
+        "level": 1,
+        "words": [
+          "TAIL",
+          "SHADOW",
+          "TRACK",
+          "TRAIL"
+        ]
+      },
+      {
+        "label": "PINBALL MACHINE COMPONENTS",
+        "level": 2,
+        "words": [
+          "BALL",
+          "FLIPPER",
+          "BUMPER",
+          "PLUNGER"
+        ]
+      },
+      {
+        "label": "___LAND",
+        "level": 3,
+        "words": [
+          "FIN",
+          "ICE",
+          "IRE",
+          "GREEN"
+        ]
+      }
+    ]
+  }
+}

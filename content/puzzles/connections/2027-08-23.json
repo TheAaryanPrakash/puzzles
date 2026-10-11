@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "CRATER",
+        "level": 0,
+        "words": [
+          "CAVITY",
+          "HOLE",
+          "HOLLOW",
+          "PIT"
+        ]
+      },
+      {
+        "label": "ACCESSIBLE",
+        "level": 1,
+        "words": [
+          "READY",
+          "HANDY",
+          "AVAILABLE",
+          "NEARBY"
+        ]
+      },
+      {
+        "label": "SUBSTANTIAL, AS A MEAL",
+        "level": 2,
+        "words": [
+          "HEARTY",
+          "SQUARE",
+          "FILLING",
+          "SOLID"
+        ]
+      },
+      {
+        "label": "BRITISHISMS",
+        "level": 3,
+        "words": [
+          "BUTTY",
+          "FOOTY",
+          "CHIPPY",
+          "TELLY"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "WEB BROWSER-RELATED",
+        "level": 0,
+        "words": [
+          "WINDOW",
+          "TAB",
+          "HISTORY",
+          "BOOKMARK"
+        ]
+      },
+      {
+        "label": "SHIRT FEATURES",
+        "level": 1,
+        "words": [
+          "BUTTON",
+          "COLLAR",
+          "CUFF",
+          "POCKET"
+        ]
+      },
+      {
+        "label": "CONNECTION",
+        "level": 2,
+        "words": [
+          "LINK",
+          "BOND",
+          "RELATION",
+          "TIE"
+        ]
+      },
+      {
+        "label": "DIRTY ___",
+        "level": 3,
+        "words": [
+          "LAUNDRY",
+          "MARTINI",
+          "JOKE",
+          "DOZEN"
+        ]
+      }
+    ]
+  }
+}

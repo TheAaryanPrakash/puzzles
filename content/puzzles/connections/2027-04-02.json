@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "FLOWERS",
+        "level": 0,
+        "words": [
+          "DAISY",
+          "TULIP",
+          "ROSE",
+          "VIOLET"
+        ]
+      },
+      {
+        "label": "SEEN ON A FARM",
+        "level": 1,
+        "words": [
+          "FARMER",
+          "TRACTOR",
+          "BARN",
+          "CHICKEN"
+        ]
+      },
+      {
+        "label": "HORROR DIRECTORS",
+        "level": 2,
+        "words": [
+          "CARPENTER",
+          "CRAVEN",
+          "WAN",
+          "ASTER"
+        ]
+      },
+      {
+        "label": "___ JACKET",
+        "level": 3,
+        "words": [
+          "YELLOW",
+          "SPORTS",
+          "LIFE",
+          "DUST"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "STATE ABBREVIATIONS",
+        "level": 0,
+        "words": [
+          "MA",
+          "PA",
+          "CO",
+          "ME"
+        ]
+      },
+      {
+        "label": "MUSICAL NOTES",
+        "level": 1,
+        "words": [
+          "LA",
+          "TI",
+          "FA",
+          "DO"
+        ]
+      },
+      {
+        "label": "GREEK LETTERS",
+        "level": 2,
+        "words": [
+          "NU",
+          "PI",
+          "XI",
+          "MU"
+        ]
+      },
+      {
+        "label": "PERIODIC TABLE SYMBOLS",
+        "level": 3,
+        "words": [
+          "NA",
+          "NI",
+          "HE",
+          "FE"
+        ]
+      }
+    ]
+  }
+}

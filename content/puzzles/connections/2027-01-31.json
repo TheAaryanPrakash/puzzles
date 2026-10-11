@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "BIT OF ADVICE",
+        "level": 0,
+        "words": [
+          "TRICK",
+          "POINTER",
+          "TIP",
+          "SUGGESTION"
+        ]
+      },
+      {
+        "label": "FORTITUDE",
+        "level": 1,
+        "words": [
+          "SPIRIT",
+          "WILL",
+          "RESOLVE",
+          "GRIT"
+        ]
+      },
+      {
+        "label": "SPEND TIME AT",
+        "level": 2,
+        "words": [
+          "VISIT",
+          "FREQUENT",
+          "HAUNT",
+          "PATRONIZE"
+        ]
+      },
+      {
+        "label": "WORDS ENDING IN NUMBERS",
+        "level": 3,
+        "words": [
+          "CANINE",
+          "OZONE",
+          "OFTEN",
+          "FREIGHT"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "\"GIVE ME A BREAK!\"",
+        "level": 0,
+        "words": [
+          "BROTHER",
+          "LORD",
+          "SHEESH",
+          "PLEASE"
+        ]
+      },
+      {
+        "label": "ECCLESIASTICAL TITLES",
+        "level": 1,
+        "words": [
+          "BISHOP",
+          "CARDINAL",
+          "PRIOR",
+          "PASTOR"
+        ]
+      },
+      {
+        "label": "ROCK & ROLL HALL OF FAME INDUCTEES",
+        "level": 2,
+        "words": [
+          "QUEEN",
+          "HEART",
+          "PRINCE",
+          "MADONNA"
+        ]
+      },
+      {
+        "label": "CITY HOMOPHONES",
+        "level": 3,
+        "words": [
+          "DELI",
+          "NIECE",
+          "SOUL",
+          "ROAM"
+        ]
+      }
+    ]
+  }
+}

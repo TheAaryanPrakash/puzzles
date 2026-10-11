@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "UNITS OF LENGTH",
+        "level": 0,
+        "words": [
+          "FOOT",
+          "MILE",
+          "INCH",
+          "YARD"
+        ]
+      },
+      {
+        "label": "TYPES OF PAINT",
+        "level": 1,
+        "words": [
+          "OIL",
+          "WATERCOLOR",
+          "ACRYLIC",
+          "TEMPERA"
+        ]
+      },
+      {
+        "label": "DEEP-FRIED FOOD",
+        "level": 2,
+        "words": [
+          "SAMOSA",
+          "KATSU",
+          "FALAFEL",
+          "SCHNITZEL"
+        ]
+      },
+      {
+        "label": "STARTS OF U.S. COINS",
+        "level": 3,
+        "words": [
+          "DIM",
+          "QUART",
+          "PEN",
+          "NICK"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "MARSUPIALS",
+        "level": 0,
+        "words": [
+          "WOMBAT",
+          "KANGAROO",
+          "KOALA",
+          "WALLABY"
+        ]
+      },
+      {
+        "label": "CHOCOLATE BARS",
+        "level": 1,
+        "words": [
+          "MARS",
+          "CHUNKY",
+          "CRUNCH",
+          "MOUNDS"
+        ]
+      },
+      {
+        "label": "SLANG FOR MONEY",
+        "level": 2,
+        "words": [
+          "PAPER",
+          "CHEDDAR",
+          "DOUGH",
+          "STACKS"
+        ]
+      },
+      {
+        "label": "NAKED ___",
+        "level": 3,
+        "words": [
+          "EYE",
+          "TRUTH",
+          "GUN",
+          "MOLE RAT"
+        ]
+      }
+    ]
+  }
+}

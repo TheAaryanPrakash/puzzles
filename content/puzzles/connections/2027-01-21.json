@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "FISSURE",
+        "level": 0,
+        "words": [
+          "LEAK",
+          "CRACK",
+          "HOLE",
+          "PUNCTURE"
+        ]
+      },
+      {
+        "label": "ELEMENTS OF WRITING",
+        "level": 1,
+        "words": [
+          "PHRASE",
+          "LETTER",
+          "WORD",
+          "SENTENCE"
+        ]
+      },
+      {
+        "label": "INSTRUMENTS YOU BLOW INTO",
+        "level": 2,
+        "words": [
+          "PIPE",
+          "JUG",
+          "WHISTLE",
+          "RECORDER"
+        ]
+      },
+      {
+        "label": "___ OF TIME",
+        "level": 3,
+        "words": [
+          "PASSAGE",
+          "WASTE",
+          "NICK",
+          "SANDS"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "MUSCLES, INFORMALLY",
+        "level": 0,
+        "words": [
+          "QUAD",
+          "LAT",
+          "TRI",
+          "PEC"
+        ]
+      },
+      {
+        "label": "AWARDS",
+        "level": 1,
+        "words": [
+          "CUP",
+          "RIBBON",
+          "MEDAL",
+          "TROPHY"
+        ]
+      },
+      {
+        "label": "TITLE TV DOCTORS",
+        "level": 2,
+        "words": [
+          "GREY",
+          "HOUSE",
+          "QUINN",
+          "HOWSER"
+        ]
+      },
+      {
+        "label": "NFL PLAYERS",
+        "level": 3,
+        "words": [
+          "BILL",
+          "BEAR",
+          "COMMANDER",
+          "BROWN"
+        ]
+      }
+    ]
+  }
+}

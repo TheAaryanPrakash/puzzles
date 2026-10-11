@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "TINT",
+        "level": 0,
+        "words": [
+          "SHADE",
+          "TONE",
+          "HUE",
+          "TINGE"
+        ]
+      },
+      {
+        "label": "COMPONENTS OF A MYSTERY",
+        "level": 1,
+        "words": [
+          "CLUE",
+          "SUSPECT",
+          "DETECTIVE",
+          "ALIBI"
+        ]
+      },
+      {
+        "label": "TAKE ISSUE WITH",
+        "level": 2,
+        "words": [
+          "CHALLENGE",
+          "CONTEST",
+          "QUESTION",
+          "DISPUTE"
+        ]
+      },
+      {
+        "label": "STRIKE A ___",
+        "level": 3,
+        "words": [
+          "MATCH",
+          "CHORD",
+          "DEAL",
+          "POSE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "WINE BOTTLE INFO",
+        "level": 0,
+        "words": [
+          "VINTAGE",
+          "GRAPE",
+          "REGION",
+          "WINERY"
+        ]
+      },
+      {
+        "label": "CONSOLE INPUTS",
+        "level": 1,
+        "words": [
+          "SWITCH",
+          "SLIDER",
+          "BUTTON",
+          "KNOB"
+        ]
+      },
+      {
+        "label": "PREFIXES",
+        "level": 2,
+        "words": [
+          "RETRO",
+          "SUB",
+          "SUPER",
+          "PRO"
+        ]
+      },
+      {
+        "label": "___ KING",
+        "level": 3,
+        "words": [
+          "LION",
+          "BURGER",
+          "PROM",
+          "CALIFORNIA"
+        ]
+      }
+    ]
+  }
+}

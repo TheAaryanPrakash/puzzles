@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "RELATIVES",
+        "level": 0,
+        "words": [
+          "AUNT",
+          "NEPHEW",
+          "MOTHER",
+          "COUSIN"
+        ]
+      },
+      {
+        "label": "SYNONYMS FOR OFFBEAT",
+        "level": 1,
+        "words": [
+          "QUIRKY",
+          "KOOKY",
+          "DAFFY",
+          "WACKY"
+        ]
+      },
+      {
+        "label": "DISNEY DUCKS",
+        "level": 2,
+        "words": [
+          "DAISY",
+          "SCROOGE",
+          "DEWEY",
+          "DONALD"
+        ]
+      },
+      {
+        "label": "___ CLOCK",
+        "level": 3,
+        "words": [
+          "ALARM",
+          "GRANDFATHER",
+          "BIOLOGICAL",
+          "CUCKOO"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "HATS",
+        "level": 0,
+        "words": [
+          "BERET",
+          "FEZ",
+          "BOWLER",
+          "FEDORA"
+        ]
+      },
+      {
+        "label": "ORGANS",
+        "level": 1,
+        "words": [
+          "HEART",
+          "KIDNEY",
+          "LIVER",
+          "LUNG"
+        ]
+      },
+      {
+        "label": "PARTS OF A BOOK",
+        "level": 2,
+        "words": [
+          "SPINE",
+          "JACKET",
+          "COVER",
+          "PAGE"
+        ]
+      },
+      {
+        "label": "JACK ___",
+        "level": 3,
+        "words": [
+          "POT",
+          "ASS",
+          "RABBIT",
+          "KNIFE"
+        ]
+      }
+    ]
+  }
+}

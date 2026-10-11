@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "BITS OF HARDWARE",
+        "level": 0,
+        "words": [
+          "NAIL",
+          "WASHER",
+          "SCREW",
+          "NUT"
+        ]
+      },
+      {
+        "label": "FISHING GEAR",
+        "level": 1,
+        "words": [
+          "FLY",
+          "SINKER",
+          "LINE",
+          "HOOK"
+        ]
+      },
+      {
+        "label": "HAIR SALON FIXTURES",
+        "level": 2,
+        "words": [
+          "SINK",
+          "DRYER",
+          "MIRROR",
+          "CHAIR"
+        ]
+      },
+      {
+        "label": "LIGHTNING ___",
+        "level": 3,
+        "words": [
+          "BUG",
+          "BOLT",
+          "STRIKE",
+          "ROD"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "BIT OF MAGIC",
+        "level": 0,
+        "words": [
+          "CHARM",
+          "SPELL",
+          "CURSE",
+          "HEX"
+        ]
+      },
+      {
+        "label": "FOUND AROUND A FIREPLACE",
+        "level": 1,
+        "words": [
+          "POKER",
+          "LOG",
+          "GRATE",
+          "FLUE"
+        ]
+      },
+      {
+        "label": "THINGS SEEN AT A CASINO",
+        "level": 2,
+        "words": [
+          "DICE",
+          "CHIPS",
+          "CARDS",
+          "SLOTS"
+        ]
+      },
+      {
+        "label": "WAYS TO PREPARE CHEESE",
+        "level": 3,
+        "words": [
+          "MELT",
+          "SLICE",
+          "SHRED",
+          "CRUMBLE"
+        ]
+      }
+    ]
+  }
+}

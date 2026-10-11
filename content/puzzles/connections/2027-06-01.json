@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "THINGS THAT ARE ORANGE",
+        "level": 0,
+        "words": [
+          "BASKETBALL",
+          "CARROT",
+          "GOLDFISH",
+          "PUMPKIN"
+        ]
+      },
+      {
+        "label": "LONG, SKINNY OBJECTS",
+        "level": 1,
+        "words": [
+          "STICK",
+          "POLE",
+          "STAFF",
+          "ROD"
+        ]
+      },
+      {
+        "label": "SEEN ON A GOLF COURSE",
+        "level": 2,
+        "words": [
+          "CART",
+          "CLUB",
+          "HOLE",
+          "TEE"
+        ]
+      },
+      {
+        "label": "SHAPES OF CAPITAL GREEK LETTERS",
+        "level": 3,
+        "words": [
+          "TRIANGLE",
+          "HORSESHOE",
+          "PITCHFORK",
+          "CIRCLE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "OPERATING",
+        "level": 0,
+        "words": [
+          "WORKING",
+          "RUNNING",
+          "ACTIVE",
+          "FUNCTIONAL"
+        ]
+      },
+      {
+        "label": "TERM",
+        "level": 1,
+        "words": [
+          "SESSION",
+          "SITTING",
+          "PERIOD",
+          "MEETING"
+        ]
+      },
+      {
+        "label": "THINGS IN A CAMERA KIT",
+        "level": 2,
+        "words": [
+          "BODY",
+          "FLASH",
+          "STRAP",
+          "LENS"
+        ]
+      },
+      {
+        "label": "BIRD PLUS LETTER",
+        "level": 3,
+        "words": [
+          "CROWD",
+          "PUFFING",
+          "SWANK",
+          "GULLY"
+        ]
+      }
+    ]
+  }
+}

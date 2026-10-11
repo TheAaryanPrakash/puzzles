@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "PUBLICITY",
+        "level": 0,
+        "words": [
+          "ATTENTION",
+          "EXPOSURE",
+          "PRESS",
+          "COVERAGE"
+        ]
+      },
+      {
+        "label": "POINT OF VIEW",
+        "level": 1,
+        "words": [
+          "LENS",
+          "POSITION",
+          "ANGLE",
+          "PERSPECTIVE"
+        ]
+      },
+      {
+        "label": "WORK COMMUNICATION PLATFORMS",
+        "level": 2,
+        "words": [
+          "TEAMS",
+          "MEET",
+          "ZOOM",
+          "SLACK"
+        ]
+      },
+      {
+        "label": "“___ ISLAND”",
+        "level": 3,
+        "words": [
+          "FANTASY",
+          "LOVE",
+          "SHUTTER",
+          "TREASURE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "SOPRANOS",
+        "level": 0,
+        "words": [
+          "JUNIOR",
+          "TONY",
+          "MEADOW",
+          "CARMELA"
+        ]
+      },
+      {
+        "label": "FAMILIAL NICKNAMES",
+        "level": 1,
+        "words": [
+          "GRAMMY",
+          "POP",
+          "MUMMY",
+          "CUZ"
+        ]
+      },
+      {
+        "label": "“SESAME STREET” CHARACTERS",
+        "level": 2,
+        "words": [
+          "COOKIE",
+          "OSCAR",
+          "COUNT",
+          "SNUFFY"
+        ]
+      },
+      {
+        "label": "NAMES THAT SOUND LIKE TWO LETTERS",
+        "level": 3,
+        "words": [
+          "EMMY",
+          "KATIE",
+          "CECE",
+          "EDIE"
+        ]
+      }
+    ]
+  }
+}

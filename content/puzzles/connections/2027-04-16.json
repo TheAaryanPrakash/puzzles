@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "CHAT, INFORMALLY",
+        "level": 0,
+        "words": [
+          "YAK",
+          "JAW",
+          "YAP",
+          "GAB"
+        ]
+      },
+      {
+        "label": "FEMALE ANIMALS",
+        "level": 1,
+        "words": [
+          "COW",
+          "EWE",
+          "DOE",
+          "HEN"
+        ]
+      },
+      {
+        "label": "PALINDROMES",
+        "level": 2,
+        "words": [
+          "POP",
+          "EYE",
+          "GAG",
+          "BIB"
+        ]
+      },
+      {
+        "label": "STARTS OF PLANET NAMES",
+        "level": 3,
+        "words": [
+          "EAR",
+          "MAR",
+          "SAT",
+          "MER"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "PARTS OF A RIVER",
+        "level": 0,
+        "words": [
+          "BANK",
+          "MOUTH",
+          "BED",
+          "DELTA"
+        ]
+      },
+      {
+        "label": "SOMETHING EASY TO DO",
+        "level": 1,
+        "words": [
+          "BREEZE",
+          "SNAP",
+          "CINCH",
+          "PICNIC"
+        ]
+      },
+      {
+        "label": "WRAP AROUND IN A CIRCLE",
+        "level": 2,
+        "words": [
+          "SPIRAL",
+          "WIND",
+          "TWIST",
+          "COIL"
+        ]
+      },
+      {
+        "label": "JUMP INTO THE AIR",
+        "level": 3,
+        "words": [
+          "SPRING",
+          "VAULT",
+          "LEAP",
+          "BOUND"
+        ]
+      }
+    ]
+  }
+}

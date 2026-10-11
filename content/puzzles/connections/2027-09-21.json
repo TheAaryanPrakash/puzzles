@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "SOMETHING TIRESOME",
+        "level": 0,
+        "words": [
+          "YAWN",
+          "DRAG",
+          "SNOOZE",
+          "BORE"
+        ]
+      },
+      {
+        "label": "BIT OF WIND",
+        "level": 1,
+        "words": [
+          "PUFF",
+          "DRAFT",
+          "BREEZE",
+          "GUST"
+        ]
+      },
+      {
+        "label": "PIQUANCY",
+        "level": 2,
+        "words": [
+          "KICK",
+          "BITE",
+          "ZIP",
+          "TANG"
+        ]
+      },
+      {
+        "label": "SINGULAR OF THINGS SEEN IN PAIRS",
+        "level": 3,
+        "words": [
+          "BOXER",
+          "PANT",
+          "GOGGLE",
+          "TONG"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "BARREL-SHAPED CONTAINER",
+        "level": 0,
+        "words": [
+          "DRUM",
+          "CASK",
+          "CYLINDER",
+          "TANK"
+        ]
+      },
+      {
+        "label": "GUIDE",
+        "level": 1,
+        "words": [
+          "PILOT",
+          "USHER",
+          "STEER",
+          "SHEPHERD"
+        ]
+      },
+      {
+        "label": "N.F.L. TEAM MEMBER",
+        "level": 2,
+        "words": [
+          "RAVEN",
+          "COWBOY",
+          "JET",
+          "RAM"
+        ]
+      },
+      {
+        "label": "THINGS THAT SWING",
+        "level": 3,
+        "words": [
+          "GOLFER",
+          "PENDULUM",
+          "SALOON DOORS",
+          "SWING"
+        ]
+      }
+    ]
+  }
+}

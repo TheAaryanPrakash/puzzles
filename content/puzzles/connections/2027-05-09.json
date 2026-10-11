@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "ONE THING AFTER ANOTHER",
+        "level": 0,
+        "words": [
+          "STRING",
+          "TRAIN",
+          "CHAIN",
+          "SERIES"
+        ]
+      },
+      {
+        "label": "KINDS OF GOLF CLUBS",
+        "level": 1,
+        "words": [
+          "WOOD",
+          "IRON",
+          "DRIVER",
+          "WEDGE"
+        ]
+      },
+      {
+        "label": "HORROR MOVIES, WITH “THE”",
+        "level": 2,
+        "words": [
+          "RING",
+          "FOG",
+          "BIRDS",
+          "OMEN"
+        ]
+      },
+      {
+        "label": "WORDS FOR SAUSAGE",
+        "level": 3,
+        "words": [
+          "FRANK",
+          "DOG",
+          "LINK",
+          "BRAT"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "WREST",
+        "level": 0,
+        "words": [
+          "TUG",
+          "WRENCH",
+          "JERK",
+          "YANK"
+        ]
+      },
+      {
+        "label": "BUSTER",
+        "level": 1,
+        "words": [
+          "MAN",
+          "BUB",
+          "BUD",
+          "JACK"
+        ]
+      },
+      {
+        "label": "YOGA ACCESSORIES",
+        "level": 2,
+        "words": [
+          "MAT",
+          "BLOCK",
+          "STRAP",
+          "BOLSTER"
+        ]
+      },
+      {
+        "label": "___CAP",
+        "level": 3,
+        "words": [
+          "MAD",
+          "HUB",
+          "NIGHT",
+          "KNEE"
+        ]
+      }
+    ]
+  }
+}

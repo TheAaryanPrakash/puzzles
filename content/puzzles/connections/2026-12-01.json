@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "TYPES OF TEETH",
+        "level": 0,
+        "words": [
+          "TUSK",
+          "FANG",
+          "CANINE",
+          "MOLAR"
+        ]
+      },
+      {
+        "label": "FASHIONABLE",
+        "level": 1,
+        "words": [
+          "HIP",
+          "HOT",
+          "CHIC",
+          "IN"
+        ]
+      },
+      {
+        "label": "DANCE MOVES",
+        "level": 2,
+        "words": [
+          "FLOSS",
+          "VOGUE",
+          "ROBOT",
+          "WORM"
+        ]
+      },
+      {
+        "label": "THINGS THAT SUCK",
+        "level": 3,
+        "words": [
+          "STRAW",
+          "VAMPIRE",
+          "VACUUM",
+          "LEECH"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "AREA OF HIGH GROUND",
+        "level": 0,
+        "words": [
+          "BANK",
+          "DUNE",
+          "MOUND",
+          "HILL"
+        ]
+      },
+      {
+        "label": "SIGNIFICANCE",
+        "level": 1,
+        "words": [
+          "IMPORT",
+          "GRAVITY",
+          "WEIGHT",
+          "SUBSTANCE"
+        ]
+      },
+      {
+        "label": "ACTIONS IN FANTASY SPORTS",
+        "level": 2,
+        "words": [
+          "START",
+          "TRADE",
+          "DRAFT",
+          "BENCH"
+        ]
+      },
+      {
+        "label": "SCI-FI MOVIES, WITH “THE”",
+        "level": 3,
+        "words": [
+          "THING",
+          "MATRIX",
+          "ABYSS",
+          "FLY"
+        ]
+      }
+    ]
+  }
+}

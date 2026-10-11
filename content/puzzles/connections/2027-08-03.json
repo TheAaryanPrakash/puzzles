@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "BASEBALL CALLS",
+        "level": 0,
+        "words": [
+          "OUT",
+          "BALL",
+          "SAFE",
+          "STRIKE"
+        ]
+      },
+      {
+        "label": "HEAT SOURCES",
+        "level": 1,
+        "words": [
+          "OVEN",
+          "FORGE",
+          "KILN",
+          "FURNACE"
+        ]
+      },
+      {
+        "label": "FISH THAT ARE VERBS",
+        "level": 2,
+        "words": [
+          "SMELT",
+          "CARP",
+          "CATFISH",
+          "FLOUNDER"
+        ]
+      },
+      {
+        "label": "SILENT “L”",
+        "level": 3,
+        "words": [
+          "WALK",
+          "YOLK",
+          "SALMON",
+          "COLONEL"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "INTRINSIC MOTIVATORS",
+        "level": 0,
+        "words": [
+          "DRIVE",
+          "WILL",
+          "DESIRE",
+          "RESOLVE"
+        ]
+      },
+      {
+        "label": "SUMMER GEAR",
+        "level": 1,
+        "words": [
+          "SHORTS",
+          "TEE",
+          "SUNGLASSES",
+          "HAT"
+        ]
+      },
+      {
+        "label": "COLLECTION",
+        "level": 2,
+        "words": [
+          "SERIES",
+          "BATTERY",
+          "SET",
+          "ARRAY"
+        ]
+      },
+      {
+        "label": "HORSE___",
+        "level": 3,
+        "words": [
+          "POWER",
+          "SHOE",
+          "FLY",
+          "RADISH"
+        ]
+      }
+    ]
+  }
+}

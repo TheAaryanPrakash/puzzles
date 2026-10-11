@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "MEH",
+        "level": 0,
+        "words": [
+          "OK",
+          "FAIR",
+          "AVERAGE",
+          "SO-SO"
+        ]
+      },
+      {
+        "label": "U.S. STATE ABBREVIATIONS",
+        "level": 1,
+        "words": [
+          "HI",
+          "MA",
+          "PA",
+          "OR"
+        ]
+      },
+      {
+        "label": "KINDS OF BOOTS",
+        "level": 2,
+        "words": [
+          "COWBOY",
+          "ANKLE",
+          "GO-GO",
+          "THIGH-HIGH"
+        ]
+      },
+      {
+        "label": "THINGS THAT GO UP AND DOWN",
+        "level": 3,
+        "words": [
+          "SUN",
+          "TIDE",
+          "YO-YO",
+          "ELEVATOR"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "B.L.T. INGREDIENTS",
+        "level": 0,
+        "words": [
+          "BREAD",
+          "TOMATO",
+          "BACON",
+          "LETTUCE"
+        ]
+      },
+      {
+        "label": "OBSTRUCT",
+        "level": 1,
+        "words": [
+          "JAM",
+          "BLOCK",
+          "STOP",
+          "CLOG"
+        ]
+      },
+      {
+        "label": "BASEBALL STATS",
+        "level": 2,
+        "words": [
+          "WALK",
+          "HIT",
+          "DOUBLE",
+          "RUN"
+        ]
+      },
+      {
+        "label": "SMALL ___",
+        "level": 3,
+        "words": [
+          "WONDER",
+          "TALK",
+          "WORLD",
+          "FRY"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "SPOKEN COMMUNICATION",
+        "level": 0,
+        "words": [
+          "TONGUE",
+          "LANGUAGE",
+          "SPEECH",
+          "DIALECT"
+        ]
+      },
+      {
+        "label": "CANOODLE",
+        "level": 1,
+        "words": [
+          "NECK",
+          "FRENCH",
+          "MAKE OUT",
+          "KISS"
+        ]
+      },
+      {
+        "label": "FIRST AID KIT ITEMS",
+        "level": 2,
+        "words": [
+          "TAPE",
+          "DRESSING",
+          "BANDAGE",
+          "SCISSORS"
+        ]
+      },
+      {
+        "label": "HOUSE STYLES",
+        "level": 3,
+        "words": [
+          "RANCH",
+          "COTTAGE",
+          "CRAFTSMAN",
+          "PRAIRIE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "BODY PARTS",
+        "level": 0,
+        "words": [
+          "HIP",
+          "EYE",
+          "LEG",
+          "ARM"
+        ]
+      },
+      {
+        "label": "COOL, IN ’80S SLANG",
+        "level": 1,
+        "words": [
+          "BAD",
+          "FLY",
+          "ILL",
+          "RAD"
+        ]
+      },
+      {
+        "label": "MOVIES",
+        "level": 2,
+        "words": [
+          "BIG",
+          "SAW",
+          "ELF",
+          "HER"
+        ]
+      },
+      {
+        "label": "WORDS IN “DO-RE-MI”",
+        "level": 3,
+        "words": [
+          "TEA",
+          "SEW",
+          "FAR",
+          "DOE"
+        ]
+      }
+    ]
+  }
+}

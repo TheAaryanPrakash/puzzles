@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "OFF-WHITE SHADES",
+        "level": 0,
+        "words": [
+          "CREAM",
+          "EGGSHELL",
+          "VANILLA",
+          "IVORY"
+        ]
+      },
+      {
+        "label": "ANTI-VAMPIRE",
+        "level": 1,
+        "words": [
+          "GARLIC",
+          "MIRROR",
+          "STAKE",
+          "CRUCIFIX"
+        ]
+      },
+      {
+        "label": "KINDS OF MEAT",
+        "level": 2,
+        "words": [
+          "PORK",
+          "BEEF",
+          "POULTRY",
+          "VENISON"
+        ]
+      },
+      {
+        "label": "SYNONYMS FOR ARGUMENT",
+        "level": 3,
+        "words": [
+          "ROW",
+          "SPAT",
+          "TIFF",
+          "QUARREL"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "CRAM",
+        "level": 0,
+        "words": [
+          "RAM",
+          "STUFF",
+          "PACK",
+          "JAM"
+        ]
+      },
+      {
+        "label": "RESTAURANT JOBS",
+        "level": 1,
+        "words": [
+          "DISHWASHER",
+          "SERVER",
+          "COOK",
+          "HOST"
+        ]
+      },
+      {
+        "label": "ELECTROMAGNETIC SPECTRUM",
+        "level": 2,
+        "words": [
+          "X-RAY",
+          "RADIO",
+          "MICROWAVE",
+          "VISIBLE"
+        ]
+      },
+      {
+        "label": "THINGS WITH BITS",
+        "level": 3,
+        "words": [
+          "BYTE",
+          "DRILL",
+          "COMEDIAN",
+          "BRIDLE"
+        ]
+      }
+    ]
+  }
+}

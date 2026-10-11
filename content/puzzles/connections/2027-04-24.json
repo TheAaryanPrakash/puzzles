@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "ANIMAL GROUP NAMES",
+        "level": 0,
+        "words": [
+          "SCHOOL",
+          "PACK",
+          "FLOCK",
+          "POD"
+        ]
+      },
+      {
+        "label": "DEADLY SINS",
+        "level": 1,
+        "words": [
+          "LUST",
+          "PRIDE",
+          "GREED",
+          "ENVY"
+        ]
+      },
+      {
+        "label": "SLOW ANIMALS",
+        "level": 2,
+        "words": [
+          "SLOTH",
+          "SNAIL",
+          "LORIS",
+          "TORTOISE"
+        ]
+      },
+      {
+        "label": "TRIG FUNCTIONS",
+        "level": 3,
+        "words": [
+          "TAN",
+          "SEC",
+          "COT",
+          "SIN"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "DISPLAY OF ROWS AND COLUMNS",
+        "level": 0,
+        "words": [
+          "TABLE",
+          "MATRIX",
+          "GRID",
+          "ARRAY"
+        ]
+      },
+      {
+        "label": "THINGS TO DO AT A WORK EVENT",
+        "level": 1,
+        "words": [
+          "CONVERSE",
+          "NETWORK",
+          "CIRCULATE",
+          "MINGLE"
+        ]
+      },
+      {
+        "label": "OLYMPIC EVENTS SINCE 2000",
+        "level": 2,
+        "words": [
+          "SURFING",
+          "BREAKING",
+          "TRAMPOLINE",
+          "TAEKWONDO"
+        ]
+      },
+      {
+        "label": "___ COURT",
+        "level": 3,
+        "words": [
+          "SUPREME",
+          "FOOD",
+          "KANGAROO",
+          "TENNIS"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "MANUFACTURING LOCATIONS",
+        "level": 0,
+        "words": [
+          "MILL",
+          "PLANT",
+          "SHOP",
+          "FACTORY"
+        ]
+      },
+      {
+        "label": "WIN + LETTER",
+        "level": 1,
+        "words": [
+          "WIND",
+          "WING",
+          "WINE",
+          "WINK"
+        ]
+      },
+      {
+        "label": "PARTS OF FRUIT YOU MIGHT NOT EAT",
+        "level": 2,
+        "words": [
+          "CORE",
+          "SEED",
+          "STEM",
+          "RIND"
+        ]
+      },
+      {
+        "label": "WEIGHTS IN BOXING",
+        "level": 3,
+        "words": [
+          "FEATHER",
+          "MIDDLE",
+          "LIGHT",
+          "HEAVY"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "FEELING SOME TYPE OF WAY",
+        "level": 0,
+        "words": [
+          "SALTY",
+          "BITTER",
+          "UPSET",
+          "SORE"
+        ]
+      },
+      {
+        "label": "THROW HERE AND THERE",
+        "level": 1,
+        "words": [
+          "PEPPER",
+          "SPRINKLE",
+          "SCATTER",
+          "STREW"
+        ]
+      },
+      {
+        "label": "THINGS WITH LAYERS",
+        "level": 2,
+        "words": [
+          "CAKE",
+          "ONION",
+          "EARTH",
+          "PLYWOOD"
+        ]
+      },
+      {
+        "label": "___ POTATO",
+        "level": 3,
+        "words": [
+          "BAKED",
+          "SWEET",
+          "COUCH",
+          "HOT"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "DESSERTS",
+        "level": 0,
+        "words": [
+          "MOUSSE",
+          "FLAN",
+          "TIRAMISU",
+          "CHEESECAKE"
+        ]
+      },
+      {
+        "label": "MILD OATHS",
+        "level": 1,
+        "words": [
+          "FUDGE",
+          "SHOOT",
+          "HECK",
+          "DARN"
+        ]
+      },
+      {
+        "label": "ANIMALS WITH TUSKS",
+        "level": 2,
+        "words": [
+          "ELEPHANT",
+          "NARWHAL",
+          "HIPPO",
+          "WARTHOG"
+        ]
+      },
+      {
+        "label": "MUSTACHES",
+        "level": 3,
+        "words": [
+          "WALRUS",
+          "HORSESHOE",
+          "PENCIL",
+          "HANDLEBAR"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "TYPES OF BAGS",
+        "level": 0,
+        "words": [
+          "MESSENGER",
+          "CLUTCH",
+          "TOTE",
+          "SATCHEL"
+        ]
+      },
+      {
+        "label": "WIGGLE ROOM",
+        "level": 1,
+        "words": [
+          "LICENSE",
+          "SLACK",
+          "FREEDOM",
+          "LATITUDE"
+        ]
+      },
+      {
+        "label": "INDICATION TO PROCEED",
+        "level": 2,
+        "words": [
+          "WORD",
+          "PROMPT",
+          "SIGNAL",
+          "CUE"
+        ]
+      },
+      {
+        "label": "UNDERWEAR IN THE SINGULAR",
+        "level": 3,
+        "words": [
+          "BRIEF",
+          "SHORT",
+          "DRAWER",
+          "BOXER"
+        ]
+      }
+    ]
+  }
+}

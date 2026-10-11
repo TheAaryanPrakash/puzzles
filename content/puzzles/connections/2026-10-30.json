@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "PULL USING FORCE",
+        "level": 0,
+        "words": [
+          "WRENCH",
+          "YANK",
+          "TEAR",
+          "RIP"
+        ]
+      },
+      {
+        "label": "BIT OF REPETITIVE TRAINING",
+        "level": 1,
+        "words": [
+          "DRILL",
+          "ROUTINE",
+          "EXERCISE",
+          "PRACTICE"
+        ]
+      },
+      {
+        "label": "U.S.-BASED AIRLINES",
+        "level": 2,
+        "words": [
+          "SPIRIT",
+          "AMERICAN",
+          "UNITED",
+          "FRONTIER"
+        ]
+      },
+      {
+        "label": "BEGINNING WITH DAY ABBREVIATIONS",
+        "level": 3,
+        "words": [
+          "WEDDING",
+          "FRIAR",
+          "SUNDRY",
+          "MONKEY"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "APPRECIATION",
+        "level": 0,
+        "words": [
+          "THANKS",
+          "PRAISE",
+          "CREDIT",
+          "RECOGNITION"
+        ]
+      },
+      {
+        "label": "FRAUDSTER",
+        "level": 1,
+        "words": [
+          "QUACK",
+          "CON",
+          "CHEAT",
+          "FAKE"
+        ]
+      },
+      {
+        "label": "EAT VORACIOUSLY",
+        "level": 2,
+        "words": [
+          "GOBBLE",
+          "BOLT",
+          "DOWN",
+          "SCARF"
+        ]
+      },
+      {
+        "label": "___ TUESDAY",
+        "level": 3,
+        "words": [
+          "GIVING",
+          "FAT",
+          "TACO",
+          "SUPER"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "BREAKFAST SIDES",
+        "level": 0,
+        "words": [
+          "BACON",
+          "TOAST",
+          "GRITS",
+          "HASH"
+        ]
+      },
+      {
+        "label": "PUSHES, AS A BUTTON",
+        "level": 1,
+        "words": [
+          "TAPS",
+          "PRESSES",
+          "HITS",
+          "CLICKS"
+        ]
+      },
+      {
+        "label": "THEY HAVE A HORN",
+        "level": 2,
+        "words": [
+          "UNICORN",
+          "CAR",
+          "BUGLER",
+          "AFRICA"
+        ]
+      },
+      {
+        "label": "OSCAR-WINNING ACTORS",
+        "level": 3,
+        "words": [
+          "IRONS",
+          "PHOENIX",
+          "BRIDGES",
+          "WASHINGTON"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "PURSUIT",
+        "level": 0,
+        "words": [
+          "HUNT",
+          "SEARCH",
+          "CHASE",
+          "QUEST"
+        ]
+      },
+      {
+        "label": "ROMANTIC LETTER SIGN-OFFS",
+        "level": 1,
+        "words": [
+          "KISSES",
+          "ALWAYS",
+          "YOURS",
+          "LOVE"
+        ]
+      },
+      {
+        "label": "GROUP WITHIN A GROUP",
+        "level": 2,
+        "words": [
+          "WING",
+          "PARTY",
+          "CAMP",
+          "SIDE"
+        ]
+      },
+      {
+        "label": "GOLD ___",
+        "level": 3,
+        "words": [
+          "BOND",
+          "RUSH",
+          "LEAF",
+          "MINE"
+        ]
+      }
+    ]
+  }
+}

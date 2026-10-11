@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "FABRICATION",
+        "level": 0,
+        "words": [
+          "INVENTION",
+          "FAIRY TALE",
+          "FICTION",
+          "FANTASY"
+        ]
+      },
+      {
+        "label": "WOO",
+        "level": 1,
+        "words": [
+          "COURT",
+          "ROMANCE",
+          "CHARM",
+          "PURSUE"
+        ]
+      },
+      {
+        "label": "CLASSIC ATARI GAMES",
+        "level": 2,
+        "words": [
+          "DEFENDER",
+          "ASTEROIDS",
+          "CENTIPEDE",
+          "BREAKOUT"
+        ]
+      },
+      {
+        "label": "THINGS FEATURING TAILS",
+        "level": 3,
+        "words": [
+          "COMETS",
+          "COIN TOSS",
+          "DRESS COAT",
+          "SONIC THE HEDGEHOG"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "SHOW THE WAY",
+        "level": 0,
+        "words": [
+          "USHER",
+          "LEAD",
+          "DIRECT",
+          "GUIDE"
+        ]
+      },
+      {
+        "label": "SCHEME",
+        "level": 1,
+        "words": [
+          "STING",
+          "RACKET",
+          "CON",
+          "HUSTLE"
+        ]
+      },
+      {
+        "label": "SEEN ON A U.S. DOLLAR BILL",
+        "level": 2,
+        "words": [
+          "PYRAMID",
+          "SEAL",
+          "WASHINGTON",
+          "EAGLE"
+        ]
+      },
+      {
+        "label": "FIRST WORDS OF CANADIAN PROVINCES/TERRITORIES",
+        "level": 3,
+        "words": [
+          "PRINCE",
+          "BRITISH",
+          "NOVA",
+          "NORTHWEST"
+        ]
+      }
+    ]
+  }
+}

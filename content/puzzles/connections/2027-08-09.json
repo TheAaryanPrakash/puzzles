@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "GARDENING NOUNS/VERBS",
+        "level": 0,
+        "words": [
+          "WEED",
+          "WATER",
+          "SEED",
+          "PLANT"
+        ]
+      },
+      {
+        "label": "KINDS OF SALADS",
+        "level": 1,
+        "words": [
+          "WEDGE",
+          "GREEN",
+          "GREEK",
+          "CAESAR"
+        ]
+      },
+      {
+        "label": "CLASSIC GAME SHOWS, FAMILIARLY",
+        "level": 2,
+        "words": [
+          "WHEEL",
+          "FEUD",
+          "PYRAMID",
+          "MILLIONAIRE"
+        ]
+      },
+      {
+        "label": "W + VOWEL SOUND",
+        "level": 3,
+        "words": [
+          "WAY",
+          "WEE",
+          "WHY",
+          "WHOA"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "BREADTH",
+        "level": 0,
+        "words": [
+          "RANGE",
+          "REACH",
+          "SCOPE",
+          "EXTENT"
+        ]
+      },
+      {
+        "label": "OTHER HALF",
+        "level": 1,
+        "words": [
+          "MATCH",
+          "MATE",
+          "COMPLEMENT",
+          "PARTNER"
+        ]
+      },
+      {
+        "label": "BEERS, FAMILIARLY",
+        "level": 2,
+        "words": [
+          "BUD",
+          "SIERRA",
+          "NATTY",
+          "STELLA"
+        ]
+      },
+      {
+        "label": "WORDS AFTER “PAY”",
+        "level": 3,
+        "words": [
+          "PHONE",
+          "DIRT",
+          "PAL",
+          "CHECK"
+        ]
+      }
+    ]
+  }
+}

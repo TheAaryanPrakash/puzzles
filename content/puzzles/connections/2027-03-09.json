@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "FOOLISHNESS",
+        "level": 0,
+        "words": [
+          "MADNESS",
+          "FOLLY",
+          "NONSENSE",
+          "ABSURDITY"
+        ]
+      },
+      {
+        "label": "MOVE FORWARD",
+        "level": 1,
+        "words": [
+          "MARCH",
+          "PUSH",
+          "PROGRESS",
+          "ADVANCE"
+        ]
+      },
+      {
+        "label": "THINGS THAT MIGHT STINK",
+        "level": 2,
+        "words": [
+          "FEET",
+          "CHEESE",
+          "GARBAGE",
+          "SKUNK"
+        ]
+      },
+      {
+        "label": "WORDS AFTER “DEEP”",
+        "level": 3,
+        "words": [
+          "FREEZE",
+          "SIX",
+          "FAKE",
+          "CUT"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "AFFLUENT",
+        "level": 0,
+        "words": [
+          "LOADED",
+          "FLUSH",
+          "RICH",
+          "WEALTHY"
+        ]
+      },
+      {
+        "label": "CUT INTO PIECES",
+        "level": 1,
+        "words": [
+          "DICE",
+          "CUBE",
+          "CHOP",
+          "MINCE"
+        ]
+      },
+      {
+        "label": "OLD-FASHIONED",
+        "level": 2,
+        "words": [
+          "SQUARE",
+          "STRAIGHT",
+          "STUFFY",
+          "TRADITIONAL"
+        ]
+      },
+      {
+        "label": "FRUIT HOMOPHONES",
+        "level": 3,
+        "words": [
+          "PAIR",
+          "BURY",
+          "CURRENT",
+          "LEACHY"
+        ]
+      }
+    ]
+  }
+}

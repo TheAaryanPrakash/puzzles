@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "SEEN IN A LAUNDRY ROOM",
+        "level": 0,
+        "words": [
+          "HAMPER",
+          "IRON",
+          "DRYER",
+          "WASHER"
+        ]
+      },
+      {
+        "label": "SHEPHERD",
+        "level": 1,
+        "words": [
+          "LEAD",
+          "DIRECT",
+          "GUIDE",
+          "STEER"
+        ]
+      },
+      {
+        "label": "WHAT “I” MIGHT MEAN",
+        "level": 2,
+        "words": [
+          "MYSELF",
+          "ONE",
+          "IODINE",
+          "IOTA"
+        ]
+      },
+      {
+        "label": "___ VALLEY",
+        "level": 3,
+        "words": [
+          "HIDDEN",
+          "SILICON",
+          "UNCANNY",
+          "DEATH"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "DEJECTED",
+        "level": 0,
+        "words": [
+          "SORRY",
+          "BLUE",
+          "DOWN",
+          "HANGDOG"
+        ]
+      },
+      {
+        "label": "BIRDS THAT ARE VERBS",
+        "level": 1,
+        "words": [
+          "SWALLOW",
+          "HAWK",
+          "DUCK",
+          "GROUSE"
+        ]
+      },
+      {
+        "label": "TV COMEDY FAMILIES",
+        "level": 2,
+        "words": [
+          "MUNSTER",
+          "PARTRIDGE",
+          "GRIFFIN",
+          "PICKLES"
+        ]
+      },
+      {
+        "label": "WORDS AFTER “K”",
+        "level": 3,
+        "words": [
+          "SWISS",
+          "STREET",
+          "MART",
+          "POP"
+        ]
+      }
+    ]
+  }
+}

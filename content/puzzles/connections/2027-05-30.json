@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "VENDOR’S SPOT AT A MARKET",
+        "level": 0,
+        "words": [
+          "TABLE",
+          "STAND",
+          "STALL",
+          "BOOTH"
+        ]
+      },
+      {
+        "label": "DOG COMMANDS",
+        "level": 1,
+        "words": [
+          "SIT",
+          "STAY",
+          "COME",
+          "HEEL"
+        ]
+      },
+      {
+        "label": "CORPORATE DEPARTMENTS",
+        "level": 2,
+        "words": [
+          "FINANCE",
+          "IT",
+          "LEGAL",
+          "SALES"
+        ]
+      },
+      {
+        "label": "LAST WORDS IN “AMERICA THE BEAUTIFUL”",
+        "level": 3,
+        "words": [
+          "SHINING",
+          "TO",
+          "SEA",
+          "FROM"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "AT SOME FUTURE POINT",
+        "level": 0,
+        "words": [
+          "LATER",
+          "NEXT",
+          "SOON",
+          "EVENTUALLY"
+        ]
+      },
+      {
+        "label": "PARTS OF A TOURNAMENT SETUP",
+        "level": 1,
+        "words": [
+          "ROUND",
+          "BYE",
+          "BRACKET",
+          "SEED"
+        ]
+      },
+      {
+        "label": "BIT OF BREAKFAST CEREAL",
+        "level": 2,
+        "words": [
+          "PEBBLE",
+          "CHEERIO",
+          "FLAKE",
+          "PUFF"
+        ]
+      },
+      {
+        "label": "WHAT THE OUTSTRETCHED INDEX AND MIDDLE FINGERS CAN REPRESENT",
+        "level": 3,
+        "words": [
+          "PEACE",
+          "SCISSORS",
+          "VICTORY",
+          "TWO"
+        ]
+      }
+    ]
+  }
+}

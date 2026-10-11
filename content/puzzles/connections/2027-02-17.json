@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "CORPUS",
+        "level": 0,
+        "words": [
+          "BODY",
+          "CANON",
+          "WORKS",
+          "OEUVRE"
+        ]
+      },
+      {
+        "label": "MOUNT ___",
+        "level": 1,
+        "words": [
+          "HOOD",
+          "FUJI",
+          "OLYMPUS",
+          "WHITNEY"
+        ]
+      },
+      {
+        "label": "COMPONENTS OF AN LP",
+        "level": 2,
+        "words": [
+          "JACKET",
+          "SLEEVE",
+          "INSERT",
+          "RECORD"
+        ]
+      },
+      {
+        "label": "THINGS PEOPLE SHAKE",
+        "level": 3,
+        "words": [
+          "MARACA",
+          "HANDS",
+          "POLAROID",
+          "SNOWGLOBE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "SLANG FOR HEAD",
+        "level": 0,
+        "words": [
+          "CROWN",
+          "DOME",
+          "COCONUT",
+          "SKULL"
+        ]
+      },
+      {
+        "label": "PALINDROMES",
+        "level": 1,
+        "words": [
+          "STATS",
+          "NUN",
+          "ABBA",
+          "KAYAK"
+        ]
+      },
+      {
+        "label": "POLICE PROCEDURALS",
+        "level": 2,
+        "words": [
+          "ELEMENTARY",
+          "MONK",
+          "BONES",
+          "KOJAK"
+        ]
+      },
+      {
+        "label": "FIRST IN A COMEDY DUO",
+        "level": 3,
+        "words": [
+          "ABBOTT",
+          "KEY",
+          "LAUREL",
+          "FRY"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "HALLOWEEN DECORATIONS",
+        "level": 0,
+        "words": [
+          "BAT",
+          "TOMBSTONE",
+          "PUMPKIN",
+          "COBWEB"
+        ]
+      },
+      {
+        "label": "TV SHOWS",
+        "level": 1,
+        "words": [
+          "24",
+          "BONES",
+          "FIREFLY",
+          "WEEDS"
+        ]
+      },
+      {
+        "label": "SLOT MACHINE SYMBOLS",
+        "level": 2,
+        "words": [
+          "BELL",
+          "7",
+          "CHERRY",
+          "BAR"
+        ]
+      },
+      {
+        "label": "NUMBERS IN BOOK TITLES",
+        "level": 3,
+        "words": [
+          "2001",
+          "22",
+          "20,000",
+          "451"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "BRIEF MOMENT",
+        "level": 0,
+        "words": [
+          "FLASH",
+          "WINK",
+          "HEARTBEAT",
+          "JIFF"
+        ]
+      },
+      {
+        "label": "DISPUTE",
+        "level": 1,
+        "words": [
+          "CLASH",
+          "TIFF",
+          "SCRAP",
+          "TANGLE"
+        ]
+      },
+      {
+        "label": "SLANG FOR ZERO",
+        "level": 2,
+        "words": [
+          "ZIP",
+          "LOVE",
+          "SQUAT",
+          "JACK"
+        ]
+      },
+      {
+        "label": "ACCESSORIES FOR MR. PEANUT",
+        "level": 3,
+        "words": [
+          "SPAT",
+          "CANE",
+          "MONOCLE",
+          "TOP HAT"
+        ]
+      }
+    ]
+  }
+}

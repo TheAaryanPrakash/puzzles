@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "WET WEATHER",
+        "level": 0,
+        "words": [
+          "SNOW",
+          "HAIL",
+          "RAIN",
+          "SLEET"
+        ]
+      },
+      {
+        "label": "NBA TEAMS",
+        "level": 1,
+        "words": [
+          "HEAT",
+          "BUCKS",
+          "JAZZ",
+          "NETS"
+        ]
+      },
+      {
+        "label": "KEYBOARD KEYS",
+        "level": 2,
+        "words": [
+          "SHIFT",
+          "TAB",
+          "RETURN",
+          "OPTION"
+        ]
+      },
+      {
+        "label": "PALINDROMES",
+        "level": 3,
+        "words": [
+          "LEVEL",
+          "KAYAK",
+          "RACECAR",
+          "MOM"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "RHYMES",
+        "level": 0,
+        "words": [
+          "AARON",
+          "KAREN",
+          "SHARON",
+          "DARREN"
+        ]
+      },
+      {
+        "label": "NATURAL FEATURES",
+        "level": 1,
+        "words": [
+          "DALE",
+          "CLIFF",
+          "BROOK",
+          "SAVANNA"
+        ]
+      },
+      {
+        "label": "IRREGULAR VERBS",
+        "level": 2,
+        "words": [
+          "ROSE",
+          "MAY",
+          "WILL",
+          "DREW"
+        ]
+      },
+      {
+        "label": "PALINDROMES",
+        "level": 3,
+        "words": [
+          "HANNAH",
+          "NATAN",
+          "EVE",
+          "OTTO"
+        ]
+      }
+    ]
+  }
+}

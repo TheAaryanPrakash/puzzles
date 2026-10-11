@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "FRANKFURTER",
+        "level": 0,
+        "words": [
+          "BANGER",
+          "LINK",
+          "BRAT",
+          "SAUSAGE"
+        ]
+      },
+      {
+        "label": "STRIKE",
+        "level": 1,
+        "words": [
+          "HIT",
+          "BOP",
+          "TAP",
+          "KNOCK"
+        ]
+      },
+      {
+        "label": "WEB BROWSERS",
+        "level": 2,
+        "words": [
+          "OPERA",
+          "EDGE",
+          "SAFARI",
+          "CHROME"
+        ]
+      },
+      {
+        "label": "ENDING WITH BEER BRANDS",
+        "level": 3,
+        "words": [
+          "ROSEBUD",
+          "PEPPERONI",
+          "CONTRABASS",
+          "AUTOHARP"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "EAT A LITTLE",
+        "level": 0,
+        "words": [
+          "SNACK",
+          "PECK",
+          "NIBBLE",
+          "GRAZE"
+        ]
+      },
+      {
+        "label": "PURSUE",
+        "level": 1,
+        "words": [
+          "STALK",
+          "HUNT",
+          "TRACK",
+          "TRAIL"
+        ]
+      },
+      {
+        "label": "INGREDIENTS IN MINESTRONE",
+        "level": 2,
+        "words": [
+          "STOCK",
+          "BEANS",
+          "PASTA",
+          "VEGETABLES"
+        ]
+      },
+      {
+        "label": "___CAST",
+        "level": 3,
+        "words": [
+          "POD",
+          "TYPE",
+          "BROAD",
+          "FORE"
+        ]
+      }
+    ]
+  }
+}

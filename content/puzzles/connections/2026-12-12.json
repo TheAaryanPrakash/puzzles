@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "REPLACEMENT",
+        "level": 0,
+        "words": [
+          "EXTRA",
+          "COPY",
+          "BACKUP",
+          "SPARE"
+        ]
+      },
+      {
+        "label": "BOWLING",
+        "level": 1,
+        "words": [
+          "BALL",
+          "PIN",
+          "ALLEY",
+          "LANE"
+        ]
+      },
+      {
+        "label": "COMMON SWAG ITEMS",
+        "level": 2,
+        "words": [
+          "MUG",
+          "TEE",
+          "PEN",
+          "TOTE"
+        ]
+      },
+      {
+        "label": "NUMBER HOMOPHONES",
+        "level": 3,
+        "words": [
+          "WON",
+          "TOO",
+          "ATE",
+          "FOR"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "UPDATE FOR ACCURACY",
+        "level": 0,
+        "words": [
+          "CORRECT",
+          "AMEND",
+          "FIX",
+          "REVISE"
+        ]
+      },
+      {
+        "label": "QUARREL",
+        "level": 1,
+        "words": [
+          "ROW",
+          "FIGHT",
+          "TIFF",
+          "SCRAP"
+        ]
+      },
+      {
+        "label": "GAMES OF CHANCE",
+        "level": 2,
+        "words": [
+          "BINGO",
+          "ROULETTE",
+          "LOTTERY",
+          "WAR"
+        ]
+      },
+      {
+        "label": "___ CHIP",
+        "level": 3,
+        "words": [
+          "COMPUTER",
+          "BLUE",
+          "POTATO",
+          "POKER"
+        ]
+      }
+    ]
+  }
+}

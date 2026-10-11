@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "MUNICIPALITIES",
+        "level": 0,
+        "words": [
+          "CITY",
+          "TOWN",
+          "VILLAGE",
+          "COUNTY"
+        ]
+      },
+      {
+        "label": "BLENDER BUTTONS",
+        "level": 1,
+        "words": [
+          "PULSE",
+          "GRIND",
+          "CHOP",
+          "PUREE"
+        ]
+      },
+      {
+        "label": "FINANCIAL TERMS",
+        "level": 2,
+        "words": [
+          "CAPITAL",
+          "EQUITY",
+          "INTEREST",
+          "STOCK"
+        ]
+      },
+      {
+        "label": "___ LEAGUE",
+        "level": 3,
+        "words": [
+          "JUSTICE",
+          "IVY",
+          "LITTLE",
+          "PREMIER"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "FLABBERGAST",
+        "level": 0,
+        "words": [
+          "SURPRISE",
+          "ROCK",
+          "FLOOR",
+          "SHOCK"
+        ]
+      },
+      {
+        "label": "BIT OF JOURNALISM",
+        "level": 1,
+        "words": [
+          "STORY",
+          "FEATURE",
+          "REPORT",
+          "ARTICLE"
+        ]
+      },
+      {
+        "label": "ON THE SAME PLANE",
+        "level": 2,
+        "words": [
+          "LEVEL",
+          "FLAT",
+          "FLUSH",
+          "EVEN"
+        ]
+      },
+      {
+        "label": "THEATER SECTIONS",
+        "level": 3,
+        "words": [
+          "BOX",
+          "STAGE",
+          "ORCHESTRA",
+          "BALCONY"
+        ]
+      }
+    ]
+  }
+}

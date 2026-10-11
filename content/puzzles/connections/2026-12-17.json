@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "LUNCH ORDERS",
+        "level": 0,
+        "words": [
+          "CLUB",
+          "HERO",
+          "WRAP",
+          "MELT"
+        ]
+      },
+      {
+        "label": "USED TO MAKE COFFEE",
+        "level": 1,
+        "words": [
+          "GRINDER",
+          "WATER",
+          "BEANS",
+          "FILTER"
+        ]
+      },
+      {
+        "label": "PAY, WITH “UP”",
+        "level": 2,
+        "words": [
+          "PONY",
+          "ANTE",
+          "SETTLE",
+          "COUGH"
+        ]
+      },
+      {
+        "label": "NAMES FEATURING \"!\"",
+        "level": 3,
+        "words": [
+          "PINK",
+          "AIRPLANE",
+          "JEOPARDY",
+          "YAHOO"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "BOARD GAMES",
+        "level": 0,
+        "words": [
+          "CHESS",
+          "GO",
+          "CHECKERS",
+          "BACKGAMMON"
+        ]
+      },
+      {
+        "label": "MATTRESS SIZES",
+        "level": 1,
+        "words": [
+          "KING",
+          "TWIN",
+          "QUEEN",
+          "FULL"
+        ]
+      },
+      {
+        "label": "THINGS THAT ARE RED",
+        "level": 2,
+        "words": [
+          "FIRE TRUCK",
+          "RUBY",
+          "CHERRY",
+          "STOP SIGN"
+        ]
+      },
+      {
+        "label": "THINGS WITH KEYS",
+        "level": 3,
+        "words": [
+          "LOCKSMITH",
+          "PIANO",
+          "FLORIDA",
+          "CRYPTOGRAPHY"
+        ]
+      }
+    ]
+  }
+}

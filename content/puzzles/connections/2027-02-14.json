@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "YELLOW-BROWN SHADES",
+        "level": 0,
+        "words": [
+          "CAMEL",
+          "BEIGE",
+          "TAN",
+          "KHAKI"
+        ]
+      },
+      {
+        "label": "FAIL TO ATTEND",
+        "level": 1,
+        "words": [
+          "SKIP",
+          "CUT",
+          "DITCH",
+          "MISS"
+        ]
+      },
+      {
+        "label": "DECISIVE VICTORY",
+        "level": 2,
+        "words": [
+          "ROMP",
+          "BLOWOUT",
+          "SWEEP",
+          "ROUT"
+        ]
+      },
+      {
+        "label": "___ WHEEL",
+        "level": 3,
+        "words": [
+          "COLOR",
+          "HAMSTER",
+          "CHEESE",
+          "PRAYER"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "CLUNKER",
+        "level": 0,
+        "words": [
+          "FLOP",
+          "MISS",
+          "BUST",
+          "DUD"
+        ]
+      },
+      {
+        "label": "OPPORTUNITY",
+        "level": 1,
+        "words": [
+          "TURN",
+          "TIME",
+          "CHANCE",
+          "SHOT"
+        ]
+      },
+      {
+        "label": "NON-CASH WAY TO PAY",
+        "level": 2,
+        "words": [
+          "CHARGE",
+          "PLASTIC",
+          "CARD",
+          "CREDIT"
+        ]
+      },
+      {
+        "label": "AMAZON ___",
+        "level": 3,
+        "words": [
+          "RIVER",
+          "PRIME",
+          "RAINFOREST",
+          "KINDLE"
+        ]
+      }
+    ]
+  }
+}

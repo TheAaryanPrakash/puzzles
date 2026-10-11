@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "COOK IN A PAN",
+        "level": 0,
+        "words": [
+          "GRILL",
+          "BROWN",
+          "CHAR",
+          "SEAR"
+        ]
+      },
+      {
+        "label": "PARTS OF THE EAR",
+        "level": 1,
+        "words": [
+          "HAMMER",
+          "DRUM",
+          "ANVIL",
+          "CANAL"
+        ]
+      },
+      {
+        "label": "SHADES OF BLACK",
+        "level": 2,
+        "words": [
+          "CHARCOAL",
+          "RAVEN",
+          "JET",
+          "SABLE"
+        ]
+      },
+      {
+        "label": "WHERE YOU MIGHT FIND “A DRIVER”",
+        "level": 3,
+        "words": [
+          "GOLF BAG",
+          "TOOLBOX",
+          "LIMOUSINE",
+          "MOVIE SET"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "BEANS",
+        "level": 0,
+        "words": [
+          "LIMA",
+          "PINTO",
+          "KIDNEY",
+          "FAVA"
+        ]
+      },
+      {
+        "label": "CITIES BEGINNING WITH “L”",
+        "level": 1,
+        "words": [
+          "LIMERICK",
+          "LINCOLN",
+          "LAGOS",
+          "LUXOR"
+        ]
+      },
+      {
+        "label": "POETRY TERMS",
+        "level": 2,
+        "words": [
+          "LINE",
+          "VERSE",
+          "RHYME",
+          "METER"
+        ]
+      },
+      {
+        "label": "“THE(E) ___” RAPPERS",
+        "level": 3,
+        "words": [
+          "CREATOR",
+          "RAPPER",
+          "STALLION",
+          "DUDE"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "CAMPING SUPPLIES",
+        "level": 0,
+        "words": [
+          "COOLER",
+          "TENT",
+          "LANTERN",
+          "SLEEPING BAG"
+        ]
+      },
+      {
+        "label": "INSULT",
+        "level": 1,
+        "words": [
+          "DIG",
+          "BARB",
+          "JAB",
+          "DISS"
+        ]
+      },
+      {
+        "label": "TINY",
+        "level": 2,
+        "words": [
+          "MINUTE",
+          "SLIGHT",
+          "SMALL",
+          "WEE"
+        ]
+      },
+      {
+        "label": "HAPPY ___",
+        "level": 3,
+        "words": [
+          "MEAL",
+          "HOUR",
+          "MEDIUM",
+          "CAMPER"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "MUSIC GENRES",
+        "level": 0,
+        "words": [
+          "FOLK",
+          "ROCK",
+          "COUNTRY",
+          "BLUES"
+        ]
+      },
+      {
+        "label": "BRATWURST GO-WITHS",
+        "level": 1,
+        "words": [
+          "BUN",
+          "MUSTARD",
+          "SAUERKRAUT",
+          "BRAT"
+        ]
+      },
+      {
+        "label": "YOGA POSES",
+        "level": 2,
+        "words": [
+          "WARRIOR",
+          "TREE",
+          "CHAIR",
+          "MOUNTAIN"
+        ]
+      },
+      {
+        "label": "STARTING WITH PIXAR MOVIES",
+        "level": 3,
+        "words": [
+          "COCONUT",
+          "SOULMATE",
+          "UPDO",
+          "WALLET"
+        ]
+      }
+    ]
+  }
+}

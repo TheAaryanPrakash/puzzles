@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "GRASSY AREA",
+        "level": 0,
+        "words": [
+          "PARK",
+          "YARD",
+          "GREEN",
+          "LAWN"
+        ]
+      },
+      {
+        "label": "DEAL WITH",
+        "level": 1,
+        "words": [
+          "ADDRESS",
+          "FIELD",
+          "HANDLE",
+          "ANSWER"
+        ]
+      },
+      {
+        "label": "MOVIES WITH “S” REMOVED",
+        "level": 2,
+        "words": [
+          "CAR",
+          "JAW",
+          "SWINGER",
+          "GOODFELLA"
+        ]
+      },
+      {
+        "label": "___ LAW",
+        "level": 3,
+        "words": [
+          "HARVARD",
+          "LEMON",
+          "NATURAL",
+          "CRIMINAL"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "EXERCISES",
+        "level": 0,
+        "words": [
+          "BRIDGE",
+          "CRUNCH",
+          "SQUAT",
+          "DIP"
+        ]
+      },
+      {
+        "label": "FEATURED IN WESTERNS",
+        "level": 1,
+        "words": [
+          "COWBOY",
+          "BOUNTY",
+          "DUEL",
+          "SALOON"
+        ]
+      },
+      {
+        "label": "LEADERS WHO RECEIVED THE NOBEL PEACE PRIZE",
+        "level": 2,
+        "words": [
+          "CARTER",
+          "KING",
+          "TUTU",
+          "GORE"
+        ]
+      },
+      {
+        "label": "___ BEE",
+        "level": 3,
+        "words": [
+          "QUEEN",
+          "HONEY",
+          "BUSY",
+          "SPELLING"
+        ]
+      }
+    ]
+  }
+}

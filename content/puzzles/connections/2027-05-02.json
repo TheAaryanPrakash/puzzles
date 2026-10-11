@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "STEAK CUTS",
+        "level": 0,
+        "words": [
+          "HANGER",
+          "T-BONE",
+          "SKIRT",
+          "FILET"
+        ]
+      },
+      {
+        "label": "KINDS OF UNDERWEAR",
+        "level": 1,
+        "words": [
+          "BIKINI",
+          "G-STRING",
+          "HIPSTER",
+          "THONG"
+        ]
+      },
+      {
+        "label": "INVOLVED IN A DENTIST VISIT",
+        "level": 2,
+        "words": [
+          "X-RAY",
+          "TOOTHBRUSH",
+          "DRILL",
+          "SINK"
+        ]
+      },
+      {
+        "label": "BRANDS THAT HAVE BECOME GENERIC TERMS",
+        "level": 3,
+        "words": [
+          "JACUZZI",
+          "Q-TIP",
+          "CHAPSTICK",
+          "XEROX"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "LARGE AMOUNT",
+        "level": 0,
+        "words": [
+          "SEA",
+          "TON",
+          "MASS",
+          "SLEW"
+        ]
+      },
+      {
+        "label": "FALL IN UNDER PRESSURE",
+        "level": 1,
+        "words": [
+          "CAVE",
+          "BUCKLE",
+          "GIVE",
+          "COLLAPSE"
+        ]
+      },
+      {
+        "label": "WAYS TO GET ATTENTION",
+        "level": 2,
+        "words": [
+          "WAVE",
+          "SNAP",
+          "WHISTLE",
+          "SHOUT"
+        ]
+      },
+      {
+        "label": "BELLY ___",
+        "level": 3,
+        "words": [
+          "DANCE",
+          "FLOP",
+          "BUTTON",
+          "LAUGH"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "OFF-TOPIC REMARKS",
+        "level": 0,
+        "words": [
+          "DETOUR",
+          "TANGENT",
+          "DIGRESSION",
+          "ASIDE"
+        ]
+      },
+      {
+        "label": "CREATE, AS RESULTS",
+        "level": 1,
+        "words": [
+          "BEAR",
+          "YIELD",
+          "GENERATE",
+          "PRODUCE"
+        ]
+      },
+      {
+        "label": "HOTTIE",
+        "level": 2,
+        "words": [
+          "FOX",
+          "SNACK",
+          "TEN",
+          "BABE"
+        ]
+      },
+      {
+        "label": "WORDS REPRESENTED BY THE LETTER \"R\"",
+        "level": 3,
+        "words": [
+          "RADIUS",
+          "REVERSE",
+          "RIGHT",
+          "ARE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "TACO TOPPINGS",
+        "level": 0,
+        "words": [
+          "LIME",
+          "SALSA",
+          "ONION",
+          "CILANTRO"
+        ]
+      },
+      {
+        "label": "METRIC PREFIXES",
+        "level": 1,
+        "words": [
+          "PICO",
+          "MICRO",
+          "MEGA",
+          "KILO"
+        ]
+      },
+      {
+        "label": "KINDS OF SKIRTS",
+        "level": 2,
+        "words": [
+          "MINI",
+          "POODLE",
+          "PENCIL",
+          "WRAP"
+        ]
+      },
+      {
+        "label": "WORDS WITH “HILL”",
+        "level": 3,
+        "words": [
+          "FAITH",
+          "MOLE",
+          "FOOT",
+          "CAPITOL"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "ARACHNIDS",
+        "level": 0,
+        "words": [
+          "TICK",
+          "SCORPION",
+          "MITE",
+          "SPIDER"
+        ]
+      },
+      {
+        "label": "FISH",
+        "level": 1,
+        "words": [
+          "CHAR",
+          "EEL",
+          "PERCH",
+          "SHARK"
+        ]
+      },
+      {
+        "label": "SUPERHEROES",
+        "level": 2,
+        "words": [
+          "BLADE",
+          "STORM",
+          "FLASH",
+          "BLACK WIDOW"
+        ]
+      },
+      {
+        "label": "MTV SHOWS",
+        "level": 3,
+        "words": [
+          "CATFISH",
+          "STATE",
+          "JACKASS",
+          "CRIBS"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "COMPLAIN",
+        "level": 0,
+        "words": [
+          "CRAB",
+          "BELLYACHE",
+          "CARP",
+          "GRUMBLE"
+        ]
+      },
+      {
+        "label": "VEGETABLE UNITS",
+        "level": 1,
+        "words": [
+          "CLOVE",
+          "SPEAR",
+          "STALK",
+          "FLORET"
+        ]
+      },
+      {
+        "label": "LAPTOP SPECS",
+        "level": 2,
+        "words": [
+          "RAM",
+          "SPEED",
+          "STORAGE",
+          "RESOLUTION"
+        ]
+      },
+      {
+        "label": "FEATURES OF JUSTICE PERSONIFIED",
+        "level": 3,
+        "words": [
+          "ROBE",
+          "SWORD",
+          "SCALES",
+          "BLINDFOLD"
+        ]
+      }
+    ]
+  }
+}

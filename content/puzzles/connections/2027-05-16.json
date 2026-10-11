@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "CANDY BARS",
+        "level": 0,
+        "words": [
+          "MILKY WAY",
+          "BOUNTY",
+          "CRUNCH",
+          "HEATH"
+        ]
+      },
+      {
+        "label": "VIDEO GAME CONSOLES",
+        "level": 1,
+        "words": [
+          "GENESIS",
+          "SWITCH",
+          "WII",
+          "DREAMCAST"
+        ]
+      },
+      {
+        "label": "EAR PARTS",
+        "level": 2,
+        "words": [
+          "HAMMER",
+          "ANVIL",
+          "STIRRUP",
+          "COCHLEA"
+        ]
+      },
+      {
+        "label": "BAND NAMES MINUS NUMBERS",
+        "level": 3,
+        "words": [
+          "SUM",
+          "MAROON",
+          "U",
+          "BLINK"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "TRIO OF SPORTS ACHIEVEMENTS",
+        "level": 0,
+        "words": [
+          "HAT TRICK",
+          "TRIPLE CROWN",
+          "TRIFECTA",
+          "THREEPEAT"
+        ]
+      },
+      {
+        "label": "NEEDS FOR PAINTING A ROOM",
+        "level": 1,
+        "words": [
+          "PAINT",
+          "DROP CLOTH",
+          "ROLLER",
+          "TAPE"
+        ]
+      },
+      {
+        "label": "FOOD NAMED AFTER CITIES",
+        "level": 2,
+        "words": [
+          "BROIL",
+          "WINGS",
+          "SPROUTS",
+          "CHEESESTEAK"
+        ]
+      },
+      {
+        "label": "___ DERBY",
+        "level": 3,
+        "words": [
+          "HOME RUN",
+          "SOAP BOX",
+          "KENTUCKY",
+          "DEMOLITION"
+        ]
+      }
+    ]
+  }
+}

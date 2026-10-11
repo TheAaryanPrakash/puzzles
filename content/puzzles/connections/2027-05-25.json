@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "RUB TOGETHER",
+        "level": 0,
+        "words": [
+          "GRATE",
+          "SCRAPE",
+          "GRIND",
+          "GNASH"
+        ]
+      },
+      {
+        "label": "WAYS TO PRESERVE FOOD",
+        "level": 1,
+        "words": [
+          "PICKLE",
+          "CAN",
+          "FERMENT",
+          "FREEZE"
+        ]
+      },
+      {
+        "label": "BREAKFAST CONDIMENTS",
+        "level": 2,
+        "words": [
+          "JAM",
+          "BUTTER",
+          "SYRUP",
+          "HOT SAUCE"
+        ]
+      },
+      {
+        "label": "PROVERBIAL THINGS THAT ARE SPILLED",
+        "level": 3,
+        "words": [
+          "MILK",
+          "TEA",
+          "BEANS",
+          "GUTS"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "WOODWINDS",
+        "level": 0,
+        "words": [
+          "FLUTE",
+          "CLARINET",
+          "BASSOON",
+          "OBOE"
+        ]
+      },
+      {
+        "label": "COVERINGS",
+        "level": 1,
+        "words": [
+          "LID",
+          "TOP",
+          "COVER",
+          "CAP"
+        ]
+      },
+      {
+        "label": "SUNGLASSES",
+        "level": 2,
+        "words": [
+          "AVIATOR",
+          "CAT EYE",
+          "WAYFARER",
+          "WRAPAROUND"
+        ]
+      },
+      {
+        "label": "SEALS",
+        "level": 3,
+        "words": [
+          "MONK",
+          "HARBOR",
+          "HARP",
+          "HOODED"
+        ]
+      }
+    ]
+  }
+}

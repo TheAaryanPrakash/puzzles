@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "CELL PHONE MODES",
+        "level": 0,
+        "words": [
+          "RING",
+          "FOCUS",
+          "VIBRATE",
+          "SILENT"
+        ]
+      },
+      {
+        "label": "IMPEL",
+        "level": 1,
+        "words": [
+          "SPUR",
+          "MOTIVATE",
+          "DRIVE",
+          "INSPIRE"
+        ]
+      },
+      {
+        "label": "ROMANTIC BEGINNINGS",
+        "level": 2,
+        "words": [
+          "FEELINGS",
+          "SPARK",
+          "VIBE",
+          "CONNECTION"
+        ]
+      },
+      {
+        "label": "HARD ___",
+        "level": 3,
+        "words": [
+          "CANDY",
+          "COPY",
+          "SELTZER",
+          "KNOCKS"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "PARTS OF A CAR",
+        "level": 0,
+        "words": [
+          "HOOD",
+          "TRUNK",
+          "TIRE",
+          "BUMPER"
+        ]
+      },
+      {
+        "label": "MOVE QUICKLY",
+        "level": 1,
+        "words": [
+          "ZIP",
+          "DASH",
+          "DART",
+          "BOLT"
+        ]
+      },
+      {
+        "label": "BIRDS",
+        "level": 2,
+        "words": [
+          "SWIFT",
+          "CARDINAL",
+          "LARK",
+          "JAY"
+        ]
+      },
+      {
+        "label": "JAZZ LEGENDS",
+        "level": 3,
+        "words": [
+          "HOLIDAY",
+          "MONK",
+          "PARKER",
+          "HANCOCK"
+        ]
+      }
+    ]
+  }
+}

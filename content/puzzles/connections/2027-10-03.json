@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "RUSH OF WIND",
+        "level": 0,
+        "words": [
+          "BLOW",
+          "DRAFT",
+          "PUFF",
+          "GUST"
+        ]
+      },
+      {
+        "label": "ROTATE",
+        "level": 1,
+        "words": [
+          "CRANK",
+          "WIND",
+          "REEL",
+          "TURN"
+        ]
+      },
+      {
+        "label": "ZODIAC SYMBOLS",
+        "level": 2,
+        "words": [
+          "LION",
+          "CRAB",
+          "RAM",
+          "BULL"
+        ]
+      },
+      {
+        "label": "DR. SEUSS TITLE FIGURES",
+        "level": 3,
+        "words": [
+          "CAT",
+          "POP",
+          "GRINCH",
+          "TURTLE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "NEVERTHELESS",
+        "level": 0,
+        "words": [
+          "YET",
+          "STILL",
+          "HOWEVER",
+          "THOUGH"
+        ]
+      },
+      {
+        "label": "REPEATED WORDS IN EXPRESSIONS",
+        "level": 1,
+        "words": [
+          "THERE",
+          "TUT",
+          "KNOCK",
+          "HEAR"
+        ]
+      },
+      {
+        "label": "WORDS ABBREVIATED WITH LETTERS",
+        "level": 2,
+        "words": [
+          "ARE",
+          "YOU",
+          "SEE",
+          "WHY"
+        ]
+      },
+      {
+        "label": "ROYAL ___",
+        "level": 3,
+        "words": [
+          "WE",
+          "JELLY",
+          "FAMILY",
+          "FLUSH"
+        ]
+      }
+    ]
+  }
+}

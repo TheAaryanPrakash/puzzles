@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "CONNECT",
+        "level": 0,
+        "words": [
+          "COUPLE",
+          "JOIN",
+          "TIE",
+          "LINK"
+        ]
+      },
+      {
+        "label": "NUISANCE",
+        "level": 1,
+        "words": [
+          "HANDFUL",
+          "BOTHER",
+          "PAIN",
+          "PEST"
+        ]
+      },
+      {
+        "label": "QUANTITY WORDS",
+        "level": 2,
+        "words": [
+          "SOME",
+          "MANY",
+          "FEW",
+          "SEVERAL"
+        ]
+      },
+      {
+        "label": "TAROT CARDS, WITH “THE”",
+        "level": 3,
+        "words": [
+          "LOVERS",
+          "FOOL",
+          "MAGICIAN",
+          "TOWER"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "REALM OF EXPERTISE",
+        "level": 0,
+        "words": [
+          "FIELD",
+          "SPHERE",
+          "DOMAIN",
+          "AREA"
+        ]
+      },
+      {
+        "label": "MUSICAL INSTRUMENTS",
+        "level": 1,
+        "words": [
+          "HORN",
+          "RECORDER",
+          "TRIANGLE",
+          "FIDDLE"
+        ]
+      },
+      {
+        "label": "USED TO REDIRECT TRAFFIC",
+        "level": 2,
+        "words": [
+          "CONE",
+          "FLAG",
+          "FLARE",
+          "BARRIER"
+        ]
+      },
+      {
+        "label": "FOOD ___",
+        "level": 3,
+        "words": [
+          "PYRAMID",
+          "CHAIN",
+          "FIGHT",
+          "PROCESSOR"
+        ]
+      }
+    ]
+  }
+}

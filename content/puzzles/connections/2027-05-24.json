@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "INFORMATION DISPLAYS",
+        "level": 0,
+        "words": [
+          "MAP",
+          "CHART",
+          "GRAPH",
+          "DIAGRAM"
+        ]
+      },
+      {
+        "label": "ADDITIONAL BENEFIT",
+        "level": 1,
+        "words": [
+          "EXTRA",
+          "ICING",
+          "BONUS",
+          "PERK"
+        ]
+      },
+      {
+        "label": "THANKSGIVING FOOD",
+        "level": 2,
+        "words": [
+          "TURKEY",
+          "PIE",
+          "GRAVY",
+          "STUFFING"
+        ]
+      },
+      {
+        "label": "SONG TITLES WITH PARENTHESES",
+        "level": 3,
+        "words": [
+          "SATISFACTION",
+          "ISTANBUL",
+          "I RAN",
+          "MONTERO"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "DRAPED ACCESSORIES",
+        "level": 0,
+        "words": [
+          "WRAP",
+          "SCARF",
+          "STOLE",
+          "SHAWL"
+        ]
+      },
+      {
+        "label": "TOLERATE",
+        "level": 1,
+        "words": [
+          "SWALLOW",
+          "BEAR",
+          "STAND",
+          "TAKE"
+        ]
+      },
+      {
+        "label": "BIRD ONOMATOPOEIA",
+        "level": 2,
+        "words": [
+          "COO",
+          "HONK",
+          "GOBBLE",
+          "HOOT"
+        ]
+      },
+      {
+        "label": "STARTS OF CELL PHONE MAKERS",
+        "level": 3,
+        "words": [
+          "GOO",
+          "APP",
+          "MOTOR",
+          "SAM"
+        ]
+      }
+    ]
+  }
+}

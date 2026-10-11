@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "LOOP",
+        "level": 0,
+        "words": [
+          "BAND",
+          "CIRCLE",
+          "RING",
+          "HOOP"
+        ]
+      },
+      {
+        "label": "COOKING VESSELS",
+        "level": 1,
+        "words": [
+          "PAN",
+          "CROCK",
+          "POT",
+          "CASSEROLE"
+        ]
+      },
+      {
+        "label": "KINDS OF BEDS",
+        "level": 2,
+        "words": [
+          "SLEIGH",
+          "BUNK",
+          "CANOPY",
+          "MURPHY"
+        ]
+      },
+      {
+        "label": "THINGS CALLED “OSCAR”",
+        "level": 3,
+        "words": [
+          "BALONEY",
+          "GROUCH",
+          "O",
+          "STATUETTE"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "SECLUDED",
+        "level": 0,
+        "words": [
+          "REMOTE",
+          "HIDDEN",
+          "SECRET",
+          "PRIVATE"
+        ]
+      },
+      {
+        "label": "AGGREGATE SIZE",
+        "level": 1,
+        "words": [
+          "NUMBER",
+          "VOLUME",
+          "AMOUNT",
+          "QUANTITY"
+        ]
+      },
+      {
+        "label": "BODIES OF WATER",
+        "level": 2,
+        "words": [
+          "CHANNEL",
+          "SOUND",
+          "STRAIT",
+          "CANAL"
+        ]
+      },
+      {
+        "label": "READS THE SAME ROTATED 180°",
+        "level": 3,
+        "words": [
+          "96",
+          "SIS",
+          "NOON",
+          "MOW"
+        ]
+      }
+    ]
+  }
+}

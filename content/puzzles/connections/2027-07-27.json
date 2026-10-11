@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "FANTASY CREATURES",
+        "level": 0,
+        "words": [
+          "TROLL",
+          "GIANT",
+          "PIXIE",
+          "DRAGON"
+        ]
+      },
+      {
+        "label": "EMAIL FOLDERS",
+        "level": 1,
+        "words": [
+          "TRASH",
+          "SPAM",
+          "DRAFTS",
+          "SENT"
+        ]
+      },
+      {
+        "label": "CITRUS SODAS",
+        "level": 2,
+        "words": [
+          "CRUSH",
+          "SQUIRT",
+          "SPRITE",
+          "STARRY"
+        ]
+      },
+      {
+        "label": "ANIMAL HOMOPHONES",
+        "level": 3,
+        "words": [
+          "PHISH",
+          "BORE",
+          "LINKS",
+          "TOWED"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "PLUNDER",
+        "level": 0,
+        "words": [
+          "SACK",
+          "ROB",
+          "LOOT",
+          "RAID"
+        ]
+      },
+      {
+        "label": "INFLUENCE",
+        "level": 1,
+        "words": [
+          "SWAY",
+          "PULL",
+          "WEIGHT",
+          "CLOUT"
+        ]
+      },
+      {
+        "label": "HAIRSTYLES",
+        "level": 2,
+        "words": [
+          "BOB",
+          "CROP",
+          "FADE",
+          "SHAG"
+        ]
+      },
+      {
+        "label": "___ PIN",
+        "level": 3,
+        "words": [
+          "SAFETY",
+          "PUSH",
+          "BOBBY",
+          "HAIR"
+        ]
+      }
+    ]
+  }
+}

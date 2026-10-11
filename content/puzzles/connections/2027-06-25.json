@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "ROMANTIC PARTNER",
+        "level": 0,
+        "words": [
+          "STEADY",
+          "FLAME",
+          "LOVER",
+          "SWEETHEART"
+        ]
+      },
+      {
+        "label": "INSULT",
+        "level": 1,
+        "words": [
+          "SLIGHT",
+          "BURN",
+          "DIG",
+          "JAB"
+        ]
+      },
+      {
+        "label": "GAS PUMP OPTIONS",
+        "level": 2,
+        "words": [
+          "REGULAR",
+          "PLUS",
+          "DIESEL",
+          "PREMIUM"
+        ]
+      },
+      {
+        "label": "___ TABLE",
+        "level": 3,
+        "words": [
+          "COFFEE",
+          "WATER",
+          "POOL",
+          "PERIODIC"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "VERY SMALL AMOUNT",
+        "level": 0,
+        "words": [
+          "TRACE",
+          "SHRED",
+          "TOUCH",
+          "HINT"
+        ]
+      },
+      {
+        "label": "PUPPY PURCHASES",
+        "level": 1,
+        "words": [
+          "BOWL",
+          "CRATE",
+          "BED",
+          "COLLAR"
+        ]
+      },
+      {
+        "label": "HELP PUT ON A PARTY",
+        "level": 2,
+        "words": [
+          "CATER",
+          "THROW",
+          "PLAN",
+          "HOST"
+        ]
+      },
+      {
+        "label": "SYMBOLS ON A KEYBOARD",
+        "level": 3,
+        "words": [
+          "STAR",
+          "CARET",
+          "HASH",
+          "BRACE"
+        ]
+      }
+    ]
+  }
+}

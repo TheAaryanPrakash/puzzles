@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "CONCAVITY",
+        "level": 0,
+        "words": [
+          "DING",
+          "DIMPLE",
+          "DENT",
+          "DIVOT"
+        ]
+      },
+      {
+        "label": "SMALL AMOUNT",
+        "level": 1,
+        "words": [
+          "DROP",
+          "DASH",
+          "DAB",
+          "DOLLOP"
+        ]
+      },
+      {
+        "label": "DISNEY CHARACTERS",
+        "level": 2,
+        "words": [
+          "DAISY",
+          "DOC",
+          "DALE",
+          "DORY"
+        ]
+      },
+      {
+        "label": "___ DATE",
+        "level": 3,
+        "words": [
+          "DREAM",
+          "DINNER",
+          "DUE",
+          "DELIVERY"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "LIST OF CANDIDATES",
+        "level": 0,
+        "words": [
+          "SLATE",
+          "TICKET",
+          "BALLOT",
+          "ROSTER"
+        ]
+      },
+      {
+        "label": "PROTECTIVE BARRIER",
+        "level": 1,
+        "words": [
+          "PAD",
+          "SHIELD",
+          "CUSHION",
+          "BUFFER"
+        ]
+      },
+      {
+        "label": "MEDICINE FORMATS",
+        "level": 2,
+        "words": [
+          "CREAM",
+          "SYRUP",
+          "TABLET",
+          "CAPSULE"
+        ]
+      },
+      {
+        "label": "PEA ___",
+        "level": 3,
+        "words": [
+          "SOUP",
+          "POD",
+          "COAT",
+          "GREEN"
+        ]
+      }
+    ]
+  }
+}

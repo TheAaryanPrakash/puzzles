@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "DEFER",
+        "level": 0,
+        "words": [
+          "TABLE",
+          "SHELVE",
+          "DELAY",
+          "POSTPONE"
+        ]
+      },
+      {
+        "label": "BAR FIXTURES",
+        "level": 1,
+        "words": [
+          "TAP",
+          "KEG",
+          "COUNTER",
+          "STOOL"
+        ]
+      },
+      {
+        "label": "WATERCRAFT",
+        "level": 2,
+        "words": [
+          "TUG",
+          "SUB",
+          "BARGE",
+          "JUNK"
+        ]
+      },
+      {
+        "label": "SEEN IN “DONKEY KONG”",
+        "level": 3,
+        "words": [
+          "BARREL",
+          "HAMMER",
+          "LADDER",
+          "GORILLA"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "ANIMAL GROUP NAMES",
+        "level": 0,
+        "words": [
+          "PRIDE",
+          "SWARM",
+          "COLONY",
+          "HERD"
+        ]
+      },
+      {
+        "label": "STONED",
+        "level": 1,
+        "words": [
+          "HIGH",
+          "LIT",
+          "BAKED",
+          "BLAZED"
+        ]
+      },
+      {
+        "label": "AP CLASSES",
+        "level": 2,
+        "words": [
+          "GOV",
+          "CHEM",
+          "BIO",
+          "STATS"
+        ]
+      },
+      {
+        "label": "TAXONOMY RANKS",
+        "level": 3,
+        "words": [
+          "CLASS",
+          "ORDER",
+          "FAMILY",
+          "DOMAIN"
+        ]
+      }
+    ]
+  }
+}

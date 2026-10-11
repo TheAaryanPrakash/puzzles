@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "DOCTORS’ ORDERS",
+        "level": 0,
+        "words": [
+          "EXERCISE",
+          "FRESH AIR",
+          "DIET",
+          "SLEEP"
+        ]
+      },
+      {
+        "label": "EMAIL ACTIONS",
+        "level": 1,
+        "words": [
+          "COMPOSE",
+          "SEND",
+          "FORWARD",
+          "REPLY ALL"
+        ]
+      },
+      {
+        "label": "PODCASTS",
+        "level": 2,
+        "words": [
+          "SERIAL",
+          "WTF",
+          "UP FIRST",
+          "RADIOLAB"
+        ]
+      },
+      {
+        "label": "___ COMEDY",
+        "level": 3,
+        "words": [
+          "DIVINE",
+          "SKETCH",
+          "PROP",
+          "BLACK"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "WEB BROWSER-RELATED",
+        "level": 0,
+        "words": [
+          "WINDOW",
+          "TAB",
+          "HISTORY",
+          "BOOKMARK"
+        ]
+      },
+      {
+        "label": "SHIRT FEATURES",
+        "level": 1,
+        "words": [
+          "BUTTON",
+          "COLLAR",
+          "CUFF",
+          "POCKET"
+        ]
+      },
+      {
+        "label": "CONNECTION",
+        "level": 2,
+        "words": [
+          "LINK",
+          "BOND",
+          "RELATION",
+          "TIE"
+        ]
+      },
+      {
+        "label": "DIRTY ___",
+        "level": 3,
+        "words": [
+          "LAUNDRY",
+          "MARTINI",
+          "JOKE",
+          "DOZEN"
+        ]
+      }
+    ]
+  }
+}

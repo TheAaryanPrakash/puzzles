@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "CHRISTMAS-RELATED",
+        "level": 0,
+        "words": [
+          "STOCKING",
+          "SNOWMAN",
+          "REINDEER",
+          "MISTLETOE"
+        ]
+      },
+      {
+        "label": "MAKE PUBLIC",
+        "level": 1,
+        "words": [
+          "SHOW",
+          "PRESENT",
+          "EXHIBIT",
+          "DISPLAY"
+        ]
+      },
+      {
+        "label": "TORUS-SHAPED FOOD",
+        "level": 2,
+        "words": [
+          "DONUT",
+          "LIFESAVER",
+          "CHEERIO",
+          "BAGEL"
+        ]
+      },
+      {
+        "label": "THINGS WITH STRIPES",
+        "level": 3,
+        "words": [
+          "TIGER",
+          "CANDY CANE",
+          "REFEREE",
+          "CROSSWALK"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "LIST OF CANDIDATES",
+        "level": 0,
+        "words": [
+          "SLATE",
+          "TICKET",
+          "BALLOT",
+          "ROSTER"
+        ]
+      },
+      {
+        "label": "PROTECTIVE BARRIER",
+        "level": 1,
+        "words": [
+          "PAD",
+          "SHIELD",
+          "CUSHION",
+          "BUFFER"
+        ]
+      },
+      {
+        "label": "MEDICINE FORMATS",
+        "level": 2,
+        "words": [
+          "CREAM",
+          "SYRUP",
+          "TABLET",
+          "CAPSULE"
+        ]
+      },
+      {
+        "label": "PEA ___",
+        "level": 3,
+        "words": [
+          "SOUP",
+          "POD",
+          "COAT",
+          "GREEN"
+        ]
+      }
+    ]
+  }
+}

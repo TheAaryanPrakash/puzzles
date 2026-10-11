@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "HAIRCUTS, WITH “CUT”",
+        "level": 0,
+        "words": [
+          "PIXIE",
+          "BUZZ",
+          "BOWL",
+          "CREW"
+        ]
+      },
+      {
+        "label": "MEASURING INSTRUMENTS",
+        "level": 1,
+        "words": [
+          "RULER",
+          "COMPASS",
+          "SCALE",
+          "WATCH"
+        ]
+      },
+      {
+        "label": "WATER AND GAS CONDUITS",
+        "level": 2,
+        "words": [
+          "MAIN",
+          "PIPE",
+          "CHANNEL",
+          "LINE"
+        ]
+      },
+      {
+        "label": "FAST FOOD MASCOTS",
+        "level": 3,
+        "words": [
+          "MERMAID",
+          "KING",
+          "CLOWN",
+          "COLONEL"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "RELAX",
+        "level": 0,
+        "words": [
+          "LOUNGE",
+          "LOAF",
+          "HANG",
+          "CHILL"
+        ]
+      },
+      {
+        "label": "CATCHY SONG",
+        "level": 1,
+        "words": [
+          "JAM",
+          "BANGER",
+          "GROOVE",
+          "BOP"
+        ]
+      },
+      {
+        "label": "BRITISH CUISINE",
+        "level": 2,
+        "words": [
+          "SCONE",
+          "TRIFLE",
+          "MASH",
+          "ROAST"
+        ]
+      },
+      {
+        "label": "STICKY SITUATION",
+        "level": 3,
+        "words": [
+          "PICKLE",
+          "SCRAPE",
+          "BIND",
+          "SPOT"
+        ]
+      }
+    ]
+  }
+}

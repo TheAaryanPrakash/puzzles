@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "SPICES",
+        "level": 0,
+        "words": [
+          "MACE",
+          "CLOVE",
+          "PEPPER",
+          "NUTMEG"
+        ]
+      },
+      {
+        "label": "PERFORM POORLY",
+        "level": 1,
+        "words": [
+          "FLAIL",
+          "TANK",
+          "FLOUNDER",
+          "FLOP"
+        ]
+      },
+      {
+        "label": "SKIM THROUGH, AS PAGES",
+        "level": 2,
+        "words": [
+          "THUMB",
+          "LEAF",
+          "FLIP",
+          "RIFFLE"
+        ]
+      },
+      {
+        "label": "POP SINGERS MINUS “S”",
+        "level": 3,
+        "words": [
+          "KEY",
+          "STYLE",
+          "MAR",
+          "SPEAR"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "DOG BREEDS",
+        "level": 0,
+        "words": [
+          "BOXER",
+          "HUSKY",
+          "DALMATIAN",
+          "POODLE"
+        ]
+      },
+      {
+        "label": "ANIMAL NOSES",
+        "level": 1,
+        "words": [
+          "TRUNK",
+          "MUZZLE",
+          "SNOUT",
+          "BEAK"
+        ]
+      },
+      {
+        "label": "TRAFFIC SIGNS",
+        "level": 2,
+        "words": [
+          "STOP",
+          "YIELD",
+          "DETOUR",
+          "SLOW"
+        ]
+      },
+      {
+        "label": "SOUND ___",
+        "level": 3,
+        "words": [
+          "BITE",
+          "WAVE",
+          "BARRIER",
+          "ASLEEP"
+        ]
+      }
+    ]
+  }
+}

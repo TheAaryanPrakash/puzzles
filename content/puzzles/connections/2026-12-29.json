@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "SPICES",
+        "level": 0,
+        "words": [
+          "DILL",
+          "SAGE",
+          "NUTMEG",
+          "ANISE"
+        ]
+      },
+      {
+        "label": "INTELLIGENT",
+        "level": 1,
+        "words": [
+          "QUICK",
+          "BRIGHT",
+          "SHARP",
+          "SMART"
+        ]
+      },
+      {
+        "label": "DEODORANTS",
+        "level": 2,
+        "words": [
+          "SECRET",
+          "DEGREE",
+          "AXE",
+          "OLD SPICE"
+        ]
+      },
+      {
+        "label": "MEDIEVAL WEAPONS",
+        "level": 3,
+        "words": [
+          "SPEAR",
+          "CLUB",
+          "MACE",
+          "SWORD"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "DEAL WITH",
+        "level": 0,
+        "words": [
+          "TACKLE",
+          "FIELD",
+          "HANDLE",
+          "MANAGE"
+        ]
+      },
+      {
+        "label": "STYLES OF BEER",
+        "level": 1,
+        "words": [
+          "STOUT",
+          "SOUR",
+          "BITTER",
+          "BOCK"
+        ]
+      },
+      {
+        "label": "INVESTMENT VERBS",
+        "level": 2,
+        "words": [
+          "HOLD",
+          "SHORT",
+          "HEDGE",
+          "TRADE"
+        ]
+      },
+      {
+        "label": "___ DOME",
+        "level": 3,
+        "words": [
+          "TEAPOT",
+          "ONION",
+          "CAPITOL",
+          "CHROME"
+        ]
+      }
+    ]
+  }
+}
