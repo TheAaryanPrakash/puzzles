@@ -33,9 +33,9 @@ export function StatsModal({
 
 function Stat({ label, value }: { label: string; value: number }) {
   return (
-    <div>
-      <div className="font-brand text-2xl font-bold">{value}</div>
-      <div className="text-xs text-game-muted">{label}</div>
+    <div className="rounded-brand-md bg-game-surface-2 px-2 py-3">
+      <div className="font-brand text-2xl font-bold tabular-nums text-game-fg">{value}</div>
+      <div className="mt-0.5 text-xs text-game-muted">{label}</div>
     </div>
   );
 }

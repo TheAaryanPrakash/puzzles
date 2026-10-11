@@ -1,0 +1,55 @@
+/* Three illustrative game themes for DevThemes (src/pages/DevThemes.tsx), so the page is useful
+   before any real game's theme.css lands. Scoped under ids starting with "_sample-" — never
+   matched by a real game (every real `data-game` value is a folder name under src/games/). Only
+   imported by DevThemes.tsx, which is dev-only. */
+
+[data-game="_sample-wordle"] {
+  --game-bg: #ffffff;
+  --game-fg: #1a1a1b;
+  --game-surface: #ffffff;
+  --game-surface-2: #f6f6f6;
+  --game-border: #d3d6da;
+  --game-accent: #538d4e;
+  --game-accent-fg: #ffffff;
+  --game-muted: #878a8c;
+  --game-font: "Libre Franklin", sans-serif;
+
+  --tile-radius: 0px;
+  --tile-correct: #538d4e;
+  --tile-present: #b59f3b;
+  --tile-absent: #787c7e;
+}
+
+[data-game="_sample-globle"] {
+  --game-bg: #0b1021;
+  --game-fg: #e8ecf7;
+  --game-surface: #151c33;
+  --game-surface-2: #1d2744;
+  --game-border: #2c3657;
+  --game-accent: #5fb4ff;
+  --game-accent-fg: #0b1021;
+  --game-muted: #8992b3;
+  --game-font: "Space Grotesk", sans-serif;
+
+  --tile-radius: var(--brand-radius-full);
+  --tile-correct: #3bb273;
+  --tile-present: #e3b341;
+  --tile-absent: #3a4568;
+}
+
+[data-game="_sample-bee"] {
+  --game-bg: #fffbea;
+  --game-fg: #3b2f00;
+  --game-surface: #ffffff;
+  --game-surface-2: #fff3c4;
+  --game-border: #f0da8a;
+  --game-accent: #f7da21;
+  --game-accent-fg: #3b2f00;
+  --game-muted: #9c8a3a;
+  --game-font: "Quicksand", sans-serif;
+
+  --tile-radius: var(--brand-radius-full);
+  --tile-correct: #f7da21;
+  --tile-present: #f0b429;
+  --tile-absent: #d8cf9f;
+}

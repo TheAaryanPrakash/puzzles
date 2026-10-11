@@ -51,7 +51,11 @@ export function NextPuzzleCountdown({
 
   return (
     <p className={`text-sm text-game-muted ${className}`}>
-      {label}: <span className="font-mono">{format(remaining)}</span>
+      {label}
+      <br />
+      <span className="font-brand text-base font-semibold tabular-nums text-game-fg">
+        {format(remaining)}
+      </span>
     </p>
   );
 }

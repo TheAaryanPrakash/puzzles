@@ -21,7 +21,7 @@ export function ShareButton({
 
   return (
     <Button onClick={handleClick} className={className}>
-      {copied ? sharedLabel : label}
+      {copied ? `✓ ${sharedLabel}` : label}
     </Button>
   );
 }

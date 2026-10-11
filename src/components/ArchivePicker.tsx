@@ -14,24 +14,31 @@ export function ArchivePicker({ gameId, playedDates, onSelect, title = "Archive"
 
   return (
     <section aria-label={`${title} for ${gameId}`}>
-      <ul className="grid grid-cols-4 gap-2">
-        {dates.map((date) => {
-          const played = playedSet.has(date);
-          return (
-            <li key={date}>
-              <button
-                type="button"
-                disabled={played}
-                onClick={() => onSelect(date)}
-                className="w-full rounded-brand-sm border border-game-border bg-game-surface px-2 py-1 text-xs disabled:opacity-40"
-              >
-                #{dayIndex(date) + 1}
-                {played && " ✓"}
-              </button>
-            </li>
-          );
-        })}
-      </ul>
+      {dates.length === 0 ? (
+        <p className="text-center text-sm text-game-muted">No past puzzles yet. Check back tomorrow.</p>
+      ) : (
+        <ul className="grid grid-cols-4 gap-2">
+          {dates.map((date) => {
+            const played = playedSet.has(date);
+            return (
+              <li key={date}>
+                <button
+                  type="button"
+                  disabled={played}
+                  onClick={() => onSelect(date)}
+                  className={`flex h-11 w-full items-center justify-center rounded-brand-sm border text-xs font-semibold transition-colors duration-brand-fast ${
+                    played
+                      ? "border-game-border bg-game-surface-2 text-game-muted"
+                      : "border-game-border bg-game-surface text-game-fg hover:border-game-accent hover:text-game-accent"
+                  }`}
+                >
+                  {played ? "✓" : `#${dayIndex(date) + 1}`}
+                </button>
+              </li>
+            );
+          })}
+        </ul>
+      )}
     </section>
   );
 }

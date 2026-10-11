@@ -13,10 +13,13 @@
   --brand-surface-2: #f6efe3;
   --brand-border: #e8ddcc;
   --brand-accent: #ef8354;
-  --brand-accent-fg: #ffffff;
-  --brand-muted: #8a7f70;
-  --brand-success: #4caf7d;
-  --brand-danger: #e0564f;
+  /* Dark warm text on the light coral accent, not white: ~5.9:1 contrast vs. ~2.6:1 for white
+     on this coral. Keeps the cheerful peachy hue instead of darkening it into burnt orange just
+     to make white text legible — see docs/research/design-system.md "Palette". */
+  --brand-accent-fg: #2b2320;
+  --brand-muted: #6f6355;
+  --brand-success: #357a57;
+  --brand-danger: #d33f38;
 
   --brand-font: "Fredoka", sans-serif;
   --brand-font-body: "Nunito", sans-serif;
@@ -39,6 +42,12 @@
   --brand-duration-slow: 420ms;
   --brand-ease: cubic-bezier(0.22, 1, 0.36, 1);
 
+  /* Optional additions — tinted (not pure-black) soft shadows, and a focus ring color. Additive
+     only: no existing token was renamed or removed. */
+  --brand-shadow-sm: 0 1px 2px rgba(43, 35, 32, 0.06), 0 2px 6px rgba(43, 35, 32, 0.05);
+  --brand-shadow-md: 0 4px 10px rgba(43, 35, 32, 0.08), 0 10px 24px rgba(43, 35, 32, 0.08);
+  --brand-ring: #ef8354;
+
   /* ───────────── game tier (defaults; each game overrides under [data-game]) ───────────── */
   --game-bg: var(--brand-bg);
   --game-fg: var(--brand-fg);
@@ -55,9 +64,9 @@
   --tile-filled: var(--game-surface-2);
   --tile-fg: var(--game-fg);
   --tile-selected: var(--game-accent);
-  --tile-correct: #6aaa64;
-  --tile-present: #c9b458;
-  --tile-absent: #787c7e;
+  --tile-correct: #5b9c55;
+  --tile-present: #bfa94c;
+  --tile-absent: #6b6f71;
 }
 
 @theme inline {
@@ -111,6 +120,10 @@
   --duration-brand-base: var(--brand-duration-base);
   --duration-brand-slow: var(--brand-duration-slow);
   --ease-brand: var(--brand-ease);
+
+  --shadow-brand-sm: var(--brand-shadow-sm);
+  --shadow-brand-md: var(--brand-shadow-md);
+  --color-brand-ring: var(--brand-ring);
 }
 
 html,
@@ -118,6 +131,16 @@ body {
   background: var(--brand-bg);
   color: var(--brand-fg);
   font-family: var(--brand-font-body);
+  /* Buttons/tiles give their own tap feedback (active:scale, whileTap) — the browser's default
+     flash would fight that, so it's turned off deliberately rather than left to chance. */
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Visible, warm focus ring everywhere — never suppressed, only shown for keyboard focus. */
+:focus-visible {
+  outline: 2px solid var(--brand-ring);
+  outline-offset: 2px;
+  border-radius: var(--brand-radius-sm);
 }
 
 @media (prefers-reduced-motion: reduce) {
