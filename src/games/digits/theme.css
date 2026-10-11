@@ -1,0 +1,86 @@
+[data-game="digits"] {
+  --game-bg: #fdf3ee;
+  --game-fg: #3a2b24;
+  --game-surface: #ffffff;
+  --game-surface-2: #fbe8de;
+  --game-border: #f0d7c8;
+  --game-accent: #e8795a;
+  --game-accent-fg: #ffffff;
+  --game-muted: #9c8577;
+  --game-font: "Libre Franklin", sans-serif;
+
+  /* Kept at their brand.css defaults — Digits doesn't have Wordle-style letter feedback, but the
+     tokens stay defined so nothing that reads them (e.g. a future shared component) breaks. */
+  --tile-correct: #6aaa64;
+  --tile-present: #c9b458;
+  --tile-absent: #787c7e;
+
+  /* One pastel per round (1-indexed via [data-round]) for the "pastel circles" board — chosen with
+     enough contrast against --game-fg for AA on body text at the tile's size (checked with
+     web-design-guidelines). */
+  --digits-round-1: #ffd9e6;
+  --digits-round-2: #d6f0e3;
+  --digits-round-3: #d8e6ff;
+  --digits-round-4: #fff0c2;
+  --digits-round-5: #e7dcff;
+
+  --digits-tile-fg: #3a2b24;
+  --digits-tile-border: rgba(58, 43, 36, 0.12);
+  --digits-tile-selected: #e8795a;
+  --digits-tile-selected-fg: #ffffff;
+  --digits-tile-disabled: #efe6df;
+
+  --digits-op-bg: #3a2b24;
+  --digits-op-fg: #ffffff;
+  --digits-op-selected: #e8795a;
+}
+
+[data-game="digits"] [data-round="1"] {
+  --digits-round-bg: var(--digits-round-1);
+}
+[data-game="digits"] [data-round="2"] {
+  --digits-round-bg: var(--digits-round-2);
+}
+[data-game="digits"] [data-round="3"] {
+  --digits-round-bg: var(--digits-round-3);
+}
+[data-game="digits"] [data-round="4"] {
+  --digits-round-bg: var(--digits-round-4);
+}
+[data-game="digits"] [data-round="5"] {
+  --digits-round-bg: var(--digits-round-5);
+}
+
+[data-game="digits"] .digits-circle {
+  background: var(--digits-round-bg, var(--game-surface-2));
+  color: var(--digits-tile-fg);
+  border: 1px solid var(--digits-tile-border);
+}
+
+[data-game="digits"] .digits-circle[data-selected="true"] {
+  background: var(--digits-tile-selected);
+  color: var(--digits-tile-selected-fg);
+  border-color: var(--digits-tile-selected);
+}
+
+[data-game="digits"] .digits-circle:disabled {
+  background: var(--digits-tile-disabled);
+  color: var(--game-muted);
+  border-color: var(--digits-tile-border);
+}
+
+[data-game="digits"] .digits-op {
+  background: var(--game-surface);
+  color: var(--digits-op-bg);
+  border: 2px solid var(--digits-op-bg);
+}
+
+[data-game="digits"] .digits-op[data-selected="true"] {
+  background: var(--digits-op-selected);
+  color: var(--digits-op-fg);
+  border-color: var(--digits-op-selected);
+}
+
+[data-game="digits"] .digits-op:disabled {
+  opacity: 0.35;
+}
