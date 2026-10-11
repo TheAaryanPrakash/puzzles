@@ -3,6 +3,8 @@ import { motion, useReducedMotion, AnimatePresence } from "motion/react";
 import { type BoardConfig, type Grid, type NotesGrid, type Highlight, isGiven } from "../engine";
 
 export interface BoardProps {
+  /** aria-label for the grid; defaults to "Sudoku board" so sudoku needn't pass it. */
+  label?: string;
   config: BoardConfig;
   puzzle: Grid;
   entries: Grid;
@@ -20,6 +22,7 @@ function cellKey(row: number, col: number): string {
 }
 
 export function Board({
+  label = "Sudoku board",
   config,
   puzzle,
   entries,
@@ -77,7 +80,7 @@ export function Board({
   return (
     <motion.div
       role="grid"
-      aria-label="Sudoku board"
+      aria-label={label}
       aria-rowcount={config.size}
       aria-colcount={config.size}
       onKeyDown={handleKeyDown}
