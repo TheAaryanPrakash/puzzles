@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { dataSource } from "./data";
-import type { Play, PlayStatus } from "./data/types";
+import type { LeaderboardRow, Play, PlayStatus } from "./data/types";
 import { resolvePuzzleDate } from "./daily";
 import { completeGame, type GameResult } from "./result";
 
@@ -219,15 +219,25 @@ export interface UseFriendsResultsResult {
   loading: boolean;
 }
 
-/** Empty until the member has finished this puzzle themselves — never spoils it for them. */
-export function useFriendsResults(gameId: string, date: string): UseFriendsResultsResult {
+/** Empty until the member has finished this puzzle themselves — never spoils it for them. Empty
+ *  (and not loading) with no `groupId` — a board needs an active group to be scoped to. */
+export function useFriendsResults(
+  gameId: string,
+  date: string,
+  groupId: string | null,
+): UseFriendsResultsResult {
   const [results, setResults] = useState<FriendResult[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    if (!groupId) {
+      setResults([]);
+      setLoading(false);
+      return;
+    }
     let cancelled = false;
     setLoading(true);
-    void dataSource.getFriendsResults(gameId, date).then((r) => {
+    void dataSource.getFriendsResults(gameId, date, groupId).then((r) => {
       if (!cancelled) {
         setResults(r);
         setLoading(false);
@@ -236,7 +246,7 @@ export function useFriendsResults(gameId: string, date: string): UseFriendsResul
     return () => {
       cancelled = true;
     };
-  }, [gameId, date]);
+  }, [gameId, date, groupId]);
 
   return { results, loading };
 }
@@ -280,4 +290,53 @@ export function usePlays(gameId: string): UsePlaysResult {
   const refresh = useCallback(() => setTick((t) => t + 1), []);
 
   return { plays, loading, refresh };
+}
+
+export interface UseLeaderboardResult {
+  rows: LeaderboardRow[];
+  loading: boolean;
+  error: string | null;
+}
+
+/** `scope: "group"` needs a `groupId` (pass the active group's id — see `useActiveGroup`); until
+ *  one is available this just stays empty rather than calling the data source. */
+export function useLeaderboard(
+  scope: "group" | "global",
+  opts: { groupId?: string; period: "day" | "week"; date?: string },
+): UseLeaderboardResult {
+  const { groupId, period, date } = opts;
+  const [rows, setRows] = useState<LeaderboardRow[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const ready = scope === "global" || Boolean(groupId);
+
+  useEffect(() => {
+    if (!ready) {
+      setRows([]);
+      setLoading(false);
+      return;
+    }
+    let cancelled = false;
+    setLoading(true);
+    setError(null);
+    dataSource
+      .getLeaderboard(scope, { groupId, period, date })
+      .then((r) => {
+        if (!cancelled) {
+          setRows(r);
+          setLoading(false);
+        }
+      })
+      .catch((err: unknown) => {
+        if (!cancelled) {
+          setError(err instanceof Error ? err.message : "Something went wrong. Please try again.");
+          setLoading(false);
+        }
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [scope, groupId, period, date, ready]);
+
+  return { rows, loading, error };
 }
