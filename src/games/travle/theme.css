@@ -1,0 +1,23 @@
+[data-game="travle"] {
+  --game-bg: #e8f1f4;
+  --game-fg: #223034;
+  --game-surface: #ffffff;
+  --game-surface-2: #f3f8fa;
+  --game-border: #cfe0e5;
+  --game-accent: #4f7a8c;
+  --game-accent-fg: #ffffff;
+  --game-muted: #647a80;
+  --game-font: "Inter", sans-serif;
+
+  /* Reused for the 3-tier guess classification (see logic.ts's GuessCategory). */
+  --tile-correct: #4f8f6a; /* on-path */
+  --tile-present: #d79b3b; /* adjacent */
+  --tile-absent: #b9a98d; /* unconnected — same family as land, just a guess "used up" */
+
+  /* Map-only tokens: muted atlas palette, not part of the frozen --game-*/--tile-* set. */
+  --travle-sea: #bcdce6;
+  --travle-land: #ecdfc4;
+  --travle-land-border: #d8c9a8;
+  --travle-start: #d2603a;
+  --travle-end: #2b6f77;
+}
