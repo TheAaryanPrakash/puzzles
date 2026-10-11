@@ -43,7 +43,12 @@ export const BORDER_FIXES: BorderFix[] = [
 export function buildAdjacencyFromTopology(topology: CountryTopology): Record<string, string[]> {
   const geometries = topology.objects.countries.geometries;
   const codes = geometries.map((g) => g.properties.iso_a2);
-  const neighborIndexes = neighbors(geometries);
+  // `neighbors()` only reads each geometry's `arcs` (and type, for collections) to find shared-arc
+  // adjacency; CountryTopology only declares the `properties` field we use elsewhere, so the real
+  // runtime objects (with `arcs`) satisfy topojson-client's GeometryObject type even though our
+  // local type doesn't say so. Cast via its own parameter type instead of importing
+  // `topojson-specification` directly, which isn't a declared dependency of this package.
+  const neighborIndexes = neighbors(geometries as unknown as Parameters<typeof neighbors>[0]);
 
   const adjacency: Record<string, Set<string>> = {};
   for (const code of codes) adjacency[code] = new Set();

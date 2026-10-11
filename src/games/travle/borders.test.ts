@@ -1,14 +1,14 @@
-import { readFileSync } from "node:fs";
 import { describe, it, expect, beforeAll } from "vitest";
 import { buildAdjacencyFromTopology, BORDER_FIXES, type CountryTopology } from "./borders";
+
+// Imported as JSON rather than read via `node:fs`: `src/` has no Node type-checking configured
+// (see tsconfig.app.json), and this keeps the test file dependency-free of the Node runtime.
+import rawTopology from "../../../public/assets/shared/countries.json";
 
 let adjacency: Record<string, string[]>;
 
 beforeAll(() => {
-  const topology = JSON.parse(
-    readFileSync("public/assets/shared/countries.json", "utf8"),
-  ) as CountryTopology;
-  adjacency = buildAdjacencyFromTopology(topology);
+  adjacency = buildAdjacencyFromTopology(rawTopology as unknown as CountryTopology);
 });
 
 describe("buildAdjacencyFromTopology", () => {

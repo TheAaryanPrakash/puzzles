@@ -14,7 +14,7 @@
   --tile-present: #d79b3b; /* adjacent */
   --tile-absent: #b9a98d; /* unconnected — same family as land, just a guess "used up" */
 
-  /* Map-only tokens: muted atlas palette, not part of the frozen --game-*/--tile-* set. */
+  /* Map-only tokens: muted atlas palette, not part of the frozen --game- / --tile- set. */
   --travle-sea: #bcdce6;
   --travle-land: #ecdfc4;
   --travle-land-border: #d8c9a8;

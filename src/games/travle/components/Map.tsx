@@ -1,8 +1,8 @@
 import { useMemo } from "react";
 import { geoNaturalEarth1, geoPath } from "d3-geo";
-import type { FeatureCollection, Geometry } from "geojson";
+import type { ExtendedFeatureCollection } from "d3-geo";
 import type { GuessCategory, TravlePuzzle } from "../logic";
-import type { CountryFeature, CountryFeatureProperties } from "../useCountryGeo";
+import type { CountryFeature } from "../useCountryGeo";
 
 const WIDTH = 960;
 const HEIGHT = 500;
@@ -38,7 +38,7 @@ function colorFor(code: string, puzzle: TravlePuzzle, categories: Record<string,
 export function Map({ puzzle, features, categories }: MapProps) {
   const pathGenerator = useMemo(() => {
     if (features.length === 0) return null;
-    const collection: FeatureCollection<Geometry, CountryFeatureProperties> = {
+    const collection: ExtendedFeatureCollection<CountryFeature> = {
       type: "FeatureCollection",
       features,
     };
