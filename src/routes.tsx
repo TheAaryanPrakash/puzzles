@@ -34,6 +34,17 @@ export const gameMetas: GameMeta[] = import.meta.env.PROD
   ? allGameMetas.filter((meta) => !meta.id.startsWith("_"))
   : allGameMetas;
 
+/**
+ * The daily puzzle games only — excludes dev-only scaffolding (`_example`) and anything marked
+ * `scored: false` (chess). Computed off `allGameMetas` rather than `gameMetas`, so it's always the
+ * same 14 regardless of `import.meta.env.PROD` — including in tests. This is what the Hub's
+ * "X / 14" count, and anything else that needs "how many daily games are there," should read;
+ * `gameMetas` is still what decides which cards actually render.
+ */
+export const scoredGameMetas: GameMeta[] = allGameMetas.filter(
+  (meta) => !meta.id.startsWith("_") && meta.scored !== false,
+);
+
 function gameRoutes(): RouteObject[] {
   return discoveredGames.map(({ dir, meta }) => {
     const Component = lazy(indexModules[`${dir}/index.tsx`]);

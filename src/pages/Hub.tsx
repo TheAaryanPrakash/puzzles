@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, useSearchParams } from "react-router";
 import { motion, useReducedMotion } from "motion/react";
 import { SiteHeader } from "../components/SiteHeader";
-import { gameMetas } from "../routes";
+import { gameMetas, scoredGameMetas } from "../routes";
 import { dataSource } from "../lib/data";
 import { todayKey, dayIndex } from "../lib/daily";
 import { BIRTHDAY } from "../config";
@@ -41,10 +41,12 @@ export function Hub() {
   // the real date on that page, making an unlocked message look locked again.
   const finaleHref = searchParams.toString() ? `/finale?${searchParams.toString()}` : "/finale";
 
+  // Unscored games (chess) never have a play to fetch — they're skipped here rather than calling
+  // dataSource.getPlay for a game that structurally never writes one.
   useEffect(() => {
     let cancelled = false;
     Promise.all(
-      gameMetas.map(async (meta) => {
+      scoredGameMetas.map(async (meta) => {
         const play = await dataSource.getPlay(meta.id, today);
         return [meta.id, (play?.status ?? "none") as HubStatus] as const;
       }),
@@ -57,7 +59,7 @@ export function Hub() {
   }, [today]);
 
   const puzzleNumber = dayIndex(today) + 1;
-  const solvedCount = gameMetas.filter((m) => statusByGame[m.id] === "won").length;
+  const solvedCount = scoredGameMetas.filter((m) => statusByGame[m.id] === "won").length;
   const isBirthday = today >= BIRTHDAY;
 
   // Re-checks after every finished game (statusByGame changes whenever a game's status does, and
@@ -134,7 +136,7 @@ export function Hub() {
             {puzzleNumber > 0 && <> · Puzzle day #{puzzleNumber}</>}
           </p>
           <p className="mt-3 text-sm font-semibold text-brand-accent">
-            {solvedCount} / {gameMetas.length} solved today
+            {solvedCount} / {scoredGameMetas.length} solved today
           </p>
         </div>
 
@@ -142,7 +144,8 @@ export function Hub() {
 
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4">
           {gameMetas.map((meta, i) => {
-            const badge = STATUS_BADGE[statusByGame[meta.id] ?? "none"];
+            const unscored = meta.scored === false;
+            const badge = unscored ? null : STATUS_BADGE[statusByGame[meta.id] ?? "none"];
             return (
               <motion.div
                 key={meta.id}
@@ -164,7 +167,11 @@ export function Hub() {
                   </span>
                   <span className="line-clamp-2 text-xs text-brand-muted">{meta.tagline}</span>
                   <span className="mt-auto pt-2">
-                    {badge ? (
+                    {unscored ? (
+                      <span className="inline-flex items-center rounded-brand-full bg-brand-surface-2 px-2 py-0.5 text-[11px] font-semibold text-brand-muted">
+                        Just for fun · unscored
+                      </span>
+                    ) : badge ? (
                       <span
                         className={`inline-flex items-center rounded-brand-full px-2 py-0.5 text-[11px] font-semibold ${badge.className}`}
                       >
