@@ -409,3 +409,61 @@ but not re-litigated here since only Mini was actually unreadable.
 
 `pnpm test` (836 passing) and `pnpm build` both green after every fix above. All committed on
 `main` in small, separately-described steps; nothing pushed.
+
+## Build phase — shared HowToPlayModal (item 5, the last Build-phase item)
+
+`GameMeta.howTo` (`src/lib/types.ts`) is optional plain data: `{ rules: string; steps?: string[];
+example?: { label, detail } }` — deliberately not JSX (meta.ts files are `.ts`), so
+`HowToPlayModal.tsx` does all the layout. `steps` entries may lead with an emoji (🟩🟨⬜, 🟢🟡⚫) as an
+inline colour legend — several games' own share-text already uses the same emoji vocabulary for
+spoiler-free result grids, so this reuses it rather than inventing colour-swatch JSX the modal
+would need to special-case per game.
+
+`HowToPlayModal` wraps `FlipCard`: front = icon (from `src/components/icons/`, a small duplicated
+copy of `Hub.tsx`'s own `GAME_ICONS` map — out of this change's scope to import from a page, kept
+in sync by hand) + title + tagline; back = rules/steps/example, same reveal-after-a-beat pattern as
+`ResultModal`. `useAutoOpenHowToPlay(gameId, userId)` opens it once per user per game
+(`localStorage`, namespaced `sansitas-puzzles:howto-seen:<gameId>:<userId>`, wrapped in try/catch,
+same pattern as `src/lib/groups.ts`'s `useActiveGroup`) and is also wired to the existing `?`
+button — no `GameLayout` changes needed, `onHelp` was already a prop.
+
+**All 14 daily games migrated** off their old inline `HelpModal` + local help-content
+function/variable, content ported into each `meta.ts`. Two games' copy was corrected rather than
+copied verbatim, because the old text no longer matches this redesign's actual UI: Globle's heat
+scale now runs dark/muted → bright coral (not the old pale → deep red, see the earlier Globle
+colour-sync commit), and Travle's guess colours were described as "orange/red" even before this
+redesign despite the game actually using the shared green/gold/grey tile trio — now described
+correctly. Connections' copy was updated to the approved palette (rose → gold).
+
+**Chess deliberately NOT migrated.** Its existing `HelpModal` content includes licence-attribution
+hyperlinks (Stockfish/RhosGFX) that CLAUDE.md's "Chess" section requires verbatim — "The chess Help
+modal links 'Engine: Stockfish (GPLv3), source.'" — and the `howTo` field's plain-string shape has
+no way to represent a real `<a href>`. Chess already opts out of most shared UI elsewhere in this
+redesign for the same kind of reason (its own header, its own result modal, per CLAUDE.md), so
+leaving its help modal as-is follows the established pattern rather than fighting it. `HelpModal.tsx`
+itself is NOT deleted — still used by chess's own main help and by its separate "Play a Friend" mode
+(`src/games/chess/friends/FriendsTab.tsx`), a different concern (multiplayer mechanics) from "how to
+play the game."
+
+**Live-verified, not just `pnpm test`/`pnpm build` passing** (see the "bugs found during live
+review" section above for why this matters — two of three bugs there passed both): opened Wordle
+fresh (`playwright-cli open --headed`, a clean profile with no prior localStorage) and confirmed the
+modal auto-opens, flips to the rules face, and the emoji colour legend renders as real coloured
+squares; closed it, reloaded, confirmed it does NOT reopen (the seen-flag persisted); clicked the
+`?` button and confirmed it reopens on demand. Repeated on Travle (green/gold/grey legend + an
+example box) and Spelling Bee (no legend, no example — confirms the modal degrades gracefully when
+those optional fields are absent). Checked renderer CPU (`ps aux | grep renderer`) stayed low
+throughout — no repeat of the `ResultModal` infinite-loop class of bug, which this component also
+uses `FlipCard` for. Checked 375px (Zip) — no overflow. Confirmed chess's own `?`/help flow is
+untouched (its click was blocked by chess's own pre-existing "Set up your game" modal, a pre-
+existing, unrelated interaction, not something this change caused).
+
+`pnpm test`: 836 passing (unchanged — no new tests added, this is content/wiring work on top of
+components RESEARCH.md already specced). `pnpm build` and `pnpm exec tsc -b --noEmit` both clean
+after every commit.
+
+**This was the last Build-phase item.** Tokens, fx library, app-root background + header/navigation,
+HowToPlayModal, ResultModal, all pages, and the multi-group check are now all built, committed, and
+live-verified. Checkpoint 2 is next: 375px/1280px screenshots of Hub, a game page (header + how to
+play + result modal), Profile, Leaderboard (Site and a Group), Sign-in, Join, Finale, plus FPS,
+bundle size and test-count numbers, per the brief.
