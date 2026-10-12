@@ -41,8 +41,13 @@ export function Board({
       <div className="mb-0.5 flex h-4 items-center justify-center">
         {solvedAt !== null && (
           <span
-            className="rounded-brand-full px-1.5 text-[0.6rem] font-bold text-white"
-            style={{ backgroundColor: `var(--quordle-board-${boardIndex + 1})` }}
+            className="rounded-brand-full px-1.5 text-[0.6rem] font-bold"
+            style={{
+              backgroundColor: `var(--quordle-board-${boardIndex + 1})`,
+              // Same fix as logic.ts's BOARD_COLORS_INK (recap badges): these tints are too light
+              // for white text to clear 4.5:1 — dark ink instead.
+              color: "#1c0f14",
+            }}
           >
             Solved in {solvedAt}
           </span>

@@ -51,14 +51,21 @@ export function closestSoFar(state: GlobleState): GlobleGuess[] {
     .map(({ g }) => g);
 }
 
-const FAR_COLOR = { r: 247, g: 227, b: 196 }; // pale warm gold — "far"
-const CLOSE_COLOR = { r: 200, g: 64, b: 76 }; // soft deep red — "close"
+/** Redesign (2026-10): the approved far/hot endpoints from the Checkpoint-1 heat scale
+ * (docs/redesign/checkpoint-1/colors.png — far #3d2930, cool #993355, warm #dd3c71, hot #eb6347).
+ * `proximityColor` only lerps between two endpoints, so this uses far/hot as those endpoints; the
+ * eased `t` below already passes the gradient through cool/warm-ish territory on the way. Must
+ * stay in sync with theme.css's `--globle-graticule` (far) / `--game-accent` (hot) — same portal/
+ * canvas-needs-a-literal-value reason as Quordle's BOARD_COLORS, see that file's comment. */
+const FAR_COLOR = { r: 0x3d, g: 0x29, b: 0x30 }; // #3d2930
+const CLOSE_COLOR = { r: 0xeb, g: 0x63, b: 0x47 }; // #eb6347
 /** Distinct from the warm scale so a correct guess doesn't read as merely "very close" — kept a
  * true mint-green (not nudged toward the red/gold scale) so it stays a different hue family under
- * protanopia/deuteranopia simulation too, not just a different lightness. */
-export const SOLVED_COLOR = "#5fd9ab";
-/** Country never guessed — a faint tint of the globe's own surface, not part of the warm scale. */
-export const UNGUESSED_COLOR = "#1a2140";
+ * protanopia/deuteranopia simulation too, not just a different lightness. Matches --brand-success. */
+export const SOLVED_COLOR = "#4ebc85";
+/** Country never guessed — a faint tint of the globe's own surface, not part of the warm scale.
+ * Must stay in sync with theme.css's `--globle-unguessed`. */
+export const UNGUESSED_COLOR = "#1c1215";
 
 function lerp(a: number, b: number, t: number): number {
   return Math.round(a + (b - a) * t);

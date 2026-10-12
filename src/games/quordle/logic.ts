@@ -6,8 +6,16 @@ export const WORD_LENGTH = 5;
 /** Same four tints as theme.css's `--quordle-board-1..4`, duplicated here as literal hex values
  * because `ResultModal` renders through a `createPortal` outside `[data-game="quordle"]` — CSS
  * custom properties scoped to that selector don't reach portaled content, so anything drawn inside
- * the result modal (e.g. the win recap) needs the color as a plain value, not a `var()` lookup. */
-export const BOARD_COLORS = ["#5144a7", "#2d766f", "#b43f2d", "#726a18"] as const;
+ * the result modal (e.g. the win recap) needs the color as a plain value, not a `var()` lookup.
+ * Redesign (2026-10): reuses the Connections 4-level palette (already deuteranopia-checked on
+ * this exact dark background, see docs/redesign/checkpoint-1/colors.png) — these must stay
+ * byte-for-byte in sync with theme.css's `--quordle-board-1..4`. The Recap badges that use these
+ * now render dark ink text instead of white (see index.tsx), since white fails 4.5:1 against all
+ * four of these lighter, playful tints. */
+export const BOARD_COLORS = ["#d3699e", "#a681da", "#64b1d8", "#dfa849"] as const;
+/** Dark ink for text on `BOARD_COLORS` — passes >=4.5:1 against all four (verified against the
+ * lightest, #dfa849, at 8.7:1; the other three are darker/more saturated, so higher still). */
+export const BOARD_COLORS_INK = "#1c0f14";
 /** Quordle's shared guess budget: boards + 5, the formula every multi-board Wordle variant uses
  * (see RESEARCH.md) — enough slack to solve 4 words without needing to play perfectly. */
 export const MAX_GUESSES = BOARD_COUNT + 5;

@@ -13,6 +13,7 @@ import { formatGuesses } from "../../lib/format";
 import { meta } from "./meta";
 import {
   BOARD_COLORS,
+  BOARD_COLORS_INK,
   DEFAULT_STATE,
   MAX_GUESSES,
   WORD_LENGTH,
@@ -208,8 +209,8 @@ function Recap({ answers, state }: { answers: readonly string[]; state: QuordleS
         return (
           <div
             key={i}
-            className="flex items-center justify-between rounded-brand-sm px-2 py-1 text-sm font-semibold text-white"
-            style={{ backgroundColor: BOARD_COLORS[i] }}
+            className="flex items-center justify-between rounded-brand-sm px-2 py-1 text-sm font-semibold"
+            style={{ backgroundColor: BOARD_COLORS[i], color: BOARD_COLORS_INK }}
           >
             <span>{answer}</span>
             <span>{solvedAt ? `#${solvedAt}` : "✕"}</span>

@@ -3,8 +3,7 @@
    JS for the SVG stroke — see its own comment; --zip-path-start now matches the exact "zip path"
    swatch approved at Checkpoint 1, docs/redesign/checkpoint-1/colors.png), now pink→violet instead
    of orange→purple. FLAGGED: Grid.tsx's own hardcoded hex constants need updating to match these
-   two values too (out of this pass's scope — theme.css/index.tsx only — see
-   docs/redesign/HANDOFF.md "Shared changes requested"). */
+   two values too — now synced, see that file's own comment. */
 [data-game="zip"] {
   --tile-correct: #43b17a;
   --tile-present: #e4a944;

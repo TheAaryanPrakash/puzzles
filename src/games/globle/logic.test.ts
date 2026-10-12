@@ -76,18 +76,25 @@ describe("proximityForGuess / proximityColor", () => {
     expect(proximityColor(150)).toBe(proximityColor(100));
   });
 
-  it("desaturates toward deep red (green and blue fall) as proximity rises", () => {
+  // Redesign (2026-10): the heat scale now runs dark/muted plum (far) → bright coral (hot) —
+  // the approved Checkpoint-1 direction (docs/redesign/checkpoint-1/colors.png) — rather than the
+  // old pale-gold → deep-red desaturation. All three channels brighten monotonically with
+  // proximity now, instead of green/blue falling.
+  it("brightens toward hot coral (all channels rise) as proximity rises", () => {
     const channels = (s: string) => s.match(/\d+/g)!.map(Number);
-    const [, g0, b0] = channels(proximityColor(0));
-    const [, g25, b25] = channels(proximityColor(25));
-    const [, g75, b75] = channels(proximityColor(75));
-    const [, g100, b100] = channels(proximityColor(100));
-    expect(g25).toBeLessThanOrEqual(g0);
-    expect(g75).toBeLessThanOrEqual(g25);
-    expect(g100).toBeLessThanOrEqual(g75);
-    expect(b25).toBeLessThanOrEqual(b0);
-    expect(b75).toBeLessThanOrEqual(b25);
-    expect(b100).toBeLessThanOrEqual(b75);
+    const [r0, g0, b0] = channels(proximityColor(0));
+    const [r25, g25, b25] = channels(proximityColor(25));
+    const [r75, g75, b75] = channels(proximityColor(75));
+    const [r100, g100, b100] = channels(proximityColor(100));
+    expect(r25).toBeGreaterThanOrEqual(r0);
+    expect(r75).toBeGreaterThanOrEqual(r25);
+    expect(r100).toBeGreaterThanOrEqual(r75);
+    expect(g25).toBeGreaterThanOrEqual(g0);
+    expect(g75).toBeGreaterThanOrEqual(g25);
+    expect(g100).toBeGreaterThanOrEqual(g75);
+    expect(b25).toBeGreaterThanOrEqual(b0);
+    expect(b75).toBeGreaterThanOrEqual(b25);
+    expect(b100).toBeGreaterThanOrEqual(b75);
   });
 });
 

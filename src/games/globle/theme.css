@@ -8,10 +8,9 @@
    (docs/redesign/checkpoint-1/colors.png) since it's also used as plain text (GameLayout's header-
    hover/archive-link) — "warm" measured only 4.32:1 there, just under AA; "hot" clears 5.59-5.92:1
    everywhere it's used, text and ring-focus alike, while staying in the same approved family.
-   FLAGGED: the heat-scale gradient itself (FAR_COLOR → CLOSE_COLOR) lives in logic.ts as hardcoded
-   RGB constants, out of this pass's scope (theme.css/index.tsx only) — see
-   docs/redesign/HANDOFF.md "Shared changes requested" for the full approved far/cool/warm/hot set
-   that still needs applying there. */
+   logic.ts's FAR_COLOR/CLOSE_COLOR/SOLVED_COLOR/UNGUESSED_COLOR (hardcoded RGB, needed as literal
+   values for the map's per-country fills) are now synced to this same approved scale — see that
+   file's own comment. */
 [data-game="globle"] {
   --game-accent: #eb6347;
   --game-accent-fg: #140c0f;

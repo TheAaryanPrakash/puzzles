@@ -4,9 +4,10 @@ import { checkpointAt, type Cell, type ZipPuzzle } from "../logic";
 
 // Keep these two in sync with theme.css's --zip-path-start/--zip-path-end: SVG `stroke` can't
 // portably resolve a gradient-along-a-path from a CSS custom property, so the tube's color is
-// interpolated here in JS instead.
-const PATH_START = [0xe7, 0xa5, 0x40]; // #e7a540
-const PATH_END = [0x87, 0x60, 0xbe]; // #8760be
+// interpolated here in JS instead. Redesign (2026-10): pink→violet, matching the Checkpoint-1-
+// approved swatches (docs/redesign/checkpoint-1/colors.png).
+const PATH_START = [0xdf, 0x49, 0x7b]; // #df497b
+const PATH_END = [0xa6, 0x81, 0xda]; // #a681da
 const STROKE_WIDTH = 0.26;
 
 function pathColorAt(t: number): string {

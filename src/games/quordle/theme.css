@@ -4,12 +4,12 @@
    wordle/theme.css) with the same dark-ink-on-bright-tile fix, for the same genre-consistency
    reason the original did.
 
-   --quordle-board-1..4 are DELIBERATELY left at their pre-redesign values: logic.ts's
-   BOARD_COLORS constant must stay byte-for-byte in sync with these (the win-recap/share text
-   can't reach CSS vars — see logic.ts's own comment), and logic.ts is out of this pass's scope
-   (theme.css + index.tsx font imports only). Flagged in HANDOFF.md — updating these 4 to a
-   pink-on-black-tuned palette needs a follow-up pass that can touch logic.ts too. They already
-   pass >=4.5:1 white-on-colour (unchanged from the original check) and read fine on a dark board. */
+   --quordle-board-1..4 reuse the approved Connections 4-level palette (already deuteranopia-
+   checked on this exact dark background, docs/redesign/checkpoint-1/colors.png) — must stay
+   byte-for-byte in sync with logic.ts's BOARD_COLORS (the win-recap/share text can't reach CSS
+   vars — see logic.ts's own comment). The board-indicator badges that use these switched from
+   white to dark-ink text (Board.tsx, index.tsx's Recap) since white fails 4.5:1 against all four
+   of these lighter tints. */
 [data-game="quordle"] {
   --game-accent: #43b17a;
   --game-accent-fg: #0c1510;
@@ -19,10 +19,10 @@
   --tile-present: #e4a944;
   --tile-absent: #54454a;
 
-  --quordle-board-1: #5144a7; /* indigo */
-  --quordle-board-2: #2d766f; /* teal */
-  --quordle-board-3: #b43f2d; /* terracotta */
-  --quordle-board-4: #726a18; /* amber */
+  --quordle-board-1: #d3699e; /* rose */
+  --quordle-board-2: #a681da; /* violet */
+  --quordle-board-3: #64b1d8; /* sky */
+  --quordle-board-4: #dfa849; /* gold */
 
   --quordle-tile-gap: 0.1875rem;
 }
