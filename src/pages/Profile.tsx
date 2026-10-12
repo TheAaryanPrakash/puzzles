@@ -4,6 +4,42 @@ import { useStats } from "../lib/hooks";
 import { Button } from "../components/Button";
 import { SiteHeader } from "../components/SiteHeader";
 import { allGameMetas } from "../routes";
+import {
+  WordleIcon,
+  QuordleIcon,
+  WorldleIcon,
+  FlagleIcon,
+  GlobleIcon,
+  TravleIcon,
+  StatesIcon,
+  ZipIcon,
+  ConnectionsIcon,
+  SudokuIcon,
+  MiniSudokuIcon,
+  MiniIcon,
+  DigitsIcon,
+  BeeIcon,
+  ChessIcon,
+  FlameIcon,
+} from "../components/icons";
+
+const GAME_ICONS: Record<string, React.ComponentType<React.SVGProps<SVGSVGElement>>> = {
+  wordle: WordleIcon,
+  quordle: QuordleIcon,
+  worldle: WorldleIcon,
+  flagle: FlagleIcon,
+  globle: GlobleIcon,
+  travle: TravleIcon,
+  states: StatesIcon,
+  zip: ZipIcon,
+  connections: ConnectionsIcon,
+  sudoku: SudokuIcon,
+  "mini-sudoku": MiniSudokuIcon,
+  mini: MiniIcon,
+  digits: DigitsIcon,
+  bee: BeeIcon,
+  chess: ChessIcon,
+};
 
 export function Profile() {
   const { member, signOut, updateDisplayName } = useAuth();
@@ -97,16 +133,33 @@ export function Profile() {
           {loading ? null : played.length === 0 ? (
             <p className="mt-2 text-sm text-brand-muted">No puzzles played yet — go pick one!</p>
           ) : (
-            <ul className="mt-2 divide-y divide-brand-border">
-              {played.map(({ meta, s }) => (
-                <li key={meta.id} className="flex items-center justify-between py-2 text-sm">
-                  <span>{meta.title}</span>
-                  <span className="text-brand-muted">
-                    {s.won}/{s.played} won · streak {s.currentStreak}
-                  </span>
-                </li>
-              ))}
-            </ul>
+            <div className="mt-3 grid grid-cols-2 gap-2.5">
+              {played.map(({ meta, s }) => {
+                const Icon = GAME_ICONS[meta.id];
+                return (
+                  <div
+                    key={meta.id}
+                    className="flex flex-col gap-1.5 rounded-brand-lg border border-brand-border bg-brand-surface p-3 shadow-brand-sm"
+                  >
+                    <div className="flex items-center gap-1.5">
+                      {Icon && <Icon className="h-4 w-4 shrink-0 text-brand-accent" aria-hidden />}
+                      <span className="truncate text-sm font-semibold text-brand-fg">{meta.title}</span>
+                    </div>
+                    <div className="mt-auto flex items-center justify-between text-xs text-brand-muted">
+                      <span className="tabular-nums">
+                        {s.won}/{s.played} won
+                      </span>
+                      {s.currentStreak > 0 && (
+                        <span className="inline-flex items-center gap-0.5 font-semibold text-brand-accent">
+                          <FlameIcon className="h-3.5 w-3.5" aria-hidden />
+                          {s.currentStreak}
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
           )}
         </section>
       </main>
