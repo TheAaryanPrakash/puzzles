@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
-import { Link, useSearchParams } from "react-router";
+import { Link, useNavigate, useSearchParams } from "react-router";
 import { motion, useReducedMotion } from "motion/react";
 import { SiteHeader } from "../components/SiteHeader";
+import MagicBento, { type MagicBentoItem } from "../components/fx/MagicBento";
 import { gameMetas, scoredGameMetas } from "../routes";
 import { dataSource } from "../lib/data";
 import type { ChessBadge } from "../lib/data/chess";
@@ -11,15 +12,65 @@ import { useAuth } from "../lib/auth";
 import { useActiveGroup } from "../lib/groups";
 import { useLeaderboard } from "../lib/hooks";
 import type { FinaleMessage, PlayStatus } from "../lib/data/types";
+import type { GameMeta } from "../lib/types";
+import {
+  WordleIcon,
+  QuordleIcon,
+  WorldleIcon,
+  FlagleIcon,
+  GlobleIcon,
+  TravleIcon,
+  StatesIcon,
+  ZipIcon,
+  ConnectionsIcon,
+  SudokuIcon,
+  MiniSudokuIcon,
+  MiniIcon,
+  DigitsIcon,
+  BeeIcon,
+  ChessIcon,
+  ProfileIcon,
+  TrophyIcon,
+} from "../components/icons";
 
 type HubStatus = PlayStatus | "none";
 
+const GAME_ICONS: Record<string, React.ComponentType<React.SVGProps<SVGSVGElement>>> = {
+  wordle: WordleIcon,
+  quordle: QuordleIcon,
+  worldle: WorldleIcon,
+  flagle: FlagleIcon,
+  globle: GlobleIcon,
+  travle: TravleIcon,
+  states: StatesIcon,
+  zip: ZipIcon,
+  connections: ConnectionsIcon,
+  sudoku: SudokuIcon,
+  "mini-sudoku": MiniSudokuIcon,
+  mini: MiniIcon,
+  digits: DigitsIcon,
+  bee: BeeIcon,
+  chess: ChessIcon,
+};
+
+// Dark ink instead of white: --brand-success (#4ebc85) and --brand-muted (#b899a3) are both too
+// light for white text to clear 4.5:1 (measured 2.37:1 / 2.59:1) — same fix pattern as Wordle's
+// tile text, see that game's theme.css comment.
 const STATUS_BADGE: Record<HubStatus, { label: string; className: string } | null> = {
-  won: { label: "✓ Solved", className: "bg-brand-success text-white" },
-  lost: { label: "Played", className: "bg-brand-muted text-white" },
+  won: { label: "✓ Solved", className: "bg-brand-success text-[#140c0f]" },
+  lost: { label: "Played", className: "bg-brand-muted text-[#140c0f]" },
   in_progress: { label: "In progress", className: "bg-brand-accent text-brand-accent-fg" },
   none: null,
 };
+
+// Flagship (order 1) and the closing unscored tile both get a wider card — everything else is a
+// plain 1x1 cell. A couple of size variants is enough rhythm for a 15-tile grid without turning
+// this into a layout system; at 375px MagicBento's own ResizeObserver collapses to 1 column
+// anyway (see MagicBento.tsx's MIN_CELL/MIN_PAIR), so the variation is a desktop-only effect.
+function spanFor(meta: GameMeta): { colSpan: number; rowSpan: number } {
+  if (meta.id === "wordle" || meta.id === "chess") return { colSpan: 2, rowSpan: 1 };
+  return { colSpan: 1, rowSpan: 1 };
+}
 
 function formatToday(date: string): string {
   return new Date(`${date}T00:00:00Z`).toLocaleDateString("en-US", {
@@ -37,6 +88,7 @@ export function Hub() {
   const [message, setMessage] = useState<FinaleMessage | null>(null);
   const { member } = useAuth();
   const reduceMotion = useReducedMotion();
+  const navigate = useNavigate();
   const [searchParams] = useSearchParams();
   // Carries dev's `?date=` override through to /finale (same reasoning as GameLayout's `?day=`
   // link building): a plain `<Link to="/finale">` would drop it, and todayKey() would revert to
@@ -92,6 +144,61 @@ export function Hub() {
     };
   }, [isBirthday, statusByGame]);
 
+  const tiles: MagicBentoItem[] = gameMetas.map((meta) => {
+    const unscored = meta.scored === false;
+    const isChess = meta.id === "chess";
+    const chessCount = chessBadge ? chessBadge.yourTurnCount + chessBadge.incomingChallengeCount : 0;
+    const badge = unscored ? null : STATUS_BADGE[statusByGame[meta.id] ?? "none"];
+    const Icon = GAME_ICONS[meta.id];
+    const { colSpan, rowSpan } = spanFor(meta);
+    const href = `/${meta.id}`;
+
+    return {
+      id: meta.id,
+      href,
+      colSpan,
+      rowSpan,
+      // A plain href would hard-reload the page; intercept the plain-click case only, so
+      // middle-click/ctrl/cmd-click "open in new tab" still works via the native anchor.
+      onClick: (event) => {
+        if (event.defaultPrevented || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0) {
+          return;
+        }
+        event.preventDefault();
+        navigate(href);
+      },
+      content: (
+        <div className="flex h-full flex-col gap-1.5">
+          <span aria-hidden className="absolute inset-x-0 top-0 h-1.5 rounded-t-[inherit]" style={{ backgroundColor: meta.hubAccent }} />
+          {Icon && (
+            <span className="text-game-accent" style={{ color: meta.hubAccent }}>
+              <Icon className="h-6 w-6" />
+            </span>
+          )}
+          <span className="truncate font-brand text-base font-semibold text-brand-fg">{meta.title}</span>
+          <span className="line-clamp-2 text-xs text-brand-muted">{meta.tagline}</span>
+          <span className="mt-auto pt-2">
+            {isChess && chessCount > 0 ? (
+              <span className="inline-flex items-center rounded-brand-full bg-brand-accent px-2 py-0.5 text-[11px] font-semibold text-brand-accent-fg">
+                {chessCount} {chessCount === 1 ? "game" : "games"} waiting
+              </span>
+            ) : unscored ? (
+              <span className="inline-flex items-center rounded-brand-full bg-brand-surface-2 px-2 py-0.5 text-[11px] font-semibold text-brand-muted">
+                Just for fun · unscored
+              </span>
+            ) : badge ? (
+              <span className={`inline-flex items-center rounded-brand-full px-2 py-0.5 text-[11px] font-semibold ${badge.className}`}>
+                {badge.label}
+              </span>
+            ) : (
+              <span className="text-[11px] font-semibold text-brand-muted">Play today →</span>
+            )}
+          </span>
+        </div>
+      ),
+    };
+  });
+
   return (
     <div className="min-h-screen bg-brand-bg">
       <a
@@ -105,9 +212,9 @@ export function Hub() {
           <Link
             to="/profile"
             aria-label="Profile"
-            className="flex h-11 w-11 items-center justify-center rounded-brand-full text-xl transition-colors duration-brand-fast hover:bg-brand-surface-2"
+            className="flex h-11 w-11 items-center justify-center rounded-brand-full text-brand-fg transition-colors duration-brand-fast hover:bg-brand-surface-2 hover:text-brand-accent"
           >
-            👤
+            <ProfileIcon className="h-5 w-5" />
           </Link>
         }
       />
@@ -158,58 +265,16 @@ export function Hub() {
 
         <LeaderboardCard />
 
-        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4">
-          {gameMetas.map((meta, i) => {
-            const unscored = meta.scored === false;
-            const isChess = meta.id === "chess";
-            const chessCount = chessBadge ? chessBadge.yourTurnCount + chessBadge.incomingChallengeCount : 0;
-            const badge = unscored ? null : STATUS_BADGE[statusByGame[meta.id] ?? "none"];
-            return (
-              <motion.div
-                key={meta.id}
-                initial={reduceMotion ? false : { opacity: 0, y: 12 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.3, delay: reduceMotion ? 0 : Math.min(i, 8) * 0.03 }}
-              >
-                <Link
-                  to={`/${meta.id}`}
-                  className="group relative flex h-full flex-col gap-1.5 overflow-hidden rounded-brand-lg border border-brand-border bg-brand-surface p-4 shadow-brand-sm transition-[transform,box-shadow] duration-brand-base ease-brand hover:-translate-y-1 hover:shadow-brand-md active:translate-y-0"
-                >
-                  <span
-                    aria-hidden
-                    className="absolute inset-x-0 top-0 h-1.5"
-                    style={{ backgroundColor: meta.hubAccent }}
-                  />
-                  <span className="truncate font-brand text-base font-semibold text-brand-fg">
-                    {meta.title}
-                  </span>
-                  <span className="line-clamp-2 text-xs text-brand-muted">{meta.tagline}</span>
-                  <span className="mt-auto pt-2">
-                    {isChess && chessCount > 0 ? (
-                      <span className="inline-flex items-center rounded-brand-full bg-brand-accent px-2 py-0.5 text-[11px] font-semibold text-brand-accent-fg">
-                        {chessCount} {chessCount === 1 ? "game" : "games"} waiting
-                      </span>
-                    ) : unscored ? (
-                      <span className="inline-flex items-center rounded-brand-full bg-brand-surface-2 px-2 py-0.5 text-[11px] font-semibold text-brand-muted">
-                        Just for fun · unscored
-                      </span>
-                    ) : badge ? (
-                      <span
-                        className={`inline-flex items-center rounded-brand-full px-2 py-0.5 text-[11px] font-semibold ${badge.className}`}
-                      >
-                        {badge.label}
-                      </span>
-                    ) : (
-                      <span className="text-[11px] font-semibold text-brand-muted group-hover:text-brand-accent">
-                        Play today →
-                      </span>
-                    )}
-                  </span>
-                </Link>
-              </motion.div>
-            );
-          })}
-        </div>
+        <MagicBento
+          items={tiles}
+          columns={3}
+          rowHeight={176}
+          gap={14}
+          radius={20}
+          theme="dark"
+          glowColor="#df497b"
+          intro={!reduceMotion}
+        />
       </main>
     </div>
   );
@@ -229,14 +294,17 @@ function LeaderboardCard() {
       to="/leaderboard"
       className="mb-6 flex items-center justify-between gap-3 rounded-brand-lg border border-brand-border bg-brand-surface px-4 py-3 shadow-brand-sm transition-[transform,box-shadow] duration-brand-base ease-brand hover:-translate-y-0.5 hover:shadow-brand-md"
     >
-      <span className="min-w-0">
-        <span className="block font-brand text-sm font-semibold text-brand-fg">
-          🏆 {activeGroup.name} leaderboard
-        </span>
-        <span className="block text-xs text-brand-muted">
-          {mine
-            ? `You're #${mine.rank} today with ${mine.points} point${mine.points === 1 ? "" : "s"}`
-            : "See how everyone's doing today"}
+      <span className="flex min-w-0 items-center gap-2">
+        <TrophyIcon className="h-5 w-5 shrink-0 text-brand-accent" aria-hidden />
+        <span className="min-w-0">
+          <span className="block font-brand text-sm font-semibold text-brand-fg">
+            {activeGroup.name} leaderboard
+          </span>
+          <span className="block text-xs text-brand-muted">
+            {mine
+              ? `You're #${mine.rank} today with ${mine.points} point${mine.points === 1 ? "" : "s"}`
+              : "See how everyone's doing today"}
+          </span>
         </span>
       </span>
       <span aria-hidden className="shrink-0 text-brand-muted">
