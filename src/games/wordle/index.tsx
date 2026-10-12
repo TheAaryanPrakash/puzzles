@@ -1,8 +1,4 @@
 import { useEffect, useMemo, useState } from "react";
-import "@fontsource/libre-franklin/400.css";
-import "@fontsource/libre-franklin/600.css";
-import "@fontsource/libre-franklin/700.css";
-import "@fontsource/dm-serif-display/400.css";
 import "./theme.css";
 import { GameLayout } from "../../components/GameLayout";
 import { HelpModal } from "../../components/HelpModal";

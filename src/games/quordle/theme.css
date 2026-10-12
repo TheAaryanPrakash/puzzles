@@ -1,34 +1,35 @@
-/* Quordle gets its own soft lavender-indigo family (not the site's pink) so it reads apart from
-   the hub chrome; its own tile feedback stays Wordle's trio (see wordle/theme.css) for the same
-   genre-consistency reason the original did. */
+/* Redesign (2026-10, pink-on-black): site base now shared across every game (CLAUDE.md "Design"),
+   so Quordle no longer carries its own lavender-indigo background family — the 4 board colours
+   below already give it plenty of distinct personality. Tile feedback trio matches Wordle's (see
+   wordle/theme.css) with the same dark-ink-on-bright-tile fix, for the same genre-consistency
+   reason the original did.
+
+   --quordle-board-1..4 are DELIBERATELY left at their pre-redesign values: logic.ts's
+   BOARD_COLORS constant must stay byte-for-byte in sync with these (the win-recap/share text
+   can't reach CSS vars — see logic.ts's own comment), and logic.ts is out of this pass's scope
+   (theme.css + index.tsx font imports only). Flagged in HANDOFF.md — updating these 4 to a
+   pink-on-black-tuned palette needs a follow-up pass that can touch logic.ts too. They already
+   pass >=4.5:1 white-on-colour (unchanged from the original check) and read fine on a dark board. */
 [data-game="quordle"] {
-  --game-bg: #f6f6f9;
-  --game-fg: #262430;
-  --game-surface: #fefefe;
-  --game-surface-2: #ebeaf1;
-  --game-border: #d7d5e2;
-  --game-accent: #5144a7;
-  --game-accent-fg: #ffffff;
-  --game-muted: #635e82;
-  --game-font: "Libre Franklin", sans-serif;
+  --game-accent: #43b17a;
+  --game-accent-fg: #0c1510;
 
   /* Wordle's own tile language — same colors, just denser tiles (see Board.tsx/theme below). */
-  --tile-correct: #367846;
-  --tile-present: #8a6a28;
-  --tile-absent: #6d757e;
+  --tile-correct: #43b17a;
+  --tile-present: #e4a944;
+  --tile-absent: #54454a;
 
-  /* One tint per board: a subtle border + the quadrant keyboard color, in board order. Kept away
-     from the tile-state greens/yellows above so a tinted border never reads as "correct"/"present".
-     Softened from the first pass but still >=4.5:1 contrast against white text (they're also
-     used as a white-on-color badge fill in Board.tsx and the win recap) — see logic.ts BOARD_COLORS,
-     which must stay in sync since the win recap can't reach these CSS vars (see its own comment).
-     board-3/board-4 sit closer together than ideal under deuteranopia after the contrast fix pulled
-     both toward warm browns; boards are also distinguished by fixed quadrant position and distinct
-     words, so this is a documented, accepted tradeoff (see docs/theme/README.md). */
   --quordle-board-1: #5144a7; /* indigo */
   --quordle-board-2: #2d766f; /* teal */
   --quordle-board-3: #b43f2d; /* terracotta */
   --quordle-board-4: #726a18; /* amber */
 
   --quordle-tile-gap: 0.1875rem;
+}
+
+/* Same Tile.tsx-hardcodes-text-white issue as Wordle (see wordle/theme.css's comment for the full
+   explanation of why this is a CSS override here rather than a darkened swatch). */
+[data-game="quordle"] .bg-tile-correct,
+[data-game="quordle"] .bg-tile-present {
+  color: #140c0f;
 }

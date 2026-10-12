@@ -1,32 +1,32 @@
-/* Soft wordle: a bare whisper of warm green tint instead of stark white, green/gold/warm-grey
-   feedback softened from the original NYT hues — each still clears 4.5:1 with the white tile
-   letters, and the trio keeps the best colour-blindness separation we found (see
-   docs/theme/README.md "Wordle feedback trio"); grey nudges slightly cool so it doesn't collapse
-   into the green under deuteranopia/protanopia the way a fully warm grey did in testing. */
+/* Redesign (2026-10, pink-on-black): the site base (bg/surface/border/fg/muted) is shared across
+   every game now — see CLAUDE.md "Design" — so this file only sets Wordle's own accent and its
+   tile feedback trio. Green/gold/warm-grey kept from the original light-theme choice (still clears
+   AA against the near-black tiles and keeps the best colour-blindness separation we found — see
+   docs/theme/README.md "Wordle feedback trio" for the original testing notes; re-verified here
+   against the new dark backgrounds). These are the exact swatches approved at Checkpoint 1
+   (docs/redesign/checkpoint-1/colors.png). */
 [data-game="wordle"] {
-  --game-bg: #f7faf8;
-  --game-fg: #1c221d;
-  --game-surface: #ffffff;
-  --game-surface-2: #edf2ee;
-  --game-border: #d0dcd3;
-  --game-accent: #367846;
-  --game-accent-fg: #ffffff;
-  --game-muted: #617266;
-  --game-font: "Libre Franklin", sans-serif;
+  --game-accent: #43b17a;
+  --game-accent-fg: #0c1510;
 
   /* Square tiles — no rounding, per the original. */
   --tile-radius: 0px;
-  --tile-empty: #ffffff;
-  --tile-filled: #ffffff;
-  --tile-fg: #1c221d;
-  --tile-selected: #617266;
-  --tile-correct: #367846;
-  --tile-present: #8a6a28;
-  --tile-absent: #6d757e;
+  --tile-empty: var(--game-surface);
+  --tile-filled: var(--game-surface-2);
+  --tile-fg: var(--game-fg);
+  --tile-selected: var(--brand-ring);
+  --tile-correct: #43b17a;
+  --tile-present: #e4a944;
+  --tile-absent: #54454a;
 }
 
-/* The title alone uses the serif display face; body copy stays on Libre Franklin. */
-[data-game="wordle"] header h1 {
-  font-family: "DM Serif Display", serif;
-  letter-spacing: 0.02em;
+/* Tile.tsx hardcodes `text-white` on the filled/correct/present/absent state classes (not a
+   theme-aware token) — at these Checkpoint-1-approved brightnesses, white only clears ~2.1-2.7:1
+   on correct/present (fails 4.5:1; fine on absent's dark grey, 9:1). Rather than darken the
+   approved swatches themselves, override the ink via CSS: `[data-game] .bg-tile-X` has higher
+   specificity (0,2,0) than Tailwind's bare `.text-white` (0,1,0), so this wins regardless of
+   source order without touching Tile.tsx. Dark ink on correct/present clears 6.8:1 / 8.8:1. */
+[data-game="wordle"] .bg-tile-correct,
+[data-game="wordle"] .bg-tile-present {
+  color: #140c0f;
 }
