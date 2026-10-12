@@ -1,30 +1,29 @@
-/* Exception within an exception: Globle keeps the night-globe darkness — softening it toward a
-   light pastel would wreck the "warm heat scale glowing on a dark globe" effect the original
-   relies on — but the deep crimson accent measured only ~2.9:1 as text against its own dark
-   surfaces (the header-hover/archive-link text every game renders via GameLayout, and the ring
-   focus color), a pre-existing gap. Brightened to a warm coral-red that clears 4.5:1 both as that
-   text AND with dark-navy text for its own background usage (so --game-accent-fg flips to the
-   ocean navy here, not white). See logic.ts for the heat-scale gradient itself (FAR_COLOR →
-   CLOSE_COLOR → SOLVED_COLOR), softened to match and re-checked for colour-blind separation. */
+/* Redesign (2026-10, pink-on-black): the "exception within an exception" pre-dating this redesign
+   (Globle kept its own navy night-globe darkness so the heat scale had somewhere dark to glow)
+   isn't needed any more — the shared site base is near-black now too (CLAUDE.md "Design") — so
+   --game-bg/surface/border/fg/muted are no longer overridden here. What stays Globle-specific: the
+   --globle-* tokens driving the actual 3D-ish globe render (Globe.tsx canvas fills/strokes — this
+   is the game's "texture," the one thing CLAUDE.md's Design section says a game may still own), and
+   --game-accent, re-picked from the Checkpoint-1-approved heat-scale "hot" swatch
+   (docs/redesign/checkpoint-1/colors.png) since it's also used as plain text (GameLayout's header-
+   hover/archive-link) — "warm" measured only 4.32:1 there, just under AA; "hot" clears 5.59-5.92:1
+   everywhere it's used, text and ring-focus alike, while staying in the same approved family.
+   FLAGGED: the heat-scale gradient itself (FAR_COLOR → CLOSE_COLOR) lives in logic.ts as hardcoded
+   RGB constants, out of this pass's scope (theme.css/index.tsx only) — see
+   docs/redesign/HANDOFF.md "Shared changes requested" for the full approved far/cool/warm/hot set
+   that still needs applying there. */
 [data-game="globle"] {
-  --game-bg: #12172b;
-  --game-fg: #eef1ff;
-  --game-surface: #171d38;
-  --game-surface-2: #1f2744;
-  --game-border: #323c6c;
-  --game-accent: #e46772;
-  --game-accent-fg: #12172b;
-  --game-muted: #93a0d2;
-  --game-font: "Space Grotesk", sans-serif;
+  --game-accent: #eb6347;
+  --game-accent-fg: #140c0f;
 
-  --tile-correct: #5fd9ab;
-  --tile-present: #c8404c;
-  --tile-absent: #323c6c;
+  --tile-correct: #43b17a;
+  --tile-present: #e4a944;
+  --tile-absent: #54454a;
 
   /* Globle-specific tokens, consumed by Globe.tsx/logic.ts's color helpers and components. */
-  --globle-ocean: #12172b;
-  --globle-unguessed: #1a2140;
-  --globle-graticule: #2b3350;
-  --globle-outline: #12172b;
-  --globle-glow: 0 0 18px rgba(228, 103, 114, 0.45);
+  --globle-ocean: #0c0709;
+  --globle-unguessed: #1c1215;
+  --globle-graticule: #3d2930;
+  --globle-outline: #0c0709;
+  --globle-glow: 0 0 18px rgba(235, 99, 71, 0.45);
 }

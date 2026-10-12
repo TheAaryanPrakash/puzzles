@@ -1,6 +1,4 @@
 import { useState } from "react";
-import "@fontsource/space-grotesk/400.css";
-import "@fontsource/space-grotesk/700.css";
 import "flag-icons/css/flag-icons.min.css";
 import "./theme.css";
 import { GameLayout } from "../../components/GameLayout";
