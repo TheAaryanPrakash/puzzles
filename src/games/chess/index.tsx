@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Link, useSearchParams } from "react-router";
-import "@fontsource/dm-serif-display/400.css";
+// IBM Plex Mono is kept deliberately for board coordinates (fixed-width alignment) — the one
+// exception to "one font everywhere"; see theme.css's comment and docs/redesign/HANDOFF.md.
 import "@fontsource/ibm-plex-mono/400.css";
 import "@fontsource/ibm-plex-mono/600.css";
 import "./theme.css";

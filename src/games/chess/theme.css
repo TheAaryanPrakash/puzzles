@@ -1,31 +1,29 @@
-/* Pink-family board (sits with the site's rose palette — see brand.css's own note on moving from
-   the original #E89E88 coral to a true 345° pink; this reuses that hue, not the superseded one).
-   Pieces (RhosGFX, public/assets/chess/pieces/) use a near-black outline (#1a1a1a) on every piece
-   regardless of colour, with cream fills for "white" and terracotta fills for "black" — contrast
-   below is checked against that outline (the piece's real silhouette) and against the move-dot/
-   coordinate colours chosen specifically to read on both tile shades. Contrast ratios (computed,
-   not eyeballed): --tile-light vs --tile-dark 2.99:1 (board pattern only needs to be visually
-   distinguishable as a checker, not WCAG text contrast); outline vs --tile-dark 4.73:1; move-dot
-   vs --tile-light 9.86:1 / vs --tile-dark 3.30:1 (passes the 3:1 non-text-UI-component minimum).
-   No site-wide dark mode exists yet (see RESEARCH.md) — this is the one (light) theme. */
+/* Redesign (2026-10, pink-on-black): site base now shared across every game (CLAUDE.md "Design").
+   Chess squares are the exact dark/light swatches approved at Checkpoint 1
+   (docs/redesign/checkpoint-1/colors.png) — both now mid-to-dark rose tones (unlike the old
+   near-white light square / medium-rose dark square), which meant every ink colour keyed off a
+   single "light square = pale, dark square = medium" assumption needed re-deriving, not just
+   reusing: light-vs-dark (checker distinguishability) 3.97:1; coord-on-light (new, dark ink —
+   the old var(--game-fg) read at only 2.8:1 against the new, more saturated light square) 5.74:1;
+   coord-on-dark (unchanged cream) 11.72:1; move-dot and the cursor/hint outline now also swap ink
+   per square the same way coords always did (added `[data-color]`-scoped rules below) —
+   dot-on-light 5.89:1, dot-on-dark 11.72:1, outline-on-light 3.70:1, outline-on-dark 5.09:1, all
+   re-computed, not eyeballed. Pieces (RhosGFX, public/assets/chess/pieces/) are unaffected —
+   near-black outline, cream "white" fills, terracotta "black" fills, same as before. */
 [data-game="chess"] {
-  --game-bg: #fbeef1;
-  --game-fg: #2b2320;
-  --game-surface: #fdfcfc;
-  --game-surface-2: #f6e3e8;
-  --game-border: #e3aebb;
-  --game-accent: #ad1f42;
-  --game-accent-fg: #ffffff;
-  --game-muted: #86505e;
-  --game-font: "DM Serif Display", serif;
+  --game-accent: #df497b;
+  --game-accent-fg: #250e16;
 
-  --tile-light: #f6e3e8;
-  --tile-dark: #bf6c87;
-  --tile-highlight: rgba(173, 31, 66, 0.32);
-  --tile-last-move: rgba(173, 31, 66, 0.18);
-  --tile-check: rgba(190, 48, 37, 0.55);
-  --tile-move-dot: #6b1029;
-  --tile-coord-on-light: var(--game-fg);
+  --tile-light: #ca729e;
+  --tile-dark: #4d2338;
+  --tile-highlight: rgba(223, 73, 123, 0.32);
+  --tile-last-move: rgba(223, 73, 123, 0.18);
+  --tile-check: rgba(224, 101, 82, 0.55);
+  --tile-move-dot-on-light: #140c0f;
+  --tile-move-dot-on-dark: #fff2d4;
+  --tile-outline-on-light: #6b1029;
+  --tile-outline-on-dark: #f47ba3;
+  --tile-coord-on-light: #210a12;
   --tile-coord-on-dark: #fff2d4;
 
   --chess-mono-font: "IBM Plex Mono", monospace;
@@ -53,13 +51,22 @@
 [data-game="chess"] .chess-square[data-selected="true"] {
   background-image: linear-gradient(var(--tile-highlight), var(--tile-highlight));
 }
-[data-game="chess"] .chess-square[data-cursor="true"] {
-  outline: 3px solid var(--game-accent);
+[data-game="chess"] .chess-square[data-cursor="true"][data-color="light"] {
+  outline: 3px solid var(--tile-outline-on-light);
   outline-offset: -3px;
   z-index: 1;
 }
-[data-game="chess"] .chess-square[data-hint="true"] {
-  outline: 3px dashed var(--game-accent);
+[data-game="chess"] .chess-square[data-cursor="true"][data-color="dark"] {
+  outline: 3px solid var(--tile-outline-on-dark);
+  outline-offset: -3px;
+  z-index: 1;
+}
+[data-game="chess"] .chess-square[data-hint="true"][data-color="light"] {
+  outline: 3px dashed var(--tile-outline-on-light);
+  outline-offset: -3px;
+}
+[data-game="chess"] .chess-square[data-hint="true"][data-color="dark"] {
+  outline: 3px dashed var(--tile-outline-on-dark);
   outline-offset: -3px;
 }
 
@@ -76,14 +83,25 @@
   width: 28%;
   height: 28%;
   border-radius: 999px;
-  background: var(--tile-move-dot);
   box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.65);
+}
+[data-game="chess"] .chess-square[data-color="light"] .chess-move-dot::after {
+  background: var(--tile-move-dot-on-light);
+}
+[data-game="chess"] .chess-square[data-color="dark"] .chess-move-dot::after {
+  background: var(--tile-move-dot-on-dark);
 }
 [data-game="chess"] .chess-move-dot[data-capture="true"]::after {
   width: 86%;
   height: 86%;
   background: transparent;
-  box-shadow: inset 0 0 0 4px var(--tile-move-dot);
+  box-shadow: none;
+}
+[data-game="chess"] .chess-square[data-color="light"] .chess-move-dot[data-capture="true"]::after {
+  box-shadow: inset 0 0 0 4px var(--tile-move-dot-on-light);
+}
+[data-game="chess"] .chess-square[data-color="dark"] .chess-move-dot[data-capture="true"]::after {
+  box-shadow: inset 0 0 0 4px var(--tile-move-dot-on-dark);
 }
 
 [data-game="chess"] .chess-coord {
