@@ -10,6 +10,7 @@ import { Button } from "../../components/Button";
 import { usePuzzle, usePlay } from "../../lib/hooks";
 import { dayIndex } from "../../lib/daily";
 import { formatGuesses } from "../../lib/format";
+import { noSwipeProps } from "../../lib/noSwipe";
 import { meta } from "./meta";
 import {
   BOARD_COLORS,
@@ -153,7 +154,7 @@ export default function QuordleGame() {
       {play && play.status !== "in_progress" && !resultOpen && <AlreadyPlayed status={play.status} />}
 
       <div className="mx-auto flex max-w-xs flex-col items-center gap-3">
-        <div className="grid w-full grid-cols-2 gap-2">
+        <div className="grid w-full grid-cols-2 gap-2" {...noSwipeProps}>
           {activePuzzle.answers.map((answer, i) => {
             const solvedAt = boardSolvedAt(state.guesses, answer);
             return (

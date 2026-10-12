@@ -3,6 +3,7 @@ import { geoOrthographic, geoPath, geoGraticule10 } from "d3-geo";
 import type { GeoPermissibleObjects } from "d3-geo";
 import { animate } from "motion";
 import type { CountryFeatureCollection } from "../worldData";
+import { noSwipeProps } from "../../../lib/noSwipe";
 
 export interface GlobeProps {
   countries: CountryFeatureCollection;
@@ -245,7 +246,11 @@ export function Globe({ countries, fillForCode, className = "" }: GlobeProps) {
   }
 
   return (
-    <div ref={containerRef} className={`mx-auto aspect-square w-full max-w-[520px] ${className}`}>
+    <div
+      ref={containerRef}
+      className={`mx-auto aspect-square w-full max-w-[520px] ${className}`}
+      {...noSwipeProps}
+    >
       <canvas
         ref={canvasRef}
         role="img"

@@ -2,6 +2,7 @@ import { useRef, useState, type PointerEvent as ReactPointerEvent } from "react"
 import { Chess, type Square } from "chess.js";
 import { Piece } from "./Piece";
 import type { Side } from "../logic";
+import { noSwipeProps } from "../../../lib/noSwipe";
 
 export const FILES = ["a", "b", "c", "d", "e", "f", "g", "h"] as const;
 const PIECE_NAMES: Record<string, string> = { p: "pawn", n: "knight", b: "bishop", r: "rook", q: "queen", k: "king" };
@@ -121,6 +122,7 @@ export function Board({
       onPointerMove={handlePointerMove}
       onPointerUp={handlePointerUp}
       onPointerCancel={() => setDrag(null)}
+      {...noSwipeProps}
     >
       {squares.map((square) => {
         const piece = chess.get(square);

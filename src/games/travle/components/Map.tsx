@@ -3,6 +3,7 @@ import { geoNaturalEarth1, geoPath } from "d3-geo";
 import type { ExtendedFeatureCollection } from "d3-geo";
 import type { GuessCategory, TravlePuzzle } from "../logic";
 import type { CountryFeature } from "../useCountryGeo";
+import { noSwipeProps } from "../../../lib/noSwipe";
 
 const WIDTH = 960;
 const HEIGHT = 500;
@@ -63,6 +64,7 @@ export function Map({ puzzle, features, categories }: MapProps) {
       className="w-full rounded-brand-md"
       aria-hidden="true"
       role="presentation"
+      {...noSwipeProps}
     >
       <rect x={0} y={0} width={WIDTH} height={HEIGHT} fill="var(--travle-sea)" />
       <g>

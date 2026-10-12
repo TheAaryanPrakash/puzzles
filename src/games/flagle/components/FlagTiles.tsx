@@ -1,5 +1,6 @@
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { GRID_COLS, GRID_ROWS, TOTAL_TILES } from "../logic";
+import { noSwipeProps } from "../../../lib/noSwipe";
 
 export interface FlagTilesProps {
   /** ISO 3166-1 alpha-2 code, lowercased for the flag-icons class. */
@@ -19,6 +20,7 @@ export function FlagTiles({ code, hidden, revealed }: FlagTilesProps) {
     <div
       className="relative aspect-[4/3] w-full overflow-hidden rounded-tile border border-game-border bg-game-surface-2"
       style={{ perspective: "800px" }}
+      {...noSwipeProps}
     >
       <div
         aria-hidden

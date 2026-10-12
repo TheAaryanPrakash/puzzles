@@ -1,4 +1,5 @@
 import { motion, useReducedMotion } from "motion/react";
+import { noSwipeProps } from "../../../lib/noSwipe";
 
 export type SilhouetteStatus = "playing" | "won" | "lost";
 
@@ -23,7 +24,7 @@ export function Silhouette({ path, viewBox, status, name }: SilhouetteProps) {
   const reduceMotion = useReducedMotion();
 
   return (
-    <figure className="mx-auto flex max-w-[280px] flex-col items-center gap-2">
+    <figure className="mx-auto flex max-w-[280px] flex-col items-center gap-2" {...noSwipeProps}>
       <svg
         viewBox={viewBox}
         className="w-full drop-shadow-sm"

@@ -1,3 +1,5 @@
+import { noSwipeProps } from "../../../lib/noSwipe";
+
 interface SilhouetteProps {
   d: string;
   viewBox: string;
@@ -12,6 +14,7 @@ export function Silhouette({ d, viewBox, label }: SilhouetteProps) {
       viewBox={viewBox}
       role="img"
       aria-label={label}
+      {...noSwipeProps}
     >
       <path d={d} />
     </svg>

@@ -1,5 +1,6 @@
 import { motion, useReducedMotion } from "motion/react";
 import type { Cursor, MiniPuzzle } from "../logic";
+import { noSwipeProps } from "../../../lib/noSwipe";
 
 export interface MiniGridProps {
   puzzle: MiniPuzzle;
@@ -30,6 +31,7 @@ export function MiniGrid({
       aria-label="Crossword grid"
       aria-rowcount={puzzle.size}
       aria-colcount={puzzle.size}
+      {...noSwipeProps}
     >
       {puzzle.cells.map((cell, i) => {
         const row = Math.floor(i / puzzle.size);

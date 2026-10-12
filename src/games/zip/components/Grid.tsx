@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import { motion, useReducedMotion } from "motion/react";
 import { checkpointAt, type Cell, type ZipPuzzle } from "../logic";
+import { noSwipeProps } from "../../../lib/noSwipe";
 
 // Keep these two in sync with theme.css's --zip-path-start/--zip-path-end: SVG `stroke` can't
 // portably resolve a gradient-along-a-path from a CSS custom property, so the tube's color is
@@ -86,6 +87,7 @@ export function ZipGrid({ puzzle, path, onInteract, readOnly, compact }: ZipGrid
       onPointerMove={handlePointerMove}
       onPointerUp={endDrag}
       onPointerCancel={endDrag}
+      {...noSwipeProps}
     >
       {/* Cell backgrounds */}
       <div className="absolute inset-0 grid overflow-hidden rounded-tile border border-game-border" style={gridTemplate}>

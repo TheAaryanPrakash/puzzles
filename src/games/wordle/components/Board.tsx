@@ -1,5 +1,6 @@
 import { Tile, FLIP_STAGGER, type TileVisualState } from "./Tile";
 import { rowFeedback, MAX_GUESSES, WORD_LENGTH } from "../logic";
+import { noSwipeProps } from "../../../lib/noSwipe";
 
 export interface BoardProps {
   guesses: string[];
@@ -23,7 +24,7 @@ export function Board({
   const rows = Array.from({ length: MAX_GUESSES }, (_, i) => i);
 
   return (
-    <div className="flex flex-col gap-1.5" role="group" aria-label="Game board">
+    <div className="flex flex-col gap-1.5" role="group" aria-label="Game board" {...noSwipeProps}>
       {rows.map((rowIndex) => {
         const guess = guesses[rowIndex];
         const isCurrentRow = rowIndex === guesses.length;

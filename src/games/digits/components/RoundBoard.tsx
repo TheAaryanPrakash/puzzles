@@ -2,6 +2,7 @@ import { useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { Button } from "../../../components/Button";
 import { NumberCircle } from "./NumberCircle";
+import { noSwipeProps } from "../../../lib/noSwipe";
 import {
   deriveTiles,
   evalOp,
@@ -111,6 +112,7 @@ export function RoundBoard({
         animate={shouldReduceMotion || shakeToken === 0 ? { x: 0 } : { x: [0, -8, 8, -6, 6, 0] }}
         transition={{ duration: 0.4 }}
         className="flex w-full flex-wrap items-center justify-center gap-3"
+        {...noSwipeProps}
       >
         <AnimatePresence mode="popLayout">
           {tiles.map((tile) => (

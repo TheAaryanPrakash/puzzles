@@ -1,6 +1,7 @@
 import { useEffect, useRef, type KeyboardEvent } from "react";
 import { motion, useReducedMotion, AnimatePresence } from "motion/react";
 import { type BoardConfig, type Grid, type NotesGrid, type Highlight, isGiven } from "../engine";
+import { noSwipeProps } from "../../../../lib/noSwipe";
 
 export interface BoardProps {
   /** aria-label for the grid; defaults to "Sudoku board" so sudoku needn't pass it. */
@@ -84,6 +85,7 @@ export function Board({
       aria-rowcount={config.size}
       aria-colcount={config.size}
       onKeyDown={handleKeyDown}
+      {...noSwipeProps}
       animate={solved && !reduceMotion ? { scale: [1, 1.015, 1] } : { scale: 1 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
       className="mx-auto grid w-full max-w-[min(92vw,28rem)] gap-[2px] rounded-tile bg-game-border p-[2px]"

@@ -9,6 +9,7 @@ import { AlreadyPlayed } from "../../components/AlreadyPlayed";
 import { Button } from "../../components/Button";
 import { usePuzzle, usePlay } from "../../lib/hooks";
 import { dayIndex } from "../../lib/daily";
+import { noSwipeProps } from "../../lib/noSwipe";
 import { meta } from "./meta";
 import {
   DEFAULT_STATE,
@@ -170,7 +171,7 @@ export default function ConnectionsGame() {
       {play && play.status !== "in_progress" && !resultOpen && <AlreadyPlayed status={play.status} />}
 
       <div className="flex flex-col items-center gap-4">
-        <div className="grid w-full max-w-md grid-cols-4 gap-2">
+        <div className="grid w-full max-w-md grid-cols-4 gap-2" {...noSwipeProps}>
           <AnimatePresence>
             {solved.map((group, i) => (
               <SolvedGroupBar key={group.label} group={group} index={i} reduceMotion={reduceMotion} />

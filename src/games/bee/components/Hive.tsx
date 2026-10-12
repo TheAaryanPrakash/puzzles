@@ -1,4 +1,5 @@
 import { motion, useReducedMotion } from "motion/react";
+import { noSwipeProps } from "../../../lib/noSwipe";
 
 export interface HiveProps {
   center: string;
@@ -82,6 +83,7 @@ export function Hive({ center, outer, onLetterTap, disabled, shakeNonce, popNonc
         width: "calc(var(--bee-hex-size) * 3.2)",
         height: "calc(var(--bee-hex-size) * 3.6)",
       }}
+      {...noSwipeProps}
     >
       {reduceMotion || shakeNonce === 0 ? (
         frame
