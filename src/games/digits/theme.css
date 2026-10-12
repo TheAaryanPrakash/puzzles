@@ -1,27 +1,23 @@
-/* Soft tangerine: a step more orange/yellow than the site's pink hue so the two don't blur
-   together on the hub. --game-accent is darkened off the tangerine until it cleared 4.5:1 as
-   text (header hover/archive link, via GameLayout); the pastel round circles stay light and airy
-   since they only ever carry --game-fg text, not accent text. */
+/* Redesign (2026-10, pink-on-black): site base now shared across every game (CLAUDE.md "Design").
+   --game-accent moves to the approved present/gold swatch (docs/redesign/checkpoint-1/colors.png)
+   — 9.3:1/8.77:1 as text against bg/surface, 9.23:1 for dark ink on it as a fill. The pastel round
+   circles are kept deliberately LIGHT (unlike every other token here) — against the new near-black
+   board they read as bright confetti-like tiles rather than blending in, which fits "flowy and
+   playful" better than darkening them would, and their existing dark ink (--digits-tile-fg) still
+   clears AA on every one of them unchanged. */
 [data-game="digits"] {
-  --game-bg: #fbf6f1;
-  --game-fg: #352b22;
-  --game-surface: #fdfcfc;
-  --game-surface-2: #f5e7db;
-  --game-border: #e7d5c6;
-  --game-accent: #9c581c;
-  --game-accent-fg: #ffffff;
-  --game-muted: #7a6552;
-  --game-font: "Libre Franklin", sans-serif;
+  --game-accent: #e4a944;
+  --game-accent-fg: #140c0f;
 
   /* Kept at their brand.css defaults — Digits doesn't have Wordle-style letter feedback, but the
      tokens stay defined so nothing that reads them (e.g. a future shared component) breaks. */
-  --tile-correct: #367846;
-  --tile-present: #8a6a28;
-  --tile-absent: #6d757e;
+  --tile-correct: #43b17a;
+  --tile-present: #e4a944;
+  --tile-absent: #54454a;
 
-  /* One pastel per round (1-indexed via [data-round]) for the "pastel circles" board — chosen with
-     enough contrast against --game-fg for AA on body text at the tile's size (checked with
-     web-design-guidelines). */
+  /* One pastel per round (1-indexed via [data-round]) for the "pastel circles" board — kept light
+     on purpose (see file comment above); unchanged from the original, still clears AA with
+     --digits-tile-fg's dark ink. */
   --digits-round-1: #f1d0d5;
   --digits-round-2: #d0f1e0;
   --digits-round-3: #d0e3f1;
@@ -30,13 +26,13 @@
 
   --digits-tile-fg: #352b22;
   --digits-tile-border: rgba(53, 43, 34, 0.12);
-  --digits-tile-selected: #9c581c;
-  --digits-tile-selected-fg: #ffffff;
+  --digits-tile-selected: #e4a944;
+  --digits-tile-selected-fg: #140c0f;
   --digits-tile-disabled: #efe6df;
 
-  --digits-op-bg: #352b22;
-  --digits-op-fg: #ffffff;
-  --digits-op-selected: #9c581c;
+  --digits-op-bg: #f5eaee;
+  --digits-op-fg: #140c0f;
+  --digits-op-selected: #e4a944;
 }
 
 [data-game="digits"] [data-round="1"] {
