@@ -123,3 +123,37 @@ and demo-prop fixes above) at `docs/redesign/checkpoint-1/`:
 
 Waiting on the human's choices (font, exact colour tuning, icon approach) before the Build phase
 starts.
+
+## Build phase — multi-group leaderboard check (item 8)
+
+Font (Quicksand) and colours approved; Build phase started 2026-10-12. This section covers one
+parallel chunk of it: "seed a local user in 3 groups with overlapping members... verify the
+site-wide board counts each person ONCE... add PGlite tests for site-wide no-double-counting and
+group isolation."
+
+**Production SQL (`0004_groups.sql`'s `leaderboard()`): no bug found.** Its `member_scope` CTE
+selects distinct rows straight from `profiles` for `scope='global'` rather than joining
+`group_members` — structurally incapable of fanning a member's points out across their several
+group memberships. Added 6 new PGlite assertions to `supabase/tests/schema.test.mjs` proving this
+for a member (E) in 3 overlapping groups: her own board in each of the 3 groups, and the global
+board, all show her one real win as 1 point/1 win/1 played — not 3× — plus isolation for a member
+who *left* a group (not just one who never joined, which was already covered). **Verified these
+tests actually catch the bug class**: temporarily patched `member_scope` to join `group_members`
+(the fan-out shape these tests exist to rule out), reran `pnpm test:db`, watched the new "sums
+once" assertion fail (100 passed, 1 failed), then reverted the migration file — `git status` confirms
+zero diff on it now.
+
+**Local dev adapter (`local.ts`): one real bug found and fixed.** Its global leaderboard deduped
+members by `displayName`, not `userId` — harmless today only because the local fixture's one
+simulated identity always uses the same constant display name, but a real latent bug: two
+*different* people sharing a display name would have wrongly collapsed into one leaderboard row.
+Fixed by deduping on `userId` instead (keeping the first `displayName` seen per id). The public
+`DataSource` API has no way to add a *third party* to an existing local group (only the one
+simulated user can join/create), so testing genuine overlap needed direct seeding — exported
+`writeGroups`/`writeMembers` from `local.ts` (parallel to the already-exported `readGroups`/
+`readMembers`) for `local.test.ts` to use. Two new tests: a member in 3 overlapping groups appears
+once on the global board; a group's board never includes someone who only shares a *different*
+group. **Verified these catch a regression** the same way — reverted the dedup fix locally, reran,
+watched `expected 3 to be 1`, restored the fix.
+
+`pnpm test`: 836 passing (was 834). `pnpm test:db`: 101 passing (was 95).
