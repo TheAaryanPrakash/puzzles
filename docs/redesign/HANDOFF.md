@@ -157,3 +157,182 @@ group. **Verified these catch a regression** the same way — reverted the dedup
 watched `expected 3 to be 1`, restored the fix.
 
 `pnpm test`: 836 passing (was 834). `pnpm test:db`: 101 passing (was 95).
+
+## Build phase — all 15 games' theme.css + font cleanup (item 1, second half)
+
+Every `src/games/<id>/theme.css` rewritten to pink-on-black and every per-game `@fontsource`
+import removed from `index.tsx` (15 games). Site base (`--game-bg`/`surface`/`surface-2`/`border`/
+`fg`/`muted`) is no longer overridden per-game anywhere — CLAUDE.md's rewritten "Design" section
+says games differentiate through colour/tile/texture, not a separate background, so every game now
+inherits the one shared near-black base from `brand.css` and differentiates only through its own
+accent + semantic tile colours.
+
+**A real contrast bug found across the approved Checkpoint-1 swatches**: the swatches in
+`colors.png` were contrast-checked as *text/accent-on-black* pairs, but several games render the
+exact same tokens as a **solid fill with hardcoded white text** (`Tile.tsx` in Wordle/Quordle:
+`text-white` is a plain Tailwind class, not theme-aware). White-on-`correct`(#43b17a) measures
+2.69:1, white-on-`present`(#e4a944) 2.09:1 — both fail 4.5:1 outright. Rather than darken the
+*approved* swatches (the human already signed off on them visually), fixed the ink side instead:
+`[data-game="X"] .bg-tile-correct { color: #140c0f }` etc. in Wordle/Quordle's theme.css — this
+selector's specificity (0,2,0: one attribute + one class) beats Tailwind's bare `.text-white`
+(0,1,0) regardless of source order, so it overrides without touching `Tile.tsx`. Chess hit the
+same issue on its own re-derived square colours (now both mid-tone rose, where the pre-redesign
+"light square = near-white, dark square = medium-rose" assumption no longer held) — fixed the same
+way but using chess's own existing per-square-ink pattern (`--tile-coord-on-light/dark`), extended
+to two new pairs (`--tile-move-dot-on-light/dark`, `--tile-outline-on-light/dark`) since the
+cursor/hint outline and the move-dot both needed per-square ink too (outline via `--game-accent`
+directly on the new light square measured 1.19:1). Every number in both games' theme.css comments
+is freshly computed (WCAG relative-luminance formula, not eyeballed) — see the two files for exact
+figures. **Worth flagging to whoever designs future Checkpoint-N swatch sheets**: if a swatch will
+ever be used as a solid fill with a *fixed* text colour (not a per-swatch paired `-fg` token), test
+white-on-swatch and dark-on-swatch at swatch-selection time, not after the fact.
+
+**5 games had no Checkpoint-1 swatch** (worldle, flagle, travle, states, digits) — used judgment:
+- **Worldle**'s 4-step proximity scale reuses the *already-approved* Globle heat-scale family
+  (`far`/`cool`/`warm`/`hot`) — same "closer = hotter" concept, deliberate reuse not a new palette.
+  Its country-silhouette SVG flips from dark-fill-on-light-map to light-fill-on-dark-map (the old
+  near-black fill would have vanished into the new near-black map surface otherwise).
+- **Flagle** keeps its "neutral surface, let the flag be the only strong colour" strategy — now a
+  neutral *dark* instead of neutral *light*; `tile-correct`/`present` are plain approved swatches
+  (used as text, not fills, in `GuessHistory.tsx`).
+  dark pink-tinted sea now; start/end markers re-picked from the approved family for contrast against
+- **Travle**'s dot/map-fill trio is the plain approved Wordle-family swatches (no text sits on
+  these colours anywhere — confirmed in `GuessList.tsx`/`Map.tsx`); the atlas itself goes from a
+  pale sea/land map to a dark one, start/end markers re-picked from the approved palette for pop.
+- **States**'s `--game-accent` moves from rust to the approved "hot" coral (text-contrast re-
+  derived: 5.92:1/5.59:1); `--states-indigo` and the silhouette fills are SVG-only (the file's own
+  pre-existing comment exempts them from AA) and were nudged brighter for visibility on black,
+  not rigorously re-derived — lower priority, flagged here rather than silently left exact.
+- **Digits**'s 5 pastel round-circles are kept deliberately LIGHT (the one place nothing was
+  inverted to dark) — on the new near-black board they read as confetti rather than needing to
+  blend in, and their existing dark ink still clears AA against every one unchanged.
+
+**Two intentional non-Quicksand font exceptions**, both functional (tabular-figure alignment for a
+monospace digit/coordinate grid), not decorative — removed from "one font everywhere" on purpose,
+documented in each theme.css's own comment:
+- **Sudoku** (and Mini Sudoku, via the shared `Board.tsx`): IBM Plex Mono on the digit grid only;
+  chrome (title, buttons) is Quicksand like everywhere else.
+- **Chess**: IBM Plex Mono on the board's rank/file coordinate labels only.
+
+**3 colour values deliberately left UNCHANGED — out of this pass's scope, flagged as "shared
+changes requested"**: each pairs a CSS custom property (in scope) with a hardcoded JS/TS constant
+in that game's `logic.ts` or `components/Grid.tsx` (out of scope — this pass was theme.css +
+index.tsx font imports only) that **must stay byte-for-byte in sync** per each file's own existing
+comment, since CSS custom properties can't reach into a `<canvas>`/SVG-`stroke`-interpolation
+context portably:
+- **Quordle**'s `--quordle-board-1..4` (indigo/teal/terracotta/amber) — synced with `logic.ts`'s
+  `BOARD_COLORS`, used for the win-recap/share text.
+- **Globle**'s heat-scale gradient — `logic.ts`'s `FAR_COLOR`/`CLOSE_COLOR` constants, currently
+  still pale-gold→crimson, NOT the approved far/cool/warm/hot swatches from Checkpoint 1 (the
+  `--globle-*` *surface* tokens in theme.css ARE updated; only the guess-heat gradient itself is
+  not, since it lives entirely in `logic.ts`).
+- **Zip**'s path gradient — `--zip-path-start`/`--zip-path-end` in theme.css now read pink→violet
+  (start matches the exact approved "zip path" swatch), but `Grid.tsx`'s own hardcoded hex
+  constants (its comment: "Keep these two in sync with theme.css's --zip-path-start/-end") were
+  not touched and still say orange→purple — these three will visually mismatch until a follow-up
+  pass with `logic.ts`/component access updates the JS side of each pair to match.
+
+`pnpm test`: 836 passing, unchanged by this pass (CSS/import-only). `pnpm build`: passes once the
+other two parallel forks' in-flight files also landed clean (saw transient TS errors from their
+uncommitted `MagicBento.tsx`/`local.test.ts` mid-run — not from this pass's files, confirmed via
+`git status` at the time).
+
+## Build phase — real fx component library (item 2) and GlideCombobox
+
+The `__preview__/` folder is gone — the real, adapted components now live directly at
+`src/components/fx/*.tsx` (+ `useSlotSpring.ts`, `GlideCombobox.tsx`), and
+`/dev/redesign-preview` is removed from `routes.tsx` along with it.
+
+**Most of the 7 were already more complete than `RESEARCH.md` suggested** — reading each
+component's actual source (not just the summary) found several "gaps" already closed:
+- `FluxLines` already reads `prefers-reduced-motion` internally and freezes `time` advancement
+  under it (acts as the brief's "still frame") — `RESEARCH.md` said it didn't. The one real gap:
+  no `aria-hidden`/`role="presentation"` on the wrapper — added.
+- `SpecularButton` already guards its idle auto-animation on `!reduce` (`spinning = s.autoAnimate
+  && !reduce`) — no wrapper override needed, contrary to `RESEARCH.md`'s "verify" note.
+- `FlipCard`, `JellyRadio`, `GlideSelect` — copied over unchanged; their ARIA/keyboard/reduced-motion
+  handling in source matched or exceeded what `RESEARCH.md` expected (`JellyRadio`'s roving
+  `tabIndex` + arrow-key nav was already correct, for instance).
+
+**`MagicBento` needed real surgery**, not a copy:
+- Removed the entire hard-coded SaaS demo-visual block (`DEFAULT_ITEMS`, the `MagicBentoVisual`
+  union + `visual` item field, `VISUALS` map, the 6 `*Visual` components, the chart-curve math, and
+  ~70 lines of demo-only CSS class constants — ~390 lines total). No `@hugeicons` import existed in
+  this file after all (unlike `CodeSlots`/`GlideSelect` — `RESEARCH.md`'s note about it applied to
+  the other two, not this one). The CSS rules in the `STYLE` template literal that targeted those
+  now-dead classes (`.magic-bento__chart`, `__bar`, `__hub-node`, `__switch`, etc., ~30 lines) were
+  **left in place** — they're inert (nothing can ever render those classes again) but harmless, and
+  surgically trimming a few hundred lines out of one large CSS-in-JS template string under time
+  pressure was a worse risk than the small bundle cost. Flagged here as a deferred cleanup, not
+  silently skipped.
+- Fixed a real a11y bug: a clickable item with no `href` rendered as `<div role="button"
+  tabIndex={0}>` with **no `onKeyDown`** — keyboard-focusable but Enter/Space did nothing (a
+  `role="button"` div doesn't get native key activation the way a real `<button>` does). Now
+  renders a real `<button type="button">` (with a small reset: `border-0 bg-transparent p-0
+  text-left` layered onto the same `CARD_CLASS`) when clickable and no `href`; an `<a>` when there
+  is one. Verified live: Enter/click both fire `onItemClick` now (see Testing below).
+- `disableAnimations` drove the JS animation engine's reduced-motion check correctly already (a
+  local `reduced` read inside the engine's own effect, independent of the prop), but the
+  CSS-attribute gate (`data-motion`/`data-intro`, used by the leftover demo CSS and the cell
+  intro-fade) only checked the explicit prop — out of sync. Added a `prefersReducedMotion` state
+  (matchMedia + change listener) and gate both attributes on `disableAnimations ||
+  prefersReducedMotion`, so a caller who forgets to pass `disableAnimations` still gets correct
+  behaviour from the OS setting.
+- `items` now defaults to `[]`, not demo content — callers (Hub, Profile, Leaderboard, later) must
+  pass their own tile data: `{ icon, title, description, href | onClick, colSpan?, rowSpan? }`.
+
+**`useSlotSpring`**: NOT a copy of `CodeSlots` — it owns nothing. Takes `filled: boolean[]` (one
+entry per tile slot) and returns one `{ fill, style: { transform, opacity } }` per slot, to spread
+onto whatever a game already renders. Deliberately avoids `useTransform` per slot in a variable-
+length array (a real Rules-of-Hooks hazard — hook call count must be stable across renders, and a
+`.map()` over a dynamically-sized array doesn't guarantee that is a rule, not just a lint nag);
+instead each slot gets its own plain `motionValue`s for `transform`/`opacity`, kept in sync
+imperatively via `animate()`'s `onUpdate` callback (or a direct `.set()` on a reduced-motion jump).
+Re-triggering a slot that's mid-animation jumps it back to 0 first, matching `CodeSlots`' own
+`land()` behaviour, so a fast retype still shows a visible spring rather than a half-finished jump.
+
+**`GlideCombobox`**: confirmed by reading its source that `GlideSelect` has no text input and no
+filter logic at all (matches `RESEARCH.md`'s finding) — this is a new component, reusing only
+`GlideSelect`'s visual language (corner-pop menu scale/opacity, a gliding highlight pill positioned
+via `offsetTop`/`offsetHeight` of the highlighted row) and listbox ARIA shape.
+
+**The States focus-loss bug named in the brief ("textbox goes passive until you click out and back
+in") could not be reproduced.** Read `src/games/states/components/StateCombobox.tsx`, then live-
+tested it (`playwright-cli`, headed): typed and submitted via Enter, typed and submitted via
+mouse-click on a dropdown option, repeated across several consecutive guesses — `document
+.activeElement` stayed on the input and it kept accepting keystrokes every time. The component
+already does the two things that actually prevent this bug:
+1. `onMouseDown` (not `onClick`) + `e.preventDefault()` on every option — stops the browser's
+   native mousedown-triggered focus shift before it happens, rather than reacting to it after.
+2. An explicit `inputRef.current?.focus()` immediately after committing a selection — a second,
+   independent guarantee, redundant when (1) already held focus but a real fix if focus were lost
+   for some unrelated reason (e.g. a parent re-render).
+Neither this component's `key` nor its mount condition (`{!over && <StateCombobox/>}`) changes on a
+non-game-ending guess, so there's no remount path either. **Conclusion**: either this was already
+fixed in an earlier pass on this file, or the brief describes behaviour from an older version not
+currently in the repo. `GlideCombobox` was still built defensively with both of the same guarantees
+(see its file-header comment) plus a third `StateCombobox` and `GlideSelect` didn't need: the input
+is never conditionally unmounted (no `{open && <input/>}`-shaped code anywhere), since a freshly
+mounted input is unfocused by definition even when nothing looks different on screen.
+
+**Testing**: built a throwaway smoke-test page (`src/pages/__smoketest.tsx` + a temporary
+`/dev/smoketest` route), verified all 7 components + `useSlotSpring` + `GlideCombobox` render with
+zero console errors (`playwright-cli open --headed`, per the WebGL gotcha above), exercised
+`GlideCombobox` end-to-end (type → filter → click an option → `onSubmit` fires with the right value
+→ input stays focused and clears), and exercised `MagicBento`'s new real-`<button>` tile (click
+fires `onItemClick`). Deleted the smoke-test page and route afterward — decided against keeping a
+permanent `/dev/fx` reference route for now, since the checkpoint-1 demo screenshots already serve
+that purpose and phase-2 game agents will see these components in real use (Header, HowToPlay,
+ResultModal, Hub) soon enough; worth reconsidering if later agents actually want one.
+
+`pnpm test`: 836 passing (unchanged by this chunk — no new tests added, this was component-library
+work, not app logic). `pnpm build` and `pnpm exec tsc -b --noEmit` both clean.
+
+**Shared changes requested** (for whoever builds the header/background-mount, HowToPlay modal,
+ResultModal and pages next): `FluxLines` is ready to mount at the app root as-is — no new wrapper
+needed, just pass a "calm" prop set (lower `speed`/`mouseStrength`, `mouseInteraction={false}`) for
+use inside game pages, and remember it needs `aria-hidden`'s parent container to have real
+dimensions (`height`/`width: 100%` of something sized) since the component itself is `h-full
+w-full`. `MagicBento`'s `items[].onClick` handler signature is `(event) => void` per item, separate
+from the top-level `onItemClick={(item, index) => void}` — either works, pick one convention for
+the Hub's 15 tiles rather than mixing.

@@ -11,7 +11,6 @@ import { Groups } from "./pages/Groups";
 import { Leaderboard } from "./pages/Leaderboard";
 import { Finale } from "./pages/Finale";
 import { DevThemes } from "./pages/DevThemes";
-import { DevRedesignPreview } from "./components/fx/__preview__/DevRedesignPreview";
 
 // Every game opts in just by existing at src/games/<id>/{meta.ts,index.tsx} — nothing to register.
 const metaModules = import.meta.glob("./games/*/meta.ts", { eager: true }) as Record<
@@ -77,9 +76,6 @@ export const routes: RouteObject[] = [
       { path: "/finale", element: <RequireMember><Finale /></RequireMember> },
       ...gameRoutes(),
       ...(import.meta.env.DEV ? [{ path: "/dev/themes", element: <DevThemes /> }] : []),
-      ...(import.meta.env.DEV
-        ? [{ path: "/dev/redesign-preview", element: <DevRedesignPreview /> }]
-        : []),
     ],
   },
 ];

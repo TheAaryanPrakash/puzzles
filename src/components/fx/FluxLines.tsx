@@ -536,6 +536,8 @@ const FluxLines = ({
       ref={containerRef}
       className={['relative h-full w-full overflow-hidden', className].filter(Boolean).join(' ')}
       style={mixBlendMode ? { ...style, mixBlendMode } : style}
+      aria-hidden="true"
+      role="presentation"
       {...rest}
     >
       <canvas ref={canvasRef} className="absolute inset-0 block h-full w-full" aria-hidden="true" />
