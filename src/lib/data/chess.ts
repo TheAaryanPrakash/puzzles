@@ -9,7 +9,7 @@
 // than anything more dynamic.
 import { getSupabaseClient, friendlyError } from "./supabase";
 import { getDevMember } from "../auth";
-import { readGroups, readMembers } from "./local";
+import { ensureSeedGroup, readGroups, readMembers } from "./local";
 import type { EndReason, Side, SideChoice } from "../../games/chess/logic";
 import { otherSide } from "../../games/chess/logic";
 
@@ -507,6 +507,7 @@ function randomToken(): string {
 }
 
 function localDisplayName(userId: string): string {
+  ensureSeedGroup();
   for (const group of readGroups()) {
     const member = readMembers(group.id).find((m) => m.userId === userId);
     if (member) return member.displayName;
@@ -515,6 +516,7 @@ function localDisplayName(userId: string): string {
 }
 
 function sharesAnyGroup(a: string, b: string): boolean {
+  ensureSeedGroup();
   return readGroups().some((g) => {
     const members = readMembers(g.id).map((m) => m.userId);
     return members.includes(a) && members.includes(b);
@@ -606,6 +608,7 @@ function findChallenge(opts: { id?: string; token?: string }): LocalChallenge | 
 
 const localChessDataSource: ChessDataSource = {
   async listOpponents(): Promise<ChessOpponent[]> {
+    ensureSeedGroup();
     const me = getDevMember().userId;
     const seen = new Set<string>();
     const result: ChessOpponent[] = [];

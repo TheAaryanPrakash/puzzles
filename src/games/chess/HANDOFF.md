@@ -135,8 +135,118 @@ single agent working directly on `main`, not a scoped worktree agent (CLAUDE.md 
 `src/lib/types.ts`/`routes.tsx` are normally "only the human changes them, on main," which is
 exactly what this is). `node scripts/check-scope.mjs chess` reports `CLAUDE.md` and
 `scripts/check-scope.mjs` for that same reason (the tooling file touching itself to add a scope
-entry is expected for any game's first one), plus `scripts/_check-today-plays.ts`, an untracked
-file that predates this work and wasn't touched here.
+entry is expected for any game's first one).
+
+(An untracked file, `scripts/_check-today-plays.ts`, used to sit here too — pre-existing, not part
+of this work. It was accidentally deleted by a `git clean` run during the "Play a Friend" pass
+below while chasing a bundle-size comparison; flagged to the human immediately when it happened,
+who confirmed it's fine to let go. Noted here in case it matters later.)
+
+## Play a Friend
+
+A second chess mode, added after the above: untimed correspondence chess between two site
+members, reusing `Board`, `logic.ts`, `theme.css` and (generalized, not forked) `GameResultModal`
+rather than duplicating them. Full design rationale (turns/concurrency, draw offers, abandonment,
+challenge links, rematch, spectating, Realtime) is in `RESEARCH.md`'s "Multiplayer" section; this
+records what was actually built.
+
+### Built
+
+- **`supabase/migrations/0005_chess.sql`** — `chess_challenges` and `chess_games`, RLS (a
+  spectator must share a group with **both** players — stricter than the friends-board policy's
+  one-sided check), and security-definer RPCs for every mutation (`create_challenge`,
+  `create_rematch`, `accept_challenge`, `decline_challenge`, `cancel_challenge`, `make_move`,
+  `resign`, `offer_draw`, `respond_draw`, `claim_abandoned`) plus reads (`challenge_preview`,
+  `chess_opponents`, `my_chess_games`, `my_chess_badge`, `my_chess_record`). `chess_games` is added
+  to the `supabase_realtime` publication, guarded for the PGlite test harness. Challenge expiry (3
+  days) and abandonment (7 days) are both computed lazily at read/claim time — no cron job, per the
+  task.
+- **`src/lib/data/chess.ts`** — the only chess code that talks to a backend for this mode. A
+  Supabase adapter (RPC wrappers + a `postgres_changes` Realtime subscription with a reconnect/
+  tab-focus refetch fallback) and a local dev adapter (`localStorage` + `BroadcastChannel`,
+  enforcing the same cap/turn/expiry/abandonment rules in plain TS). `no-datasource.test.ts` now
+  allows exactly this one `lib/data` import from `src/games/chess/friends/`, nothing else.
+- **`src/games/chess/friends/`** — `FriendsTab.tsx` (challenge creation/lists, games list sorted
+  your-turn-first, the challenge-link preview banner), `GameView.tsx` (the game itself — reuses
+  `Board`/`MoveList`/`CapturedPieces`/`PromotionPicker`, optimistic moves with rollback on refusal,
+  the draw-offer banner, a "Claim win" button once `isAbandonable` is true, read-only spectator
+  view), `NewChallengeModal.tsx` (pick a friend from `chess_opponents()` or make a link),
+  `useFriendGame.ts` (the live-game hook). `src/games/chess/components/ChessTabs.tsx` is the
+  Computer/Friends switcher — a plain `?tab=` navigation, not lifted state, so the two modes are
+  fully independent components and computer mode's own code didn't need to change shape at all.
+- **`logic.ts` extended, not forked**: `EndReason` gains `'draw-agreement'`/`'abandoned'`;
+  `otherSide`/`isExpired`/`isAbandonable` are new pure helpers (TS mirrors of the SQL); `kingSquare`
+  was pulled out of `index.tsx` (where it was a private helper) into `logic.ts` so both game views
+  share it instead of duplicating it. `GameResultModal`'s props were generalized (computer-mode
+  fields now optional, friend-mode fields added) — computer mode passes the exact same props as
+  before and its rendering is unchanged.
+- **Dev-only test infrastructure** (`src/lib/auth.tsx`): `?devUser=amal|riya` (two tabs can act as
+  two different seeded members — same ids `local.ts`'s `ensureSeedGroup()` already creates) and
+  `?devAuth=signed-out|signed-in-not-member` (simulates the states `RequireMember` needs a real
+  session for, so the challenge-link sign-in round trip is testable without Supabase/Google). Both
+  are inert unless passed explicitly.
+- **Challenge-link survival through sign-in**: `saveChallengeToken`/`readChallengeToken`/
+  `clearChallengeToken` in `auth.tsx`, threaded through `SignIn.tsx` and `Join.tsx` exactly
+  alongside the existing `?invite=` handling.
+- **Hub card badge** (`src/pages/Hub.tsx`): "N games waiting" (your-turn count + incoming
+  challenges) replaces the "Just for fun · unscored" tag when non-zero. Fetched via a dynamic
+  `import("../lib/data/chess")` rather than a static one — see "Finish" below for why.
+
+### Tests
+
+- `supabase/tests/schema.test.mjs`: 26 new assertions (95 total, 0 failing) — non-player/wrong-
+  turn/stale-ply move refusal, finished-game freeze, spectator visibility (both/one/none shared
+  groups), out-of-group challenge refusal, can't-accept-own-link, expired-challenge refusal, the
+  5-game cap, draw-offer clearing on move, abandonment refused-before/allowed-after 7 days,
+  rematch colour swap, `my_chess_record` correctness — **and** an explicit check that playing a
+  full chess game to completion leaves `my_stats()` and `leaderboard()` byte-identical.
+- `logic.test.ts`: new cases for `otherSide`, `isExpired`, `isAbandonable`, `kingSquare`.
+- `scripts/chess/friends-e2e-check.mjs` (new, same plain-Node-+-`playwright` pattern as the
+  existing `e2e-check.mjs`): two pages in one browser context (shared `localStorage`, independent
+  `sessionStorage` via `?devUser=`) — link creation, the signed-out→`/signin`→back round trip via
+  `?devAuth=signed-out`, cross-tab accept, a full scripted fool's-mate game with the result showing
+  live on both pages (and the correct side losing/winning on each), and a reload restoring the
+  finished game exactly. Passed when run against `PORT=5215 pnpm dev`.
+- Manually verified in a real browser (two tabs, `?devUser=`): link creation, cross-tab accept,
+  live BroadcastChannel sync, board orientation and turn-tracking both directions, and that
+  computer mode (including `GameResultModal`'s now-generalized props) still renders and plays
+  identically to before this pass.
+
+### Deviations / scoping notes
+
+- **No in-app browsing of games you can spectate.** A spectator reaches a game only via a link a
+  player shares (the game view's own URL, `?game=<id>` under `?tab=friends`) — there's no "games
+  happening in your groups" directory. Not asked for explicitly; flagged here as a possible future
+  enhancement rather than added speculatively.
+- **"A stale tab can't move" is proven at the unit/SQL level, not re-proven in the browser e2e
+  check** — see that script's own header comment for why simulating genuine staleness against a
+  same-context `BroadcastChannel` (which propagates near-instantly) isn't worth the fragility; the
+  guarantee itself (`expected_ply` mismatch → refusal) is exercised by both
+  `supabase/tests/schema.test.mjs` and the local adapter directly.
+- **Mobile layout (375px) and keyboard support reuse the exact same component/token vocabulary**
+  the computer mode's own verified-mobile build already uses (`Board`, `Modal`, `Button`, the same
+  `max-w-[min(94vw,32rem)]` pattern, the same arrow-key cursor wiring copied into `GameView.tsx`) —
+  not independently re-screenshotted on a real phone this pass. Worth a glance by hand, same note
+  the original HANDOFF made about its own screenshots vs. a real screen.
+
+### Finish
+
+- `pnpm test`: 834/834 passing. `node supabase/tests/schema.test.mjs supabase/migrations/0001_init.sql`:
+  95/95 passing. `pnpm build`: clean.
+- **Bundle note**: `src/lib/data/chess.ts` is imported both by the chess route (eventually, via
+  `friends/*`) and, for the Hub badge, dynamically (`import("../lib/data/chess")`, not a static
+  top-level import) from `src/pages/Hub.tsx` specifically so it — and the local adapter code it
+  pulls in — stay out of the eagerly-loaded shared bundle that every page pays for. Confirmed by
+  inspecting `pnpm build`'s output before/after that change: switching the Hub's import from static
+  to dynamic measurably shrank the main `index-*.js` chunk and moved that weight into
+  separately-fetched async chunks instead. Chasing an exact byte-for-byte before/after number
+  against a true pre-"Play a Friend" baseline turned out to be more trouble than it was worth (see
+  the aside above about the deleted file) — the qualitative result (chess's backend code is
+  chunk-split away from the critical path either way) is the part that actually matters here.
+- `node scripts/check-scope.mjs chess`: reports `src/pages/Hub.tsx`, `CLAUDE.md`, `PLAN.md` and
+  `scripts/check-scope.mjs` outside scope — all expected and already described above (the Hub
+  badge is the one place this mode's presence is visible outside its own folder, same category as
+  the original build's `GameMeta.scored` change).
 
 ## Licences
 

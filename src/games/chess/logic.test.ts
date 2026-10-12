@@ -16,6 +16,10 @@ import {
   classifyEnd,
   serializeGame,
   deserializeGame,
+  otherSide,
+  isExpired,
+  isAbandonable,
+  kingSquare,
   DEFAULT_SETTINGS,
   VARIETY_ENGINE_MOVES,
   type EngineCandidate,
@@ -341,5 +345,75 @@ describe("serialize / deserialize", () => {
   it("well-formed JSON with the wrong shape falls back to null", () => {
     expect(deserializeGame(JSON.stringify({ hello: "world" }))).toBeNull();
     expect(deserializeGame(JSON.stringify({ fen: "not a real fen", pgn: "" }))).toBeNull();
+  });
+});
+
+// ───────────────────────────── Friend-mode helpers ─────────────────────────────
+// Pure mirrors of 0005_chess.sql's SQL — see that migration and RESEARCH.md "Multiplayer".
+
+describe("otherSide", () => {
+  it("flips white to black and back", () => {
+    expect(otherSide("white")).toBe("black");
+    expect(otherSide("black")).toBe("white");
+  });
+});
+
+describe("isExpired", () => {
+  const DAY = 24 * 60 * 60 * 1000;
+
+  it("not expired right after creation", () => {
+    const createdAt = new Date(1_000_000).toISOString();
+    expect(isExpired(createdAt, 1_000_000, 3)).toBe(false);
+  });
+
+  it("not expired just under the threshold", () => {
+    const createdAt = new Date(0).toISOString();
+    expect(isExpired(createdAt, 3 * DAY - 1, 3)).toBe(false);
+  });
+
+  it("expired just over the threshold", () => {
+    const createdAt = new Date(0).toISOString();
+    expect(isExpired(createdAt, 3 * DAY + 1, 3)).toBe(true);
+  });
+});
+
+describe("isAbandonable", () => {
+  const DAY = 24 * 60 * 60 * 1000;
+
+  it("not abandonable right after the last move", () => {
+    const lastMoveAt = new Date(1_000_000).toISOString();
+    expect(isAbandonable(lastMoveAt, 1_000_000)).toBe(false);
+  });
+
+  it("not abandonable just under 7 days", () => {
+    const lastMoveAt = new Date(0).toISOString();
+    expect(isAbandonable(lastMoveAt, 7 * DAY - 1)).toBe(false);
+  });
+
+  it("abandonable just over 7 days", () => {
+    const lastMoveAt = new Date(0).toISOString();
+    expect(isAbandonable(lastMoveAt, 7 * DAY + 1)).toBe(true);
+  });
+
+  it("respects a custom threshold", () => {
+    const lastMoveAt = new Date(0).toISOString();
+    expect(isAbandonable(lastMoveAt, 2 * DAY + 1, 2)).toBe(true);
+    expect(isAbandonable(lastMoveAt, 2 * DAY - 1, 2)).toBe(false);
+  });
+});
+
+describe("kingSquare", () => {
+  it("finds each side's king on the starting position", () => {
+    const chess = new Chess();
+    expect(kingSquare(chess, "w")).toBe("e1");
+    expect(kingSquare(chess, "b")).toBe("e8");
+  });
+
+  it("tracks the king after it moves", () => {
+    const chess = new Chess();
+    chess.move("e4");
+    chess.move("e5");
+    chess.move("Ke2");
+    expect(kingSquare(chess, "w")).toBe("e2");
   });
 });

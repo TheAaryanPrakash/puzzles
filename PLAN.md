@@ -73,6 +73,11 @@ already in `.claude/skills/`; they get committed so every agent's worktree has t
    `supabase/migrations/0001_init.sql`. Then set your invite code:
    `insert into private.app_config values ('invite_code', '<something only friends get>');`
    Note the project URL, the anon (publishable) key and the service role key.
+   Later, once chess's "Play a Friend" mode is merged, also run
+   `supabase/migrations/0005_chess.sql`, and confirm Realtime is turned on for the project
+   (Database → Replication, or the Realtime section of the dashboard) — the migration adds
+   `chess_games` to the `supabase_realtime` publication itself, but the project-level feature
+   toggle is a one-time dashboard setting, not something a migration can turn on.
 5. **Google sign-in:**
    - Google Cloud Console → APIs & Services → Credentials → Create OAuth client ID → Web application.
      Authorized redirect URI: `https://<project-ref>.supabase.co/auth/v1/callback`.

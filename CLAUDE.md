@@ -343,3 +343,43 @@ page, noted in its UI as living on that device.
 
 **No new npm packages beyond the two above** — if a future change to this game seems to need one,
 that's a question for the human, not something to add unilaterally.
+
+### Play a Friend
+
+A second, independent chess mode: untimed correspondence chess between two site members, reusing
+the computer mode's `Board`, `logic.ts`, `theme.css` and (generalized, not forked)
+`GameResultModal`. Switched via a `Computer`/`Friends` tab pair (`ChessTabs.tsx`) driven by `?tab=`
+— the two modes are separate top-level components, not shared state, so computer mode's own code
+is untouched by this. See `src/games/chess/RESEARCH.md`'s "Multiplayer" section for the full
+design rationale; this records only the structural rules.
+
+**Still unscored, by the same mechanism** — friend games never touch `plays`, `usePlay` or
+`completeGame` either. The one addition: `src/games/chess/friends/` may import
+**`src/lib/data/chess.ts`** (and nothing else under `src/lib/data`) — a dedicated, non-scored
+backend file, the only chess code that talks to Supabase or localStorage for this mode.
+`no-datasource.test.ts` enforces exactly this one exception; every other `lib/data`/`lib/hooks`
+import, and every `usePlay`/`completeGame`/`dataSource.*` call, stays forbidden across all of
+`src/games/chess/`.
+
+**Database**: `supabase/migrations/0005_chess.sql` — `chess_challenges` (direct or open-link,
+`expires_at` computed at creation and checked lazily, no cron) and `chess_games` (`fen`/`pgn` mirror
+the computer mode's own `GameState` shape; `result`/`reason` stored from a neutral, not per-player,
+perspective since two members view the same row). RLS: players, or a spectator who shares a group
+with **both** players (`private.shares_group_with`, stricter than the friends-board policy's
+one-sided check). Every write goes through a security-definer RPC — see the migration file's own
+comments for the full list (`create_challenge`, `accept_challenge`, `make_move`, `resign`,
+`offer_draw`/`respond_draw`, `claim_abandoned`, `create_rematch`, and the read RPCs). `chess_games`
+is added to the `supabase_realtime` publication, guarded so the PGlite test harness (which has no
+such publication) still passes.
+
+**Local (dev) adapter**: `localStorage` + `BroadcastChannel`, so two browser tabs can play each
+other. Two dev-only, inert-unless-passed query params in `src/lib/auth.tsx` make this testable
+without a Supabase project: `?devUser=amal|riya` picks which seeded fake member a tab acts as (the
+same ids `local.ts`'s `ensureSeedGroup()` already creates), and `?devAuth=signed-out|
+signed-in-not-member` simulates the states `RequireMember` otherwise needs a real session for, so
+the challenge-link sign-in round trip (`/signin` → `/join` → back to the challenge) can be
+exercised locally too.
+
+**Challenge links** (`/chess?challenge=<token>`) survive the OAuth round trip the same way
+`?invite=` does — `saveChallengeToken`/`readChallengeToken`/`clearChallengeToken` in `auth.tsx`,
+threaded through `SignIn.tsx` and `Join.tsx` alongside the existing invite-code handling.

@@ -4,6 +4,7 @@ import { motion, useReducedMotion } from "motion/react";
 import { SiteHeader } from "../components/SiteHeader";
 import { gameMetas, scoredGameMetas } from "../routes";
 import { dataSource } from "../lib/data";
+import type { ChessBadge } from "../lib/data/chess";
 import { todayKey, dayIndex } from "../lib/daily";
 import { BIRTHDAY } from "../config";
 import { useAuth } from "../lib/auth";
@@ -32,6 +33,7 @@ function formatToday(date: string): string {
 export function Hub() {
   const [today] = useState(todayKey);
   const [statusByGame, setStatusByGame] = useState<Record<string, HubStatus>>({});
+  const [chessBadge, setChessBadge] = useState<ChessBadge | null>(null);
   const [message, setMessage] = useState<FinaleMessage | null>(null);
   const { member } = useAuth();
   const reduceMotion = useReducedMotion();
@@ -52,6 +54,20 @@ export function Hub() {
       }),
     ).then((entries) => {
       if (!cancelled) setStatusByGame(Object.fromEntries(entries));
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [today]);
+
+  // Chess's own small badge (turn count + incoming challenges) — never fetches a play status,
+  // same reasoning as the scoredGameMetas loop above skipping it entirely. Dynamically imported
+  // so src/lib/data/chess.ts (and its Supabase/local adapters) stay out of the Hub's own eagerly-
+  // loaded bundle — it only needs to load once chess's lazy route chunk is reachable anyway.
+  useEffect(() => {
+    let cancelled = false;
+    import("../lib/data/chess").then(({ chessDataSource }) => chessDataSource.myBadge()).then((b) => {
+      if (!cancelled) setChessBadge(b);
     });
     return () => {
       cancelled = true;
@@ -145,6 +161,8 @@ export function Hub() {
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4">
           {gameMetas.map((meta, i) => {
             const unscored = meta.scored === false;
+            const isChess = meta.id === "chess";
+            const chessCount = chessBadge ? chessBadge.yourTurnCount + chessBadge.incomingChallengeCount : 0;
             const badge = unscored ? null : STATUS_BADGE[statusByGame[meta.id] ?? "none"];
             return (
               <motion.div
@@ -167,7 +185,11 @@ export function Hub() {
                   </span>
                   <span className="line-clamp-2 text-xs text-brand-muted">{meta.tagline}</span>
                   <span className="mt-auto pt-2">
-                    {unscored ? (
+                    {isChess && chessCount > 0 ? (
+                      <span className="inline-flex items-center rounded-brand-full bg-brand-accent px-2 py-0.5 text-[11px] font-semibold text-brand-accent-fg">
+                        {chessCount} {chessCount === 1 ? "game" : "games"} waiting
+                      </span>
+                    ) : unscored ? (
                       <span className="inline-flex items-center rounded-brand-full bg-brand-surface-2 px-2 py-0.5 text-[11px] font-semibold text-brand-muted">
                         Just for fun · unscored
                       </span>
