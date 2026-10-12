@@ -3,6 +3,7 @@ import type { RouteObject } from "react-router";
 import type { GameMeta } from "./lib/types";
 import { RequireMember } from "./lib/auth";
 import { RouteErrorBoundary } from "./components/RouteErrorBoundary";
+import { AppShell } from "./components/AppShell";
 import { Hub } from "./pages/Hub";
 import { SignIn } from "./pages/SignIn";
 import { Join } from "./pages/Join";
@@ -64,7 +65,9 @@ function gameRoutes(): RouteObject[] {
 export const routes: RouteObject[] = [
   {
     // Pathless layout route: every page below shares this root error boundary, most importantly
-    // for a stale lazy-loaded game chunk after a new deploy (see RouteErrorBoundary).
+    // for a stale lazy-loaded game chunk after a new deploy (see RouteErrorBoundary). AppShell
+    // mounts the FluxLines background once here, so it never remounts across navigation.
+    element: <AppShell gameIds={allGameMetas.map((m) => m.id)} />,
     errorElement: <RouteErrorBoundary />,
     children: [
       { path: "/", element: <RequireMember><Hub /></RequireMember> },
