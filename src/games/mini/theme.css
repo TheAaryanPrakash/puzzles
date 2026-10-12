@@ -1,30 +1,25 @@
-/* Mini crossword — classic newspaper look, softened off the pink site bg into its own warm
-   near-neutral so the paper still reads as paper. The ink block stays near-black (just warm, not
-   jet) and the accent is a quiet ink-blue — same role the original's near-black accent played,
-   now distinct enough from pure neutral to serve as the game's own hue on the hub. */
+/* Redesign (2026-10, pink-on-black): site base now shared across every game (CLAUDE.md "Design").
+   Active cell / active word are the exact swatches approved at Checkpoint 1
+   (docs/redesign/checkpoint-1/colors.png) — both warm wine tints a touch LIGHTER than the shared
+   near-black surfaces, so a selection reads as a highlight rather than a shadow (active-cell
+   #5f1c32 lighter than --game-surface's #1c1215; active-word #371b24 a gentler lift, close to
+   --game-surface-2). Block squares go true ink-black; the clue number and wrong-letter marker
+   move from "dark ink on paper" to "light ink on dark paper" equivalents. */
 [data-game="mini"] {
-  --game-bg: #f8f7f6;
-  --game-fg: #272421;
-  --game-surface: #ffffff;
-  --game-surface-2: #f4f2f1;
-  --game-border: #d9d6d3;
-  --game-accent: #324b67;
-  --game-accent-fg: #ffffff;
-  --game-muted: #756c64;
-  --game-font: "Libre Franklin", sans-serif;
+  --game-accent: #df497b;
 
-  --tile-empty: #ffffff;
-  --tile-filled: #ffffff;
-  --tile-selected: #f5dfa0;
-  --tile-correct: #367846;
-  --tile-present: #8a6a28;
-  --tile-absent: #6d757e;
+  --tile-empty: var(--game-surface);
+  --tile-filled: var(--game-surface);
+  --tile-selected: #5f1c32;
+  --tile-correct: #43b17a;
+  --tile-present: #e4a944;
+  --tile-absent: #54454a;
 
   /* Mini-only tokens (not part of the shared tile/game set — plain CSS, not Tailwind utilities). */
-  --mini-black: #2a2420;
-  --mini-word: #dde3f5;
-  --mini-wrong: #f3d3cf;
-  --mini-number: #746c63;
+  --mini-black: #0c0709;
+  --mini-word: #371b24;
+  --mini-wrong: #4a211c;
+  --mini-number: var(--game-muted);
 }
 
 .mini-board {

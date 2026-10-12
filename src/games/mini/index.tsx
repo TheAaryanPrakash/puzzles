@@ -1,7 +1,4 @@
 import { useEffect, useRef, useState, type ChangeEvent, type KeyboardEvent } from "react";
-import "@fontsource/libre-franklin/400.css";
-import "@fontsource/libre-franklin/600.css";
-import "@fontsource/libre-franklin/700.css";
 import "./theme.css";
 import { GameLayout } from "../../components/GameLayout";
 import { HelpModal } from "../../components/HelpModal";
