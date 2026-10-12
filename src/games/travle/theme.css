@@ -1,27 +1,20 @@
-/* Soft sea-teal, warmed off a colder slate blue. --tile-absent ("unconnected") deliberately leans
-   cooler/slate rather than the family's usual warm neutral: a warm tan read too close to the
-   green "on-path" tile under a protanopia/deuteranopia simulation, and this map is sea/teal
-   themed anyway, so a cool slate still belongs (see docs/theme/README.md). */
+/* Redesign (2026-10, pink-on-black): site base now shared across every game (CLAUDE.md "Design").
+   The 3-tier guess classification (on-path/adjacent/unconnected) renders as a small decorative
+   dot fill and an SVG map-region fill — no text sits on top of these colours anywhere
+   (GuessList.tsx's dot is aria-hidden; the label text is separately coloured) — so the exact
+   Checkpoint-1 Wordle-family trio applies directly, same deuteranopia-safe separation as before.
+   The atlas itself flips from a pale sea/land map to a dark one: void-black sea, a touch lighter
+   land so the two read apart, start/end markers re-picked from the approved palette family for
+   a confident pop against the dark land. */
 [data-game="travle"] {
-  --game-bg: #f0f5f8;
-  --game-fg: #212d31;
-  --game-surface: #fcfdfd;
-  --game-surface-2: #e1ebef;
-  --game-border: #c4d7de;
-  --game-accent: #356e82;
-  --game-accent-fg: #ffffff;
-  --game-muted: #556c75;
-  --game-font: "Inter", sans-serif;
+  --tile-correct: #43b17a; /* on-path */
+  --tile-present: #e4a944; /* adjacent */
+  --tile-absent: #54454a; /* unconnected */
 
-  /* Reused for the 3-tier guess classification (see logic.ts's GuessCategory). */
-  --tile-correct: #317252; /* on-path */
-  --tile-present: #866327; /* adjacent */
-  --tile-absent: #5a7887; /* unconnected */
-
-  /* Map-only tokens: muted atlas palette, not part of the frozen --game- / --tile- set. */
-  --travle-sea: #c3dfe6;
-  --travle-land: #ecdfc4;
-  --travle-land-border: #d8c9a8;
-  --travle-start: #c6633f;
-  --travle-end: #2e6b73;
+  /* Map-only tokens: muted dark atlas palette, not part of the frozen --game- / --tile- set. */
+  --travle-sea: #130b0e;
+  --travle-land: #271b1f;
+  --travle-land-border: #874f62;
+  --travle-start: #eb6347;
+  --travle-end: #64b1d8;
 }

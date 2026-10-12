@@ -1,7 +1,4 @@
 import { useMemo, useState } from "react";
-import "@fontsource/poppins/400.css";
-import "@fontsource/poppins/500.css";
-import "@fontsource/poppins/600.css";
 import "./theme.css";
 import { GameLayout } from "../../components/GameLayout";
 import { HelpModal } from "../../components/HelpModal";

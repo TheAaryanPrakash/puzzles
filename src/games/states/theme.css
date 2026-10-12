@@ -1,27 +1,22 @@
-/* Terracotta + indigo on cream — warm, earthy, with indigo reserved for the signature accent
-   (the guessed-state pin color and the won state). Poppins for a geometric, friendly display face.
-   Softened and pulled a touch further from the site's own pink hue (14°) toward a deeper rust
-   (16°, lower/darker) so States doesn't blur into the hub chrome. */
+/* Redesign (2026-10, pink-on-black): site base now shared across every game (CLAUDE.md "Design").
+   --game-accent moves from rust/terracotta to the approved heat-scale "hot" coral
+   (docs/redesign/checkpoint-1/colors.png) — same warm-earthy family, re-derived for AA as plain
+   text (GameLayout's header-hover/archive-link): 5.92:1 on bg, 5.59:1 on surface. --states-indigo
+   (the guessed-state pin colour / won state) and the silhouette fills are SVG-only, not text, so
+   kept close to their original hue per their own pre-existing exemption note below. */
 [data-game="states"] {
-  --game-bg: #f8f3ef;
-  --game-fg: #392c22;
-  --game-surface: #fdfcfc;
-  --game-surface-2: #efe4dc;
-  --game-border: #e0cec2;
-  --game-accent: #a24e2f;
-  --game-accent-fg: #ffffff;
-  --game-muted: #786254;
-  --game-font: "Poppins", sans-serif;
+  --game-accent: #eb6347;
+  --game-accent-fg: #140c0f;
 
-  --tile-correct: #40775c;
-  --tile-present: #c99a3b;
-  --tile-absent: #8a7f70;
+  --tile-correct: #43b17a;
+  --tile-present: #e4a944;
+  --tile-absent: #54454a;
 
   /* Game-specific tokens (not in the shared token set — scoped under this selector only). SVG
      fills, not text, so not AA-checked the way --game-accent is. */
-  --states-indigo: #474280;
+  --states-indigo: #6a5ec2;
   --states-indigo-fg: #ffffff;
-  --states-silhouette: #be6d37;
-  --states-silhouette-won: #40775c;
-  --states-silhouette-lost: #855847;
+  --states-silhouette: #c97a45;
+  --states-silhouette-won: #43b17a;
+  --states-silhouette-lost: #6b4535;
 }
