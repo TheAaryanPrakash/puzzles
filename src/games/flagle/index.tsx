@@ -1,6 +1,4 @@
 import { useState } from "react";
-import "@fontsource/inter/400.css";
-import "@fontsource/inter/700.css";
 import "flag-icons/css/flag-icons.min.css";
 import "./theme.css";
 import { GameLayout } from "../../components/GameLayout";

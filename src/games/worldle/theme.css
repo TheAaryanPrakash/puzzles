@@ -1,28 +1,28 @@
-/* Sage/teal green (160°), kept a clear step away from Wordle's own green (135°) so the two don't
-   blur on the hub. */
+/* Redesign (2026-10, pink-on-black): site base now shared across every game (CLAUDE.md "Design").
+   Worldle's proximity scale reuses the same four approved heat-scale swatches Globle's heat scale
+   uses (docs/redesign/checkpoint-1/colors.png "Globle heat scale") — the two games share the exact
+   same concept (closer guess = hotter colour), so this is deliberate reuse of an already-vetted
+   family, not a new one: cold→far #3d2930, low→cool #993355, mid→warm #dd3c71, high→hot #eb6347.
+   Ink per badge re-derived (far/cool are dark enough for white ink, 11.48:1/6.04:1; warm/hot are
+   light enough to need dark ink instead, 4.55:1/5.88:1 — white fails both at 3.61/2.79). The
+   silhouette flips from "dark fill on light map" to a light fill + dark outline on the now-dark
+   map surface, so the country shape stays visible instead of vanishing into the background. */
 [data-game="worldle"] {
-  --game-bg: #f1f6f4;
-  --game-fg: #212c28;
-  --game-surface: #f9fbfa;
-  --game-surface-2: #dfece8;
-  --game-border: #c1d7d0;
-  --game-accent: #2b735b;
-  --game-accent-fg: #ffffff;
-  --game-muted: #536e65;
-  --game-font: "Inter", sans-serif;
+  --game-accent: #eb6347;
+  --game-accent-fg: #140c0f;
 
-  /* The silhouette itself: dark, almost-black fill on the light sage map surface. */
-  --worldle-silhouette: #262f29;
-  --worldle-silhouette-outline: #10140f;
+  /* The silhouette itself: light fill, dark outline, on the now-dark map surface. */
+  --worldle-silhouette: #f5c9b8;
+  --worldle-silhouette-outline: #0c0709;
 
-  --tile-correct: #2b735b;
-  --tile-present: #d3b369;
-  --tile-absent: #a0b1a8;
+  --tile-correct: #43b17a;
+  --tile-present: #e4a944;
+  --tile-absent: #54454a;
 
-  --worldle-proximity-high: #2b735b;
-  --worldle-proximity-mid: #d3b369;
-  --worldle-proximity-low: #d19061;
-  --worldle-proximity-cold: #a0b1a8;
+  --worldle-proximity-high: #eb6347;
+  --worldle-proximity-mid: #dd3c71;
+  --worldle-proximity-low: #993355;
+  --worldle-proximity-cold: #3d2930;
 }
 
 /* Game-specific classes (not representable as semantic Tailwind utilities — see theme.css note
@@ -34,23 +34,23 @@
   stroke-linejoin: round;
 }
 
-/* Text colour per badge is chosen for WCAG AA contrast (>= 4.5:1 at this small, bold
-   size) against that badge's own background — white text on the dark-green "high"
-   badge, dark text on the lighter mid/low/cold badges (white text on those measures
-   ~2.4-2.8:1, well under AA). */
+/* Text colour per badge is chosen for WCAG AA contrast (>= 4.5:1 at this small, bold size)
+   against that badge's own background — dark ink on the brighter high/mid badges, white ink on
+   the darker low/cold badges (the reverse of the pre-redesign light-theme pairing, since the
+   badges themselves didn't change hue, only the surface they sit on did). */
 [data-game="worldle"] .worldle-proximity-high {
   background: var(--worldle-proximity-high);
-  color: #ffffff;
+  color: #140c0f;
 }
 [data-game="worldle"] .worldle-proximity-mid {
   background: var(--worldle-proximity-mid);
-  color: var(--game-fg);
+  color: #140c0f;
 }
 [data-game="worldle"] .worldle-proximity-low {
   background: var(--worldle-proximity-low);
-  color: var(--game-fg);
+  color: #f5eaee;
 }
 [data-game="worldle"] .worldle-proximity-cold {
   background: var(--worldle-proximity-cold);
-  color: var(--game-fg);
+  color: #f5eaee;
 }

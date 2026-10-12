@@ -1,27 +1,12 @@
-/* Flagle — kept close to its current neutral/slate palette: softening it toward the family's
-   warm pastels would mean tinting the backdrop, and every guessed flag already drops its own
-   colour onto that backdrop, so a neutral slate stays the one choice where the flag is reliably
-   the only strong colour on the page (see docs/theme/README.md). Two small AA fixes: --game-muted
-   darkened a touch (it was 4.2:1 on --game-bg, under the 4.5:1 floor) and --game-surface-2
-   lightened a touch (the accent was 4.19:1 against it as the header-hover/archive-link text every
-   game renders via GameLayout — see "the {} gotcha" style cross-game note in GameLayout.tsx). */
+/* Redesign (2026-10, pink-on-black): site base now shared across every game (CLAUDE.md "Design")
+   — Flagle keeps the same reasoning as before (every guessed flag already drops its own colour
+   onto the board, so a neutral surface stays the one choice where the flag reads as the only
+   strong colour on the page), it just inherits the shared near-black neutral instead of its own
+   light slate. --tile-correct/--tile-present are rendered as TEXT (GuessHistory.tsx's "Correct! 🎯"
+   label and the proximity note), not fills, so the exact Checkpoint-1 swatches apply directly:
+   correct 6.81:1, present 8.77:1 against the dark surfaces. */
 [data-game="flagle"] {
-  --game-bg: #eef1f5;
-  --game-fg: #1e293b;
-  --game-surface: #ffffff;
-  --game-surface-2: #edf0f4;
-  --game-border: #cbd5e1;
-  --game-accent: #2563eb;
-  --game-accent-fg: #ffffff;
-  --game-muted: #5a697f;
-  --game-font: "Inter", sans-serif;
-
-  /* Repurposed for per-guess-row geo feedback, not letter states: correct = the actual country,
-     present = "close" (>=60% proximity), absent = everything further away (not actually rendered
-     today — GuessHistory.tsx falls back to --game-border/--game-surface past "close"). Darkened
-     off the original green since GuessHistory.tsx renders a "Correct! 🎯" label in --tile-correct
-     text, which measured 2.9:1 against --game-bg before (own hue kept, just deeper). */
-  --tile-correct: #117e39;
-  --tile-present: #966c17;
-  --tile-absent: #94a3b8;
+  --tile-correct: #43b17a;
+  --tile-present: #e4a944;
+  --tile-absent: #54454a;
 }
