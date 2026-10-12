@@ -2,6 +2,7 @@ import { lazy, Suspense, type ComponentType } from "react";
 import type { RouteObject } from "react-router";
 import type { GameMeta } from "./lib/types";
 import { RequireMember } from "./lib/auth";
+import { RouteErrorBoundary } from "./components/RouteErrorBoundary";
 import { Hub } from "./pages/Hub";
 import { SignIn } from "./pages/SignIn";
 import { Join } from "./pages/Join";
@@ -50,13 +51,20 @@ function gameRoutes(): RouteObject[] {
 }
 
 export const routes: RouteObject[] = [
-  { path: "/", element: <RequireMember><Hub /></RequireMember> },
-  { path: "/signin", element: <SignIn /> },
-  { path: "/join", element: <Join /> },
-  { path: "/profile", element: <RequireMember><Profile /></RequireMember> },
-  { path: "/groups", element: <RequireMember><Groups /></RequireMember> },
-  { path: "/leaderboard", element: <RequireMember><Leaderboard /></RequireMember> },
-  { path: "/finale", element: <RequireMember><Finale /></RequireMember> },
-  ...gameRoutes(),
-  ...(import.meta.env.DEV ? [{ path: "/dev/themes", element: <DevThemes /> }] : []),
+  {
+    // Pathless layout route: every page below shares this root error boundary, most importantly
+    // for a stale lazy-loaded game chunk after a new deploy (see RouteErrorBoundary).
+    errorElement: <RouteErrorBoundary />,
+    children: [
+      { path: "/", element: <RequireMember><Hub /></RequireMember> },
+      { path: "/signin", element: <SignIn /> },
+      { path: "/join", element: <Join /> },
+      { path: "/profile", element: <RequireMember><Profile /></RequireMember> },
+      { path: "/groups", element: <RequireMember><Groups /></RequireMember> },
+      { path: "/leaderboard", element: <RequireMember><Leaderboard /></RequireMember> },
+      { path: "/finale", element: <RequireMember><Finale /></RequireMember> },
+      ...gameRoutes(),
+      ...(import.meta.env.DEV ? [{ path: "/dev/themes", element: <DevThemes /> }] : []),
+    ],
+  },
 ];
