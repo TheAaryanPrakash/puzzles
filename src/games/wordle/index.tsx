@@ -191,6 +191,7 @@ export default function Wordle() {
           won={won}
           summary={buildSummary(state, answer, puzzleNumber)}
           puzzleNumber={puzzleNumber}
+          extraContent={!won ? <AnswerReveal answer={answer} /> : undefined}
           statsExtraContent={<GuessDistribution gameId={meta.id} />}
         />
       )}
@@ -232,6 +233,16 @@ function HelpContent() {
       </p>
       <p>A new puzzle arrives every day. Everyone gets the same word.</p>
     </>
+  );
+}
+
+/** Shown only on a loss — a win already spells the word out in green tiles on the board. */
+function AnswerReveal({ answer }: { answer: string }) {
+  return (
+    <div className="flex flex-col items-center gap-1 rounded-brand-md bg-game-surface-2 p-4">
+      <p className="text-sm text-game-muted">The word was</p>
+      <p className="font-brand text-2xl font-bold tracking-wide text-game-fg">{answer}</p>
+    </div>
   );
 }
 
