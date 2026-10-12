@@ -9,6 +9,7 @@ import { HelpModal } from "../../components/HelpModal";
 import { ResultModal } from "../../components/ResultModal";
 import { NoPuzzleToday } from "../../components/NoPuzzleToday";
 import { AlreadyPlayed } from "../../components/AlreadyPlayed";
+import { Button } from "../../components/Button";
 import { Keyboard } from "../../components/Keyboard";
 import { usePuzzle, usePlay, usePlays } from "../../lib/hooks";
 import { dayIndex } from "../../lib/daily";
@@ -176,6 +177,10 @@ export default function Wordle() {
         </div>
 
         <Keyboard onKey={onKey} keyStates={keyStates} disabled={over || revealingRow !== null} />
+
+        {over && (
+          <Button onClick={() => setResultOpen(true)}>{won ? "Nice! 🎉" : "See result"}</Button>
+        )}
       </div>
 
       <HelpModal open={helpOpen} onClose={() => setHelpOpen(false)}>

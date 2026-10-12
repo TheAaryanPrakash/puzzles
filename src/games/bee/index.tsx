@@ -256,6 +256,12 @@ export default function BeeGame() {
           </Button>
         )}
 
+        {over && (
+          <Button onClick={() => setResultOpen(true)}>
+            {play?.status === "won" ? "Nice! 🎉" : "See result"}
+          </Button>
+        )}
+
         <FoundWords found={state.found} puzzle={activePuzzle} />
       </div>
 

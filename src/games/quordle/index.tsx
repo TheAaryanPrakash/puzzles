@@ -8,6 +8,7 @@ import { HelpModal } from "../../components/HelpModal";
 import { ResultModal } from "../../components/ResultModal";
 import { NoPuzzleToday } from "../../components/NoPuzzleToday";
 import { AlreadyPlayed } from "../../components/AlreadyPlayed";
+import { Button } from "../../components/Button";
 import { usePuzzle, usePlay } from "../../lib/hooks";
 import { dayIndex } from "../../lib/daily";
 import { meta } from "./meta";
@@ -172,6 +173,10 @@ export default function QuordleGame() {
         </div>
 
         <QuordleKeyboard onKey={handleKey} keyStates={keyStates} disabled={over} />
+
+        {over && (
+          <Button onClick={() => setResultOpen(true)}>{won ? "Nice! 🎉" : "See result"}</Button>
+        )}
       </div>
 
       <HelpModal open={helpOpen} onClose={() => setHelpOpen(false)}>
