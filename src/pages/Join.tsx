@@ -10,7 +10,7 @@ import {
   useAuth,
 } from "../lib/auth";
 import { dataSource } from "../lib/data";
-import { Button } from "../components/Button";
+import SpecularButton from "../components/fx/SpecularButton";
 
 /** Looks a code up to preview the group's name, debounced lightly by only re-running when the
  *  trimmed code actually changes. Silently empty for a blank or not-yet-valid code. */
@@ -130,9 +130,9 @@ export function Join() {
               {error}
             </p>
           )}
-          <Button type="submit" disabled={loading} fullWidth>
+          <SpecularButton type="submit" disabled={loading} tint="#df497b" className="w-full">
             {loading ? "Joining…" : "Join group"}
-          </Button>
+          </SpecularButton>
         </form>
       </div>
     );
@@ -198,9 +198,14 @@ export function Join() {
             {error}
           </p>
         )}
-        <Button type="submit" disabled={loading || !code.trim() || !name.trim()} fullWidth>
+        <SpecularButton
+          type="submit"
+          disabled={loading || !code.trim() || !name.trim()}
+          tint="#df497b"
+          className="w-full"
+        >
           {loading ? "Joining…" : "Join"}
-        </Button>
+        </SpecularButton>
       </form>
     </div>
   );

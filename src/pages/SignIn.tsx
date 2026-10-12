@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLocation, type Location } from "react-router";
 import { readChallengeToken, readInviteCode, saveChallengeToken, useAuth } from "../lib/auth";
-import { Button } from "../components/Button";
+import SpecularButton from "../components/fx/SpecularButton";
 
 export function SignIn() {
   const { signInWithGoogle } = useAuth();
@@ -44,10 +44,12 @@ export function SignIn() {
         {state?.message ??
           "An invite-only puzzle club for friends. Sign in with Google to play today's puzzles."}
       </p>
-      <Button onClick={() => void handleClick()} disabled={loading} autoFocus>
+      {/* Neutral glass (SpecularButton's own defaults) rather than the brand pink tint — keeps the
+          multi-colour Google mark legible instead of fighting a strong accent tint. */}
+      <SpecularButton onClick={() => void handleClick()} disabled={loading} autoFocus>
         <GoogleMark />
         {loading ? "Opening Google…" : "Continue with Google"}
-      </Button>
+      </SpecularButton>
       {error && (
         <p role="alert" className="text-sm text-brand-danger">
           {error}
