@@ -1,29 +1,18 @@
-/* Golden-tangerine (36°), a step more yellow than the site pink and Digits' own tangerine (28°) so
-   the three don't blur together. --game-accent is a deep amber — darkened off the bright gradient
-   orange until it cleared 4.5:1 as text (header hover/archive link, via GameLayout); the vivid
-   starting orange lives on in --zip-path-start, the path's own gradient, not game-accent. */
+/* Redesign (2026-10, pink-on-black): site base now shared across every game (CLAUDE.md "Design").
+   Zip's path keeps its signature start→end gradient (Grid.tsx interpolates these two colours in
+   JS for the SVG stroke — see its own comment; --zip-path-start now matches the exact "zip path"
+   swatch approved at Checkpoint 1, docs/redesign/checkpoint-1/colors.png), now pink→violet instead
+   of orange→purple. FLAGGED: Grid.tsx's own hardcoded hex constants need updating to match these
+   two values too (out of this pass's scope — theme.css/index.tsx only — see
+   docs/redesign/HANDOFF.md "Shared changes requested"). */
 [data-game="zip"] {
-  --game-bg: #faf7f2;
-  --game-fg: #352d22;
-  --game-surface: #fdfdfc;
-  --game-surface-2: #f1eadf;
-  --game-border: #e3d9c9;
-  --game-accent: #8f5e14;
-  --game-accent-fg: #ffffff;
-  --game-muted: #776853;
-  --game-font: "Nunito", sans-serif;
+  --tile-correct: #43b17a;
+  --tile-present: #e4a944;
+  --tile-absent: #54454a;
 
-  --tile-correct: #367846;
-  --tile-present: #8a6a28;
-  --tile-absent: #6d757e;
-
-  /* Zip-only tokens: the path's signature orange→purple gradient. Grid.tsx interpolates between
-     these two colors in JS (SVG `stroke` can't reference CSS custom properties portably across
-     browsers for gradients-along-a-path), so keep these two values in sync with the hex constants
-     at the top of components/Grid.tsx if either ever changes. */
-  --zip-path-start: #e7a540;
-  --zip-path-end: #8760be;
-  --zip-checkpoint-bg: #fdfdfc;
-  --zip-checkpoint-ring: #dbcfbd;
-  --zip-wall: #2e2924;
+  --zip-path-start: #df497b;
+  --zip-path-end: #a681da;
+  --zip-checkpoint-bg: var(--game-surface);
+  --zip-checkpoint-ring: var(--brand-ring);
+  --zip-wall: #2a1a20;
 }

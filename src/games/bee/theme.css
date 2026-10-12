@@ -1,29 +1,20 @@
-/* Soft hive: a honey-cream page instead of the pink site bg, so Bee reads apart from the hub.
-   --game-accent is a deep honey — darkened off the bright hive yellow until it cleared 4.5:1 as
-   text (the header hover/archive-link text everygame renders via GameLayout); the hive hexagons
-   themselves use their own --bee-center-bg, which stays a bright, soft sunflower yellow since it's
-   only ever a background behind dark text, never text itself. */
+/* Redesign (2026-10, pink-on-black): site base now shared across every game (CLAUDE.md "Design").
+   The hive's centre letter is the exact "bee centre" swatch approved at Checkpoint 1
+   (docs/redesign/checkpoint-1/colors.png) — a light/medium gold, so (same reasoning as Wordle's
+   present-tile fix) it takes dark ink, not light: dark-on-gold clears ~8.7:1. Outer hexes move to
+   a dark pink-tinted neutral (matching the site's surface-2) with light ink, and the
+   already-found marker a touch darker still, both well above AA. */
 [data-game="bee"] {
-  --game-bg: #faf8f2;
-  --game-fg: #312e21;
-  --game-surface: #fdfdfc;
-  --game-surface-2: #f2edd9;
-  --game-border: #e3dcbf;
-  --game-accent: #7c660e;
-  --game-accent-fg: #ffffff;
-  --game-muted: #736b4c;
-  --game-font: "Libre Franklin", sans-serif;
-
-  --tile-correct: #367846;
-  --tile-present: #8a6a28;
-  --tile-absent: #6d757e;
+  --tile-correct: #43b17a;
+  --tile-present: #e4a944;
+  --tile-absent: #54454a;
 
   /* ───────────── hive ───────────── */
-  --bee-center-bg: #ebca47;
-  --bee-center-fg: #2b2320;
-  --bee-outer-bg: #e0dccc;
-  --bee-outer-fg: #2b2320;
-  --bee-outer-found-bg: #d3cebb;
+  --bee-center-bg: #e4a944;
+  --bee-center-fg: #140c0f;
+  --bee-outer-bg: var(--game-surface-2);
+  --bee-outer-fg: var(--game-fg);
+  --bee-outer-found-bg: #1c1215;
   --bee-hex-size: 4.5rem;
 }
 
