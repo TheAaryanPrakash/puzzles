@@ -115,13 +115,19 @@ export default function ChessGame() {
   const opponentMs = game?.clock ? (game.playerSide === "white" ? game.clock.blackMs : game.clock.whiteMs) : null;
 
   // ───── committing a move (player or engine) ─────
+  // `baseGame` is the state the caller started from — for an engine move, that's a snapshot taken
+  // *before* `await engine.go(...)`, which can run for up to 1200ms. The clock interval keeps
+  // ticking (via its own setGame calls) during that wait, so `baseGame.clock` can be stale by the
+  // time this runs. Merging against `gameRef.current` (kept current by that same interval) instead
+  // of `baseGame` means this doesn't clobber those ticks — only the increment is actually new here.
   function commitMove(c: Chess, moveResult: Move, baseGame: GameState, options: { isEngine: boolean }) {
+    const current = gameRef.current ?? baseGame;
     const mover: Side = moveResult.color === "w" ? "white" : "black";
-    const clock = baseGame.clock ? applyIncrement(baseGame.clock, mover) : null;
+    const clock = current.clock ? applyIncrement(current.clock, mover) : null;
     const engineMoveCount = options.isEngine ? baseGame.engineMoveCount + 1 : baseGame.engineMoveCount;
     const end = classifyEnd(c, baseGame.playerSide);
     const status: GameStatus = end?.status ?? "in_progress";
-    const next: GameState = { ...baseGame, fen: c.fen(), pgn: c.pgn(), clock, engineMoveCount, status, result: end ?? undefined };
+    const next: GameState = { ...current, fen: c.fen(), pgn: c.pgn(), clock, engineMoveCount, status, result: end ?? undefined };
 
     setGame(next);
     saveGame(userId, next);
