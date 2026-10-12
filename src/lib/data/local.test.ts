@@ -1,5 +1,7 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from "vitest";
-import { localDataSource } from "./local";
+import { localDataSource, readGroups, writeGroups, writeMembers } from "./local";
+
+const LOCAL_USER_ID = "local-dev";
 
 // IST = UTC+5:30. 08:00 UTC keeps the same calendar day in both UTC and IST, so these times are
 // safe "midday IST" stand-ins for each date, with no midnight-boundary risk.
@@ -341,5 +343,57 @@ describe("getLeaderboard", () => {
     await localDataSource.createGroup("Another Group");
     const rows = await localDataSource.getLeaderboard("global", { period: "day" });
     expect(rows.some((r) => r.isMe)).toBe(true);
+  });
+
+  // The local user (constant displayName "Sansita") is naturally in every seeded/created group —
+  // the one overlap the public DataSource API can construct. These two tests seed a *third party*
+  // directly (writeGroups/writeMembers — see their export comment in local.ts) to exercise the
+  // overlap the brief actually asks about: several different real people sharing some, not all, of
+  // their groups.
+  it("the global board counts a member of several overlapping groups exactly once", async () => {
+    const seed = (await localDataSource.listMyGroups())[0]; // "Puzzle Pals": Sansita, Amal, Riya
+    const groupTwo = { id: "g2", name: "Group Two", inviteCode: "x", createdBy: LOCAL_USER_ID, createdAt: "t" };
+    const groupThree = { id: "g3", name: "Group Three", inviteCode: "y", createdBy: LOCAL_USER_ID, createdAt: "t" };
+    writeGroups([...readGroups(), groupTwo, groupThree]);
+    // "Amal" (already in the seed group) also joins groups two and three — 3 memberships for one
+    // person, same shape as the brief's "bob is in A+B" overlap.
+    writeMembers(groupTwo.id, [
+      { userId: LOCAL_USER_ID, displayName: "Sansita", joinedAt: "t" },
+      { userId: "local-friend-amal", displayName: "Amal", joinedAt: "t" },
+    ]);
+    writeMembers(groupThree.id, [{ userId: "local-friend-amal", displayName: "Amal", joinedAt: "t" }]);
+
+    // Sanity: Amal really is in 3 groups now, so a dedup-by-name (correct) vs. no-dedup-at-all
+    // (the bug class this guards against) would visibly differ — a non-deduped flatMap would list
+    // "Amal" 3 times here.
+    const allGroupIds = [seed.id, groupTwo.id, groupThree.id];
+    const amalMembershipCount = allGroupIds.filter((id) =>
+      [localStorage.getItem(`puzzles:group-members:${id}`)].some((raw) => raw?.includes("local-friend-amal")),
+    ).length;
+    expect(amalMembershipCount).toBe(3);
+
+    const rows = await localDataSource.getLeaderboard("global", { period: "day", date: "2026-10-10" });
+    const amalRows = rows.filter((r) => r.displayName === "Amal");
+    expect(amalRows.length).toBe(1);
+  });
+
+  it("a group's board never includes someone who only shares a different group", async () => {
+    const seed = (await localDataSource.listMyGroups())[0]; // Sansita, Amal, Riya
+    const groupTwo = { id: "g2", name: "Group Two", inviteCode: "x", createdBy: LOCAL_USER_ID, createdAt: "t" };
+    writeGroups([...readGroups(), groupTwo]);
+    // Only Sansita and a brand-new third party ("Carol") are in Group Two — Amal and Riya (seed
+    // group only) must not leak in.
+    writeMembers(groupTwo.id, [
+      { userId: LOCAL_USER_ID, displayName: "Sansita", joinedAt: "t" },
+      { userId: "local-friend-carol", displayName: "Carol", joinedAt: "t" },
+    ]);
+
+    const seedBoard = await localDataSource.getLeaderboard("group", { groupId: seed.id, period: "day" });
+    expect(seedBoard.some((r) => r.displayName === "Carol")).toBe(false);
+
+    const groupTwoBoard = await localDataSource.getLeaderboard("group", { groupId: groupTwo.id, period: "day" });
+    expect(groupTwoBoard.some((r) => r.displayName === "Amal")).toBe(false);
+    expect(groupTwoBoard.some((r) => r.displayName === "Riya")).toBe(false);
+    expect(groupTwoBoard.some((r) => r.displayName === "Carol")).toBe(true);
   });
 });

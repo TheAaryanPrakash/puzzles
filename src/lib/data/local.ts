@@ -146,7 +146,10 @@ export function readGroups(): StoredGroup[] {
   return raw ? (JSON.parse(raw) as StoredGroup[]) : [];
 }
 
-function writeGroups(groups: StoredGroup[]): void {
+// Exported (alongside writeMembers below) only for local.test.ts: the public DataSource API has no
+// way to add a *third party* to an existing group (joinGroup/createGroup only ever add the one
+// simulated LOCAL_USER_ID), so testing genuine multi-member group overlap needs direct seeding.
+export function writeGroups(groups: StoredGroup[]): void {
   localStorage.setItem(GROUPS_KEY, JSON.stringify(groups));
 }
 
@@ -155,7 +158,7 @@ export function readMembers(groupId: string): StoredGroupMember[] {
   return raw ? (JSON.parse(raw) as StoredGroupMember[]) : [];
 }
 
-function writeMembers(groupId: string, members: StoredGroupMember[]): void {
+export function writeMembers(groupId: string, members: StoredGroupMember[]): void {
   localStorage.setItem(`${GROUP_MEMBERS_PREFIX}${groupId}`, JSON.stringify(members));
 }
 
@@ -445,9 +448,14 @@ export const localDataSource: DataSource = {
     ensureSeedGroup();
     const date = opts.date ?? todayKey();
     const groups = readGroups();
+    // Dedup by userId, not displayName: a member in several groups (e.g. the local user, who's
+    // always in every seeded/created group) must appear once on the global board regardless of how
+    // many groups they share a display name across — keying by name alone would wrongly merge two
+    // *different* people who happen to share a name, instead of correctly merging one person's
+    // several memberships.
     const names =
       scope === "global"
-        ? [...new Set(groups.flatMap((g) => readMembers(g.id).map((m) => m.displayName)))]
+        ? [...new Map(groups.flatMap((g) => readMembers(g.id).map((m) => [m.userId, m.displayName] as const))).values()]
         : readMembers(opts.groupId ?? groups[0]?.id ?? "").map((m) => m.displayName);
 
     const rng = mulberry32(hashString(`leaderboard:${scope}:${opts.groupId ?? ""}:${opts.period}:${date}`));

@@ -364,6 +364,32 @@ if (groupsFile) {
   ok("rank is consistent with points, descending",
     ranked.every((r, i) => i === 0 || ranked[i - 1].points >= r.points));
 
+  // ───── overlapping group membership: no double-counting on the global board ─────
+  // E belongs to 3 groups (Book Club Deluxe, Quiz Night, Trivia — created above) after leaving the
+  // migrated site group, and has exactly one win anywhere (the wordle play scored during the
+  // cross-group-privacy section above) — 1 point total. member_scope selects distinct profiles.*
+  // rather than joining group_members for scope='global', so this must read 1, not 3, even though
+  // 3 group_members rows reference E. Each of E's own group boards must also show that same single
+  // win — not a 3-group member seeing 3 different totals for herself either.
+  for (const [label, gid] of [["Book Club Deluxe", group1.id], ["Quiz Night", group2.id], ["Trivia", group3.id]]) {
+    const row = (await as(E, `select * from leaderboard('group', '${gid}', 'day')`)).rows.find((r) => r.display_name === "Esha");
+    ok(`E's own board in ${label} shows her 1 real point, not fanned out`,
+      row?.points === 1 && row?.wins === 1 && row?.games_played === 1);
+  }
+  const globalE = globalToday.find((r) => r.display_name === "Esha");
+  ok("the global board sums E's single win once despite 3 overlapping group memberships",
+    globalE?.points === 1 && globalE?.wins === 1 && globalE?.games_played === 1);
+  // Proves the assertion above is meaningful (not vacuously true because E is only in 1 group): a
+  // join-based fan-out bug would have had exactly this many group_members rows to multiply across.
+  const eMemberships = (await db.query(`select count(*)::int as n from group_members where user_id = '${E}'`)).rows[0].n;
+  ok("sanity: E really does have 3 overlapping group memberships for the check above to matter",
+    eMemberships === 3);
+
+  // ───── group isolation holds even for a former member, not just someone who never joined ─────
+  const siteGroupBoard = (await as(F, `select * from leaderboard('group', '${siteGroup.id}', 'day')`)).rows;
+  ok("E no longer appears on the migrated group's board after leaving it",
+    !siteGroupBoard.some((r) => r.display_name === "Esha"));
+
   // ═══════════════════════════ 0005: chess "Play a Friend" ═══════════════════════════
   // A dedicated, isolated group of actors (J/K/L/M) rather than reusing the sprawling fixture
   // above, so "shares a group with both / one / neither" has clean, unambiguous answers. Only J
