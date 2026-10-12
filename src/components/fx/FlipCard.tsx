@@ -176,6 +176,13 @@ const FlipCard: React.FC<FlipCardProps> = ({
 
   const onPointerDown = (e: PointerEvent<HTMLDivElement>) => {
     if (disabled || e.button !== 0 || grip.current) return;
+    // A real interactive descendant (a button/link/input inside `front`/`back` content — e.g.
+    // ResultModal's Share/Next-game buttons) handles its own click; grabbing pointer capture here
+    // unconditionally would hijack its pointerup before the browser's native click synthesis for
+    // that element ever runs. Confirmed live: without this check, a button inside FlipCard's back
+    // face never fires its onClick at all, even with flipOnClick/draggable both false.
+    const interactive = (e.target as HTMLElement).closest('button, a, input, select, textarea, [role="button"], [role="link"]');
+    if (interactive && interactive !== e.currentTarget) return;
     try {
       e.currentTarget.setPointerCapture(e.pointerId);
     } catch {}

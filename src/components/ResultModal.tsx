@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate } from "react-router";
 import { Modal } from "./Modal";
 import { ShareButton } from "./ShareButton";
@@ -47,7 +47,13 @@ export function ResultModal({
 }: ResultModalProps) {
   const navigate = useNavigate();
   const { stats, refresh } = useStats();
-  const todayStatus = useTodayStatus(scoredGameMetas.map((m) => m.id));
+  // `useTodayStatus` depends on this array by reference — scoredGameMetas itself is a module-level
+  // constant, so memoizing with `[]` keeps the same array across renders. Without this, a fresh
+  // array every render retriggers the hook's effect every render, which calls setState, which
+  // re-renders, forever: a real infinite loop that pegs the tab at 100% CPU, not a hang. Confirmed
+  // live (renderer stuck at ~90%+ CPU climbing, unresponsive to any further eval) before this fix.
+  const scoredGameIds = useMemo(() => scoredGameMetas.map((m) => m.id), []);
+  const todayStatus = useTodayStatus(scoredGameIds);
   const [flipped, setFlipped] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
   const [size, setSize] = useState({ width: 320, height: 520 });
