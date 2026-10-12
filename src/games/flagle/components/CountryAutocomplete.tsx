@@ -139,15 +139,10 @@ export function CountryAutocomplete({
                 selectOption(option);
               }}
               onMouseEnter={() => setActiveIndex(i)}
-              className={`flex cursor-pointer items-center gap-2 px-3 py-2 text-sm ${
+              className={`cursor-pointer px-3 py-2 text-sm ${
                 i === activeIndex ? "bg-game-accent text-game-accent-fg" : "text-game-fg"
               }`}
             >
-              <span
-                aria-hidden
-                className={`fi fi-${option.code.toLowerCase()}`}
-                style={{ width: "1.3em", height: "0.975em", backgroundSize: "cover", flexShrink: 0 }}
-              />
               {option.name}
             </li>
           ))}
