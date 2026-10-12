@@ -235,6 +235,7 @@ export default function MiniSudokuGame() {
           extraContent={
             <p className="text-center text-lg font-bold">Solved in {formatElapsed(play?.score ?? state.elapsed)}</p>
           }
+          friendsBoardProps={{ sortByScoreAscending: true, formatScore: formatElapsed }}
         />
       )}
     </GameLayout>

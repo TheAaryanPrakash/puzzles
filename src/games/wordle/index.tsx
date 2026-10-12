@@ -13,6 +13,7 @@ import { Button } from "../../components/Button";
 import { Keyboard } from "../../components/Keyboard";
 import { usePuzzle, usePlay, usePlays } from "../../lib/hooks";
 import { dayIndex } from "../../lib/daily";
+import { formatGuesses } from "../../lib/format";
 import { meta } from "./meta";
 import { Board } from "./components/Board";
 import { HardModeToggle } from "./components/HardModeToggle";
@@ -198,6 +199,7 @@ export default function Wordle() {
           puzzleNumber={puzzleNumber}
           extraContent={!won ? <AnswerReveal answer={answer} /> : undefined}
           statsExtraContent={<GuessDistribution gameId={meta.id} />}
+          friendsBoardProps={{ sortByScoreAscending: true, formatScore: formatGuesses }}
         />
       )}
     </GameLayout>

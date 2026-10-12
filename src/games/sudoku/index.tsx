@@ -249,6 +249,7 @@ export default function SudokuGame() {
               Solved in {formatElapsed(play?.score ?? state.elapsed)}
             </p>
           }
+          friendsBoardProps={{ sortByScoreAscending: true, formatScore: formatElapsed }}
         />
       )}
     </GameLayout>

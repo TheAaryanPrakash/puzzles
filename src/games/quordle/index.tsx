@@ -11,6 +11,7 @@ import { AlreadyPlayed } from "../../components/AlreadyPlayed";
 import { Button } from "../../components/Button";
 import { usePuzzle, usePlay } from "../../lib/hooks";
 import { dayIndex } from "../../lib/daily";
+import { formatGuesses } from "../../lib/format";
 import { meta } from "./meta";
 import {
   BOARD_COLORS,
@@ -194,6 +195,7 @@ export default function QuordleGame() {
           score={won ? state.guesses.length : undefined}
           puzzleNumber={puzzleNumber}
           extraContent={<Recap answers={activePuzzle.answers} state={state} />}
+          friendsBoardProps={{ sortByScoreAscending: true, formatScore: formatGuesses }}
         />
       )}
     </GameLayout>

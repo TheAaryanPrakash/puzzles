@@ -11,6 +11,7 @@ import { AlreadyPlayed } from "../../components/AlreadyPlayed";
 import { Button } from "../../components/Button";
 import { usePuzzle, usePlay } from "../../lib/hooks";
 import { dayIndex } from "../../lib/daily";
+import { formatGuesses } from "../../lib/format";
 import { meta } from "./meta";
 import {
   DEFAULT_STATE,
@@ -161,6 +162,7 @@ export default function GlobleGame() {
               </div>
             )
           }
+          friendsBoardProps={{ sortByScoreAscending: true, formatScore: formatGuesses }}
         />
       )}
     </GameLayout>

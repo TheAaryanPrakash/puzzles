@@ -141,7 +141,12 @@ export default function MiniGame() {
 
   async function finishGame(nextState: MiniState, won: boolean, summaryText: string) {
     if (startPromiseRef.current) await startPromiseRef.current;
-    await finish({ won, state: nextState, summary: summaryText });
+    await finish({
+      won,
+      state: nextState,
+      summary: summaryText,
+      score: won ? nextState.elapsed : undefined,
+    });
     setResultOpen(true);
   }
 
@@ -345,6 +350,7 @@ export default function MiniGame() {
               readOnly
             />
           }
+          friendsBoardProps={{ sortByScoreAscending: true, formatScore: formatElapsed }}
         />
       )}
     </GameLayout>

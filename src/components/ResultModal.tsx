@@ -23,6 +23,7 @@ export function ResultModal({
   puzzleNumber,
   extraContent,
   statsExtraContent,
+  friendsBoardProps,
   children,
 }: ResultModalProps) {
   const { stats, refresh } = useStats();
@@ -66,7 +67,7 @@ export function ResultModal({
         <div>
           <h3 className="font-brand text-sm font-semibold text-game-muted">Friends</h3>
           <div className="mt-2">
-            <FriendsBoard gameId={gameId} date={date} />
+            <FriendsBoard gameId={gameId} date={date} {...friendsBoardProps} />
           </div>
         </div>
 

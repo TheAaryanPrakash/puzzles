@@ -11,6 +11,7 @@ import { AlreadyPlayed } from "../../components/AlreadyPlayed";
 import { Button } from "../../components/Button";
 import { usePuzzle, usePlay } from "../../lib/hooks";
 import { dayIndex } from "../../lib/daily";
+import { formatGuesses } from "../../lib/format";
 import { meta } from "./meta";
 import { useStatesData } from "./data";
 import {
@@ -157,6 +158,7 @@ export default function StatesGame() {
           summary={summary}
           puzzleNumber={puzzleNumber}
           score={won ? state.guesses.length : undefined}
+          friendsBoardProps={{ sortByScoreAscending: true, formatScore: formatGuesses }}
         />
       )}
     </GameLayout>

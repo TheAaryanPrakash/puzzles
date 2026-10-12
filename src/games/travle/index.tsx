@@ -11,6 +11,7 @@ import { AlreadyPlayed } from "../../components/AlreadyPlayed";
 import { Button } from "../../components/Button";
 import { usePuzzle, usePlay } from "../../lib/hooks";
 import { dayIndex } from "../../lib/daily";
+import { formatGuesses } from "../../lib/format";
 import { meta } from "./meta";
 import { useCountryGeo } from "./useCountryGeo";
 import { Map } from "./components/Map";
@@ -158,6 +159,7 @@ export default function TravleGame() {
           summary={buildSummary(state, activePuzzle, adjacency, puzzleNumber)}
           score={won ? state.guesses.length : undefined}
           puzzleNumber={puzzleNumber}
+          friendsBoardProps={{ sortByScoreAscending: true, formatScore: formatGuesses }}
         />
       )}
     </GameLayout>

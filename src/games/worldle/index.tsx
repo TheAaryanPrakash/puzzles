@@ -11,6 +11,7 @@ import { AlreadyPlayed } from "../../components/AlreadyPlayed";
 import { Button } from "../../components/Button";
 import { usePuzzle, usePlay } from "../../lib/hooks";
 import { dayIndex } from "../../lib/daily";
+import { formatGuesses } from "../../lib/format";
 import { meta } from "./meta";
 import { useCountryData } from "./useCountryData";
 import { CountryAutocomplete } from "./components/CountryAutocomplete";
@@ -166,6 +167,7 @@ export default function Worldle() {
               {nameFor(activePuzzle.code, countryData.names)}
             </div>
           }
+          friendsBoardProps={{ sortByScoreAscending: true, formatScore: formatGuesses }}
         />
       )}
     </GameLayout>

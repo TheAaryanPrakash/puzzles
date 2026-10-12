@@ -106,7 +106,12 @@ export default function ZipGame() {
     save({ state: nextState });
     if (isSolved(puzzle, next)) {
       if (startPromiseRef.current) await startPromiseRef.current;
-      await finish({ won: true, state: nextState, summary: buildSummary(puzzleNumber, stateRef.current.elapsed) });
+      await finish({
+        won: true,
+        state: nextState,
+        summary: buildSummary(puzzleNumber, stateRef.current.elapsed),
+        score: stateRef.current.elapsed,
+      });
       setResultOpen(true);
     }
   }
@@ -216,6 +221,7 @@ export default function ZipGame() {
               <ZipGrid puzzle={activePuzzle} path={state.path} readOnly compact />
             </div>
           }
+          friendsBoardProps={{ sortByScoreAscending: true, formatScore: formatElapsed }}
         />
       )}
     </GameLayout>

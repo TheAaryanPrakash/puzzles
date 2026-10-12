@@ -78,6 +78,9 @@ export interface ResultModalProps {
   extraContent?: ReactNode;
   /** Extra content for StatsModal's row, e.g. a guess distribution. */
   statsExtraContent?: ReactNode;
+  /** Forwarded to the embedded FriendsBoard — see FriendsBoardProps. Use for games where a lower
+   *  score is better (elapsed time, guess count) so friends rank fastest/fewest-tries first. */
+  friendsBoardProps?: Pick<FriendsBoardProps, "sortByScoreAscending" | "formatScore">;
   children?: ReactNode;
 }
 
@@ -92,6 +95,12 @@ export interface FriendsBoardProps {
     score?: number;
   }) => ReactNode;
   emptyMessage?: string;
+  /** Ranks entries by `score` ascending (lower is better — elapsed time, guess count) instead of
+   *  completion order. Entries with no score (e.g. a loss) sort after every scored entry. */
+  sortByScoreAscending?: boolean;
+  /** Formats `score` for the default row renderer (ignored when `renderEntry` is set). Defaults
+   *  to the raw number. */
+  formatScore?: (score: number) => string;
 }
 
 export type KeyState = "correct" | "present" | "absent" | "unused";
