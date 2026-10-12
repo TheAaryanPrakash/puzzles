@@ -13,3 +13,6 @@ __pycache__/
 *.pyc
 .coverage
 *.zip
+
+# playwright-cli session output (snapshots, console logs)
+.playwright-cli/
