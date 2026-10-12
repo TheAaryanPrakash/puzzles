@@ -61,8 +61,12 @@ function useFrameWatchdog(enabled: boolean): boolean {
 /**
  * Mounted once at the route root (see routes.tsx) so FluxLines never remounts on navigation.
  * "Calm" mode (slower, dimmer, weaker cursor pull) applies on any `/[gameId]` page; the hub and
- * other site pages get the full effect. Falls back to a static gradient — no canvas, no RAF — when
- * WebGL2 isn't available, `prefers-reduced-motion` is set, or the frame-rate watchdog trips.
+ * other site pages get the full effect. Falls back to a static gradient — no canvas, no RAF — only
+ * when WebGL2 isn't available at all. `prefers-reduced-motion` and the frame-rate watchdog tripping
+ * instead pass `paused` to FluxLines itself: the canvas stays mounted but freezes on its last frame
+ * and its own RAF loop self-terminates once settled (confirmed live — `requestAnimationFrame` stops
+ * firing within a tick of `paused` becoming true), which is cheaper than remounting a fresh gradient
+ * element and avoids a visible swap.
  */
 export function AppShell({ gameIds }: { gameIds: string[] }) {
   const location = useLocation();
