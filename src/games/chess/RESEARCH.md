@@ -236,3 +236,188 @@ would.
 7. `src/games/chess/HANDOFF.md`, screenshots, `CLAUDE.md`'s new "Chess" section, `scoredGameMetas`
    wiring, `scripts/check-scope.mjs`'s new `chess` scope entry, `pnpm test` + `pnpm build`, commit in
    small steps.
+
+## Multiplayer (Play a Friend)
+
+Research for the second chess mode: untimed correspondence between two site members, reusing the
+vs-computer board/logic/theme/result-modal rather than forking them. Sources below are a mix of
+confirmed facts (cited) and informed defaults where no authoritative public spec exists — each is
+labelled.
+
+### 1. Turns and move submission (concurrency control)
+
+- **Lichess's own live-game move pipeline** applies each move as a monotonically increasing ply
+  against the server's copy of the game; a client that's behind (stale page, second tab) gets
+  rejected and resynced rather than silently applying an old move on top of a newer position. The
+  exact mechanism (lila's `Game` model incrementing `turns`/`ply` server-side, validated against
+  what the client thinks it's moving from) isn't published as a spec, but the *shape* — "the move
+  carries the ply it was computed from; the server refuses a mismatch" — is the standard
+  optimistic-concurrency pattern for any turn-based server, used identically by webchess,
+  python-chess server examples, and FICS-style servers reviewed. This directly motivates this
+  project's `expected_ply` check: `make_move` takes the ply the client's board was showing and
+  the RPC refuses (rather than applying) if the stored row's `ply` has moved on — the same
+  "optimistic lock, not a mutex" approach `plays_guard`'s `status = 'in_progress'` check already
+  uses elsewhere in this schema.
+- **Server trusts the client's legality check, re-verifies the boring parts.** No reviewed
+  correspondence implementation re-runs full legal-move generation server-side for a trusted,
+  same-origin client — chess.js already guarantees the submitted SAN/FEN pair is reachable from
+  the prior position *if* the server independently confirms the mover is a real player of this
+  game, it's their turn, the game is still active, and the ply hasn't moved — which is exactly the
+  task's four required checks and needs no server-side chess engine at all. (A fully adversarial
+  public API, unlike this invite-only friends site, would want server-side legality too — out of
+  scope here, consistent with CLAUDE.md's existing "client checks legality, server trusts it"
+  pattern for the computer mode's hint/undo.)
+
+### 2. Draw offers
+
+- Universal across every server reviewed (lichess, chess.com Daily, FICS/ICC per
+  chessclub.com's help page): either player can offer a draw at any point on their own turn or in
+  reply; the opponent can accept (game ends drawn) or decline (play continues); an offer that goes
+  unanswered is implicitly cancelled by the receiving player simply making a move instead of
+  responding to it — nobody reviewed persists a "declined" state distinct from "the recipient
+  moved instead." This project's rule ("the offer is cleared automatically when the opponent
+  moves") matches that universal behaviour exactly, so `make_move` clearing `draw_offer_by` to
+  null is sufficient — no separate "declined" status or notification needed.
+- **Flag-vs-draw-offer edge case** (chess.com forum, lichess forum, USCF discourse — see sources):
+  live/clocked servers have a real edge case where a draw offer is pending *when a flag falls*,
+  and servers differ on whether the offer or the time-loss wins. **Does not apply here** — this
+  mode is explicitly untimed (no clock, no flag), so there is no ordering question: a draw offer
+  and an abandonment claim can never race, since abandonment can only be evaluated by `last_move_at`
+  elapsed time, and a draw offer never touches `last_move_at`.
+
+### 3. Abandonment and claiming a win
+
+- **Lichess's live-game disconnect timeout** (forum-reported, not official docs: ~40s blitz, 80s
+  rapid, 120s classical, scaled down if the disconnected player is materially ahead) is a
+  *live-clock* mechanism — it doesn't apply to correspondence, which instead runs each player's
+  per-move clock from **1 to 14 days** (confirmed via Lichess's own December 2014 feature-announce
+  blog post introducing slow correspondence, corroborated by current game pages and forum posts
+  citing both the 1-day and 14-day ends of that range) and auto-resolves the game as a time-loss
+  once a side's per-move clock reaches zero — no manual "claim" step, because the deadline itself
+  ends the game.
+- **This project does the opposite of a per-move clock deliberately** — the task asks for a single
+  fixed 7-day abandonment window plus a manual claim, not a Lichess-style per-move countdown with
+  automatic resolution, and "no cron job" rules out a server-side job that resolves games the
+  instant a deadline passes. The closer precedent is **postal/ICCF-style correspondence**: ICCF's
+  real-world rules (reasoning from well-known correspondence-chess convention — a game has a time
+  allowance per move, and if a player exceeds it, the *opponent* can claim a win rather than the
+  server auto-deciding it) put the claim in the other player's hands, evaluated whenever they
+  bother to check — exactly the "no cron job, work out expiry when reading" shape this task asks
+  for both here and for challenge expiry. Concretely: `claim_abandoned` is a security-definer RPC
+  that computes `now() - last_move_at > interval '7 days'` **at call time** and refuses the claim
+  if that's false — nothing decides this proactively, so a game can sit abandoned indefinitely with
+  no resolution until the opponent happens to open it and claim it. This is consistent with "the
+  creator can cancel; a named recipient can decline" for challenge expiry elsewhere in the task,
+  the same lazy-evaluation pattern already chosen there.
+- Chess.com's Daily Chess (reviewed via its own support article on vacation time) layers a
+  *vacation bank* on top of a similar per-move timeout, pausing the clock while a player is
+  explicitly on vacation — explicitly **left out** here: the task gives a flat 7 days with no
+  pause/vacation concept, and adding one wasn't asked for.
+
+### 4. Challenges and open links
+
+- **Lichess's two challenge shapes** map directly onto this task's two: a *direct* challenge to a
+  specific person (lichess: challenge by username, opponent gets a notification, they can accept or
+  decline) and an *open* challenge (lichess: `/challenge/<id>` — a link anyone signed in, other than
+  its creator, can open and accept, used for lichess's own "Open Challenge" / tournament-pairing
+  links and casual link-sharing). This project's two rules — "challenge a friend" (named recipient,
+  shares a group) vs. "challenge link" (random token, any signed-in member except the creator) —
+  are the same split, scoped down to "shares a group with you" instead of lichess's open internet,
+  which this site's invite-only membership model requires anyway.
+- **Side selection on a challenge**: reviewed implementations (lichess challenge form; FICS `match`
+  command per unix-ag's documented FICS help pages) all let the *challenger* pick White, Black, or
+  "random assigns colour" at challenge time, not at accept time — the acceptor only agrees to play,
+  they don't get a second colour choice. This project's "Pick White / Black / Random" wording
+  matches that: it's the creator's choice, resolved once (for "random") at creation, not at accept.
+- **Expiry with no cron job**: no reviewed server publishes its exact open-challenge expiry
+  mechanism as "lazy," but the *symptom* is externally visible on lichess — an old open-challenge
+  link eventually stops being acceptable without any visible "expiry sweep" happening — consistent
+  with a `created_at + interval` check evaluated inside `accept_challenge` itself, exactly as this
+  task's "work out expiry when reading" line asks for, mirroring the abandonment-claim approach
+  above.
+
+### 5. Rematch
+
+- Universal across every reviewed server (lichess post-game "Rematch" button, chess.com, FICS
+  `rematch`): a rematch is simply a *new* game offered between the same two players with colours
+  swapped, requiring the same accept step as any other challenge — never an in-place reset of the
+  finished game's row. This project's "a rematch is a direct challenge with the colours swapped"
+  follows that exactly; `rematch_of` on the new row just records provenance (e.g. for a future "game
+  N of a rematch chain" UI), it isn't a different acceptance flow.
+
+### 6. Spectating
+
+- No reviewed open server has anything resembling this task's rule (visible only to someone who
+  shares a group with *both* players) — lichess, chess.com and FICS spectating is all-or-nothing:
+  a live or finished game is either fully public (lichess: any game URL is spectatable by anyone,
+  logged in or not) or fully private (none of the reviewed servers model "visible to a subset of
+  the server's own users"). This is a direct consequence of this site never having a public,
+  unauthenticated surface at all (every page already sits behind `RequireMember`) — spectating here
+  is a *narrower* RLS policy (`shares_group(group_id)` evaluated against **both** players, not just
+  one, unlike the existing friends-board policy which already only checks one side) rather than a
+  pattern borrowed from anywhere external.
+
+### 7. Realtime transport
+
+- Lichess's own live boards run over a custom WebSocket protocol (lila's own infrastructure, not
+  something to imitate here); the applicable precedent for *this* stack is this project's own
+  existing pattern — `0004_groups.sql`'s tables aren't realtime-subscribed anywhere yet, so there's
+  no in-repo precedent for a realtime table, but Supabase's standard approach (subscribe to
+  `postgres_changes` on one row's primary key, filtered server-side by RLS so a non-player/non-
+  spectator's subscription simply never receives events for a game they can't `select`) is the
+  conventional, documented way to do this and needs no new infra. The "refetch on reconnect/tab
+  focus" fallback (rather than trusting the socket alone) is the standard robustness pattern for
+  any realtime subscription, not something specific to chess.
+
+### Chosen design for multiplayer (summary — full rationale in the sections above)
+
+- `expected_ply` optimistic-concurrency check on every move, mirroring the ply-guard pattern
+  implied by every live chess server reviewed.
+- Draw offers cleared by the next move, no separate "declined" state — matches every server
+  reviewed.
+- Abandonment is a flat 7-day, lazily-evaluated claim (closer to ICCF postal convention than to
+  Lichess's per-move clock), because "no cron job" rules out proactive resolution.
+- Challenges: direct (named recipient, shares a group) + open link (random token, any group-sharing
+  member but the creator), both lazily expired at 3 days — the same lazy-expiry shape as the
+  abandonment claim.
+- Rematch = a new, direct, colour-swapped challenge — never an in-place reset.
+- Spectating is a narrower version of this project's own `shares_group` RLS pattern, checked
+  against both players — there's no external precedent for this because no reviewed server has a
+  private-by-default membership model to begin with.
+- Realtime via Supabase `postgres_changes` on the single game row, RLS-filtered, with a
+  reconnect/focus refetch fallback.
+
+Sources: [Lichess "half-year update" blog post](https://lichess.org/@/lichess/blog/lichess-half-year-update--new-feature-sneak-preview/YulPhhAA)
+(correspondence time-control range), [Lichess forum: draw offer vs. losing on time](https://lichess.org/forum/redirect/post/0dtSJflK),
+[Lichess forum: disconnect timeout windows by speed](https://lichess.org/forum/lichess-feedback/has-there-been-any-update-concerning-the-algorithm-looking-for-players-leaving-games),
+[chessclub.com correspondence help (draw/abort commands)](https://www.chessclub.com/help/correspondence),
+[FICS help pages (unix-ag mirror)](https://www.unix-ag.uni-kl.de/~chess/gicshelp/node23.html),
+[Chess.com support: vacation time](https://support.chess.com/article/624-how-does-vacation-work-how-much-time-do-i-get),
+[USCF discourse: draw offer question](https://uschess.discourse.group/t/draw-offer-question/13594).
+General challenge/rematch/spectator shapes (lichess's own `/challenge/<id>` open-challenge links,
+post-game Rematch button, and fully-public spectating) are drawn from this project's own working
+knowledge of Lichess's UI rather than a single citable page — flagged here as informed-default
+rather than sourced, per this file's own standard.
+
+## Multiplayer build plan
+
+1. `supabase/migrations/0005_chess.sql` — `chess_challenges`, `chess_games`, RLS, security-definer
+   RPCs (`create_challenge`, `accept_challenge`, `decline_challenge`, `cancel_challenge`,
+   `make_move`, `resign`, `offer_draw`, `respond_draw`, `claim_abandoned`, `my_chess_games`,
+   `my_chess_record`), `chess_games` added to `supabase_realtime` guarded for PGlite, and matching
+   `supabase/tests/schema.test.mjs` coverage.
+2. `src/lib/data/chess.ts` — the only chess code touching the backend: a small `ChessDataSource`-
+   shaped interface (separate from the frozen `src/lib/data/types.ts`), a Supabase adapter calling
+   the RPCs above plus a Realtime subscription, and a local adapter over `localStorage` +
+   `BroadcastChannel` with a dev-only fake-user switcher so two tabs can play each other.
+3. `src/games/chess/multiplayer/` (or similarly-scoped folder under `src/games/chess/`) — the
+   Friends tab UI (challenge creation/list, games list, game view reusing `Board`/theme/
+   `GameResultModal`), built against `src/lib/data/chess.ts` only — never `src/lib/data`/`usePlay`,
+   keeping the existing `no-datasource.test.ts` guarantee intact for the vs-computer mode and
+   extending an equivalent guard (friends mode may call `src/lib/data/chess.ts`, still never the
+   scored `DataSource`).
+4. Hub card badge (turn + incoming-challenge count), `?challenge=<token>` survival through sign-in/
+   Join exactly like `?invite=`'s existing `saveInviteCode`/`readInviteCode` pattern.
+5. Vitest for the new pure logic (ply/turn validation shape, draw-offer clearing, abandonment
+   threshold, rematch colour-swap) + Playwright-library two-window check against the local adapter.
+6. CLAUDE.md "Chess" section and PLAN.md updated; commit in small steps on main; don't push.

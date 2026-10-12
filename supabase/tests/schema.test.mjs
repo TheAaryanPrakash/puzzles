@@ -22,6 +22,10 @@ const F = "00000000-0000-0000-0000-00000000000f";
 const G = "00000000-0000-0000-0000-000000000010";
 const H = "00000000-0000-0000-0000-000000000011";
 const I = "00000000-0000-0000-0000-000000000012";
+const J = "00000000-0000-0000-0000-000000000013";
+const K = "00000000-0000-0000-0000-000000000014";
+const L = "00000000-0000-0000-0000-000000000015";
+const M = "00000000-0000-0000-0000-000000000016";
 let pass = 0, fail = 0;
 const ok = (name, cond) => { cond ? pass++ : fail++; console.log(`${cond ? "PASS" : "FAIL"}  ${name}`); };
 const throws = async (name, fn) => { try { await fn(); ok(name, false); } catch (e) { ok(`${name}  (${e.message.split("\n")[0]})`, true); } };
@@ -36,7 +40,8 @@ await db.exec(`
   create function auth.uid() returns uuid language sql stable as
     $$ select nullif(current_setting('request.jwt.claim.sub', true), '')::uuid $$;
   insert into auth.users values
-    ('${A}'), ('${B}'), ('${C}'), ('${D}'), ('${E}'), ('${F}'), ('${G}'), ('${H}'), ('${I}');
+    ('${A}'), ('${B}'), ('${C}'), ('${D}'), ('${E}'), ('${F}'), ('${G}'), ('${H}'), ('${I}'),
+    ('${J}'), ('${K}'), ('${L}'), ('${M}');
 
   create schema storage;
   create table storage.buckets (id text primary key, name text not null, public boolean not null default false);
@@ -358,6 +363,123 @@ if (groupsFile) {
   const ranked = [...globalToday].sort((a, b) => a.rank - b.rank);
   ok("rank is consistent with points, descending",
     ranked.every((r, i) => i === 0 || ranked[i - 1].points >= r.points));
+
+  // ═══════════════════════════ 0005: chess "Play a Friend" ═══════════════════════════
+  // A dedicated, isolated group of actors (J/K/L/M) rather than reusing the sprawling fixture
+  // above, so "shares a group with both / one / neither" has clean, unambiguous answers. Only J
+  // joins the pre-existing migrated group (purely to bootstrap is_member() so J can create_group);
+  // K, L and M join J's own fresh groups directly by invite code, which needs no prior membership.
+  await as(J, `select * from join_with_invite('sunflower-23', 'Jana')`);
+  const chessPals = (await as(J, "select * from create_group('Chess Pals')")).rows[0];
+  await as(K, `select * from join_with_invite('${chessPals.invite_code}', 'Kiran')`);
+  await as(L, `select * from join_with_invite('${chessPals.invite_code}', 'Leela')`);
+  const justJ = (await as(J, "select * from create_group('Just J')")).rows[0];
+  await as(M, `select * from join_with_invite('${justJ.invite_code}', 'Maya')`); // shares "Just J" with J only — not "Chess Pals", not the migrated group
+
+  // ───── challenging ─────
+  await throws("challenging someone outside your groups is refused",
+    () => as(J, `select * from create_challenge('${C}', 'white')`));
+  const jChallengesK = (await as(J, `select * from create_challenge('${K}', 'white')`)).rows[0];
+  await throws("the creator can't accept their own link",
+    () => as(J, `select * from accept_challenge(null, '${jChallengesK.token}')`));
+  const accepted = (await as(K, `select * from accept_challenge(null, '${jChallengesK.token}')`)).rows[0];
+  const gameId = accepted.game_id;
+  const game0 = (await db.query(`select * from chess_games where id = '${gameId}'`)).rows[0];
+  ok("creator_side='white' makes the creator white", game0.white_id === J && game0.black_id === K);
+
+  // ───── spectating: shares a group with BOTH players / only one / neither ─────
+  ok("a spectator sharing a group with both players can see the game",
+    (await as(L, `select 1 from chess_games where id = '${gameId}'`)).rows.length === 1);
+  ok("sharing a group with only one player is not enough to spectate",
+    (await as(M, `select 1 from chess_games where id = '${gameId}'`)).rows.length === 0);
+  ok("sharing no group with either player cannot spectate",
+    (await as(C, `select 1 from chess_games where id = '${gameId}'`)).rows.length === 0);
+
+  // ───── moves: non-player, wrong turn, stale ply ─────
+  const startFen = game0.fen;
+  await throws("a non-player can't move",
+    () => as(M, `select make_move('${gameId}', 'e2e4', 'e4', '${startFen}', '', 0)`));
+  await throws("moving on the wrong turn is refused (black tried to move first)",
+    () => as(K, `select make_move('${gameId}', 'e7e5', 'e5', '${startFen}', '', 0)`));
+  await throws("a stale expected_ply is refused",
+    () => as(J, `select make_move('${gameId}', 'e2e4', 'e4', '${startFen}', '1. e4', 5)`));
+  await as(J, `select make_move('${gameId}', 'e2e4', 'e4', 'rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1', '1. e4', 0)`);
+  const afterOneMove = (await db.query(`select ply, draw_offer_by from chess_games where id = '${gameId}'`)).rows[0];
+  ok("ply advanced by one after a valid move", afterOneMove.ply === 1);
+
+  // ───── draw offer cleared by the next move ─────
+  await as(J, `select offer_draw('${gameId}')`);
+  const withOffer = (await db.query(`select draw_offer_by from chess_games where id = '${gameId}'`)).rows[0];
+  ok("offer_draw records who offered", withOffer.draw_offer_by === J);
+  await as(K, `select make_move('${gameId}', 'e7e5', 'e5', 'rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2', '1. e4 e5', 1)`);
+  const afterSecondMove = (await db.query(`select draw_offer_by, ply from chess_games where id = '${gameId}'`)).rows[0];
+  ok("a pending draw offer is cleared by the opponent's move", afterSecondMove.draw_offer_by === null && afterSecondMove.ply === 2);
+
+  // ───── resign freezes the game ─────
+  await as(J, `select resign('${gameId}')`);
+  const resigned = (await db.query(`select status, result, reason from chess_games where id = '${gameId}'`)).rows[0];
+  ok("resign ends the game with the other side winning", resigned.status === "finished" && resigned.result === "black_won" && resigned.reason === "resignation");
+  await throws("a finished game is frozen against further moves",
+    () => as(K, `select make_move('${gameId}', 'g8f6', 'Nf6', '${startFen}', '', 2)`));
+  await throws("a finished game is frozen against a new draw offer",
+    () => as(K, `select offer_draw('${gameId}')`));
+
+  // ───── abandonment: refused before 7 days, allowed after ─────
+  const jChallengesK2 = (await as(J, `select * from create_challenge('${K}', 'black')`)).rows[0];
+  const game2Id = (await as(K, `select * from accept_challenge(null, '${jChallengesK2.token}')`)).rows[0].game_id;
+  const game2 = (await db.query(`select * from chess_games where id = '${game2Id}'`)).rows[0];
+  // creator_side='black' => J is black, K is white; white (K) moves first.
+  ok("creator_side='black' makes the creator black", game2.white_id === K && game2.black_id === J);
+  await throws("claiming abandonment before 7 days is refused",
+    () => as(J, `select claim_abandoned('${game2Id}')`));
+  await db.exec(`update chess_games set last_move_at = now() - interval '8 days' where id = '${game2Id}'`);
+  await as(J, `select claim_abandoned('${game2Id}')`);
+  const abandoned = (await db.query(`select status, result, reason from chess_games where id = '${game2Id}'`)).rows[0];
+  ok("claiming abandonment after 7 days gives the claimant the win",
+    abandoned.status === "finished" && abandoned.result === "black_won" && abandoned.reason === "abandoned");
+
+  // ───── expired challenge can't be accepted ─────
+  const jChallengesK3 = (await as(J, `select * from create_challenge('${K}', 'white')`)).rows[0];
+  await db.exec(`update chess_challenges set expires_at = now() - interval '1 hour' where id = '${jChallengesK3.id}'`);
+  await throws("an expired challenge can't be accepted",
+    () => as(K, `select * from accept_challenge(null, '${jChallengesK3.token}')`));
+  await as(J, `select cancel_challenge('${jChallengesK3.id}')`); // tidy up: don't leave it counting toward J's cap below
+
+  // ───── the 5-game cap ─────
+  for (let i = 0; i < 5; i++) await as(J, "select * from create_challenge(null, 'random')");
+  await throws("the 5-game cap refuses a 6th game or pending challenge",
+    () => as(J, "select * from create_challenge(null, 'random')"));
+  await db.exec(`delete from chess_challenges where created_by = '${J}' and status = 'pending' and recipient_id is null`);
+
+  // ───── rematch swaps colours ─────
+  const rematch = (await as(K, `select * from create_rematch('${gameId}')`)).rows[0];
+  const rematchGameId = (await as(J, `select * from accept_challenge(null, '${rematch.token}')`)).rows[0].game_id;
+  const rematchGame = (await db.query(`select white_id, black_id, rematch_of from chess_games where id = '${rematchGameId}'`)).rows[0];
+  ok("a rematch swaps colours from the original game",
+    rematchGame.white_id === game0.black_id && rematchGame.black_id === game0.white_id);
+  ok("a rematch records which game it's a rematch of", rematchGame.rematch_of === gameId);
+
+  // ───── my_chess_record: overall + head-to-head ─────
+  await as(K, `select resign('${rematchGameId}')`);
+  const jRecord = (await as(J, "select * from my_chess_record()")).rows;
+  const jOverall = jRecord.find((r) => r.opponent_name === "Overall");
+  const jVsKiran = jRecord.find((r) => r.opponent_name === "Kiran");
+  // J so far: resigned game 1 (loss), claimed game 2 by abandonment (win), rematch where K resigned (win).
+  ok("my_chess_record totals wins/losses/draws correctly", jOverall?.wins === 2 && jOverall?.losses === 1 && jOverall?.draws === 0);
+  ok("my_chess_record's head-to-head matches the overall total (same single opponent)",
+    jVsKiran?.wins === 2 && jVsKiran?.losses === 1);
+
+  // ───── chess never touches plays, my_stats or the leaderboard ─────
+  const statsBefore = JSON.stringify((await as(A, "select * from my_stats() order by game_id")).rows);
+  const leaderboardBefore = JSON.stringify((await as(G, `select display_name, points, wins, games_played from leaderboard('group', '${gGroup.id}', 'day') order by display_name`)).rows);
+  const aChallengesB = (await as(A, `select * from create_challenge('${B}', 'white')`)).rows[0];
+  const abGameId = (await as(B, `select * from accept_challenge(null, '${aChallengesB.token}')`)).rows[0].game_id;
+  await as(A, `select make_move('${abGameId}', 'e2e4', 'e4', 'rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1', '1. e4', 0)`);
+  await as(B, `select resign('${abGameId}')`);
+  const statsAfter = JSON.stringify((await as(A, "select * from my_stats() order by game_id")).rows);
+  const leaderboardAfter = JSON.stringify((await as(G, `select display_name, points, wins, games_played from leaderboard('group', '${gGroup.id}', 'day') order by display_name`)).rows);
+  ok("playing and finishing a chess game leaves my_stats() byte-identical", statsBefore === statsAfter);
+  ok("playing and finishing a chess game leaves the leaderboard byte-identical", leaderboardBefore === leaderboardAfter);
 }
 
 console.log(`\n${pass} passed, ${fail} failed`);
