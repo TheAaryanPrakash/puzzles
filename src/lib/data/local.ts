@@ -172,7 +172,7 @@ function randomInviteCode(): string {
 /** Seeds one believable group — "Puzzle Pals", created by a fake friend (not the local user, same
  *  as real onboarding: you join a group someone else made) with both fake friends already in it —
  *  the first time anything group-related is read, so a fresh dev environment isn't empty. */
-function ensureSeedGroup(): void {
+export function ensureSeedGroup(): void {
   if (readGroups().length > 0) return;
   const creatorId = `local-friend-${FAKE_FRIENDS[0].toLowerCase()}`;
   const group: StoredGroup = {

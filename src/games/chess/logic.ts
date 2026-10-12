@@ -1,6 +1,17 @@
 // Pure functions only — no React, no chess.js side effects beyond reading a position, no
 // localStorage, no Worker. See RESEARCH.md for why each numeric choice below is what it is.
-import { Chess } from "chess.js";
+import { Chess, type Square } from "chess.js";
+
+/** Scans the board for the given colour's king — used to highlight it while in check. Shared by
+ *  the computer-mode and friend-mode boards rather than duplicated in each. */
+export function kingSquare(chess: Chess, color: "w" | "b"): Square | null {
+  for (const row of chess.board()) {
+    for (const cell of row) {
+      if (cell && cell.type === "k" && cell.color === color) return cell.square;
+    }
+  }
+  return null;
+}
 
 export type Difficulty = "easy" | "medium" | "hard";
 export type Side = "white" | "black";

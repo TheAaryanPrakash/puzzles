@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { Link } from "react-router";
+import { Link, useSearchParams } from "react-router";
 import "@fontsource/dm-serif-display/400.css";
 import "@fontsource/ibm-plex-mono/400.css";
 import "@fontsource/ibm-plex-mono/600.css";
@@ -19,6 +19,7 @@ import { PromotionPicker } from "./components/PromotionPicker";
 import { SettingsModal } from "./components/SettingsModal";
 import { GameResultModal } from "./components/GameResultModal";
 import { ChessEngine } from "./lib/engine";
+import { ChessTabs } from "./components/ChessTabs";
 import { loadGame, saveGame, loadSettings, saveSettings, loadRecord, recordResult, type PersonalRecord } from "./lib/storage";
 import {
   createFreshGame,
@@ -32,6 +33,7 @@ import {
   applyIncrement,
   isFlagged,
   flagOutcome,
+  kingSquare,
   VARIETY_ENGINE_MOVES,
   type ChessSettings,
   type GameState,
@@ -39,20 +41,12 @@ import {
   type GameResult,
   type Side,
 } from "./logic";
+import { FriendsTab } from "./friends/FriendsTab";
 
 const ICON_BUTTON =
   "flex h-11 w-11 items-center justify-center rounded-brand-full text-lg transition-colors duration-brand-fast hover:bg-game-surface-2";
 
-function kingSquare(chess: Chess, color: "w" | "b"): Square | null {
-  for (const row of chess.board()) {
-    for (const cell of row) {
-      if (cell && cell.type === "k" && cell.color === color) return cell.square;
-    }
-  }
-  return null;
-}
-
-export default function ChessGame() {
+function ComputerTab() {
   const { member } = useAuth();
   const userId = member?.userId ?? "local-dev";
 
@@ -387,7 +381,7 @@ export default function ChessGame() {
         <Link to="/" aria-label="Back to hub" className={`${ICON_BUTTON} text-game-fg hover:text-game-accent`}>
           ←
         </Link>
-        <h1 className="text-balance font-game text-lg font-semibold tracking-tight">{meta.title}</h1>
+        <ChessTabs active="computer" />
         <div className="flex items-center gap-1">
           <button type="button" onClick={() => setSettingsOpen(true)} aria-label="New game" className={ICON_BUTTON}>
             🔄
@@ -538,4 +532,14 @@ function RecordSummary({ record }: { record: PersonalRecord }) {
       {assistedTotal > 0 && <p className="mt-2 text-xs text-game-muted">Plus {assistedTotal} assisted (undo/hint used).</p>}
     </div>
   );
+}
+
+/** The two modes are fully independent components, switched by `?tab=` (a plain navigation via
+ *  ChessTabs, not lifted React state) rather than a shared parent that owns both — see
+ *  ChessTabs.tsx's comment. Defaults to Friends when a challenge link brought her here, even
+ *  before she's picked a tab explicitly. */
+export default function ChessGame() {
+  const [searchParams] = useSearchParams();
+  const wantsFriends = searchParams.get("tab") === "friends" || searchParams.has("challenge");
+  return wantsFriends ? <FriendsTab /> : <ComputerTab />;
 }
