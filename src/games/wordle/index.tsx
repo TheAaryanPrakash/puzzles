@@ -1,8 +1,9 @@
 import { useEffect, useMemo, useState } from "react";
 import "./theme.css";
 import { GameLayout } from "../../components/GameLayout";
-import { HelpModal } from "../../components/HelpModal";
+import { HowToPlayModal, useAutoOpenHowToPlay } from "../../components/HowToPlayModal";
 import { ResultModal } from "../../components/ResultModal";
+import { useAuth } from "../../lib/auth";
 import { NoPuzzleToday } from "../../components/NoPuzzleToday";
 import { AlreadyPlayed } from "../../components/AlreadyPlayed";
 import { Button } from "../../components/Button";
@@ -42,7 +43,8 @@ export default function Wordle() {
   const [revealingRow, setRevealingRow] = useState<number | null>(null);
   const [pendingResult, setPendingResult] = useState<WordleState | null>(null);
   const [liveMessage, setLiveMessage] = useState("");
-  const [helpOpen, setHelpOpen] = useState(false);
+  const { member } = useAuth();
+  const [helpOpen, openHelp, closeHelp] = useAutoOpenHowToPlay(meta.id, member?.userId);
   const [resultOpen, setResultOpen] = useState(false);
 
   useEffect(() => {
@@ -61,11 +63,9 @@ export default function Wordle() {
 
   if (status === "missing" || !puzzle) {
     return (
-      <GameLayout game={meta.id} title={meta.title} onHelp={() => setHelpOpen(true)}>
+      <GameLayout game={meta.id} title={meta.title} onHelp={openHelp}>
         <NoPuzzleToday gameTitle={meta.title} />
-        <HelpModal open={helpOpen} onClose={() => setHelpOpen(false)}>
-          <HelpContent />
-        </HelpModal>
+        <HowToPlayModal game={meta} open={helpOpen} onClose={closeHelp} />
       </GameLayout>
     );
   }
@@ -147,7 +147,7 @@ export default function Wordle() {
   const keyStates = keyboardStates(state.guesses, answer);
 
   return (
-    <GameLayout game={meta.id} title={meta.title} onHelp={() => setHelpOpen(true)}>
+    <GameLayout game={meta.id} title={meta.title} onHelp={openHelp}>
       {play && play.status !== "in_progress" && !resultOpen && <AlreadyPlayed status={play.status} />}
 
       <div className="flex flex-col items-center gap-4">
@@ -180,9 +180,7 @@ export default function Wordle() {
         )}
       </div>
 
-      <HelpModal open={helpOpen} onClose={() => setHelpOpen(false)}>
-        <HelpContent />
-      </HelpModal>
+      <HowToPlayModal game={meta} open={helpOpen} onClose={closeHelp} />
 
       {over && (
         <ResultModal
@@ -199,43 +197,6 @@ export default function Wordle() {
         />
       )}
     </GameLayout>
-  );
-}
-
-function HelpContent() {
-  return (
-    <>
-      <p>
-        Guess the word in {MAX_GUESSES} tries. Each guess must be a real {WORD_LENGTH}-letter word.
-        Press Enter to submit.
-      </p>
-      <ul className="space-y-2">
-        <li className="flex items-center gap-2">
-          <span className="flex h-8 w-8 items-center justify-center rounded-tile bg-tile-correct font-bold text-white">
-            A
-          </span>
-          The letter is in the word and in the correct spot.
-        </li>
-        <li className="flex items-center gap-2">
-          <span className="flex h-8 w-8 items-center justify-center rounded-tile bg-tile-present font-bold text-white">
-            B
-          </span>
-          The letter is in the word but in the wrong spot.
-        </li>
-        <li className="flex items-center gap-2">
-          <span className="flex h-8 w-8 items-center justify-center rounded-tile bg-tile-absent font-bold text-white">
-            C
-          </span>
-          The letter is not in the word in any spot.
-        </li>
-      </ul>
-      <p>
-        <strong>Hard Mode</strong>: any revealed hint must be used in later guesses — a correct
-        letter stays in its spot, and a letter known to be in the word must appear again somewhere.
-        Turn it on before your first guess; it's locked in for the rest of the puzzle.
-      </p>
-      <p>A new puzzle arrives every day. Everyone gets the same word.</p>
-    </>
   );
 }
 
