@@ -2,7 +2,8 @@ import { useState } from "react";
 import "flag-icons/css/flag-icons.min.css";
 import "./theme.css";
 import { GameLayout } from "../../components/GameLayout";
-import { HelpModal } from "../../components/HelpModal";
+import { HowToPlayModal, useAutoOpenHowToPlay } from "../../components/HowToPlayModal";
+import { useAuth } from "../../lib/auth";
 import { ResultModal } from "../../components/ResultModal";
 import { NoPuzzleToday } from "../../components/NoPuzzleToday";
 import { AlreadyPlayed } from "../../components/AlreadyPlayed";
@@ -28,34 +29,22 @@ import { Globe } from "./components/Globe";
 import { GuessInput } from "./components/GuessInput";
 import { GuessList } from "./components/GuessList";
 
-const HELP_CONTENT = (
-  <>
-    <p>A new country is hidden every day — everyone sees the same one.</p>
-    <p>
-      Guess any country. The globe colors it in by how close its <strong>border</strong> is to
-      the secret country's border — pale for far, deep red for close. Two countries that share a
-      land border always score as close as it gets.
-    </p>
-    <p>Unlimited guesses. Keep going until you find it — your closest guess so far is tracked below.</p>
-  </>
-);
 
 export default function GlobleGame() {
   const { date, puzzle, status } = usePuzzle<GloblePuzzle>(meta.id);
   const { play, loading: playLoading, start, save, finish } = usePlay<GlobleState>(meta.id, date);
   const { status: worldStatus, data: world } = useWorldData();
-  const [helpOpen, setHelpOpen] = useState(false);
+  const { member } = useAuth();
+  const [helpOpen, openHelp, closeHelp] = useAutoOpenHowToPlay(meta.id, member?.userId);
   const [resultOpen, setResultOpen] = useState(false);
 
   if (status === "loading" || playLoading) return null;
 
   if (status === "missing" || !puzzle) {
     return (
-      <GameLayout game={meta.id} title={meta.title} onHelp={() => setHelpOpen(true)}>
+      <GameLayout game={meta.id} title={meta.title} onHelp={openHelp}>
         <NoPuzzleToday gameTitle={meta.title} />
-        <HelpModal open={helpOpen} onClose={() => setHelpOpen(false)}>
-          {HELP_CONTENT}
-        </HelpModal>
+        <HowToPlayModal game={meta} open={helpOpen} onClose={closeHelp} />
       </GameLayout>
     );
   }
@@ -97,7 +86,7 @@ export default function GlobleGame() {
   const secretName = world?.names[activePuzzle.code]?.name;
 
   return (
-    <GameLayout game={meta.id} title={meta.title} onHelp={() => setHelpOpen(true)}>
+    <GameLayout game={meta.id} title={meta.title} onHelp={openHelp}>
       {play && play.status !== "in_progress" && !resultOpen && <AlreadyPlayed status={play.status} />}
 
       <div className="flex flex-col items-center gap-6">
@@ -133,9 +122,7 @@ export default function GlobleGame() {
         {world && <GuessList guesses={sorted} names={world.names} secretCode={activePuzzle.code} />}
       </div>
 
-      <HelpModal open={helpOpen} onClose={() => setHelpOpen(false)}>
-        {HELP_CONTENT}
-      </HelpModal>
+      <HowToPlayModal game={meta} open={helpOpen} onClose={closeHelp} />
 
       {over && (
         <ResultModal

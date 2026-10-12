@@ -1,7 +1,8 @@
 import { useMemo, useState } from "react";
 import "./theme.css";
 import { GameLayout } from "../../components/GameLayout";
-import { HelpModal } from "../../components/HelpModal";
+import { HowToPlayModal, useAutoOpenHowToPlay } from "../../components/HowToPlayModal";
+import { useAuth } from "../../lib/auth";
 import { ResultModal } from "../../components/ResultModal";
 import { NoPuzzleToday } from "../../components/NoPuzzleToday";
 import { AlreadyPlayed } from "../../components/AlreadyPlayed";
@@ -27,24 +28,13 @@ import { Silhouette } from "./components/Silhouette";
 import { StateCombobox } from "./components/StateCombobox";
 import { GuessList } from "./components/GuessList";
 
-function HelpContent() {
-  return (
-    <>
-      <p>
-        A silhouette of one of India's 28 states or 8 union territories is shown. Guess which one in{" "}
-        {MAX_GUESSES} tries.
-      </p>
-      <p>Each guess shows how far away it is, which direction the answer lies, and how close that is.</p>
-      <p>Renamed states work too — try the old name if you're not sure of the new one (e.g. Orissa).</p>
-    </>
-  );
-}
 
 export default function StatesGame() {
   const { date, puzzle, status } = usePuzzle<StatePuzzle>(meta.id);
   const { play, loading, start, save, finish } = usePlay<StateState>(meta.id, date);
   const { data, status: dataStatus } = useStatesData();
-  const [helpOpen, setHelpOpen] = useState(false);
+  const { member } = useAuth();
+  const [helpOpen, openHelp, closeHelp] = useAutoOpenHowToPlay(meta.id, member?.userId);
   const [resultOpen, setResultOpen] = useState(false);
 
   const nameIndex = useMemo(() => (data ? buildNameIndex(data.states) : new Map<string, string>()), [data]);
@@ -65,11 +55,9 @@ export default function StatesGame() {
 
   if (status === "missing" || !puzzle) {
     return (
-      <GameLayout game={meta.id} title={meta.title} onHelp={() => setHelpOpen(true)}>
+      <GameLayout game={meta.id} title={meta.title} onHelp={openHelp}>
         <NoPuzzleToday gameTitle={meta.title} />
-        <HelpModal open={helpOpen} onClose={() => setHelpOpen(false)}>
-          <HelpContent />
-        </HelpModal>
+        <HowToPlayModal game={meta} open={helpOpen} onClose={closeHelp} />
       </GameLayout>
     );
   }
@@ -109,7 +97,7 @@ export default function StatesGame() {
   }
 
   return (
-    <GameLayout game={meta.id} title={meta.title} onHelp={() => setHelpOpen(true)}>
+    <GameLayout game={meta.id} title={meta.title} onHelp={openHelp}>
       {play && play.status !== "in_progress" && !resultOpen && <AlreadyPlayed status={play.status} />}
 
       <div className="flex flex-col items-center gap-5">
@@ -141,9 +129,7 @@ export default function StatesGame() {
         )}
       </div>
 
-      <HelpModal open={helpOpen} onClose={() => setHelpOpen(false)}>
-        <HelpContent />
-      </HelpModal>
+      <HowToPlayModal game={meta} open={helpOpen} onClose={closeHelp} />
 
       {over && (
         <ResultModal

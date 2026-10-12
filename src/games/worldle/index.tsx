@@ -2,11 +2,12 @@ import { useState } from "react";
 import "flag-icons/css/flag-icons.min.css";
 import "./theme.css";
 import { GameLayout } from "../../components/GameLayout";
-import { HelpModal } from "../../components/HelpModal";
+import { HowToPlayModal, useAutoOpenHowToPlay } from "../../components/HowToPlayModal";
 import { ResultModal } from "../../components/ResultModal";
 import { NoPuzzleToday } from "../../components/NoPuzzleToday";
 import { AlreadyPlayed } from "../../components/AlreadyPlayed";
 import { Button } from "../../components/Button";
+import { useAuth } from "../../lib/auth";
 import { usePuzzle, usePlay } from "../../lib/hooks";
 import { dayIndex } from "../../lib/daily";
 import { formatGuesses } from "../../lib/format";
@@ -31,46 +32,29 @@ export default function Worldle() {
   const { date, puzzle, status } = usePuzzle<WorldlePuzzle>(meta.id);
   const { play, loading, start, save, finish } = usePlay<WorldleState>(meta.id, date);
   const { data, status: dataStatus } = useCountryData();
-  const [helpOpen, setHelpOpen] = useState(false);
+  const { member } = useAuth();
+  const [helpOpen, openHelp, closeHelp] = useAutoOpenHowToPlay(meta.id, member?.userId);
   const [resultOpen, setResultOpen] = useState(false);
-
-  const helpContent = (
-    <>
-      <p>
-        Guess the country from its silhouette in {MAX_GUESSES} tries. Type into the box and pick a
-        match — nicknames and common aliases work too (e.g. "UAE", "America").
-      </p>
-      <p>
-        Every wrong guess tells you the <strong>distance</strong> to the answer, the{" "}
-        <strong>direction</strong> (a compass arrow), and a <strong>proximity %</strong> — 100% is
-        exact, 0% is the farthest two places on Earth can be from each other.
-      </p>
-    </>
-  );
 
   if (status === "loading" || loading || dataStatus === "loading") return null;
 
   if (dataStatus === "error" || !data) {
     return (
-      <GameLayout game={meta.id} title={meta.title} onHelp={() => setHelpOpen(true)}>
+      <GameLayout game={meta.id} title={meta.title} onHelp={openHelp}>
         <NoPuzzleToday
           gameTitle={meta.title}
           message="Couldn't load the map data — try refreshing the page."
         />
-        <HelpModal open={helpOpen} onClose={() => setHelpOpen(false)}>
-          {helpContent}
-        </HelpModal>
+        <HowToPlayModal game={meta} open={helpOpen} onClose={closeHelp} />
       </GameLayout>
     );
   }
 
   if (status === "missing" || !puzzle) {
     return (
-      <GameLayout game={meta.id} title={meta.title} onHelp={() => setHelpOpen(true)}>
+      <GameLayout game={meta.id} title={meta.title} onHelp={openHelp}>
         <NoPuzzleToday gameTitle={meta.title} />
-        <HelpModal open={helpOpen} onClose={() => setHelpOpen(false)}>
-          {helpContent}
-        </HelpModal>
+        <HowToPlayModal game={meta} open={helpOpen} onClose={closeHelp} />
       </GameLayout>
     );
   }
@@ -112,7 +96,7 @@ export default function Worldle() {
     : "Mystery country silhouette";
 
   return (
-    <GameLayout game={meta.id} title={meta.title} onHelp={() => setHelpOpen(true)}>
+    <GameLayout game={meta.id} title={meta.title} onHelp={openHelp}>
       {play && play.status !== "in_progress" && !resultOpen && <AlreadyPlayed status={play.status} />}
 
       <div className="flex flex-col items-center gap-5">
@@ -146,9 +130,7 @@ export default function Worldle() {
         )}
       </div>
 
-      <HelpModal open={helpOpen} onClose={() => setHelpOpen(false)}>
-        {helpContent}
-      </HelpModal>
+      <HowToPlayModal game={meta} open={helpOpen} onClose={closeHelp} />
 
       {over && (
         <ResultModal

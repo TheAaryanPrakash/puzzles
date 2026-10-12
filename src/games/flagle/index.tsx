@@ -2,7 +2,8 @@ import { useState } from "react";
 import "flag-icons/css/flag-icons.min.css";
 import "./theme.css";
 import { GameLayout } from "../../components/GameLayout";
-import { HelpModal } from "../../components/HelpModal";
+import { HowToPlayModal, useAutoOpenHowToPlay } from "../../components/HowToPlayModal";
+import { useAuth } from "../../lib/auth";
 import { ResultModal } from "../../components/ResultModal";
 import { NoPuzzleToday } from "../../components/NoPuzzleToday";
 import { AlreadyPlayed } from "../../components/AlreadyPlayed";
@@ -31,18 +32,17 @@ export default function Flagle() {
   const { date, puzzle, status } = usePuzzle<FlaglePuzzle>(meta.id);
   const { play, loading, start, save, finish } = usePlay<FlagleState>(meta.id, date);
   const { options, centroids, loading: assetsLoading } = useFlagleAssets();
-  const [helpOpen, setHelpOpen] = useState(false);
+  const { member } = useAuth();
+  const [helpOpen, openHelp, closeHelp] = useAutoOpenHowToPlay(meta.id, member?.userId);
   const [resultOpen, setResultOpen] = useState(false);
 
   if (status === "loading" || loading || assetsLoading) return null;
 
   if (status === "missing" || !puzzle) {
     return (
-      <GameLayout game={meta.id} title={meta.title} onHelp={() => setHelpOpen(true)}>
+      <GameLayout game={meta.id} title={meta.title} onHelp={openHelp}>
         <NoPuzzleToday gameTitle={meta.title} />
-        <HelpModal open={helpOpen} onClose={() => setHelpOpen(false)}>
-          <HelpContent />
-        </HelpModal>
+        <HowToPlayModal game={meta} open={helpOpen} onClose={closeHelp} />
       </GameLayout>
     );
   }
@@ -81,7 +81,7 @@ export default function Flagle() {
   const targetOption = options.find((o) => o.code === activePuzzle.code);
 
   return (
-    <GameLayout game={meta.id} title={meta.title} onHelp={() => setHelpOpen(true)}>
+    <GameLayout game={meta.id} title={meta.title} onHelp={openHelp}>
       {play && play.status !== "in_progress" && !resultOpen && <AlreadyPlayed status={play.status} />}
 
       <div className="flex flex-col items-center gap-4">
@@ -114,9 +114,7 @@ export default function Flagle() {
         </div>
       </div>
 
-      <HelpModal open={helpOpen} onClose={() => setHelpOpen(false)}>
-        <HelpContent />
-      </HelpModal>
+      <HowToPlayModal game={meta} open={helpOpen} onClose={closeHelp} />
 
       {over && (
         <ResultModal
@@ -145,17 +143,3 @@ export default function Flagle() {
   );
 }
 
-function HelpContent() {
-  return (
-    <>
-      <p>
-        Guess today's flag in {MAX_GUESSES} tries. The flag starts almost entirely covered — every
-        wrong guess lifts one more tile.
-      </p>
-      <p>
-        Type a country's name (or its ISO code) and pick it from the list. Each guess shows how far
-        away it was, which direction to go, and a closeness percentage — just like Worldle.
-      </p>
-    </>
-  );
-}

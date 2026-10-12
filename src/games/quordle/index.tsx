@@ -2,8 +2,9 @@ import { useEffect, useRef, useState } from "react";
 import { useReducedMotion } from "motion/react";
 import "./theme.css";
 import { GameLayout } from "../../components/GameLayout";
-import { HelpModal } from "../../components/HelpModal";
+import { HowToPlayModal, useAutoOpenHowToPlay } from "../../components/HowToPlayModal";
 import { ResultModal } from "../../components/ResultModal";
+import { useAuth } from "../../lib/auth";
 import { NoPuzzleToday } from "../../components/NoPuzzleToday";
 import { AlreadyPlayed } from "../../components/AlreadyPlayed";
 import { Button } from "../../components/Button";
@@ -39,7 +40,8 @@ export default function QuordleGame() {
   const { play, loading, start, save, finish } = usePlay<QuordleState>(meta.id, date);
   const [currentGuess, setCurrentGuess] = useState("");
   const [shake, setShake] = useState(false);
-  const [helpOpen, setHelpOpen] = useState(false);
+  const { member } = useAuth();
+  const [helpOpen, openHelp, closeHelp] = useAutoOpenHowToPlay(meta.id, member?.userId);
   const [resultOpen, setResultOpen] = useState(false);
   const [validGuesses, setValidGuesses] = useState<Set<string> | null>(null);
   const shakeTimeout = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -72,11 +74,9 @@ export default function QuordleGame() {
 
   if (status === "missing" || !puzzle) {
     return (
-      <GameLayout game={meta.id} title={meta.title} onHelp={() => setHelpOpen(true)}>
+      <GameLayout game={meta.id} title={meta.title} onHelp={openHelp}>
         <NoPuzzleToday gameTitle={meta.title} />
-        <HelpModal open={helpOpen} onClose={() => setHelpOpen(false)}>
-          <HowToPlay />
-        </HelpModal>
+        <HowToPlayModal game={meta} open={helpOpen} onClose={closeHelp} />
       </GameLayout>
     );
   }
@@ -142,7 +142,7 @@ export default function QuordleGame() {
     <GameLayout
       game={meta.id}
       title={meta.title}
-      onHelp={() => setHelpOpen(true)}
+      onHelp={openHelp}
       headerActions={
         !over && (
           <span className="text-sm text-game-muted" aria-live="polite">
@@ -180,9 +180,7 @@ export default function QuordleGame() {
         )}
       </div>
 
-      <HelpModal open={helpOpen} onClose={() => setHelpOpen(false)}>
-        <HowToPlay />
-      </HelpModal>
+      <HowToPlayModal game={meta} open={helpOpen} onClose={closeHelp} />
 
       {over && (
         <ResultModal
@@ -222,20 +220,3 @@ function Recap({ answers, state }: { answers: readonly string[]; state: QuordleS
   );
 }
 
-function HowToPlay() {
-  return (
-    <>
-      <p>Solve all four boards before you run out of guesses.</p>
-      <p>
-        You get <strong>{MAX_GUESSES} guesses total, shared across all four boards</strong> — every
-        word you submit is checked against all four answers at once. A solved board dims and shows
-        which guess cracked it; the rest keep going.
-      </p>
-      <p>
-        Tiles work just like Wordle: green is correct, yellow is in the word but the wrong spot, gray
-        is not in the word. The keyboard splits each key into four quadrants, one per board, so you
-        can see what you know for every board at a glance.
-      </p>
-    </>
-  );
-}

@@ -1,7 +1,8 @@
 import { useState } from "react";
 import "./theme.css";
 import { GameLayout } from "../../components/GameLayout";
-import { HelpModal } from "../../components/HelpModal";
+import { HowToPlayModal, useAutoOpenHowToPlay } from "../../components/HowToPlayModal";
+import { useAuth } from "../../lib/auth";
 import { ResultModal } from "../../components/ResultModal";
 import { NoPuzzleToday } from "../../components/NoPuzzleToday";
 import { AlreadyPlayed } from "../../components/AlreadyPlayed";
@@ -37,7 +38,8 @@ export default function TravleGame() {
   const { date, puzzle, status } = usePuzzle<TravlePuzzle>(meta.id);
   const { play, loading, start, save, finish } = usePlay<TravleState>(meta.id, date);
   const { adjacency, features, names, loading: geoLoading } = useCountryGeo();
-  const [helpOpen, setHelpOpen] = useState(false);
+  const { member } = useAuth();
+  const [helpOpen, openHelp, closeHelp] = useAutoOpenHowToPlay(meta.id, member?.userId);
   const [resultOpen, setResultOpen] = useState(false);
   const [rejectMessage, setRejectMessage] = useState<string | null>(null);
 
@@ -45,11 +47,9 @@ export default function TravleGame() {
 
   if (status === "missing" || !puzzle) {
     return (
-      <GameLayout game={meta.id} title={meta.title} onHelp={() => setHelpOpen(true)}>
+      <GameLayout game={meta.id} title={meta.title} onHelp={openHelp}>
         <NoPuzzleToday gameTitle={meta.title} />
-        <HelpModal open={helpOpen} onClose={() => setHelpOpen(false)}>
-          <HelpContent />
-        </HelpModal>
+        <HowToPlayModal game={meta} open={helpOpen} onClose={closeHelp} />
       </GameLayout>
     );
   }
@@ -90,7 +90,7 @@ export default function TravleGame() {
   const excludeCodes = new Set([activePuzzle.start, activePuzzle.end, ...state.guesses]);
 
   return (
-    <GameLayout game={meta.id} title={meta.title} onHelp={() => setHelpOpen(true)}>
+    <GameLayout game={meta.id} title={meta.title} onHelp={openHelp}>
       {play && play.status !== "in_progress" && !resultOpen && <AlreadyPlayed status={play.status} />}
 
       <div className="flex flex-col gap-4">
@@ -142,9 +142,7 @@ export default function TravleGame() {
         )}
       </div>
 
-      <HelpModal open={helpOpen} onClose={() => setHelpOpen(false)}>
-        <HelpContent />
-      </HelpModal>
+      <HowToPlayModal game={meta} open={helpOpen} onClose={closeHelp} />
 
       {over && (
         <ResultModal
@@ -163,20 +161,3 @@ export default function TravleGame() {
   );
 }
 
-function HelpContent() {
-  return (
-    <>
-      <p>
-        Get from the start country to the end country by naming every country you'd pass through,
-        in order, travelling by land.
-      </p>
-      <p>
-        Each guess is coloured by how useful it is: <strong>green</strong> means it's part of a
-        connected chain back to the start or the end, <strong>orange</strong> means it borders
-        another guess but isn't linked up to either end yet, and <strong>red</strong> means it
-        isn't connected to anything you've guessed so far.
-      </p>
-      <p>You win once the start and end are joined by one complete chain — within your guess allowance.</p>
-    </>
-  );
-}
