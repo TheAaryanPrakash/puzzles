@@ -287,3 +287,59 @@ since 15 dev servers run at once. Stop your dev server before you finish.
 
 **Git:** commit on your own branch in small steps. Never push, merge, rebase or touch main. Before
 finishing, run `node scripts/check-scope.mjs <agent>` and fix anything it reports.
+
+## Chess
+
+A 15th Hub card: play a game against the computer. Unlike every other game here, it is **not a
+daily puzzle** — no shared puzzle, play as many games as you want, never released on a schedule.
+It must never count toward scores, streaks, stats, "games done today," the leaderboard, friends
+boards, or the Finale's required-games check. See `src/games/chess/RESEARCH.md` for the full
+research and design rationale; this section only records the exceptions below, approved by the
+human for this game alone.
+
+**Approved package/licence exceptions** (nothing else may be added without the human's say):
+- **`chess.js`** (BSD-2-Clause) — rules, legality, FEN/PGN, game-end detection.
+- **`stockfish`** (the npm package; engine GPLv3, its JS wrapper MIT) — the chess engine, used only
+  as the **"lite, single-threaded"** build (`stockfish-19-lite-single.{js,wasm}`, ~1.87MB combined):
+  single-threaded means no `SharedArrayBuffer`/COOP-COEP headers are needed anywhere on the site.
+  - **GPL boundary**: the engine's own files are copied **unmodified** into
+    `public/assets/chess/engine/` next to their licence file, and are only ever spoken to as a
+    `Worker` over the UCI protocol (`postMessage`/`onmessage`) — never imported into `src/`. This is
+    the same arm's-length, separate-process pattern lichess.org itself uses to bundle Stockfish.
+    The chess Help modal links "Engine: Stockfish (GPLv3), source."
+  - Run it only on the chess page (`new Worker("/assets/chess/engine/...")`, spawned from
+    `src/games/chess/lib/engine.ts`), so it never touches the hub's shared bundle. Confirmed: the
+    shared bundle grows by about 1KB; chess's own code is a separate, lazily-loaded ~60KB chunk;
+    the engine/piece files are static assets, not JS, so they're never bundled at all.
+- **No board library.** The board is hand-written (`src/games/chess/components/Board.tsx`) — no
+  `chessground`, `react-chessboard`, or similar.
+- **Piece art**: 12 SVGs by RhosGFX, **CC0 1.0** (`public/assets/chess/pieces/`, sourced from
+  lichess's own bundle of this exact set, licensed in lila's own `COPYING.md`). No GPL, no CC
+  BY-SA piece sets (several well-known ones, including the famous Wikipedia/lichess-default
+  cburnett set, are one or the other — don't substitute them in later).
+
+**Not scored — enforced structurally, not by convention:**
+- `GameMeta.scored?: boolean` (default `true` by absence; chess sets it `false`). `routes.tsx`'s
+  `scoredGameMetas` (not `gameMetas`) is what "how many daily games are there" should read — it's
+  always the 14 daily puzzle games, independent of `import.meta.env.PROD`, including in tests.
+- Chess **never** calls `usePuzzle`, `usePlay`, `finish`/`completeGame`, or anything in
+  `src/lib/data` — it writes nothing to Supabase or the local `puzzles:play:` storage. This is why
+  the Finale's required-games check and the leaderboard need **no code changes at all**: both are
+  purely derived from rows that exist in the `plays` table (or, locally, those storage keys), and
+  chess never creates one. A static test (`src/games/chess/no-datasource.test.ts`) scans chess's own
+  source and fails if any file imports `lib/data`/`lib/hooks` or calls `usePlay`/`completeGame`/
+  `dataSource.*`.
+- Chess also skips the rest of the shared, DataSource- or daily-puzzle-coupled UI:
+  `GameLayout`/`ResultModal`/`StatsModal`/`FriendsBoard`/`NextPuzzleCountdown`/`AlreadyPlayed`/
+  `SiteHeader` are all out — it has its own small header and its own result modal, built from the
+  DataSource-free shared primitives (`Modal`, `Button`, `ShareButton`, `celebrate()`).
+- On the Hub, chess's card sits last in the grid with a "Just for fun · unscored" tag instead of a
+  done/streak badge, and the Hub skips fetching a play status for it entirely.
+
+**Storage**: device-local only, namespaced like `src/lib/groups.ts`'s own local state
+(`sansitas-puzzles:active-group:<userId>`) — `sansitas-puzzles:chess:{game,settings,record}:<userId>`,
+every read/write wrapped in try/catch. The personal win/loss/draw record is shown only on the chess
+page, noted in its UI as living on that device.
+
+**No new npm packages beyond the two above** — if a future change to this game seems to need one,
+that's a question for the human, not something to add unilaterally.

@@ -51,6 +51,7 @@ export const SCOPES = {
   globle: game("globle"),
   travle: game("travle"),
   states: game("states"),
+  chess: game("chess"),
 };
 
 // Frozen interfaces: no parallel agent may change these, whatever its scope.
