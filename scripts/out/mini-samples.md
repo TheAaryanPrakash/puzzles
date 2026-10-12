@@ -319,122 +319,122 @@
 
 ## 5 random days
 
-### 2027-01-03 (5x5)
+### 2026-12-29 (5x5)
 
 ```
- #  S  A  V  E 
- #  A  C  I  D 
- C  L  U  B  S 
- H  A  T  E  # 
- O  D  E  S  # 
-```
-
-**Across**
-1. Other than — `SAVE` (dataset)
-5. Biting — `ACID` (dataset)
-6. Black suit — `CLUBS` (dataset)
-7. Despise — `HATE` (dataset)
-8. Keats poems — `ODES` (dataset)
-
-**Down**
-1. Light fare — `SALAD` (dataset)
-2. Very sharp — `ACUTE` (dataset)
-3. Feelings in the room, informally — `VIBES` (dataset)
-4. Mag staffers — `EDS` (dataset)
-6. Comic Margaret — `CHO` (dataset)
-
-### 2027-01-24 (5x5)
-
-```
- P  A  N  G  # 
- A  B  O  U  T 
- C  H  O  I  R 
- K  O  N  D  O 
- #  R  E  E  D 
+ M  R  I  S  # 
+ T  A  X  I  # 
+ V  I  N  N  Y 
+ #  S  A  G  E 
+ #  E  Y  E  S 
 ```
 
 **Across**
-1. Guilty feeling — `PANG` (dataset)
-5. Up and ___ — `ABOUT` (dataset)
-7. Singing group — `CHOIR` (dataset)
-8. 'Tidying Up' expert Marie — `KONDO` (dataset)
-9. Oboe part — `REED` (dataset)
+1. Tests with waves — `MRIS` (dataset)
+5. Cab — `TAXI` (dataset)
+6. 'My Cousin ___,' Joe Pesci film — `VINNY` (written)
+8. Very wise — `SAGE` (dataset)
+9. Peepers — `EYES` (dataset)
 
 **Down**
-1. Group of wolves or lies — `PACK` (dataset)
-2. Detest — `ABHOR` (dataset)
-3. Whom a leader trails — `NOONE` (dataset)
-4. Museum tour leader — `GUIDE` (dataset)
-6. Walked (on) — `TROD` (dataset)
+1. "Jersey Shore" network — `MTV` (dataset)
+2. Jack up — `RAISE` (dataset)
+3. 'Don't do that!' — `IXNAY` (dataset)
+4. Scorch — `SINGE` (dataset)
+7. Aye — `YES` (dataset)
 
-### 2027-09-21 (5x5)
+### 2027-01-19 (5x5)
 
 ```
- #  E  G  G  S 
- #  C  O  O  K 
- B  O  O  T  Y 
- C  L  U  B  # 
- C  I  T  Y  # 
+ #  B  Z  Z  # 
+ F  R  U  I  T 
+ O  O  M  P  H 
+ B  O  B  B  Y 
+ #  M  A  Y  # 
 ```
 
 **Across**
-1. Quiche start — `EGGS` (dataset)
-5. Make dinner — `COOK` (dataset)
-6. Stuff in pirates' chests — `BOOTY` (dataset)
-7. Cudgel — `CLUB` (dataset)
-8. Dot on a map — `CITY` (dataset)
+1. Buzzer's sound — `BZZ` (written)
+4. ___ Roll-Ups — `FRUIT` (dataset)
+6. Vigor — `OOMPH` (dataset)
+7. Man is 25, single and collects books — `BOBBY` (dataset)
+8. Hedging word — `MAY` (dataset)
 
 **Down**
-1. Gut bacterium — `ECOLI` (dataset)
-2. Head to a bar, say — `GOOUT` (dataset)
-3. Barely managed — `GOTBY` (dataset)
-4. Blue hue — `SKY` (dataset)
-6. Discreet email option — `BCC` (dataset)
+1. Witch craft — `BROOM` (dataset)
+2. Jazzercise cousin — `ZUMBA` (dataset)
+3. Speed past quickly, with 'by' — `ZIPBY` (written)
+4. Watch attachment — `FOB` (dataset)
+5. Biblical 'your' — `THY` (dataset)
 
-### 2027-08-16 (5x5)
+### 2027-09-16 (5x5)
 
 ```
- #  #  C  E  O 
- T  H  I  G  H 
- W  I  N  G  S 
- A  N  D  S  O 
- S  T  Y  #  # 
+ #  H  A  H  A 
+ #  O  K  A  Y 
+ T  W  I  N  E 
+ O  I  N  K  # 
+ M  E  D  S  # 
 ```
 
 **Across**
-1. Bus. head — `CEO` (dataset)
-4. Upper leg — `THIGH` (dataset)
-6. Alleged creation of Buffalo's Anchor Bar — `WINGS` (dataset)
-7. More of our Valentine verse — `ANDSO` (dataset)
-8. Pig's place — `STY` (dataset)
+1. "Funny!" — `HAHA` (dataset)
+5. So-so — `OKAY` (dataset)
+6. Strong string — `TWINE` (dataset)
+7. Farm sound — `OINK` (dataset)
+8. Pharma products — `MEDS` (dataset)
 
 **Down**
-1. ___ Williams, player of Shirley on 'Laverne & Shirley' — `CINDY` (dataset)
-2. Roe — `EGGS` (dataset)
-3. Too, too — `OHSO` (dataset)
-4. Moore poem opener — `TWAS` (dataset)
-5. Slight taste — `HINT` (dataset)
+1. Name that rhymes with Maui — `HOWIE` (dataset)
+2. 'One of ___' (unique) — `AKIND` (written)
+3. Forrest Gump player — `HANKS` (dataset)
+4. Yes,  at sea — `AYE` (dataset)
+6. Mr. turkey — `TOM` (dataset)
 
-### 2027-03-07 (5x5)
+### 2027-08-11 (5x5)
 
 ```
- C  H  A  S  M 
- R  E  L  A  Y 
- O  R  O  U  T 
- C  O  N  C  H 
- K  N  E  E  S 
+ #  W  H  I  R 
+ #  H  A  V  E 
+ D  A  V  I  D 
+ A  L  O  E  # 
+ P  E  C  S  # 
 ```
 
 **Across**
-1. Deep cleft — `CHASM` (dataset)
-6. Broadcast — `RELAY` (dataset)
-7. 'In ___' (included or excluded) — `OROUT` (written)
-8. Makeshift trumpet — `CONCH` (dataset)
-9. Some joints — `KNEES` (dataset)
+1. Rotor sound — `WHIR` (dataset)
+5. Dine on — `HAVE` (dataset)
+6. Michelangelo work — `DAVID` (dataset)
+7. Sunburn aid — `ALOE` (dataset)
+8. Delts' neighbors — `PECS` (dataset)
 
 **Down**
-1. Stew cooker — `CROCK` (dataset)
-2. Egret's cousin — `HERON` (dataset)
-3. Stag — `ALONE` (dataset)
-4. Relish drink — `SAUCE` (dataset)
-5. Legends — `MYTHS` (dataset)
+1. Huge sea mammal — `WHALE` (dataset)
+2. Chaos — `HAVOC` (dataset)
+3. Wall-climbing vines — `IVIES` (dataset)
+4. Carmine — `RED` (dataset)
+6. Bump fists — `DAP` (dataset)
+
+### 2027-03-02 (5x5)
+
+```
+ #  G  A  S  P 
+ #  O  N  T  O 
+ S  U  G  A  R 
+ U  G  L  Y  # 
+ B  E  E  S  # 
+```
+
+**Across**
+1. Shocked sound — `GASP` (dataset)
+5. Aboard — `ONTO` (dataset)
+6. Tea sweetener — `SUGAR` (dataset)
+7. Unsightly — `UGLY` (dataset)
+8. Hive dwellers — `BEES` (dataset)
+
+**Down**
+1. Charge too much — `GOUGE` (dataset)
+2. Hidden motive — `ANGLE` (dataset)
+3. Collar inserts — `STAYS` (dataset)
+4. ___ ejemplo — `POR` (dataset)
+6. Navy vessel — `SUB` (dataset)

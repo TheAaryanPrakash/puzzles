@@ -4,188 +4,7 @@
     "cells": [
       null,
       {
-        "answer": "T",
-        "number": 1
-      },
-      {
-        "answer": "A",
-        "number": 2
-      },
-      {
-        "answer": "S",
-        "number": 3
-      },
-      {
-        "answer": "K",
-        "number": 4
-      },
-      {
-        "answer": "J",
-        "number": 5
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "I",
-        "number": 6
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "L",
-        "number": 7
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "T",
-        "number": 8
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "Y"
-      },
-      null
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "TASK",
-          "clue": "Chore",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "JUICE",
-          "clue": "Liquid from fruit or vegetable",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "IDSAY",
-          "clue": "'My opinion is . . .'",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "LOLLS",
-          "clue": "Vegges out",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 4,
-          "col": 0,
-          "length": 4,
-          "answer": "TREY",
-          "clue": "Low card",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "TUDOR",
-          "clue": "Jet trainer",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "AISLE",
-          "clue": "Gangway",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "SCALY",
-          "clue": "Like salmon",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "KEYS",
-          "clue": "Esc and Tab",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "JILT",
-          "clue": "Reject unexpectedly",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 5,
-    "cells": [
-      null,
-      null,
-      {
-        "answer": "S",
+        "answer": "B",
         "number": 1
       },
       {
@@ -193,48 +12,48 @@
         "number": 2
       },
       {
-        "answer": "A",
+        "answer": "D",
         "number": 3
       },
+      null,
+      null,
       {
-        "answer": "S",
+        "answer": "O",
         "number": 4
       },
       {
-        "answer": "H",
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      null,
+      {
+        "answer": "B",
         "number": 5
       },
       {
         "answer": "O"
       },
       {
-        "answer": "W"
+        "answer": "R"
       },
       {
-        "answer": "Y"
+        "answer": "E"
       },
       {
-        "answer": "N",
+        "answer": "S",
         "number": 6
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "F"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "E"
       },
       {
         "answer": "A",
         "number": 7
       },
       {
-        "answer": "M"
+        "answer": "T"
+      },
+      {
+        "answer": "L"
       },
       {
         "answer": "A"
@@ -243,17 +62,260 @@
         "answer": "S"
       },
       {
-        "answer": "S"
+        "answer": "R",
+        "number": 8
       },
       {
+        "answer": "H"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "E"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "BED",
+          "clue": "Sleep site",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 3,
+          "answer": "OAR",
+          "clue": "Crew item",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "BORES",
+          "clue": "Causes to yawn, say",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "ATLAS",
+          "clue": "Map-filled tome",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 5,
+          "answer": "RHYME",
+          "clue": "Poetry",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "BOOTH",
+          "clue": "Diner seating choice",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "EARLY",
+          "clue": "In advance",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "DREAM",
+          "clue": "Ambition",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "BAR",
+          "clue": "Inn",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "answer": "SSE",
+          "clue": "Compass dir",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 7,
+    "cells": [
+      null,
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "L",
+        "number": 2
+      },
+      {
+        "answer": "I",
+        "number": 3
+      },
+      {
+        "answer": "T",
+        "number": 4
+      },
+      {
+        "answer": "S",
+        "number": 5
+      },
+      null,
+      null,
+      {
         "answer": "P",
+        "number": 6
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
+      },
+      null,
+      {
+        "answer": "B",
+        "number": 7
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T",
         "number": 8
+      },
+      {
+        "answer": "O",
+        "number": 9
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "H"
       },
       {
         "answer": "E"
       },
       {
+        "answer": "L"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "D",
+        "number": 10
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T"
+      },
+      {
         "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "T"
+      },
+      null,
+      {
+        "answer": "D",
+        "number": 11
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      null,
+      {
+        "answer": "R",
+        "number": 12
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "D"
       },
       null,
       null
@@ -263,46 +325,64 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "SEA",
-          "clue": "The briny",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 0,
+          "col": 1,
           "length": 5,
-          "answer": "SHOWY",
-          "clue": "Ostentatious",
+          "answer": "SLITS",
+          "clue": "Thin cuts",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
-          "col": 0,
+          "row": 1,
+          "col": 1,
           "length": 5,
-          "answer": "NOFEE",
-          "clue": "Like some ATM withdrawals",
+          "answer": "PINOT",
+          "clue": "Wine option",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
+          "row": 2,
           "col": 0,
-          "length": 5,
-          "answer": "AMASS",
-          "clue": "Corral",
+          "length": 7,
+          "answer": "BIGFOOT",
+          "clue": "Mythical primate shows up in photo of gibbon",
           "source": "dataset"
         },
         {
-          "number": 8,
+          "number": 9,
+          "row": 3,
+          "col": 0,
+          "length": 7,
+          "answer": "OTHELLO",
+          "clue": "Hello to Shakespeare's Moor",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
           "row": 4,
           "col": 0,
+          "length": 7,
+          "answer": "DETROIT",
+          "clue": "Dicky tried to in Motown",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 5,
+          "col": 1,
+          "length": 6,
+          "answer": "DENUDE",
+          "clue": "Strip from guy without naked scenes",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 6,
+          "col": 2,
           "length": 3,
-          "answer": "PER",
-          "clue": "___ se",
+          "answer": "ROD",
+          "clue": "Stepped",
           "source": "dataset"
         }
       ],
@@ -310,46 +390,64 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "SOFAR",
-          "clue": "To this time",
+          "col": 1,
+          "length": 6,
+          "answer": "SPITED",
+          "clue": "Tried to hurt",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "EWES",
-          "clue": "Lambs' moms",
+          "col": 2,
+          "length": 7,
+          "answer": "LIGHTER",
+          "clue": "Not as heavy; barge",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "AYES",
-          "clue": "Votes in favour",
+          "col": 3,
+          "length": 7,
+          "answer": "INFERNO",
+          "clue": "Hell",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "SNAP",
-          "clue": "Cinch",
-          "source": "dataset"
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "TOOLOUD",
+          "clue": "'Turn it down, it's ___!'",
+          "source": "written"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 1,
+          "row": 0,
+          "col": 5,
+          "length": 6,
+          "answer": "STOLID",
+          "clue": "Dependable",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "BOD",
+          "clue": "Hunk's pride",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 2,
+          "col": 6,
           "length": 4,
-          "answer": "HOME",
-          "clue": "Main Web page",
+          "answer": "TOTE",
+          "clue": "Bag",
           "source": "dataset"
         }
       ]

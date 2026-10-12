@@ -3,21 +3,21 @@
     "size": 5,
     "cells": [
       {
-        "answer": "A",
+        "answer": "I",
         "number": 1
       },
       {
-        "answer": "B",
+        "answer": "C",
         "number": 2
       },
       {
-        "answer": "U",
+        "answer": "E",
         "number": 3
       },
       null,
       null,
       {
-        "answer": "C",
+        "answer": "M",
         "number": 4
       },
       {
@@ -27,56 +27,56 @@
         "answer": "N"
       },
       {
-        "answer": "D",
+        "answer": "T",
         "number": 5
       },
       {
-        "answer": "O",
+        "answer": "H",
         "number": 6
       },
       {
-        "answer": "E",
+        "answer": "A",
         "number": 7
       },
       {
-        "answer": "A"
+        "answer": "C"
       },
       {
         "answer": "T"
       },
       {
-        "answer": "U"
+        "answer": "I"
       },
       {
-        "answer": "P"
+        "answer": "I"
       },
       {
-        "answer": "D",
+        "answer": "C",
         "number": 8
+      },
+      {
+        "answer": "O"
       },
       {
         "answer": "R"
       },
       {
-        "answer": "A"
+        "answer": "D"
       },
       {
-        "answer": "K"
-      },
-      {
-        "answer": "E"
+        "answer": "S"
       },
       null,
       null,
       {
-        "answer": "G",
+        "answer": "Y",
         "number": 9
       },
       {
         "answer": "E"
       },
       {
-        "answer": "N"
+        "answer": "S"
       }
     ],
     "clues": {
@@ -86,8 +86,8 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "answer": "ABU",
-          "clue": "Animated monkey",
+          "answer": "ICE",
+          "clue": "Frappe",
           "source": "dataset"
         },
         {
@@ -95,8 +95,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "CONDO",
-          "clue": "Housing choice",
+          "answer": "MONTH",
+          "clue": "May, say",
           "source": "dataset"
         },
         {
@@ -104,8 +104,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "EATUP",
-          "clue": "Take in eagerly",
+          "answer": "ACTII",
+          "clue": "Intermission ___",
           "source": "dataset"
         },
         {
@@ -113,8 +113,8 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "DRAKE",
-          "clue": "Opener in difficulty to collect duck",
+          "answer": "CORDS",
+          "clue": "Winter fuel units",
           "source": "dataset"
         },
         {
@@ -122,8 +122,8 @@
           "row": 4,
           "col": 2,
           "length": 3,
-          "answer": "GEN",
-          "clue": "Lead-in to X, Y or Z",
+          "answer": "YES",
+          "clue": "'Sure'",
           "source": "dataset"
         }
       ],
@@ -133,8 +133,8 @@
           "row": 0,
           "col": 0,
           "length": 4,
-          "answer": "ACED",
-          "clue": "Got 100% on",
+          "answer": "IMAC",
+          "clue": "Apple choice",
           "source": "dataset"
         },
         {
@@ -142,8 +142,8 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "BOAR",
-          "clue": "Tusked beast",
+          "answer": "COCO",
+          "clue": "Chanel perfume",
           "source": "dataset"
         },
         {
@@ -151,8 +151,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "UNTAG",
-          "clue": "Remove an identifier from a photo",
+          "answer": "ENTRY",
+          "clue": "Ledger item",
           "source": "dataset"
         },
         {
@@ -160,8 +160,8 @@
           "row": 1,
           "col": 3,
           "length": 4,
-          "answer": "DUKE",
-          "clue": "High-ranking noble",
+          "answer": "TIDE",
+          "clue": "Ocean motion",
           "source": "dataset"
         },
         {
@@ -169,8 +169,8 @@
           "row": 1,
           "col": 4,
           "length": 4,
-          "answer": "OPEN",
-          "clue": "Candid",
+          "answer": "HISS",
+          "clue": "Snake's sound",
           "source": "dataset"
         }
       ]
@@ -180,94 +180,90 @@
     "size": 5,
     "cells": [
       null,
+      null,
       {
-        "answer": "C",
+        "answer": "R",
         "number": 1
       },
       {
-        "answer": "O",
+        "answer": "I",
         "number": 2
       },
       {
-        "answer": "G",
+        "answer": "B",
         "number": 3
       },
-      null,
       {
-        "answer": "O",
+        "answer": "S",
         "number": 4
       },
       {
-        "answer": "H"
-      },
-      {
-        "answer": "B"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "Y",
+        "answer": "A",
         "number": 5
       },
       {
-        "answer": "P",
-        "number": 6
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "A"
+        "answer": "U"
       },
       {
         "answer": "N"
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "E",
-        "number": 7
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "C",
-        "number": 8
-      },
-      {
-        "answer": "L"
-      },
-      {
         "answer": "A"
+      },
+      {
+        "answer": "T",
+        "number": 6
+      },
+      {
+        "answer": "U"
       },
       {
         "answer": "R"
       },
       {
         "answer": "K"
-      }
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E",
+        "number": 7
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "P",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L"
+      },
+      null,
+      null
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 3,
-          "answer": "COG",
-          "clue": "Wheel tooth",
+          "answer": "RIB",
+          "clue": "Bone",
           "source": "dataset"
         },
         {
@@ -275,8 +271,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "OHBOY",
-          "clue": "\"Yippee!\"",
+          "answer": "SAUNA",
+          "clue": "Hot spot",
           "source": "dataset"
         },
         {
@@ -284,8 +280,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "PIANO",
-          "clue": "Yamaha product",
+          "answer": "TURKS",
+          "clue": "Ankara natives",
           "source": "dataset"
         },
         {
@@ -293,17 +289,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "ELMER",
-          "clue": "Chaser of Bugs",
+          "answer": "ERASE",
+          "clue": "Delete",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 5,
-          "answer": "CLARK",
-          "clue": "Maureen's Joe",
+          "length": 3,
+          "answer": "PAL",
+          "clue": "Amigo",
           "source": "dataset"
         }
       ],
@@ -311,28 +307,28 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "CHILL",
-          "clue": "\"Take it easy!\"",
+          "answer": "RURAL",
+          "clue": "Pastoral",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "OBAMA",
-          "clue": "#44",
+          "col": 3,
+          "length": 4,
+          "answer": "INKS",
+          "clue": "Signs, slangily",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "GONER",
-          "clue": "Toast, with 'a'",
+          "col": 4,
+          "length": 4,
+          "answer": "BASE",
+          "clue": "Cot spot",
           "source": "dataset"
         },
         {
@@ -340,17 +336,17 @@
           "row": 1,
           "col": 0,
           "length": 4,
-          "answer": "OPEC",
-          "clue": "Crude grp",
+          "answer": "STEP",
+          "clue": "Footfall",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 4,
+          "col": 1,
           "length": 4,
-          "answer": "YORK",
-          "clue": "Northern city",
+          "answer": "AURA",
+          "clue": "Halo",
           "source": "dataset"
         }
       ]

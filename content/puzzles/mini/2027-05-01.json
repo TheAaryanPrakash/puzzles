@@ -301,7 +301,7 @@
     "size": 5,
     "cells": [
       {
-        "answer": "P",
+        "answer": "C",
         "number": 1
       },
       {
@@ -309,42 +309,37 @@
         "number": 2
       },
       {
-        "answer": "N",
+        "answer": "R",
         "number": 3
       },
       {
-        "answer": "T",
+        "answer": "S",
         "number": 4
       },
+      null,
       {
-        "answer": "S",
+        "answer": "O",
         "number": 5
       },
       {
-        "answer": "O",
-        "number": 6
-      },
-      {
-        "answer": "P"
+        "answer": "C"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "R"
-      },
-      {
         "answer": "A"
       },
       {
         "answer": "N",
+        "number": 6
+      },
+      {
+        "answer": "W",
         "number": 7
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "V"
+        "answer": "H"
       },
       {
         "answer": "A"
@@ -353,33 +348,36 @@
         "answer": "L"
       },
       {
-        "answer": "E",
-        "number": 8
+        "answer": "E"
       },
       {
-        "answer": "R"
+        "answer": "S",
+        "number": 8
       },
       {
         "answer": "E"
       },
       {
-        "answer": "C"
-      },
-      {
-        "answer": "T"
-      },
-      null,
-      {
-        "answer": "T",
-        "number": 9
-      },
-      {
         "answer": "R"
       },
       {
-        "answer": "Y"
+        "answer": "V"
       },
-      null
+      {
+        "answer": "E"
+      },
+      null,
+      null,
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "D"
+      }
     ],
     "clues": {
       "across": [
@@ -387,18 +385,18 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 5,
-          "answer": "PANTS",
-          "clue": "Huffs and puffs",
+          "length": 4,
+          "answer": "CARS",
+          "clue": "Parts of trains",
           "source": "dataset"
         },
         {
-          "number": 6,
+          "number": 5,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "OPERA",
-          "clue": "Wagner forte",
+          "answer": "OCEAN",
+          "clue": "Sea",
           "source": "dataset"
         },
         {
@@ -406,8 +404,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "NAVAL",
-          "clue": "Warship-related",
+          "answer": "WHALE",
+          "clue": "Huge sea mammal",
           "source": "dataset"
         },
         {
@@ -415,17 +413,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "ERECT",
-          "clue": "Upright",
+          "answer": "SERVE",
+          "clue": "Start a set",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 1,
+          "col": 2,
           "length": 3,
-          "answer": "TRY",
-          "clue": "Take a stab",
+          "answer": "SOD",
+          "clue": "Nursery buy",
           "source": "dataset"
         }
       ],
@@ -435,17 +433,17 @@
           "row": 0,
           "col": 0,
           "length": 4,
-          "answer": "PONE",
-          "clue": "Corn product",
+          "answer": "COWS",
+          "clue": "Longhorns, e.g",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
-          "length": 5,
-          "answer": "APART",
-          "clue": "Split up",
+          "length": 4,
+          "answer": "ACHE",
+          "clue": "Pain",
           "source": "dataset"
         },
         {
@@ -453,8 +451,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "NEVER",
-          "clue": "'Not a chance!'",
+          "answer": "REARS",
+          "clue": "Raises",
           "source": "dataset"
         },
         {
@@ -462,17 +460,17 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "TRACY",
-          "clue": "'Strong Black Legends' host Clayton",
+          "answer": "SALVO",
+          "clue": "Sudden burst",
           "source": "dataset"
         },
         {
-          "number": 5,
-          "row": 0,
+          "number": 6,
+          "row": 1,
           "col": 4,
           "length": 4,
-          "answer": "SALT",
-          "clue": "Shaker fill",
+          "answer": "NEED",
+          "clue": "Call for",
           "source": "dataset"
         }
       ]

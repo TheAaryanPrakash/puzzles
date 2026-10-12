@@ -2,259 +2,81 @@
   "payload": {
     "size": 5,
     "cells": [
+      null,
+      null,
       {
-        "answer": "S",
+        "answer": "A",
         "number": 1
       },
       {
-        "answer": "Q",
+        "answer": "W",
         "number": 2
+      },
+      {
+        "answer": "W",
+        "number": 3
+      },
+      {
+        "answer": "H",
+        "number": 4
       },
       {
         "answer": "U",
-        "number": 3
-      },
-      {
-        "answer": "A",
-        "number": 4
-      },
-      {
-        "answer": "T",
         "number": 5
       },
       {
-        "answer": "L",
-        "number": 6
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "Y",
-        "number": 7
+        "answer": "M"
       },
       {
         "answer": "O"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "I"
-      },
-      null,
-      {
-        "answer": "T",
-        "number": 8
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "N"
-      },
-      null,
-      {
-        "answer": "H",
-        "number": 9
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "E"
-      }
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 0,
-          "length": 5,
-          "answer": "SQUAT",
-          "clue": "Crouch may be short and stocky",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "LUNCH",
-          "clue": "Event at which you may pick sides (wordplay)",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "YOSHI",
-          "clue": "Dinosaur in the Mario games",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 3,
-          "col": 1,
-          "length": 4,
-          "answer": "THIN",
-          "clue": "Reedy",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
-          "row": 4,
-          "col": 1,
-          "length": 4,
-          "answer": "HYPE",
-          "clue": "Flashy promotion",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 0,
-          "length": 3,
-          "answer": "SLY",
-          "clue": "Sharp",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "QUOTH",
-          "clue": "'___ the raven' (Poe line)",
-          "source": "written"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "UNSHY",
-          "clue": "Not timid",
-          "source": "written"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "ACHIP",
-          "clue": "'___ on one's shoulder' (resentment)",
-          "source": "written"
-        },
-        {
-          "number": 5,
-          "row": 0,
-          "col": 4,
-          "length": 5,
-          "answer": "THINE",
-          "clue": "\"To ___ own self be true\": \"Hamlet\"",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 5,
-    "cells": [
-      {
-        "answer": "D",
-        "number": 1
-      },
-      {
-        "answer": "R",
-        "number": 2
-      },
-      {
-        "answer": "A",
-        "number": 3
-      },
-      {
-        "answer": "G",
-        "number": 4
-      },
-      null,
-      {
-        "answer": "R",
-        "number": 5
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "B"
-      },
-      {
-        "answer": "E"
-      },
-      null,
-      {
-        "answer": "Y",
-        "number": 6
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "O",
-        "number": 7
-      },
-      null,
-      {
-        "answer": "S",
-        "number": 8
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "A"
-      },
-      null,
-      {
-        "answer": "T",
-        "number": 9
       },
       {
         "answer": "R"
       },
       {
+        "answer": "I",
+        "number": 6
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "W"
+      },
+      {
         "answer": "E"
+      },
+      {
+        "answer": "P",
+        "number": 7
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "Z"
+      },
+      {
+        "answer": "Z"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
       },
       {
         "answer": "K"
@@ -265,19 +87,19 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 4,
-          "answer": "DRAG",
-          "clue": "'Main' road",
+          "col": 2,
+          "length": 3,
+          "answer": "AWW",
+          "clue": "'That's sooo cute!'",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
           "col": 0,
-          "length": 4,
-          "answer": "ROBE",
-          "clue": "Sauna garment",
+          "length": 5,
+          "answer": "HUMOR",
+          "clue": "Comic's forte",
           "source": "dataset"
         },
         {
@@ -285,26 +107,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "YAHOO",
-          "clue": "Bumpkin",
+          "answer": "INAWE",
+          "clue": "Mesmerized",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "PIZZA",
+          "clue": "Italian dish",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 1,
-          "length": 4,
-          "answer": "SODA",
-          "clue": "Cream ___",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
           "row": 4,
-          "col": 1,
-          "length": 4,
-          "answer": "TREK",
-          "clue": "Long haul",
+          "col": 0,
+          "length": 5,
+          "answer": "STEAK",
+          "clue": "Ribeye, e.g",
           "source": "dataset"
         }
       ],
@@ -312,46 +134,316 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 3,
-          "answer": "DRY",
-          "clue": "Thirsty",
+          "col": 2,
+          "length": 5,
+          "answer": "AMAZE",
+          "clue": "Astound",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
+          "col": 3,
           "length": 5,
-          "answer": "ROAST",
-          "clue": "Ridicule",
-          "source": "dataset"
+          "answer": "WOWZA",
+          "clue": "'Wow!' intensified",
+          "source": "written"
         },
         {
           "number": 3,
           "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "WREAK",
+          "clue": "Cause (havoc)",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "HIPS",
+          "clue": "Coxae, familiarly",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "UNIT",
+          "clue": "BTU's \"U\"",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 7,
+    "cells": [
+      null,
+      null,
+      null,
+      {
+        "answer": "P",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "C",
+        "number": 3
+      },
+      {
+        "answer": "T",
+        "number": 4
+      },
+      null,
+      null,
+      {
+        "answer": "F",
+        "number": 5
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "M",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "I",
+        "number": 8
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "R",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null,
+      {
+        "answer": "E",
+        "number": 10
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "PACT",
+          "clue": "Treaty",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
           "col": 2,
           "length": 5,
-          "answer": "ABHOR",
-          "clue": "Find repugnant",
+          "answer": "FABLE",
+          "clue": "Aesop creation",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 6,
+          "answer": "MONROE",
+          "clue": "Madison's successor",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 7,
+          "answer": "SARCASM",
+          "clue": "Mockery scars a wretched maiden",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 6,
+          "answer": "IMGAME",
+          "clue": "\"Let's do it!\"",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 5,
+          "col": 0,
+          "length": 5,
+          "answer": "REEKS",
+          "clue": "Gives a strong impression (of)",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 6,
+          "col": 0,
+          "length": 4,
+          "answer": "ETRE",
+          "clue": "To be, to Camus",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "answer": "PANCAKE",
+          "clue": "Crepe",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 4,
+          "length": 6,
+          "answer": "ABRAMS",
+          "clue": "Stacey ___, Georgia political figure",
+          "source": "written"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 5,
+          "length": 5,
+          "answer": "CLOSE",
+          "clue": "\"Almost!\"",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 3,
+          "col": 6,
+          "length": 4,
+          "answer": "TEEM",
+          "clue": "Overbrim",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 2,
+          "length": 6,
+          "answer": "FORGER",
+          "clue": "Counterfeiter",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
           "length": 5,
-          "answer": "GEODE",
-          "clue": "Rock formation",
+          "answer": "MAMET",
+          "clue": "\"Glengarry Glen Ross\" playwright",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 2,
-          "col": 4,
-          "length": 3,
-          "answer": "OAK",
-          "clue": "Acorn source",
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "SIRE",
+          "clue": "Beget",
           "source": "dataset"
         }
       ]

@@ -3,184 +3,9 @@
     "size": 5,
     "cells": [
       null,
+      null,
       {
         "answer": "H",
-        "number": 1
-      },
-      {
-        "answer": "U",
-        "number": 2
-      },
-      {
-        "answer": "M",
-        "number": 3
-      },
-      null,
-      {
-        "answer": "O",
-        "number": 4
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "S",
-        "number": 5
-      },
-      {
-        "answer": "F",
-        "number": 6
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "F",
-        "number": 7
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "E"
-      },
-      null,
-      {
-        "answer": "S",
-        "number": 8
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "Y"
-      },
-      null
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 1,
-          "length": 3,
-          "answer": "HUM",
-          "clue": "Low drone",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "OASIS",
-          "clue": "Desert refuge",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "FLESH",
-          "clue": "Peach part",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "FLUTE",
-          "clue": "High-pitched woodwind",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 4,
-          "col": 1,
-          "length": 3,
-          "answer": "SPY",
-          "clue": "___-fi",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "HALLS",
-          "clue": "Places for monitors in grade school",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "USEUP",
-          "clue": "Consume completely",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "MISTY",
-          "clue": "Foggy",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 3,
-          "answer": "OFF",
-          "clue": "Sour, turned",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 4,
-          "length": 3,
-          "answer": "SHE",
-          "clue": "That lass",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 5,
-    "cells": [
-      null,
-      {
-        "answer": "D",
         "number": 1
       },
       {
@@ -193,7 +18,7 @@
       },
       null,
       {
-        "answer": "L",
+        "answer": "D",
         "number": 4
       },
       {
@@ -203,55 +28,51 @@
         "answer": "R"
       },
       {
-        "answer": "R"
+        "answer": "E"
       },
       {
-        "answer": "Y",
+        "answer": "Q",
         "number": 5
       },
       {
-        "answer": "A",
-        "number": 6
+        "answer": "U"
       },
       {
-        "answer": "V"
+        "answer": "R"
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "W",
-        "number": 7
-      },
-      {
-        "answer": "I"
+        "answer": "A"
       },
       {
         "answer": "N"
       },
       {
-        "answer": "D"
+        "answer": "B",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "Q"
       },
       {
         "answer": "S"
       },
-      null,
       {
-        "answer": "D",
-        "number": 8
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "L"
       },
       {
         "answer": "Y"
       },
-      {
-        "answer": "E"
-      },
+      null,
       null
     ],
     "clues": {
@@ -259,46 +80,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 3,
-          "answer": "DIP",
-          "clue": "Plunge",
+          "answer": "HIP",
+          "clue": "In vogue",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "DARE",
+          "clue": "Venture",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "LARRY",
-          "clue": "Jerry's \"Seinfeld\" co-creator",
+          "answer": "QURAN",
+          "clue": "What a hafiz has memorized",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "AVOID",
-          "clue": "Elude",
+          "answer": "BARQS",
+          "clue": "Hires competitor",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "WINDS",
-          "clue": "Snakes will increase, not decrease, say leaders",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
           "row": 4,
-          "col": 1,
+          "col": 0,
           "length": 3,
-          "answer": "DYE",
-          "clue": "Stain",
+          "answer": "SLY",
+          "clue": "Cagey",
           "source": "dataset"
         }
       ],
@@ -306,46 +127,223 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "DAVID",
-          "clue": "NBA Hall of Famer Robinson",
+          "answer": "HARRY",
+          "clue": "Badger",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "IRONY",
-          "clue": "Literary twist",
+          "col": 3,
+          "length": 4,
+          "answer": "IRAQ",
+          "clue": "Uruk is there",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "PRIDE",
-          "clue": "___ Fall",
+          "col": 4,
+          "length": 4,
+          "answer": "PENS",
+          "clue": "Hog homes",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "DUAL",
+          "clue": "Paired",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "QBS",
+          "clue": "Ones initiating handoffs, for short",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "A",
+        "number": 1
+      },
+      {
+        "answer": "B",
+        "number": 2
+      },
+      {
+        "answer": "S",
+        "number": 3
+      },
+      null,
+      null,
+      {
+        "answer": "B",
+        "number": 4
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "W",
+        "number": 5
+      },
+      {
+        "answer": "L",
+        "number": 6
+      },
+      {
+        "answer": "C",
+        "number": 7
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "F"
+      },
+      null,
+      null,
+      {
+        "answer": "P",
+        "number": 9
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "T"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "ABS",
+          "clue": "Core muscles",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 1,
           "col": 0,
+          "length": 5,
+          "answer": "BRAWL",
+          "clue": "Free-for-all fight",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "CUTIE",
+          "clue": "___ pie",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "STUFF",
+          "clue": "Jam-pack",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 2,
           "length": 3,
-          "answer": "LAW",
-          "clue": "Bar study",
+          "answer": "PIT",
+          "clue": "Deep hole",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "ABCS",
+          "clue": "The basics",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "BRUT",
+          "clue": "Cologne brand",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "SATUP",
+          "clue": "Showed sudden interest",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
+          "col": 3,
+          "length": 4,
+          "answer": "WIFI",
+          "clue": "Cellular data saver",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
           "col": 4,
-          "length": 3,
-          "answer": "YDS",
-          "clue": "N.F.L. stat abbreviation",
+          "length": 4,
+          "answer": "LEFT",
+          "clue": "Remaining",
           "source": "dataset"
         }
       ]

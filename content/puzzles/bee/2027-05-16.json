@@ -1,45 +1,45 @@
 {
   "payload": {
-    "center": "O",
+    "center": "R",
     "outer": [
+      "A",
+      "C",
       "D",
-      "G",
-      "I",
-      "P",
-      "R",
+      "H",
+      "U",
       "Y"
     ],
     "answers": [
-      "DODGY",
-      "DODO",
-      "DOGGO",
-      "DOGGY",
-      "DOOR",
-      "DORY",
-      "DROP",
-      "GIRO",
-      "GOOD",
-      "GOODY",
-      "GORY",
-      "GYRO",
-      "ODOR",
-      "OPIOID",
-      "POOP",
-      "POOR",
-      "POPPY",
-      "PRIOR",
-      "PRIORY",
-      "PROD",
-      "PRODIGY",
-      "PROG",
-      "PROP",
-      "RIGOR",
-      "YOGI"
+      "ACCURACY",
+      "ARCH",
+      "ARRAY",
+      "AURA",
+      "CARD",
+      "CARR",
+      "CARRY",
+      "CHAR",
+      "CHURCH",
+      "CHURCHYARD",
+      "CURD",
+      "CURRY",
+      "HARD",
+      "HARDY",
+      "HARRY",
+      "HURRAH",
+      "HURRAY",
+      "HURRY",
+      "HYDRA",
+      "RACY",
+      "RADAR",
+      "RAYA",
+      "RUDD",
+      "RUDDY",
+      "YARD"
     ],
     "pangrams": [
-      "PRODIGY"
+      "CHURCHYARD"
     ],
-    "maxScore": 76
+    "maxScore": 99
   },
   "reserve": null
 }

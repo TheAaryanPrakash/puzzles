@@ -3,80 +3,84 @@
     "size": 5,
     "cells": [
       {
-        "answer": "W",
+        "answer": "P",
         "number": 1
       },
       {
-        "answer": "O",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "L",
+        "answer": "C",
         "number": 3
       },
       {
-        "answer": "F",
+        "answer": "S",
         "number": 4
       },
       null,
       {
-        "answer": "O",
+        "answer": "I",
         "number": 5
       },
       {
-        "answer": "V"
+        "answer": "C"
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "L"
-      },
-      null,
-      {
-        "answer": "V",
-        "number": 6
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "N",
-        "number": 7
-      },
-      {
-        "answer": "E",
-        "number": 8
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "E"
+        "answer": "Y"
       },
       {
         "answer": "M"
       },
       {
-        "answer": "Y"
+        "answer": "I",
+        "number": 6
       },
-      null,
-      null,
       {
-        "answer": "R",
-        "number": 9
+        "answer": "T",
+        "number": 7
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "B"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "C"
+        "answer": "R"
+      },
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "K"
+      },
+      null,
+      {
+        "answer": "E",
+        "number": 9
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "S"
       }
     ],
     "clues": {
@@ -86,26 +90,26 @@
           "row": 0,
           "col": 0,
           "length": 4,
-          "answer": "WOLF",
-          "clue": "Animal that howls at the moon",
+          "answer": "PACS",
+          "clue": "Campaign orgs",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
           "col": 0,
-          "length": 4,
-          "answer": "OVAL",
-          "clue": "Track",
-          "source": "dataset"
+          "length": 5,
+          "answer": "ICYMI",
+          "clue": "Texting lead-in meaning 'in case you missed it'",
+          "source": "written"
         },
         {
-          "number": 6,
+          "number": 7,
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "VEGAN",
-          "clue": "Like soy milk",
+          "answer": "TUBER",
+          "clue": "Overthrow argument about Murphy, say",
           "source": "dataset"
         },
         {
@@ -113,17 +117,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "ENEMY",
-          "clue": "Opposition",
+          "answer": "STEAK",
+          "clue": "Sirloin or T-bone",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 2,
-          "length": 3,
-          "answer": "REC",
-          "clue": "___ room",
+          "col": 1,
+          "length": 4,
+          "answer": "ERRS",
+          "clue": "Goes off",
           "source": "dataset"
         }
       ],
@@ -133,17 +137,17 @@
           "row": 0,
           "col": 0,
           "length": 4,
-          "answer": "WOVE",
-          "clue": "Made a basket",
+          "answer": "PITS",
+          "clue": "Olive leftovers",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
-          "length": 4,
-          "answer": "OVEN",
-          "clue": "Chef's need",
+          "length": 5,
+          "answer": "ACUTE",
+          "clue": "Critical",
           "source": "dataset"
         },
         {
@@ -151,8 +155,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "LAGER",
-          "clue": "Ale alternative",
+          "answer": "CYBER",
+          "clue": "Prefix for 'punk' or 'security'",
           "source": "dataset"
         },
         {
@@ -160,17 +164,17 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "FLAME",
-          "clue": "Appropriate torch song topic",
+          "answer": "SMEAR",
+          "clue": "Pap ___",
           "source": "dataset"
         },
         {
-          "number": 7,
-          "row": 2,
+          "number": 6,
+          "row": 1,
           "col": 4,
-          "length": 3,
-          "answer": "NYC",
-          "clue": "The Big Apple, for short",
+          "length": 4,
+          "answer": "IRKS",
+          "clue": "Annoys",
           "source": "dataset"
         }
       ]
@@ -181,66 +185,66 @@
     "cells": [
       null,
       {
-        "answer": "D",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "M",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "V",
+        "answer": "T",
         "number": 3
       },
       null,
       {
-        "answer": "A",
+        "answer": "B",
         "number": 4
-      },
-      {
-        "answer": "V"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "D",
-        "number": 5
-      },
-      {
-        "answer": "G",
-        "number": 6
-      },
-      {
-        "answer": "R"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "V"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "E",
-        "number": 7
+        "answer": "S"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "N"
+        "answer": "S",
+        "number": 5
+      },
+      {
+        "answer": "B",
+        "number": 6
+      },
+      {
+        "answer": "L"
       },
       {
         "answer": "I"
       },
       {
-        "answer": "E"
+        "answer": "N"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "C",
+        "number": 7
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "Y"
       },
       null,
       {
@@ -248,10 +252,10 @@
         "number": 8
       },
       {
-        "answer": "A"
+        "answer": "E"
       },
       {
-        "answer": "D"
+        "answer": "S"
       },
       null
     ],
@@ -262,8 +266,8 @@
           "row": 0,
           "col": 1,
           "length": 3,
-          "answer": "DMV",
-          "clue": "Place to get an ID",
+          "answer": "SAT",
+          "clue": "Posed",
           "source": "dataset"
         },
         {
@@ -271,8 +275,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "AVOID",
-          "clue": "Refrain from",
+          "answer": "BASES",
+          "clue": "Bags on a diamond",
           "source": "dataset"
         },
         {
@@ -280,8 +284,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "GRAVY",
-          "clue": "Sauce for meat",
+          "answer": "BLINK",
+          "clue": "Lose a staring contest",
           "source": "dataset"
         },
         {
@@ -289,8 +293,8 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "EENIE",
-          "clue": "Start of a counting rhyme",
+          "answer": "CADDY",
+          "clue": "Tea container",
           "source": "dataset"
         },
         {
@@ -298,8 +302,8 @@
           "row": 4,
           "col": 1,
           "length": 3,
-          "answer": "DAD",
-          "clue": "Pops",
+          "answer": "DES",
+          "clue": "___ Moines, Iowa",
           "source": "dataset"
         }
       ],
@@ -309,17 +313,17 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "DVRED",
-          "clue": "Recorded for later, as a show",
-          "source": "written"
+          "answer": "SALAD",
+          "clue": "Light fare",
+          "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "MOANA",
-          "clue": "Disney Polynesian toon",
+          "answer": "ASIDE",
+          "clue": "Quiet remark",
           "source": "dataset"
         },
         {
@@ -327,8 +331,8 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "VIVID",
-          "clue": "Having striking colour",
+          "answer": "TENDS",
+          "clue": "Looks after",
           "source": "dataset"
         },
         {
@@ -336,8 +340,8 @@
           "row": 1,
           "col": 0,
           "length": 3,
-          "answer": "AGE",
-          "clue": "Period",
+          "answer": "BBC",
+          "clue": "U.K. channel",
           "source": "dataset"
         },
         {
@@ -345,8 +349,8 @@
           "row": 1,
           "col": 4,
           "length": 3,
-          "answer": "DYE",
-          "clue": "Recolor",
+          "answer": "SKY",
+          "clue": "Sun setting",
           "source": "dataset"
         }
       ]

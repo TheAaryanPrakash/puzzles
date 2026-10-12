@@ -3,80 +3,88 @@
     "size": 5,
     "cells": [
       {
-        "answer": "C",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "L",
         "number": 2
       },
       {
-        "answer": "R",
+        "answer": "E",
         "number": 3
       },
-      null,
-      null,
       {
-        "answer": "A",
+        "answer": "E",
         "number": 4
+      },
+      {
+        "answer": "P",
+        "number": 5
+      },
+      {
+        "answer": "P",
+        "number": 6
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "X"
+      },
+      {
+        "answer": "A"
       },
       {
         "answer": "R"
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "B",
-        "number": 5
-      },
-      {
-        "answer": "S",
-        "number": 6
-      },
-      {
-        "answer": "M",
+        "answer": "A",
         "number": 7
       },
       {
-        "answer": "E"
-      },
-      {
-        "answer": "D"
+        "answer": "L"
       },
       {
         "answer": "I"
       },
       {
+        "answer": "T"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "M",
+        "number": 8
+      },
+      {
         "answer": "A"
       },
       {
-        "answer": "P",
-        "number": 8
+        "answer": "L"
+      },
+      {
+        "answer": "E"
       },
       {
         "answer": "S"
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "K"
-      },
-      {
-        "answer": "I"
-      },
-      null,
-      null,
-      {
-        "answer": "R",
+        "answer": "S",
         "number": 9
+      },
+      {
+        "answer": "C"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "D"
+        "answer": "N"
+      },
+      {
+        "answer": "E"
       }
     ],
     "clues": {
@@ -85,18 +93,18 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 3,
-          "answer": "CAR",
-          "clue": "Lot sight",
+          "length": 5,
+          "answer": "SLEEP",
+          "clue": "Snooze",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 6,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "ARABS",
-          "clue": "Most Kuwaitis",
+          "answer": "PIXAR",
+          "clue": "'Soul' studio",
           "source": "dataset"
         },
         {
@@ -104,8 +112,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "MEDIA",
-          "clue": "FCC's concern",
+          "answer": "ALITO",
+          "clue": "Colleague of Thomas",
           "source": "dataset"
         },
         {
@@ -113,17 +121,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "PSAKI",
-          "clue": "Jen ___, former White House press secretary",
-          "source": "written"
+          "answer": "MALES",
+          "clue": "Guys",
+          "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 2,
-          "length": 3,
-          "answer": "RED",
-          "clue": "Flushed",
+          "col": 0,
+          "length": 5,
+          "answer": "SCENE",
+          "clue": "'CSI' part",
           "source": "dataset"
         }
       ],
@@ -132,18 +140,18 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 4,
-          "answer": "CAMP",
-          "clue": "Bivouac",
+          "length": 5,
+          "answer": "SPAMS",
+          "clue": "Blasts with junk",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
-          "length": 4,
-          "answer": "ARES",
-          "clue": "War god",
+          "length": 5,
+          "answer": "LILAC",
+          "clue": "Syringa tree",
           "source": "dataset"
         },
         {
@@ -151,26 +159,26 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "RADAR",
-          "clue": "Speed detector",
+          "answer": "EXILE",
+          "clue": "Send away",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "EATEN",
+          "clue": "All gone",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 3,
-          "length": 4,
-          "answer": "BIKE",
-          "clue": "Motocross ride",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 1,
+          "row": 0,
           "col": 4,
-          "length": 4,
-          "answer": "SAID",
-          "clue": "Mentioned",
+          "length": 5,
+          "answer": "PROSE",
+          "clue": "Non-poetic writing",
           "source": "dataset"
         }
       ]
@@ -179,136 +187,127 @@
   "reserve": {
     "size": 5,
     "cells": [
+      null,
       {
         "answer": "C",
         "number": 1
       },
       {
-        "answer": "R",
+        "answer": "O",
         "number": 2
       },
       {
-        "answer": "I",
+        "answer": "N",
         "number": 3
       },
+      null,
       {
-        "answer": "S",
+        "answer": "T",
         "number": 4
-      },
-      {
-        "answer": "P",
-        "number": 5
-      },
-      {
-        "answer": "L",
-        "number": 6
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "U",
-        "number": 7
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "C",
-        "number": 8
       },
       {
         "answer": "O"
       },
       {
-        "answer": "R"
-      },
-      {
-        "answer": "N"
+        "answer": "K"
       },
       {
         "answer": "Y"
       },
       {
-        "answer": "K",
-        "number": 9
+        "answer": "O",
+        "number": 5
       },
       {
-        "answer": "N"
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "M"
       },
       {
         "answer": "O"
       },
       {
-        "answer": "T"
+        "answer": "Z",
+        "number": 7
       },
       {
-        "answer": "S"
-      }
+        "answer": "I"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "O"
+      },
+      null,
+      {
+        "answer": "N",
+        "number": 8
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "H"
+      },
+      null
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "CON",
+          "clue": "Trick",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "CRISP",
-          "clue": "Like fall air",
+          "answer": "TOKYO",
+          "clue": "Ginza locale",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 1,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "LUNAR",
-          "clue": "Like a moon landing",
+          "answer": "ALAMO",
+          "clue": "Texan mission",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 2,
+          "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "UNTIE",
-          "clue": "Undo, unlace",
+          "answer": "ZIPPO",
+          "clue": "Lighter brand",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "CORNY",
-          "clue": "Over-sentimental",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
           "row": 4,
-          "col": 0,
-          "length": 5,
-          "answer": "KNOTS",
-          "clue": "Much of macrame",
+          "col": 1,
+          "length": 3,
+          "answer": "NIH",
+          "clue": "Dr. Fauci's agcy",
           "source": "dataset"
         }
       ],
@@ -316,46 +315,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
+          "col": 1,
           "length": 5,
-          "answer": "CLUCK",
-          "clue": "Brooding animal's noise",
+          "answer": "COLIN",
+          "clue": "Civil rights activist Kaepernick",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "RUNON",
-          "clue": "Talk too long",
+          "answer": "OKAPI",
+          "clue": "Cousin of a giraffe",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
+          "col": 3,
           "length": 5,
-          "answer": "INTRO",
-          "clue": "Lead-in",
+          "answer": "NYMPH",
+          "clue": "Woodland deity and young dragonfly",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "SAINT",
-          "clue": "Virtuous one",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "TAZ",
+          "clue": "\"Bedevilled Rabbit\" antagonist",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 0,
+          "row": 1,
           "col": 4,
-          "length": 5,
-          "answer": "PREYS",
-          "clue": "Hunts for food",
+          "length": 3,
+          "answer": "OOO",
+          "clue": "Game-winning line",
           "source": "dataset"
         }
       ]

@@ -1,40 +1,56 @@
 {
   "payload": {
-    "center": "A",
+    "center": "V",
     "outer": [
       "C",
-      "D",
+      "E",
       "I",
-      "T",
-      "U",
-      "Y"
+      "O",
+      "R",
+      "T"
     ],
     "answers": [
-      "ACACIA",
-      "ACID",
-      "ACIDIC",
-      "ACIDITY",
-      "ACTA",
-      "ACUITY",
-      "ADDICT",
-      "ATTIC",
-      "AUDACITY",
-      "AUDIT",
-      "CACTI",
-      "CADDY",
-      "DADA",
-      "DADDY",
-      "DATA",
-      "DIDACTIC",
-      "TACIT",
-      "TACT",
-      "TACTIC",
-      "TAUT"
+      "CIVIC",
+      "COERCIVE",
+      "CORRECTIVE",
+      "CORVETTE",
+      "COVE",
+      "COVER",
+      "COVERT",
+      "COVET",
+      "EVER",
+      "EVICT",
+      "OVER",
+      "OVERT",
+      "RECEIVE",
+      "RECEIVER",
+      "RECOVER",
+      "REEVE",
+      "RETRIEVE",
+      "RETRIEVER",
+      "REVERE",
+      "REVERT",
+      "REVIVE",
+      "RIVER",
+      "ROVE",
+      "ROVER",
+      "TROVE",
+      "VECTOR",
+      "VEER",
+      "VERT",
+      "VERVE",
+      "VETO",
+      "VICE",
+      "VICTOR",
+      "VIVE",
+      "VOICE",
+      "VOTE",
+      "VOTER"
     ],
     "pangrams": [
-      "AUDACITY"
+      "CORRECTIVE"
     ],
-    "maxScore": 96
+    "maxScore": 178
   },
   "reserve": null
 }

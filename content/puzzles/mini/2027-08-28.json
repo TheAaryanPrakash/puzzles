@@ -301,127 +301,136 @@
   "reserve": {
     "size": 5,
     "cells": [
-      null,
       {
-        "answer": "T",
+        "answer": "F",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "I",
         "number": 2
       },
       {
-        "answer": "R",
+        "answer": "S",
         "number": 3
       },
       {
-        "answer": "P",
+        "answer": "T",
         "number": 4
       },
       {
-        "answer": "J",
+        "answer": "S",
         "number": 5
       },
       {
-        "answer": "A"
+        "answer": "O",
+        "number": 6
+      },
+      {
+        "answer": "N"
       },
       {
         "answer": "C"
       },
       {
-        "answer": "O"
+        "answer": "U"
       },
       {
-        "answer": "B"
+        "answer": "E"
       },
       {
         "answer": "A",
-        "number": 6
+        "number": 7
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "O"
       },
       {
         "answer": "B"
       },
       {
-        "answer": "H"
+        "answer": "E"
       },
       {
-        "answer": "O"
+        "answer": "M",
+        "number": 8
+      },
+      {
+        "answer": "I"
       },
       {
         "answer": "R"
       },
       {
-        "answer": "Z",
-        "number": 7
+        "answer": "E"
       },
       {
-        "answer": "O"
+        "answer": "D"
       },
       {
-        "answer": "O"
+        "answer": "S",
+        "number": 9
       },
       {
-        "answer": "M"
-      },
-      null,
-      {
-        "answer": "Z",
-        "number": 8
+        "answer": "A"
       },
       {
-        "answer": "O"
+        "answer": "N"
       },
       {
-        "answer": "O"
+        "answer": "D"
       },
-      null,
-      null
+      {
+        "answer": "Y"
+      }
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "TARP",
-          "clue": "Field protector",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "JACOB",
-          "clue": "Patriarch named in a chapter in part of OT",
+          "answer": "FISTS",
+          "clue": "Boxing weapons",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "ABHOR",
-          "clue": "Can't abide",
+          "answer": "ONCUE",
+          "clue": "Timely",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "answer": "ZOOM",
-          "clue": "Speed",
+          "length": 5,
+          "answer": "ADOBE",
+          "clue": "Pueblo material",
           "source": "dataset"
         },
         {
           "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "MIRED",
+          "clue": "Bogged down",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
           "row": 4,
           "col": 0,
-          "length": 3,
-          "answer": "ZOO",
-          "clue": "State of madness",
+          "length": 5,
+          "answer": "SANDY",
+          "clue": "Dunelike",
           "source": "dataset"
         }
       ],
@@ -429,46 +438,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 0,
           "length": 5,
-          "answer": "TABOO",
-          "clue": "Banned",
+          "answer": "FOAMS",
+          "clue": "Lathers",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "ACHOO",
-          "clue": "___ 'Bless you'",
+          "answer": "INDIA",
+          "clue": "Big country",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "ROOM",
-          "clue": "Enough space",
+          "col": 2,
+          "length": 5,
+          "answer": "SCORN",
+          "clue": "Ridicule",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 4,
-          "length": 3,
-          "answer": "PBR",
-          "clue": "Brew with hipster cred",
-          "source": "dataset"
+          "col": 3,
+          "length": 5,
+          "answer": "TUBED",
+          "clue": "Failed spectacularly, in slang",
+          "source": "written"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "JAZZ",
-          "clue": "New Orleans music",
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "SEEDY",
+          "clue": "Run-down",
           "source": "dataset"
         }
       ]

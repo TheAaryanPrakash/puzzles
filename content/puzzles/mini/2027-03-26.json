@@ -4,77 +4,77 @@
     "cells": [
       null,
       {
-        "answer": "S",
+        "answer": "B",
         "number": 1
       },
       {
-        "answer": "P",
+        "answer": "U",
         "number": 2
       },
       {
-        "answer": "I",
+        "answer": "S",
         "number": 3
-      },
-      {
-        "answer": "T",
-        "number": 4
       },
       null,
       {
         "answer": "K",
+        "number": 4
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "A",
         "number": 5
       },
       {
-        "answer": "E"
+        "answer": "O",
+        "number": 6
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "I"
       },
       {
         "answer": "T"
+      },
+      {
+        "answer": "D",
+        "number": 7
+      },
+      {
+        "answer": "R"
       },
       {
         "answer": "O"
       },
       {
-        "answer": "F",
-        "number": 6
-      },
-      {
-        "answer": "A"
-      },
-      {
         "answer": "N"
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "U",
-        "number": 7
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "H"
-      },
-      null,
-      {
-        "answer": "R",
-        "number": 8
       },
       {
         "answer": "E"
       },
+      null,
       {
-        "answer": "L"
+        "answer": "E",
+        "number": 8
       },
       {
-        "answer": "Y"
+        "answer": "W"
+      },
+      {
+        "answer": "E"
       },
       null
     ],
@@ -84,18 +84,18 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 4,
-          "answer": "SPIT",
-          "clue": "Rotisserie",
+          "length": 3,
+          "answer": "BUS",
+          "clue": "Clear",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "KETO",
-          "clue": "Trendy low-carb diet",
+          "col": 0,
+          "length": 5,
+          "answer": "KAPPA",
+          "clue": "Iota ___",
           "source": "dataset"
         },
         {
@@ -103,26 +103,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "FANCY",
-          "clue": "Upscale",
+          "answer": "ORBIT",
+          "clue": "Go round",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 4,
-          "answer": "UTAH",
-          "clue": "Provo's state",
+          "length": 5,
+          "answer": "DRONE",
+          "clue": "Unmanned plane",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
-          "col": 0,
-          "length": 4,
-          "answer": "RELY",
-          "clue": "Lean (on)",
+          "col": 1,
+          "length": 3,
+          "answer": "EWE",
+          "clue": "Ms Merino",
           "source": "dataset"
         }
       ],
@@ -132,8 +132,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "SKATE",
-          "clue": "Flat fish",
+          "answer": "BARRE",
+          "clue": "Ballet-inspired exercise",
           "source": "dataset"
         },
         {
@@ -141,8 +141,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "PENAL",
-          "clue": "Punitive",
+          "answer": "UPBOW",
+          "clue": "Violin stroke",
           "source": "dataset"
         },
         {
@@ -150,69 +150,52 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "ITCHY",
-          "clue": "Like sun rash",
+          "answer": "SPINE",
+          "clue": "Willpower",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
+          "row": 1,
+          "col": 0,
           "length": 3,
-          "answer": "TOY",
-          "clue": "Little dog",
+          "answer": "KOD",
+          "clue": "Out, in a bout",
           "source": "dataset"
         },
         {
-          "number": 6,
-          "row": 2,
-          "col": 0,
+          "number": 5,
+          "row": 1,
+          "col": 4,
           "length": 3,
-          "answer": "FUR",
-          "clue": "Dog coater",
+          "answer": "ATE",
+          "clue": "Fed",
           "source": "dataset"
         }
       ]
     }
   },
   "reserve": {
-    "size": 7,
+    "size": 5,
     "cells": [
       null,
+      null,
       {
-        "answer": "K",
+        "answer": "F",
         "number": 1
       },
       {
-        "answer": "E",
+        "answer": "U",
         "number": 2
       },
       {
-        "answer": "E",
+        "answer": "N",
         "number": 3
-      },
-      {
-        "answer": "P",
-        "number": 4
-      },
-      {
-        "answer": "U",
-        "number": 5
-      },
-      {
-        "answer": "P",
-        "number": 6
       },
       null,
       {
-        "answer": "E",
-        "number": 7
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "A"
+        "answer": "D",
+        "number": 4
       },
       {
         "answer": "I"
@@ -221,67 +204,11 @@
         "answer": "N"
       },
       {
-        "answer": "E"
-      },
-      null,
-      {
-        "answer": "G",
-        "number": 8
+        "answer": "O"
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "C"
-      },
-      null,
-      null,
-      {
-        "answer": "N",
-        "number": 9
-      },
-      {
-        "answer": "B"
-      },
-      {
-        "answer": "A"
-      },
-      null,
-      null,
-      {
-        "answer": "A",
-        "number": 10
-      },
-      {
-        "answer": "S",
-        "number": 11
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "E",
-        "number": 12
-      },
-      null,
-      {
-        "answer": "B",
-        "number": 13
+        "answer": "W",
+        "number": 5
       },
       {
         "answer": "O"
@@ -293,30 +220,36 @@
         "answer": "D"
       },
       {
+        "answer": "S"
+      },
+      {
+        "answer": "I",
+        "number": 6
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "U"
+      },
+      {
         "answer": "E"
       },
       {
-        "answer": "R"
-      },
-      null,
-      {
-        "answer": "C",
-        "number": 14
+        "answer": "N",
+        "number": 7
       },
       {
-        "answer": "L"
+        "answer": "O"
       },
       {
-        "answer": "A"
+        "answer": "T"
       },
       {
-        "answer": "S"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "Y"
+        "answer": "E"
       },
       null
     ],
@@ -325,64 +258,46 @@
         {
           "number": 1,
           "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "FUN",
+          "clue": "Good times",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
           "col": 1,
-          "length": 6,
-          "answer": "KEEPUP",
-          "clue": "Maintain important-sounding little dog (wordplay)",
+          "length": 4,
+          "answer": "DINO",
+          "clue": "'The Flintstones' pet",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "WORDS",
+          "clue": "Language units",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "ISSUE",
+          "clue": "Publish",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 1,
-          "col": 1,
-          "length": 6,
-          "answer": "ELAINE",
-          "clue": "\"Seinfeld\" role",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 2,
-          "col": 1,
-          "length": 6,
-          "answer": "GARLIC",
-          "clue": "Aromatic bulb",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
-          "row": 3,
-          "col": 2,
-          "length": 3,
-          "answer": "NBA",
-          "clue": "Hoops grp",
-          "source": "dataset"
-        },
-        {
-          "number": 10,
           "row": 4,
           "col": 0,
-          "length": 6,
-          "answer": "ASTUTE",
-          "clue": "Hard to fool",
-          "source": "dataset"
-        },
-        {
-          "number": 13,
-          "row": 5,
-          "col": 0,
-          "length": 6,
-          "answer": "BORDER",
-          "clue": "Frontier",
-          "source": "dataset"
-        },
-        {
-          "number": 14,
-          "row": 6,
-          "col": 0,
-          "length": 6,
-          "answer": "CLASSY",
-          "clue": "High-toned",
+          "length": 4,
+          "answer": "NOTE",
+          "clue": "Memo",
           "source": "dataset"
         }
       ],
@@ -390,82 +305,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 3,
-          "answer": "KEG",
-          "clue": "Beer barrel",
+          "col": 2,
+          "length": 5,
+          "answer": "FIRST",
+          "clue": "Leading",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 7,
-          "answer": "ELANTRA",
-          "clue": "Sonata alternative",
+          "col": 3,
+          "length": 5,
+          "answer": "UNDUE",
+          "clue": "Not called for",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 7,
-          "answer": "EARBUDS",
-          "clue": "Tiny in-ear headphones",
-          "source": "written"
+          "col": 4,
+          "length": 4,
+          "answer": "NOSE",
+          "clue": "Rocket part",
+          "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 7,
-          "answer": "PILATES",
-          "clue": "Yoga alternative",
-          "source": "dataset"
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "DOSO",
+          "clue": "'How ___?' (incredulous question)",
+          "source": "written"
         },
         {
           "number": 5,
-          "row": 0,
-          "col": 5,
-          "length": 3,
-          "answer": "UNI",
-          "clue": "Brow beginning",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 0,
-          "col": 6,
-          "length": 3,
-          "answer": "PEC",
-          "clue": "Upper bod muscle",
-          "source": "dataset"
-        },
-        {
-          "number": 10,
-          "row": 4,
+          "row": 2,
           "col": 0,
           "length": 3,
-          "answer": "ABC",
-          "clue": "Alphabet starter",
-          "source": "dataset"
-        },
-        {
-          "number": 11,
-          "row": 4,
-          "col": 1,
-          "length": 3,
-          "answer": "SOL",
-          "clue": "___ La",
-          "source": "dataset"
-        },
-        {
-          "number": 12,
-          "row": 4,
-          "col": 5,
-          "length": 3,
-          "answer": "ERY",
-          "clue": "Suffix for trick",
+          "answer": "WIN",
+          "clue": "Prevail",
           "source": "dataset"
         }
       ]

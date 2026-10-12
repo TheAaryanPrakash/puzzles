@@ -300,23 +300,37 @@
         "number": 2
       },
       {
-        "answer": "R",
+        "answer": "S",
         "number": 3
       },
       {
-        "answer": "I",
+        "answer": "K",
         "number": 4
       },
+      null,
       {
         "answer": "A",
         "number": 5
       },
       {
-        "answer": "F",
+        "answer": "C"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D",
         "number": 6
       },
       {
-        "answer": "L"
+        "answer": "R",
+        "number": 7
+      },
+      {
+        "answer": "H"
       },
       {
         "answer": "I"
@@ -325,50 +339,36 @@
         "answer": "N"
       },
       {
-        "answer": "G"
+        "answer": "O"
       },
       {
-        "answer": "A",
-        "number": 7
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S",
+        "answer": "T",
         "number": 8
-      },
-      {
-        "answer": "H"
       },
       {
         "answer": "O"
       },
       {
-        "answer": "E"
+        "answer": "N"
+      },
+      {
+        "answer": "Y"
       },
       {
         "answer": "S"
       },
-      null,
       {
-        "answer": "A",
+        "answer": "Y",
         "number": 9
       },
       {
-        "answer": "N"
+        "answer": "O"
       },
       {
-        "answer": "T"
+        "answer": "G"
+      },
+      {
+        "answer": "A"
       },
       null
     ],
@@ -378,18 +378,18 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 5,
-          "answer": "MARIA",
-          "clue": "Opera's Callas",
+          "length": 4,
+          "answer": "MASK",
+          "clue": "Face concealer",
           "source": "dataset"
         },
         {
-          "number": 6,
+          "number": 5,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "FLING",
-          "clue": "Throw",
+          "answer": "ACTED",
+          "clue": "Didn't dawdle",
           "source": "dataset"
         },
         {
@@ -397,8 +397,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "APPLE",
-          "clue": "Pie fruit",
+          "answer": "RHINO",
+          "clue": "Safari sight",
           "source": "dataset"
         },
         {
@@ -406,17 +406,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "SHOES",
-          "clue": "Closet pairs",
+          "answer": "TONYS",
+          "clue": "Theater awards",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 1,
-          "length": 3,
-          "answer": "ANT",
-          "clue": "Picnic pest",
+          "col": 0,
+          "length": 4,
+          "answer": "YOGA",
+          "clue": "Tranquil discipline",
           "source": "dataset"
         }
       ],
@@ -425,9 +425,9 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 4,
-          "answer": "MFAS",
-          "clue": "Advanced degrees for some filmmakers",
+          "length": 5,
+          "answer": "MARTY",
+          "clue": "\"Back to the Future\" teen",
           "source": "dataset"
         },
         {
@@ -435,8 +435,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "ALPHA",
-          "clue": "___ dog",
+          "answer": "ACHOO",
+          "clue": "Sneezing sound",
           "source": "dataset"
         },
         {
@@ -444,8 +444,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "RIPON",
-          "clue": "City in North Yorkshire",
+          "answer": "STING",
+          "clue": "Bee attack",
           "source": "dataset"
         },
         {
@@ -453,17 +453,17 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "INLET",
-          "clue": "Small bay",
+          "answer": "KENYA",
+          "clue": "Nation whose flag depicts a Maasai shield",
           "source": "dataset"
         },
         {
-          "number": 5,
-          "row": 0,
+          "number": 6,
+          "row": 1,
           "col": 4,
-          "length": 4,
-          "answer": "AGES",
-          "clue": "Mellows",
+          "length": 3,
+          "answer": "DOS",
+          "clue": "Coifs",
           "source": "dataset"
         }
       ]

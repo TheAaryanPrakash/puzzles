@@ -4,72 +4,54 @@
     "cells": [
       null,
       {
-        "answer": "C",
+        "answer": "T",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "W",
         "number": 2
       },
       {
-        "answer": "G",
+        "answer": "O",
         "number": 3
       },
+      null,
       {
-        "answer": "E",
+        "answer": "C",
         "number": 4
       },
       {
-        "answer": "H",
-        "number": 5
+        "answer": "H"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "R"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "E",
-        "number": 6
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "M",
-        "number": 7
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "S"
+        "answer": "O"
       },
       {
         "answer": "S",
-        "number": 8
+        "number": 5
+      },
+      {
+        "answer": "D",
+        "number": 6
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "C",
+        "number": 7
       },
       {
         "answer": "O"
@@ -78,7 +60,21 @@
         "answer": "D"
       },
       {
-        "answer": "A"
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      null,
+      {
+        "answer": "C",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "D"
       },
       null
     ],
@@ -88,18 +84,18 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 4,
-          "answer": "CAGE",
-          "clue": "Zoo enclosure",
+          "length": 3,
+          "answer": "TWO",
+          "clue": "Couple",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "HARRY",
-          "clue": "Duke of Sussex in torment",
+          "answer": "CHAOS",
+          "clue": "Pandemonium",
           "source": "dataset"
         },
         {
@@ -107,8 +103,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "EMCEE",
-          "clue": "Host",
+          "answer": "DELHI",
+          "clue": "Indian city",
           "source": "dataset"
         },
         {
@@ -116,17 +112,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "MEETS",
-          "clue": "Encounters",
+          "answer": "CODER",
+          "clue": "Programming pro",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
-          "col": 0,
-          "length": 4,
-          "answer": "SODA",
-          "clue": "Bar mixer",
+          "col": 1,
+          "length": 3,
+          "answer": "COD",
+          "clue": "Cape -",
           "source": "dataset"
         }
       ],
@@ -136,8 +132,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "CAMEO",
-          "clue": "Brief role",
+          "answer": "THEOC",
+          "clue": "2000s Cal.-based teen drama",
           "source": "dataset"
         },
         {
@@ -145,8 +141,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ARCED",
-          "clue": "Bow-shaped",
+          "answer": "WALDO",
+          "clue": "Literary crowd member (wordplay)",
           "source": "dataset"
         },
         {
@@ -154,26 +150,26 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "GRETA",
-          "clue": "Film legend Garbo",
+          "answer": "OOHED",
+          "clue": "Reacted in wonderment",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "EYES",
-          "clue": "Looks at",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "CDC",
+          "clue": "Health agcy",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "HEMS",
-          "clue": "Fabric edges",
+          "col": 4,
+          "length": 3,
+          "answer": "SIR",
+          "clue": "Army address",
           "source": "dataset"
         }
       ]
@@ -183,57 +179,31 @@
     "size": 5,
     "cells": [
       {
-        "answer": "F",
+        "answer": "C",
         "number": 1
       },
       {
-        "answer": "L",
+        "answer": "H",
         "number": 2
       },
       {
-        "answer": "A",
+        "answer": "E",
         "number": 3
       },
       {
-        "answer": "P",
+        "answer": "S",
         "number": 4
       },
-      null,
       {
-        "answer": "R",
+        "answer": "S",
         "number": 5
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "E"
-      },
-      null,
-      {
-        "answer": "A",
+        "answer": "H",
         "number": 6
       },
       {
-        "answer": "R"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "Y",
-        "number": 7
-      },
-      null,
-      {
-        "answer": "D",
-        "number": 8
+        "answer": "E"
       },
       {
         "answer": "A"
@@ -242,18 +212,52 @@
         "answer": "T"
       },
       {
+        "answer": "H"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "A"
+      },
+      {
         "answer": "E"
       },
-      null,
       {
-        "answer": "E",
+        "answer": "F",
+        "number": 8
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "F",
         "number": 9
+      },
+      {
+        "answer": "O"
       },
       {
         "answer": "R"
       },
       {
-        "answer": "O"
+        "answer": "K"
       },
       {
         "answer": "S"
@@ -265,45 +269,45 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 4,
-          "answer": "FLAP",
-          "clue": "Book jacket part",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "ROSE",
-          "clue": "Stood up",
+          "length": 5,
+          "answer": "CHESS",
+          "clue": "Spassky's game",
           "source": "dataset"
         },
         {
           "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "HEATH",
+          "clue": "Toffee bar choice",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ARTSY",
-          "clue": "___-craftsy",
+          "answer": "ALGAE",
+          "clue": "Pond cover",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 3,
-          "col": 1,
-          "length": 4,
-          "answer": "DATE",
-          "clue": "Appointment",
+          "col": 0,
+          "length": 5,
+          "answer": "FIEND",
+          "clue": "Evil spirit",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 1,
-          "length": 4,
-          "answer": "EROS",
-          "clue": "Greek Cupid",
+          "col": 0,
+          "length": 5,
+          "answer": "FORKS",
+          "clue": "Travelers' decision points",
           "source": "dataset"
         }
       ],
@@ -312,9 +316,9 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 3,
-          "answer": "FRA",
-          "clue": "Brother",
+          "length": 5,
+          "answer": "CHAFF",
+          "clue": "Material separated from seeds",
           "source": "dataset"
         },
         {
@@ -322,8 +326,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "LORDE",
-          "clue": "One-named singer of \"Royals\"",
+          "answer": "HELIO",
+          "clue": "Sun: Pref",
           "source": "dataset"
         },
         {
@@ -331,8 +335,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ASTAR",
-          "clue": "\"When You Wish Upon ___\"",
+          "answer": "EAGER",
+          "clue": "___ beaver",
           "source": "dataset"
         },
         {
@@ -340,17 +344,17 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "PESTO",
-          "clue": "Trattoria sauce",
+          "answer": "STANK",
+          "clue": "Offended the nose",
           "source": "dataset"
         },
         {
-          "number": 7,
-          "row": 2,
+          "number": 5,
+          "row": 0,
           "col": 4,
-          "length": 3,
-          "answer": "YES",
-          "clue": "\"Sure\"",
+          "length": 5,
+          "answer": "SHEDS",
+          "clue": "Outhouses",
           "source": "dataset"
         }
       ]

@@ -3,8 +3,9 @@
     "size": 5,
     "cells": [
       null,
+      null,
       {
-        "answer": "C",
+        "answer": "F",
         "number": 1
       },
       {
@@ -19,65 +20,62 @@
         "answer": "S",
         "number": 4
       },
-      null,
       {
-        "answer": "L",
+        "answer": "P",
         "number": 5
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "C",
-        "number": 6
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "I",
-        "number": 7
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "L"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "W"
-      },
-      {
-        "answer": "S",
-        "number": 8
+        "answer": "C"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "E"
+        "answer": "T",
+        "number": 6
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "A"
       },
       {
         "answer": "N"
       },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "Y"
+      },
+      null,
       null
     ],
     "clues": {
@@ -85,19 +83,19 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "CARS",
-          "clue": "Roller coaster parts",
+          "col": 2,
+          "length": 3,
+          "answer": "FAR",
+          "clue": "Remote",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "LION",
-          "clue": "Oz traveler",
+          "col": 0,
+          "length": 5,
+          "answer": "SPACE",
+          "clue": "Room; gap",
           "source": "dataset"
         },
         {
@@ -105,8 +103,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "COSMO",
-          "clue": "Fashion mag since 1886",
+          "answer": "TITAN",
+          "clue": "Industry giant",
           "source": "dataset"
         },
         {
@@ -114,17 +112,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "INLAW",
-          "clue": "New relative",
+          "answer": "ASTRO",
+          "clue": "Texas player",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "SEEN",
-          "clue": "Perceived",
+          "length": 3,
+          "answer": "RAY",
+          "clue": "Manta ___",
           "source": "dataset"
         }
       ],
@@ -132,46 +130,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "CLONE",
-          "clue": "Genetic twin",
+          "answer": "FATTY",
+          "clue": "___ acids",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "AISLE",
-          "clue": "Plane lane",
+          "col": 3,
+          "length": 4,
+          "answer": "ACAR",
+          "clue": "Rent-___ (Budget business)",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "ROMAN",
-          "clue": "Type of type",
+          "col": 4,
+          "length": 4,
+          "answer": "RENO",
+          "clue": "Nevada city",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
+          "row": 1,
+          "col": 0,
           "length": 4,
-          "answer": "SNOW",
-          "clue": "White stuff",
+          "answer": "STAR",
+          "clue": "Asterisk",
           "source": "dataset"
         },
         {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "answer": "CIS",
-          "clue": "Lead-in to gender",
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "PISA",
+          "clue": "Tuscan tower town",
           "source": "dataset"
         }
       ]
@@ -181,78 +179,77 @@
     "size": 5,
     "cells": [
       null,
+      null,
       {
-        "answer": "S",
+        "answer": "B",
         "number": 1
       },
       {
-        "answer": "H",
+        "answer": "C",
         "number": 2
       },
       {
-        "answer": "O",
+        "answer": "C",
         "number": 3
-      },
-      {
-        "answer": "W",
-        "number": 4
       },
       null,
       {
-        "answer": "P",
-        "number": 5
+        "answer": "Z",
+        "number": 4
       },
       {
-        "answer": "U"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "M",
-        "number": 6
-      },
-      {
-        "answer": "O"
+        "answer": "E"
       },
       {
         "answer": "R"
       },
       {
+        "answer": "O"
+      },
+      {
+        "answer": "K",
+        "number": 5
+      },
+      {
         "answer": "A"
       },
       {
-        "answer": "Y"
+        "answer": "Z"
       },
       {
-        "answer": "B",
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "F",
+        "number": 6
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "Z"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "C",
         "number": 7
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "K"
-      },
-      null,
-      {
-        "answer": "A",
-        "number": 8
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "N"
-      },
-      {
         "answer": "A"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
       },
       null
     ],
@@ -261,46 +258,46 @@
         {
           "number": 1,
           "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "BCC",
+          "clue": "Discreetly send a dupe email to",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "SHOW",
-          "clue": "Unmask",
+          "answer": "ZERO",
+          "clue": "Nada",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "PUSH",
-          "clue": "Promote",
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "KAZAN",
+          "clue": "Russian industrial city",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "MORAY",
-          "clue": "Double-jawed eel",
+          "answer": "FROZE",
+          "clue": "Suddenly stopped moving",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 4,
-          "answer": "BOOK",
-          "clue": "Enter into a calendar",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
           "row": 4,
           "col": 0,
           "length": 4,
-          "answer": "ANNA",
-          "clue": "'___ Karenina'",
+          "answer": "CASE",
+          "clue": "Wine buy",
           "source": "dataset"
         }
       ],
@@ -308,46 +305,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "SPOON",
-          "clue": "Cutlery item",
+          "answer": "BEZOS",
+          "clue": "Jeff who heads Amazon",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
+          "col": 3,
           "length": 5,
-          "answer": "HURON",
-          "clue": "A Great Lake",
+          "answer": "CRAZE",
+          "clue": "Hairpin stealing, circa 1885",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "OSAKA",
-          "clue": "Japanese seaport",
+          "col": 4,
+          "length": 4,
+          "answer": "CONE",
+          "clue": "Retina part",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 3,
-          "answer": "WHY",
-          "clue": "A question of motive",
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "ZARA",
+          "clue": "Swedish singer Larsson with the Top 20 hit 'Never Forget You'",
           "source": "dataset"
         },
         {
-          "number": 6,
+          "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "answer": "MBA",
-          "clue": "Wharton deg",
+          "answer": "KFC",
+          "clue": "Popeyes rival",
           "source": "dataset"
         }
       ]

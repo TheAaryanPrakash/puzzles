@@ -5,11 +5,11 @@ Excluded from answers (still guessable): AQ, AX, AS, AW, BL, BM, CK, CW, FK, FO,
 
 ## 5 sample days
 
-- Day 1 (2026-10-17): **Ethiopia** (ET)
-- Day 92 (2027-01-16): **Latvia** (LV)
-- Day 183 (2027-04-17): **Tanzania** (TZ)
-- Day 274 (2027-07-17): **Benin** (BJ)
-- Day 365 (2027-10-16): **Myanmar** (MM)
+- Day 1 (2026-10-12): **Ethiopia** (ET)
+- Day 92 (2027-01-11): **Latvia** (LV)
+- Day 183 (2027-04-12): **Tanzania** (TZ)
+- Day 274 (2027-07-12): **Benin** (BJ)
+- Day 365 (2027-10-11): **Myanmar** (MM)
 
 ## Pool stats
 

@@ -1,7 +1,7 @@
 # Worldle — generated puzzle samples
 
 - Pool size (playable countries): **205**
-- Schedule: 365 days, 2026-10-17 → 2027-10-16
+- Schedule: 365 days, 2026-10-12 → 2027-10-11
 - Seed: 61
 - Cycles through the whole pool before any repeat (205 days/cycle; day 206 is the first possible repeat).
 
@@ -45,22 +45,22 @@ Non-sovereign/very small — see RESEARCH.md for the full reasoning.
 
 ## 5 sample days
 
-### 2026-10-17 (puzzle #1)
+### 2026-10-12 (puzzle #1)
 - Answer: **Nauru** (`NR`)
 - Aliases accepted: —
 
-### 2027-01-16 (puzzle #92)
+### 2027-01-11 (puzzle #92)
 - Answer: **Rwanda** (`RW`)
 - Aliases accepted: —
 
-### 2027-04-17 (puzzle #183)
+### 2027-04-12 (puzzle #183)
 - Answer: **Chad** (`TD`)
 - Aliases accepted: —
 
-### 2027-07-17 (puzzle #274)
+### 2027-07-12 (puzzle #274)
 - Answer: **Nigeria** (`NG`)
 - Aliases accepted: —
 
-### 2027-10-16 (puzzle #365)
+### 2027-10-11 (puzzle #365)
 - Answer: **Bhutan** (`BT`)
 - Aliases accepted: —

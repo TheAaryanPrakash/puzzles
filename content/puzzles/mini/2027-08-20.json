@@ -4,233 +4,41 @@
     "cells": [
       null,
       {
-        "answer": "C",
-        "number": 1
-      },
-      {
-        "answer": "L",
-        "number": 2
-      },
-      {
-        "answer": "U",
-        "number": 3
-      },
-      {
-        "answer": "E",
-        "number": 4
-      },
-      {
-        "answer": "B",
-        "number": 5
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "X"
-      },
-      {
-        "answer": "L",
-        "number": 6
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "A",
-        "number": 7
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "B",
-        "number": 8
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "R"
-      },
-      null
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "CLUE",
-          "clue": "This is one",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "BRONX",
-          "clue": "Birthplace of hip-hop",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "LARGE",
-          "clue": "Sizeable",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "ANDES",
-          "clue": "Southern range",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 4,
-          "col": 0,
-          "length": 4,
-          "answer": "BEER",
-          "clue": "Bar brew",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "CRANE",
-          "clue": "Large wader",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "LORDE",
-          "clue": "'Royals' singer",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "UNGER",
-          "clue": "Felix of 'The Odd Couple'",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "EXES",
-          "clue": "Old flames",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "BLAB",
-          "clue": "Gossip",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 7,
-    "cells": [
-      null,
-      {
-        "answer": "I",
-        "number": 1
-      },
-      {
-        "answer": "R",
-        "number": 2
-      },
-      {
-        "answer": "I",
-        "number": 3
-      },
-      {
         "answer": "S",
-        "number": 4
+        "number": 1
       },
       {
         "answer": "H",
-        "number": 5
+        "number": 2
       },
-      null,
-      null,
+      {
+        "answer": "A",
+        "number": 3
+      },
       {
         "answer": "M",
-        "number": 6
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "A"
+        "number": 4
       },
       null,
       {
-        "answer": "S",
-        "number": 7
+        "answer": "L",
+        "number": 5
       },
       {
         "answer": "I"
       },
       {
-        "answer": "N"
+        "answer": "M"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "J",
+        "number": 6
+      },
+      {
+        "answer": "O"
       },
       {
         "answer": "K"
@@ -242,84 +50,32 @@
         "answer": "R"
       },
       {
-        "answer": "S",
-        "number": 8
+        "answer": "O",
+        "number": 7
       },
       {
-        "answer": "E",
-        "number": 9
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "G"
-      },
-      null,
-      {
-        "answer": "P",
-        "number": 10
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "C",
-        "number": 11
-      },
-      {
-        "answer": "H"
+        "answer": "P"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "X",
-        "number": 12
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "X"
+        "answer": "N"
       },
       null,
       {
-        "answer": "T",
-        "number": 13
+        "answer": "N",
+        "number": 8
+      },
+      {
+        "answer": "E"
       },
       {
         "answer": "R"
       },
       {
-        "answer": "I"
+        "answer": "D"
       },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "S"
-      },
-      null,
-      null,
-      null,
-      {
-        "answer": "S",
-        "number": 14
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "M"
-      },
-      null,
       null
     ],
     "clues": {
@@ -328,72 +84,45 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 5,
-          "answer": "IRISH",
-          "clue": "___ wolfhound",
+          "length": 4,
+          "answer": "SHAM",
+          "clue": "Bogus",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "LIME",
+          "clue": "Citrus fruit",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 1,
-          "col": 1,
+          "row": 2,
+          "col": 0,
           "length": 5,
-          "answer": "MANTA",
-          "clue": "Gliding ray",
+          "answer": "JOKER",
+          "clue": "Humorous character",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 2,
-          "col": 0,
-          "length": 7,
-          "answer": "SINKERS",
-          "clue": "Breaking baseball pitches",
-          "source": "written"
-        },
-        {
-          "number": 9,
           "row": 3,
           "col": 0,
-          "length": 3,
-          "answer": "EGG",
-          "clue": "Easter find",
+          "length": 4,
+          "answer": "OPEN",
+          "clue": "U.S. ___",
           "source": "dataset"
         },
         {
-          "number": 10,
-          "row": 3,
-          "col": 4,
-          "length": 3,
-          "answer": "PRO",
-          "clue": "Backing",
-          "source": "dataset"
-        },
-        {
-          "number": 11,
+          "number": 8,
           "row": 4,
           "col": 0,
-          "length": 7,
-          "answer": "CHEXMIX",
-          "clue": "Snack mix with pretzels and cereal",
-          "source": "written"
-        },
-        {
-          "number": 13,
-          "row": 5,
-          "col": 1,
-          "length": 5,
-          "answer": "TRIOS",
-          "clue": "Some jazz combos",
-          "source": "dataset"
-        },
-        {
-          "number": 14,
-          "row": 6,
-          "col": 2,
-          "length": 3,
-          "answer": "SIM",
-          "clue": "Virtual-city denizen",
+          "length": 4,
+          "answer": "NERD",
+          "clue": "Dorky sort",
           "source": "dataset"
         }
       ],
@@ -402,72 +131,221 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 6,
-          "answer": "IMIGHT",
-          "clue": "\"Haven't decided for sure\"",
+          "length": 5,
+          "answer": "SLOPE",
+          "clue": "Incline",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 2,
-          "length": 7,
-          "answer": "RANGERS",
-          "clue": "Player ultimately provokes Scots side",
+          "length": 5,
+          "answer": "HIKER",
+          "clue": "Nature walker",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
           "col": 3,
-          "length": 3,
-          "answer": "INK",
-          "clue": "Sign",
+          "length": 5,
+          "answer": "AMEND",
+          "clue": "Correct",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
           "col": 4,
-          "length": 7,
-          "answer": "STEPMOM",
-          "clue": "Blended family member",
+          "length": 3,
+          "answer": "MER",
+          "clue": "Debussy's sea",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "JON",
+          "clue": "Georgia senator Ossoff",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "O",
+        "number": 1
+      },
+      {
+        "answer": "N",
+        "number": 2
+      },
+      {
+        "answer": "E",
+        "number": 3
+      },
+      null,
+      null,
+      {
+        "answer": "P",
+        "number": 4
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "N"
+      },
+      null,
+      {
+        "answer": "B",
+        "number": 5
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "S",
+        "number": 6
+      },
+      {
+        "answer": "O",
+        "number": 7
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "W",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "Y"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "ONE",
+          "clue": "Ace",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 3,
+          "answer": "PUN",
+          "clue": "Bit of wit",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 0,
-          "col": 5,
-          "length": 6,
-          "answer": "HARRIS",
-          "clue": "One of three in a boat somewhere off the Scottish mainland",
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "BIRDS",
+          "clue": "Fowl",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 2,
+          "row": 3,
           "col": 0,
-          "length": 3,
-          "answer": "SEC",
-          "clue": "Moment",
+          "length": 5,
+          "answer": "ONSET",
+          "clue": "Advent",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 2,
-          "col": 6,
-          "length": 3,
-          "answer": "SOX",
-          "clue": "Chicago White -",
+          "row": 4,
+          "col": 0,
+          "length": 5,
+          "answer": "WEEDY",
+          "clue": "Went back to play with feeble physique",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "OPINE",
+          "clue": "Weigh in",
           "source": "dataset"
         },
         {
-          "number": 12,
-          "row": 4,
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "NURSE",
+          "clue": "Minister to",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
           "col": 3,
+          "length": 5,
+          "answer": "ENDED",
+          "clue": "Cut off",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
           "length": 3,
-          "answer": "XII",
-          "clue": "VI doubled",
+          "answer": "BOW",
+          "clue": "Looped knot",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "answer": "STY",
+          "clue": "Messy digs",
           "source": "dataset"
         }
       ]

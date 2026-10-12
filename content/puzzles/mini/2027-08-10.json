@@ -3,83 +3,79 @@
     "size": 5,
     "cells": [
       null,
+      null,
       {
         "answer": "C",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "E",
         "number": 2
       },
       {
-        "answer": "S",
+        "answer": "O",
         "number": 3
       },
       {
-        "answer": "H",
+        "answer": "T",
         "number": 4
       },
       {
-        "answer": "R",
+        "answer": "H",
         "number": 5
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "A",
-        "number": 6
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "S",
-        "number": 7
-      },
-      {
-        "answer": "M"
       },
       {
         "answer": "I"
       },
       {
-        "answer": "R"
+        "answer": "G"
       },
       {
-        "answer": "K"
+        "answer": "H"
       },
       {
-        "answer": "H",
+        "answer": "W",
+        "number": 6
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "S",
         "number": 8
-      },
-      {
-        "answer": "A"
       },
       {
         "answer": "T"
       },
       {
-        "answer": "S"
+        "answer": "Y"
       },
+      null,
       null
     ],
     "clues": {
@@ -87,19 +83,19 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "CASH",
-          "clue": "Dough",
+          "col": 2,
+          "length": 3,
+          "answer": "CEO",
+          "clue": "Bus. head",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "RODEO",
-          "clue": "Clown's workplace",
+          "answer": "THIGH",
+          "clue": "Upper leg",
           "source": "dataset"
         },
         {
@@ -107,8 +103,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "AMMAN",
-          "clue": "Jordan's capital",
+          "answer": "WINGS",
+          "clue": "Alleged creation of Buffalo's Anchor Bar",
           "source": "dataset"
         },
         {
@@ -116,17 +112,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "SMIRK",
-          "clue": "Smug expression",
+          "answer": "ANDSO",
+          "clue": "More of our Valentine verse",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "HATS",
-          "clue": "Kepi and kufi",
+          "length": 3,
+          "answer": "STY",
+          "clue": "Pig's place",
           "source": "dataset"
         }
       ],
@@ -134,46 +130,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "COMMA",
-          "clue": "Butterfly",
+          "answer": "CINDY",
+          "clue": "___ Williams, player of Shirley on 'Laverne & Shirley'",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "ADMIT",
-          "clue": "Concede",
+          "col": 3,
+          "length": 4,
+          "answer": "EGGS",
+          "clue": "Roe",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "SEARS",
-          "clue": "Chicago's ___ Tower",
+          "col": 4,
+          "length": 4,
+          "answer": "OHSO",
+          "clue": "Too, too",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
+          "row": 1,
+          "col": 0,
           "length": 4,
-          "answer": "HONK",
-          "clue": "Hit a horn",
+          "answer": "TWAS",
+          "clue": "Moore poem opener",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 0,
+          "col": 1,
           "length": 4,
-          "answer": "RASH",
-          "clue": "Reckless",
+          "answer": "HINT",
+          "clue": "Slight taste",
           "source": "dataset"
         }
       ]
@@ -183,16 +179,17 @@
     "size": 5,
     "cells": [
       null,
+      null,
       {
-        "answer": "W",
+        "answer": "F",
         "number": 1
       },
       {
-        "answer": "F",
+        "answer": "L",
         "number": 2
       },
       {
-        "answer": "H",
+        "answer": "O",
         "number": 3
       },
       null,
@@ -201,61 +198,57 @@
         "number": 4
       },
       {
-        "answer": "H"
+        "answer": "L"
       },
       {
         "answer": "O"
       },
       {
-        "answer": "O"
+        "answer": "W"
       },
       {
-        "answer": "T",
+        "answer": "S",
         "number": 5
       },
       {
-        "answer": "P",
+        "answer": "T"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E",
         "number": 6
       },
       {
         "answer": "A"
       },
       {
-        "answer": "R"
+        "answer": "S"
       },
       {
-        "answer": "K"
+        "answer": "E"
       },
       {
-        "answer": "A"
+        "answer": "S"
       },
       {
         "answer": "A",
         "number": 7
       },
       {
-        "answer": "C"
+        "answer": "R"
       },
       {
-        "answer": "T"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "D"
+        "answer": "S"
       },
       null,
-      {
-        "answer": "K",
-        "number": 8
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "Y"
-      },
       null
     ],
     "clues": {
@@ -263,46 +256,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 3,
-          "answer": "WFH",
-          "clue": "Remote work setup, for short",
-          "source": "written"
+          "answer": "FLO",
+          "clue": "Progressive spokeswoman",
+          "source": "dataset"
         },
         {
           "number": 4,
           "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "SLOW",
+          "clue": "Like a sloth",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "SHOOT",
-          "clue": "Take a photo of",
+          "answer": "STORE",
+          "clue": "Boutique",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "PARKA",
-          "clue": "Heavy jacket",
+          "answer": "EASES",
+          "clue": "Palliates",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "ACTED",
-          "clue": "Took steps",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
           "row": 4,
-          "col": 1,
+          "col": 0,
           "length": 3,
-          "answer": "KEY",
-          "clue": "Coral reef",
+          "answer": "ARS",
+          "clue": "MGM motto start",
           "source": "dataset"
         }
       ],
@@ -310,46 +303,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "WHACK",
-          "clue": "Strike hard",
+          "answer": "FLOSS",
+          "clue": "Remove plaque, in a way",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "FORTE",
-          "clue": "Thing you're good at",
+          "col": 3,
+          "length": 4,
+          "answer": "LORE",
+          "clue": "Tribal tales",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "HOKEY",
-          "clue": "Cornball",
+          "col": 4,
+          "length": 4,
+          "answer": "OWES",
+          "clue": "Runs a tab",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 0,
-          "length": 3,
-          "answer": "SPA",
-          "clue": "Hot tub",
+          "col": 1,
+          "length": 4,
+          "answer": "STAR",
+          "clue": "Sky light",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 4,
+          "row": 2,
+          "col": 0,
           "length": 3,
-          "answer": "TAD",
-          "clue": "Shade",
+          "answer": "SEA",
+          "clue": "Red ___",
           "source": "dataset"
         }
       ]

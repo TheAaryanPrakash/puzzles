@@ -3,132 +3,121 @@
     "size": 5,
     "cells": [
       null,
+      null,
       {
-        "answer": "P",
+        "answer": "M",
         "number": 1
       },
       {
-        "answer": "U",
+        "answer": "L",
         "number": 2
       },
       {
-        "answer": "S",
+        "answer": "B",
         "number": 3
       },
+      null,
       {
-        "answer": "H",
+        "answer": "L",
         "number": 4
-      },
-      {
-        "answer": "B",
-        "number": 5
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "K"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "R",
-        "number": 6
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "A",
-        "number": 7
-      },
-      {
-        "answer": "C"
       },
       {
         "answer": "U"
       },
       {
-        "answer": "T"
+        "answer": "A"
       },
       {
-        "answer": "E"
+        "answer": "U"
       },
       {
-        "answer": "M",
-        "number": 8
+        "answer": "Z",
+        "number": 5
       },
       {
-        "answer": "E"
+        "answer": "A"
       },
       {
-        "answer": "T"
+        "answer": "Z"
       },
       {
-        "answer": "E"
+        "answer": "Z"
       },
       {
-        "answer": "R"
-      }
+        "answer": "Y"
+      },
+      {
+        "answer": "O",
+        "number": 6
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "Y"
+      },
+      null,
+      {
+        "answer": "O",
+        "number": 7
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "K"
+      },
+      null,
+      null
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "MLB",
+          "clue": "Organization in which you'd hear the answers to starred clues",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "PUSH",
-          "clue": "Offensive",
+          "answer": "LUAU",
+          "clue": "Hawaiian bash",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "BINKY",
-          "clue": "Baby's pacifier, in slang",
+          "answer": "ZAZZY",
+          "clue": "Flashy and bold, informally",
           "source": "written"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 3,
           "col": 0,
-          "length": 5,
-          "answer": "RECAP",
-          "clue": "Summing up",
+          "length": 4,
+          "answer": "OLAY",
+          "clue": "Oil of ___",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "ACUTE",
-          "clue": "Sharp",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
           "row": 4,
           "col": 0,
-          "length": 5,
-          "answer": "METER",
-          "clue": "Taxi calculator",
+          "length": 3,
+          "answer": "OAK",
+          "clue": "Acorn source",
           "source": "dataset"
         }
       ],
@@ -136,46 +125,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "PIECE",
-          "clue": "Morsel",
+          "answer": "MUZAK",
+          "clue": "Piped music",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "UNCUT",
-          "clue": "Full length",
+          "col": 3,
+          "length": 4,
+          "answer": "LAZY",
+          "clue": "___ Susan",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "SKATE",
-          "clue": "Flat fish",
+          "col": 4,
+          "length": 3,
+          "answer": "BUY",
+          "clue": "Hand over money for",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 5,
-          "answer": "HYPER",
-          "clue": "Really excited",
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "LALA",
+          "clue": "'Ooh ___!'",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "answer": "BRAM",
-          "clue": "\"Dracula\" author Stoker",
+          "length": 3,
+          "answer": "ZOO",
+          "clue": "Bloke",
           "source": "dataset"
         }
       ]
@@ -184,26 +173,67 @@
   "reserve": {
     "size": 5,
     "cells": [
-      null,
       {
-        "answer": "R",
+        "answer": "G",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "U",
         "number": 2
       },
       {
-        "answer": "S",
+        "answer": "L",
         "number": 3
       },
       {
-        "answer": "P",
+        "answer": "L",
         "number": 4
       },
       {
-        "answer": "P",
+        "answer": "S",
         "number": 5
+      },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "L",
+        "number": 7
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "A",
+        "number": 8
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "T"
       },
       {
         "answer": "U"
@@ -212,103 +242,67 @@
         "answer": "P"
       },
       {
-        "answer": "P"
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "K"
       },
       {
         "answer": "Y"
       },
       {
-        "answer": "U",
-        "number": 6
-      },
-      {
-        "answer": "P"
-      },
-      {
         "answer": "P"
       },
       {
         "answer": "E"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "C",
-        "number": 7
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "K",
-        "number": 8
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "L"
-      },
-      null
+      }
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "RASP",
-          "clue": "Harsh noise",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "PUPPY",
-          "clue": "Young dog",
+          "answer": "GULLS",
+          "clue": "Fish-eaters are fools",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "UPPER",
-          "clue": "___ deck",
+          "answer": "ALIEN",
+          "clue": "Romulan, e.g",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "CELLO",
-          "clue": "String quartet strings",
+          "answer": "LONGA",
+          "clue": "Vowel sound in 'grace'",
           "source": "dataset"
         },
         {
           "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "ACTUP",
+          "clue": "Earn a timeout",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "KEEL",
-          "clue": "Topple (over)",
+          "length": 5,
+          "answer": "SKYPE",
+          "clue": "Webcam app",
           "source": "dataset"
         }
       ],
@@ -316,46 +310,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 0,
           "length": 5,
-          "answer": "RUPEE",
-          "clue": "Indian coin",
+          "answer": "GALAS",
+          "clue": "Big dos",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "APPLE",
-          "clue": "Pipped fruit",
-          "source": "dataset"
+          "answer": "ULOCK",
+          "clue": "Sturdy bike theft deterrent, named for its shape",
+          "source": "written"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
+          "col": 2,
           "length": 5,
-          "answer": "SPELL",
-          "clue": "Witch's hex",
+          "answer": "LINTY",
+          "clue": "Like a fuzzy navel (wordplay)",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "PYRO",
-          "clue": "One who wants things to go up in flames",
+          "col": 3,
+          "length": 5,
+          "answer": "LEGUP",
+          "clue": "Assistance, with \"a\"",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "PUCK",
-          "clue": "Predators' target",
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "SNAPE",
+          "clue": "Hogwarts potions professor",
           "source": "dataset"
         }
       ]

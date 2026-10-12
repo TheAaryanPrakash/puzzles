@@ -291,84 +291,77 @@
   "reserve": {
     "size": 5,
     "cells": [
-      null,
       {
-        "answer": "H",
+        "answer": "I",
         "number": 1
       },
       {
-        "answer": "B",
+        "answer": "C",
         "number": 2
       },
       {
-        "answer": "O",
+        "answer": "E",
         "number": 3
       },
       null,
+      null,
       {
-        "answer": "B",
+        "answer": "R",
         "number": 4
       },
       {
-        "answer": "U"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "S",
-        "number": 5
-      },
-      {
-        "answer": "E",
-        "number": 6
+        "answer": "O"
       },
       {
         "answer": "M"
       },
       {
+        "answer": "A",
+        "number": 5
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 6
+      },
+      {
+        "answer": "C"
+      },
+      {
         "answer": "A"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "C",
-        "number": 7
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "V"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "K",
-        "number": 8
       },
       {
         "answer": "N"
       },
       {
-        "answer": "E"
+        "answer": "S",
+        "number": 7
+      },
+      null,
+      {
+        "answer": "K",
+        "number": 8
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "T"
       },
       {
         "answer": "E"
       },
+      null,
+      null,
       {
-        "answer": "D"
+        "answer": "L",
+        "number": 9
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "E"
       }
     ],
     "clues": {
@@ -376,19 +369,19 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 0,
           "length": 3,
-          "answer": "HBO",
-          "clue": "'Barry' channel",
+          "answer": "ICE",
+          "clue": "Freeze",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 1,
           "col": 0,
-          "length": 5,
-          "answer": "BULLS",
-          "clue": "Some bovines",
+          "length": 4,
+          "answer": "ROMA",
+          "clue": "Tomato type",
           "source": "dataset"
         },
         {
@@ -396,26 +389,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "EMAIL",
-          "clue": "Inbox item",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "CARVE",
-          "clue": "Slice as meat",
+          "answer": "SCANS",
+          "clue": "Digitizes, in a way",
           "source": "dataset"
         },
         {
           "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "answer": "KITE",
+          "clue": "Aerodynamic toy",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
           "row": 4,
-          "col": 0,
-          "length": 5,
-          "answer": "KNEED",
-          "clue": "Weak-___ (faint)",
+          "col": 2,
+          "length": 3,
+          "answer": "LIE",
+          "clue": "Falsehood",
           "source": "dataset"
         }
       ],
@@ -423,46 +416,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "HUMAN",
-          "clue": "Man, woman or child",
+          "col": 0,
+          "length": 3,
+          "answer": "IRS",
+          "clue": "W-2 org",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "BLARE",
-          "clue": "Raucous sound",
+          "col": 1,
+          "length": 4,
+          "answer": "COCK",
+          "clue": "K (wordplay)",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
+          "col": 2,
           "length": 5,
-          "answer": "OLIVE",
-          "clue": "Dark green",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "BECK",
-          "clue": "The Yardbirds' guitarist, Jeff",
+          "answer": "EMAIL",
+          "clue": "Inbox filler",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 4,
+          "col": 3,
           "length": 4,
-          "answer": "SLED",
-          "clue": "Luge",
+          "answer": "ANTI",
+          "clue": "Opposing",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "answer": "SEE",
+          "clue": "Spot",
           "source": "dataset"
         }
       ]

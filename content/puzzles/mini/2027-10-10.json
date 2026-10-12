@@ -4,79 +4,83 @@
     "cells": [
       null,
       {
-        "answer": "F",
+        "answer": "T",
         "number": 1
       },
       {
-        "answer": "I",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "F",
+        "answer": "G",
         "number": 3
-      },
-      {
-        "answer": "A",
-        "number": 4
       },
       null,
       {
-        "answer": "I",
+        "answer": "J",
+        "number": 4
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "S",
         "number": 5
       },
       {
-        "answer": "M"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "C",
+        "answer": "A",
         "number": 6
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "O",
-        "number": 7
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "S"
-      },
-      null,
-      {
-        "answer": "W",
-        "number": 8
+        "answer": "W"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "T"
+        "answer": "I"
       },
       {
         "answer": "T"
       },
-      null
+      {
+        "answer": "V",
+        "number": 7
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "A",
+        "number": 8
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      }
     ],
     "clues": {
       "across": [
@@ -84,45 +88,45 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 4,
-          "answer": "FIFA",
-          "clue": "World Cup gp",
+          "length": 3,
+          "answer": "TAG",
+          "clue": "Graffiti ID",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "IMIN",
-          "clue": "'Sign me up'",
-          "source": "dataset"
+          "col": 0,
+          "length": 5,
+          "answer": "JOWLS",
+          "clue": "Loose skin on the lower face",
+          "source": "written"
         },
         {
           "number": 6,
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "COORS",
-          "clue": "Colorado-based brewery",
+          "answer": "AWAIT",
+          "clue": "Anticipate",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 4,
-          "answer": "ONUS",
-          "clue": "Big burden",
+          "length": 5,
+          "answer": "VERDI",
+          "clue": "\"La Traviata\" composer",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "WATT",
-          "clue": "Bulb measure",
+          "length": 5,
+          "answer": "ALDER",
+          "clue": "Salmon-smoking wood",
           "source": "dataset"
         }
       ],
@@ -132,8 +136,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "FIONA",
-          "clue": "Apple on Apple Music",
+          "answer": "TOWEL",
+          "clue": "Drying cloth",
           "source": "dataset"
         },
         {
@@ -141,8 +145,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "IMOUT",
-          "clue": "'Gotta go'",
+          "answer": "AWARD",
+          "clue": "Trophy",
           "source": "dataset"
         },
         {
@@ -150,26 +154,26 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "FIRST",
-          "clue": "Winner's ranking",
+          "answer": "GLIDE",
+          "clue": "Rhyme and synonym for 'slide'",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 3,
-          "answer": "ANS",
-          "clue": "Reply to a ques",
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "JAVA",
+          "clue": "Indonesian island",
           "source": "dataset"
         },
         {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "answer": "COW",
-          "clue": "\"Moo\" maker",
+          "number": 5,
+          "row": 1,
+          "col": 4,
+          "length": 4,
+          "answer": "STIR",
+          "clue": "Ruckus",
           "source": "dataset"
         }
       ]
@@ -180,81 +184,77 @@
     "cells": [
       null,
       {
-        "answer": "U",
+        "answer": "N",
         "number": 1
       },
       {
-        "answer": "M",
+        "answer": "U",
         "number": 2
       },
       {
-        "answer": "P",
+        "answer": "T",
         "number": 3
       },
+      null,
       {
-        "answer": "S",
+        "answer": "R",
         "number": 4
       },
       {
-        "answer": "S",
+        "answer": "E"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "Y",
         "number": 5
       },
       {
-        "answer": "P"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "K"
-      },
-      {
-        "answer": "A",
+        "answer": "E",
         "number": 6
       },
       {
-        "answer": "S"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "R",
-        "number": 7
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "F"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "A",
-        "number": 8
+        "answer": "X"
       },
       {
         "answer": "T"
       },
       {
-        "answer": "M"
+        "answer": "R"
       },
       {
-        "answer": "S"
+        "answer": "A"
+      },
+      {
+        "answer": "C",
+        "number": 7
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "Y"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "Y"
       },
       null
     ],
@@ -264,18 +264,18 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 4,
-          "answer": "UMPS",
-          "clue": "Foul callers",
+          "length": 3,
+          "answer": "NUT",
+          "clue": "Madcap",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "SPORK",
-          "clue": "Double-duty utensil",
+          "answer": "RELAY",
+          "clue": "Team race",
           "source": "dataset"
         },
         {
@@ -283,8 +283,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ASDOI",
-          "clue": "'Same here'",
+          "answer": "EXTRA",
+          "clue": "Add-on",
           "source": "dataset"
         },
         {
@@ -292,17 +292,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "REEFS",
-          "clue": "Fragile ecosystems",
+          "answer": "CURRY",
+          "clue": "Dash, heading off for meal",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
-          "col": 0,
-          "length": 4,
-          "answer": "ATMS",
-          "clue": "100 dispensers",
+          "col": 1,
+          "length": 3,
+          "answer": "SAY",
+          "clue": "Declare",
           "source": "dataset"
         }
       ],
@@ -312,8 +312,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "UPSET",
-          "clue": "Annoyed",
+          "answer": "NEXUS",
+          "clue": "Final novel in Henry Miller's controversial trilogy The Rosy Crucifixion",
           "source": "dataset"
         },
         {
@@ -321,8 +321,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "MODEM",
-          "clue": "Computer connector",
+          "answer": "ULTRA",
+          "clue": "Super-",
           "source": "dataset"
         },
         {
@@ -330,26 +330,26 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "PROFS",
-          "clue": "College team",
+          "answer": "TARRY",
+          "clue": "Linger",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "SKIS",
-          "clue": "Tries a run",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "REC",
+          "clue": "___ center",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "SARA",
-          "clue": "___ Lee cakes",
+          "col": 4,
+          "length": 3,
+          "answer": "YAY",
+          "clue": "'Yess!'",
           "source": "dataset"
         }
       ]

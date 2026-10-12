@@ -2,61 +2,43 @@
   "payload": {
     "size": 5,
     "cells": [
-      null,
       {
-        "answer": "T",
+        "answer": "D",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "O",
         "number": 2
       },
       {
-        "answer": "D",
+        "answer": "W",
         "number": 3
       },
       {
-        "answer": "A",
+        "answer": "N",
         "number": 4
       },
+      null,
       {
-        "answer": "B",
+        "answer": "E",
         "number": 5
       },
       {
-        "answer": "U"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "O",
-        "number": 6
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "E"
+        "answer": "M"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "N"
+        "answer": "I"
       },
       {
-        "answer": "S",
+        "answer": "L",
+        "number": 6
+      },
+      {
+        "answer": "V",
         "number": 7
-      },
-      {
-        "answer": "C"
       },
       {
         "answer": "A"
@@ -65,32 +47,47 @@
         "answer": "L"
       },
       {
-        "answer": "E"
+        "answer": "V"
       },
       {
-        "answer": "S",
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "R",
         "number": 8
       },
       {
-        "answer": "I"
+        "answer": "E"
       },
       {
-        "answer": "R"
+        "answer": "E"
       },
       {
-        "answer": "S"
+        "answer": "F"
       },
-      null
+      null,
+      null,
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T"
+      }
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 0,
           "length": 4,
-          "answer": "TADA",
-          "clue": "'Voila!'",
+          "answer": "DOWN",
+          "clue": "Not working",
           "source": "dataset"
         },
         {
@@ -98,35 +95,35 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "BUYIN",
-          "clue": "Pay to participate",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "OCEAN",
-          "clue": "Huge sea",
+          "answer": "EMAIL",
+          "clue": "Cybermissive",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "SCALE",
-          "clue": "Go over, say",
+          "answer": "VALVE",
+          "clue": "Flow-regulating device",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 4,
-          "col": 0,
+          "row": 3,
+          "col": 1,
           "length": 4,
-          "answer": "SIRS",
-          "clue": "Titles for knights",
+          "answer": "REEF",
+          "clue": "Barrier ___",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 2,
+          "length": 3,
+          "answer": "SAT",
+          "clue": "Waited",
           "source": "dataset"
         }
       ],
@@ -134,46 +131,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "TUCCI",
-          "clue": "Actor Stanley",
+          "col": 0,
+          "length": 3,
+          "answer": "DEV",
+          "clue": "Actor Patel",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "AYEAR",
-          "clue": "Annually",
+          "col": 1,
+          "length": 4,
+          "answer": "OMAR",
+          "clue": "___ Khayyam",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
+          "col": 2,
           "length": 5,
-          "answer": "DIALS",
-          "clue": "Oven features",
+          "answer": "WALES",
+          "clue": "Cardiff's land",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "ANNE",
-          "clue": "Author Rice",
+          "col": 3,
+          "length": 5,
+          "answer": "NIVEA",
+          "clue": "Skin care brand",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 6,
           "row": 1,
-          "col": 0,
+          "col": 4,
           "length": 4,
-          "answer": "BOSS",
-          "clue": "Office head",
+          "answer": "LEFT",
+          "clue": "Flew the coop",
           "source": "dataset"
         }
       ]
@@ -184,77 +181,77 @@
     "cells": [
       null,
       {
-        "answer": "C",
+        "answer": "D",
         "number": 1
       },
       {
-        "answer": "O",
+        "answer": "M",
         "number": 2
       },
       {
-        "answer": "N",
+        "answer": "V",
         "number": 3
       },
       null,
       {
-        "answer": "T",
+        "answer": "A",
         "number": 4
+      },
+      {
+        "answer": "V"
       },
       {
         "answer": "O"
       },
       {
-        "answer": "K"
+        "answer": "I"
       },
       {
-        "answer": "Y"
-      },
-      {
-        "answer": "O",
+        "answer": "D",
         "number": 5
       },
       {
-        "answer": "A",
+        "answer": "G",
         "number": 6
       },
       {
-        "answer": "L"
+        "answer": "R"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "M"
+        "answer": "V"
       },
       {
-        "answer": "O"
+        "answer": "Y"
       },
       {
-        "answer": "Z",
+        "answer": "E",
         "number": 7
       },
       {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
         "answer": "I"
       },
       {
-        "answer": "P"
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "O"
+        "answer": "E"
       },
       null,
       {
-        "answer": "N",
+        "answer": "D",
         "number": 8
       },
       {
-        "answer": "I"
+        "answer": "A"
       },
       {
-        "answer": "H"
+        "answer": "D"
       },
       null
     ],
@@ -265,8 +262,8 @@
           "row": 0,
           "col": 1,
           "length": 3,
-          "answer": "CON",
-          "clue": "Trick",
+          "answer": "DMV",
+          "clue": "Place to get an ID",
           "source": "dataset"
         },
         {
@@ -274,8 +271,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "TOKYO",
-          "clue": "Ginza locale",
+          "answer": "AVOID",
+          "clue": "Refrain from",
           "source": "dataset"
         },
         {
@@ -283,8 +280,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ALAMO",
-          "clue": "Texan mission",
+          "answer": "GRAVY",
+          "clue": "Sauce for meat",
           "source": "dataset"
         },
         {
@@ -292,8 +289,8 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "ZIPPO",
-          "clue": "Lighter brand",
+          "answer": "EENIE",
+          "clue": "Start of a counting rhyme",
           "source": "dataset"
         },
         {
@@ -301,8 +298,8 @@
           "row": 4,
           "col": 1,
           "length": 3,
-          "answer": "NIH",
-          "clue": "Dr. Fauci's agcy",
+          "answer": "DAD",
+          "clue": "Pops",
           "source": "dataset"
         }
       ],
@@ -312,17 +309,17 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "COLIN",
-          "clue": "Civil rights activist Kaepernick",
-          "source": "dataset"
+          "answer": "DVRED",
+          "clue": "Recorded for later, as a show",
+          "source": "written"
         },
         {
           "number": 2,
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "OKAPI",
-          "clue": "Cousin of a giraffe",
+          "answer": "MOANA",
+          "clue": "Disney Polynesian toon",
           "source": "dataset"
         },
         {
@@ -330,8 +327,8 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "NYMPH",
-          "clue": "Woodland deity and young dragonfly",
+          "answer": "VIVID",
+          "clue": "Having striking colour",
           "source": "dataset"
         },
         {
@@ -339,8 +336,8 @@
           "row": 1,
           "col": 0,
           "length": 3,
-          "answer": "TAZ",
-          "clue": "\"Bedevilled Rabbit\" antagonist",
+          "answer": "AGE",
+          "clue": "Period",
           "source": "dataset"
         },
         {
@@ -348,8 +345,8 @@
           "row": 1,
           "col": 4,
           "length": 3,
-          "answer": "OOO",
-          "clue": "Game-winning line",
+          "answer": "DYE",
+          "clue": "Recolor",
           "source": "dataset"
         }
       ]

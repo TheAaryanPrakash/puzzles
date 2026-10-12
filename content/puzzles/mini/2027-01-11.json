@@ -5,75 +5,75 @@
       null,
       null,
       {
-        "answer": "G",
+        "answer": "T",
         "number": 1
       },
       {
-        "answer": "U",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "M",
+        "answer": "B",
         "number": 3
       },
       {
-        "answer": "C",
+        "answer": "S",
         "number": 4
       },
       {
-        "answer": "H",
+        "answer": "M",
         "number": 5
       },
       {
         "answer": "I"
       },
       {
-        "answer": "N"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "H",
-        "number": 6
+        "answer": "L"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "R"
+        "answer": "K",
+        "number": 6
       },
       {
-        "answer": "D"
+        "answer": "A"
       },
       {
-        "answer": "S"
+        "answer": "P"
       },
       {
-        "answer": "A",
+        "answer": "P"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "I",
         "number": 7
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "O"
       },
       {
         "answer": "T"
       },
       {
-        "answer": "I",
+        "answer": "S"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "S",
         "number": 8
       },
       {
-        "answer": "D"
+        "answer": "H"
       },
       {
-        "answer": "S"
+        "answer": "Y"
       },
       null,
       null
@@ -85,8 +85,8 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "answer": "GUM",
-          "clue": "Orbit, e.g",
+          "answer": "TAB",
+          "clue": "Marker",
           "source": "dataset"
         },
         {
@@ -94,8 +94,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "CHINA",
-          "clue": "Punch a friend",
+          "answer": "SMILE",
+          "clue": "Upside-down frown",
           "source": "dataset"
         },
         {
@@ -103,8 +103,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "HERDS",
-          "clue": "Ranch assemblies",
+          "answer": "KAPPA",
+          "clue": "Letter after iota",
           "source": "dataset"
         },
         {
@@ -112,8 +112,8 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "ALLOT",
-          "clue": "Apportion",
+          "answer": "ITSON",
+          "clue": "\"Let's settle this!\"",
           "source": "dataset"
         },
         {
@@ -121,8 +121,8 @@
           "row": 4,
           "col": 0,
           "length": 3,
-          "answer": "IDS",
-          "clue": "Fingers",
+          "answer": "SHY",
+          "clue": "Reserved",
           "source": "dataset"
         }
       ],
@@ -132,8 +132,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "GIRLS",
-          "clue": "\"Barbie\" magazine readers",
+          "answer": "TIPSY",
+          "clue": "Slightly inebriated",
           "source": "dataset"
         },
         {
@@ -141,8 +141,8 @@
           "row": 0,
           "col": 3,
           "length": 4,
-          "answer": "UNDO",
-          "clue": "Ctrl+Z",
+          "answer": "ALPO",
+          "clue": "Iams competitor",
           "source": "dataset"
         },
         {
@@ -150,8 +150,8 @@
           "row": 0,
           "col": 4,
           "length": 4,
-          "answer": "MAST",
-          "clue": "Naval post",
+          "answer": "BEAN",
+          "clue": "Lima ___",
           "source": "dataset"
         },
         {
@@ -159,8 +159,8 @@
           "row": 1,
           "col": 0,
           "length": 4,
-          "answer": "CHAI",
-          "clue": "Spicy tea",
+          "answer": "SKIS",
+          "clue": "Hits the slopes",
           "source": "dataset"
         },
         {
@@ -168,8 +168,8 @@
           "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "HELD",
-          "clue": "Believed",
+          "answer": "MATH",
+          "clue": "Calc. or trig",
           "source": "dataset"
         }
       ]
@@ -180,69 +180,71 @@
     "cells": [
       null,
       {
-        "answer": "R",
+        "answer": "V",
         "number": 1
       },
       {
-        "answer": "B",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "G",
+        "answer": "S",
         "number": 3
       },
-      null,
       {
-        "answer": "R",
+        "answer": "E",
         "number": 4
       },
       {
-        "answer": "U"
+        "answer": "T",
+        "number": 5
+      },
+      {
+        "answer": "I"
       },
       {
         "answer": "R"
       },
       {
-        "answer": "A"
+        "answer": "E"
       },
       {
-        "answer": "L",
-        "number": 5
+        "answer": "D"
       },
       {
         "answer": "A",
         "number": 6
       },
       {
-        "answer": "M"
+        "answer": "G"
+      },
+      {
+        "answer": "G"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "Z"
+        "answer": "G"
       },
       {
-        "answer": "E"
-      },
-      {
-        "answer": "M",
+        "answer": "R",
         "number": 7
       },
       {
         "answer": "O"
       },
       {
-        "answer": "V"
+        "answer": "U"
+      },
+      {
+        "answer": "T"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "S"
-      },
-      {
-        "answer": "P",
+        "answer": "T",
         "number": 8
       },
       {
@@ -254,9 +256,7 @@
       {
         "answer": "S"
       },
-      {
-        "answer": "S"
-      }
+      null
     ],
     "clues": {
       "across": [
@@ -264,18 +264,18 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 3,
-          "answer": "RBG",
-          "clue": "\"Notorious\" justice, familiarly",
+          "length": 4,
+          "answer": "VASE",
+          "clue": "Mantel piece",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "RURAL",
-          "clue": "Of farm life",
+          "answer": "TIRED",
+          "clue": "Worn out",
           "source": "dataset"
         },
         {
@@ -283,26 +283,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "AMAZE",
-          "clue": "Astonish",
-          "source": "dataset"
+          "answer": "AGGAG",
+          "clue": "Farm-filming restriction, informally, with 'law'",
+          "source": "written"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "MOVES",
-          "clue": "Gets a new address",
+          "answer": "ROUTE",
+          "clue": "Way to go",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 5,
-          "answer": "PRESS",
-          "clue": "Iron clasp",
+          "length": 4,
+          "answer": "TRES",
+          "clue": "\"- bien!\"",
           "source": "dataset"
         }
       ],
@@ -312,8 +312,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "RUMOR",
-          "clue": "Scuttlebutt",
+          "answer": "VIGOR",
+          "clue": "Energy",
           "source": "dataset"
         },
         {
@@ -321,8 +321,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "BRAVE",
-          "clue": "Displaying courage",
+          "answer": "ARGUE",
+          "clue": "Quarrel, row",
           "source": "dataset"
         },
         {
@@ -330,26 +330,26 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "GAZES",
-          "clue": "Lingering looks",
+          "answer": "SEATS",
+          "clue": "Theater units",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
+          "row": 0,
+          "col": 4,
           "length": 4,
-          "answer": "RAMP",
-          "clue": "Highway exit",
+          "answer": "EDGE",
+          "clue": "Leg up",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 4,
+          "col": 0,
           "length": 4,
-          "answer": "LESS",
-          "clue": "Not as much",
+          "answer": "TART",
+          "clue": "Small pie",
           "source": "dataset"
         }
       ]

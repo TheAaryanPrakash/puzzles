@@ -2,85 +2,80 @@
   "payload": {
     "size": 5,
     "cells": [
+      null,
+      null,
       {
-        "answer": "C",
+        "answer": "B",
         "number": 1
       },
       {
-        "answer": "R",
+        "answer": "U",
         "number": 2
       },
       {
-        "answer": "A",
+        "answer": "T",
         "number": 3
       },
       {
-        "answer": "P",
+        "answer": "C",
         "number": 4
       },
       {
-        "answer": "S",
+        "answer": "L",
         "number": 5
-      },
-      {
-        "answer": "Z",
-        "number": 6
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "B"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "A",
-        "number": 7
-      },
-      {
-        "answer": "C"
       },
       {
         "answer": "O"
       },
       {
-        "answer": "R"
-      },
-      {
         "answer": "N"
       },
       {
-        "answer": "R",
+        "answer": "E"
+      },
+      {
+        "answer": "H",
+        "number": 6
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E",
+        "number": 7
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "F",
         "number": 8
       },
       {
-        "answer": "A"
+        "answer": "O"
       },
       {
-        "answer": "V"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "D"
+        "answer": "X"
       },
       null,
-      {
-        "answer": "P",
-        "number": 9
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "P"
-      },
       null
     ],
     "clues": {
@@ -88,46 +83,46 @@
         {
           "number": 1,
           "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "BUT",
+          "clue": "'However . . .'",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "CRAPS",
-          "clue": "Game with a hard eight bet (also note this clue's number!)",
+          "answer": "CLONE",
+          "clue": "Sci-fi duplicate",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 1,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ZEBRA",
-          "clue": "Serengeti equine",
+          "answer": "HITIT",
+          "clue": "Directive to a band",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 2,
+          "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "ACORN",
-          "clue": "Oak seed",
+          "answer": "EMOTE",
+          "clue": "Milk a scene",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "RAVED",
-          "clue": "Spoke wildly",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
           "row": 4,
-          "col": 1,
+          "col": 0,
           "length": 3,
-          "answer": "PEP",
-          "clue": "Gusto",
+          "answer": "FOX",
+          "clue": "Aesopian animal",
           "source": "dataset"
         }
       ],
@@ -135,46 +130,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 4,
-          "answer": "CZAR",
-          "clue": "Old Russian ruler",
+          "col": 2,
+          "length": 5,
+          "answer": "BOTOX",
+          "clue": "Shot to the face",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "RECAP",
-          "clue": "Game summary",
+          "col": 3,
+          "length": 4,
+          "answer": "UNIT",
+          "clue": "Gallon, e.g",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "ABOVE",
-          "clue": "Over",
+          "col": 4,
+          "length": 4,
+          "answer": "TETE",
+          "clue": "Henri's head",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "PRREP",
-          "clue": "Publicist, for short",
-          "source": "written"
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "CHEF",
+          "clue": "Cook",
+          "source": "dataset"
         },
         {
           "number": 5,
-          "row": 0,
-          "col": 4,
+          "row": 1,
+          "col": 1,
           "length": 4,
-          "answer": "SAND",
-          "clue": "Beach cover",
+          "answer": "LIMO",
+          "clue": "Star's ride",
           "source": "dataset"
         }
       ]
@@ -184,82 +179,80 @@
     "size": 5,
     "cells": [
       {
-        "answer": "A",
+        "answer": "F",
         "number": 1
       },
       {
-        "answer": "R",
+        "answer": "U",
         "number": 2
       },
       {
-        "answer": "M",
+        "answer": "T",
         "number": 3
       },
-      null,
-      null,
       {
-        "answer": "G",
+        "answer": "Z",
         "number": 4
       },
+      null,
       {
-        "answer": "E"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S",
+        "answer": "I",
         "number": 5
       },
       {
-        "answer": "E",
-        "number": 6
+        "answer": "N"
       },
       {
-        "answer": "E",
-        "number": 7
-      },
-      {
-        "answer": "X"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "S",
-        "number": 8
+        "answer": "R"
       },
       {
         "answer": "E"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "L"
       },
       null,
       {
-        "answer": "S",
-        "number": 9
+        "answer": "T",
+        "number": 6
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 8
+      },
+      {
+        "answer": "W"
       },
       {
         "answer": "O"
       },
       {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "E",
+        "number": 9
+      },
+      {
         "answer": "L"
       },
       {
-        "answer": "E"
+        "answer": "S"
+      },
+      {
+        "answer": "A"
       }
     ],
     "clues": {
@@ -268,36 +261,36 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 3,
-          "answer": "ARM",
-          "clue": "Subsidiary",
-          "source": "dataset"
+          "length": 4,
+          "answer": "FUTZ",
+          "clue": "Fiddle around, with 'with'",
+          "source": "written"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
           "col": 0,
-          "length": 5,
-          "answer": "GEESE",
-          "clue": "Birds in a V",
+          "length": 4,
+          "answer": "INRE",
+          "clue": "Concerning",
           "source": "dataset"
         },
         {
-          "number": 7,
+          "number": 6,
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "EXTOL",
-          "clue": "Glorify",
+          "answer": "TIARA",
+          "clue": "Fancy crown",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "SEOUL",
-          "clue": "City that's home to Gyeongbokgung",
+          "col": 1,
+          "length": 4,
+          "answer": "TWOS",
+          "clue": "Deuces",
           "source": "dataset"
         },
         {
@@ -305,8 +298,8 @@
           "row": 4,
           "col": 1,
           "length": 4,
-          "answer": "SOLE",
-          "clue": "Single",
+          "answer": "ELSA",
+          "clue": "Film lioness",
           "source": "dataset"
         }
       ],
@@ -315,9 +308,9 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 4,
-          "answer": "AGES",
-          "clue": "Gets old",
+          "length": 3,
+          "answer": "FIT",
+          "clue": "___ like a glove",
           "source": "dataset"
         },
         {
@@ -325,35 +318,35 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "REXES",
-          "clue": "Tyrannosaurus ___, for short",
-          "source": "written"
+          "answer": "UNITE",
+          "clue": "Merge",
+          "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "METOO",
-          "clue": "\"Same here\"",
+          "answer": "TRAWL",
+          "clue": "Search",
           "source": "dataset"
         },
         {
-          "number": 5,
-          "row": 1,
+          "number": 4,
+          "row": 0,
           "col": 3,
-          "length": 4,
-          "answer": "SOUL",
-          "clue": "Mind, body and ___",
+          "length": 5,
+          "answer": "ZEROS",
+          "clue": "000",
           "source": "dataset"
         },
         {
-          "number": 6,
-          "row": 1,
+          "number": 7,
+          "row": 2,
           "col": 4,
-          "length": 4,
-          "answer": "ELLE",
-          "clue": "\"Vogue\" rival",
+          "length": 3,
+          "answer": "ASA",
+          "clue": "Sly ___ fox",
           "source": "dataset"
         }
       ]

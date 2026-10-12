@@ -4,74 +4,74 @@
     "cells": [
       null,
       {
-        "answer": "T",
+        "answer": "C",
         "number": 1
       },
       {
-        "answer": "H",
+        "answer": "L",
         "number": 2
       },
       {
-        "answer": "E",
+        "answer": "A",
         "number": 3
       },
-      null,
       {
         "answer": "W",
         "number": 4
       },
+      null,
       {
-        "answer": "H"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "K",
+        "answer": "H",
         "number": 5
       },
       {
-        "answer": "E",
+        "answer": "O"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "G",
         "number": 6
       },
       {
-        "answer": "R"
+        "answer": "E"
       },
       {
-        "answer": "N"
+        "answer": "T"
       },
       {
         "answer": "I"
       },
       {
-        "answer": "E"
+        "answer": "T"
       },
       {
-        "answer": "B",
+        "answer": "N",
         "number": 7
       },
       {
-        "answer": "U"
+        "answer": "A"
       },
       {
-        "answer": "G"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "Y"
-      },
-      null,
-      {
-        "answer": "M",
-        "number": 8
+        "answer": "T"
       },
       {
         "answer": "E"
+      },
+      null,
+      {
+        "answer": "U",
+        "number": 8
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "O"
       },
       {
         "answer": "N"
@@ -84,18 +84,18 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 3,
-          "answer": "THE",
-          "clue": "Part of OTC",
+          "length": 4,
+          "answer": "CLAW",
+          "clue": "___ hammer",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "WHISK",
-          "clue": "Alternative to an eggbeater",
+          "col": 1,
+          "length": 4,
+          "answer": "HOLE",
+          "clue": "Aperture",
           "source": "dataset"
         },
         {
@@ -103,26 +103,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ERNIE",
-          "clue": "Golfer Els",
+          "answer": "GETIT",
+          "clue": "Endure punishment",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 5,
-          "answer": "BUGGY",
-          "clue": "Horse-drawn carriage",
-          "source": "written"
+          "length": 4,
+          "answer": "NATE",
+          "clue": "Silver, for one",
+          "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
-          "col": 1,
-          "length": 3,
-          "answer": "MEN",
-          "clue": "Hes",
+          "col": 0,
+          "length": 4,
+          "answer": "UPON",
+          "clue": "Topping",
           "source": "dataset"
         }
       ],
@@ -132,8 +132,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "THRUM",
-          "clue": "Drone with loose filament",
+          "answer": "CHEAP",
+          "clue": "Tawdry",
           "source": "dataset"
         },
         {
@@ -141,8 +141,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "HINGE",
-          "clue": "Door piece",
+          "answer": "LOTTO",
+          "clue": "Terminate",
           "source": "dataset"
         },
         {
@@ -150,159 +150,268 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "ESIGN",
-          "clue": "Complete, as a PDF contract",
+          "answer": "ALIEN",
+          "clue": "Foreign",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
+          "row": 0,
+          "col": 4,
           "length": 3,
-          "answer": "WEB",
-          "clue": "Network; mesh",
+          "answer": "WET",
+          "clue": "Rainy",
           "source": "dataset"
         },
         {
-          "number": 5,
-          "row": 1,
-          "col": 4,
+          "number": 6,
+          "row": 2,
+          "col": 0,
           "length": 3,
-          "answer": "KEY",
-          "clue": "Tab, say",
+          "answer": "GNU",
+          "clue": "Animal in a herd",
           "source": "dataset"
         }
       ]
     }
   },
   "reserve": {
-    "size": 5,
+    "size": 7,
     "cells": [
-      null,
       {
-        "answer": "M",
+        "answer": "B",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "F",
         "number": 2
       },
       {
-        "answer": "P",
+        "answer": "F",
         "number": 3
       },
+      null,
       {
-        "answer": "S",
+        "answer": "T",
         "number": 4
       },
       {
-        "answer": "P",
+        "answer": "A",
         "number": 5
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "A",
+        "answer": "B",
         "number": 6
       },
       {
-        "answer": "D"
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "L"
       },
       {
         "answer": "I"
       },
       {
-        "answer": "E"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "D",
-        "number": 7
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "V"
+        "answer": "B",
+        "number": 8
       },
       {
         "answer": "A"
       },
       {
-        "answer": "L"
+        "answer": "B"
+      },
+      {
+        "answer": "A"
       },
       {
         "answer": "S",
-        "number": 8
+        "number": 9
       },
       {
-        "answer": "L"
+        "answer": "U"
+      },
+      {
+        "answer": "R"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "D"
+        "answer": "B"
       },
-      null
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T"
+      },
+      null,
+      null,
+      {
+        "answer": "E",
+        "number": 10
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "O"
+      },
+      null,
+      null,
+      {
+        "answer": "D",
+        "number": 11
+      },
+      {
+        "answer": "R",
+        "number": 12
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "C",
+        "number": 13
+      },
+      {
+        "answer": "I",
+        "number": 14
+      },
+      {
+        "answer": "M",
+        "number": 15
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "V",
+        "number": 16
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "X"
+      },
+      null,
+      {
+        "answer": "I",
+        "number": 17
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "S"
+      }
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "MAPS",
-          "clue": "Cartographer's trove",
+          "col": 0,
+          "length": 3,
+          "answer": "BFF",
+          "clue": "Lifelong bud",
           "source": "dataset"
         },
         {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "POLLO",
-          "clue": "Carne para un taco",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "ADIEU",
-          "clue": "\"Farewell!\"",
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "TAB",
+          "clue": "Indent key",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
+          "row": 1,
           "col": 0,
-          "length": 5,
-          "answer": "DEVAL",
-          "clue": "Patrick ___, former Massachusetts governor",
+          "length": 7,
+          "answer": "ALIBABA",
+          "clue": "Chinese e-commerce giant",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "SUREBET",
+          "clue": "Overwhelming favorite",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 3,
+          "col": 2,
+          "length": 3,
+          "answer": "EGO",
+          "clue": "I",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "DRFAUCI",
+          "clue": "Prominent pandemic-era immunologist, informally",
           "source": "written"
         },
         {
-          "number": 8,
-          "row": 4,
+          "number": 15,
+          "row": 5,
           "col": 0,
-          "length": 4,
-          "answer": "SLED",
-          "clue": "Snow glider",
+          "length": 7,
+          "answer": "MOONLIT",
+          "clue": "Ripe for romance, as a stroll",
+          "source": "dataset"
+        },
+        {
+          "number": 16,
+          "row": 6,
+          "col": 0,
+          "length": 3,
+          "answer": "VEX",
+          "clue": "Bug",
+          "source": "dataset"
+        },
+        {
+          "number": 17,
+          "row": 6,
+          "col": 4,
+          "length": 3,
+          "answer": "INS",
+          "clue": "Entrances",
           "source": "dataset"
         }
       ],
@@ -310,46 +419,100 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "MODEL",
-          "clue": "Prototype",
+          "col": 0,
+          "length": 3,
+          "answer": "BAS",
+          "clue": "Univ. degrees",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "ALIVE",
-          "clue": "Quick",
+          "col": 1,
+          "length": 3,
+          "answer": "FLU",
+          "clue": "Viral bug",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "PLEAD",
-          "clue": "Beg and beg",
-          "source": "dataset"
+          "col": 2,
+          "length": 7,
+          "answer": "FIREFOX",
+          "clue": "Mozilla's web browser",
+          "source": "written"
         },
         {
           "number": 4,
           "row": 0,
           "col": 4,
-          "length": 4,
-          "answer": "SOUL",
-          "clue": "Mind, body and ___",
-          "source": "dataset"
+          "length": 7,
+          "answer": "TABOULI",
+          "clue": "Parsley-and-bulgur salad",
+          "source": "written"
         },
         {
           "number": 5,
+          "row": 0,
+          "col": 5,
+          "length": 3,
+          "answer": "ABE",
+          "clue": "1860s prez",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 0,
+          "col": 6,
+          "length": 3,
+          "answer": "BAT",
+          "clue": "Sports club",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
           "row": 1,
+          "col": 3,
+          "length": 5,
+          "answer": "BEGAN",
+          "clue": "Set off",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "PADS",
-          "clue": "Brake parts",
+          "length": 3,
+          "answer": "DMV",
+          "clue": "Issuer of Real ID cards",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "ROE",
+          "clue": "Fish eggs",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 4,
+          "col": 5,
+          "length": 3,
+          "answer": "CIN",
+          "clue": "The Reds, on scoreboards",
+          "source": "dataset"
+        },
+        {
+          "number": 14,
+          "row": 4,
+          "col": 6,
+          "length": 3,
+          "answer": "ITS",
+          "clue": "Of itself",
           "source": "dataset"
         }
       ]

@@ -277,215 +277,129 @@
     }
   },
   "reserve": {
-    "size": 7,
+    "size": 5,
     "cells": [
       null,
-      null,
       {
-        "answer": "S",
+        "answer": "A",
         "number": 1
       },
       {
-        "answer": "U",
+        "answer": "R",
         "number": 2
       },
       {
-        "answer": "N",
+        "answer": "C",
         "number": 3
       },
       null,
       null,
-      null,
       {
-        "answer": "C",
+        "answer": "R",
         "number": 4
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "S"
-      },
-      {
         "answer": "E"
-      },
-      {
-        "answer": "Y",
-        "number": 5
-      },
-      null,
-      {
-        "answer": "C",
-        "number": 6
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S",
-        "number": 7
-      },
-      {
-        "answer": "O",
-        "number": 8
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "G"
-      },
-      null,
-      {
-        "answer": "T",
-        "number": 9
-      },
-      {
-        "answer": "A"
       },
       {
         "answer": "O"
       },
-      {
-        "answer": "M",
-        "number": 10
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "C",
-        "number": 11
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "Y"
-      },
       null,
       {
-        "answer": "L",
-        "number": 12
+        "answer": "W",
+        "number": 5
       },
       {
         "answer": "I"
       },
       {
-        "answer": "O"
+        "answer": "N"
       },
       {
-        "answer": "N"
+        "answer": "B"
+      },
+      {
+        "answer": "Y",
+        "number": 6
+      },
+      {
+        "answer": "A",
+        "number": 7
       },
       {
         "answer": "S"
       },
-      null,
-      null,
-      null,
       {
-        "answer": "A",
-        "number": 13
+        "answer": "T"
       },
       {
-        "answer": "W"
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R",
+        "number": 8
       },
       {
         "answer": "E"
       },
-      null,
-      null
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "W"
+      }
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 3,
-          "answer": "SUN",
-          "clue": "Day warmer",
+          "answer": "ARC",
+          "clue": "Story ___",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
-          "length": 5,
-          "answer": "CASEY",
-          "clue": "Ill-fated batter",
+          "length": 3,
+          "answer": "REO",
+          "clue": "Antique car",
           "source": "dataset"
         },
         {
-          "number": 6,
+          "number": 5,
           "row": 2,
           "col": 0,
-          "length": 7,
-          "answer": "CANAPES",
-          "clue": "Party food in tin with mushy peas",
+          "length": 5,
+          "answer": "WINBY",
+          "clue": "Triumph by a narrow margin, with 'a nose'",
+          "source": "written"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "ASTRO",
+          "clue": "Prefix for 'turf'",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 3,
-          "answer": "OMG",
-          "clue": "\"!!!\"",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
-          "row": 3,
-          "col": 4,
-          "length": 3,
-          "answer": "TAO",
-          "clue": "Religion",
-          "source": "dataset"
-        },
-        {
-          "number": 10,
           "row": 4,
           "col": 0,
-          "length": 7,
-          "answer": "MERCURY",
-          "clue": "Heavenly body which rises when hot",
-          "source": "dataset"
-        },
-        {
-          "number": 12,
-          "row": 5,
-          "col": 1,
           "length": 5,
-          "answer": "LIONS",
-          "clue": "Really big cats",
-          "source": "dataset"
-        },
-        {
-          "number": 13,
-          "row": 6,
-          "col": 2,
-          "length": 3,
-          "answer": "AWE",
-          "clue": "Knock out",
+          "answer": "RESAW",
+          "clue": "Viewed anew",
           "source": "dataset"
         }
       ],
@@ -493,73 +407,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 7,
-          "answer": "SANGRIA",
-          "clue": "Tapas bar drink",
+          "col": 1,
+          "length": 5,
+          "answer": "ARISE",
+          "clue": "Get up",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 3,
-          "answer": "USA",
-          "clue": "Made in ___",
+          "col": 2,
+          "length": 5,
+          "answer": "RENTS",
+          "clue": "Signs a lease",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 7,
-          "answer": "NEPTUNE",
-          "clue": "Eighth planet",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 1,
+          "col": 3,
           "length": 5,
-          "answer": "CAMEL",
-          "clue": "Animal at an oasis",
+          "answer": "COBRA",
+          "clue": "Mongoose's meal",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 5,
-          "length": 5,
-          "answer": "YEARS",
-          "clue": "Decade divisions",
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "WAR",
+          "clue": "Combat",
           "source": "dataset"
         },
         {
           "number": 6,
           "row": 2,
-          "col": 0,
+          "col": 4,
           "length": 3,
-          "answer": "COM",
-          "clue": "Common address ender",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 2,
-          "col": 6,
-          "length": 3,
-          "answer": "SOY",
-          "clue": "Tofu base",
-          "source": "dataset"
-        },
-        {
-          "number": 11,
-          "row": 4,
-          "col": 3,
-          "length": 3,
-          "answer": "COW",
-          "clue": "Farm grazer",
+          "answer": "YOW",
+          "clue": "\"Ouch!\"",
           "source": "dataset"
         }
       ]

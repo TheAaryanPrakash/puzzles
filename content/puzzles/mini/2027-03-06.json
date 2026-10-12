@@ -273,82 +273,142 @@
     }
   },
   "reserve": {
-    "size": 5,
+    "size": 7,
     "cells": [
       null,
+      null,
+      null,
       {
-        "answer": "S",
+        "answer": "H",
         "number": 1
       },
       {
-        "answer": "N",
+        "answer": "I",
         "number": 2
       },
       {
-        "answer": "O",
+        "answer": "S",
         "number": 3
       },
       {
-        "answer": "W",
+        "answer": "S",
         "number": 4
       },
       null,
+      null,
       {
-        "answer": "A",
+        "answer": "H",
         "number": 5
       },
       {
         "answer": "U"
       },
       {
-        "answer": "R"
+        "answer": "N"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "H"
+      },
+      null,
+      {
+        "answer": "K",
+        "number": 6
       },
       {
         "answer": "A"
       },
       {
-        "answer": "B",
-        "number": 6
+        "answer": "M"
       },
       {
-        "answer": "U"
+        "answer": "A"
       },
       {
-        "answer": "D"
+        "answer": "L"
       },
       {
-        "answer": "D"
+        "answer": "A"
       },
       {
-        "answer": "Y"
-      },
-      {
-        "answer": "E",
+        "answer": "T",
         "number": 7
       },
       {
-        "answer": "D"
+        "answer": "O"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "A"
       },
       {
         "answer": "G"
       },
       {
-        "answer": "E"
-      },
-      null,
-      {
-        "answer": "T",
+        "answer": "H",
         "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "R"
       },
       {
         "answer": "I"
       },
       {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 9
+      },
+      {
+        "answer": "L"
+      },
+      {
         "answer": "E"
       },
       {
-        "answer": "R"
+        "answer": "U"
       },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "W",
+        "number": 10
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null,
       null
     ],
     "clues": {
@@ -356,46 +416,64 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 3,
           "length": 4,
-          "answer": "SNOW",
-          "clue": "Skier's need",
+          "answer": "HISS",
+          "clue": "Radiator sound",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "AURA",
-          "clue": "Mystique",
+          "col": 2,
+          "length": 5,
+          "answer": "HUNCH",
+          "clue": "Intuition",
           "source": "dataset"
         },
         {
           "number": 6,
           "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "BUDDY",
-          "clue": "Pal",
+          "col": 1,
+          "length": 6,
+          "answer": "KAMALA",
+          "clue": "California senator Harris",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 4,
-          "answer": "EDGE",
-          "clue": "Leg up",
+          "length": 7,
+          "answer": "TOTEBAG",
+          "clue": "Reward for giving, perhaps",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
+          "length": 6,
+          "answer": "HARRIS",
+          "clue": "One of three in a boat somewhere off the Scottish mainland",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "answer": "ALEUTS",
+          "clue": "Western Alaska natives",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 6,
+          "col": 0,
           "length": 4,
-          "answer": "TIER",
-          "clue": "Strata",
+          "answer": "WADS",
+          "clue": "Rolls of cash",
           "source": "dataset"
         }
       ],
@@ -403,46 +481,64 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "SAUDI",
-          "clue": "- Arabia",
+          "col": 3,
+          "length": 7,
+          "answer": "HUMERUS",
+          "clue": "Support for member funny they say",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "NUDGE",
-          "clue": "Gentle push",
+          "col": 4,
+          "length": 6,
+          "answer": "INABIT",
+          "clue": "\"Give me a sec\"",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "ORDER",
-          "clue": "Court command",
+          "col": 5,
+          "length": 6,
+          "answer": "SCLASS",
+          "clue": "Mercedes-Benz sedan type",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 4,
-          "length": 3,
-          "answer": "WAY",
-          "clue": "Course",
+          "col": 6,
+          "length": 4,
+          "answer": "SHAG",
+          "clue": "Plush carpet",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 2,
+          "length": 6,
+          "answer": "HATRED",
+          "clue": "Intense dislike",
           "source": "dataset"
         },
         {
           "number": 6,
           "row": 2,
+          "col": 1,
+          "length": 5,
+          "answer": "KOALA",
+          "clue": "It's not a bear",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
           "col": 0,
-          "length": 3,
-          "answer": "BET",
-          "clue": "Parlay, say",
+          "length": 4,
+          "answer": "THAW",
+          "clue": "Melt",
           "source": "dataset"
         }
       ]

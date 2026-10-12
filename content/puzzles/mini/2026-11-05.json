@@ -2,100 +2,101 @@
   "payload": {
     "size": 5,
     "cells": [
-      null,
       {
-        "answer": "B",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "R",
+        "answer": "E",
         "number": 2
       },
       {
-        "answer": "O",
+        "answer": "L",
         "number": 3
+      },
+      {
+        "answer": "F",
+        "number": 4
       },
       null,
       {
-        "answer": "P",
-        "number": 4
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "D",
+        "answer": "O",
         "number": 5
       },
       {
-        "answer": "E",
-        "number": 6
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "A",
-        "number": 7
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "B"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "Y"
-      },
-      null,
-      {
-        "answer": "S",
-        "number": 8
+        "answer": "V"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "P"
+        "answer": "L"
       },
-      null
+      null,
+      {
+        "answer": "L",
+        "number": 6
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L",
+        "number": 7
+      },
+      null,
+      {
+        "answer": "N",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "O"
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 9
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "X"
+      }
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 3,
-          "answer": "BRO",
-          "clue": "Mate",
+          "col": 0,
+          "length": 4,
+          "answer": "SELF",
+          "clue": "Ego",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
           "col": 0,
-          "length": 5,
-          "answer": "POUND",
-          "clue": "Beat excitedly",
+          "length": 4,
+          "answer": "OVAL",
+          "clue": "Egg-shaped",
           "source": "dataset"
         },
         {
@@ -103,26 +104,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ELMER",
-          "clue": "He hunts Bugs",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "ADBUY",
-          "clue": "Election campaign's purchase",
+          "answer": "LEGAL",
+          "clue": "Within the rules",
           "source": "dataset"
         },
         {
           "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "answer": "NEMO",
+          "clue": "\"Finding ___\"",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
           "row": 4,
           "col": 1,
-          "length": 3,
-          "answer": "SAP",
-          "clue": "Tree goo",
+          "length": 4,
+          "answer": "TREX",
+          "clue": "Fearsome dino",
           "source": "dataset"
         }
       ],
@@ -130,57 +131,57 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "BOLDS",
-          "clue": "Makes heavy, as Helvetica",
+          "col": 0,
+          "length": 3,
+          "answer": "SOL",
+          "clue": "Scale member",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "RUMBA",
-          "clue": "Cuban dance",
+          "answer": "EVENT",
+          "clue": "Occurrence",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
+          "col": 2,
           "length": 5,
-          "answer": "ONEUP",
-          "clue": "Slightly ahead",
+          "answer": "LAGER",
+          "clue": "Pilsener",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 3,
-          "answer": "PEA",
-          "clue": "Pod unit",
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "FLAME",
+          "clue": "Olympics symbol",
           "source": "dataset"
         },
         {
-          "number": 5,
-          "row": 1,
+          "number": 7,
+          "row": 2,
           "col": 4,
           "length": 3,
-          "answer": "DRY",
-          "clue": "Not rainy",
+          "answer": "LOX",
+          "clue": "Bagel salmon",
           "source": "dataset"
         }
       ]
     }
   },
   "reserve": {
-    "size": 7,
+    "size": 5,
     "cells": [
       null,
       {
-        "answer": "A",
+        "answer": "D",
         "number": 1
       },
       {
@@ -188,141 +189,69 @@
         "number": 2
       },
       {
-        "answer": "R",
+        "answer": "P",
         "number": 3
-      },
-      {
-        "answer": "B",
-        "number": 4
-      },
-      {
-        "answer": "U",
-        "number": 5
-      },
-      {
-        "answer": "D",
-        "number": 6
       },
       null,
       {
-        "answer": "C",
-        "number": 7
+        "answer": "L",
+        "number": 4
+      },
+      {
+        "answer": "A"
       },
       {
         "answer": "R"
       },
       {
-        "answer": "E"
+        "answer": "R"
       },
       {
-        "answer": "A"
+        "answer": "Y",
+        "number": 5
       },
       {
-        "answer": "S"
+        "answer": "A",
+        "number": 6
       },
       {
-        "answer": "E"
-      },
-      null,
-      {
-        "answer": "R",
-        "number": 8
+        "answer": "V"
       },
       {
         "answer": "O"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "S",
-        "number": 9
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "N"
-      },
-      null,
-      {
-        "answer": "T",
-        "number": 10
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "E",
-        "number": 11
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "M",
-        "number": 12
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "L"
-      },
-      null,
-      {
-        "answer": "M",
-        "number": 13
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "G"
       },
       {
         "answer": "I"
       },
       {
-        "answer": "R"
+        "answer": "D"
       },
       {
-        "answer": "L"
-      },
-      null,
-      {
-        "answer": "I",
-        "number": 14
+        "answer": "W",
+        "number": 7
       },
       {
-        "answer": "M"
+        "answer": "I"
       },
       {
-        "answer": "E"
+        "answer": "N"
       },
       {
-        "answer": "A"
+        "answer": "D"
       },
       {
         "answer": "S"
       },
+      null,
+      {
+        "answer": "D",
+        "number": 8
+      },
       {
         "answer": "Y"
+      },
+      {
+        "answer": "E"
       },
       null
     ],
@@ -332,72 +261,45 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 6,
-          "answer": "AIRBUD",
-          "clue": "Basketball-playing movie dog",
-          "source": "written"
+          "length": 3,
+          "answer": "DIP",
+          "clue": "Plunge",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "LARRY",
+          "clue": "Jerry's \"Seinfeld\" co-creator",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "AVOID",
+          "clue": "Elude",
+          "source": "dataset"
         },
         {
           "number": 7,
-          "row": 1,
-          "col": 1,
-          "length": 6,
-          "answer": "CREASE",
-          "clue": "Fold note in suit",
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "WINDS",
+          "clue": "Snakes will increase, not decrease, say leaders",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 2,
-          "col": 1,
-          "length": 6,
-          "answer": "ROOTUP",
-          "clue": "Pull from the ground, in Plymouth",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
-          "row": 3,
-          "col": 0,
-          "length": 3,
-          "answer": "SON",
-          "clue": "Family boy",
-          "source": "dataset"
-        },
-        {
-          "number": 10,
-          "row": 3,
-          "col": 4,
-          "length": 3,
-          "answer": "TAP",
-          "clue": "Select",
-          "source": "dataset"
-        },
-        {
-          "number": 11,
           "row": 4,
-          "col": 0,
-          "length": 6,
-          "answer": "ENAMEL",
-          "clue": "Canine coat",
-          "source": "dataset"
-        },
-        {
-          "number": 13,
-          "row": 5,
-          "col": 0,
-          "length": 6,
-          "answer": "MYGIRL",
-          "clue": "'___,' Temptations hit",
-          "source": "written"
-        },
-        {
-          "number": 14,
-          "row": 6,
-          "col": 0,
-          "length": 6,
-          "answer": "IMEASY",
-          "clue": "\"Whatever you want\"",
+          "col": 1,
+          "length": 3,
+          "answer": "DYE",
+          "clue": "Stain",
           "source": "dataset"
         }
       ],
@@ -406,72 +308,45 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 7,
-          "answer": "ACRONYM",
-          "clue": "Laser or Nato, for instance",
+          "length": 5,
+          "answer": "DAVID",
+          "clue": "NBA Hall of Famer Robinson",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 2,
-          "length": 7,
-          "answer": "IRONAGE",
-          "clue": "It followed the Bronze Age",
+          "length": 5,
+          "answer": "IRONY",
+          "clue": "Literary twist",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
           "col": 3,
-          "length": 3,
-          "answer": "REO",
-          "clue": "Antique Olds",
+          "length": 5,
+          "answer": "PRIDE",
+          "clue": "___ Fall",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 7,
-          "answer": "BATTERS",
-          "clue": "Hit seekers",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "LAW",
+          "clue": "Bar study",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 0,
-          "col": 5,
-          "length": 7,
-          "answer": "USUALLY",
-          "clue": "Under normal conditions",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 0,
-          "col": 6,
-          "length": 4,
-          "answer": "DEPP",
-          "clue": "'Edward Scissorhands' star",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
-          "row": 3,
-          "col": 0,
-          "length": 4,
-          "answer": "SEMI",
-          "clue": "Cargo carrier",
-          "source": "dataset"
-        },
-        {
-          "number": 12,
-          "row": 4,
-          "col": 3,
+          "row": 1,
+          "col": 4,
           "length": 3,
-          "answer": "MIA",
-          "clue": "Soccer's Hamm",
+          "answer": "YDS",
+          "clue": "N.F.L. stat abbreviation",
           "source": "dataset"
         }
       ]

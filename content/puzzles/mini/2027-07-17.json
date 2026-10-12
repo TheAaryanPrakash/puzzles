@@ -331,15 +331,15 @@
     "size": 5,
     "cells": [
       {
-        "answer": "E",
+        "answer": "A",
         "number": 1
       },
       {
-        "answer": "M",
+        "answer": "B",
         "number": 2
       },
       {
-        "answer": "U",
+        "answer": "C",
         "number": 3
       },
       {
@@ -348,22 +348,25 @@
       },
       null,
       {
-        "answer": "L",
+        "answer": "F",
         "number": 5
-      },
-      {
-        "answer": "U"
       },
       {
         "answer": "L"
       },
       {
-        "answer": "U"
+        "answer": "E"
+      },
+      {
+        "answer": "E"
       },
       null,
       {
-        "answer": "F",
+        "answer": "C",
         "number": 6
+      },
+      {
+        "answer": "O"
       },
       {
         "answer": "L"
@@ -372,25 +375,22 @@
         "answer": "O"
       },
       {
-        "answer": "S"
-      },
-      {
-        "answer": "S",
+        "answer": "R",
         "number": 7
       },
       null,
       {
-        "answer": "E",
+        "answer": "B",
         "number": 8
       },
       {
-        "answer": "C"
+        "answer": "L"
       },
       {
-        "answer": "H"
+        "answer": "U"
       },
       {
-        "answer": "O"
+        "answer": "E"
       },
       null,
       {
@@ -398,13 +398,13 @@
         "number": 9
       },
       {
-        "answer": "K"
+        "answer": "O"
       },
       {
-        "answer": "I"
+        "answer": "L"
       },
       {
-        "answer": "N"
+        "answer": "D"
       }
     ],
     "clues": {
@@ -414,8 +414,8 @@
           "row": 0,
           "col": 0,
           "length": 4,
-          "answer": "EMUS",
-          "clue": "Big birds",
+          "answer": "ABCS",
+          "clue": "Basics",
           "source": "dataset"
         },
         {
@@ -423,8 +423,8 @@
           "row": 1,
           "col": 0,
           "length": 4,
-          "answer": "LULU",
-          "clue": "\"The Farewell\" director Wang",
+          "answer": "FLEE",
+          "clue": "Vamoose",
           "source": "dataset"
         },
         {
@@ -432,8 +432,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "FLOSS",
-          "clue": "Strand at the dentist's office (wordplay)",
+          "answer": "COLOR",
+          "clue": "Use crayons",
           "source": "dataset"
         },
         {
@@ -441,8 +441,8 @@
           "row": 3,
           "col": 1,
           "length": 4,
-          "answer": "ECHO",
-          "clue": "Repeat",
+          "answer": "BLUE",
+          "clue": "Depressed",
           "source": "dataset"
         },
         {
@@ -450,8 +450,8 @@
           "row": 4,
           "col": 1,
           "length": 4,
-          "answer": "SKIN",
-          "clue": "Apple's exterior",
+          "answer": "SOLD",
+          "clue": "Persuaded",
           "source": "dataset"
         }
       ],
@@ -461,8 +461,8 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "answer": "ELF",
-          "clue": "Trickster",
+          "answer": "AFC",
+          "clue": "The LA Chargers play in it",
           "source": "dataset"
         },
         {
@@ -470,8 +470,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "MULES",
-          "clue": "Some slip-ons",
+          "answer": "BLOBS",
+          "clue": "Small drops, as of paint",
           "source": "dataset"
         },
         {
@@ -479,17 +479,17 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ULOCK",
-          "clue": "Sturdy bike theft deterrent, named for its shape",
-          "source": "written"
+          "answer": "CELLO",
+          "clue": "Stringed instrument",
+          "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "SUSHI",
-          "clue": "Japanese fare",
+          "answer": "SEOUL",
+          "clue": "World capital with the Gangnam district",
           "source": "dataset"
         },
         {
@@ -497,8 +497,8 @@
           "row": 2,
           "col": 4,
           "length": 3,
-          "answer": "SON",
-          "clue": "\"My boy\"",
+          "answer": "RED",
+          "clue": "Cardinal",
           "source": "dataset"
         }
       ]

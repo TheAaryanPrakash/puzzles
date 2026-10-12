@@ -4,81 +4,77 @@
     "cells": [
       null,
       {
-        "answer": "B",
+        "answer": "W",
         "number": 1
       },
       {
-        "answer": "O",
+        "answer": "H",
         "number": 2
       },
       {
-        "answer": "N",
+        "answer": "I",
         "number": 3
       },
       {
-        "answer": "D",
+        "answer": "R",
         "number": 4
       },
+      null,
       {
-        "answer": "P",
+        "answer": "H",
         "number": 5
       },
       {
         "answer": "A"
       },
       {
-        "answer": "T"
+        "answer": "V"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "V"
       },
       {
         "answer": "I"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "L"
       },
       {
         "answer": "O"
       },
       {
-        "answer": "A",
-        "number": 6
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "H"
-      },
-      {
         "answer": "E"
       },
-      {
-        "answer": "S"
-      },
+      null,
       {
         "answer": "P",
-        "number": 7
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "A",
         "number": 8
       },
       {
+        "answer": "E"
+      },
+      {
         "answer": "C"
       },
       {
-        "answer": "R"
-      },
-      {
-        "answer": "E"
+        "answer": "S"
       },
       null
     ],
@@ -89,17 +85,17 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "BOND",
-          "clue": "'007' James",
+          "answer": "WHIR",
+          "clue": "Rotor sound",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "PATIO",
-          "clue": "Paved area",
+          "col": 1,
+          "length": 4,
+          "answer": "HAVE",
+          "clue": "Dine on",
           "source": "dataset"
         },
         {
@@ -107,17 +103,17 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ASHES",
-          "clue": "Lenten symbol",
+          "answer": "DAVID",
+          "clue": "Michelangelo work",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 5,
-          "answer": "PIECE",
-          "clue": "Scrap",
+          "length": 4,
+          "answer": "ALOE",
+          "clue": "Sunburn aid",
           "source": "dataset"
         },
         {
@@ -125,8 +121,8 @@
           "row": 4,
           "col": 0,
           "length": 4,
-          "answer": "ACRE",
-          "clue": "Plot unit",
+          "answer": "PECS",
+          "clue": "Delts' neighbors",
           "source": "dataset"
         }
       ],
@@ -136,8 +132,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "BASIC",
-          "clue": "Elementary",
+          "answer": "WHALE",
+          "clue": "Huge sea mammal",
           "source": "dataset"
         },
         {
@@ -145,8 +141,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "OTHER",
-          "clue": "Alternative",
+          "answer": "HAVOC",
+          "clue": "Chaos",
           "source": "dataset"
         },
         {
@@ -154,26 +150,26 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "NIECE",
-          "clue": "Family tree part",
+          "answer": "IVIES",
+          "clue": "Wall-climbing vines",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
           "col": 4,
-          "length": 4,
-          "answer": "DOSE",
-          "clue": "Unit of medicine",
+          "length": 3,
+          "answer": "RED",
+          "clue": "Carmine",
           "source": "dataset"
         },
         {
-          "number": 5,
-          "row": 1,
+          "number": 6,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "answer": "PAPA",
-          "clue": "Daddy",
+          "length": 3,
+          "answer": "DAP",
+          "clue": "Bump fists",
           "source": "dataset"
         }
       ]
@@ -182,52 +178,39 @@
   "reserve": {
     "size": 5,
     "cells": [
-      null,
       {
-        "answer": "P",
+        "answer": "H",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "I",
         "number": 2
-      },
-      {
-        "answer": "C",
-        "number": 3
       },
       null,
       {
-        "answer": "B",
+        "answer": "Y",
+        "number": 3
+      },
+      {
+        "answer": "O",
         "number": 4
+      },
+      {
+        "answer": "A",
+        "number": 5
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "G",
+        "number": 6
       },
       {
         "answer": "E"
       },
       {
-        "answer": "L"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "W",
-        "number": 5
-      },
-      {
-        "answer": "A",
-        "number": 6
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "T"
-      },
-      {
         "answer": "R"
-      },
-      {
-        "answer": "O"
       },
       {
         "answer": "S",
@@ -237,76 +220,97 @@
         "answer": "T"
       },
       {
+        "answer": "E"
+      },
+      {
         "answer": "A"
       },
       {
-        "answer": "N"
-      },
-      {
-        "answer": "K"
+        "answer": "L"
       },
       {
         "answer": "H",
         "number": 8
       },
       {
-        "answer": "O"
+        "answer": "E"
+      },
+      {
+        "answer": "N"
       },
       {
         "answer": "R"
       },
       {
-        "answer": "S"
+        "answer": "Y"
+      },
+      null,
+      {
+        "answer": "L",
+        "number": 9
       },
       {
         "answer": "E"
-      }
+      },
+      {
+        "answer": "S"
+      },
+      null
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 3,
-          "answer": "PAC",
-          "clue": "Lobbying gp",
+          "col": 0,
+          "length": 2,
+          "answer": "HI",
+          "clue": "Hello",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 2,
+          "answer": "YO",
+          "clue": "Greeting for a dude or a bro",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "BELOW",
-          "clue": "___ zero",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "ASTRO",
-          "clue": "Elroy's dog",
+          "answer": "ANGER",
+          "clue": "Rile up",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "STANK",
-          "clue": "Bombed badly",
+          "answer": "STEAL",
+          "clue": "Lift",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 4,
+          "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "HORSE",
-          "clue": "Surprise winner",
+          "answer": "HENRY",
+          "clue": "O. ___",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "LES",
+          "clue": "\"___ Miz\"",
           "source": "dataset"
         }
       ],
@@ -314,19 +318,19 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "PESTO",
-          "clue": "Linguine sauce",
+          "col": 0,
+          "length": 4,
+          "answer": "HASH",
+          "clue": "Mess (informal)",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "ALTAR",
-          "clue": "Wedding venue",
+          "answer": "INTEL",
+          "clue": "Chip giant",
           "source": "dataset"
         },
         {
@@ -334,26 +338,26 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "CORNS",
-          "clue": "Woes on toes",
+          "answer": "YEARS",
+          "clue": "Decade units",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
+          "row": 0,
+          "col": 4,
           "length": 4,
-          "answer": "BASH",
-          "clue": "Blowout",
+          "answer": "ORLY",
+          "clue": "Air France hub",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 6,
           "row": 1,
-          "col": 4,
+          "col": 2,
           "length": 4,
-          "answer": "WOKE",
-          "clue": "Roused from slumber",
+          "answer": "GENE",
+          "clue": "DNA sequence",
           "source": "dataset"
         }
       ]

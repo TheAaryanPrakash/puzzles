@@ -2,220 +2,23 @@
   "payload": {
     "size": 5,
     "cells": [
-      {
-        "answer": "P",
-        "number": 1
-      },
-      {
-        "answer": "A",
-        "number": 2
-      },
+      null,
       {
         "answer": "C",
-        "number": 3
-      },
-      {
-        "answer": "E",
-        "number": 4
-      },
-      {
-        "answer": "S",
-        "number": 5
-      },
-      {
-        "answer": "O",
-        "number": 6
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "P",
-        "number": 7
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "P",
-        "number": 8
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "A",
-        "number": 9
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "T"
-      }
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 0,
-          "length": 5,
-          "answer": "PACES",
-          "clue": "Walking speeds",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "OPRAH",
-          "clue": "The 'O' in OWN",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "PREGO",
-          "clue": "Reply to \"Grazie!\"",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "PIPER",
-          "clue": "Luring musician of lore",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
-          "row": 4,
-          "col": 0,
-          "length": 5,
-          "answer": "ALERT",
-          "clue": "Vigilant",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 0,
-          "length": 5,
-          "answer": "POPPA",
-          "clue": "Momma's partner, maybe",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "APRIL",
-          "clue": "Rainy month",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "CREPE",
-          "clue": "Fancy pancake",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "EAGER",
-          "clue": "Ardent",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 0,
-          "col": 4,
-          "length": 5,
-          "answer": "SHORT",
-          "clue": "Rudely brief",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 5,
-    "cells": [
-      {
-        "answer": "S",
         "number": 1
-      },
-      {
-        "answer": "L",
-        "number": 2
       },
       {
         "answer": "I",
+        "number": 2
+      },
+      {
+        "answer": "G",
         "number": 3
       },
+      null,
       {
-        "answer": "M",
+        "answer": "S",
         "number": 4
-      },
-      {
-        "answer": "E",
-        "number": 5
-      },
-      {
-        "answer": "T",
-        "number": 6
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "N"
       },
       {
         "answer": "A"
@@ -224,11 +27,31 @@
         "answer": "M"
       },
       {
-        "answer": "E",
-        "number": 7
+        "answer": "O"
       },
       {
-        "answer": "A"
+        "answer": "A",
+        "number": 5
+      },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "S",
+        "number": 7
       },
       {
         "answer": "T"
@@ -237,17 +60,165 @@
         "answer": "U"
       },
       {
-        "answer": "P"
+        "answer": "D"
       },
       {
-        "answer": "E",
+        "answer": "Y"
+      },
+      {
+        "answer": "S",
         "number": 8
       },
       {
-        "answer": "V"
+        "answer": "E"
       },
       {
         "answer": "E"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "A"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "CIG",
+          "clue": "Thing you might bum, informally",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "SAMOA",
+          "clue": "American ___",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "ARBOR",
+          "clue": "Shaded area",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "STUDY",
+          "clue": "Revise",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 5,
+          "answer": "SEEYA",
+          "clue": "'Ciao!'",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "CARTE",
+          "clue": "___ blanche",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "IMBUE",
+          "clue": "Suffuse",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "GOODY",
+          "clue": "Word repeated before 'gumdrop'",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "SASS",
+          "clue": "Be bratty",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 4,
+          "length": 4,
+          "answer": "ARYA",
+          "clue": "One of the Starks on \"Game of Thrones\"",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "K",
+        "number": 1
+      },
+      {
+        "answer": "G",
+        "number": 2
+      },
+      {
+        "answer": "B",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "P",
+        "number": 4
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "C",
+        "number": 5
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "U"
       },
       {
         "answer": "N"
@@ -256,67 +227,77 @@
         "answer": "T"
       },
       {
-        "answer": "D",
-        "number": 9
+        "answer": "P",
+        "number": 6
       },
       {
-        "answer": "E"
+        "answer": "U"
       },
       {
-        "answer": "L"
+        "answer": "T"
       },
       {
-        "answer": "A"
+        "answer": "Z"
+      },
+      null,
+      {
+        "answer": "U",
+        "number": 7
       },
       {
-        "answer": "Y"
-      }
+        "answer": "T"
+      },
+      {
+        "answer": "Z"
+      },
+      null,
+      null
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "KGB",
+          "clue": "Fleming foe",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "PLEA",
+          "clue": "Call for help",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "SLIME",
-          "clue": "Icky stuff",
+          "answer": "COUNT",
+          "clue": "Nobleman to cut some ice",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 1,
+          "row": 3,
           "col": 0,
-          "length": 5,
-          "answer": "TENAM",
-          "clue": "Latish wake-up hr",
-          "source": "dataset"
+          "length": 4,
+          "answer": "PUTZ",
+          "clue": "Bungling fool, in Yiddish slang",
+          "source": "written"
         },
         {
           "number": 7,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "EATUP",
-          "clue": "Enjoy thoroughly",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "EVENT",
-          "clue": "Incident",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
           "row": 4,
           "col": 0,
-          "length": 5,
-          "answer": "DELAY",
-          "clue": "Hold up",
+          "length": 3,
+          "answer": "UTZ",
+          "clue": "Wise alternative",
           "source": "dataset"
         }
       ],
@@ -324,46 +305,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
+          "col": 2,
           "length": 5,
-          "answer": "STEED",
-          "clue": "War horse",
+          "answer": "KLUTZ",
+          "clue": "Regular slipper",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "LEAVE",
-          "clue": "Exit",
+          "col": 3,
+          "length": 4,
+          "answer": "GENZ",
+          "clue": "Millennials' successors, for short",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "INTEL",
-          "clue": "Recon info",
+          "col": 4,
+          "length": 3,
+          "answer": "BAT",
+          "clue": "Furry flyer",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "MAUNA",
-          "clue": "___ Kea",
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "POUT",
+          "clue": "Be a poor loser, perhaps",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 0,
-          "col": 4,
-          "length": 5,
-          "answer": "EMPTY",
-          "clue": "Vacuous",
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "CPU",
+          "clue": "PC component",
           "source": "dataset"
         }
       ]

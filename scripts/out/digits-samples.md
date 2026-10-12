@@ -5,48 +5,48 @@ Seed 21. 365 days × 5 rounds = 1825 rounds generated.
 ## Pool stats
 
 - Target range seen: 40–789
-- minSteps distribution: 2 steps × 363, 3 steps × 874, 4 steps × 494, 5 steps × 94
+- minSteps distribution: 2 steps × 365, 3 steps × 866, 4 steps × 499, 5 steps × 95
 - Every round above is independently re-verified solvable (and not 1-step-solvable) by
   feeding it back through the solver — see `generate.test.ts`.
 
 ## Sample days
 
-### 2027-03-26
+### 2027-03-21
 
-1. numbers: 17, 16, 19, 15, 1, 11 · target: **101** · minSteps: 4
-2. numbers: 10, 24, 11, 14, 21, 14 · target: **121** · minSteps: 2
-3. numbers: 23, 12, 8, 16, 6, 7 · target: **442** · minSteps: 4
-4. numbers: 23, 11, 16, 24, 4, 6 · target: **224** · minSteps: 3
-5. numbers: 22, 22, 7, 22, 12, 17 · target: **639** · minSteps: 4
+1. numbers: 21, 13, 23, 9, 18, 24 · target: **90** · minSteps: 2
+2. numbers: 3, 22, 25, 15, 8, 4 · target: **159** · minSteps: 3
+3. numbers: 2, 10, 7, 17, 10, 13 · target: **240** · minSteps: 2
+4. numbers: 16, 23, 17, 7, 16, 16 · target: **558** · minSteps: 4
+5. numbers: 17, 11, 19, 12, 20, 11 · target: **730** · minSteps: 4
 
-### 2027-05-26
+### 2027-05-21
 
-1. numbers: 17, 3, 7, 8, 5, 5 · target: **43** · minSteps: 2
-2. numbers: 1, 12, 14, 19, 15, 6 · target: **106** · minSteps: 3
-3. numbers: 8, 13, 8, 4, 5, 19 · target: **470** · minSteps: 4
-4. numbers: 10, 2, 13, 4, 16, 3 · target: **403** · minSteps: 4
-5. numbers: 15, 2, 15, 19, 2, 6 · target: **672** · minSteps: 4
+1. numbers: 3, 18, 15, 12, 23, 20 · target: **85** · minSteps: 3
+2. numbers: 19, 9, 13, 21, 12, 12 · target: **203** · minSteps: 3
+3. numbers: 19, 20, 8, 2, 10, 8 · target: **164** · minSteps: 3
+4. numbers: 7, 14, 25, 11, 15, 17 · target: **454** · minSteps: 3
+5. numbers: 23, 16, 19, 16, 22, 9 · target: **742** · minSteps: 4
 
-### 2027-07-22
+### 2027-07-17
 
-1. numbers: 8, 7, 5, 7, 2, 25 · target: **44** · minSteps: 2
-2. numbers: 3, 7, 25, 6, 9, 5 · target: **287** · minSteps: 4
-3. numbers: 3, 23, 4, 17, 21, 25 · target: **341** · minSteps: 3
-4. numbers: 3, 22, 9, 12, 18, 6 · target: **290** · minSteps: 4
-5. numbers: 19, 7, 23, 10, 7, 19 · target: **666** · minSteps: 4
+1. numbers: 6, 19, 11, 1, 11, 9 · target: **132** · minSteps: 2
+2. numbers: 3, 9, 24, 2, 23, 1 · target: **303** · minSteps: 4
+3. numbers: 23, 22, 18, 8, 7, 24 · target: **445** · minSteps: 3
+4. numbers: 2, 10, 13, 13, 2, 18 · target: **461** · minSteps: 4
+5. numbers: 25, 10, 25, 15, 4, 6 · target: **576** · minSteps: 3
 
-### 2027-07-23
+### 2027-07-18
 
-1. numbers: 17, 21, 25, 13, 11, 6 · target: **72** · minSteps: 2
-2. numbers: 22, 25, 18, 13, 7, 7 · target: **122** · minSteps: 3
-3. numbers: 20, 12, 16, 12, 21, 7 · target: **368** · minSteps: 3
-4. numbers: 22, 11, 22, 3, 12, 9 · target: **317** · minSteps: 3
-5. numbers: 23, 1, 21, 15, 15, 14 · target: **671** · minSteps: 5
+1. numbers: 23, 25, 1, 6, 10, 19 · target: **106** · minSteps: 3
+2. numbers: 6, 11, 7, 16, 12, 16 · target: **125** · minSteps: 2
+3. numbers: 11, 19, 6, 2, 6, 23 · target: **460** · minSteps: 3
+4. numbers: 1, 8, 13, 4, 14, 22 · target: **499** · minSteps: 4
+5. numbers: 21, 3, 19, 17, 10, 12 · target: **481** · minSteps: 3
 
-### 2027-09-17
+### 2027-09-12
 
-1. numbers: 9, 21, 18, 9, 2, 20 · target: **143** · minSteps: 3
-2. numbers: 15, 18, 7, 13, 12, 11 · target: **237** · minSteps: 3
-3. numbers: 25, 20, 17, 3, 21, 20 · target: **426** · minSteps: 3
-4. numbers: 2, 6, 14, 17, 19, 14 · target: **414** · minSteps: 4
-5. numbers: 7, 17, 16, 21, 4, 5 · target: **359** · minSteps: 3
+1. numbers: 11, 1, 5, 1, 24, 23 · target: **112** · minSteps: 4
+2. numbers: 3, 11, 21, 1, 16, 14 · target: **158** · minSteps: 3
+3. numbers: 19, 16, 12, 13, 3, 2 · target: **274** · minSteps: 3
+4. numbers: 11, 14, 17, 6, 7, 12 · target: **583** · minSteps: 4
+5. numbers: 21, 8, 19, 4, 23, 25 · target: **752** · minSteps: 4

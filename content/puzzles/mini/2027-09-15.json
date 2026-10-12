@@ -4,77 +4,77 @@
     "cells": [
       null,
       {
-        "answer": "F",
+        "answer": "E",
         "number": 1
       },
       {
-        "answer": "L",
+        "answer": "G",
         "number": 2
       },
       {
-        "answer": "A",
+        "answer": "G",
         "number": 3
       },
       {
-        "answer": "G",
+        "answer": "S",
         "number": 4
       },
       null,
       {
-        "answer": "L",
+        "answer": "C",
         "number": 5
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "D",
-        "number": 6
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "V"
       },
       {
         "answer": "O"
       },
       {
-        "answer": "S"
+        "answer": "O"
       },
       {
-        "answer": "A",
+        "answer": "K"
+      },
+      {
+        "answer": "B",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "C",
         "number": 7
       },
       {
-        "answer": "M"
+        "answer": "L"
       },
       {
-        "answer": "E"
+        "answer": "U"
       },
       {
-        "answer": "N"
+        "answer": "B"
       },
       null,
       {
-        "answer": "B",
+        "answer": "C",
         "number": 8
       },
       {
-        "answer": "E"
+        "answer": "I"
       },
       {
-        "answer": "R"
+        "answer": "T"
       },
       {
-        "answer": "G"
+        "answer": "Y"
       },
       null
     ],
@@ -85,8 +85,8 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "FLAG",
-          "clue": "Banner",
+          "answer": "EGGS",
+          "clue": "Quiche start",
           "source": "dataset"
         },
         {
@@ -94,8 +94,8 @@
           "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "LIMA",
-          "clue": "Bean variety",
+          "answer": "COOK",
+          "clue": "Make dinner",
           "source": "dataset"
         },
         {
@@ -103,8 +103,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "DAVOS",
-          "clue": "Swiss city where the World Economic Forum's annual meeting takes place",
+          "answer": "BOOTY",
+          "clue": "Stuff in pirates' chests",
           "source": "dataset"
         },
         {
@@ -112,8 +112,8 @@
           "row": 3,
           "col": 0,
           "length": 4,
-          "answer": "AMEN",
-          "clue": "Verily",
+          "answer": "CLUB",
+          "clue": "Cudgel",
           "source": "dataset"
         },
         {
@@ -121,8 +121,8 @@
           "row": 4,
           "col": 0,
           "length": 4,
-          "answer": "BERG",
-          "clue": "Polar hazard",
+          "answer": "CITY",
+          "clue": "Dot on a map",
           "source": "dataset"
         }
       ],
@@ -132,8 +132,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "FLAME",
-          "clue": "Match + strike",
+          "answer": "ECOLI",
+          "clue": "Gut bacterium",
           "source": "dataset"
         },
         {
@@ -141,8 +141,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "LIVER",
-          "clue": "Internal organ",
+          "answer": "GOOUT",
+          "clue": "Head to a bar, say",
           "source": "dataset"
         },
         {
@@ -150,8 +150,8 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "AMONG",
-          "clue": "___ friends",
+          "answer": "GOTBY",
+          "clue": "Barely managed",
           "source": "dataset"
         },
         {
@@ -159,8 +159,8 @@
           "row": 0,
           "col": 4,
           "length": 3,
-          "answer": "GAS",
-          "clue": "Hoot",
+          "answer": "SKY",
+          "clue": "Blue hue",
           "source": "dataset"
         },
         {
@@ -168,8 +168,8 @@
           "row": 2,
           "col": 0,
           "length": 3,
-          "answer": "DAB",
-          "clue": "Bit of gel",
+          "answer": "BCC",
+          "clue": "Discreet email option",
           "source": "dataset"
         }
       ]
@@ -179,8 +179,9 @@
     "size": 5,
     "cells": [
       null,
+      null,
       {
-        "answer": "S",
+        "answer": "M",
         "number": 1
       },
       {
@@ -188,25 +189,22 @@
         "number": 2
       },
       {
-        "answer": "L",
+        "answer": "P",
         "number": 3
       },
       {
-        "answer": "T",
+        "answer": "R",
         "number": 4
       },
       {
-        "answer": "P",
+        "answer": "E",
         "number": 5
       },
       {
-        "answer": "U"
+        "answer": "A"
       },
       {
-        "answer": "R"
-      },
-      {
-        "answer": "E"
+        "answer": "D"
       },
       {
         "answer": "E"
@@ -216,46 +214,44 @@
         "number": 6
       },
       {
-        "answer": "S"
+        "answer": "L"
       },
       {
-        "answer": "I"
+        "answer": "T"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "N"
+        "answer": "R"
       },
       {
-        "answer": "C",
+        "answer": "M",
         "number": 7
+      },
+      {
+        "answer": "M"
       },
       {
         "answer": "H"
       },
       {
-        "answer": "E"
+        "answer": "M"
       },
       {
-        "answer": "F"
+        "answer": "M"
       },
       {
-        "answer": "S"
-      },
-      {
-        "answer": "K",
+        "answer": "S",
         "number": 8
       },
       {
-        "answer": "I"
+        "answer": "O"
       },
       {
-        "answer": "S"
+        "answer": "Y"
       },
-      {
-        "answer": "S"
-      },
+      null,
       null
     ],
     "clues": {
@@ -263,19 +259,19 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "SALT",
-          "clue": "Seaman",
+          "col": 2,
+          "length": 3,
+          "answer": "MAP",
+          "clue": "Driving aid",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "PUREE",
-          "clue": "Blender option",
+          "answer": "READE",
+          "clue": "Charles ___'s best-known work is the historical novel The Cloister and the Hearth",
           "source": "dataset"
         },
         {
@@ -283,8 +279,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ASIAN",
-          "clue": "Korean or Thai",
+          "answer": "ALTAR",
+          "clue": "Wedding site",
           "source": "dataset"
         },
         {
@@ -292,17 +288,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "CHEFS",
-          "clue": "James Beard award winners",
+          "answer": "MMHMM",
+          "clue": "Vowelless 'yes'",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "KISS",
-          "clue": "Light touch",
+          "length": 3,
+          "answer": "SOY",
+          "clue": "Tofu base",
           "source": "dataset"
         }
       ],
@@ -310,46 +306,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "SUSHI",
-          "clue": "Japanese raw fish",
-          "source": "dataset"
+          "answer": "MATHY",
+          "clue": "Nerdy about numbers, informally",
+          "source": "written"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "ARIES",
-          "clue": "Zodiac ram",
+          "col": 3,
+          "length": 4,
+          "answer": "ADAM",
+          "clue": "Eden name",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "LEAFS",
-          "clue": "Flips (through)",
+          "col": 4,
+          "length": 4,
+          "answer": "PERM",
+          "clue": "Curly style",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
+          "row": 1,
+          "col": 0,
           "length": 4,
-          "answer": "TENS",
-          "clue": "Sawbucks",
+          "answer": "RAMS",
+          "clue": "Los Angeles team",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 0,
+          "col": 1,
           "length": 4,
-          "answer": "PACK",
-          "clue": "Get ready, in a way",
+          "answer": "ELMO",
+          "clue": "Admiral Zumwalt",
           "source": "dataset"
         }
       ]

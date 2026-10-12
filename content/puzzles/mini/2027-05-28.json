@@ -3,81 +3,81 @@
     "size": 5,
     "cells": [
       {
-        "answer": "R",
+        "answer": "H",
         "number": 1
       },
       {
-        "answer": "I",
+        "answer": "E",
         "number": 2
       },
       {
-        "answer": "N",
+        "answer": "A",
         "number": 3
       },
       {
-        "answer": "G",
+        "answer": "R",
         "number": 4
       },
-      null,
       {
-        "answer": "E",
+        "answer": "T",
         "number": 5
+      },
+      {
+        "answer": "A",
+        "number": 6
       },
       {
         "answer": "M"
       },
       {
-        "answer": "I"
-      },
-      {
-        "answer": "R"
-      },
-      null,
-      {
-        "answer": "V",
-        "number": 6
-      },
-      {
-        "answer": "O"
-      },
-      {
         "answer": "T"
       },
       {
-        "answer": "E"
-      },
-      {
-        "answer": "R",
-        "number": 7
-      },
-      null,
-      {
-        "answer": "F",
-        "number": 8
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "E"
-      },
-      null,
-      {
-        "answer": "F",
-        "number": 9
+        "answer": "O"
       },
       {
         "answer": "O"
       },
       {
-        "answer": "N"
+        "answer": "M",
+        "number": 7
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "Y"
+      },
+      null,
+      {
+        "answer": "R",
+        "number": 8
+      },
+      {
+        "answer": "E"
       },
       {
         "answer": "D"
-      }
+      },
+      null,
+      null,
+      {
+        "answer": "Y",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      null
     ],
     "clues": {
       "across": [
@@ -85,45 +85,45 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 4,
-          "answer": "RING",
-          "clue": "Chime",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "EMIR",
-          "clue": "Ajman leader",
+          "length": 5,
+          "answer": "HEART",
+          "clue": "Core",
           "source": "dataset"
         },
         {
           "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "AMTOO",
+          "clue": "Rebuttal to 'Are not!'",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "VOTER",
-          "clue": "Enfranchised person",
+          "answer": "MORAY",
+          "clue": "Sharp-toothed eel",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 3,
           "col": 1,
-          "length": 4,
-          "answer": "FREE",
-          "clue": "Let out",
+          "length": 3,
+          "answer": "RED",
+          "clue": "Carmine",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
           "col": 1,
-          "length": 4,
-          "answer": "FOND",
-          "clue": "Like cherished memories",
+          "length": 3,
+          "answer": "YES",
+          "clue": "Not no",
           "source": "dataset"
         }
       ],
@@ -133,8 +133,8 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "answer": "REV",
-          "clue": "Charge (up)",
+          "answer": "HAM",
+          "clue": "Mugger",
           "source": "dataset"
         },
         {
@@ -142,8 +142,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "IMOFF",
-          "clue": "'Ta-ta!'",
+          "answer": "EMORY",
+          "clue": "University in Atlanta",
           "source": "dataset"
         },
         {
@@ -151,8 +151,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "NITRO",
-          "clue": "Part of TNT",
+          "answer": "ATREE",
+          "clue": "Up ___ (stuck)",
           "source": "dataset"
         },
         {
@@ -160,17 +160,17 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "GREEN",
-          "clue": "Golfer's target",
+          "answer": "ROADS",
+          "clue": "Places for medians",
           "source": "dataset"
         },
         {
-          "number": 7,
-          "row": 2,
+          "number": 5,
+          "row": 0,
           "col": 4,
           "length": 3,
-          "answer": "RED",
-          "clue": "Carmine",
+          "answer": "TOY",
+          "clue": "Little dog",
           "source": "dataset"
         }
       ]
@@ -180,15 +180,15 @@
     "size": 5,
     "cells": [
       {
-        "answer": "B",
+        "answer": "T",
         "number": 1
       },
       {
-        "answer": "I",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "T",
+        "answer": "G",
         "number": 3
       },
       null,
@@ -198,50 +198,50 @@
         "number": 4
       },
       {
-        "answer": "D"
+        "answer": "X"
       },
       {
-        "answer": "O"
+        "answer": "I"
       },
       {
-        "answer": "P",
+        "answer": "O",
         "number": 5
       },
       {
-        "answer": "T",
+        "answer": "M",
         "number": 6
       },
       {
-        "answer": "R",
+        "answer": "D",
         "number": 7
       },
       {
         "answer": "E"
       },
       {
-        "answer": "N"
+        "answer": "L"
       },
       {
-        "answer": "E"
+        "answer": "H"
       },
       {
-        "answer": "W"
+        "answer": "I"
       },
       {
-        "answer": "S",
+        "answer": "A",
         "number": 8
       },
       {
-        "answer": "A"
+        "answer": "L"
       },
       {
-        "answer": "Y"
+        "answer": "L"
       },
       {
-        "answer": "S"
+        "answer": "I"
       },
       {
-        "answer": "O"
+        "answer": "N"
       },
       null,
       null,
@@ -253,7 +253,7 @@
         "answer": "O"
       },
       {
-        "answer": "S"
+        "answer": "D"
       }
     ],
     "clues": {
@@ -263,8 +263,8 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "answer": "BIT",
-          "clue": "Part",
+          "answer": "TAG",
+          "clue": "Label",
           "source": "dataset"
         },
         {
@@ -272,8 +272,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "ADOPT",
-          "clue": "Take on",
+          "answer": "AXIOM",
+          "clue": "Accepted truth",
           "source": "dataset"
         },
         {
@@ -281,8 +281,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "RENEW",
-          "clue": "Freshen",
+          "answer": "DELHI",
+          "clue": "New ___, India",
           "source": "dataset"
         },
         {
@@ -290,8 +290,8 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "SAYSO",
-          "clue": "Final authority",
+          "answer": "ALLIN",
+          "clue": "Without reserve",
           "source": "dataset"
         },
         {
@@ -299,8 +299,8 @@
           "row": 4,
           "col": 2,
           "length": 3,
-          "answer": "SOS",
-          "clue": "Nine-symbol message",
+          "answer": "SOD",
+          "clue": "Lawn piece",
           "source": "dataset"
         }
       ],
@@ -310,8 +310,8 @@
           "row": 0,
           "col": 0,
           "length": 4,
-          "answer": "BARS",
-          "clue": "Candy units",
+          "answer": "TADA",
+          "clue": "'Et voila!'",
           "source": "dataset"
         },
         {
@@ -319,8 +319,8 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "IDEA",
-          "clue": "Brainwave",
+          "answer": "AXEL",
+          "clue": "Skating feat",
           "source": "dataset"
         },
         {
@@ -328,17 +328,17 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "TONYS",
-          "clue": "Audra McDonald has won six",
-          "source": "dataset"
+          "answer": "GILLS",
+          "clue": "Fish's breathing organs",
+          "source": "written"
         },
         {
           "number": 5,
           "row": 1,
           "col": 3,
           "length": 4,
-          "answer": "PESO",
-          "clue": "Chile money",
+          "answer": "OHIO",
+          "clue": "Akron's state",
           "source": "dataset"
         },
         {
@@ -346,8 +346,8 @@
           "row": 1,
           "col": 4,
           "length": 4,
-          "answer": "TWOS",
-          "clue": "Pairs",
+          "answer": "MIND",
+          "clue": "Care about",
           "source": "dataset"
         }
       ]

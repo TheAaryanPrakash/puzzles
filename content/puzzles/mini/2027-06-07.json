@@ -3,74 +3,83 @@
     "size": 5,
     "cells": [
       null,
-      null,
       {
-        "answer": "I",
+        "answer": "C",
         "number": 1
       },
       {
-        "answer": "D",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "S",
+        "answer": "L",
         "number": 3
       },
-      null,
       {
-        "answer": "C",
+        "answer": "F",
         "number": 4
       },
       {
-        "answer": "L"
+        "answer": "S",
+        "number": 5
       },
       {
         "answer": "U"
       },
       {
-        "answer": "E"
-      },
-      {
-        "answer": "G",
-        "number": 5
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "R",
-        "number": 6
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "K"
-      },
-      null,
-      {
-        "answer": "R",
-        "number": 7
+        "answer": "G"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "T"
+        "answer": "R"
       },
-      null,
+      {
+        "answer": "C",
+        "number": 6
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "M",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "S"
+      },
       null
     ],
     "clues": {
@@ -78,46 +87,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "IDS",
-          "clue": "Fake ___",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "CLUE",
-          "clue": "Crossword hint",
+          "answer": "CALF",
+          "clue": "Whale baby",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 2,
+          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "GHOST",
-          "clue": "Good publican offers spirit",
+          "answer": "SUGAR",
+          "clue": "Sweetener",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 3,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "answer": "RISK",
-          "clue": "Chance",
+          "length": 5,
+          "answer": "CRANE",
+          "clue": "Lifting machine",
           "source": "dataset"
         },
         {
           "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "ASIDE",
+          "clue": "Digression",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
           "row": 4,
           "col": 0,
-          "length": 3,
-          "answer": "RAT",
-          "clue": "Cheat",
+          "length": 4,
+          "answer": "MENS",
+          "clue": "___ room",
           "source": "dataset"
         }
       ],
@@ -125,46 +134,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "ILOST",
-          "clue": "Terse concession",
+          "answer": "CURSE",
+          "clue": "Witch's revenge",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "DUSK",
-          "clue": "Nightfall",
+          "col": 2,
+          "length": 5,
+          "answer": "AGAIN",
+          "clue": "'Encore!'",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 3,
-          "answer": "SET",
-          "clue": "Congeal",
+          "col": 3,
+          "length": 5,
+          "answer": "LANDS",
+          "clue": "Comes down to earth",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 1,
+          "row": 0,
+          "col": 4,
           "length": 4,
-          "answer": "CHIA",
-          "clue": "- Pet",
+          "answer": "FREE",
+          "clue": "Available",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 2,
+          "row": 1,
           "col": 0,
-          "length": 3,
-          "answer": "GRR",
-          "clue": "Fido's warning",
+          "length": 4,
+          "answer": "SCAM",
+          "clue": "Racket",
           "source": "dataset"
         }
       ]
@@ -174,8 +183,9 @@
     "size": 5,
     "cells": [
       null,
+      null,
       {
-        "answer": "B",
+        "answer": "A",
         "number": 1
       },
       {
@@ -183,72 +193,64 @@
         "number": 2
       },
       {
-        "answer": "S",
+        "answer": "A",
         "number": 3
       },
+      null,
       {
-        "answer": "S",
+        "answer": "A",
         "number": 4
       },
       {
-        "answer": "C",
+        "answer": "H"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "A",
         "number": 5
       },
       {
+        "answer": "V"
+      },
+      {
+        "answer": "E"
+      },
+      {
         "answer": "R"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "C",
+        "number": 6
+      },
+      {
+        "answer": "I"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "N"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "B",
-        "number": 6
-      },
-      {
         "answer": "O"
       },
+      null,
       {
-        "answer": "R"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "S",
+        "answer": "A",
         "number": 7
       },
       {
-        "answer": "W"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "R"
+        "answer": "D"
       },
       {
         "answer": "D"
       },
       null,
-      {
-        "answer": "N",
-        "number": 8
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "E"
-      },
       null
     ],
     "clues": {
@@ -256,46 +258,46 @@
         {
           "number": 1,
           "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "AAA",
+          "clue": "Small cell",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "BASS",
-          "clue": "Deep voice",
+          "answer": "AHEM",
+          "clue": "\"Pardon me ...\"",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "CRANE",
-          "clue": "Origami creation",
+          "answer": "AVERT",
+          "clue": "Dodge",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 3,
           "col": 0,
-          "length": 5,
-          "answer": "BORON",
-          "clue": "Element #5",
+          "length": 4,
+          "answer": "CIAO",
+          "clue": "'Bye!'",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "SWORD",
-          "clue": "Weapon",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
           "row": 4,
-          "col": 1,
+          "col": 0,
           "length": 3,
-          "answer": "NNE",
-          "clue": "Compass dir",
+          "answer": "ADD",
+          "clue": "Sum",
           "source": "dataset"
         }
       ],
@@ -303,46 +305,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "BROWN",
-          "clue": "British Rail now ruined by ex-PM",
+          "answer": "AHEAD",
+          "clue": "In the lead",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "AARON",
-          "clue": "Model ___ Philip",
+          "col": 3,
+          "length": 4,
+          "answer": "AERO",
+          "clue": "Saab model",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "SNORE",
-          "clue": "Go 'zzz'",
+          "col": 4,
+          "length": 3,
+          "answer": "AMT",
+          "clue": "Check no",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
+          "row": 1,
+          "col": 1,
           "length": 4,
-          "answer": "SEND",
-          "clue": "Fax, e.g",
+          "answer": "AVID",
+          "clue": "Eager",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
+          "row": 2,
           "col": 0,
           "length": 3,
-          "answer": "CBS",
-          "clue": "\"The Talk\" network",
+          "answer": "ACA",
+          "clue": "Obamacare initials",
           "source": "dataset"
         }
       ]

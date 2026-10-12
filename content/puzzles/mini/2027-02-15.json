@@ -3,63 +3,71 @@
     "size": 5,
     "cells": [
       null,
+      null,
       {
-        "answer": "F",
+        "answer": "L",
         "number": 1
       },
       {
-        "answer": "I",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "R",
+        "answer": "B",
         "number": 3
       },
       {
-        "answer": "E",
+        "answer": "L",
         "number": 4
       },
       {
-        "answer": "L",
+        "answer": "E",
         "number": 5
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "X"
-      },
-      {
-        "answer": "I",
-        "number": 6
-      },
-      {
-        "answer": "N"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "N"
+        "answer": "F"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "E",
+        "number": 6
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "C"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "M",
+        "answer": "E"
+      },
+      {
+        "answer": "V",
         "number": 7
       },
       {
-        "answer": "A"
+        "answer": "I"
       },
       {
-        "answer": "L"
+        "answer": "E"
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "I",
+        "number": 8
       },
       {
         "answer": "T"
@@ -67,19 +75,7 @@
       {
         "answer": "S"
       },
-      {
-        "answer": "A",
-        "number": 8
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "Y"
-      },
+      null,
       null
     ],
     "clues": {
@@ -87,19 +83,19 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "FIRE",
-          "clue": "Fervent enthusiasm",
+          "col": 2,
+          "length": 3,
+          "answer": "LAB",
+          "clue": "Science room",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "LINUX",
-          "clue": "Computer operating system with a penguin mascot",
+          "answer": "LEAFY",
+          "clue": "Like some greens",
           "source": "dataset"
         },
         {
@@ -107,8 +103,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "INANE",
-          "clue": "Silly",
+          "answer": "EMCEE",
+          "clue": "Show host",
           "source": "dataset"
         },
         {
@@ -116,17 +112,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "MALTS",
-          "clue": "Soda shop offerings",
+          "answer": "VIEWS",
+          "clue": "YouTube data",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "ALLY",
-          "clue": "Fellow fighter",
+          "length": 3,
+          "answer": "ITS",
+          "clue": "\"- a deal!\"",
           "source": "dataset"
         }
       ],
@@ -134,46 +130,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "FINAL",
-          "clue": "Last",
+          "answer": "LACES",
+          "clue": "Sneaker features",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "INALL",
-          "clue": "Counting everything",
+          "col": 3,
+          "length": 4,
+          "answer": "AFEW",
+          "clue": "Just some",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "RUNTY",
-          "clue": "Like the smallest in a litter",
+          "col": 4,
+          "length": 4,
+          "answer": "BYES",
+          "clue": "Top seeds' rewards",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
+          "row": 1,
+          "col": 0,
           "length": 4,
-          "answer": "EXES",
-          "clue": "Former spouses",
+          "answer": "LEVI",
+          "clue": "___ Strauss & Co",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 0,
+          "col": 1,
           "length": 4,
-          "answer": "LIMA",
-          "clue": "Bean variety",
+          "answer": "EMIT",
+          "clue": "Spew out",
           "source": "dataset"
         }
       ]
@@ -183,74 +179,79 @@
     "size": 5,
     "cells": [
       null,
-      null,
       {
-        "answer": "G",
+        "answer": "U",
         "number": 1
       },
       {
-        "answer": "O",
+        "answer": "G",
         "number": 2
       },
       {
-        "answer": "D",
+        "answer": "L",
         "number": 3
+      },
+      {
+        "answer": "Y",
+        "number": 4
       },
       null,
       {
-        "answer": "M",
-        "number": 4
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "J",
+        "answer": "B",
         "number": 5
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "A",
-        "number": 6
       },
       {
         "answer": "R"
       },
       {
-        "answer": "M"
-      },
-      {
-        "answer": "S"
-      },
-      null,
-      {
-        "answer": "B",
-        "number": 7
-      },
-      {
-        "answer": "Y"
+        "answer": "I"
       },
       {
         "answer": "E"
       },
+      {
+        "answer": "H",
+        "number": 6
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "O",
+        "number": 7
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "A"
+      },
       null,
+      {
+        "answer": "U",
+        "number": 8
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
       null
     ],
     "clues": {
@@ -258,46 +259,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "GOD",
-          "clue": "Zeus or Thor",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "MINI",
-          "clue": "British car",
+          "answer": "UGLY",
+          "clue": "Repulsive",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "JAMES",
-          "clue": "\"Portrait of a Lady\" author",
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "BRIE",
+          "clue": "French wheel",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 3,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "answer": "ARMS",
-          "clue": "Assets for QBs",
+          "length": 5,
+          "answer": "HEART",
+          "clue": "Courage",
           "source": "dataset"
         },
         {
           "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "ORCA",
+          "clue": "Whale type",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
           "row": 4,
           "col": 0,
-          "length": 3,
-          "answer": "BYE",
-          "clue": "\"Adios!\"",
+          "length": 4,
+          "answer": "USES",
+          "clue": "Applies",
           "source": "dataset"
         }
       ],
@@ -305,46 +306,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "GIMME",
-          "clue": "\"I want that now!\"",
+          "answer": "UBERS",
+          "clue": "Some rideshares",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "ONES",
-          "clue": "Low digits",
+          "col": 2,
+          "length": 5,
+          "answer": "GRACE",
+          "clue": "Simple elegance",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 3,
-          "answer": "DIS",
-          "clue": "Trash-talk",
+          "col": 3,
+          "length": 5,
+          "answer": "LIRAS",
+          "clue": "Turkish coins",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "MARY",
-          "clue": "One of the Tudors",
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "YET",
+          "clue": "So far",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 6,
           "row": 2,
           "col": 0,
           "length": 3,
-          "answer": "JAB",
-          "clue": "Hook partner",
+          "answer": "HOU",
+          "clue": "The Rockets, on scoreboards",
           "source": "dataset"
         }
       ]

@@ -3,71 +3,61 @@
     "size": 5,
     "cells": [
       null,
-      null,
       {
-        "answer": "C",
+        "answer": "O",
         "number": 1
       },
       {
-        "answer": "E",
+        "answer": "N",
         "number": 2
       },
       {
-        "answer": "O",
+        "answer": "E",
         "number": 3
       },
+      null,
       {
-        "answer": "T",
+        "answer": "Z",
         "number": 4
-      },
-      {
-        "answer": "H",
-        "number": 5
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "W",
-        "number": 6
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "A",
-        "number": 7
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "S"
       },
       {
         "answer": "O"
       },
       {
+        "answer": "O"
+      },
+      {
+        "answer": "M"
+      },
+      {
         "answer": "S",
-        "number": 8
+        "number": 5
+      },
+      {
+        "answer": "Z",
+        "number": 6
+      },
+      {
+        "answer": "Z"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "Z",
+        "number": 7
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
       },
       {
         "answer": "T"
@@ -76,6 +66,16 @@
         "answer": "Y"
       },
       null,
+      {
+        "answer": "D",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "E"
+      },
       null
     ],
     "clues": {
@@ -83,10 +83,10 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 3,
-          "answer": "CEO",
-          "clue": "Bus. head",
+          "answer": "ONE",
+          "clue": "A single",
           "source": "dataset"
         },
         {
@@ -94,8 +94,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "THIGH",
-          "clue": "Upper leg",
+          "answer": "ZOOMS",
+          "clue": "Whizzes (by)",
           "source": "dataset"
         },
         {
@@ -103,8 +103,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "WINGS",
-          "clue": "Alleged creation of Buffalo's Anchor Bar",
+          "answer": "ZZTOP",
+          "clue": "Frank Beard is this band's beardless member",
           "source": "dataset"
         },
         {
@@ -112,17 +112,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "ANDSO",
-          "clue": "More of our Valentine verse",
+          "answer": "ZESTY",
+          "clue": "Full of spice",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
-          "col": 0,
+          "col": 1,
           "length": 3,
-          "answer": "STY",
-          "clue": "Pig's place",
+          "answer": "DOE",
+          "clue": "Ms Deer",
           "source": "dataset"
         }
       ],
@@ -130,46 +130,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "CINDY",
-          "clue": "___ Williams, player of Shirley on 'Laverne & Shirley'",
+          "answer": "OOZED",
+          "clue": "Seeped",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "EGGS",
-          "clue": "Roe",
+          "col": 2,
+          "length": 5,
+          "answer": "NOTSO",
+          "clue": "'Untrue!'",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "OHSO",
-          "clue": "Too, too",
+          "col": 3,
+          "length": 5,
+          "answer": "EMOTE",
+          "clue": "Gush",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 1,
           "col": 0,
-          "length": 4,
-          "answer": "TWAS",
-          "clue": "Moore poem opener",
+          "length": 3,
+          "answer": "ZZZ",
+          "clue": "Only three-letter word in Scrabble that requires both blank tiles",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "HINT",
-          "clue": "Slight taste",
+          "col": 4,
+          "length": 3,
+          "answer": "SPY",
+          "clue": "Operative",
           "source": "dataset"
         }
       ]
@@ -178,41 +178,59 @@
   "reserve": {
     "size": 5,
     "cells": [
+      null,
       {
-        "answer": "L",
+        "answer": "A",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "J",
         "number": 2
       },
       {
-        "answer": "W",
+        "answer": "A",
         "number": 3
       },
-      null,
-      null,
       {
-        "answer": "A",
+        "answer": "X",
         "number": 4
       },
+      null,
       {
-        "answer": "L"
+        "answer": "L",
+        "number": 5
       },
       {
         "answer": "O"
       },
       {
-        "answer": "O",
-        "number": 5
+        "answer": "V"
       },
       {
-        "answer": "F",
+        "answer": "E"
+      },
+      {
+        "answer": "Y",
         "number": 6
       },
       {
-        "answer": "V",
+        "answer": "I"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "U",
         "number": 7
+      },
+      {
+        "answer": "B"
       },
       {
         "answer": "E"
@@ -220,86 +238,67 @@
       {
         "answer": "R"
       },
+      null,
       {
-        "answer": "D"
+        "answer": "K",
+        "number": 8
       },
       {
         "answer": "I"
       },
       {
-        "answer": "A",
-        "number": 8
+        "answer": "S"
       },
       {
-        "answer": "C"
+        "answer": "S"
       },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "R"
-      },
-      null,
-      null,
-      {
-        "answer": "H",
-        "number": 9
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "M"
-      }
+      null
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 3,
-          "answer": "LAW",
-          "clue": "Bar study",
+          "col": 1,
+          "length": 4,
+          "answer": "AJAX",
+          "clue": "Powder cleanser brand",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "LOVE",
+          "clue": "Adore",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ALOOF",
-          "clue": "Unapproachable",
+          "answer": "YIKES",
+          "clue": "'Uh-oh!'",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 2,
+          "row": 3,
           "col": 0,
-          "length": 5,
-          "answer": "VERDI",
-          "clue": "\"La Traviata\" composer",
+          "length": 4,
+          "answer": "UBER",
+          "clue": "Summoned ride",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "ACTOR",
-          "clue": "Thespian",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
           "row": 4,
-          "col": 2,
-          "length": 3,
-          "answer": "HMM",
-          "clue": "\"Interesting\"",
+          "col": 0,
+          "length": 4,
+          "answer": "KISS",
+          "clue": "Smack",
           "source": "dataset"
         }
       ],
@@ -307,46 +306,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 4,
-          "answer": "LAVA",
-          "clue": "Kilauea flow",
+          "col": 1,
+          "length": 5,
+          "answer": "ALIBI",
+          "clue": "Excuse",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "ALEC",
-          "clue": "Author Waugh",
+          "col": 2,
+          "length": 5,
+          "answer": "JOKES",
+          "clue": "'Inside' ones may be hard to get",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
+          "col": 3,
           "length": 5,
-          "answer": "WORTH",
-          "clue": "Usefulness",
+          "answer": "AVERS",
+          "clue": "Declares",
           "source": "dataset"
         },
         {
-          "number": 5,
-          "row": 1,
-          "col": 3,
-          "length": 4,
-          "answer": "ODOM",
-          "clue": "Former L.A. Laker Lamar",
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "XES",
+          "clue": "Marks a ballot",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 1,
-          "col": 4,
-          "length": 4,
-          "answer": "FIRM",
-          "clue": "Company",
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "YUK",
+          "clue": "Guffaw",
           "source": "dataset"
         }
       ]

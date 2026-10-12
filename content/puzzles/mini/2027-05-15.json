@@ -275,77 +275,77 @@
     "cells": [
       null,
       {
-        "answer": "S",
+        "answer": "M",
         "number": 1
       },
       {
-        "answer": "H",
+        "answer": "I",
         "number": 2
       },
       {
-        "answer": "O",
+        "answer": "C",
         "number": 3
       },
       {
-        "answer": "W",
+        "answer": "E",
         "number": 4
       },
       null,
       {
-        "answer": "L",
+        "answer": "E",
         "number": 5
       },
       {
-        "answer": "I"
-      },
-      {
-        "answer": "F"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S",
-        "number": 6
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "F"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "I",
-        "number": 7
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "E"
-      },
-      null,
-      {
-        "answer": "C",
-        "number": 8
+        "answer": "C"
       },
       {
         "answer": "H"
       },
       {
+        "answer": "O"
+      },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "I"
+      },
+      {
         "answer": "E"
       },
       {
-        "answer": "R"
+        "answer": "N"
+      },
+      {
+        "answer": "L",
+        "number": 7
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "L",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "S"
       },
       null
     ],
@@ -356,8 +356,8 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "SHOW",
-          "clue": "Unmask",
+          "answer": "MICE",
+          "clue": "Lab runners",
           "source": "dataset"
         },
         {
@@ -365,8 +365,8 @@
           "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "LIFE",
-          "clue": "Supreme Court term",
+          "answer": "ECHO",
+          "clue": "Imitate",
           "source": "dataset"
         },
         {
@@ -374,8 +374,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "SURFS",
-          "clue": "Gets on board (wordplay)",
+          "answer": "ALIEN",
+          "clue": "Romulan, e.g",
           "source": "dataset"
         },
         {
@@ -383,8 +383,8 @@
           "row": 3,
           "col": 0,
           "length": 4,
-          "answer": "ISEE",
-          "clue": "\"Ohhh!\"",
+          "answer": "LENS",
+          "clue": "Camera glass",
           "source": "dataset"
         },
         {
@@ -392,8 +392,8 @@
           "row": 4,
           "col": 0,
           "length": 4,
-          "answer": "CHER",
-          "clue": "'Moonstruck' star",
+          "answer": "LEGS",
+          "clue": "Limbs",
           "source": "dataset"
         }
       ],
@@ -403,8 +403,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "SLUSH",
-          "clue": "Semi-wet snow",
+          "answer": "MELEE",
+          "clue": "Affray",
           "source": "dataset"
         },
         {
@@ -412,8 +412,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "HIREE",
-          "clue": "Newly employed person",
+          "answer": "ICING",
+          "clue": "Topping in a bag",
           "source": "dataset"
         },
         {
@@ -421,8 +421,8 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "OFFER",
-          "clue": "Bid",
+          "answer": "CHESS",
+          "clue": "Mating game",
           "source": "dataset"
         },
         {
@@ -430,8 +430,8 @@
           "row": 0,
           "col": 4,
           "length": 3,
-          "answer": "WES",
-          "clue": "'Isle of Dogs' director Anderson",
+          "answer": "EON",
+          "clue": "Mega years",
           "source": "dataset"
         },
         {
@@ -439,8 +439,8 @@
           "row": 2,
           "col": 0,
           "length": 3,
-          "answer": "SIC",
-          "clue": "Attack command",
+          "answer": "ALL",
+          "clue": "___ ears",
           "source": "dataset"
         }
       ]

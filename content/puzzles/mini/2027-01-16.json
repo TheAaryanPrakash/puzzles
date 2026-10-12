@@ -301,12 +301,13 @@
   "reserve": {
     "size": 5,
     "cells": [
+      null,
       {
-        "answer": "C",
+        "answer": "F",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "I",
         "number": 2
       },
       {
@@ -314,88 +315,86 @@
         "number": 3
       },
       {
-        "answer": "E",
+        "answer": "H",
         "number": 4
       },
       null,
       {
-        "answer": "A",
+        "answer": "E",
         "number": 5
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "N"
-      },
-      null,
-      {
-        "answer": "P",
-        "number": 6
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "S",
-        "number": 7
-      },
-      null,
-      {
-        "answer": "N",
-        "number": 8
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "T"
-      },
-      null,
-      {
-        "answer": "G",
-        "number": 9
-      },
-      {
-        "answer": "A"
       },
       {
         "answer": "R"
       },
       {
-        "answer": "Y"
-      }
+        "answer": "I"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "B",
+        "number": 6
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "X"
+      },
+      {
+        "answer": "Y",
+        "number": 7
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "G"
+      },
+      null,
+      {
+        "answer": "E",
+        "number": 8
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
+      },
+      null
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
+          "col": 1,
           "length": 4,
-          "answer": "CASE",
-          "clue": "Beer buy",
+          "answer": "FISH",
+          "clue": "Pike or perch",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 0,
+          "col": 1,
           "length": 4,
-          "answer": "AMEN",
-          "clue": "\"Agreed!\"",
+          "answer": "ERIE",
+          "clue": "One of HOMES",
           "source": "dataset"
         },
         {
@@ -403,26 +402,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "POETS",
-          "clue": "Odists, e.g",
+          "answer": "BRONX",
+          "clue": "Birthplace of hip-hop",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "YANG",
+          "clue": "Cristina ___, Sandra Oh's \"Grey's Anatomy\" role",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 1,
-          "length": 4,
-          "answer": "NYET",
-          "clue": "No, to Nabokov",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
           "row": 4,
-          "col": 1,
+          "col": 0,
           "length": 4,
-          "answer": "GARY",
-          "clue": "Actor Sinise of \"Forrest Gump\"",
+          "answer": "ELSE",
+          "clue": "Choice word",
           "source": "dataset"
         }
       ],
@@ -430,46 +429,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 3,
-          "answer": "CAP",
-          "clue": "Limit",
+          "col": 1,
+          "length": 5,
+          "answer": "FERAL",
+          "clue": "Unbroken",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "AMONG",
-          "clue": "Included with",
+          "answer": "IRONS",
+          "clue": "Clubs at clubs",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
+          "col": 3,
           "length": 5,
-          "answer": "SEEYA",
-          "clue": "'I'm out'",
+          "answer": "SINGE",
+          "clue": "Burn slightly",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "ENTER",
-          "clue": "Log",
+          "col": 4,
+          "length": 3,
+          "answer": "HEX",
+          "clue": "Magical curse",
           "source": "dataset"
         },
         {
-          "number": 7,
+          "number": 6,
           "row": 2,
-          "col": 4,
+          "col": 0,
           "length": 3,
-          "answer": "STY",
-          "clue": "Pig's place",
+          "answer": "BYE",
+          "clue": "\"Later\"",
           "source": "dataset"
         }
       ]

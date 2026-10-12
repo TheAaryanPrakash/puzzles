@@ -4,19 +4,19 @@
     "cells": [
       null,
       {
-        "answer": "B",
+        "answer": "C",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "Y",
         "number": 2
       },
       {
-        "answer": "I",
+        "answer": "A",
         "number": 3
       },
       {
-        "answer": "L",
+        "answer": "N",
         "number": 4
       },
       null,
@@ -25,56 +25,58 @@
         "number": 5
       },
       {
+        "answer": "O"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "R",
+        "number": 7
+      },
+      {
         "answer": "U"
       },
       {
         "answer": "N"
       },
       {
-        "answer": "A"
+        "answer": "E"
       },
       {
-        "answer": "M",
-        "number": 6
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "Y"
+        "answer": "S"
       },
       {
         "answer": "E",
-        "number": 7
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "E"
-      },
-      null,
-      {
-        "answer": "X",
         "number": 8
       },
       {
-        "answer": "B"
+        "answer": "D"
       },
       {
-        "answer": "O"
+        "answer": "G"
       },
       {
-        "answer": "X"
+        "answer": "Y"
       },
       null
     ],
@@ -85,8 +87,8 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "BAIL",
-          "clue": "Court security",
+          "answer": "CYAN",
+          "clue": "Printer's colour",
           "source": "dataset"
         },
         {
@@ -94,8 +96,8 @@
           "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "LUNA",
-          "clue": "Roman counterpart of the Greek goddess Selene",
+          "answer": "LOBE",
+          "clue": "Earring site",
           "source": "dataset"
         },
         {
@@ -103,17 +105,17 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "MUDDY",
-          "clue": "Not clear, as water",
-          "source": "written"
+          "answer": "DOUBT",
+          "clue": "Have reservations about",
+          "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 4,
-          "answer": "ERIE",
-          "clue": "Great Lake",
+          "length": 5,
+          "answer": "RUNES",
+          "clue": "Ancient letters",
           "source": "dataset"
         },
         {
@@ -121,8 +123,8 @@
           "row": 4,
           "col": 0,
           "length": 4,
-          "answer": "XBOX",
-          "clue": "Microsoft game console",
+          "answer": "EDGY",
+          "clue": "Avant-garde",
           "source": "dataset"
         }
       ],
@@ -132,8 +134,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "BLURB",
-          "clue": "Book jacket bit",
+          "answer": "CLOUD",
+          "clue": "On ___ nine (very happy)",
           "source": "dataset"
         },
         {
@@ -141,8 +143,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "AUDIO",
-          "clue": "Broadcast sound",
+          "answer": "YOUNG",
+          "clue": "Like a lamb",
           "source": "dataset"
         },
         {
@@ -150,17 +152,17 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "INDEX",
-          "clue": "Book section",
+          "answer": "ABBEY",
+          "clue": "Nuns' residence",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
           "col": 4,
-          "length": 3,
-          "answer": "LAY",
-          "clue": "Place down",
+          "length": 4,
+          "answer": "NETS",
+          "clue": "Realizes",
           "source": "dataset"
         },
         {
@@ -168,8 +170,8 @@
           "row": 2,
           "col": 0,
           "length": 3,
-          "answer": "MEX",
-          "clue": "U.S. neighbor",
+          "answer": "DRE",
+          "clue": "Dr. of rap",
           "source": "dataset"
         }
       ]
@@ -179,11 +181,11 @@
     "size": 5,
     "cells": [
       {
-        "answer": "S",
+        "answer": "B",
         "number": 1
       },
       {
-        "answer": "L",
+        "answer": "R",
         "number": 2
       },
       {
@@ -191,54 +193,54 @@
         "number": 3
       },
       {
-        "answer": "S",
+        "answer": "I",
         "number": 4
       },
       {
-        "answer": "H",
+        "answer": "N",
         "number": 5
       },
       {
-        "answer": "T",
+        "answer": "R",
         "number": 6
       },
       {
         "answer": "A"
       },
       {
-        "answer": "B"
+        "answer": "I"
       },
       {
-        "answer": "O"
+        "answer": "N"
       },
       {
-        "answer": "O"
+        "answer": "Y"
       },
       {
-        "answer": "O",
+        "answer": "I",
         "number": 7
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "L"
       },
       {
         "answer": "S"
       },
       {
-        "answer": "P",
-        "number": 8
+        "answer": "S"
+      },
+      {
+        "answer": "U"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "T"
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "L"
       },
       {
         "answer": "I"
@@ -246,22 +248,18 @@
       {
         "answer": "T"
       },
+      null,
       {
-        "answer": "S",
+        "answer": "Y",
         "number": 9
-      },
-      {
-        "answer": "L"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "D"
+        "answer": "T"
       },
-      {
-        "answer": "S"
-      }
+      null
     ],
     "clues": {
       "across": [
@@ -270,8 +268,8 @@
           "row": 0,
           "col": 0,
           "length": 5,
-          "answer": "SLASH",
-          "clue": "Really mark down",
+          "answer": "BRAIN",
+          "clue": "Cerebrum's place",
           "source": "dataset"
         },
         {
@@ -279,8 +277,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "TABOO",
-          "clue": "Banned",
+          "answer": "RAINY",
+          "clue": "Like stereotypical Seattle weather",
           "source": "dataset"
         },
         {
@@ -288,8 +286,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "OPALS",
-          "clue": "October gems",
+          "answer": "ISSUE",
+          "clue": "Progeny",
           "source": "dataset"
         },
         {
@@ -297,17 +295,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "PETIT",
-          "clue": "French for 'small'",
+          "answer": "SPLIT",
+          "clue": "Get away",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 0,
-          "length": 5,
-          "answer": "SLEDS",
-          "clue": "Some coasters",
+          "col": 1,
+          "length": 3,
+          "answer": "YET",
+          "clue": "As ___",
           "source": "dataset"
         }
       ],
@@ -316,9 +314,9 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 5,
-          "answer": "STOPS",
-          "clue": "Halts",
+          "length": 4,
+          "answer": "BRIS",
+          "clue": "Eighth-day rite",
           "source": "dataset"
         },
         {
@@ -326,8 +324,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "LAPEL",
-          "clue": "Flap for a mic",
+          "answer": "RASPY",
+          "clue": "Far from honeyed",
           "source": "dataset"
         },
         {
@@ -335,8 +333,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ABATE",
-          "clue": "Recede",
+          "answer": "AISLE",
+          "clue": "Passage",
           "source": "dataset"
         },
         {
@@ -344,17 +342,17 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "SOLID",
-          "clue": "Strongly made",
+          "answer": "INUIT",
+          "clue": "Northern people",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 0,
           "col": 4,
-          "length": 5,
-          "answer": "HOSTS",
-          "clue": "Multitudes",
+          "length": 4,
+          "answer": "NYET",
+          "clue": "No, to Nabokov",
           "source": "dataset"
         }
       ]

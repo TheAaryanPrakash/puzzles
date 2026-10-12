@@ -4,77 +4,81 @@
     "cells": [
       null,
       {
-        "answer": "H",
+        "answer": "G",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "L",
         "number": 2
       },
       {
-        "answer": "M",
+        "answer": "A",
         "number": 3
       },
-      null,
       {
-        "answer": "P",
+        "answer": "D",
         "number": 4
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "U"
       },
       {
         "answer": "P",
         "number": 5
       },
       {
-        "answer": "L",
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "Z"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E",
         "number": 6
       },
       {
         "answer": "A"
       },
       {
+        "answer": "T"
+      },
+      {
+        "answer": "U"
+      },
+      {
         "answer": "P"
       },
       {
-        "answer": "S"
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "V"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "S",
-        "number": 7
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "I"
+        "answer": "R"
       },
       {
         "answer": "T"
       },
-      null,
       {
-        "answer": "S",
+        "answer": "L",
         "number": 8
       },
       {
-        "answer": "E"
+        "answer": "Y"
       },
       {
-        "answer": "C"
+        "answer": "R"
+      },
+      {
+        "answer": "E"
       },
       null
     ],
@@ -84,18 +88,18 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 3,
-          "answer": "HAM",
-          "clue": "Stage hog",
+          "length": 4,
+          "answer": "GLAD",
+          "clue": "Happy",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "PEPUP",
-          "clue": "Invigorate",
+          "answer": "PRIZE",
+          "clue": "Nobel, for one",
           "source": "dataset"
         },
         {
@@ -103,8 +107,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "LAPSE",
-          "clue": "Failure",
+          "answer": "EATUP",
+          "clue": "Devour",
           "source": "dataset"
         },
         {
@@ -112,17 +116,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "SPLIT",
-          "clue": "Rend",
+          "answer": "AVERT",
+          "clue": "Dodge",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
-          "col": 1,
-          "length": 3,
-          "answer": "SEC",
-          "clue": "Min/60",
+          "col": 0,
+          "length": 4,
+          "answer": "LYRE",
+          "clue": "Apollo's instrument",
           "source": "dataset"
         }
       ],
@@ -132,8 +136,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "HEAPS",
-          "clue": "Unruly piles",
+          "answer": "GRAVY",
+          "clue": "Turkey topper",
           "source": "dataset"
         },
         {
@@ -141,8 +145,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "APPLE",
-          "clue": "Pipped fruit",
+          "answer": "LITER",
+          "clue": "Soda bottle buy",
           "source": "dataset"
         },
         {
@@ -150,26 +154,26 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "MUSIC",
-          "clue": "Noted work",
+          "answer": "AZURE",
+          "clue": "Sky blue",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 3,
-          "answer": "PLS",
-          "clue": "Texting counterpart of 'ty'",
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "DEPT",
+          "clue": "Corp. division",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 4,
-          "length": 3,
-          "answer": "PET",
-          "clue": "Stroke",
+          "col": 0,
+          "length": 4,
+          "answer": "PEAL",
+          "clue": "Ring",
           "source": "dataset"
         }
       ]
@@ -178,84 +182,89 @@
   "reserve": {
     "size": 5,
     "cells": [
-      null,
       {
-        "answer": "E",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "L",
+        "answer": "W",
         "number": 2
       },
       {
-        "answer": "F",
+        "answer": "O",
         "number": 3
       },
-      null,
       {
-        "answer": "S",
+        "answer": "R",
         "number": 4
-      },
-      {
-        "answer": "Q"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "A"
       },
       {
         "answer": "D",
         "number": 5
       },
       {
-        "answer": "O",
+        "answer": "T",
         "number": 6
       },
       {
-        "answer": "U"
+        "answer": "A"
       },
       {
-        "answer": "N"
-      },
-      {
-        "answer": "C"
+        "answer": "P"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "D",
+        "answer": "R"
+      },
+      {
+        "answer": "A",
         "number": 7
       },
       {
-        "answer": "U"
-      },
-      {
-        "answer": "G"
+        "answer": "T"
       },
       {
         "answer": "I"
       },
       {
-        "answer": "N"
-      },
-      {
-        "answer": "A",
-        "number": 8
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "S"
+        "answer": "M"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "T"
+        "answer": "M",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "P",
+        "number": 9
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "S"
       }
     ],
     "clues": {
@@ -263,46 +272,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 3,
-          "answer": "ELF",
-          "clue": "Pixie, imp",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "SQUAD",
-          "clue": "Group of soldiers - team of players",
+          "answer": "SWORD",
+          "clue": "Dubbing need",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "OUNCE",
-          "clue": "Small weight",
+          "answer": "TAPER",
+          "clue": "Come to a point",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "DUGIN",
-          "clue": "Began eating",
+          "answer": "ATIME",
+          "clue": "\"One Day at -\" (sitcom)",
           "source": "dataset"
         },
         {
           "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "MENUS",
+          "clue": "Restaurant stack",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
           "row": 4,
           "col": 0,
           "length": 5,
-          "answer": "ASSET",
-          "clue": "Strength",
+          "answer": "PRESS",
+          "clue": "Iron clasp",
           "source": "dataset"
         }
       ],
@@ -310,46 +319,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 0,
           "length": 5,
-          "answer": "EQUUS",
-          "clue": "Lumet film whose title is Latin for \"horse\"",
+          "answer": "STAMP",
+          "clue": "Postage",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "LUNGS",
-          "clue": "Chest organs",
+          "answer": "WATER",
+          "clue": "Common liquid",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
+          "col": 2,
           "length": 5,
-          "answer": "FACIE",
-          "clue": "Prima ___ (self-evident, in law)",
-          "source": "written"
+          "answer": "OPINE",
+          "clue": "Speak out",
+          "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "SODA",
-          "clue": "Bar mixer",
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "REMUS",
+          "clue": "Uncle ___",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
+          "row": 0,
           "col": 4,
-          "length": 4,
-          "answer": "DENT",
-          "clue": "Fender bump",
+          "length": 5,
+          "answer": "DRESS",
+          "clue": "Clothe",
           "source": "dataset"
         }
       ]

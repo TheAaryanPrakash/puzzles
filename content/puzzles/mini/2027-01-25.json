@@ -4,38 +4,27 @@
     "cells": [
       null,
       {
-        "answer": "B",
+        "answer": "D",
         "number": 1
       },
       {
-        "answer": "Z",
+        "answer": "R",
         "number": 2
       },
       {
-        "answer": "Z",
+        "answer": "A",
         "number": 3
       },
-      null,
       {
-        "answer": "F",
+        "answer": "G",
         "number": 4
       },
       {
-        "answer": "R"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "T",
+        "answer": "C",
         "number": 5
       },
       {
-        "answer": "O",
-        "number": 6
+        "answer": "U"
       },
       {
         "answer": "O"
@@ -44,38 +33,49 @@
         "answer": "M"
       },
       {
-        "answer": "P"
+        "answer": "O"
       },
       {
-        "answer": "H"
-      },
-      {
-        "answer": "B",
-        "number": 7
+        "answer": "M",
+        "number": 6
       },
       {
         "answer": "O"
       },
       {
-        "answer": "B"
+        "answer": "W"
       },
       {
-        "answer": "B"
+        "answer": "E"
       },
       {
-        "answer": "Y"
+        "answer": "D"
+      },
+      {
+        "answer": "O",
+        "number": 7
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
       },
       null,
       {
-        "answer": "M",
+        "answer": "N",
         "number": 8
       },
       {
-        "answer": "A"
+        "answer": "O"
       },
       {
-        "answer": "Y"
+        "answer": "D"
       },
+      null,
       null
     ],
     "clues": {
@@ -84,18 +84,18 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 3,
-          "answer": "BZZ",
-          "clue": "Buzzer's sound",
-          "source": "written"
+          "length": 4,
+          "answer": "DRAG",
+          "clue": "___ queen",
+          "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "FRUIT",
-          "clue": "___ Roll-Ups",
+          "answer": "CUOMO",
+          "clue": "Family name in New York politics",
           "source": "dataset"
         },
         {
@@ -103,26 +103,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "OOMPH",
-          "clue": "Vigor",
+          "answer": "MOWED",
+          "clue": "Worked in the yard",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 5,
-          "answer": "BOBBY",
-          "clue": "Man is 25, single and collects books",
+          "length": 4,
+          "answer": "OMEN",
+          "clue": "Herald",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
-          "col": 1,
+          "col": 0,
           "length": 3,
-          "answer": "MAY",
-          "clue": "Hedging word",
+          "answer": "NOD",
+          "clue": "Drop off",
           "source": "dataset"
         }
       ],
@@ -132,8 +132,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "BROOM",
-          "clue": "Witch craft",
+          "answer": "DUOMO",
+          "clue": "Florentine attraction",
           "source": "dataset"
         },
         {
@@ -141,35 +141,35 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ZUMBA",
-          "clue": "Jazzercise cousin",
+          "answer": "ROWED",
+          "clue": "Manned the oars",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
           "col": 3,
-          "length": 5,
-          "answer": "ZIPBY",
-          "clue": "Speed past quickly, with 'by'",
-          "source": "written"
+          "length": 4,
+          "answer": "AMEN",
+          "clue": "So be it!",
+          "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
+          "row": 0,
+          "col": 4,
           "length": 3,
-          "answer": "FOB",
-          "clue": "Watch attachment",
+          "answer": "GOD",
+          "clue": "'Geez!'",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 4,
-          "length": 3,
-          "answer": "THY",
-          "clue": "Biblical 'your'",
+          "col": 0,
+          "length": 4,
+          "answer": "CMON",
+          "clue": "\"Speed it up!\"",
           "source": "dataset"
         }
       ]
@@ -179,85 +179,85 @@
     "size": 5,
     "cells": [
       {
-        "answer": "A",
+        "answer": "F",
         "number": 1
       },
       {
-        "answer": "F",
+        "answer": "L",
         "number": 2
       },
       {
-        "answer": "C",
+        "answer": "U",
         "number": 3
       },
-      null,
-      null,
       {
-        "answer": "N",
+        "answer": "F",
         "number": 4
+      },
+      {
+        "answer": "F",
+        "number": 5
+      },
+      {
+        "answer": "L",
+        "number": 6
       },
       {
         "answer": "O"
       },
       {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
         "answer": "R"
       },
       {
-        "answer": "T",
-        "number": 5
-      },
-      {
-        "answer": "H",
-        "number": 6
-      },
-      {
-        "answer": "D",
+        "answer": "O",
         "number": 7
       },
       {
+        "answer": "U"
+      },
+      {
+        "answer": "T"
+      },
+      {
         "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "U",
+        "number": 8
+      },
+      {
+        "answer": "S"
       },
       {
         "answer": "I"
       },
       {
-        "answer": "V"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "O",
-        "number": 8
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "A"
-      },
-      {
         "answer": "N"
+      },
+      {
+        "answer": "G"
       },
       {
         "answer": "R",
         "number": 9
       },
       {
+        "answer": "Y"
+      },
+      {
         "answer": "E"
       },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "S"
-      }
+      null,
+      null
     ],
     "clues": {
       "across": [
@@ -265,18 +265,18 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 3,
-          "answer": "AFC",
-          "clue": "The LA Chargers play in it",
+          "length": 5,
+          "answer": "FLUFF",
+          "clue": "Written material of no consequence",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 6,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "NORTH",
-          "clue": "Cardinal point",
+          "answer": "LONER",
+          "clue": "Recluse",
           "source": "dataset"
         },
         {
@@ -284,8 +284,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "DRIVE",
-          "clue": "Car trip",
+          "answer": "OUTRO",
+          "clue": "Musical close",
           "source": "dataset"
         },
         {
@@ -293,18 +293,18 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "OCEAN",
-          "clue": "Large sea",
+          "answer": "USING",
+          "clue": "On drugs",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
           "col": 0,
-          "length": 5,
-          "answer": "REDDS",
-          "clue": "___' Apple, flavored malt beverage brand",
-          "source": "written"
+          "length": 3,
+          "answer": "RYE",
+          "clue": "Diner loaf",
+          "source": "dataset"
         }
       ],
       "down": [
@@ -313,8 +313,8 @@
           "row": 0,
           "col": 0,
           "length": 5,
-          "answer": "ANDOR",
-          "clue": "Slashed conjunction",
+          "answer": "FLOUR",
+          "clue": "Pancake maker's need",
           "source": "dataset"
         },
         {
@@ -322,8 +322,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "FORCE",
-          "clue": "Physical strength",
+          "answer": "LOUSY",
+          "clue": "Crummy",
           "source": "dataset"
         },
         {
@@ -331,26 +331,26 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "CRIED",
-          "clue": "Showed sorrow",
+          "answer": "UNTIE",
+          "clue": "Loosen",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "FERN",
+          "clue": "Forest plant",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 3,
-          "length": 4,
-          "answer": "TVAD",
-          "clue": "Spot on the tube",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 1,
+          "row": 0,
           "col": 4,
           "length": 4,
-          "answer": "HENS",
-          "clue": "Farm cluckers",
+          "answer": "FROG",
+          "clue": "Former tadpole",
           "source": "dataset"
         }
       ]

@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "UNCHANGING",
+        "level": 0,
+        "words": [
+          "STABLE",
+          "EVEN",
+          "LEVEL",
+          "STEADY"
+        ]
+      },
+      {
+        "label": "LONG, SHARP OBJECTS",
+        "level": 1,
+        "words": [
+          "PIN",
+          "LANCE",
+          "SKEWER",
+          "SPIT"
+        ]
+      },
+      {
+        "label": "MUSIC PUBLICATIONS",
+        "level": 2,
+        "words": [
+          "SPIN",
+          "PITCHFORK",
+          "ROLLING STONE",
+          "BILLBOARD"
+        ]
+      },
+      {
+        "label": "WORDS WITH NUMERICAL PREFIXES",
+        "level": 3,
+        "words": [
+          "BICYCLE",
+          "TRILOGY",
+          "UNIFORM",
+          "QUADRANT"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "DRINK VESSELS",
+        "level": 0,
+        "words": [
+          "STEIN",
+          "TUMBLER",
+          "GOBLET",
+          "SNIFTER"
+        ]
+      },
+      {
+        "label": "WOODWINDS",
+        "level": 1,
+        "words": [
+          "FLUTE",
+          "OBOE",
+          "CLARINET",
+          "SAXOPHONE"
+        ]
+      },
+      {
+        "label": "AMERICAN POETS",
+        "level": 2,
+        "words": [
+          "POUND",
+          "BISHOP",
+          "FROST",
+          "OLDS"
+        ]
+      },
+      {
+        "label": "CONSECUTIVE DOUBLE LETTERS",
+        "level": 3,
+        "words": [
+          "COFFEE",
+          "FRICASSEE",
+          "BASSOON",
+          "BALLOON"
+        ]
+      }
+    ]
+  }
+}

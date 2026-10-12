@@ -3,211 +3,57 @@
     "size": 5,
     "cells": [
       {
-        "answer": "C",
+        "answer": "P",
         "number": 1
       },
       {
-        "answer": "L",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "A",
+        "answer": "S",
         "number": 3
       },
       {
         "answer": "S",
         "number": 4
       },
+      null,
       {
-        "answer": "S",
+        "answer": "O",
         "number": 5
       },
       {
-        "answer": "H",
-        "number": 6
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "E",
-        "number": 7
-      },
-      {
-        "answer": "I"
+        "answer": "P"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "I"
+        "answer": "N"
       },
+      null,
       {
-        "answer": "O"
-      },
-      {
-        "answer": "F",
-        "number": 8
-      },
-      {
-        "answer": "R"
+        "answer": "T",
+        "number": 6
       },
       {
         "answer": "A"
       },
       {
-        "answer": "N"
+        "answer": "P"
       },
       {
-        "answer": "K"
-      },
-      null,
-      {
-        "answer": "E",
-        "number": 9
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "Y"
-      }
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 0,
-          "length": 5,
-          "answer": "CLASS",
-          "clue": "Set, category",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "HOHUM",
-          "clue": "Blah",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "EIEIO",
-          "clue": "\". . . had a farm, ___\"",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "FRANK",
-          "clue": "Candid",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
-          "row": 4,
-          "col": 1,
-          "length": 4,
-          "answer": "EDGY",
-          "clue": "Daring",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 0,
-          "length": 4,
-          "answer": "CHEF",
-          "clue": "Gourmet cook",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "LOIRE",
-          "clue": "River through Nantes",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "AHEAD",
-          "clue": "Upcoming",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "SUING",
-          "clue": "Pursuing legal recourse",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 0,
-          "col": 4,
-          "length": 5,
-          "answer": "SMOKY",
-          "clue": "Like Russian Caravan tea",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 5,
-    "cells": [
-      {
-        "answer": "G",
-        "number": 1
-      },
-      {
-        "answer": "O",
-        "number": 2
-      },
-      {
-        "answer": "D",
-        "number": 3
+        "answer": "A"
       },
       {
         "answer": "S",
-        "number": 4
+        "number": 7
       },
       null,
       {
-        "answer": "E",
-        "number": 5
-      },
-      {
-        "answer": "D"
+        "answer": "R",
+        "number": 8
       },
       {
         "answer": "I"
@@ -216,54 +62,21 @@
         "answer": "C"
       },
       {
-        "answer": "T",
-        "number": 6
-      },
-      {
-        "answer": "N",
-        "number": 7
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "T",
-        "number": 8
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "B"
-      },
-      {
         "answer": "E"
       },
       null,
       {
-        "answer": "S",
+        "answer": "T",
         "number": 9
-      },
-      {
-        "answer": "T"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "Y"
+        "answer": "K"
+      },
+      {
+        "answer": "E"
       }
     ],
     "clues": {
@@ -273,35 +86,35 @@
           "row": 0,
           "col": 0,
           "length": 4,
-          "answer": "GODS",
-          "clue": "Odin and Thor",
+          "answer": "PASS",
+          "clue": "'No thanks'",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
           "col": 0,
-          "length": 5,
-          "answer": "EDICT",
-          "clue": "Official order",
+          "length": 4,
+          "answer": "OPEN",
+          "clue": "Candid",
           "source": "dataset"
         },
         {
-          "number": 7,
+          "number": 6,
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "NODUH",
-          "clue": "\"Obviously!\"",
+          "answer": "TAPAS",
+          "clue": "___ bar",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "TRIBE",
-          "clue": "Choctaw or Cocopah",
+          "col": 1,
+          "length": 4,
+          "answer": "RICE",
+          "clue": "Pongal grain",
           "source": "dataset"
         },
         {
@@ -309,8 +122,8 @@
           "row": 4,
           "col": 1,
           "length": 4,
-          "answer": "STAY",
-          "clue": "Visit",
+          "answer": "TAKE",
+          "clue": "Carry off",
           "source": "dataset"
         }
       ],
@@ -319,9 +132,9 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 4,
-          "answer": "GENT",
-          "clue": "Decent chap",
+          "length": 3,
+          "answer": "POT",
+          "clue": "Grass",
           "source": "dataset"
         },
         {
@@ -329,8 +142,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "ODORS",
-          "clue": "Stinky smells",
+          "answer": "APART",
+          "clue": "Separated",
           "source": "dataset"
         },
         {
@@ -338,8 +151,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "DIDIT",
-          "clue": "Finished the work",
+          "answer": "SEPIA",
+          "clue": "Retro finish",
           "source": "dataset"
         },
         {
@@ -347,17 +160,315 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "SCUBA",
-          "clue": "Tank acronym",
+          "answer": "SNACK",
+          "clue": "It's easy to take in Nero, the leader consumed by Fire",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "answer": "SEE",
+          "clue": "Notice",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 7,
+    "cells": [
+      null,
+      null,
+      null,
+      {
+        "answer": "P",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "N",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "C",
+        "number": 4
+      },
+      {
+        "answer": "H",
+        "number": 5
+      },
+      {
+        "answer": "E",
+        "number": 6
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "O",
+        "number": 7
+      },
+      {
+        "answer": "O",
+        "number": 8
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "A",
+        "number": 9
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "P"
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 10
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S",
+        "number": 11
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T",
+        "number": 12
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "T",
+        "number": 13
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "P",
+        "number": 14
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "M"
+      },
+      null,
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "answer": "PAN",
+          "clue": "Lousy review",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "answer": "CHEERIO",
+          "clue": "Beaten ice hero's farewell",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "OILRICH",
+          "clue": "Having abundant petroleum reserves",
+          "source": "written"
+        },
+        {
+          "number": 9,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "answer": "APP",
+          "clue": "Digital tool",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 3,
+          "col": 4,
+          "length": 3,
+          "answer": "AKA",
+          "clue": "Pseudonymously",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "SHATNER",
+          "clue": "William ___, Star Trek actor",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "answer": "TOSCALE",
+          "clue": "The Parisian, after opera, finds how a model may be",
+          "source": "dataset"
+        },
+        {
+          "number": 14,
+          "row": 6,
+          "col": 1,
+          "length": 3,
+          "answer": "POM",
+          "clue": "Fluffy dog, for short",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "answer": "PER",
+          "clue": "___ hour",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 4,
+          "length": 6,
+          "answer": "ARIANA",
+          "clue": "Grammy winner Grande",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 5,
+          "length": 6,
+          "answer": "NICKEL",
+          "clue": "Five-cent coin",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "COAST",
+          "clue": "Seashore",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "answer": "HIPHOP",
+          "clue": "Music genre in the documentary 'My Mic Sounds Nice'",
           "source": "dataset"
         },
         {
           "number": 6,
           "row": 1,
-          "col": 4,
-          "length": 4,
-          "answer": "THEY",
-          "clue": "'So ___ say'",
+          "col": 2,
+          "length": 6,
+          "answer": "ELPASO",
+          "clue": "City opposite Juarez",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 1,
+          "col": 6,
+          "length": 5,
+          "answer": "OHARE",
+          "clue": "Windy City airport",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 4,
+          "col": 3,
+          "length": 3,
+          "answer": "TCM",
+          "clue": "Channel that airs many B&W films",
           "source": "dataset"
         }
       ]

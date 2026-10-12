@@ -3,190 +3,8 @@
     "size": 5,
     "cells": [
       null,
-      null,
       {
-        "answer": "A",
-        "number": 1
-      },
-      {
-        "answer": "W",
-        "number": 2
-      },
-      {
-        "answer": "W",
-        "number": 3
-      },
-      {
-        "answer": "H",
-        "number": 4
-      },
-      {
-        "answer": "U",
-        "number": 5
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "I",
-        "number": 6
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "W"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "P",
-        "number": 7
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "Z"
-      },
-      {
-        "answer": "Z"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "S",
-        "number": 8
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "K"
-      }
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "AWW",
-          "clue": "'That's sooo cute!'",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "HUMOR",
-          "clue": "Comic's forte",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "INAWE",
-          "clue": "Mesmerized",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "PIZZA",
-          "clue": "Italian dish",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 4,
-          "col": 0,
-          "length": 5,
-          "answer": "STEAK",
-          "clue": "Ribeye, e.g",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "AMAZE",
-          "clue": "Astound",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "WOWZA",
-          "clue": "'Wow!' intensified",
-          "source": "written"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 4,
-          "length": 5,
-          "answer": "WREAK",
-          "clue": "Cause (havoc)",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "HIPS",
-          "clue": "Coxae, familiarly",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "UNIT",
-          "clue": "BTU's \"U\"",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 7,
-    "cells": [
-      null,
-      null,
-      null,
-      {
-        "answer": "P",
+        "answer": "L",
         "number": 1
       },
       {
@@ -198,14 +16,227 @@
         "number": 3
       },
       {
-        "answer": "T",
+        "answer": "E",
         "number": 4
       },
-      null,
-      null,
       {
-        "answer": "F",
+        "answer": "A",
         "number": 5
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "P",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E",
+        "number": 7
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "LACE",
+          "clue": "Shoestring",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "ALPHA",
+          "clue": "___ dog",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "PARIS",
+          "clue": "Champs-Elysees city",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "EMILY",
+          "clue": "Innovative poet Dickinson",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "SALE",
+          "clue": "BOGO event",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "LLAMA",
+          "clue": "Camel cousin",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "APRIL",
+          "clue": "Month",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "CHILE",
+          "clue": "Long-and-narrow South American nation",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "EASY",
+          "clue": "\"Relax\"",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "APES",
+          "clue": "Big galoots",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "P",
+        "number": 1
+      },
+      {
+        "answer": "I",
+        "number": 2
+      },
+      {
+        "answer": "A",
+        "number": 3
+      },
+      {
+        "answer": "N",
+        "number": 4
+      },
+      {
+        "answer": "O",
+        "number": 5
+      },
+      {
+        "answer": "E",
+        "number": 6
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "T",
+        "number": 8
       },
       {
         "answer": "A"
@@ -219,166 +250,68 @@
       {
         "answer": "E"
       },
-      null,
-      {
-        "answer": "M",
-        "number": 6
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "E"
-      },
       {
         "answer": "S",
-        "number": 7
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "I",
-        "number": 8
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "E"
-      },
-      null,
-      {
-        "answer": "R",
         "number": 9
       },
       {
-        "answer": "E"
+        "answer": "W"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "K"
-      },
-      {
-        "answer": "S"
-      },
-      null,
-      null,
-      {
-        "answer": "E",
-        "number": 10
+        "answer": "E"
       },
       {
         "answer": "T"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "E"
-      },
-      null,
-      null,
-      null
+      }
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "PACT",
-          "clue": "Treaty",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 2,
+          "col": 0,
           "length": 5,
-          "answer": "FABLE",
-          "clue": "Aesop creation",
+          "answer": "PIANO",
+          "clue": "Softly",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
-          "col": 1,
-          "length": 6,
-          "answer": "MONROE",
-          "clue": "Madison's successor",
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "ENDON",
+          "clue": "___ a high note",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
+          "row": 2,
           "col": 0,
-          "length": 7,
-          "answer": "SARCASM",
-          "clue": "Mockery scars a wretched maiden",
+          "length": 5,
+          "answer": "SLOBS",
+          "clue": "Messy roommates",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 4,
+          "row": 3,
           "col": 0,
-          "length": 6,
-          "answer": "IMGAME",
-          "clue": "\"Let's do it!\"",
+          "length": 5,
+          "answer": "TABLE",
+          "clue": "Put aside",
           "source": "dataset"
         },
         {
           "number": 9,
-          "row": 5,
+          "row": 4,
           "col": 0,
           "length": 5,
-          "answer": "REEKS",
-          "clue": "Gives a strong impression (of)",
-          "source": "dataset"
-        },
-        {
-          "number": 10,
-          "row": 6,
-          "col": 0,
-          "length": 4,
-          "answer": "ETRE",
-          "clue": "To be, to Camus",
+          "answer": "SWEET",
+          "clue": "Shout of approval",
           "source": "dataset"
         }
       ],
@@ -386,64 +319,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 3,
-          "length": 7,
-          "answer": "PANCAKE",
-          "clue": "Crepe",
+          "col": 0,
+          "length": 5,
+          "answer": "PESTS",
+          "clue": "Weevils, e.g",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 4,
-          "length": 6,
-          "answer": "ABRAMS",
-          "clue": "Stacey ___, Georgia political figure",
-          "source": "written"
+          "col": 1,
+          "length": 5,
+          "answer": "INLAW",
+          "clue": "Relative via marriage",
+          "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 5,
+          "col": 2,
           "length": 5,
-          "answer": "CLOSE",
-          "clue": "\"Almost!\"",
+          "answer": "ADOBE",
+          "clue": "Casa brick",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 6,
-          "length": 4,
-          "answer": "TEEM",
-          "clue": "Overbrim",
+          "col": 3,
+          "length": 5,
+          "answer": "NOBLE",
+          "clue": "Aristocrat",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 2,
-          "length": 6,
-          "answer": "FORGER",
-          "clue": "Counterfeiter",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 1,
+          "row": 0,
+          "col": 4,
           "length": 5,
-          "answer": "MAMET",
-          "clue": "\"Glengarry Glen Ross\" playwright",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 4,
-          "answer": "SIRE",
-          "clue": "Beget",
+          "answer": "ONSET",
+          "clue": "Attack",
           "source": "dataset"
         }
       ]

@@ -2,43 +2,43 @@
   "payload": {
     "groups": [
       {
-        "label": "UNITS OF VOLUME",
+        "label": "RESTAURANT WORKERS",
         "level": 0,
         "words": [
-          "PINT",
-          "CUP",
-          "GALLON",
-          "QUART"
+          "CHEF",
+          "HOST",
+          "BARTENDER",
+          "SERVER"
         ]
       },
       {
-        "label": "EXTREMELY",
+        "label": "MOTOR VEHICLES",
         "level": 1,
         "words": [
-          "AWFUL",
-          "SUPER",
-          "VERY",
-          "QUITE"
+          "CAR",
+          "BUS",
+          "TRUCK",
+          "MOTORCYCLE"
         ]
       },
       {
-        "label": "WORLD CURRENCIES",
+        "label": "MUPPETS",
         "level": 2,
         "words": [
-          "REAL",
-          "WON",
-          "RAND",
-          "STERLING"
+          "ANIMAL",
+          "SCOOTER",
+          "BEAKER",
+          "GONZO"
         ]
       },
       {
-        "label": "___ CAKE",
+        "label": "HAND- AND FOOT-RELATED SLANG",
         "level": 3,
         "words": [
-          "CARROT",
-          "SPONGE",
-          "COFFEE",
-          "POUND"
+          "DOG",
+          "MITT",
+          "DIGIT",
+          "PIGGY"
         ]
       }
     ]
@@ -46,43 +46,43 @@
   "reserve": {
     "groups": [
       {
-        "label": "GOLF COURSE PARTS",
+        "label": "STORAGE CONTAINERS",
         "level": 0,
         "words": [
-          "ROUGH",
-          "GREEN",
-          "BUNKER",
-          "FAIRWAY"
+          "CHEST",
+          "TRUNK",
+          "CASE",
+          "CRATE"
         ]
       },
       {
-        "label": "“I GIVE!”",
+        "label": "SCHNOZZ",
         "level": 1,
         "words": [
-          "STOP",
-          "ENOUGH",
-          "UNCLE",
-          "MERCY"
+          "SNOOT",
+          "BEAK",
+          "SNOUT",
+          "HONKER"
         ]
       },
       {
-        "label": "INDECENT",
+        "label": "ONES WITH DISCERNING TASTES",
         "level": 2,
         "words": [
-          "BLUE",
-          "COARSE",
-          "BAWDY",
-          "RISQUE"
+          "SNOB",
+          "EXPERT",
+          "CRITIC",
+          "CONNOISSEUR"
         ]
       },
       {
-        "label": "”-OUGH” WORDS THAT DON’T RHYME",
+        "label": "STARTS OF SWIMMING STROKES",
         "level": 3,
         "words": [
-          "TOUGH",
-          "DOUGH",
-          "COUGH",
-          "BOUGH"
+          "BREAST",
+          "FREE",
+          "BUTTER",
+          "BACK"
         ]
       }
     ]

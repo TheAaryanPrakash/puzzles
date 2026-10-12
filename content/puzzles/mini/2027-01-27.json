@@ -2,59 +2,51 @@
   "payload": {
     "size": 5,
     "cells": [
-      null,
-      null,
       {
-        "answer": "F",
+        "answer": "A",
         "number": 1
       },
       {
-        "answer": "O",
+        "answer": "M",
         "number": 2
       },
       {
-        "answer": "X",
+        "answer": "B",
         "number": 3
       },
       {
-        "answer": "S",
+        "answer": "E",
         "number": 4
       },
       {
-        "answer": "P",
+        "answer": "R",
         "number": 5
       },
       {
-        "answer": "E"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "K",
+        "answer": "L",
         "number": 6
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "E"
-      },
-      {
         "answer": "A"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "H"
       },
       {
         "answer": "E",
         "number": 7
       },
       {
-        "answer": "U"
+        "answer": "X"
+      },
+      {
+        "answer": "T"
       },
       {
         "answer": "R"
@@ -63,66 +55,83 @@
         "answer": "O"
       },
       {
-        "answer": "S"
-      },
-      {
-        "answer": "W",
+        "answer": "V",
         "number": 8
       },
       {
-        "answer": "R"
+        "answer": "I"
       },
       {
-        "answer": "Y"
+        "answer": "N"
       },
-      null,
-      null
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "E",
+        "number": 9
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      }
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "FOX",
-          "clue": "Aesopian animal",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "SPERM",
-          "clue": "Male reproductive cell",
+          "answer": "AMBER",
+          "clue": "Honey's hue",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "KOREA",
-          "clue": "Seoul setting",
+          "answer": "LAUGH",
+          "clue": "Guffaw",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "EUROS",
-          "clue": "Maltese money",
-          "source": "dataset"
+          "answer": "EXTRO",
+          "clue": "Opposite of an intro, in music",
+          "source": "written"
         },
         {
           "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "VINED",
+          "clue": "Covered in climbing plants",
+          "source": "written"
+        },
+        {
+          "number": 9,
           "row": 4,
           "col": 0,
-          "length": 3,
-          "answer": "WRY",
-          "clue": "Sardonic",
+          "length": 5,
+          "answer": "EMOTE",
+          "clue": "Overact",
           "source": "dataset"
         }
       ],
@@ -130,46 +139,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 0,
           "length": 5,
-          "answer": "FERRY",
-          "clue": "River-crossing service",
+          "answer": "ALEVE",
+          "clue": "Motrin rival",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "OREO",
-          "clue": "Milk dunker",
+          "col": 1,
+          "length": 5,
+          "answer": "MAXIM",
+          "clue": "Goethe's ___s include \"Painting and tattooing of the body is a return to animalism\" and \"The classical is health; and the romantic, disease\"",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "XMAS",
-          "clue": "Dec. holiday",
+          "col": 2,
+          "length": 5,
+          "answer": "BUTNO",
+          "clue": "Follow-up to \"You might think ...\"",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "SKEW",
-          "clue": "Oblique",
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "EGRET",
+          "clue": "Snowy wader",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "POUR",
-          "clue": "Do the honors",
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "RHODE",
+          "clue": "R, in a postal abbreviation",
           "source": "dataset"
         }
       ]
@@ -181,53 +190,56 @@
       null,
       null,
       {
-        "answer": "B",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "U",
         "number": 2
       },
       {
-        "answer": "G",
+        "answer": "N",
         "number": 3
       },
+      null,
       {
         "answer": "S",
         "number": 4
       },
       {
-        "answer": "T",
+        "answer": "U"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "A",
         "number": 5
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "N"
       },
       {
         "answer": "I"
       },
       {
-        "answer": "L"
-      },
-      {
         "answer": "E"
       },
       {
-        "answer": "W",
+        "answer": "P",
         "number": 6
       },
       {
-        "answer": "H"
+        "answer": "I"
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "I",
-        "number": 7
+        "answer": "N"
       },
       {
         "answer": "O"
@@ -236,21 +248,17 @@
         "answer": "T"
       },
       {
-        "answer": "A"
-      },
-      null,
-      {
-        "answer": "G",
-        "number": 8
+        "answer": "S",
+        "number": 7
       },
       {
-        "answer": "R"
+        "answer": "P"
       },
       {
-        "answer": "A"
+        "answer": "I"
       },
       {
-        "answer": "Y"
+        "answer": "N"
       },
       null
     ],
@@ -261,44 +269,44 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "answer": "BAG",
-          "clue": "Sack",
+          "answer": "SUN",
+          "clue": "Tan",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "SUNY",
+          "clue": "New York's public university system, by its initials",
+          "source": "written"
+        },
+        {
+          "number": 5,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "STILE",
-          "clue": "Steps over a wall",
+          "answer": "ANNIE",
+          "clue": "Sandy's owner",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "WHOLE",
-          "clue": "In one piece",
+          "answer": "PINOT",
+          "clue": "****___ gris",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 4,
-          "answer": "IOTA",
-          "clue": "Skosh",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
           "row": 4,
           "col": 0,
           "length": 4,
-          "answer": "GRAY",
-          "clue": "Gloomy, weatherwise",
+          "answer": "SPIN",
+          "clue": "Revolve",
           "source": "dataset"
         }
       ],
@@ -308,8 +316,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "BIOTA",
-          "clue": "Flora and fauna",
+          "answer": "SUNNI",
+          "clue": "Islamic denomination",
           "source": "dataset"
         },
         {
@@ -317,35 +325,35 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "ALLAY",
-          "clue": "Lessen, as fears",
+          "answer": "UNION",
+          "clue": "Labor group",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
-          "length": 3,
-          "answer": "GEE",
-          "clue": "'Golly!'",
+          "length": 4,
+          "answer": "NYET",
+          "clue": "No, to Nabokov",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 0,
+          "col": 1,
           "length": 4,
-          "answer": "SWIG",
-          "clue": "Deep drink",
+          "answer": "SNIP",
+          "clue": "Trim",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "THOR",
-          "clue": "Hammer wielder",
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "APS",
+          "clue": "Coll.-level classes",
           "source": "dataset"
         }
       ]

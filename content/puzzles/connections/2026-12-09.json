@@ -2,43 +2,43 @@
   "payload": {
     "groups": [
       {
-        "label": "TINT",
+        "label": "ROAD NAMES",
         "level": 0,
         "words": [
-          "SHADE",
-          "TONE",
-          "HUE",
-          "TINGE"
+          "DRIVE",
+          "STREET",
+          "ALLEY",
+          "LANE"
         ]
       },
       {
-        "label": "COMPONENTS OF A MYSTERY",
+        "label": "PAPER IN A BOOK",
         "level": 1,
         "words": [
-          "CLUE",
-          "SUSPECT",
-          "DETECTIVE",
-          "ALIBI"
+          "LEAF",
+          "PAGE",
+          "SHEET",
+          "FOLIO"
         ]
       },
       {
-        "label": "TAKE ISSUE WITH",
+        "label": "RESTRAIN",
         "level": 2,
         "words": [
-          "CHALLENGE",
-          "CONTEST",
-          "QUESTION",
-          "DISPUTE"
+          "STEM",
+          "CHECK",
+          "CURB",
+          "LIMIT"
         ]
       },
       {
-        "label": "STRIKE A ___",
+        "label": "THINGS YOU CAN DO TO YOUR NOSE",
         "level": 3,
         "words": [
-          "MATCH",
-          "CHORD",
-          "DEAL",
-          "POSE"
+          "THUMB",
+          "PICK",
+          "BLOW",
+          "HOLD"
         ]
       }
     ]
@@ -46,43 +46,43 @@
   "reserve": {
     "groups": [
       {
-        "label": "WINE BOTTLE INFO",
+        "label": "WAYS TO SHOW RESPECT",
         "level": 0,
         "words": [
-          "VINTAGE",
-          "GRAPE",
-          "REGION",
-          "WINERY"
+          "BOW",
+          "STAND",
+          "SALUTE",
+          "KNEEL"
         ]
       },
       {
-        "label": "CONSOLE INPUTS",
+        "label": "IPHONE APPS",
         "level": 1,
         "words": [
-          "SWITCH",
-          "SLIDER",
-          "BUTTON",
-          "KNOB"
+          "CLOCK",
+          "NOTES",
+          "MAIL",
+          "MAPS"
         ]
       },
       {
-        "label": "PREFIXES",
+        "label": "ANIMAL COVERINGS",
         "level": 2,
         "words": [
-          "RETRO",
-          "SUB",
-          "SUPER",
-          "PRO"
+          "SHELL",
+          "DOWN",
+          "SCALES",
+          "FUR"
         ]
       },
       {
-        "label": "___ KING",
+        "label": "“POINTERS”",
         "level": 3,
         "words": [
-          "LION",
-          "BURGER",
-          "PROM",
-          "CALIFORNIA"
+          "DOG",
+          "ARROW",
+          "FINGER",
+          "HINT"
         ]
       }
     ]

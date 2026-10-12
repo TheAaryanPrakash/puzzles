@@ -4,77 +4,77 @@
     "cells": [
       null,
       {
-        "answer": "M",
+        "answer": "H",
         "number": 1
       },
       {
-        "answer": "O",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "P",
+        "answer": "H",
         "number": 3
+      },
+      {
+        "answer": "A",
+        "number": 4
       },
       null,
       {
-        "answer": "T",
-        "number": 4
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S",
+        "answer": "O",
         "number": 5
       },
       {
-        "answer": "I",
-        "number": 6
-      },
-      {
-        "answer": "B"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "E",
-        "number": 7
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "H"
-      },
-      null,
-      {
-        "answer": "D",
-        "number": 8
+        "answer": "K"
       },
       {
         "answer": "A"
       },
       {
         "answer": "Y"
+      },
+      {
+        "answer": "T",
+        "number": 6
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "O",
+        "number": 7
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "K"
+      },
+      null,
+      {
+        "answer": "M",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "S"
       },
       null
     ],
@@ -84,18 +84,18 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 3,
-          "answer": "MOP",
-          "clue": "Swab",
+          "length": 4,
+          "answer": "HAHA",
+          "clue": "\"Funny!\"",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "TYPES",
-          "clue": "Sends texts",
+          "col": 1,
+          "length": 4,
+          "answer": "OKAY",
+          "clue": "So-so",
           "source": "dataset"
         },
         {
@@ -103,26 +103,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "IBEAM",
-          "clue": "Girder shaped like a vowel",
+          "answer": "TWINE",
+          "clue": "Strong string",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 5,
-          "answer": "EARTH",
-          "clue": "Mother ___",
+          "length": 4,
+          "answer": "OINK",
+          "clue": "Farm sound",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
-          "col": 1,
-          "length": 3,
-          "answer": "DAY",
-          "clue": "24 hours",
+          "col": 0,
+          "length": 4,
+          "answer": "MEDS",
+          "clue": "Pharma products",
           "source": "dataset"
         }
       ],
@@ -132,8 +132,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "MYBAD",
-          "clue": "'Whoops, sorry about that!'",
+          "answer": "HOWIE",
+          "clue": "Name that rhymes with Maui",
           "source": "dataset"
         },
         {
@@ -141,35 +141,35 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "OPERA",
-          "clue": "Wagner work",
-          "source": "dataset"
+          "answer": "AKIND",
+          "clue": "'One of ___' (unique)",
+          "source": "written"
         },
         {
           "number": 3,
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "PEATY",
-          "clue": "Like some smoky Scotch",
+          "answer": "HANKS",
+          "clue": "Forrest Gump player",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
+          "row": 0,
+          "col": 4,
           "length": 3,
-          "answer": "TIE",
-          "clue": "Bind",
+          "answer": "AYE",
+          "clue": "Yes,  at sea",
           "source": "dataset"
         },
         {
-          "number": 5,
-          "row": 1,
-          "col": 4,
+          "number": 6,
+          "row": 2,
+          "col": 0,
           "length": 3,
-          "answer": "SMH",
-          "clue": "Texter's 'I can't believe this'",
+          "answer": "TOM",
+          "clue": "Mr. turkey",
           "source": "dataset"
         }
       ]
@@ -178,9 +178,8 @@
   "reserve": {
     "size": 5,
     "cells": [
-      null,
       {
-        "answer": "R",
+        "answer": "B",
         "number": 1
       },
       {
@@ -188,117 +187,127 @@
         "number": 2
       },
       {
-        "answer": "M",
+        "answer": "S",
         "number": 3
       },
-      null,
       {
-        "answer": "M",
+        "answer": "E",
         "number": 4
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "R",
+        "answer": "D",
         "number": 5
       },
       {
-        "answer": "I",
+        "answer": "L",
         "number": 6
       },
       {
-        "answer": "S"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "D",
-        "number": 7
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "S"
-      },
-      null,
-      {
-        "answer": "N",
-        "number": 8
+        "answer": "L"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "H"
+        "answer": "M"
       },
-      null
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "D",
+        "number": 8
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E",
+        "number": 9
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "Y"
+      }
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 3,
-          "answer": "RAM",
-          "clue": "Ewe's Mr",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "MOTOR",
-          "clue": "Drive",
+          "answer": "BASED",
+          "clue": "Located; grounded",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "ISSUE",
-          "clue": "Children",
+          "answer": "LLAMA",
+          "clue": "Camelid animal",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "DIETS",
-          "clue": "Intake regimens",
+          "answer": "ALIBI",
+          "clue": "Cover story",
           "source": "dataset"
         },
         {
           "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "DINES",
+          "clue": "Eats in style",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
           "row": 4,
-          "col": 1,
-          "length": 3,
-          "answer": "NAH",
-          "clue": "\"Nope\"",
+          "col": 0,
+          "length": 5,
+          "answer": "ENTRY",
+          "clue": "Admission",
           "source": "dataset"
         }
       ],
@@ -306,46 +315,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 0,
           "length": 5,
-          "answer": "ROSIN",
-          "clue": "Ballet shoe application",
+          "answer": "BLADE",
+          "clue": "Sword part",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "ATSEA",
-          "clue": "Clueless",
+          "answer": "ALLIN",
+          "clue": "Poker declaration",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
+          "col": 2,
           "length": 5,
-          "answer": "MOUTH",
-          "clue": "Matron initially exposed hospital entrance",
+          "answer": "SAINT",
+          "clue": "New Orleans NFLer",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 3,
-          "answer": "MID",
-          "clue": "Prefix with \"night\"",
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "EMBER",
+          "clue": "Glowing coal",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
+          "row": 0,
           "col": 4,
-          "length": 3,
-          "answer": "RES",
-          "clue": "In medias -",
+          "length": 5,
+          "answer": "DAISY",
+          "clue": "Lawn flower",
           "source": "dataset"
         }
       ]

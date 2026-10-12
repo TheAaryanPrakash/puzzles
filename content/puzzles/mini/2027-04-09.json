@@ -3,43 +3,22 @@
     "size": 5,
     "cells": [
       {
-        "answer": "A",
+        "answer": "F",
         "number": 1
       },
       {
-        "answer": "D",
+        "answer": "I",
         "number": 2
       },
       {
-        "answer": "D",
+        "answer": "G",
         "number": 3
       },
       null,
       null,
       {
-        "answer": "B",
+        "answer": "L",
         "number": 4
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "G",
-        "number": 5
-      },
-      {
-        "answer": "E",
-        "number": 6
-      },
-      {
-        "answer": "C",
-        "number": 7
-      },
-      {
-        "answer": "L"
       },
       {
         "answer": "O"
@@ -48,11 +27,38 @@
         "answer": "U"
       },
       {
-        "answer": "D"
+        "answer": "S",
+        "number": 5
       },
       {
-        "answer": "S",
+        "answer": "Y",
+        "number": 6
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "G",
         "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "V"
       },
       {
         "answer": "I"
@@ -60,23 +66,17 @@
       {
         "answer": "N"
       },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "I"
-      },
       null,
       null,
       {
-        "answer": "E",
+        "answer": "A",
         "number": 9
       },
       {
-        "answer": "M"
+        "answer": "P"
       },
       {
-        "answer": "T"
+        "answer": "S"
       }
     ],
     "clues": {
@@ -86,8 +86,8 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "answer": "ADD",
-          "clue": "Put in",
+          "answer": "FIG",
+          "clue": "Seedy fruit",
           "source": "dataset"
         },
         {
@@ -95,8 +95,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "BARGE",
-          "clue": "Flat-bottomed boat",
+          "answer": "LOUSY",
+          "clue": "Crummy",
           "source": "dataset"
         },
         {
@@ -104,8 +104,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "CLOUD",
-          "clue": "Charlie making noise in storage area",
+          "answer": "AWAKE",
+          "clue": "Not napping",
           "source": "dataset"
         },
         {
@@ -113,8 +113,8 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "SINAI",
-          "clue": "Egyptian region",
+          "answer": "GAVIN",
+          "clue": "California governor Newsom",
           "source": "dataset"
         },
         {
@@ -122,8 +122,8 @@
           "row": 4,
           "col": 2,
           "length": 3,
-          "answer": "EMT",
-          "clue": "911 pro",
+          "answer": "APS",
+          "clue": "Calc BC and others",
           "source": "dataset"
         }
       ],
@@ -133,8 +133,8 @@
           "row": 0,
           "col": 0,
           "length": 4,
-          "answer": "ABCS",
-          "clue": "Basic skills",
+          "answer": "FLAG",
+          "clue": "Flier on a pole",
           "source": "dataset"
         },
         {
@@ -142,8 +142,8 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "DALI",
-          "clue": "Surrealist Salvador",
+          "answer": "IOWA",
+          "clue": "Hawkeye's state",
           "source": "dataset"
         },
         {
@@ -151,8 +151,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "DRONE",
-          "clue": "Un-manned plane",
+          "answer": "GUAVA",
+          "clue": "Gardner pursuing good high-class fruit",
           "source": "dataset"
         },
         {
@@ -160,8 +160,8 @@
           "row": 1,
           "col": 3,
           "length": 4,
-          "answer": "GUAM",
-          "clue": "U.S. Pacific territory",
+          "answer": "SKIP",
+          "clue": "Jump over",
           "source": "dataset"
         },
         {
@@ -169,8 +169,8 @@
           "row": 1,
           "col": 4,
           "length": 4,
-          "answer": "EDIT",
-          "clue": "Reword",
+          "answer": "YENS",
+          "clue": "Urges",
           "source": "dataset"
         }
       ]
@@ -184,7 +184,7 @@
         "number": 1
       },
       {
-        "answer": "T",
+        "answer": "E",
         "number": 2
       },
       {
@@ -192,76 +192,76 @@
         "number": 3
       },
       {
-        "answer": "A",
+        "answer": "U",
         "number": 4
       },
       {
-        "answer": "W",
+        "answer": "M",
         "number": 5
       },
       {
-        "answer": "A",
+        "answer": "I",
         "number": 6
       },
       {
         "answer": "R"
       },
       {
-        "answer": "U"
+        "answer": "O"
       },
       {
-        "answer": "S"
+        "answer": "N"
       },
       {
-        "answer": "H"
+        "answer": "Y"
       },
       {
         "answer": "G",
         "number": 7
       },
       {
-        "answer": "U"
-      },
-      {
         "answer": "N"
       },
       {
-        "answer": "K"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "A",
-        "number": 8
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "U"
+        "answer": "O"
       },
       {
         "answer": "M"
       },
       {
-        "answer": "S",
-        "number": 9
+        "answer": "E"
+      },
+      {
+        "answer": "H",
+        "number": 8
+      },
+      {
+        "answer": "I"
       },
       {
         "answer": "K"
       },
       {
-        "answer": "Y"
+        "answer": "E"
       },
       {
-        "answer": "P"
+        "answer": "R"
+      },
+      {
+        "answer": "T",
+        "number": 9
       },
       {
         "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S"
       }
     ],
     "clues": {
@@ -271,8 +271,8 @@
           "row": 0,
           "col": 0,
           "length": 5,
-          "answer": "STRAW",
-          "clue": "Sipping aid",
+          "answer": "SERUM",
+          "clue": "Body fluid",
           "source": "dataset"
         },
         {
@@ -280,26 +280,26 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "ARUSH",
-          "clue": "'In ___' (hurried)",
-          "source": "written"
+          "answer": "IRONY",
+          "clue": "Sarcastic tone",
+          "source": "dataset"
         },
         {
           "number": 7,
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "GUNKY",
-          "clue": "Grimy and sticky",
-          "source": "written"
+          "answer": "GNOME",
+          "clue": "Lawn ornament",
+          "source": "dataset"
         },
         {
           "number": 8,
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "ANNUM",
-          "clue": "Per ___",
+          "answer": "HIKER",
+          "clue": "One who goes on a walking tour",
           "source": "dataset"
         },
         {
@@ -307,8 +307,8 @@
           "row": 4,
           "col": 0,
           "length": 5,
-          "answer": "SKYPE",
-          "clue": "FaceTime competitor",
+          "answer": "TESTS",
+          "clue": "Exams",
           "source": "dataset"
         }
       ],
@@ -318,8 +318,8 @@
           "row": 0,
           "col": 0,
           "length": 5,
-          "answer": "SAGAS",
-          "clue": "Heroic tales",
+          "answer": "SIGHT",
+          "clue": "Spy",
           "source": "dataset"
         },
         {
@@ -327,8 +327,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "TRUNK",
-          "clue": "Elephant part",
+          "answer": "ERNIE",
+          "clue": "Orange Muppet",
           "source": "dataset"
         },
         {
@@ -336,8 +336,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "RUNNY",
-          "clue": "Like undercooked eggs",
+          "answer": "ROOKS",
+          "clue": "Corner chess pieces",
           "source": "dataset"
         },
         {
@@ -345,8 +345,8 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "ASKUP",
-          "clue": "Invite to one's penthouse, say",
+          "answer": "UNMET",
+          "clue": "Yet to be satisfied",
           "source": "dataset"
         },
         {
@@ -354,8 +354,8 @@
           "row": 0,
           "col": 4,
           "length": 5,
-          "answer": "WHYME",
-          "clue": "Response to being chosen for audience participation, maybe",
+          "answer": "MYERS",
+          "clue": "\"Wayne's World\" co-star",
           "source": "dataset"
         }
       ]

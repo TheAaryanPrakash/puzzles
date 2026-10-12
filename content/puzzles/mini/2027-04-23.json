@@ -3,73 +3,231 @@
     "size": 5,
     "cells": [
       null,
+      null,
       {
-        "answer": "M",
+        "answer": "P",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "U",
         "number": 2
       },
       {
-        "answer": "S",
+        "answer": "P",
         "number": 3
       },
       {
-        "answer": "K",
+        "answer": "S",
         "number": 4
       },
       {
-        "answer": "R",
+        "answer": "I",
         "number": 5
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "K"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "E",
-        "number": 6
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "E",
-        "number": 7
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "T"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "F",
+        "answer": "N"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "L",
+        "number": 7
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "E",
         "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "L"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "PUP",
+          "clue": "Baby seal",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "SIENA",
+          "clue": "Tuscan city",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "ADDUP",
+          "clue": "Make sense; count",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "LLAMA",
+          "clue": "Andean animal",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "EEL",
+          "clue": "Food fish",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "PEDAL",
+          "clue": "Piano part",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "UNUM",
+          "clue": "\"E pluribus ___\"",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "PAPA",
+          "clue": "Father",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "SALE",
+          "clue": "Shop lure",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "IDLE",
+          "clue": "Slothful",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "C",
+        "number": 1
+      },
+      {
+        "answer": "U",
+        "number": 2
+      },
+      {
+        "answer": "P",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 4
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "S",
+        "number": 5
+      },
+      {
+        "answer": "I",
+        "number": 6
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "M",
+        "number": 7
       },
       {
         "answer": "I"
@@ -78,7 +236,21 @@
         "answer": "N"
       },
       {
+        "answer": "I"
+      },
+      {
         "answer": "S"
+      },
+      null,
+      {
+        "answer": "C",
+        "number": 8
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "N"
       },
       null
     ],
@@ -88,27 +260,27 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 4,
-          "answer": "MASK",
-          "clue": "Hide",
+          "length": 3,
+          "answer": "CUP",
+          "clue": "Recipe unit",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "RICKI",
-          "clue": "___ Lake, talk show host",
-          "source": "written"
+          "answer": "TYPOS",
+          "clue": "Keyboard goofs",
+          "source": "dataset"
         },
         {
           "number": 6,
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "EATIT",
-          "clue": "Fail miserably",
+          "answer": "INEPT",
+          "clue": "Fumbling",
           "source": "dataset"
         },
         {
@@ -116,17 +288,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "EMOTE",
-          "clue": "Gush",
+          "answer": "MINIS",
+          "clue": "Source of some TV content",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
-          "col": 0,
-          "length": 4,
-          "answer": "FINS",
-          "clue": "Dolphins have them",
+          "col": 1,
+          "length": 3,
+          "answer": "CNN",
+          "clue": "'Oh, baloney!'",
           "source": "dataset"
         }
       ],
@@ -136,8 +308,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "MIAMI",
-          "clue": "Flagami's city",
+          "answer": "CYNIC",
+          "clue": "Jaded sort",
           "source": "dataset"
         },
         {
@@ -145,8 +317,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ACTON",
-          "clue": "Follow, as a hunch",
+          "answer": "UPENN",
+          "clue": "Philly Ivy",
           "source": "dataset"
         },
         {
@@ -154,205 +326,26 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "SKITS",
-          "clue": "Comedy sketches",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "KITE",
-          "clue": "Flying toy",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "REEF",
-          "clue": "Barrier ___",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 5,
-    "cells": [
-      {
-        "answer": "P",
-        "number": 1
-      },
-      {
-        "answer": "E",
-        "number": 2
-      },
-      {
-        "answer": "W",
-        "number": 3
-      },
-      null,
-      null,
-      {
-        "answer": "O",
-        "number": 4
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "U",
-        "number": 5
-      },
-      null,
-      {
-        "answer": "S",
-        "number": 6
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "H",
-        "number": 7
-      },
-      {
-        "answer": "T",
-        "number": 8
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "S",
-        "number": 9
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "M"
-      }
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 0,
-          "length": 3,
-          "answer": "PEW",
-          "clue": "Chapel bench",
+          "answer": "POPIN",
+          "clue": "Visit briefly",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 1,
           "col": 0,
-          "length": 4,
-          "answer": "OAHU",
-          "clue": "Honolulu's isle",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "STASH",
-          "clue": "Hide away",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "TULSA",
-          "clue": "Oklahoma setting for 'Watchmen'",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
-          "row": 4,
-          "col": 0,
-          "length": 5,
-          "answer": "SPERM",
-          "clue": "Male reproductive cell",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 0,
-          "length": 5,
-          "answer": "POSTS",
-          "clue": "Bed parts",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "EATUP",
-          "clue": "Enjoy thoroughly",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "WHALE",
-          "clue": "Massive marine mammal",
+          "length": 3,
+          "answer": "TIM",
+          "clue": "Suspect #3",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 3,
-          "length": 4,
-          "answer": "USSR",
-          "clue": "KGB's base",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 2,
           "col": 4,
           "length": 3,
-          "answer": "HAM",
-          "clue": "Bad actor",
+          "answer": "STS",
+          "clue": "Rds",
           "source": "dataset"
         }
       ]

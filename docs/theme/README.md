@@ -1,7 +1,7 @@
 # Soft theme — site pink + per-game palettes
 
 Screenshots: `docs/theme/before/` and `docs/theme/after/`, hub + `/signin` + `/dev/themes` + all
-14 games, at 375px and 1280px (`?date=2026-10-17` on game URLs so today's puzzle renders).
+14 games, at 375px and 1280px (`?date=2026-10-12` on game URLs so today's puzzle renders).
 
 Built with the `ui-ux-pro-max`, `design-system` and `web-design-guidelines` skills: palette
 derivation and contrast-pair reasoning followed `ui-ux-pro-max`'s accessible-color-pairs guidance,

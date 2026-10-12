@@ -2,51 +2,38 @@
   "payload": {
     "size": 5,
     "cells": [
-      null,
       {
-        "answer": "S",
+        "answer": "M",
         "number": 1
       },
       {
-        "answer": "T",
+        "answer": "S",
         "number": 2
       },
       {
-        "answer": "O",
+        "answer": "N",
         "number": 3
       },
       {
-        "answer": "P",
+        "answer": "B",
         "number": 4
       },
       {
-        "answer": "M",
+        "answer": "C",
         "number": 5
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "I"
       },
       {
         "answer": "E",
         "number": 6
       },
       {
-        "answer": "X"
+        "answer": "Q"
       },
       {
-        "answer": "C"
+        "answer": "U"
       },
       {
-        "answer": "E"
+        "answer": "A"
       },
       {
         "answer": "L"
@@ -56,77 +43,95 @@
         "number": 7
       },
       {
-        "answer": "A"
+        "answer": "U"
       },
       {
-        "answer": "I"
+        "answer": "R"
       },
       {
-        "answer": "N"
+        "answer": "K"
       },
       {
-        "answer": "E"
+        "answer": "Y"
       },
       {
         "answer": "E",
         "number": 8
       },
       {
-        "answer": "M"
-      },
-      {
-        "answer": "T"
+        "answer": "A"
       },
       {
         "answer": "S"
       },
-      null
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "E"
+      }
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "STOP",
-          "clue": "Arrest",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "MIAMI",
-          "clue": "City in Florida",
+          "answer": "MSNBC",
+          "clue": "Joy Reid's channel",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "EXCEL",
-          "clue": "Do very well",
+          "answer": "EQUAL",
+          "clue": "Match",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "MAINE",
-          "clue": "Quebec neighbor",
+          "answer": "MURKY",
+          "clue": "Far from obvious",
           "source": "dataset"
         },
         {
           "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "EASED",
+          "clue": "Soothed",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "EMTS",
-          "clue": "CPR providers",
+          "length": 5,
+          "answer": "SWEDE",
+          "clue": "Root vegetable",
           "source": "dataset"
         }
       ],
@@ -134,46 +139,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 0,
           "length": 5,
-          "answer": "SIXAM",
-          "clue": "Paper route hour, maybe",
+          "answer": "MEMES",
+          "clue": "Fast-spreading Web posts",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "TACIT",
-          "clue": "Silently understood",
-          "source": "dataset"
+          "answer": "SQUAW",
+          "clue": "Outdated, now-offensive term for a Native American woman",
+          "source": "written"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
+          "col": 2,
           "length": 5,
-          "answer": "OMENS",
-          "clue": "Buffoon",
+          "answer": "NURSE",
+          "clue": "Tend",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "PILE",
-          "clue": "Bundle",
+          "col": 3,
+          "length": 5,
+          "answer": "BAKED",
+          "clue": "Criminal eats King Edward, initially cooked thus (wordplay)",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "MEME",
-          "clue": "Internet sensation",
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "CLYDE",
+          "clue": "Bonnie's partner in crime",
           "source": "dataset"
         }
       ]
@@ -183,79 +188,83 @@
     "size": 5,
     "cells": [
       null,
-      null,
       {
-        "answer": "L",
+        "answer": "F",
         "number": 1
       },
       {
-        "answer": "O",
+        "answer": "I",
         "number": 2
       },
       {
-        "answer": "G",
+        "answer": "N",
         "number": 3
       },
       {
-        "answer": "S",
+        "answer": "E",
         "number": 4
       },
       {
-        "answer": "M",
+        "answer": "R",
         "number": 5
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "R"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "E",
-        "number": 6
+        "answer": "L"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "G"
+        "answer": "X"
+      },
+      {
+        "answer": "O",
+        "number": 6
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "V"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "R"
+        "answer": "M",
+        "number": 7
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
       },
       {
         "answer": "A",
-        "number": 7
+        "number": 8
       },
       {
         "answer": "X"
       },
       {
-        "answer": "I"
+        "answer": "E"
       },
       {
-        "answer": "O"
+        "answer": "L"
       },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "T",
-        "number": 8
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "N"
-      },
-      null,
       null
     ],
     "clues": {
@@ -263,19 +272,19 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "LOG",
-          "clue": "Ship diary",
+          "col": 1,
+          "length": 4,
+          "answer": "FINE",
+          "clue": "'Works for me'",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "SMORE",
-          "clue": "Gooey goody",
+          "answer": "RELAX",
+          "clue": "\"Chill out!\"",
           "source": "dataset"
         },
         {
@@ -283,8 +292,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "EAGER",
-          "clue": "Avid",
+          "answer": "OLIVE",
+          "clue": "Green shade",
           "source": "dataset"
         },
         {
@@ -292,17 +301,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "AXIOM",
-          "clue": "Wise saying",
+          "answer": "MIKES",
+          "clue": "Hard lemonade brand",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 3,
-          "answer": "TIN",
-          "clue": "Container",
+          "length": 4,
+          "answer": "AXEL",
+          "clue": "Skating feat",
           "source": "dataset"
         }
       ],
@@ -310,46 +319,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "LOGIN",
-          "clue": "User ID",
+          "answer": "FELIX",
+          "clue": "\"The Odd Couple\" neatnik",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "OREO",
-          "clue": "Common cookie",
+          "col": 2,
+          "length": 5,
+          "answer": "ILIKE",
+          "clue": "\"Thumbs-up!\"",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "GERM",
-          "clue": "Seed",
+          "col": 3,
+          "length": 5,
+          "answer": "NAVEL",
+          "clue": "Umbilicus: central point",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
+          "row": 0,
+          "col": 4,
           "length": 4,
-          "answer": "SEAT",
-          "clue": "Chair, e.g",
+          "answer": "EXES",
+          "clue": "They've split",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 1,
+          "col": 0,
           "length": 4,
-          "answer": "MAXI",
-          "clue": "Long skirt",
+          "answer": "ROMA",
+          "clue": "\"Arrivederci -\"",
           "source": "dataset"
         }
       ]

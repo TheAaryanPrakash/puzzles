@@ -4,57 +4,25 @@
     "cells": [
       null,
       {
-        "answer": "V",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "E",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "T",
+        "answer": "L",
         "number": 3
       },
       {
-        "answer": "O",
+        "answer": "T",
         "number": 4
       },
       null,
       {
-        "answer": "R",
+        "answer": "P",
         "number": 5
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "F",
-        "number": 6
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "D",
-        "number": 7
-      },
-      {
-        "answer": "O"
       },
       {
         "answer": "L"
@@ -62,16 +30,48 @@
       {
         "answer": "E"
       },
-      null,
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "F",
+        "number": 6
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
       {
         "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "D"
+      },
+      null,
+      {
+        "answer": "T",
         "number": 8
       },
       {
-        "answer": "M"
+        "answer": "E"
       },
       {
-        "answer": "Y"
+        "answer": "N"
       },
       {
         "answer": "S"
@@ -85,8 +85,8 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "VETO",
-          "clue": "Rule out",
+          "answer": "SALT",
+          "clue": "Pretzel topper",
           "source": "dataset"
         },
         {
@@ -94,8 +94,8 @@
           "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "RAIN",
-          "clue": "Water fall",
+          "answer": "PLEA",
+          "clue": "'Help me,' e.g",
           "source": "dataset"
         },
         {
@@ -103,8 +103,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "FORME",
-          "clue": "Gift recipient's surprised query",
+          "answer": "FILED",
+          "clue": "Mailed a tax return",
           "source": "dataset"
         },
         {
@@ -112,8 +112,8 @@
           "row": 3,
           "col": 0,
           "length": 4,
-          "answer": "DOLE",
-          "clue": "Pineapple brand",
+          "answer": "ACID",
+          "clue": "___ rock",
           "source": "dataset"
         },
         {
@@ -121,8 +121,8 @@
           "row": 4,
           "col": 0,
           "length": 4,
-          "answer": "AMYS",
-          "clue": "Tan and Irving",
+          "answer": "TENS",
+          "clue": "Till bills",
           "source": "dataset"
         }
       ],
@@ -132,8 +132,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "VROOM",
-          "clue": "Revving-up sound",
+          "answer": "SPICE",
+          "clue": "Paprika or pepper",
           "source": "dataset"
         },
         {
@@ -141,8 +141,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "EARLY",
-          "clue": "In good time",
+          "answer": "ALLIN",
+          "clue": "Bold poker bet",
           "source": "dataset"
         },
         {
@@ -150,8 +150,8 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "TIMES",
-          "clue": "Periods",
+          "answer": "LEEDS",
+          "clue": "Yorkshire location",
           "source": "dataset"
         },
         {
@@ -159,8 +159,8 @@
           "row": 0,
           "col": 4,
           "length": 3,
-          "answer": "ONE",
-          "clue": "Ace",
+          "answer": "TAD",
+          "clue": "Wee bit",
           "source": "dataset"
         },
         {
@@ -168,8 +168,8 @@
           "row": 2,
           "col": 0,
           "length": 3,
-          "answer": "FDA",
-          "clue": "HHS agency",
+          "answer": "FAT",
+          "clue": "Chubby",
           "source": "dataset"
         }
       ]
@@ -179,88 +179,80 @@
     "size": 5,
     "cells": [
       {
-        "answer": "S",
+        "answer": "D",
         "number": 1
       },
       {
-        "answer": "T",
+        "answer": "I",
         "number": 2
       },
       {
-        "answer": "A",
+        "answer": "P",
         "number": 3
       },
+      null,
+      null,
       {
-        "answer": "M",
+        "answer": "I",
         "number": 4
       },
       {
-        "answer": "P",
+        "answer": "M"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "U",
         "number": 5
       },
       {
-        "answer": "W",
+        "answer": "T",
         "number": 6
       },
       {
-        "answer": "I"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "E",
+        "answer": "S",
         "number": 7
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "D",
-        "number": 8
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "E",
-        "number": 9
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "T"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "S"
+        "answer": "U"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "C",
+        "number": 8
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      null,
+      {
+        "answer": "H",
+        "number": 9
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
       }
     ],
     "clues": {
@@ -269,18 +261,18 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 5,
-          "answer": "STAMP",
-          "clue": "Impress",
+          "length": 3,
+          "answer": "DIP",
+          "clue": "Quick swim",
           "source": "dataset"
         },
         {
-          "number": 6,
+          "number": 4,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "WIDER",
-          "clue": "More broad",
+          "answer": "IMOUT",
+          "clue": "Poker declaration",
           "source": "dataset"
         },
         {
@@ -288,8 +280,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ELUDE",
-          "clue": "Shake off",
+          "answer": "SAUCE",
+          "clue": "Barbecuing need",
           "source": "dataset"
         },
         {
@@ -297,17 +289,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "DELIS",
-          "clue": "Tuna salad vendors",
+          "answer": "CYCLE",
+          "clue": "Rinse or spin",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 0,
-          "length": 5,
-          "answer": "ESTAS",
-          "clue": "These, in Mexico",
+          "col": 2,
+          "length": 3,
+          "answer": "HAN",
+          "clue": "Chewie's pal",
           "source": "dataset"
         }
       ],
@@ -316,18 +308,18 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 5,
-          "answer": "SWEDE",
-          "clue": "Any ABBA member",
+          "length": 4,
+          "answer": "DISC",
+          "clue": "Coin shape",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
-          "length": 5,
-          "answer": "TILES",
-          "clue": "Ceramic floor pieces",
+          "length": 4,
+          "answer": "IMAY",
+          "clue": "\"If - be so bold ...\"",
           "source": "dataset"
         },
         {
@@ -335,26 +327,26 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ADULT",
-          "clue": "Mature blue",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "MEDIA",
-          "clue": "Press and such",
+          "answer": "POUCH",
+          "clue": "Kangaroo carrier",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 0,
+          "row": 1,
+          "col": 3,
+          "length": 4,
+          "answer": "UCLA",
+          "clue": "Westwood sch",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
           "col": 4,
-          "length": 5,
-          "answer": "PRESS",
-          "clue": "Media",
+          "length": 4,
+          "answer": "TEEN",
+          "clue": "Adolescent",
           "source": "dataset"
         }
       ]

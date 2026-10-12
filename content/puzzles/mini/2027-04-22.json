@@ -2,39 +2,214 @@
   "payload": {
     "size": 5,
     "cells": [
-      null,
       {
-        "answer": "W",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "E",
+        "answer": "T",
         "number": 2
       },
       {
-        "answer": "E",
+        "answer": "O",
         "number": 3
       },
       {
-        "answer": "D",
+        "answer": "R",
         "number": 4
       },
       {
-        "answer": "S",
+        "answer": "M",
         "number": 5
       },
       {
-        "answer": "H"
+        "answer": "L",
+        "number": 6
       },
       {
         "answer": "A"
       },
       {
-        "answer": "D"
+        "answer": "N"
       },
       {
         "answer": "E"
       },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "H",
+        "number": 9
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "STORM",
+          "clue": "Attack en masse",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "LANED",
+          "clue": "Like Olympic pools",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "ACTUP",
+          "clue": "Behave badly",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "SKOSH",
+          "clue": "Smidgen",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 5,
+          "answer": "HYPED",
+          "clue": "Intensively promoted",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "SLASH",
+          "clue": "Cut violently",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "TACKY",
+          "clue": "In poor taste",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "ONTOP",
+          "clue": "Victorious",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "REUSE",
+          "clue": "Get extra value from",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "MDPHD",
+          "clue": "Dual medical and research degree, briefly",
+          "source": "written"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 7,
+    "cells": [
+      null,
+      {
+        "answer": "P",
+        "number": 1
+      },
+      {
+        "answer": "R",
+        "number": 2
+      },
+      {
+        "answer": "I",
+        "number": 3
+      },
+      {
+        "answer": "N",
+        "number": 4
+      },
+      {
+        "answer": "T",
+        "number": 5
+      },
+      null,
+      null,
       {
         "answer": "L",
         "number": 6
@@ -43,223 +218,113 @@
         "answer": "O"
       },
       {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      null,
+      {
+        "answer": "H",
+        "number": 7
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "Y",
+        "number": 8
+      },
+      {
+        "answer": "O",
+        "number": 9
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "V"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "G",
+        "number": 10
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
         "answer": "G"
       },
       {
         "answer": "I"
       },
       {
-        "answer": "C"
+        "answer": "A"
       },
-      {
-        "answer": "A",
-        "number": 7
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "K"
-      },
-      {
-        "answer": "B",
-        "number": 8
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "T"
-      },
-      null
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "WEED",
-          "clue": "Do garden work",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "SHADE",
-          "clue": "Hot day refuge",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "LOGIC",
-          "clue": "Puzzle-solving asset",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "ALECK",
-          "clue": "Smart guy",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 4,
-          "col": 0,
-          "length": 4,
-          "answer": "BERT",
-          "clue": "Ernie's buddy",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "WHOLE",
-          "clue": "Complete, entire",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "EAGER",
-          "clue": "Avid",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "EDICT",
-          "clue": "Official order",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "DECK",
-          "clue": "Tarot pack",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "SLAB",
-          "clue": "Thick slice",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 5,
-    "cells": [
       null,
       {
         "answer": "T",
-        "number": 1
-      },
-      {
-        "answer": "A",
-        "number": 2
-      },
-      {
-        "answer": "R",
-        "number": 3
-      },
-      {
-        "answer": "T",
-        "number": 4
-      },
-      {
-        "answer": "S",
-        "number": 5
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "P",
-        "number": 6
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "B"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "A",
-        "number": 7
-      },
-      {
-        "answer": "D"
+        "number": 11
       },
       {
         "answer": "U"
       },
       {
-        "answer": "L"
+        "answer": "N"
       },
       {
-        "answer": "T"
+        "answer": "E"
       },
       {
-        "answer": "M",
-        "number": 8
+        "answer": "S"
+      },
+      null,
+      null,
+      null,
+      {
+        "answer": "T",
+        "number": 12
+      },
+      {
+        "answer": "O"
       },
       {
         "answer": "Y"
       },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "Y"
-      },
+      null,
       null
     ],
     "clues": {
@@ -268,45 +333,63 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 4,
-          "answer": "TART",
-          "clue": "Acidic",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
           "length": 5,
-          "answer": "SOLAR",
-          "clue": "Of the sun",
+          "answer": "PRINT",
+          "clue": "Make a hard copy of",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
-          "col": 0,
+          "row": 1,
+          "col": 1,
           "length": 5,
-          "answer": "PABLO",
-          "clue": "Picasso's name",
+          "answer": "LONER",
+          "clue": "Reclusive one",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
+          "row": 2,
           "col": 0,
-          "length": 5,
-          "answer": "ADULT",
-          "clue": "Mature",
+          "length": 7,
+          "answer": "HALFWAY",
+          "clue": "How you might meet someone",
           "source": "dataset"
         },
         {
-          "number": 8,
+          "number": 9,
+          "row": 3,
+          "col": 0,
+          "length": 7,
+          "answer": "ONLEAVE",
+          "clue": "Taking a sabbatical",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "MYMY",
-          "clue": "'Well, I'll be darned!'",
+          "length": 7,
+          "answer": "GEORGIA",
+          "clue": "Nation on the Black Sea",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 5,
+          "col": 1,
+          "length": 5,
+          "answer": "TUNES",
+          "clue": "Melodies",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 6,
+          "col": 2,
+          "length": 3,
+          "answer": "TOY",
+          "clue": "'___ Story'",
           "source": "dataset"
         }
       ],
@@ -315,45 +398,63 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 5,
-          "answer": "TOADY",
-          "clue": "Bill featuring in play, sycophant",
+          "length": 6,
+          "answer": "PLANET",
+          "clue": "Earth, e.g",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 2,
-          "length": 5,
-          "answer": "ALBUM",
-          "clue": "Book of photos",
-          "source": "dataset"
+          "length": 7,
+          "answer": "ROLLOUT",
+          "clue": "Gradual public launch of a product",
+          "source": "written"
         },
         {
           "number": 3,
           "row": 0,
           "col": 3,
-          "length": 5,
-          "answer": "RALLY",
-          "clue": "Surge on Wall Street",
+          "length": 7,
+          "answer": "INFERNO",
+          "clue": "Huge fire",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
           "col": 4,
-          "length": 4,
-          "answer": "TROT",
-          "clue": "Brisk gait",
+          "length": 7,
+          "answer": "NEWAGEY",
+          "clue": "Involving crystals and incense, say",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
+          "row": 0,
+          "col": 5,
+          "length": 6,
+          "answer": "TRAVIS",
+          "clue": "Country star Randy",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "answer": "SPAM",
-          "clue": "Meat in a can",
+          "length": 3,
+          "answer": "HOG",
+          "clue": "Large porker",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 2,
+          "col": 6,
+          "length": 3,
+          "answer": "YEA",
+          "clue": "'Up' vote",
           "source": "dataset"
         }
       ]

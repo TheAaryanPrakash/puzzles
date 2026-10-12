@@ -303,72 +303,77 @@
     "size": 5,
     "cells": [
       null,
-      null,
       {
-        "answer": "S",
+        "answer": "K",
         "number": 1
       },
       {
-        "answer": "H",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "E",
+        "answer": "L",
         "number": 3
+      },
+      {
+        "answer": "E",
+        "number": 4
       },
       null,
       {
-        "answer": "S",
-        "number": 4
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "R",
+        "answer": "A",
         "number": 5
       },
       {
-        "answer": "H"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "M"
+        "answer": "B"
       },
       {
         "answer": "E"
-      },
-      {
-        "answer": "O",
-        "number": 6
-      },
-      {
-        "answer": "I"
       },
       {
         "answer": "L"
       },
       {
+        "answer": "F",
+        "number": 6
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "G"
+      },
+      {
         "answer": "S"
       },
-      null,
       {
-        "answer": "C",
+        "answer": "A",
         "number": 7
       },
       {
-        "answer": "H"
+        "answer": "M"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "S"
       },
       {
         "answer": "E"
+      },
+      {
+        "answer": "R",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T"
       },
       null,
       null
@@ -378,46 +383,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "SHE",
-          "clue": "Pronoun",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "STAY",
-          "clue": "Linger",
+          "answer": "KALE",
+          "clue": "Green veggie",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "RHYME",
-          "clue": "Poetry",
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "ABEL",
+          "clue": "Adam's son",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 3,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "answer": "OILS",
-          "clue": "Rembrandt works",
+          "length": 5,
+          "answer": "FROGS",
+          "clue": "Second of the 10 biblical plagues",
           "source": "dataset"
         },
         {
           "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "AMUSE",
+          "clue": "Evoke chuckles",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "answer": "CHE",
-          "clue": "Senor Gueverra",
+          "answer": "RAT",
+          "clue": "Snitch",
           "source": "dataset"
         }
       ],
@@ -425,46 +430,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "STYLE",
-          "clue": "Elan",
+          "answer": "KARMA",
+          "clue": "Buddhist fate",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "HAMS",
-          "clue": "They act badly",
+          "col": 2,
+          "length": 5,
+          "answer": "ABOUT",
+          "clue": "Regarding",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 3,
-          "answer": "EYE",
-          "clue": "Look at",
+          "col": 3,
+          "length": 4,
+          "answer": "LEGS",
+          "clue": "Lower limbs",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 1,
+          "row": 0,
+          "col": 4,
           "length": 4,
-          "answer": "SHIH",
-          "clue": "___ Tzu",
+          "answer": "ELSE",
+          "clue": "Choice word",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 6,
           "row": 2,
           "col": 0,
           "length": 3,
-          "answer": "ROC",
-          "clue": "Bird of myth",
+          "answer": "FAR",
+          "clue": "Remote",
           "source": "dataset"
         }
       ]

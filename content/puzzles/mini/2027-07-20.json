@@ -2,81 +2,84 @@
   "payload": {
     "size": 5,
     "cells": [
-      {
-        "answer": "A",
-        "number": 1
-      },
-      {
-        "answer": "M",
-        "number": 2
-      },
-      {
-        "answer": "M",
-        "number": 3
-      },
-      {
-        "answer": "O",
-        "number": 4
-      },
       null,
       {
         "answer": "B",
-        "number": 5
+        "number": 1
       },
       {
-        "answer": "O"
+        "answer": "U",
+        "number": 2
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "S"
+        "answer": "S",
+        "number": 3
       },
       null,
       {
-        "answer": "C",
-        "number": 6
-      },
-      {
-        "answer": "O"
+        "answer": "P",
+        "number": 4
       },
       {
         "answer": "U"
       },
       {
+        "answer": "N"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S",
+        "number": 5
+      },
+      {
+        "answer": "O",
+        "number": 6
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
         "answer": "C"
       },
       {
-        "answer": "H",
-        "number": 7
+        "answer": "I"
       },
-      null,
       {
-        "answer": "C",
+        "answer": "F"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "T",
         "number": 8
       },
       {
-        "answer": "R"
+        "answer": "H"
       },
       {
-        "answer": "A"
+        "answer": "E"
       },
       {
-        "answer": "M"
-      },
-      null,
-      {
-        "answer": "H",
-        "number": 9
+        "answer": "F"
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "M"
+        "answer": "T"
       }
     ],
     "clues": {
@@ -84,19 +87,19 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 4,
-          "answer": "AMMO",
-          "clue": "Arsenal array",
+          "col": 1,
+          "length": 3,
+          "answer": "BUS",
+          "clue": "Clear",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
           "col": 0,
-          "length": 4,
-          "answer": "BOAS",
-          "clue": "Feathery scarves",
+          "length": 5,
+          "answer": "PUNTS",
+          "clue": "Fourth-down kicks",
           "source": "dataset"
         },
         {
@@ -104,26 +107,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "COUCH",
-          "clue": "Davenport, e.g",
+          "answer": "ONTAP",
+          "clue": "Available",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "SCIFI",
+          "clue": "Octavia E. Butler's genre",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 1,
-          "length": 4,
-          "answer": "CRAM",
-          "clue": "Pack full",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
           "row": 4,
-          "col": 1,
-          "length": 4,
-          "answer": "HARM",
-          "clue": "Injury",
+          "col": 0,
+          "length": 5,
+          "answer": "THEFT",
+          "clue": "It's a crime",
           "source": "dataset"
         }
       ],
@@ -131,46 +134,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 3,
-          "answer": "ABC",
-          "clue": "\"GMA\" network",
+          "col": 1,
+          "length": 5,
+          "answer": "BUNCH",
+          "clue": "Charlie into cake and hot bananas (wordplay)",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "MOOCH",
-          "clue": "Human sponge",
+          "answer": "UNTIE",
+          "clue": "Loosen as knot",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
+          "col": 3,
           "length": 5,
-          "answer": "MAURA",
-          "clue": "Tierney of \"ER\"",
+          "answer": "STAFF",
+          "clue": "Personnel",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "OSCAR",
-          "clue": "___ the Grouch",
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "POST",
+          "clue": "Fence support",
           "source": "dataset"
         },
         {
-          "number": 7,
-          "row": 2,
+          "number": 5,
+          "row": 1,
           "col": 4,
-          "length": 3,
-          "answer": "HMM",
-          "clue": "'Interesting'",
+          "length": 4,
+          "answer": "SPIT",
+          "clue": "Skewer",
           "source": "dataset"
         }
       ]
@@ -182,7 +185,7 @@
       null,
       null,
       {
-        "answer": "M",
+        "answer": "P",
         "number": 1
       },
       {
@@ -190,42 +193,53 @@
         "number": 2
       },
       {
-        "answer": "I",
+        "answer": "D",
         "number": 3
       },
+      null,
       {
-        "answer": "S",
+        "answer": "H",
         "number": 4
       },
       {
-        "answer": "N",
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "P",
         "number": 5
       },
       {
-        "answer": "O"
+        "answer": "A"
       },
       {
-        "answer": "B"
+        "answer": "T"
       },
       {
-        "answer": "S"
-      },
-      {
-        "answer": "T",
-        "number": 6
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "G"
+        "answer": "C"
       },
       {
         "answer": "H"
       },
+      {
+        "answer": "I",
+        "number": 6
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      null,
       {
         "answer": "E",
         "number": 7
@@ -234,25 +248,9 @@
         "answer": "A"
       },
       {
-        "answer": "S"
-      },
-      {
-        "answer": "Y"
+        "answer": "R"
       },
       null,
-      {
-        "answer": "W",
-        "number": 8
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "N"
-      },
       null
     ],
     "clues": {
@@ -262,44 +260,44 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "answer": "MOI",
-          "clue": "Me, in French",
+          "answer": "POD",
+          "clue": "Pea holder",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "HERO",
+          "clue": "Sub",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "SNOBS",
-          "clue": "Stuffed shirts",
+          "answer": "PATCH",
+          "clue": "Place to pick a pumpkin",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 3,
           "col": 0,
-          "length": 5,
-          "answer": "TOUGH",
-          "clue": "Difficult, as a challenge",
+          "length": 4,
+          "answer": "IKEA",
+          "clue": "Furniture brand",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 4,
-          "answer": "EASY",
-          "clue": "Not hard",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "WHEN",
-          "clue": "Question of time",
+          "length": 3,
+          "answer": "EAR",
+          "clue": "Sensor",
           "source": "dataset"
         }
       ],
@@ -309,17 +307,17 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "MOUSE",
-          "clue": "Dragging tool",
+          "answer": "PETER",
+          "clue": "Kid-lit rabbit",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 5,
-          "answer": "OBGYN",
-          "clue": "She delivers for you",
+          "length": 4,
+          "answer": "ORCA",
+          "clue": "Huge dolphin",
           "source": "dataset"
         },
         {
@@ -327,26 +325,26 @@
           "row": 0,
           "col": 4,
           "length": 3,
-          "answer": "ISH",
-          "clue": "\"Kinda\"",
+          "answer": "DOH",
+          "clue": "Homer's holler",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 0,
+          "col": 1,
           "length": 4,
-          "answer": "STEW",
-          "clue": "Simmer",
+          "answer": "HAKA",
+          "clue": "Maori dance",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "NOAH",
-          "clue": "Biblical boater",
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "PIE",
+          "clue": "Chart genre",
           "source": "dataset"
         }
       ]

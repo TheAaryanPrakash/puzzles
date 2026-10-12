@@ -4,81 +4,77 @@
     "cells": [
       null,
       {
-        "answer": "W",
+        "answer": "F",
         "number": 1
       },
       {
-        "answer": "I",
+        "answer": "U",
         "number": 2
       },
       {
-        "answer": "F",
+        "answer": "R",
         "number": 3
       },
+      null,
       {
-        "answer": "I",
+        "answer": "P",
         "number": 4
       },
       {
-        "answer": "S",
-        "number": 5
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "O",
-        "number": 6
-      },
-      {
-        "answer": "W"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "U"
+        "answer": "A"
       },
       {
         "answer": "P"
       },
       {
-        "answer": "L",
-        "number": 7
-      },
-      {
         "answer": "E"
       },
       {
-        "answer": "E"
+        "answer": "R",
+        "number": 5
       },
       {
-        "answer": "R"
+        "answer": "A",
+        "number": 6
       },
       {
-        "answer": "Y"
-      },
-      {
-        "answer": "E",
-        "number": 8
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "R"
+        "answer": "I"
       },
       {
         "answer": "S"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D",
+        "number": 7
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "D"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "Y"
       },
       null
     ],
@@ -88,27 +84,27 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 4,
-          "answer": "WIFI",
-          "clue": "In-flight amenity",
+          "length": 3,
+          "answer": "FUR",
+          "clue": "Dog coater",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "SONOS",
-          "clue": "Wireless speaker brand",
-          "source": "written"
+          "answer": "PAPER",
+          "clue": "Printer supply",
+          "source": "dataset"
         },
         {
           "number": 6,
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "OWNUP",
-          "clue": "Admit academic robe's no good at college",
+          "answer": "AISLE",
+          "clue": "Gangway",
           "source": "dataset"
         },
         {
@@ -116,17 +112,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "LEERY",
-          "clue": "Guarded",
+          "answer": "DREAD",
+          "clue": "Extreme fear",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
-          "col": 0,
-          "length": 4,
-          "answer": "ERRS",
-          "clue": "Flubs it",
+          "col": 1,
+          "length": 3,
+          "answer": "STY",
+          "clue": "Farm pen",
           "source": "dataset"
         }
       ],
@@ -136,17 +132,17 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "WOWER",
-          "clue": "One who dazzles a crowd",
-          "source": "written"
+          "answer": "FAIRS",
+          "clue": "Expos",
+          "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "INNER",
-          "clue": "Interior",
+          "answer": "UPSET",
+          "clue": "Displeased",
           "source": "dataset"
         },
         {
@@ -154,26 +150,26 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "FOURS",
-          "clue": "Two make eight",
+          "answer": "RELAY",
+          "clue": "Team race",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "ISPY",
-          "clue": "Kid's guessing game",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "PAD",
+          "clue": "___ thai",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "SOLE",
-          "clue": "Only",
+          "col": 4,
+          "length": 3,
+          "answer": "RED",
+          "clue": "Scarlet",
           "source": "dataset"
         }
       ]
@@ -183,63 +179,31 @@
     "size": 5,
     "cells": [
       {
-        "answer": "H",
+        "answer": "C",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "R",
         "number": 2
       },
       {
-        "answer": "N",
+        "answer": "I",
         "number": 3
       },
       {
-        "answer": "G",
+        "answer": "B",
         "number": 4
       },
       null,
       {
-        "answer": "O",
+        "answer": "D",
         "number": 5
       },
       {
-        "answer": "V"
+        "answer": "I"
       },
       {
-        "answer": "E"
-      },
-      {
-        "answer": "R"
-      },
-      null,
-      {
-        "answer": "T",
-        "number": 6
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "Z",
-        "number": 7
-      },
-      null,
-      {
-        "answer": "W",
-        "number": 8
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "Z"
+        "answer": "M"
       },
       {
         "answer": "E"
@@ -247,16 +211,48 @@
       null,
       {
         "answer": "S",
+        "number": 6
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "T",
+        "number": 7
+      },
+      null,
+      {
+        "answer": "G",
+        "number": 8
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "U"
+      },
+      null,
+      {
+        "answer": "S",
         "number": 9
       },
       {
-        "answer": "L"
+        "answer": "T"
       },
       {
-        "answer": "E"
+        "answer": "Y"
       },
       {
-        "answer": "D"
+        "answer": "X"
       }
     ],
     "clues": {
@@ -266,8 +262,8 @@
           "row": 0,
           "col": 0,
           "length": 4,
-          "answer": "HANG",
-          "clue": "Put up",
+          "answer": "CRIB",
+          "clue": "Nap site",
           "source": "dataset"
         },
         {
@@ -275,8 +271,8 @@
           "row": 1,
           "col": 0,
           "length": 4,
-          "answer": "OVER",
-          "clue": "Canceled",
+          "answer": "DIME",
+          "clue": "Thin coin",
           "source": "dataset"
         },
         {
@@ -284,8 +280,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "TOPAZ",
-          "clue": "November birthstone",
+          "answer": "SNORT",
+          "clue": "Laugh dismissively",
           "source": "dataset"
         },
         {
@@ -293,8 +289,8 @@
           "row": 3,
           "col": 1,
           "length": 4,
-          "answer": "WAZE",
-          "clue": "Traveler's app that can use crowdsourced data",
+          "answer": "GURU",
+          "clue": "Mentor",
           "source": "dataset"
         },
         {
@@ -302,8 +298,8 @@
           "row": 4,
           "col": 1,
           "length": 4,
-          "answer": "SLED",
-          "clue": "Toboggan",
+          "answer": "STYX",
+          "clue": "Mythical Greek river",
           "source": "dataset"
         }
       ],
@@ -313,8 +309,8 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "answer": "HOT",
-          "clue": "Blazing",
+          "answer": "CDS",
+          "clue": "LP successors",
           "source": "dataset"
         },
         {
@@ -322,8 +318,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "AVOWS",
-          "clue": "States with certainty",
+          "answer": "RINGS",
+          "clue": "Saturn sight",
           "source": "dataset"
         },
         {
@@ -331,8 +327,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "NEPAL",
-          "clue": "Asian nation",
+          "answer": "IMOUT",
+          "clue": "\"That's it for me\"",
           "source": "dataset"
         },
         {
@@ -340,8 +336,8 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "GRAZE",
-          "clue": "Barely touch bone from Bronze Age",
+          "answer": "BERRY",
+          "clue": "Pie bit",
           "source": "dataset"
         },
         {
@@ -349,8 +345,8 @@
           "row": 2,
           "col": 4,
           "length": 3,
-          "answer": "ZED",
-          "clue": "British ending",
+          "answer": "TUX",
+          "clue": "Red carpet rental, for short",
           "source": "dataset"
         }
       ]

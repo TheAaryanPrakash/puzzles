@@ -3,259 +3,78 @@
     "size": 5,
     "cells": [
       {
-        "answer": "D",
+        "answer": "H",
         "number": 1
+      },
+      {
+        "answer": "E",
+        "number": 2
       },
       {
         "answer": "R",
-        "number": 2
-      },
-      {
-        "answer": "A",
-        "number": 3
-      },
-      {
-        "answer": "G",
-        "number": 4
-      },
-      null,
-      {
-        "answer": "J",
-        "number": 5
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "E"
-      },
-      null,
-      {
-        "answer": "S",
-        "number": 6
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "S",
-        "number": 7
-      },
-      null,
-      {
-        "answer": "N",
-        "number": 8
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "O"
-      },
-      null,
-      {
-        "answer": "S",
-        "number": 9
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "D"
-      }
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 0,
-          "length": 4,
-          "answer": "DRAG",
-          "clue": "___ queen",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "JUNE",
-          "clue": "Month",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "SIGNS",
-          "clue": "Topic in driver's ed",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 3,
-          "col": 1,
-          "length": 4,
-          "answer": "NERO",
-          "clue": "Pianist Peter",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
-          "row": 4,
-          "col": 1,
-          "length": 4,
-          "answer": "SLED",
-          "clue": "Luge, e.g",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 0,
-          "length": 3,
-          "answer": "DJS",
-          "clue": "Mix makers",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "RUINS",
-          "clue": "Wrecks",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "ANGEL",
-          "clue": "Heavenly being",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "GENRE",
-          "clue": "Category",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 2,
-          "col": 4,
-          "length": 3,
-          "answer": "SOD",
-          "clue": "Lawn material",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 5,
-    "cells": [
-      {
-        "answer": "S",
-        "number": 1
-      },
-      {
-        "answer": "H",
-        "number": 2
-      },
-      {
-        "answer": "O",
         "number": 3
       },
       {
         "answer": "E",
         "number": 4
       },
+      null,
       {
-        "answer": "S",
+        "answer": "E",
         "number": 5
       },
       {
-        "answer": "C",
+        "answer": "M"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "J"
+      },
+      {
+        "answer": "I",
         "number": 6
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "F"
-      },
-      {
-        "answer": "F"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "A",
+        "answer": "L",
         "number": 7
       },
       {
-        "answer": "T"
-      },
-      {
         "answer": "A"
       },
       {
-        "answer": "L"
+        "answer": "D"
       },
       {
-        "answer": "L"
+        "answer": "E"
       },
       {
-        "answer": "R",
+        "answer": "D"
+      },
+      {
+        "answer": "P",
         "number": 8
       },
       {
+        "answer": "I"
+      },
+      {
         "answer": "E"
       },
       {
-        "answer": "G"
+        "answer": "C"
       },
       {
-        "answer": "A"
+        "answer": "E"
       },
+      null,
       {
-        "answer": "L"
-      },
-      {
-        "answer": "F",
+        "answer": "L",
         "number": 9
       },
       {
-        "answer": "R"
-      },
-      {
-        "answer": "E"
+        "answer": "O"
       },
       {
         "answer": "T"
@@ -270,18 +89,18 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 5,
-          "answer": "SHOES",
-          "clue": "Closet pairs",
+          "length": 4,
+          "answer": "HERE",
+          "clue": "'Present!'",
           "source": "dataset"
         },
         {
-          "number": 6,
+          "number": 5,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "CAFFE",
-          "clue": "- latte (espresso variety)",
+          "answer": "EMOJI",
+          "clue": "Unamused Face, e.g",
           "source": "dataset"
         },
         {
@@ -289,8 +108,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ATALL",
-          "clue": "Even a little",
+          "answer": "LADED",
+          "clue": "Put on, as cargo",
           "source": "dataset"
         },
         {
@@ -298,17 +117,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "REGAL",
-          "clue": "Like rulers",
+          "answer": "PIECE",
+          "clue": "Morsel",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 0,
-          "length": 5,
-          "answer": "FRETS",
-          "clue": "Is worried",
+          "col": 1,
+          "length": 4,
+          "answer": "LOTS",
+          "clue": "A great deal",
           "source": "dataset"
         }
       ],
@@ -317,9 +136,9 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 5,
-          "answer": "SCARF",
-          "clue": "Neckwear",
+          "length": 4,
+          "answer": "HELP",
+          "clue": "\"SOS!\"",
           "source": "dataset"
         },
         {
@@ -327,8 +146,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "HATER",
-          "clue": "One-star review writer",
+          "answer": "EMAIL",
+          "clue": "Inbox filler",
           "source": "dataset"
         },
         {
@@ -336,8 +155,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "OFAGE",
-          "clue": "Coming-___ story",
+          "answer": "RODEO",
+          "clue": "Cowboy contest",
           "source": "dataset"
         },
         {
@@ -345,17 +164,193 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "EFLAT",
-          "clue": "Key for Tchaikovsky's '1812 Overture'",
+          "answer": "EJECT",
+          "clue": "DVD button",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 4,
+          "length": 4,
+          "answer": "IDES",
+          "clue": "Mid-March date",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "M",
+        "number": 2
+      },
+      {
+        "answer": "U",
+        "number": 3
+      },
+      {
+        "answer": "G",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "N",
+        "number": 5
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "B",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "U",
+        "number": 7
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "G",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "M"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "SMUG",
+          "clue": "Overconfident",
           "source": "dataset"
         },
         {
           "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "NANO",
+          "clue": "iPod model",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "BANDB",
+          "clue": "Quaint lodging",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "UPDOS",
+          "clue": "High hairstyles",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "GEM",
+          "clue": "Jewel",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "SNAPE",
+          "clue": "Professor at Hogwarts",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "MANDM",
+          "clue": "Candy-coated chocolate, by its letters",
+          "source": "written"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "UNDO",
+          "clue": "Ruin",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
           "row": 0,
           "col": 4,
-          "length": 5,
-          "answer": "SELLS",
-          "clue": "Peddles",
+          "length": 4,
+          "answer": "GOBS",
+          "clue": "Large, messy amounts",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "BUG",
+          "clue": "Software glitch",
           "source": "dataset"
         }
       ]

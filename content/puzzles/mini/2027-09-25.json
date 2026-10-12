@@ -292,76 +292,50 @@
     "size": 5,
     "cells": [
       {
-        "answer": "V",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "E",
+        "answer": "L",
         "number": 2
       },
       {
-        "answer": "G",
+        "answer": "A",
         "number": 3
       },
       {
-        "answer": "A",
+        "answer": "S",
         "number": 4
       },
       {
-        "answer": "N",
+        "answer": "H",
         "number": 5
       },
       {
-        "answer": "E",
+        "answer": "T",
         "number": 6
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "R",
-        "number": 7
       },
       {
         "answer": "A"
       },
       {
-        "answer": "N"
+        "answer": "B"
       },
       {
-        "answer": "T"
+        "answer": "O"
       },
       {
-        "answer": "S"
+        "answer": "O"
       },
       {
-        "answer": "S",
-        "number": 8
+        "answer": "O",
+        "number": 7
       },
       {
-        "answer": "I"
+        "answer": "P"
       },
       {
-        "answer": "G"
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "E",
-        "number": 9
+        "answer": "A"
       },
       {
         "answer": "L"
@@ -370,7 +344,33 @@
         "answer": "S"
       },
       {
+        "answer": "P",
+        "number": 8
+      },
+      {
         "answer": "E"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
       },
       {
         "answer": "S"
@@ -383,8 +383,8 @@
           "row": 0,
           "col": 0,
           "length": 5,
-          "answer": "VEGAN",
-          "clue": "Avoider of animal products",
+          "answer": "SLASH",
+          "clue": "Really mark down",
           "source": "dataset"
         },
         {
@@ -392,8 +392,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "EMOTE",
-          "clue": "Act",
+          "answer": "TABOO",
+          "clue": "Banned",
           "source": "dataset"
         },
         {
@@ -401,8 +401,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "RANTS",
-          "clue": "Tirades",
+          "answer": "OPALS",
+          "clue": "October gems",
           "source": "dataset"
         },
         {
@@ -410,8 +410,8 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "SIGHT",
-          "clue": "Vision",
+          "answer": "PETIT",
+          "clue": "French for 'small'",
           "source": "dataset"
         },
         {
@@ -419,8 +419,8 @@
           "row": 4,
           "col": 0,
           "length": 5,
-          "answer": "ELSES",
-          "clue": "'It's nobody ___ business'",
+          "answer": "SLEDS",
+          "clue": "Some coasters",
           "source": "dataset"
         }
       ],
@@ -430,8 +430,8 @@
           "row": 0,
           "col": 0,
           "length": 5,
-          "answer": "VERSE",
-          "clue": "Poet's forte",
+          "answer": "STOPS",
+          "clue": "Halts",
           "source": "dataset"
         },
         {
@@ -439,8 +439,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "EMAIL",
-          "clue": "Online memo",
+          "answer": "LAPEL",
+          "clue": "Flap for a mic",
           "source": "dataset"
         },
         {
@@ -448,8 +448,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "GONGS",
-          "clue": "Instruments in temples",
+          "answer": "ABATE",
+          "clue": "Recede",
           "source": "dataset"
         },
         {
@@ -457,8 +457,8 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "ATTHE",
-          "clue": "___ moment (right now)",
+          "answer": "SOLID",
+          "clue": "Strongly made",
           "source": "dataset"
         },
         {
@@ -466,8 +466,8 @@
           "row": 0,
           "col": 4,
           "length": 5,
-          "answer": "NESTS",
-          "clue": "Cozy spots",
+          "answer": "HOSTS",
+          "clue": "Multitudes",
           "source": "dataset"
         }
       ]

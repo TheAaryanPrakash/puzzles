@@ -274,26 +274,39 @@
     "size": 5,
     "cells": [
       null,
-      null,
       {
-        "answer": "B",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "O",
+        "answer": "L",
         "number": 2
       },
       {
-        "answer": "A",
+        "answer": "E",
         "number": 3
       },
       {
-        "answer": "G",
+        "answer": "D",
         "number": 4
       },
+      null,
       {
-        "answer": "R",
+        "answer": "H",
         "number": 5
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "D",
+        "number": 6
       },
       {
         "answer": "I"
@@ -302,49 +315,38 @@
         "answer": "N"
       },
       {
-        "answer": "S"
+        "answer": "G"
       },
       {
-        "answer": "N",
-        "number": 6
+        "answer": "Y"
       },
       {
-        "answer": "O"
+        "answer": "I",
+        "number": 7
       },
       {
-        "answer": "D"
+        "answer": "N"
       },
       {
-        "answer": "U"
+        "answer": "C"
       },
       {
         "answer": "H"
       },
+      null,
       {
-        "answer": "U",
-        "number": 7
+        "answer": "N",
+        "number": 8
       },
       {
-        "answer": "K"
+        "answer": "Y"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "S"
+        "answer": "T"
       },
-      null,
-      {
-        "answer": "S",
-        "number": 8
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "N"
-      },
-      null,
       null
     ],
     "clues": {
@@ -352,84 +354,10 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "BOA",
-          "clue": "Snake",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "GRINS",
-          "clue": "Smiles widely",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "NODUH",
-          "clue": "'Thanks, Captain Obvious!'",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
+          "col": 1,
           "length": 4,
-          "answer": "UKES",
-          "clue": "Hawaiian strings",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 4,
-          "col": 0,
-          "length": 3,
-          "answer": "SUN",
-          "clue": "___ tea",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "BIDEN",
-          "clue": "#2 for #44",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "ONUS",
-          "clue": "Weight",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 4,
-          "length": 3,
-          "answer": "ASH",
-          "clue": "Pale gray",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "GNUS",
-          "clue": "Safari sights",
+          "answer": "SLED",
+          "clue": "Toboggan",
           "source": "dataset"
         },
         {
@@ -437,8 +365,82 @@
           "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "ROKU",
-          "clue": "Streaming player brand",
+          "answer": "HAIR",
+          "clue": "Tresses",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "DINGY",
+          "clue": "Hard to leave boat looking shabby",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "INCH",
+          "clue": "Creep (along)",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "NYET",
+          "clue": "Russian 'no'",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "SHINY",
+          "clue": "Like waxed cars",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "LANCE",
+          "clue": "Cavalry weapon",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "EIGHT",
+          "clue": "Rowing team",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "DRY",
+          "clue": "Parched",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "DIN",
+          "clue": "Clamor",
           "source": "dataset"
         }
       ]

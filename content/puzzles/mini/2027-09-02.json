@@ -3,188 +3,8 @@
     "size": 5,
     "cells": [
       null,
-      null,
-      {
-        "answer": "B",
-        "number": 1
-      },
-      {
-        "answer": "B",
-        "number": 2
-      },
-      {
-        "answer": "Q",
-        "number": 3
-      },
-      {
-        "answer": "B",
-        "number": 4
-      },
-      {
-        "answer": "A",
-        "number": 5
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "O",
-        "number": 6
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "E"
-      },
       {
         "answer": "T",
-        "number": 7
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S",
-        "number": 8
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "W"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "R"
-      }
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "BBQ",
-          "clue": "Picnic fare, for short",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "BAYOU",
-          "clue": "Marshy inlet",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "OLLIE",
-          "clue": "Skateboarding move",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "TEASE",
-          "clue": "Taunt",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 4,
-          "col": 0,
-          "length": 5,
-          "answer": "SEWER",
-          "clue": "Drainage conduit",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "BYLAW",
-          "clue": "Regulation made by a local authority",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "BOISE",
-          "clue": "Gem State capital",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 4,
-          "length": 5,
-          "answer": "QUEER",
-          "clue": "___ studies",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "BOTS",
-          "clue": "Spammers, often",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "ALEE",
-          "clue": "Helm heading",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 5,
-    "cells": [
-      null,
-      {
-        "answer": "V",
         "number": 1
       },
       {
@@ -192,51 +12,16 @@
         "number": 2
       },
       {
-        "answer": "S",
+        "answer": "N",
         "number": 3
       },
       {
-        "answer": "E",
+        "answer": "S",
         "number": 4
       },
       {
-        "answer": "T",
+        "answer": "C",
         "number": 5
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "A",
-        "number": 6
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "R",
-        "number": 7
-      },
-      {
-        "answer": "O"
       },
       {
         "answer": "U"
@@ -245,22 +30,59 @@
         "answer": "T"
       },
       {
+        "answer": "I"
+      },
+      {
         "answer": "E"
       },
       {
-        "answer": "T",
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "V"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N",
+        "number": 7
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "E",
         "number": 8
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "E"
       },
       {
         "answer": "S"
       },
-      null
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "Y"
+      }
     ],
     "clues": {
       "across": [
@@ -269,8 +91,8 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "VASE",
-          "clue": "Mantel piece",
+          "answer": "TANS",
+          "clue": "Summer shades",
           "source": "dataset"
         },
         {
@@ -278,8 +100,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "TIRED",
-          "clue": "Worn out",
+          "answer": "CUTIE",
+          "clue": "Term of endearment",
           "source": "dataset"
         },
         {
@@ -287,26 +109,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "AGGAG",
-          "clue": "Farm-filming restriction, informally, with 'law'",
-          "source": "written"
+          "answer": "ABOVE",
+          "clue": "Atop",
+          "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "ROUTE",
-          "clue": "Way to go",
+          "answer": "NAMED",
+          "clue": "Titled",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "TRES",
-          "clue": "\"- bien!\"",
+          "length": 5,
+          "answer": "ESSAY",
+          "clue": "Composition",
           "source": "dataset"
         }
       ],
@@ -316,8 +138,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "VIGOR",
-          "clue": "Energy",
+          "answer": "TUBAS",
+          "clue": "Orchestra heavyweights",
           "source": "dataset"
         },
         {
@@ -325,8 +147,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ARGUE",
-          "clue": "Quarrel, row",
+          "answer": "ATOMS",
+          "clue": "Little bitty bits",
           "source": "dataset"
         },
         {
@@ -334,17 +156,17 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "SEATS",
-          "clue": "Theater units",
+          "answer": "NIVEA",
+          "clue": "Skin care brand",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
           "col": 4,
-          "length": 4,
-          "answer": "EDGE",
-          "clue": "Leg up",
+          "length": 5,
+          "answer": "SEEDY",
+          "clue": "Opposite of posh",
           "source": "dataset"
         },
         {
@@ -352,8 +174,189 @@
           "row": 1,
           "col": 0,
           "length": 4,
-          "answer": "TART",
-          "clue": "Small pie",
+          "answer": "CANE",
+          "clue": "Bamboo, e.g",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "B",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "J",
+        "number": 3
+      },
+      {
+        "answer": "A",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "E",
+        "number": 5
+      },
+      {
+        "answer": "X"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "S",
+        "number": 6
+      },
+      {
+        "answer": "R",
+        "number": 7
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "G",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "Z"
+      },
+      {
+        "answer": "O"
+      },
+      null,
+      {
+        "answer": "M",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "BAJA",
+          "clue": "___ California",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "EXAMS",
+          "clue": "School tests",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "RIYAL",
+          "clue": "Saudi currency unit",
+          "source": "written"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "GONZO",
+          "clue": "Wildly subjective, as journalism",
+          "source": "written"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 1,
+          "length": 4,
+          "answer": "MEET",
+          "clue": "Join",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "BERG",
+          "clue": "Floating chunk",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "AXIOM",
+          "clue": "Basic principle",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "JAYNE",
+          "clue": "Old-time actress Mansfield or Meadows",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "AMAZE",
+          "clue": "Astound",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 4,
+          "length": 4,
+          "answer": "SLOT",
+          "clue": "Coin opening",
           "source": "dataset"
         }
       ]

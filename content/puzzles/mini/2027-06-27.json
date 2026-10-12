@@ -3,21 +3,20 @@
     "size": 5,
     "cells": [
       null,
-      null,
       {
-        "answer": "B",
+        "answer": "L",
         "number": 1
       },
       {
-        "answer": "U",
+        "answer": "I",
         "number": 2
       },
       {
-        "answer": "T",
+        "answer": "S",
         "number": 3
       },
       {
-        "answer": "F",
+        "answer": "A",
         "number": 4
       },
       {
@@ -25,57 +24,60 @@
         "number": 5
       },
       {
-        "answer": "U"
+        "answer": "I"
       },
       {
-        "answer": "T"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "R",
-        "number": 6
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "X"
-      },
-      {
-        "answer": "E",
-        "number": 7
+        "answer": "M"
       },
       {
         "answer": "I"
       },
       {
-        "answer": "G"
+        "answer": "T"
       },
       {
-        "answer": "H"
+        "answer": "O",
+        "number": 6
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "L",
+        "number": 7
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "F"
       },
       {
         "answer": "T"
       },
+      null,
       {
-        "answer": "D",
+        "answer": "S",
         "number": 8
       },
       {
         "answer": "A"
       },
       {
-        "answer": "Y"
+        "answer": "F"
       },
-      null,
+      {
+        "answer": "E"
+      },
       null
     ],
     "clues": {
@@ -83,19 +85,19 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "BUT",
-          "clue": "Except",
+          "col": 1,
+          "length": 4,
+          "answer": "LISA",
+          "clue": "Smart Simpson",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "FLUTE",
-          "clue": "One may be raised at a wedding",
+          "answer": "LIMIT",
+          "clue": "Restrict",
           "source": "dataset"
         },
         {
@@ -103,26 +105,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "RELAX",
-          "clue": "Chill out",
+          "answer": "OBOES",
+          "clue": "Orchestral winds",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 5,
-          "answer": "EIGHT",
-          "clue": "Skating figure",
+          "length": 4,
+          "answer": "LYFT",
+          "clue": "Uber alternative",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 3,
-          "answer": "DAY",
-          "clue": "Week unit",
+          "length": 4,
+          "answer": "SAFE",
+          "clue": "Cautious",
           "source": "dataset"
         }
       ],
@@ -130,46 +132,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "BULGY",
-          "clue": "Protruding, as eyes",
-          "source": "written"
+          "answer": "LIBYA",
+          "clue": "Chad's northern neighbor",
+          "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "UTAH",
-          "clue": "Orem's state",
+          "col": 2,
+          "length": 5,
+          "answer": "IMOFF",
+          "clue": "Parting words",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "TEXT",
-          "clue": "Modern message",
+          "col": 3,
+          "length": 5,
+          "answer": "SIETE",
+          "clue": "Evening hour in Spain",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "FRED",
-          "clue": "Armisen or Astaire",
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "ATS",
+          "clue": "Contact information symbols, nowadays",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 1,
+          "col": 0,
           "length": 4,
-          "answer": "LEIA",
-          "clue": "Star Wars princess",
+          "answer": "LOLS",
+          "clue": "Online outbursts",
           "source": "dataset"
         }
       ]
@@ -178,59 +180,26 @@
   "reserve": {
     "size": 5,
     "cells": [
-      null,
       {
-        "answer": "S",
+        "answer": "A",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "D",
         "number": 2
       },
       {
-        "answer": "P",
+        "answer": "A",
         "number": 3
       },
-      null,
       {
         "answer": "M",
         "number": 4
       },
+      null,
       {
-        "answer": "U"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "C",
+        "answer": "D",
         "number": 5
-      },
-      {
-        "answer": "A",
-        "number": 6
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "N",
-        "number": 7
-      },
-      {
-        "answer": "A"
       },
       {
         "answer": "A"
@@ -239,39 +208,73 @@
         "answer": "C"
       },
       {
-        "answer": "P"
+        "answer": "A"
       },
       null,
       {
-        "answer": "N",
+        "answer": "S",
+        "number": 6
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      null,
+      {
+        "answer": "U",
         "number": 8
       },
       {
-        "answer": "N"
+        "answer": "T"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "H"
+      },
+      null,
+      {
+        "answer": "P",
+        "number": 9
       },
       {
         "answer": "E"
       },
-      null
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      }
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 3,
-          "answer": "SAP",
-          "clue": "Tree goo",
+          "col": 0,
+          "length": 4,
+          "answer": "ADAM",
+          "clue": "First man",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
           "col": 0,
-          "length": 5,
-          "answer": "MUSIC",
-          "clue": "Harmonious sounds",
+          "length": 4,
+          "answer": "DACA",
+          "clue": "Policy for \"Dreamers\" abbreviation",
           "source": "dataset"
         },
         {
@@ -279,26 +282,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ADIEU",
-          "clue": "Parting mot",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "NAACP",
-          "clue": "Image Award org",
+          "answer": "SPUDS",
+          "clue": "Potatoes",
           "source": "dataset"
         },
         {
           "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "answer": "UTAH",
+          "clue": "Jazz home",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
           "row": 4,
           "col": 1,
-          "length": 3,
-          "answer": "NNE",
-          "clue": "GPS reading",
+          "length": 4,
+          "answer": "PETE",
+          "clue": "Singer Seeger",
           "source": "dataset"
         }
       ],
@@ -306,46 +309,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "SUDAN",
-          "clue": "East African country",
+          "col": 0,
+          "length": 3,
+          "answer": "ADS",
+          "clue": "Spots",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "ASIAN",
-          "clue": "Chinese, e.g",
-          "source": "dataset"
+          "answer": "DAPUP",
+          "clue": "Greet with a fist bump, with 'up'",
+          "source": "written"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
+          "col": 2,
           "length": 5,
-          "answer": "PIECE",
-          "clue": "Bit",
+          "answer": "ACUTE",
+          "clue": "Critical",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 3,
-          "answer": "MAN",
-          "clue": "Hombre",
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "MADAT",
+          "clue": "Furious with",
           "source": "dataset"
         },
         {
-          "number": 5,
-          "row": 1,
+          "number": 7,
+          "row": 2,
           "col": 4,
           "length": 3,
-          "answer": "CUP",
-          "clue": "Half-pint",
+          "answer": "SHE",
+          "clue": "That lass",
           "source": "dataset"
         }
       ]

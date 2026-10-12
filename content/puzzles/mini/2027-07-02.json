@@ -4,11 +4,187 @@
     "cells": [
       null,
       {
+        "answer": "B",
+        "number": 1
+      },
+      {
+        "answer": "E",
+        "number": 2
+      },
+      {
+        "answer": "D",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "F",
+        "number": 4
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "X"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D",
+        "number": 5
+      },
+      {
+        "answer": "B",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "I",
+        "number": 7
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      null,
+      {
+        "answer": "E",
+        "number": 8
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "F"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "BED",
+          "clue": "Pickup part",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "FIXED",
+          "clue": "Like some prices and incomes",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "BOCCE",
+          "clue": "Italian lawn bowling",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "IMEAN",
+          "clue": "\"That is ... \"",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "ELF",
+          "clue": "Goblin",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "BIOME",
+          "clue": "Ecological community",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "EXCEL",
+          "clue": "Get all A's",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "DECAF",
+          "clue": "Type of coffee",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "FBI",
+          "clue": "Hoover creation",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 4,
+          "length": 3,
+          "answer": "DEN",
+          "clue": "Hotbed",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
         "answer": "L",
         "number": 1
       },
       {
-        "answer": "I",
+        "answer": "A",
         "number": 2
       },
       {
@@ -16,67 +192,69 @@
         "number": 3
       },
       {
-        "answer": "A",
+        "answer": "T",
         "number": 4
       },
       {
-        "answer": "L",
+        "answer": "J",
         "number": 5
       },
       {
-        "answer": "I"
-      },
-      {
-        "answer": "M"
+        "answer": "U"
       },
       {
         "answer": "I"
       },
       {
-        "answer": "T"
-      },
-      {
-        "answer": "O",
-        "number": 6
-      },
-      {
-        "answer": "B"
-      },
-      {
-        "answer": "O"
+        "answer": "C"
       },
       {
         "answer": "E"
+      },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "I",
+        "number": 7
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
       },
       {
         "answer": "S"
       },
       {
         "answer": "L",
-        "number": 7
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "F"
-      },
-      {
-        "answer": "T"
-      },
-      null,
-      {
-        "answer": "S",
         "number": 8
       },
       {
-        "answer": "A"
+        "answer": "I"
       },
       {
-        "answer": "F"
+        "answer": "S"
       },
       {
-        "answer": "E"
+        "answer": "P"
       },
       null
     ],
@@ -87,8 +265,8 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "LISA",
-          "clue": "Smart Simpson",
+          "answer": "LAST",
+          "clue": "Endure",
           "source": "dataset"
         },
         {
@@ -96,8 +274,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "LIMIT",
-          "clue": "Restrict",
+          "answer": "JUICE",
+          "clue": "Drink nearly the entire carafe with a sorbet",
           "source": "dataset"
         },
         {
@@ -105,17 +283,17 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "OBOES",
-          "clue": "Orchestral winds",
+          "answer": "ANDRE",
+          "clue": "Tennis great Agassi",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 4,
-          "answer": "LYFT",
-          "clue": "Uber alternative",
+          "length": 5,
+          "answer": "IDEAS",
+          "clue": "Concepts, notions",
           "source": "dataset"
         },
         {
@@ -123,8 +301,8 @@
           "row": 4,
           "col": 0,
           "length": 4,
-          "answer": "SAFE",
-          "clue": "Cautious",
+          "answer": "LISP",
+          "clue": "Suffer with sibilants",
           "source": "dataset"
         }
       ],
@@ -134,17 +312,17 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "LIBYA",
-          "clue": "Chad's northern neighbor",
-          "source": "dataset"
+          "answer": "LUNDI",
+          "clue": "French for Monday",
+          "source": "written"
         },
         {
           "number": 2,
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "IMOFF",
-          "clue": "Parting words",
+          "answer": "AIDES",
+          "clue": "Senate staffers",
           "source": "dataset"
         },
         {
@@ -152,17 +330,17 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "SIETE",
-          "clue": "Evening hour in Spain",
+          "answer": "SCRAP",
+          "clue": "Tussle",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
           "col": 4,
-          "length": 3,
-          "answer": "ATS",
-          "clue": "Contact information symbols, nowadays",
+          "length": 4,
+          "answer": "TEES",
+          "clue": "Gym shirts",
           "source": "dataset"
         },
         {
@@ -170,187 +348,8 @@
           "row": 1,
           "col": 0,
           "length": 4,
-          "answer": "LOLS",
-          "clue": "Online outbursts",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 5,
-    "cells": [
-      {
-        "answer": "M",
-        "number": 1
-      },
-      {
-        "answer": "P",
-        "number": 2
-      },
-      {
-        "answer": "A",
-        "number": 3
-      },
-      {
-        "answer": "A",
-        "number": 4
-      },
-      null,
-      {
-        "answer": "E",
-        "number": 5
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "T",
-        "number": 6
-      },
-      {
-        "answer": "H",
-        "number": 7
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "I"
-      },
-      null,
-      {
-        "answer": "N",
-        "number": 8
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "N"
-      },
-      null,
-      {
-        "answer": "S",
-        "number": 9
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "E"
-      }
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 0,
-          "length": 4,
-          "answer": "MPAA",
-          "clue": "Bestower of PG's and R's, formerly",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "ELECT",
-          "clue": "Vote in",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "HAITI",
-          "clue": "Caribbean nation",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 3,
-          "col": 1,
-          "length": 4,
-          "answer": "NOON",
-          "clue": "Time for lunch",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
-          "row": 4,
-          "col": 1,
-          "length": 4,
-          "answer": "SURE",
-          "clue": "Confident",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 0,
-          "length": 3,
-          "answer": "MEH",
-          "clue": "\"So-so\"",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "PLANS",
-          "clue": "Schemes",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "AEIOU",
-          "clue": "Vowel quintet",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "ACTOR",
-          "clue": "Stage player",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 1,
-          "col": 4,
-          "length": 4,
-          "answer": "TINE",
-          "clue": "Rake prong",
+          "answer": "JAIL",
+          "clue": "Corner space in Monopoly",
           "source": "dataset"
         }
       ]

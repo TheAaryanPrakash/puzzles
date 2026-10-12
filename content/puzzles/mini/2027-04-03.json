@@ -291,32 +291,43 @@
   "reserve": {
     "size": 5,
     "cells": [
+      null,
       {
-        "answer": "S",
+        "answer": "C",
         "number": 1
       },
       {
-        "answer": "T",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "R",
+        "answer": "P",
         "number": 3
       },
+      null,
       {
-        "answer": "A",
+        "answer": "O",
         "number": 4
       },
       {
-        "answer": "W",
+        "answer": "H"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "Y",
         "number": 5
       },
       {
-        "answer": "I",
+        "answer": "R",
         "number": 6
       },
       {
-        "answer": "R"
+        "answer": "A"
       },
       {
         "answer": "I"
@@ -325,102 +336,82 @@
         "answer": "S"
       },
       {
-        "answer": "H"
+        "answer": "E"
       },
       {
-        "answer": "M",
+        "answer": "B",
         "number": 7
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "O",
-        "number": 8
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "N",
-        "number": 9
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "R"
+        "answer": "I"
       },
       {
         "answer": "D"
       },
       {
-        "answer": "S"
-      }
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      null,
+      {
+        "answer": "R",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      null
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "CAP",
+          "clue": "Limit",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "STRAW",
-          "clue": "Scarecrow stuff",
+          "answer": "OHBOY",
+          "clue": "Shout of glee",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 1,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "IRISH",
-          "clue": "From Dublin",
+          "answer": "RAISE",
+          "clue": "Job reward",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 2,
+          "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "MASSE",
-          "clue": "En ___ (as a large group)",
+          "answer": "BIDEN",
+          "clue": "#2 for #44",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "OCEAN",
-          "clue": "Poet Vuong",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
           "row": 4,
-          "col": 0,
-          "length": 5,
-          "answer": "NERDS",
-          "clue": "Uncool group",
+          "col": 1,
+          "length": 3,
+          "answer": "RED",
+          "clue": "Flushed",
           "source": "dataset"
         }
       ],
@@ -428,47 +419,47 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
+          "col": 1,
           "length": 5,
-          "answer": "SIMON",
-          "clue": "\"Plaza Suite\" playwright",
+          "answer": "CHAIR",
+          "clue": "Place to sit",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "TRACE",
-          "clue": "Find and copy",
+          "answer": "ABIDE",
+          "clue": "Dwell",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
+          "col": 3,
           "length": 5,
-          "answer": "RISER",
-          "clue": "Stage platform",
+          "answer": "POSED",
+          "clue": "Did some modeling",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "ASSAD",
-          "clue": "Family name in Mideast politics",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "ORB",
+          "clue": "Globe",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 0,
+          "row": 1,
           "col": 4,
-          "length": 5,
-          "answer": "WHENS",
-          "clue": "'Since ___?' (incredulous question)",
-          "source": "written"
+          "length": 3,
+          "answer": "YEN",
+          "clue": "Long",
+          "source": "dataset"
         }
       ]
     }

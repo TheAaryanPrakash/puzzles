@@ -4,7 +4,7 @@
     "cells": [
       null,
       {
-        "answer": "J",
+        "answer": "M",
         "number": 1
       },
       {
@@ -12,20 +12,36 @@
         "number": 2
       },
       {
-        "answer": "J",
+        "answer": "P",
         "number": 3
-      },
-      {
-        "answer": "O",
-        "number": 4
       },
       null,
       {
-        "answer": "E",
+        "answer": "T",
+        "number": 4
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S",
         "number": 5
       },
       {
-        "answer": "X"
+        "answer": "I",
+        "number": 6
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "E"
       },
       {
         "answer": "A"
@@ -34,48 +50,32 @@
         "answer": "M"
       },
       {
-        "answer": "G",
-        "number": 6
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "O",
+        "answer": "E",
         "number": 7
       },
       {
-        "answer": "L"
+        "answer": "A"
       },
       {
-        "answer": "D"
+        "answer": "R"
       },
       {
-        "answer": "E"
+        "answer": "T"
       },
       {
-        "answer": "N"
+        "answer": "H"
       },
+      null,
       {
         "answer": "D",
         "number": 8
       },
       {
-        "answer": "O"
+        "answer": "A"
       },
       {
-        "answer": "E"
+        "answer": "Y"
       },
-      null,
       null
     ],
     "clues": {
@@ -84,18 +84,18 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 4,
-          "answer": "JOJO",
-          "clue": "Siwa with a signature bow",
-          "source": "written"
+          "length": 3,
+          "answer": "MOP",
+          "clue": "Swab",
+          "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "EXAM",
-          "clue": "Big test",
+          "col": 0,
+          "length": 5,
+          "answer": "TYPES",
+          "clue": "Sends texts",
           "source": "dataset"
         },
         {
@@ -103,8 +103,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "GLIDE",
-          "clue": "Fly high without an engine",
+          "answer": "IBEAM",
+          "clue": "Girder shaped like a vowel",
           "source": "dataset"
         },
         {
@@ -112,17 +112,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "OLDEN",
-          "clue": "Long-gone",
+          "answer": "EARTH",
+          "clue": "Mother ___",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
-          "col": 0,
+          "col": 1,
           "length": 3,
-          "answer": "DOE",
-          "clue": "Girl deer",
+          "answer": "DAY",
+          "clue": "24 hours",
           "source": "dataset"
         }
       ],
@@ -132,8 +132,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "JELLO",
-          "clue": "Jiggly treat",
+          "answer": "MYBAD",
+          "clue": "'Whoops, sorry about that!'",
           "source": "dataset"
         },
         {
@@ -141,176 +141,121 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "OXIDE",
-          "clue": "Corundum, for one",
+          "answer": "OPERA",
+          "clue": "Wagner work",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
           "col": 3,
-          "length": 4,
-          "answer": "JADE",
-          "clue": "The 'stone of heaven,' in Chinese lore",
+          "length": 5,
+          "answer": "PEATY",
+          "clue": "Like some smoky Scotch",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "OMEN",
-          "clue": "Forewarning",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "TIE",
+          "clue": "Bind",
           "source": "dataset"
         },
         {
-          "number": 6,
-          "row": 2,
-          "col": 0,
+          "number": 5,
+          "row": 1,
+          "col": 4,
           "length": 3,
-          "answer": "GOD",
-          "clue": "Pluto, e.g",
+          "answer": "SMH",
+          "clue": "Texter's 'I can't believe this'",
           "source": "dataset"
         }
       ]
     }
   },
   "reserve": {
-    "size": 7,
+    "size": 5,
     "cells": [
-      null,
-      null,
-      {
-        "answer": "F",
-        "number": 1
-      },
-      {
-        "answer": "I",
-        "number": 2
-      },
-      {
-        "answer": "B",
-        "number": 3
-      },
-      null,
-      null,
       null,
       {
         "answer": "G",
+        "number": 1
+      },
+      {
+        "answer": "U",
+        "number": 2
+      },
+      {
+        "answer": "S",
+        "number": 3
+      },
+      {
+        "answer": "T",
         "number": 4
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "O"
+        "answer": "C",
+        "number": 5
       },
       {
         "answer": "U"
       },
       {
-        "answer": "T",
-        "number": 5
-      },
-      null,
-      {
-        "answer": "I",
-        "number": 6
+        "answer": "Z"
       },
       {
-        "answer": "R"
+        "answer": "C"
       },
       {
         "answer": "O"
       },
       {
-        "answer": "N"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "N",
-        "number": 7
-      },
-      {
-        "answer": "N",
-        "number": 8
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "D"
-      },
-      null,
-      {
-        "answer": "M",
-        "number": 9
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "N",
-        "number": 10
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "W"
-      },
-      {
-        "answer": "D",
-        "number": 11
-      },
-      {
-        "answer": "E"
+        "answer": "L",
+        "number": 6
       },
       {
         "answer": "A"
-      },
-      {
-        "answer": "L"
-      },
-      null,
-      {
-        "answer": "N",
-        "number": 12
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "S"
-      },
-      null,
-      null,
-      null,
-      {
-        "answer": "B",
-        "number": 13
       },
       {
         "answer": "B"
       },
       {
-        "answer": "S"
+        "answer": "O"
       },
-      null,
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "V"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "W",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "E"
+      },
       null
     ],
     "clues": {
@@ -318,73 +263,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "FIB",
-          "clue": "Little lie",
+          "col": 1,
+          "length": 4,
+          "answer": "GUST",
+          "clue": "Sudden wind",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
-          "col": 1,
+          "col": 0,
           "length": 5,
-          "answer": "GOOUT",
-          "clue": "Hit the town",
+          "answer": "CUZCO",
+          "clue": "Center of the Incan Empire",
           "source": "dataset"
         },
         {
           "number": 6,
           "row": 2,
           "col": 0,
-          "length": 7,
-          "answer": "IRONMAN",
-          "clue": "Fair on managing boxing event that's gruelling",
+          "length": 5,
+          "answer": "LABOR",
+          "clue": "Work hard",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "AVERT",
+          "clue": "Fend off",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 3,
-          "answer": "NED",
-          "clue": "Toon Flanders",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
-          "row": 3,
-          "col": 4,
-          "length": 3,
-          "answer": "MPH",
-          "clue": "Driver's info",
-          "source": "dataset"
-        },
-        {
-          "number": 10,
           "row": 4,
           "col": 0,
-          "length": 7,
-          "answer": "NEWDEAL",
-          "clue": "Roosevelt's initiative",
-          "source": "dataset"
-        },
-        {
-          "number": 12,
-          "row": 5,
-          "col": 1,
-          "length": 5,
-          "answer": "NEARS",
-          "clue": "Looms, say",
-          "source": "dataset"
-        },
-        {
-          "number": 13,
-          "row": 6,
-          "col": 2,
-          "length": 3,
-          "answer": "BBS",
-          "clue": "Tiny ammo",
+          "length": 4,
+          "answer": "WAKE",
+          "clue": "What's aft a ship's aft",
           "source": "dataset"
         }
       ],
@@ -392,73 +310,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 7,
-          "answer": "FOODWEB",
-          "clue": "Ecosystem's network of who-eats-whom",
-          "source": "written"
+          "col": 1,
+          "length": 5,
+          "answer": "GUAVA",
+          "clue": "Tropical fruit",
+          "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 3,
-          "answer": "ION",
-          "clue": "B+, e.g",
+          "col": 2,
+          "length": 5,
+          "answer": "UZBEK",
+          "clue": "Language of Tashkent",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 7,
-          "answer": "BUMMERS",
-          "clue": "Disappointing situations",
-          "source": "written"
+          "col": 3,
+          "length": 5,
+          "answer": "SCORE",
+          "clue": "Group of 20",
+          "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 5,
-          "answer": "GREEN",
-          "clue": "Verdant",
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "TORT",
+          "clue": "Battery, e.g",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 5,
-          "length": 5,
-          "answer": "TAPAS",
-          "clue": "Empanadillas, etc",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
           "col": 0,
-          "length": 3,
-          "answer": "INN",
-          "clue": "Pub",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 2,
-          "col": 6,
-          "length": 3,
-          "answer": "NHL",
-          "clue": "Puck-pushers' org",
-          "source": "dataset"
-        },
-        {
-          "number": 11,
-          "row": 4,
-          "col": 3,
-          "length": 3,
-          "answer": "DAB",
-          "clue": "Smidgen",
+          "length": 4,
+          "answer": "CLAW",
+          "clue": "Talon",
           "source": "dataset"
         }
       ]

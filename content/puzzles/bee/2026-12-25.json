@@ -1,40 +1,49 @@
 {
   "payload": {
-    "center": "L",
+    "center": "A",
     "outer": [
       "B",
       "C",
-      "I",
-      "P",
-      "U",
-      "Y"
+      "D",
+      "H",
+      "K",
+      "R"
     ],
     "answers": [
-      "BILL",
-      "BILLY",
-      "BLIP",
-      "BUBBLY",
-      "BULB",
-      "BULL",
-      "BULLY",
-      "CLIP",
-      "CLUB",
-      "CULL",
-      "CYCLIC",
-      "LILY",
-      "LULL",
-      "LULU",
-      "PILL",
-      "PUBLIC",
-      "PUBLICLY",
-      "PULL",
-      "PULP",
-      "PUPIL"
+      "ABACK",
+      "ABBA",
+      "ARCH",
+      "BABA",
+      "BACH",
+      "BACK",
+      "BARB",
+      "BARD",
+      "BARK",
+      "BARRACK",
+      "BRAD",
+      "CARB",
+      "CARD",
+      "CARR",
+      "CHAD",
+      "CHAKRA",
+      "CHAR",
+      "CRAB",
+      "CRACK",
+      "DADA",
+      "DARK",
+      "DRAB",
+      "HACK",
+      "HAHA",
+      "HARD",
+      "HARDBACK",
+      "HARK",
+      "RACK",
+      "RADAR"
     ],
     "pangrams": [
-      "PUBLICLY"
+      "HARDBACK"
     ],
-    "maxScore": 61
+    "maxScore": 66
   },
   "reserve": null
 }

@@ -2,43 +2,43 @@
   "payload": {
     "groups": [
       {
-        "label": "LUNCH ORDERS",
+        "label": "UNITS OF VOLUME",
         "level": 0,
         "words": [
-          "CLUB",
-          "HERO",
-          "WRAP",
-          "MELT"
+          "PINT",
+          "CUP",
+          "GALLON",
+          "QUART"
         ]
       },
       {
-        "label": "USED TO MAKE COFFEE",
+        "label": "EXTREMELY",
         "level": 1,
         "words": [
-          "GRINDER",
-          "WATER",
-          "BEANS",
-          "FILTER"
+          "AWFUL",
+          "SUPER",
+          "VERY",
+          "QUITE"
         ]
       },
       {
-        "label": "PAY, WITH “UP”",
+        "label": "WORLD CURRENCIES",
         "level": 2,
         "words": [
-          "PONY",
-          "ANTE",
-          "SETTLE",
-          "COUGH"
+          "REAL",
+          "WON",
+          "RAND",
+          "STERLING"
         ]
       },
       {
-        "label": "NAMES FEATURING \"!\"",
+        "label": "___ CAKE",
         "level": 3,
         "words": [
-          "PINK",
-          "AIRPLANE",
-          "JEOPARDY",
-          "YAHOO"
+          "CARROT",
+          "SPONGE",
+          "COFFEE",
+          "POUND"
         ]
       }
     ]
@@ -46,43 +46,43 @@
   "reserve": {
     "groups": [
       {
-        "label": "BOARD GAMES",
+        "label": "GOLF COURSE PARTS",
         "level": 0,
         "words": [
-          "CHESS",
-          "GO",
-          "CHECKERS",
-          "BACKGAMMON"
+          "ROUGH",
+          "GREEN",
+          "BUNKER",
+          "FAIRWAY"
         ]
       },
       {
-        "label": "MATTRESS SIZES",
+        "label": "“I GIVE!”",
         "level": 1,
         "words": [
-          "KING",
-          "TWIN",
-          "QUEEN",
-          "FULL"
+          "STOP",
+          "ENOUGH",
+          "UNCLE",
+          "MERCY"
         ]
       },
       {
-        "label": "THINGS THAT ARE RED",
+        "label": "INDECENT",
         "level": 2,
         "words": [
-          "FIRE TRUCK",
-          "RUBY",
-          "CHERRY",
-          "STOP SIGN"
+          "BLUE",
+          "COARSE",
+          "BAWDY",
+          "RISQUE"
         ]
       },
       {
-        "label": "THINGS WITH KEYS",
+        "label": "”-OUGH” WORDS THAT DON’T RHYME",
         "level": 3,
         "words": [
-          "LOCKSMITH",
-          "PIANO",
-          "FLORIDA",
-          "CRYPTOGRAPHY"
+          "TOUGH",
+          "DOUGH",
+          "COUGH",
+          "BOUGH"
         ]
       }
     ]

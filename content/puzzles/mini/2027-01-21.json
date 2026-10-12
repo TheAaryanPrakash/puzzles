@@ -3,185 +3,9 @@
     "size": 5,
     "cells": [
       null,
-      {
-        "answer": "C",
-        "number": 1
-      },
-      {
-        "answer": "Y",
-        "number": 2
-      },
-      {
-        "answer": "A",
-        "number": 3
-      },
-      {
-        "answer": "N",
-        "number": 4
-      },
       null,
       {
-        "answer": "L",
-        "number": 5
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "B"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "D",
-        "number": 6
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "B"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "R",
-        "number": 7
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "E",
-        "number": 8
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "Y"
-      },
-      null
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "CYAN",
-          "clue": "Printer's colour",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "LOBE",
-          "clue": "Earring site",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "DOUBT",
-          "clue": "Have reservations about",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "RUNES",
-          "clue": "Ancient letters",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 4,
-          "col": 0,
-          "length": 4,
-          "answer": "EDGY",
-          "clue": "Avant-garde",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "CLOUD",
-          "clue": "On ___ nine (very happy)",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "YOUNG",
-          "clue": "Like a lamb",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "ABBEY",
-          "clue": "Nuns' residence",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "NETS",
-          "clue": "Realizes",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "answer": "DRE",
-          "clue": "Dr. of rap",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 5,
-    "cells": [
-      {
-        "answer": "C",
+        "answer": "F",
         "number": 1
       },
       {
@@ -189,7 +13,7 @@
         "number": 2
       },
       {
-        "answer": "A",
+        "answer": "X",
         "number": 3
       },
       {
@@ -197,68 +21,61 @@
         "number": 4
       },
       {
-        "answer": "T",
+        "answer": "P",
         "number": 5
       },
       {
-        "answer": "A",
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "K",
         "number": 6
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "M",
-        "number": 7
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "P",
-        "number": 8
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "S"
-      },
-      null,
-      {
-        "answer": "N",
-        "number": 9
       },
       {
         "answer": "O"
       },
       {
-        "answer": "T"
+        "answer": "R"
       },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "E",
+        "number": 7
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "W",
+        "number": 8
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "Y"
+      },
+      null,
       null
     ],
     "clues": {
@@ -266,46 +83,46 @@
         {
           "number": 1,
           "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "FOX",
+          "clue": "Aesopian animal",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "COAST",
-          "clue": "Move without effort",
+          "answer": "SPERM",
+          "clue": "Male reproductive cell",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 1,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ACUTE",
-          "clue": "Critical",
+          "answer": "KOREA",
+          "clue": "Seoul setting",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 2,
+          "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "MEDIA",
-          "clue": "Mainstream ___",
+          "answer": "EUROS",
+          "clue": "Maltese money",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "PAILS",
-          "clue": "Water holders",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
           "row": 4,
-          "col": 1,
+          "col": 0,
           "length": 3,
-          "answer": "NOT",
-          "clue": "\"Psych!\"",
+          "answer": "WRY",
+          "clue": "Sardonic",
           "source": "dataset"
         }
       ],
@@ -313,46 +130,322 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 4,
-          "answer": "CAMP",
-          "clue": "Theatrical party",
+          "col": 2,
+          "length": 5,
+          "answer": "FERRY",
+          "clue": "River-crossing service",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "OCEAN",
-          "clue": "The deep",
+          "col": 3,
+          "length": 4,
+          "answer": "OREO",
+          "clue": "Milk dunker",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
+          "col": 4,
+          "length": 4,
+          "answer": "XMAS",
+          "clue": "Dec. holiday",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "SKEW",
+          "clue": "Oblique",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "POUR",
+          "clue": "Do the honors",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 7,
+    "cells": [
+      null,
+      {
+        "answer": "B",
+        "number": 1
+      },
+      {
+        "answer": "O",
+        "number": 2
+      },
+      {
+        "answer": "P",
+        "number": 3
+      },
+      {
+        "answer": "S",
+        "number": 4
+      },
+      null,
+      null,
+      null,
+      {
+        "answer": "S",
+        "number": 5
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "T",
+        "number": 6
+      },
+      null,
+      {
+        "answer": "C",
+        "number": 7
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "B",
+        "number": 9
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "D",
+        "number": 10
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "P",
+        "number": 11
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null,
+      {
+        "answer": "S",
+        "number": 12
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "BOPS",
+          "clue": "Socks on the head",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
           "length": 5,
-          "answer": "AUDIO",
-          "clue": "Sound feed",
+          "answer": "SNOUT",
+          "clue": "Pig's nose",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "CHARLES",
+          "clue": "Sir ___, nickname for the NBA's Barkley",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 3,
+          "col": 0,
+          "length": 7,
+          "answer": "BARKLEY",
+          "clue": "NBA Hall-of-Famer Charles ___",
+          "source": "written"
+        },
+        {
+          "number": 10,
+          "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "DROPINS",
+          "clue": "Surprise visitors",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 5,
+          "col": 1,
+          "length": 5,
+          "answer": "PLIES",
+          "clue": "Layers of tissues",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 6,
+          "col": 1,
+          "length": 4,
+          "answer": "SLED",
+          "clue": "Luge",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "answer": "BSHARPS",
+          "clue": "Notes equivalent to C's, musically",
+          "source": "written"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "ONAROLL",
+          "clue": "Colloquially, enjoying long-term successes",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "answer": "PORKPIE",
+          "clue": "The type of hat that can be eaten!",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 3,
+          "col": 4,
+          "length": 7,
+          "answer": "SULLIED",
+          "clue": "Tarnished, as a reputation",
+          "source": "written"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 5,
           "length": 5,
-          "answer": "STILT",
-          "clue": "Half of a boosting pair",
+          "answer": "TEENS",
+          "clue": "Prom group",
           "source": "dataset"
         },
         {
-          "number": 5,
-          "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "TEAS",
-          "clue": "Steeped drinks",
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "CBD",
+          "clue": "Trendy oil ingredient derived from marijuana",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 2,
+          "col": 6,
+          "length": 3,
+          "answer": "SYS",
+          "clue": "- admin",
           "source": "dataset"
         }
       ]

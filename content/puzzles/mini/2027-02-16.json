@@ -4,24 +4,54 @@
     "cells": [
       null,
       {
-        "answer": "A",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "N",
+        "answer": "C",
         "number": 2
       },
       {
-        "answer": "N",
+        "answer": "A",
         "number": 3
       },
       {
-        "answer": "E",
+        "answer": "M",
         "number": 4
+      },
+      null,
+      {
+        "answer": "M",
+        "number": 5
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "I"
       },
       {
         "answer": "F",
-        "number": 5
+        "number": 6
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "A",
+        "number": 7
       },
       {
         "answer": "L"
@@ -30,55 +60,21 @@
         "answer": "O"
       },
       {
-        "answer": "O"
+        "answer": "T"
       },
+      null,
       {
-        "answer": "R"
-      },
-      {
-        "answer": "L",
-        "number": 6
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "F"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "A",
-        "number": 7
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "T",
+        "answer": "D",
         "number": 8
       },
       {
         "answer": "E"
       },
       {
-        "answer": "E"
+        "answer": "N"
       },
       {
-        "answer": "N"
+        "answer": "Y"
       },
       null
     ],
@@ -89,17 +85,17 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "ANNE",
-          "clue": "Poet Spencer",
+          "answer": "SCAM",
+          "clue": "Con",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "FLOOR",
-          "clue": "Ocean's bottom",
+          "col": 1,
+          "length": 4,
+          "answer": "MAUI",
+          "clue": "Hawaiian island",
           "source": "dataset"
         },
         {
@@ -107,17 +103,17 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "LOOFA",
-          "clue": "Shower amenity",
+          "answer": "FINNS",
+          "clue": "Helsinki natives",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 5,
-          "answer": "ANNUS",
-          "clue": "Dispersed in mass burial in 1666",
+          "length": 4,
+          "answer": "ALOT",
+          "clue": "Scads",
           "source": "dataset"
         },
         {
@@ -125,8 +121,8 @@
           "row": 4,
           "col": 0,
           "length": 4,
-          "answer": "TEEN",
-          "clue": "Romeo or Juliet",
+          "answer": "DENY",
+          "clue": "Say no to",
           "source": "dataset"
         }
       ],
@@ -136,8 +132,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "ALONE",
-          "clue": "Solo",
+          "answer": "SMILE",
+          "clue": "Beam",
           "source": "dataset"
         },
         {
@@ -145,8 +141,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "NOONE",
-          "clue": "\"Said ___ ever!\"",
+          "answer": "CANON",
+          "clue": "Cathedral cleric",
           "source": "dataset"
         },
         {
@@ -154,26 +150,26 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "NOFUN",
-          "clue": "Like a Debbie Downer",
+          "answer": "AUNTY",
+          "clue": "Mommy's sister",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
           "col": 4,
-          "length": 4,
-          "answer": "ERAS",
-          "clue": "Times past",
+          "length": 3,
+          "answer": "MIS",
+          "clue": "Grafton's \"___ for Malice\"",
           "source": "dataset"
         },
         {
-          "number": 5,
-          "row": 1,
+          "number": 6,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "answer": "FLAT",
-          "clue": "Smooth pad",
+          "length": 3,
+          "answer": "FAD",
+          "clue": "Rage",
           "source": "dataset"
         }
       ]
@@ -183,55 +179,45 @@
     "size": 5,
     "cells": [
       null,
+      null,
       {
-        "answer": "A",
+        "answer": "B",
         "number": 1
       },
       {
-        "answer": "C",
+        "answer": "E",
         "number": 2
       },
       {
-        "answer": "H",
+        "answer": "T",
         "number": 3
       },
       {
-        "answer": "Y",
+        "answer": "H",
         "number": 4
       },
-      null,
       {
-        "answer": "P",
+        "answer": "I",
         "number": 5
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "S",
-        "number": 6
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "O"
       },
       {
         "answer": "R"
       },
       {
-        "answer": "K"
+        "answer": "E"
       },
       {
-        "answer": "A",
-        "number": 7
+        "answer": "E"
+      },
+      {
+        "answer": "G",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "A"
       },
       {
         "answer": "L"
@@ -240,22 +226,32 @@
         "answer": "S"
       },
       {
-        "answer": "O"
-      },
-      null,
-      {
         "answer": "T",
+        "number": 7
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "V",
         "number": 8
       },
       {
-        "answer": "E"
-      },
-      {
-        "answer": "E"
+        "answer": "A"
       },
       {
         "answer": "N"
       },
+      null,
       null
     ],
     "clues": {
@@ -263,19 +259,19 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "ACHY",
-          "clue": "Giving pain",
+          "col": 2,
+          "length": 3,
+          "answer": "BET",
+          "clue": "Stake",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "PLEA",
-          "clue": "Petition",
+          "col": 0,
+          "length": 5,
+          "answer": "HIREE",
+          "clue": "New staff member",
           "source": "dataset"
         },
         {
@@ -283,26 +279,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "SPORK",
-          "clue": "*Hybrid utensil",
+          "answer": "GOALS",
+          "clue": "Objectives",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 4,
-          "answer": "ALSO",
-          "clue": "Further",
+          "length": 5,
+          "answer": "TWIST",
+          "clue": "Contort",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "TEEN",
-          "clue": "___ Vogue",
+          "length": 3,
+          "answer": "VAN",
+          "clue": "Camper, e.g",
           "source": "dataset"
         }
       ],
@@ -310,46 +306,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "APPLE",
-          "clue": "Mac maker",
+          "answer": "BRAIN",
+          "clue": "Smart one",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "CLOSE",
-          "clue": "Shut",
+          "col": 3,
+          "length": 4,
+          "answer": "EELS",
+          "clue": "Congers",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "HERON",
-          "clue": "Marsh bird",
+          "col": 4,
+          "length": 4,
+          "answer": "TEST",
+          "clue": "Lab work",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 3,
-          "answer": "YAK",
-          "clue": "Wild ox",
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "HGTV",
+          "clue": "'House Hunters' cable channel",
           "source": "dataset"
         },
         {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "answer": "SAT",
-          "clue": "Rested",
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "IOWA",
+          "clue": "Hawkeye's state",
           "source": "dataset"
         }
       ]

@@ -3,71 +3,59 @@
     "size": 5,
     "cells": [
       {
-        "answer": "P",
+        "answer": "E",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "G",
         "number": 2
       },
       {
-        "answer": "W",
+        "answer": "G",
         "number": 3
       },
+      null,
+      null,
       {
-        "answer": "N",
+        "answer": "B",
         "number": 4
       },
-      null,
       {
-        "answer": "O",
-        "number": 5
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "O"
-      },
-      null,
-      {
-        "answer": "D",
-        "number": 6
-      },
-      {
-        "answer": "E"
+        "answer": "Y"
       },
       {
         "answer": "L"
       },
       {
-        "answer": "T"
+        "answer": "A",
+        "number": 5
       },
       {
-        "answer": "A",
+        "answer": "W",
+        "number": 6
+      },
+      {
+        "answer": "B",
         "number": 7
       },
-      null,
       {
-        "answer": "A",
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "X"
+      },
+      {
+        "answer": "S",
         "number": 8
       },
       {
-        "answer": "C"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "D"
-      },
-      null,
-      {
-        "answer": "D",
-        "number": 9
+        "answer": "O"
       },
       {
         "answer": "O"
@@ -76,7 +64,19 @@
         "answer": "T"
       },
       {
-        "answer": "S"
+        "answer": "Y"
+      },
+      null,
+      null,
+      {
+        "answer": "M",
+        "number": 9
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "Z"
       }
     ],
     "clues": {
@@ -85,45 +85,45 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 4,
-          "answer": "PAWN",
-          "clue": "Chess soldier",
+          "length": 3,
+          "answer": "EGG",
+          "clue": "Chick holder",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
           "col": 0,
-          "length": 4,
-          "answer": "OHIO",
-          "clue": "Dayton locale",
+          "length": 5,
+          "answer": "BYLAW",
+          "clue": "Part of a corporate charter",
           "source": "dataset"
         },
         {
-          "number": 6,
+          "number": 7,
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "DELTA",
-          "clue": "River estuary",
+          "answer": "BRONX",
+          "clue": "Yankee Stadium's setting",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 3,
-          "col": 1,
-          "length": 4,
-          "answer": "ACID",
-          "clue": "___ rock",
+          "col": 0,
+          "length": 5,
+          "answer": "SOOTY",
+          "clue": "In need of a sweep",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 1,
-          "length": 4,
-          "answer": "DOTS",
-          "clue": "Three in an ellipsis",
+          "col": 2,
+          "length": 3,
+          "answer": "MIZ",
+          "clue": "B'way's \"Les ___\"",
           "source": "dataset"
         }
       ],
@@ -132,18 +132,18 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 3,
-          "answer": "POD",
-          "clue": "Peeved",
+          "length": 4,
+          "answer": "EBBS",
+          "clue": "Goes back",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
-          "length": 5,
-          "answer": "AHEAD",
-          "clue": "Looming",
+          "length": 4,
+          "answer": "GYRO",
+          "clue": "Halal cart offering",
           "source": "dataset"
         },
         {
@@ -151,75 +151,57 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "WILCO",
-          "clue": "Radio word after \"Roger\"",
+          "answer": "GLOOM",
+          "clue": "Murk",
           "source": "dataset"
         },
         {
-          "number": 4,
-          "row": 0,
+          "number": 5,
+          "row": 1,
           "col": 3,
-          "length": 5,
-          "answer": "NOTIT",
-          "clue": "Tag announcement",
+          "length": 4,
+          "answer": "ANTI",
+          "clue": "Not for",
           "source": "dataset"
         },
         {
-          "number": 7,
-          "row": 2,
+          "number": 6,
+          "row": 1,
           "col": 4,
-          "length": 3,
-          "answer": "ADS",
-          "clue": "Spots on TV",
-          "source": "dataset"
+          "length": 4,
+          "answer": "WXYZ",
+          "clue": "Final letters of the alphabet",
+          "source": "written"
         }
       ]
     }
   },
   "reserve": {
-    "size": 7,
+    "size": 5,
     "cells": [
       null,
-      null,
-      null,
       {
-        "answer": "W",
+        "answer": "U",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "M",
         "number": 2
       },
       {
-        "answer": "T",
+        "answer": "P",
         "number": 3
       },
       {
-        "answer": "T",
+        "answer": "S",
         "number": 4
       },
-      null,
-      null,
       {
-        "answer": "M",
+        "answer": "S",
         "number": 5
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "A"
-      },
-      null,
-      {
-        "answer": "F",
-        "number": 6
+        "answer": "P"
       },
       {
         "answer": "O"
@@ -228,95 +210,53 @@
         "answer": "R"
       },
       {
-        "answer": "C"
+        "answer": "K"
       },
       {
-        "answer": "E"
+        "answer": "A",
+        "number": 6
       },
       {
         "answer": "S"
       },
       {
-        "answer": "G",
+        "answer": "D"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "R",
         "number": 7
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "N"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "T"
+        "answer": "E"
       },
       {
-        "answer": "T"
+        "answer": "F"
+      },
+      {
+        "answer": "S"
       },
       {
         "answer": "A",
         "number": 8
       },
       {
-        "answer": "U"
-      },
-      {
         "answer": "T"
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "S",
-        "number": 9
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "T"
+        "answer": "M"
       },
       {
         "answer": "S"
       },
-      null,
-      {
-        "answer": "P",
-        "number": 10
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "S"
-      },
-      null,
       null
     ],
     "clues": {
@@ -324,64 +264,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 3,
+          "col": 1,
           "length": 4,
-          "answer": "WATT",
-          "clue": "Bulb measure",
+          "answer": "UMPS",
+          "clue": "Foul callers",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 2,
+          "col": 0,
           "length": 5,
-          "answer": "MOCHA",
-          "clue": "Type of coffee",
+          "answer": "SPORK",
+          "clue": "Double-duty utensil",
           "source": "dataset"
         },
         {
           "number": 6,
           "row": 2,
-          "col": 1,
-          "length": 6,
-          "answer": "FORCES",
-          "clue": "Troops and weaponry",
+          "col": 0,
+          "length": 5,
+          "answer": "ASDOI",
+          "clue": "'Same here'",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 7,
-          "answer": "GARNETT",
-          "clue": "Kevin ___, NBA Hall-of-Famer",
-          "source": "written"
+          "length": 5,
+          "answer": "REEFS",
+          "clue": "Fragile ecosystems",
+          "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 7,
-          "answer": "AUTOPAY",
-          "clue": "Billing convenience",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
-          "row": 5,
-          "col": 0,
-          "length": 6,
-          "answer": "SCOUTS",
-          "clue": "Merit badge earners",
-          "source": "dataset"
-        },
-        {
-          "number": 10,
-          "row": 6,
-          "col": 0,
-          "length": 5,
-          "answer": "PINTS",
-          "clue": "Pub pours",
+          "length": 4,
+          "answer": "ATMS",
+          "clue": "100 dispensers",
           "source": "dataset"
         }
       ],
@@ -389,64 +311,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 3,
-          "length": 7,
-          "answer": "WORNOUT",
-          "clue": "Exhausted, or no longer usable",
-          "source": "written"
+          "col": 1,
+          "length": 5,
+          "answer": "UPSET",
+          "clue": "Annoyed",
+          "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 4,
-          "length": 7,
-          "answer": "ACCEPTS",
-          "clue": "Receives willingly",
+          "col": 2,
+          "length": 5,
+          "answer": "MODEM",
+          "clue": "Computer connector",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 5,
-          "length": 6,
-          "answer": "THETAS",
-          "clue": "Angle symbols",
+          "col": 3,
+          "length": 5,
+          "answer": "PROFS",
+          "clue": "College team",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 6,
-          "length": 5,
-          "answer": "TASTY",
-          "clue": "Appetising",
+          "col": 4,
+          "length": 4,
+          "answer": "SKIS",
+          "clue": "Tries a run",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 2,
-          "length": 6,
-          "answer": "MORTON",
-          "clue": "Salt brand with an umbrella girl",
-          "source": "written"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 1,
-          "length": 5,
-          "answer": "FAUCI",
-          "clue": "Immunologist Anthony",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 3,
           "col": 0,
           "length": 4,
-          "answer": "GASP",
-          "clue": "Shocked sound",
+          "answer": "SARA",
+          "clue": "___ Lee cakes",
           "source": "dataset"
         }
       ]

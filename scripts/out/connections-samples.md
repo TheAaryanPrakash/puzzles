@@ -5,7 +5,7 @@
 - Raw puzzles found in CSV: 628 (date range 2023-06-12 .. 2025-02-28)
 - Rejected: 0
 - Valid (before ARCHIVE_CUTOFF 2025-04-01): 628
-- Scheduled as daily mains: 365 (LAUNCH_DATE 2026-10-17 .. 2027-10-16)
+- Scheduled as daily mains: 365 (LAUNCH_DATE 2026-10-12 .. 2027-10-11)
 - Reserve pool size: 263
 - Seed: 31
 
@@ -15,7 +15,7 @@ None — every puzzle in the archive validated cleanly.
 
 ## 5 sample days
 
-### Day 1 — 2026-10-17
+### Day 1 — 2026-10-12
 
 **Main:**
   - **Yellow** — ORGANIZATION: CLUB, GROUP, PARTY, TEAM
@@ -29,7 +29,7 @@ None — every puzzle in the archive validated cleanly.
   - **Blue** — POETRY TERMS: LINE, VERSE, RHYME, METER
   - **Purple** — “THE(E) ___” RAPPERS: CREATOR, RAPPER, STALLION, DUDE
 
-### Day 91 — 2027-01-15
+### Day 91 — 2027-01-10
 
 **Main:**
   - **Yellow** — METAL ELEMENTS: LEAD, MERCURY, GOLD, TIN
@@ -43,7 +43,7 @@ None — every puzzle in the archive validated cleanly.
   - **Blue** — SILENT “K”: UNKNOWN, DOORKNOB, KNIFE, TOPKNOT
   - **Purple** — KEY TO SUCCESS, SO TO SPEAK: FORMULA, RECIPE, SECRET, TICKET
 
-### Day 181 — 2027-04-15
+### Day 181 — 2027-04-10
 
 **Main:**
   - **Yellow** — RELIGIOUS FIGURES: CARDINAL, PASTOR, LAMA, MONK
@@ -57,7 +57,7 @@ None — every puzzle in the archive validated cleanly.
   - **Blue** — CLASSICAL ELEMENTS: WATER, EARTH, FIRE, AIR
   - **Purple** — THINGS WITH RINGS: TREE, CIRCUS, SATURN, WEDDING
 
-### Day 271 — 2027-07-14
+### Day 271 — 2027-07-09
 
 **Main:**
   - **Yellow** — HEARTWARMING: MOVING, TENDER, TOUCHING, SWEET
@@ -71,7 +71,7 @@ None — every puzzle in the archive validated cleanly.
   - **Blue** — PERFORM WELL ON: ROCK, NAIL, ACE, CRUSH
   - **Purple** — ___BALL PITCHES: FAST, SCREW, KNUCKLE, CURVE
 
-### Day 365 — 2027-10-16
+### Day 365 — 2027-10-11
 
 **Main:**
   - **Yellow** — PLACES FOR WORSHIP: TEMPLE, ALTAR, RELIQUARY, SHRINE

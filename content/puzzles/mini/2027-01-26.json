@@ -4,41 +4,44 @@
     "cells": [
       null,
       {
-        "answer": "R",
+        "answer": "B",
         "number": 1
       },
       {
-        "answer": "I",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "G",
+        "answer": "R",
         "number": 3
+      },
+      {
+        "answer": "R",
+        "number": 4
       },
       null,
       {
-        "answer": "M",
-        "number": 4
+        "answer": "O",
+        "number": 5
       },
       {
-        "answer": "U"
-      },
-      {
-        "answer": "T"
+        "answer": "R"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "S",
-        "number": 5
+        "answer": "O"
       },
       {
-        "answer": "P",
+        "answer": "A",
         "number": 6
       },
       {
-        "answer": "L"
+        "answer": "W"
+      },
+      {
+        "answer": "M"
       },
       {
         "answer": "A"
@@ -47,34 +50,31 @@
         "answer": "N"
       },
       {
-        "answer": "E"
-      },
-      {
-        "answer": "H",
+        "answer": "T",
         "number": 7
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "L"
       },
       {
         "answer": "I"
       },
       {
-        "answer": "X"
+        "answer": "E"
+      },
+      {
+        "answer": "R"
       },
       null,
       {
-        "answer": "D",
+        "answer": "M",
         "number": 8
       },
       {
-        "answer": "Y"
+        "answer": "E"
       },
       {
-        "answer": "E"
+        "answer": "D"
+      },
+      {
+        "answer": "S"
       },
       null
     ],
@@ -84,18 +84,18 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 3,
-          "answer": "RIG",
-          "clue": "Falsify",
+          "length": 4,
+          "answer": "BARR",
+          "clue": "Trump's attorney general",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "MUTES",
-          "clue": "Cuts, as a TV's sound",
+          "col": 1,
+          "length": 4,
+          "answer": "OREO",
+          "clue": "Hydrox rival",
           "source": "dataset"
         },
         {
@@ -103,26 +103,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "PLANE",
-          "clue": "Air vehicle",
+          "answer": "AWMAN",
+          "clue": "'Oh, come on!'",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 5,
-          "answer": "HELIX",
-          "clue": "Shape of a DNA strand",
+          "length": 4,
+          "answer": "TIER",
+          "clue": "Level",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
-          "col": 1,
-          "length": 3,
-          "answer": "DYE",
-          "clue": "Color",
+          "col": 0,
+          "length": 4,
+          "answer": "MEDS",
+          "clue": "Docs dispense them",
           "source": "dataset"
         }
       ],
@@ -132,8 +132,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "RULED",
-          "clue": "Exercised control over",
+          "answer": "BOWIE",
+          "clue": "Alamo defender",
           "source": "dataset"
         },
         {
@@ -141,8 +141,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ITALY",
-          "clue": "NATO member",
+          "answer": "ARMED",
+          "clue": "Ready for war",
           "source": "dataset"
         },
         {
@@ -150,123 +150,68 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "GENIE",
-          "clue": "\"Aladdin\" role",
+          "answer": "REARS",
+          "clue": "Nurtures",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
+          "row": 0,
+          "col": 4,
           "length": 3,
-          "answer": "MPH",
-          "clue": "Speedometer abbr",
+          "answer": "RON",
+          "clue": "Director Howard",
           "source": "dataset"
         },
         {
-          "number": 5,
-          "row": 1,
-          "col": 4,
+          "number": 6,
+          "row": 2,
+          "col": 0,
           "length": 3,
-          "answer": "SEX",
-          "clue": "___ roles",
+          "answer": "ATM",
+          "clue": "Bodega convenience",
           "source": "dataset"
         }
       ]
     }
   },
   "reserve": {
-    "size": 7,
+    "size": 5,
     "cells": [
-      null,
       {
-        "answer": "B",
+        "answer": "H",
         "number": 1
       },
       {
-        "answer": "O",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "P",
+        "answer": "N",
         "number": 3
       },
       {
-        "answer": "S",
+        "answer": "G",
         "number": 4
       },
       null,
-      null,
-      null,
       {
-        "answer": "S",
+        "answer": "O",
         "number": 5
       },
       {
-        "answer": "N"
+        "answer": "V"
       },
       {
-        "answer": "O"
+        "answer": "E"
       },
       {
-        "answer": "U"
-      },
-      {
-        "answer": "T",
-        "number": 6
+        "answer": "R"
       },
       null,
       {
-        "answer": "C",
-        "number": 7
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S",
-        "number": 8
-      },
-      {
-        "answer": "B",
-        "number": 9
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "K"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "D",
-        "number": 10
-      },
-      {
-        "answer": "R"
+        "answer": "T",
+        "number": 6
       },
       {
         "answer": "O"
@@ -275,36 +220,30 @@
         "answer": "P"
       },
       {
-        "answer": "I"
+        "answer": "A"
       },
       {
-        "answer": "N"
-      },
-      {
-        "answer": "S"
+        "answer": "Z",
+        "number": 7
       },
       null,
       {
-        "answer": "P",
-        "number": 11
+        "answer": "W",
+        "number": 8
       },
       {
-        "answer": "L"
+        "answer": "A"
       },
       {
-        "answer": "I"
+        "answer": "Z"
       },
       {
         "answer": "E"
       },
-      {
-        "answer": "S"
-      },
-      null,
       null,
       {
         "answer": "S",
-        "number": 12
+        "number": 9
       },
       {
         "answer": "L"
@@ -314,73 +253,53 @@
       },
       {
         "answer": "D"
-      },
-      null,
-      null
+      }
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 0,
           "length": 4,
-          "answer": "BOPS",
-          "clue": "Socks on the head",
+          "answer": "HANG",
+          "clue": "Put up",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 1,
-          "length": 5,
-          "answer": "SNOUT",
-          "clue": "Pig's nose",
+          "col": 0,
+          "length": 4,
+          "answer": "OVER",
+          "clue": "Canceled",
           "source": "dataset"
         },
         {
-          "number": 7,
+          "number": 6,
           "row": 2,
           "col": 0,
-          "length": 7,
-          "answer": "CHARLES",
-          "clue": "Sir ___, nickname for the NBA's Barkley",
+          "length": 5,
+          "answer": "TOPAZ",
+          "clue": "November birthstone",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "answer": "WAZE",
+          "clue": "Traveler's app that can use crowdsourced data",
           "source": "dataset"
         },
         {
           "number": 9,
-          "row": 3,
-          "col": 0,
-          "length": 7,
-          "answer": "BARKLEY",
-          "clue": "NBA Hall-of-Famer Charles ___",
-          "source": "written"
-        },
-        {
-          "number": 10,
           "row": 4,
-          "col": 0,
-          "length": 7,
-          "answer": "DROPINS",
-          "clue": "Surprise visitors",
-          "source": "dataset"
-        },
-        {
-          "number": 11,
-          "row": 5,
-          "col": 1,
-          "length": 5,
-          "answer": "PLIES",
-          "clue": "Layers of tissues",
-          "source": "dataset"
-        },
-        {
-          "number": 12,
-          "row": 6,
           "col": 1,
           "length": 4,
           "answer": "SLED",
-          "clue": "Luge",
+          "clue": "Toboggan",
           "source": "dataset"
         }
       ],
@@ -388,64 +307,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 7,
-          "answer": "BSHARPS",
-          "clue": "Notes equivalent to C's, musically",
-          "source": "written"
+          "col": 0,
+          "length": 3,
+          "answer": "HOT",
+          "clue": "Blazing",
+          "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 7,
-          "answer": "ONAROLL",
-          "clue": "Colloquially, enjoying long-term successes",
+          "col": 1,
+          "length": 5,
+          "answer": "AVOWS",
+          "clue": "States with certainty",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 7,
-          "answer": "PORKPIE",
-          "clue": "The type of hat that can be eaten!",
+          "col": 2,
+          "length": 5,
+          "answer": "NEPAL",
+          "clue": "Asian nation",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 4,
-          "length": 7,
-          "answer": "SULLIED",
-          "clue": "Tarnished, as a reputation",
-          "source": "written"
-        },
-        {
-          "number": 6,
-          "row": 1,
-          "col": 5,
+          "col": 3,
           "length": 5,
-          "answer": "TEENS",
-          "clue": "Prom group",
+          "answer": "GRAZE",
+          "clue": "Barely touch bone from Bronze Age",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 2,
-          "col": 0,
+          "col": 4,
           "length": 3,
-          "answer": "CBD",
-          "clue": "Trendy oil ingredient derived from marijuana",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 2,
-          "col": 6,
-          "length": 3,
-          "answer": "SYS",
-          "clue": "- admin",
+          "answer": "ZED",
+          "clue": "British ending",
           "source": "dataset"
         }
       ]

@@ -2,127 +2,132 @@
   "payload": {
     "size": 5,
     "cells": [
-      null,
       {
         "answer": "S",
         "number": 1
       },
       {
-        "answer": "T",
+        "answer": "Q",
         "number": 2
       },
       {
-        "answer": "O",
+        "answer": "U",
         "number": 3
       },
       {
-        "answer": "W",
+        "answer": "A",
         "number": 4
       },
-      null,
       {
         "answer": "T",
         "number": 5
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "B"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "D",
+        "answer": "L",
         "number": 6
       },
       {
-        "answer": "A"
+        "answer": "U"
       },
       {
-        "answer": "T"
+        "answer": "N"
       },
       {
-        "answer": "E"
+        "answer": "C"
       },
       {
-        "answer": "D"
+        "answer": "H"
       },
       {
-        "answer": "O",
+        "answer": "Y",
         "number": 7
       },
       {
-        "answer": "K"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "Y"
-      },
-      null,
-      {
-        "answer": "G",
-        "number": 8
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "L"
+        "answer": "O"
       },
       {
         "answer": "S"
       },
-      null
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "I"
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 8
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      null,
+      {
+        "answer": "H",
+        "number": 9
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "E"
+      }
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "STOW",
-          "clue": "Pack away",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "TOBE",
-          "clue": "-",
+          "col": 0,
+          "length": 5,
+          "answer": "SQUAT",
+          "clue": "Crouch may be short and stocky",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "DATED",
-          "clue": "So last year",
+          "answer": "LUNCH",
+          "clue": "Event at which you may pick sides (wordplay)",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "answer": "OKAY",
-          "clue": "All right",
+          "length": 5,
+          "answer": "YOSHI",
+          "clue": "Dinosaur in the Mario games",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 4,
-          "col": 0,
+          "row": 3,
+          "col": 1,
           "length": 4,
-          "answer": "GELS",
-          "clue": "Hair products",
+          "answer": "THIN",
+          "clue": "Reedy",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 1,
+          "length": 4,
+          "answer": "HYPE",
+          "clue": "Flashy promotion",
           "source": "dataset"
         }
       ],
@@ -130,46 +135,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "STAKE",
-          "clue": "Tent securer",
+          "col": 0,
+          "length": 3,
+          "answer": "SLY",
+          "clue": "Sharp",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "TOTAL",
-          "clue": "Aggregate",
-          "source": "dataset"
+          "answer": "QUOTH",
+          "clue": "'___ the raven' (Poe line)",
+          "source": "written"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
+          "col": 2,
           "length": 5,
-          "answer": "OBEYS",
-          "clue": "Executes orders",
-          "source": "dataset"
+          "answer": "UNSHY",
+          "clue": "Not timid",
+          "source": "written"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 4,
-          "length": 3,
-          "answer": "WED",
-          "clue": "Bond",
-          "source": "dataset"
+          "col": 3,
+          "length": 5,
+          "answer": "ACHIP",
+          "clue": "'___ on one's shoulder' (resentment)",
+          "source": "written"
         },
         {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "answer": "DOG",
-          "clue": "Cur",
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "THINE",
+          "clue": "\"To ___ own self be true\": \"Hamlet\"",
           "source": "dataset"
         }
       ]
@@ -178,27 +183,67 @@
   "reserve": {
     "size": 5,
     "cells": [
-      null,
-      null,
       {
-        "answer": "H",
+        "answer": "T",
         "number": 1
       },
       {
-        "answer": "I",
+        "answer": "H",
         "number": 2
       },
       {
-        "answer": "T",
+        "answer": "R",
         "number": 3
       },
       {
-        "answer": "P",
+        "answer": "O",
         "number": 4
       },
       {
-        "answer": "L",
+        "answer": "W",
         "number": 5
+      },
+      {
+        "answer": "H",
+        "number": 6
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "I",
+        "number": 7
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "G",
+        "number": 8
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
       },
       {
         "answer": "A"
@@ -207,98 +252,67 @@
         "answer": "T"
       },
       {
-        "answer": "O"
-      },
-      {
         "answer": "H",
-        "number": 6
+        "number": 9
       },
       {
-        "answer": "O"
+        "answer": "A"
       },
       {
-        "answer": "M"
+        "answer": "L"
       },
       {
-        "answer": "E"
+        "answer": "L"
       },
       {
-        "answer": "R"
-      },
-      {
-        "answer": "D",
-        "number": 7
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "S",
-        "number": 8
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "Y"
-      },
-      null,
-      null
+        "answer": "S"
+      }
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "HIT",
-          "clue": "Wallop",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "PLATO",
-          "clue": "Founder of the Academy",
+          "answer": "THROW",
+          "clue": "Fling",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "HOMER",
-          "clue": "Iliad writer",
+          "answer": "HYENA",
+          "clue": "Savanna carnivore",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "DUMMY",
-          "clue": "Shop window model",
+          "answer": "IDBET",
+          "clue": "'Odds are . . .'",
           "source": "dataset"
         },
         {
           "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "GREAT",
+          "clue": "Fantastic",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
           "row": 4,
           "col": 0,
-          "length": 3,
-          "answer": "STY",
-          "clue": "Farm pen",
+          "length": 5,
+          "answer": "HALLS",
+          "clue": "Locales on a campus map",
           "source": "dataset"
         }
       ],
@@ -306,46 +320,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 0,
           "length": 5,
-          "answer": "HAMMY",
-          "clue": "Over-the-top, as acting",
+          "answer": "THIGH",
+          "clue": "Fried chicken choice",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "ITEM",
-          "clue": "Object",
+          "col": 1,
+          "length": 5,
+          "answer": "HYDRA",
+          "clue": "Monster in filthy drain",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "TORY",
-          "clue": "May or Major, e.g",
+          "col": 2,
+          "length": 5,
+          "answer": "REBEL",
+          "clue": "Dissenter",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "PHDS",
-          "clue": "High degrees",
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "ONEAL",
+          "clue": "Actress Tatum",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "LOUT",
-          "clue": "Oaf",
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "WATTS",
+          "clue": "Power units",
           "source": "dataset"
         }
       ]

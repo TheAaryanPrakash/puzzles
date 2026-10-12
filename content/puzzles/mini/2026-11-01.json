@@ -4,331 +4,81 @@
     "cells": [
       null,
       {
-        "answer": "A",
+        "answer": "W",
         "number": 1
       },
       {
-        "answer": "R",
+        "answer": "O",
         "number": 2
       },
       {
-        "answer": "A",
+        "answer": "M",
         "number": 3
       },
       {
         "answer": "B",
         "number": 4
       },
-      null,
-      {
-        "answer": "D",
-        "number": 5
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "Z",
-        "number": 6
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "B"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "Z",
-        "number": 7
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "Z",
-        "number": 8
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "S"
-      }
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "ARAB",
-          "clue": "Saudi, e.g",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "DOOR",
-          "clue": "Entrance",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "ZEBRA",
-          "clue": "Striped grazer",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "ZLOTY",
-          "clue": "Polish currency unit",
-          "source": "written"
-        },
-        {
-          "number": 8,
-          "row": 4,
-          "col": 0,
-          "length": 5,
-          "answer": "ZETAS",
-          "clue": "Greek letters between epsilon and theta",
-          "source": "written"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "ADELE",
-          "clue": "\"Hello\" singer",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "ROBOT",
-          "clue": "Automaton",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "AORTA",
-          "clue": "Heart outlet",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 5,
-          "answer": "BRAYS",
-          "clue": "Donkeys' cries",
-          "source": "written"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "answer": "ZZZ",
-          "clue": "Only three-letter word in Scrabble that requires both blank tiles",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 7,
-    "cells": [
-      null,
-      {
-        "answer": "S",
-        "number": 1
-      },
-      {
-        "answer": "T",
-        "number": 2
-      },
-      {
-        "answer": "E",
-        "number": 3
-      },
-      {
-        "answer": "V",
-        "number": 4
-      },
-      {
-        "answer": "E",
-        "number": 5
-      },
-      null,
-      null,
-      {
-        "answer": "A",
-        "number": 6
-      },
-      {
-        "answer": "W"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "H",
-        "number": 7
-      },
-      null,
-      {
-        "answer": "F",
-        "number": 8
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "A"
-      },
       {
         "answer": "J",
-        "number": 9
+        "number": 5
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "K"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "T"
-      },
-      null,
-      {
-        "answer": "T",
-        "number": 10
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "O",
-        "number": 11
-      },
-      {
-        "answer": "B"
-      },
-      {
-        "answer": "T"
+        "answer": "R"
       },
       {
         "answer": "A",
-        "number": 12
-      },
-      {
-        "answer": "I"
+        "number": 6
       },
       {
         "answer": "N"
       },
       {
-        "answer": "S"
+        "answer": "I"
       },
       {
-        "answer": "B",
-        "number": 13
-      },
-      {
-        "answer": "E"
+        "answer": "M"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "R"
+        "answer": "Y",
+        "number": 7
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "Z",
+        "number": 8
+      },
+      {
+        "answer": "A"
       },
       {
         "answer": "G"
       },
       {
-        "answer": "U"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "S",
-        "number": 14
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "P"
+        "answer": "S"
       },
       null
     ],
@@ -338,72 +88,45 @@
           "number": 1,
           "row": 0,
           "col": 1,
+          "length": 4,
+          "answer": "WOMB",
+          "clue": "Gestation station (wordplay)",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
           "length": 5,
-          "answer": "STEVE",
-          "clue": "Carell of 'The Office'",
+          "answer": "JOKER",
+          "clue": "\"Wild\" playing card",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 1,
-          "col": 1,
-          "length": 6,
-          "answer": "AWYEAH",
-          "clue": "Enthusiastic agreement, informally",
-          "source": "written"
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "ANIME",
+          "clue": "'Speed Racer' genre",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "YKNOW",
+          "clue": "'I've been thinkin' ...'",
+          "source": "dataset"
         },
         {
           "number": 8,
-          "row": 2,
-          "col": 1,
-          "length": 6,
-          "answer": "FIESTA",
-          "clue": "Celebration in Saltillo",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
-          "row": 3,
-          "col": 0,
-          "length": 3,
-          "answer": "JET",
-          "clue": "Hot tub nozzle",
-          "source": "dataset"
-        },
-        {
-          "number": 10,
-          "row": 3,
-          "col": 4,
-          "length": 3,
-          "answer": "TED",
-          "clue": "Danson of TV",
-          "source": "dataset"
-        },
-        {
-          "number": 11,
           "row": 4,
           "col": 0,
-          "length": 7,
-          "answer": "OBTAINS",
-          "clue": "Acquires",
-          "source": "written"
-        },
-        {
-          "number": 13,
-          "row": 5,
-          "col": 0,
-          "length": 7,
-          "answer": "BEERGUT",
-          "clue": "Result of too many six-packs (wordplay)",
-          "source": "dataset"
-        },
-        {
-          "number": 14,
-          "row": 6,
-          "col": 0,
-          "length": 6,
-          "answer": "STREEP",
-          "clue": "Acting legend Meryl",
+          "length": 4,
+          "answer": "ZAGS",
+          "clue": "Sharp turns",
           "source": "dataset"
         }
       ],
@@ -412,72 +135,224 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 7,
-          "answer": "SAFEBET",
-          "clue": "A risk-free risk (wordplay)",
+          "length": 5,
+          "answer": "WONKA",
+          "clue": "Confectioner of fiction",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 2,
-          "length": 7,
-          "answer": "TWITTER",
-          "clue": "Laugh about Washington's leader - what's he on (wordplay)",
+          "length": 5,
+          "answer": "OKING",
+          "clue": "Vouching for",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
           "col": 3,
-          "length": 3,
-          "answer": "EYE",
-          "clue": "Observe",
+          "length": 5,
+          "answer": "MEMOS",
+          "clue": "About which you might always say 'Bee prepared' (wordplay)",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
           "col": 4,
-          "length": 7,
-          "answer": "VESTIGE",
-          "clue": "Undergarment I receive almost produces mark",
+          "length": 4,
+          "answer": "BREW",
+          "clue": "Bar offering",
           "source": "dataset"
         },
         {
           "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "JAYZ",
+          "clue": "\"Empire State of Mind\" rapper",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "J",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "Z",
+        "number": 3
+      },
+      {
+        "answer": "Z",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "D",
+        "number": 5
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "B",
+        "number": 6
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
+      },
+      null,
+      {
+        "answer": "I",
+        "number": 8
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 9
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "K"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
           "row": 0,
-          "col": 5,
-          "length": 7,
-          "answer": "EATENUP",
-          "clue": "Wiped out by excess costs, as profits",
+          "col": 0,
+          "length": 4,
+          "answer": "JAZZ",
+          "clue": "Dixieland band's music",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "DWEEB",
+          "clue": "Nerd",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 1,
-          "col": 6,
+          "row": 2,
+          "col": 0,
           "length": 5,
-          "answer": "HADST",
-          "clue": "Possessed by Shakespeare (wordplay)",
+          "answer": "SABRA",
+          "clue": "Israeli native",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "answer": "IRON",
+          "clue": "Scrap ___",
           "source": "dataset"
         },
         {
           "number": 9,
-          "row": 3,
-          "col": 0,
+          "row": 4,
+          "col": 1,
           "length": 4,
-          "answer": "JOBS",
-          "clue": "Tasks",
+          "answer": "TASK",
+          "clue": "Job jar item",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "JDS",
+          "clue": "Law school graduates, in brief",
           "source": "dataset"
         },
         {
-          "number": 12,
-          "row": 4,
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "AWAIT",
+          "clue": "Hang around for",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "ZEBRA",
+          "clue": "Serengeti equine",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
           "col": 3,
-          "length": 3,
-          "answer": "ARE",
-          "clue": "Were, now",
+          "length": 5,
+          "answer": "ZEROS",
+          "clue": "000",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 4,
+          "length": 4,
+          "answer": "BANK",
+          "clue": "Riverside",
           "source": "dataset"
         }
       ]

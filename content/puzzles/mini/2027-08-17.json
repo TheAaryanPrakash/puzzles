@@ -3,61 +3,274 @@
     "size": 5,
     "cells": [
       null,
+      null,
       {
-        "answer": "W",
+        "answer": "H",
         "number": 1
       },
       {
-        "answer": "H",
+        "answer": "O",
         "number": 2
       },
       {
-        "answer": "I",
+        "answer": "T",
         "number": 3
       },
       {
-        "answer": "R",
+        "answer": "C",
         "number": 4
       },
-      null,
       {
         "answer": "H",
         "number": 5
       },
       {
-        "answer": "A"
+        "answer": "I"
       },
       {
-        "answer": "V"
+        "answer": "L"
       },
       {
-        "answer": "E"
+        "answer": "I"
       },
       {
-        "answer": "D",
+        "answer": "L",
         "number": 6
       },
       {
         "answer": "A"
       },
       {
-        "answer": "V"
-      },
-      {
-        "answer": "I"
+        "answer": "N"
       },
       {
         "answer": "D"
       },
       {
-        "answer": "A",
+        "answer": "S"
+      },
+      {
+        "answer": "U",
         "number": 7
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "B",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "HOT",
+          "clue": "Sexy",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "CHILI",
+          "clue": "___ peppers",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "LANDS",
+          "clue": "Completes a plane flight",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "URGE",
+          "clue": "Exhort",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "BEER",
+          "clue": "Ale",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "HINGE",
+          "clue": "Door part",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "OLDER",
+          "clue": "Getting on",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "TIS",
+          "clue": "It is, poetically",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "CLUB",
+          "clue": "Iron or wood",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "HARE",
+          "clue": "Fabulous racer",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 7,
+    "cells": [
+      null,
+      null,
+      null,
+      {
+        "answer": "M",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "Y",
+        "number": 3
+      },
+      {
+        "answer": "A",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "U",
+        "number": 5
+      },
+      {
+        "answer": "N",
+        "number": 6
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "X"
+      },
+      null,
+      {
+        "answer": "N",
+        "number": 7
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "T"
       },
       {
         "answer": "L"
       },
       {
-        "answer": "O"
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "P"
+      },
+      null,
+      {
+        "answer": "M",
+        "number": 9
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T"
       },
       {
         "answer": "E"
@@ -65,185 +278,7 @@
       null,
       {
         "answer": "P",
-        "number": 8
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "S"
-      },
-      null
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "WHIR",
-          "clue": "Rotor sound",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "HAVE",
-          "clue": "Dine on",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "DAVID",
-          "clue": "Michelangelo work",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 4,
-          "answer": "ALOE",
-          "clue": "Sunburn aid",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 4,
-          "col": 0,
-          "length": 4,
-          "answer": "PECS",
-          "clue": "Delts' neighbors",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "WHALE",
-          "clue": "Huge sea mammal",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "HAVOC",
-          "clue": "Chaos",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "IVIES",
-          "clue": "Wall-climbing vines",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 3,
-          "answer": "RED",
-          "clue": "Carmine",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "answer": "DAP",
-          "clue": "Bump fists",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 5,
-    "cells": [
-      null,
-      {
-        "answer": "B",
-        "number": 1
-      },
-      {
-        "answer": "Y",
-        "number": 2
-      },
-      {
-        "answer": "O",
-        "number": 3
-      },
-      {
-        "answer": "B",
-        "number": 4
-      },
-      null,
-      {
-        "answer": "Y",
-        "number": 5
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "M",
-        "number": 6
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "V"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "R",
-        "number": 7
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "V"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "T",
-        "number": 8
+        "number": 10
       },
       {
         "answer": "R"
@@ -252,8 +287,30 @@
         "answer": "E"
       },
       {
-        "answer": "Y"
+        "answer": "M"
       },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      null,
+      {
+        "answer": "H",
+        "number": 11
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      null,
       null
     ],
     "clues": {
@@ -261,46 +318,64 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 3,
           "length": 4,
-          "answer": "BYOB",
-          "clue": "Invitation directive",
+          "answer": "MAYA",
+          "clue": "Writer Angelou",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
           "col": 1,
-          "length": 4,
-          "answer": "YOYO",
-          "clue": "Fluctuate",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "MAUVE",
-          "clue": "Colour named after the wildflower mallow",
+          "length": 6,
+          "answer": "UNISEX",
+          "clue": "Like some bathrooms",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "RIVER",
-          "clue": "Water with a mouth",
+          "row": 2,
+          "col": 1,
+          "length": 6,
+          "answer": "NESTLE",
+          "clue": "Snuggle",
           "source": "dataset"
         },
         {
           "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "answer": "SUNUP",
+          "clue": "What happens soon after Aurora raises matter involving a Parisian",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
           "row": 4,
           "col": 0,
+          "length": 6,
+          "answer": "MUTATE",
+          "clue": "Change genetically",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "answer": "PREMED",
+          "clue": "Program for a future doc",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 6,
+          "col": 0,
           "length": 4,
-          "answer": "TREY",
-          "clue": "Rare trick taker",
+          "answer": "HERE",
+          "clue": "'Take it'",
           "source": "dataset"
         }
       ],
@@ -308,46 +383,64 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "BYAIR",
-          "clue": "This Libya-Ireland passage (wordplay)",
+          "col": 3,
+          "length": 7,
+          "answer": "MISNAME",
+          "clue": "Identify incorrectly",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "YOUVE",
-          "clue": "'___ Got a Friend'",
+          "col": 4,
+          "length": 6,
+          "answer": "ASTUTE",
+          "clue": "Quite sharp",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "OYVEY",
-          "clue": "Cry of dismay",
-          "source": "dataset"
+          "col": 5,
+          "length": 6,
+          "answer": "YELPED",
+          "clue": "Cried out sharply in pain",
+          "source": "written"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "BOER",
-          "clue": "South African of Dutch ancestry",
+          "col": 6,
+          "length": 3,
+          "answer": "AXE",
+          "clue": "Hatchet",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "answer": "UNSURE",
+          "clue": "Central fund issues currency when confidence is lacking",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 1,
+          "col": 2,
+          "length": 6,
+          "answer": "NEUTER",
+          "clue": "Fix at the vet's",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
           "col": 0,
           "length": 3,
-          "answer": "MRT",
-          "clue": "Muscleman of 'The A-Team'",
+          "answer": "MPH",
+          "clue": "Speedometer stat",
           "source": "dataset"
         }
       ]

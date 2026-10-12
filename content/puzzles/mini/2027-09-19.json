@@ -3,88 +3,80 @@
     "size": 5,
     "cells": [
       {
-        "answer": "M",
+        "answer": "D",
         "number": 1
       },
       {
-        "answer": "S",
+        "answer": "R",
         "number": 2
       },
       {
-        "answer": "N",
+        "answer": "A",
         "number": 3
       },
       {
-        "answer": "B",
+        "answer": "G",
         "number": 4
       },
+      null,
       {
-        "answer": "C",
+        "answer": "J",
         "number": 5
       },
       {
-        "answer": "E",
+        "answer": "U"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "S",
         "number": 6
       },
       {
-        "answer": "Q"
+        "answer": "I"
       },
       {
-        "answer": "U"
+        "answer": "G"
       },
       {
-        "answer": "A"
+        "answer": "N"
       },
       {
-        "answer": "L"
-      },
-      {
-        "answer": "M",
+        "answer": "S",
         "number": 7
       },
+      null,
       {
-        "answer": "U"
+        "answer": "N",
+        "number": 8
+      },
+      {
+        "answer": "E"
       },
       {
         "answer": "R"
       },
       {
-        "answer": "K"
+        "answer": "O"
       },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "E",
-        "number": 8
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "D"
-      },
+      null,
       {
         "answer": "S",
         "number": 9
       },
       {
-        "answer": "W"
+        "answer": "L"
       },
       {
         "answer": "E"
       },
       {
         "answer": "D"
-      },
-      {
-        "answer": "E"
       }
     ],
     "clues": {
@@ -93,45 +85,45 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 5,
-          "answer": "MSNBC",
-          "clue": "Joy Reid's channel",
+          "length": 4,
+          "answer": "DRAG",
+          "clue": "___ queen",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "JUNE",
+          "clue": "Month",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "EQUAL",
-          "clue": "Match",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "MURKY",
-          "clue": "Far from obvious",
+          "answer": "SIGNS",
+          "clue": "Topic in driver's ed",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "EASED",
-          "clue": "Soothed",
+          "col": 1,
+          "length": 4,
+          "answer": "NERO",
+          "clue": "Pianist Peter",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 0,
-          "length": 5,
-          "answer": "SWEDE",
-          "clue": "Root vegetable",
+          "col": 1,
+          "length": 4,
+          "answer": "SLED",
+          "clue": "Luge, e.g",
           "source": "dataset"
         }
       ],
@@ -140,9 +132,9 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 5,
-          "answer": "MEMES",
-          "clue": "Fast-spreading Web posts",
+          "length": 3,
+          "answer": "DJS",
+          "clue": "Mix makers",
           "source": "dataset"
         },
         {
@@ -150,17 +142,17 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "SQUAW",
-          "clue": "Outdated, now-offensive term for a Native American woman",
-          "source": "written"
+          "answer": "RUINS",
+          "clue": "Wrecks",
+          "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "NURSE",
-          "clue": "Tend",
+          "answer": "ANGEL",
+          "clue": "Heavenly being",
           "source": "dataset"
         },
         {
@@ -168,17 +160,17 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "BAKED",
-          "clue": "Criminal eats King Edward, initially cooked thus (wordplay)",
+          "answer": "GENRE",
+          "clue": "Category",
           "source": "dataset"
         },
         {
-          "number": 5,
-          "row": 0,
+          "number": 7,
+          "row": 2,
           "col": 4,
-          "length": 5,
-          "answer": "CLYDE",
-          "clue": "Bonnie's partner in crime",
+          "length": 3,
+          "answer": "SOD",
+          "clue": "Lawn material",
           "source": "dataset"
         }
       ]
@@ -187,103 +179,100 @@
   "reserve": {
     "size": 5,
     "cells": [
-      {
-        "answer": "M",
-        "number": 1
-      },
-      {
-        "answer": "I",
-        "number": 2
-      },
-      {
-        "answer": "C",
-        "number": 3
-      },
-      null,
       null,
       {
         "answer": "A",
+        "number": 1
+      },
+      {
+        "answer": "C",
+        "number": 2
+      },
+      {
+        "answer": "H",
+        "number": 3
+      },
+      {
+        "answer": "E",
         "number": 4
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "M",
-        "number": 5
       },
       null,
       {
         "answer": "R",
-        "number": 6
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "O",
-        "number": 7
-      },
-      {
-        "answer": "C",
-        "number": 8
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "K"
-      },
-      {
-        "answer": "H",
-        "number": 9
+        "number": 5
       },
       {
         "answer": "O"
       },
       {
+        "answer": "A"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "H",
+        "number": 6
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
         "answer": "N"
       },
       {
-        "answer": "K"
+        "answer": "T"
       },
       {
         "answer": "S"
-      }
+      },
+      null,
+      {
+        "answer": "M",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "H"
+      },
+      null
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 3,
-          "answer": "MIC",
-          "clue": "Hot ___",
+          "col": 1,
+          "length": 4,
+          "answer": "ACHE",
+          "clue": "Soreness",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
-          "col": 0,
+          "col": 1,
           "length": 4,
-          "answer": "ADAM",
-          "clue": "First name",
+          "answer": "ROAD",
+          "clue": "Way",
           "source": "dataset"
         },
         {
@@ -291,26 +280,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "RATIO",
-          "clue": "20:20, e.g",
+          "answer": "HEART",
+          "clue": "Core",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "ANTS",
+          "clue": "Hill makers",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "CHALK",
-          "clue": "Sidewalk art medium",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
           "row": 4,
           "col": 0,
-          "length": 5,
-          "answer": "HONKS",
-          "clue": "Traffic jam sounds",
+          "length": 4,
+          "answer": "MASH",
+          "clue": "Pulp",
           "source": "dataset"
         }
       ],
@@ -318,46 +307,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
+          "col": 1,
           "length": 5,
-          "answer": "MARCH",
-          "clue": "Month",
+          "answer": "ARENA",
+          "clue": "Stadium",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "IDAHO",
-          "clue": "Moscow setting",
+          "answer": "COATS",
+          "clue": "Outer garments",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "CATAN",
-          "clue": "Board game aka Settlers",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
           "col": 3,
-          "length": 4,
-          "answer": "MILK",
-          "clue": "Exploit",
+          "length": 5,
+          "answer": "HARSH",
+          "clue": "Stern",
           "source": "dataset"
         },
         {
-          "number": 7,
-          "row": 2,
+          "number": 4,
+          "row": 0,
           "col": 4,
           "length": 3,
-          "answer": "OKS",
-          "clue": "Approvals",
+          "answer": "EDT",
+          "clue": "Summer hrs. in NYC",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "HAM",
+          "clue": "Mugger",
           "source": "dataset"
         }
       ]

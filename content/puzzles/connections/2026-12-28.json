@@ -2,43 +2,43 @@
   "payload": {
     "groups": [
       {
-        "label": "FOOT PARTS",
+        "label": "NEWSPAPER SECTIONS",
         "level": 0,
         "words": [
-          "SOLE",
-          "BALL",
-          "TOE",
-          "ARCH"
+          "SPORTS",
+          "BUSINESS",
+          "ARTS",
+          "COMICS"
         ]
       },
       {
-        "label": "MUSICAL INSTRUMENTS",
+        "label": "TREE FEATURES",
         "level": 1,
         "words": [
-          "HORN",
-          "BASS",
-          "HARP",
-          "ORGAN"
+          "CROWN",
+          "RINGS",
+          "ROOTS",
+          "BARK"
         ]
       },
       {
-        "label": "DOG COMMANDS",
+        "label": "KINDS OF SALAD",
         "level": 2,
         "words": [
-          "DOWN",
-          "COME",
-          "SIT",
-          "STAY"
+          "GREEK",
+          "CHEF",
+          "GARDEN",
+          "WEDGE"
         ]
       },
       {
-        "label": "BADDIE",
+        "label": "SEEN ON BACKS OF U.S. COINS",
         "level": 3,
         "words": [
-          "DOG",
-          "SNAKE",
-          "HEEL",
-          "JERK"
+          "MONTICELLO",
+          "EAGLE",
+          "TORCH",
+          "SHIELD"
         ]
       }
     ]
@@ -46,43 +46,43 @@
   "reserve": {
     "groups": [
       {
-        "label": "KINDS OF BEANS",
+        "label": "ORIGIN",
         "level": 0,
         "words": [
-          "NAVY",
-          "KIDNEY",
-          "PINTO",
-          "MUNG"
+          "SOURCE",
+          "GERM",
+          "GENESIS",
+          "SEED"
         ]
       },
       {
-        "label": "ATTRACT",
+        "label": "BIBLE BOOKS",
         "level": 1,
         "words": [
-          "DRAW",
-          "HOOK",
-          "PULL",
-          "GRAB"
+          "JOB",
+          "ACTS",
+          "MARK",
+          "KINGS"
         ]
       },
       {
-        "label": "AUTOMATIC GEAR SHIFTER POSITIONS",
+        "label": "N.H.L. TEAMS",
         "level": 2,
         "words": [
-          "DRIVE",
-          "NEUTRAL",
-          "LOW",
-          "REVERSE"
+          "WILD",
+          "STARS",
+          "KRAKEN",
+          "FLAMES"
         ]
       },
       {
-        "label": "___POOL",
+        "label": "POWER ___",
         "level": 3,
         "words": [
-          "WHIRL",
-          "LIVER",
-          "CAR",
-          "DEAD"
+          "NAP",
+          "PLANT",
+          "RANGER",
+          "TRIP"
         ]
       }
     ]

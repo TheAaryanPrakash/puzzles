@@ -7,10 +7,10 @@ Dropped as uninhabited (reviewed by hand after the first run surfaced French Sou
 
 ## 5 sample days
 
-- **2026-11-26** (puzzle #41): `CL` — Chile
-- **2027-01-24** (puzzle #100): `AL` — Albania
-- **2027-02-02** (puzzle #109): `GE` — Georgia
-- **2027-03-14** (puzzle #149): `NF` — Norfolk Island
-- **2027-09-02** (puzzle #321): `NF` — Norfolk Island
+- **2026-11-21** (puzzle #41): `CL` — Chile
+- **2027-01-19** (puzzle #100): `AL` — Albania
+- **2027-01-28** (puzzle #109): `GE` — Georgia
+- **2027-03-09** (puzzle #149): `NF` — Norfolk Island
+- **2027-08-28** (puzzle #321): `NF` — Norfolk Island
 
 Reviewed for anything suspicious: every sampled code resolves to a real, recognisable country name and has a flag-icons SVG + map centroid (checked programmatically above, not just for these 5). No obscure/unplayable territories made it into the pool.

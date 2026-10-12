@@ -11,52 +11,58 @@
         "number": 2
       },
       {
-        "answer": "A",
+        "answer": "U",
         "number": 3
       },
       {
-        "answer": "R",
+        "answer": "N",
         "number": 4
       },
-      null,
       {
-        "answer": "H",
+        "answer": "G",
         "number": 5
+      },
+      {
+        "answer": "W",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "H"
       },
       {
         "answer": "O"
       },
       {
-        "answer": "P"
+        "answer": "O"
       },
       {
-        "answer": "E"
-      },
-      null,
-      {
-        "answer": "H",
-        "number": 6
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "R",
+        "answer": "A",
         "number": 7
       },
-      null,
       {
-        "answer": "E",
+        "answer": "C"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "M",
         "number": 8
       },
       {
-        "answer": "L"
+        "answer": "O"
+      },
+      {
+        "answer": "U"
       },
       {
         "answer": "S"
@@ -65,18 +71,16 @@
         "answer": "E"
       },
       null,
+      null,
       {
-        "answer": "D",
+        "answer": "H",
         "number": 9
       },
       {
         "answer": "E"
       },
       {
-        "answer": "E"
-      },
-      {
-        "answer": "P"
+        "answer": "Y"
       }
     ],
     "clues": {
@@ -85,45 +89,45 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 4,
-          "answer": "STAR",
-          "clue": "Headliner",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "HOPE",
-          "clue": "Defeatist's lack",
+          "length": 5,
+          "answer": "STUNG",
+          "clue": "Attacked by a bee",
           "source": "dataset"
         },
         {
           "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "WAHOO",
+          "clue": "'Yay!'",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "HYPER",
-          "clue": "Overexcited",
+          "answer": "ACHOO",
+          "clue": "Sneeze sound",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 3,
-          "col": 1,
-          "length": 4,
-          "answer": "ELSE",
-          "clue": "Choice word",
+          "col": 0,
+          "length": 5,
+          "answer": "MOUSE",
+          "clue": "Device used in surfing",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 1,
-          "length": 4,
-          "answer": "DEEP",
-          "clue": "Low-pitched",
+          "col": 2,
+          "length": 3,
+          "answer": "HEY",
+          "clue": "'Yoohoo!'",
           "source": "dataset"
         }
       ],
@@ -132,18 +136,18 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 3,
-          "answer": "SHH",
-          "clue": "'Be quiet!'",
+          "length": 4,
+          "answer": "SWAM",
+          "clue": "Did laps, maybe",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
-          "length": 5,
-          "answer": "TOYED",
-          "clue": "Trifled (with)",
+          "length": 4,
+          "answer": "TACO",
+          "clue": "___ truck",
           "source": "dataset"
         },
         {
@@ -151,8 +155,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "APPLE",
-          "clue": "Pipped fruit",
+          "answer": "UHHUH",
+          "clue": "Informal okay",
           "source": "dataset"
         },
         {
@@ -160,17 +164,17 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "REESE",
-          "clue": "Baseball's Pee Wee",
+          "answer": "NOOSE",
+          "clue": "Gallows loop",
           "source": "dataset"
         },
         {
-          "number": 7,
-          "row": 2,
+          "number": 5,
+          "row": 0,
           "col": 4,
-          "length": 3,
-          "answer": "REP",
-          "clue": "Street cred",
+          "length": 5,
+          "answer": "GOOEY",
+          "clue": "Like s'mores",
           "source": "dataset"
         }
       ]
@@ -181,44 +185,62 @@
     "cells": [
       null,
       {
-        "answer": "P",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "R",
+        "answer": "P",
         "number": 2
       },
       {
-        "answer": "A",
+        "answer": "I",
         "number": 3
       },
       {
-        "answer": "Y",
+        "answer": "N",
         "number": 4
       },
-      null,
       {
-        "answer": "R",
+        "answer": "O",
         "number": 5
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "B",
-        "number": 6
+        "answer": "P"
       },
       {
         "answer": "I"
       },
       {
-        "answer": "T"
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "H",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "N",
+        "number": 7
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "K"
       },
       {
         "answer": "E"
@@ -227,31 +249,17 @@
         "answer": "S"
       },
       {
-        "answer": "U",
-        "number": 7
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "N"
-      },
-      null,
-      {
-        "answer": "G",
+        "answer": "O",
         "number": 8
       },
       {
-        "answer": "E"
-      },
-      {
         "answer": "N"
       },
       {
-        "answer": "T"
+        "answer": "Y"
+      },
+      {
+        "answer": "X"
       },
       null
     ],
@@ -262,17 +270,17 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "PRAY",
-          "clue": "Say grace, say",
+          "answer": "SPIN",
+          "clue": "Quick drive",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "RAGE",
-          "clue": "Anger",
+          "col": 0,
+          "length": 5,
+          "answer": "OPINE",
+          "clue": "Speculate",
           "source": "dataset"
         },
         {
@@ -280,17 +288,17 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "BITES",
-          "clue": "Really stinks",
+          "answer": "HANDS",
+          "clue": "Ranch crew",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 4,
-          "answer": "UDON",
-          "clue": "Japanese noodles",
+          "length": 5,
+          "answer": "NIKES",
+          "clue": "Air Jordans, e.g",
           "source": "dataset"
         },
         {
@@ -298,8 +306,8 @@
           "row": 4,
           "col": 0,
           "length": 4,
-          "answer": "GENT",
-          "clue": "Decent chap",
+          "answer": "ONYX",
+          "clue": "Dark rock",
           "source": "dataset"
         }
       ],
@@ -309,8 +317,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "PRIDE",
-          "clue": "Annual June celebration",
+          "answer": "SPAIN",
+          "clue": "Iberian nation",
           "source": "dataset"
         },
         {
@@ -318,8 +326,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "RATON",
-          "clue": "Boca ___, Florida",
+          "answer": "PINKY",
+          "clue": "Small digit",
           "source": "dataset"
         },
         {
@@ -327,26 +335,26 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "AGENT",
-          "clue": "Spy",
+          "answer": "INDEX",
+          "clue": "Alphabetical list",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
           "col": 4,
-          "length": 3,
-          "answer": "YES",
-          "clue": "Okay",
+          "length": 4,
+          "answer": "NESS",
+          "clue": "Famous loch",
           "source": "dataset"
         },
         {
-          "number": 6,
-          "row": 2,
+          "number": 5,
+          "row": 1,
           "col": 0,
-          "length": 3,
-          "answer": "BUG",
-          "clue": "Glitch",
+          "length": 4,
+          "answer": "OHNO",
+          "clue": "\"Oops!\"",
           "source": "dataset"
         }
       ]

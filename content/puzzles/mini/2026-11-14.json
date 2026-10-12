@@ -328,130 +328,213 @@
     }
   },
   "reserve": {
-    "size": 5,
+    "size": 7,
     "cells": [
+      null,
       {
-        "answer": "L",
+        "answer": "R",
         "number": 1
       },
       {
-        "answer": "O",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "N",
+        "answer": "P",
         "number": 3
       },
       {
-        "answer": "G",
+        "answer": "P",
         "number": 4
+      },
+      {
+        "answer": "E",
+        "number": 5
+      },
+      {
+        "answer": "R",
+        "number": 6
       },
       null,
       {
         "answer": "A",
-        "number": 5
-      },
-      {
-        "answer": "V"
-      },
-      {
-        "answer": "E"
+        "number": 7
       },
       {
         "answer": "R"
       },
-      null,
       {
-        "answer": "T",
-        "number": 6
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "X"
+        "answer": "I"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "S",
-        "number": 7
+        "answer": "N"
       },
       {
-        "answer": "E",
+        "answer": "A"
+      },
+      null,
+      {
+        "answer": "G",
         "number": 8
       },
       {
         "answer": "R"
       },
       {
-        "answer": "U"
+        "answer": "A"
       },
       {
-        "answer": "P"
+        "answer": "N"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      null,
+      {
+        "answer": "I",
+        "number": 9
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "C"
+      },
+      null,
+      null,
+      {
+        "answer": "J",
+        "number": 10
+      },
+      {
+        "answer": "O",
+        "number": 11
+      },
+      {
+        "answer": "V"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L",
+        "number": 12
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 13
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "A"
+      },
+      null,
+      {
+        "answer": "M",
+        "number": 14
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "L"
       },
       {
         "answer": "T"
       },
-      null,
-      null,
       {
-        "answer": "S",
-        "number": 9
+        "answer": "E"
       },
       {
-        "answer": "H"
+        "answer": "D"
       },
-      {
-        "answer": "Y"
-      }
+      null
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 4,
-          "answer": "LONG",
-          "clue": "Extended dream",
+          "col": 1,
+          "length": 6,
+          "answer": "RAPPER",
+          "clue": "Popular artist's cover announced",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 7,
           "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "AVER",
-          "clue": "Claim",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "TEXAS",
-          "clue": "Southern US state",
+          "col": 1,
+          "length": 6,
+          "answer": "ARIANA",
+          "clue": "Pop singer Grande",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "ERUPT",
-          "clue": "Go off",
+          "row": 2,
+          "col": 1,
+          "length": 6,
+          "answer": "GRANDE",
+          "clue": "Starbucks size",
           "source": "dataset"
         },
         {
           "number": 9,
-          "row": 4,
+          "row": 3,
           "col": 2,
           "length": 3,
-          "answer": "SHY",
-          "clue": "Bashful",
+          "answer": "INC",
+          "clue": "Firm ending",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 4,
+          "col": 0,
+          "length": 6,
+          "answer": "JOVIAL",
+          "clue": "Cheerful and friendly",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "answer": "ALASKA",
+          "clue": "Denali's state",
+          "source": "dataset"
+        },
+        {
+          "number": 14,
+          "row": 6,
+          "col": 0,
+          "length": 6,
+          "answer": "MELTED",
+          "clue": "Got gooey",
           "source": "dataset"
         }
       ],
@@ -459,46 +542,82 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 4,
-          "answer": "LATE",
-          "clue": "Tardy",
+          "col": 1,
+          "length": 3,
+          "answer": "RAG",
+          "clue": "Tabloid",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "OVER",
-          "clue": "Surplus",
+          "col": 2,
+          "length": 7,
+          "answer": "ARRIVAL",
+          "clue": "An Abba album coming",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "NEXUS",
-          "clue": "Final novel in Henry Miller's controversial trilogy The Rosy Crucifixion",
+          "col": 3,
+          "length": 7,
+          "answer": "PIANIST",
+          "clue": "Key worker (wordplay)",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "GRAPH",
-          "clue": "Chart with lines",
+          "col": 4,
+          "length": 7,
+          "answer": "PANCAKE",
+          "clue": "Goat god has dessert and crepe",
           "source": "dataset"
         },
         {
-          "number": 7,
-          "row": 2,
-          "col": 4,
+          "number": 5,
+          "row": 0,
+          "col": 5,
           "length": 3,
-          "answer": "STY",
-          "clue": "Farm pen",
+          "answer": "END",
+          "clue": "Aim",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 0,
+          "col": 6,
+          "length": 3,
+          "answer": "RAE",
+          "clue": "'Norma ___'",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "JAM",
+          "clue": "Scone spread",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "OLE",
+          "clue": "\"Brava!\"",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 4,
+          "col": 5,
+          "length": 3,
+          "answer": "LAD",
+          "clue": "Boy",
           "source": "dataset"
         }
       ]

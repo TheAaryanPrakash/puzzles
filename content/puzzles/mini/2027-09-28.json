@@ -3,11 +3,11 @@
     "size": 5,
     "cells": [
       {
-        "answer": "C",
+        "answer": "P",
         "number": 1
       },
       {
-        "answer": "L",
+        "answer": "A",
         "number": 2
       },
       {
@@ -15,62 +15,35 @@
         "number": 3
       },
       {
-        "answer": "C",
+        "answer": "N",
         "number": 4
       },
       {
-        "answer": "K",
+        "answer": "T",
         "number": 5
       },
       {
-        "answer": "Y",
+        "answer": "A",
         "number": 6
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "S"
+        "answer": "C"
       },
       {
         "answer": "H"
       },
       {
-        "answer": "I"
+        "answer": "O"
       },
       {
-        "answer": "R",
+        "answer": "O"
+      },
+      {
+        "answer": "D",
         "number": 7
       },
       {
         "answer": "U"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "U",
-        "number": 8
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S"
-      },
-      null,
-      {
-        "answer": "S",
-        "number": 9
       },
       {
         "answer": "E"
@@ -79,9 +52,40 @@
         "answer": "T"
       },
       {
-        "answer": "S"
+        "answer": "O"
       },
-      null
+      {
+        "answer": "D",
+        "number": 8
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "Y",
+        "number": 9
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "S"
+      }
     ],
     "clues": {
       "across": [
@@ -90,8 +94,8 @@
           "row": 0,
           "col": 0,
           "length": 5,
-          "answer": "CLICK",
-          "clue": "Get along well (with)",
+          "answer": "PAINT",
+          "clue": "Emulate Cassatt or Kahlo",
           "source": "dataset"
         },
         {
@@ -99,8 +103,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "YOSHI",
-          "clue": "Mario Kart dinosaur",
+          "answer": "ACHOO",
+          "clue": "Sneeze sound",
           "source": "dataset"
         },
         {
@@ -108,26 +112,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "RULED",
-          "clue": "Governed",
+          "answer": "DUETO",
+          "clue": "As a result of",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 3,
           "col": 0,
-          "length": 4,
-          "answer": "USES",
-          "clue": "Utilizes",
+          "length": 5,
+          "answer": "DRAIN",
+          "clue": "Waste channel",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "SETS",
-          "clue": "Ensembles",
+          "length": 5,
+          "answer": "YARNS",
+          "clue": "Knitting supplies",
           "source": "dataset"
         }
       ],
@@ -137,8 +141,8 @@
           "row": 0,
           "col": 0,
           "length": 5,
-          "answer": "CYRUS",
-          "clue": "Miley who played Hannah Montana",
+          "answer": "PADDY",
+          "clue": "Flooded field",
           "source": "dataset"
         },
         {
@@ -146,8 +150,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "LOUSE",
-          "clue": "Contemptible sort",
+          "answer": "ACURA",
+          "clue": "Honda line",
           "source": "dataset"
         },
         {
@@ -155,8 +159,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ISLET",
-          "clue": "Dot in the sea",
+          "answer": "IHEAR",
+          "clue": "'Rumor has it . . .'",
           "source": "dataset"
         },
         {
@@ -164,17 +168,17 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "CHESS",
-          "clue": "Board game",
+          "answer": "NOTIN",
+          "clue": "Out",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 0,
           "col": 4,
-          "length": 3,
-          "answer": "KID",
-          "clue": "Baby goat",
+          "length": 5,
+          "answer": "TOONS",
+          "clue": "SpongeBob SquarePants and others",
           "source": "dataset"
         }
       ]
@@ -184,8 +188,9 @@
     "size": 5,
     "cells": [
       null,
+      null,
       {
-        "answer": "D",
+        "answer": "W",
         "number": 1
       },
       {
@@ -193,51 +198,16 @@
         "number": 2
       },
       {
-        "answer": "T",
+        "answer": "X",
         "number": 3
       },
       {
-        "answer": "E",
+        "answer": "S",
         "number": 4
       },
       {
-        "answer": "F",
+        "answer": "T",
         "number": 5
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "O",
-        "number": 6
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "A",
-        "number": 7
-      },
-      {
-        "answer": "C"
       },
       {
         "answer": "O"
@@ -246,21 +216,51 @@
         "answer": "R"
       },
       {
-        "answer": "N"
+        "answer": "M"
       },
       {
         "answer": "L",
-        "number": 8
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "G"
       },
       {
         "answer": "E"
       },
       {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "O"
+      },
+      {
         "answer": "N"
+      },
+      {
+        "answer": "G",
+        "number": 8
+      },
+      {
+        "answer": "A"
       },
       {
         "answer": "S"
       },
+      null,
       null
     ],
     "clues": {
@@ -268,19 +268,19 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "DATE",
-          "clue": "Sticky fruit",
+          "col": 2,
+          "length": 3,
+          "answer": "WAX",
+          "clue": "Candle stuff",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "FACES",
-          "clue": "Stands up to",
+          "answer": "STORM",
+          "clue": "Bad weather",
           "source": "dataset"
         },
         {
@@ -288,8 +288,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ONTAP",
-          "clue": "Like much beer",
+          "answer": "LARGE",
+          "clue": "Sizable",
           "source": "dataset"
         },
         {
@@ -297,17 +297,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "ACORN",
-          "clue": "Squirrel nosh",
+          "answer": "ADDON",
+          "clue": "Second story, perhaps",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "LENS",
-          "clue": "Camera part",
+          "length": 3,
+          "answer": "GAS",
+          "clue": "Auto fuel",
           "source": "dataset"
         }
       ],
@@ -315,46 +315,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "DANCE",
-          "clue": "Eg, waltz",
+          "answer": "WORDS",
+          "clue": "Language units",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "ACTON",
-          "clue": "Follow, as advice",
+          "col": 3,
+          "length": 4,
+          "answer": "ARGO",
+          "clue": "Jason's vessel",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "TEARS",
-          "clue": "Eye drops",
+          "col": 4,
+          "length": 4,
+          "answer": "XMEN",
+          "clue": "Marvel supergroup",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
+          "row": 1,
+          "col": 0,
           "length": 4,
-          "answer": "ESPN",
-          "clue": "Sports channel",
+          "answer": "SLAG",
+          "clue": "Metallic waste",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 0,
+          "col": 1,
           "length": 4,
-          "answer": "FOAL",
-          "clue": "Baby horse",
+          "answer": "TADA",
+          "clue": "\"There!\"",
           "source": "dataset"
         }
       ]

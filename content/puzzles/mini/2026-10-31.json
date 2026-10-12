@@ -275,28 +275,43 @@
     }
   },
   "reserve": {
-    "size": 5,
+    "size": 7,
     "cells": [
       null,
       {
-        "answer": "S",
+        "answer": "A",
         "number": 1
       },
       {
-        "answer": "U",
+        "answer": "I",
         "number": 2
       },
       {
-        "answer": "M",
+        "answer": "R",
         "number": 3
       },
       {
-        "answer": "O",
+        "answer": "B",
         "number": 4
       },
       {
-        "answer": "B",
+        "answer": "U",
         "number": 5
+      },
+      {
+        "answer": "D",
+        "number": 6
+      },
+      null,
+      {
+        "answer": "C",
+        "number": 7
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
       },
       {
         "answer": "A"
@@ -305,14 +320,93 @@
         "answer": "S"
       },
       {
-        "answer": "I"
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "R",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 10
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "E",
+        "number": 11
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "M",
+        "number": 12
+      },
+      {
+        "answer": "E"
       },
       {
         "answer": "L"
       },
+      null,
       {
-        "answer": "A",
-        "number": 6
+        "answer": "M",
+        "number": 13
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "L"
+      },
+      null,
+      {
+        "answer": "I",
+        "number": 14
       },
       {
         "answer": "M"
@@ -321,39 +415,13 @@
         "answer": "E"
       },
       {
-        "answer": "N"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "L",
-        "number": 7
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "B"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "D",
-        "number": 8
-      },
-      {
         "answer": "A"
       },
       {
-        "answer": "Y"
+        "answer": "S"
       },
       {
-        "answer": "S"
+        "answer": "Y"
       },
       null
     ],
@@ -363,45 +431,72 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 4,
-          "answer": "SUMO",
-          "clue": "Wrestler in a mawashi",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "BASIL",
-          "clue": "Pho garnish",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "AMEND",
-          "clue": "Set right",
-          "source": "dataset"
+          "length": 6,
+          "answer": "AIRBUD",
+          "clue": "Basketball-playing movie dog",
+          "source": "written"
         },
         {
           "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "LOBES",
-          "clue": "Some piercing spots",
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "answer": "CREASE",
+          "clue": "Fold note in suit",
           "source": "dataset"
         },
         {
           "number": 8,
+          "row": 2,
+          "col": 1,
+          "length": 6,
+          "answer": "ROOTUP",
+          "clue": "Pull from the ground, in Plymouth",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "answer": "SON",
+          "clue": "Family boy",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 3,
+          "col": 4,
+          "length": 3,
+          "answer": "TAP",
+          "clue": "Select",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "DAYS",
-          "clue": "Calendar squares",
+          "length": 6,
+          "answer": "ENAMEL",
+          "clue": "Canine coat",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "answer": "MYGIRL",
+          "clue": "'___,' Temptations hit",
+          "source": "written"
+        },
+        {
+          "number": 14,
+          "row": 6,
+          "col": 0,
+          "length": 6,
+          "answer": "IMEASY",
+          "clue": "\"Whatever you want\"",
           "source": "dataset"
         }
       ],
@@ -410,45 +505,72 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 5,
-          "answer": "SAMOA",
-          "clue": "Pacific island group",
+          "length": 7,
+          "answer": "ACRONYM",
+          "clue": "Laser or Nato, for instance",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 2,
-          "length": 5,
-          "answer": "USEBY",
-          "clue": "Words on a milk jug",
+          "length": 7,
+          "answer": "IRONAGE",
+          "clue": "It followed the Bronze Age",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
           "col": 3,
-          "length": 5,
-          "answer": "MINES",
-          "clue": "Pits",
+          "length": 3,
+          "answer": "REO",
+          "clue": "Antique Olds",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
           "col": 4,
-          "length": 4,
-          "answer": "OLDS",
-          "clue": "Poet Sharon",
+          "length": 7,
+          "answer": "BATTERS",
+          "clue": "Hit seekers",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "answer": "USUALLY",
+          "clue": "Under normal conditions",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 0,
+          "col": 6,
+          "length": 4,
+          "answer": "DEPP",
+          "clue": "'Edward Scissorhands' star",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 3,
           "col": 0,
           "length": 4,
-          "answer": "BALD",
-          "clue": "Unvarnished",
+          "answer": "SEMI",
+          "clue": "Cargo carrier",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 4,
+          "col": 3,
+          "length": 3,
+          "answer": "MIA",
+          "clue": "Soccer's Hamm",
           "source": "dataset"
         }
       ]

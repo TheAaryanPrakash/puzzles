@@ -3,45 +3,39 @@
     "size": 5,
     "cells": [
       null,
-      null,
       {
-        "answer": "B",
+        "answer": "T",
         "number": 1
       },
       {
-        "answer": "E",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "T",
+        "answer": "F",
         "number": 3
       },
       {
-        "answer": "B",
+        "answer": "T",
         "number": 4
       },
-      {
-        "answer": "E",
-        "number": 5
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "H"
-      },
+      null,
       {
         "answer": "A",
-        "number": 6
+        "number": 5
       },
       {
         "answer": "S"
       },
       {
+        "answer": "I"
+      },
+      {
         "answer": "A"
+      },
+      {
+        "answer": "T",
+        "number": 6
       },
       {
         "answer": "H"
@@ -50,32 +44,38 @@
         "answer": "I"
       },
       {
-        "answer": "T",
+        "answer": "R"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "L",
         "number": 7
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "C"
       },
       {
         "answer": "O"
       },
       {
-        "answer": "S"
+        "answer": "G"
       },
       {
-        "answer": "H",
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "C",
         "number": 8
       },
       {
-        "answer": "U"
+        "answer": "E"
       },
       {
-        "answer": "H"
+        "answer": "N"
       },
-      null,
+      {
+        "answer": "T"
+      },
       null
     ],
     "clues": {
@@ -83,84 +83,10 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "BET",
-          "clue": "Parlay, say",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "BEECH",
-          "clue": "Tree with gray bark",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "ASAHI",
-          "clue": "Tokyo brew",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "TACOS",
-          "clue": "Folded meals",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 4,
-          "col": 0,
-          "length": 3,
-          "answer": "HUH",
-          "clue": "'Hmm, that's odd!'",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "BEACH",
-          "clue": "Temporary castle site",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 3,
+          "col": 1,
           "length": 4,
-          "answer": "ECHO",
-          "clue": "Comeback",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "THIS",
-          "clue": "No, not that!",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "BATH",
-          "clue": "Relaxing soak",
+          "answer": "TAFT",
+          "clue": "27th president",
           "source": "dataset"
         },
         {
@@ -168,8 +94,82 @@
           "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "ESAU",
-          "clue": "A son of Isaac",
+          "answer": "ASIA",
+          "clue": "The Orient",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "THIRD",
+          "clue": "Like this clue",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "LOGS",
+          "clue": "Records",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "CENT",
+          "clue": "Penny",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "TAHOE",
+          "clue": "Western resort lake",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "ASIGN",
+          "clue": "'It's ___ of the times'",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "FIRST",
+          "clue": "Leading",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "TAD",
+          "clue": "Skosh",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "TLC",
+          "clue": "'No Scrubs' trio",
           "source": "dataset"
         }
       ]
@@ -179,42 +179,63 @@
     "size": 5,
     "cells": [
       null,
-      null,
       {
-        "answer": "N",
+        "answer": "F",
         "number": 1
       },
       {
-        "answer": "B",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "A",
+        "answer": "M",
         "number": 3
       },
-      null,
       {
-        "answer": "C",
+        "answer": "E",
         "number": 4
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "G",
+        "answer": "A",
         "number": 5
       },
       {
+        "answer": "L"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "R",
+        "number": 6
+      },
+      {
         "answer": "A"
       },
       {
-        "answer": "M"
+        "answer": "I"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "Y",
+        "number": 7
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "K"
       },
       {
         "answer": "E"
@@ -224,29 +245,17 @@
       },
       {
         "answer": "A",
-        "number": 6
+        "number": 8
       },
       {
-        "answer": "F"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "W"
-      },
-      null,
-      {
-        "answer": "B",
-        "number": 7
+        "answer": "L"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "D"
+        "answer": "S"
       },
-      null,
       null
     ],
     "clues": {
@@ -254,46 +263,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "NBA",
-          "clue": "76ers' org",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "CARD",
-          "clue": "ID ___",
+          "answer": "FAME",
+          "clue": "Notoriety",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 2,
+          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "GAMES",
-          "clue": "Olympics, for instance, has a role in sending a message",
+          "answer": "ALLOY",
+          "clue": "Brass or steel",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 3,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "answer": "AFEW",
-          "clue": "Not very many",
+          "length": 5,
+          "answer": "RAISE",
+          "clue": "Bring up",
           "source": "dataset"
         },
         {
           "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "YIKES",
+          "clue": "'Aiiieee!'",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
           "row": 4,
           "col": 0,
-          "length": 3,
-          "answer": "BED",
-          "clue": "Night spot",
+          "length": 4,
+          "answer": "ALES",
+          "clue": "Beers",
           "source": "dataset"
         }
       ],
@@ -301,46 +310,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "NAMED",
-          "clue": "Dubbed",
+          "answer": "FLAIL",
+          "clue": "Omit to collect large threshing implement",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "BREW",
-          "clue": "Make, as tea",
+          "col": 2,
+          "length": 5,
+          "answer": "ALIKE",
+          "clue": "Comparable",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 3,
-          "answer": "ADS",
-          "clue": "Promos",
+          "col": 3,
+          "length": 5,
+          "answer": "MOSES",
+          "clue": "Hebrew prophet",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 1,
+          "row": 0,
+          "col": 4,
           "length": 4,
-          "answer": "CAFE",
-          "clue": "Cozy eatery",
+          "answer": "EYES",
+          "clue": "Ogles",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 2,
+          "row": 1,
           "col": 0,
-          "length": 3,
-          "answer": "GAB",
-          "clue": "Chatter",
+          "length": 4,
+          "answer": "ARYA",
+          "clue": "Maisie Williams's role on 'Game of Thrones'",
           "source": "dataset"
         }
       ]

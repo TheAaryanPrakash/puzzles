@@ -276,90 +276,94 @@
     "size": 5,
     "cells": [
       null,
-      null,
       {
-        "answer": "S",
+        "answer": "A",
         "number": 1
       },
       {
-        "answer": "H",
+        "answer": "R",
         "number": 2
       },
       {
-        "answer": "H",
+        "answer": "K",
         "number": 3
       },
-      {
-        "answer": "A",
-        "number": 4
-      },
+      null,
       {
         "answer": "C",
-        "number": 5
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "W",
-        "number": 6
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "A"
+        "number": 4
       },
       {
         "answer": "L"
       },
       {
+        "answer": "U"
+      },
+      {
         "answer": "E"
+      },
+      {
+        "answer": "S",
+        "number": 5
+      },
+      {
+        "answer": "L",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "Y"
       },
       {
         "answer": "A",
         "number": 7
       },
       {
+        "answer": "S"
+      },
+      {
         "answer": "I"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "Y",
-        "number": 8
       },
       {
         "answer": "A"
       },
       {
-        "answer": "K"
+        "answer": "N"
       },
-      null,
-      null
+      {
+        "answer": "M",
+        "number": 8
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "C"
+      }
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 3,
-          "answer": "SHH",
-          "clue": "\"Silence!\"",
+          "answer": "ARK",
+          "clue": "Noah's ship",
           "source": "dataset"
         },
         {
@@ -367,8 +371,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "ACHOO",
-          "clue": "Allergic reaction",
+          "answer": "CLUES",
+          "clue": "This puzzle has 78",
           "source": "dataset"
         },
         {
@@ -376,8 +380,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "WHALE",
-          "clue": "Pequod sinker",
+          "answer": "LOBBY",
+          "clue": "Entrance hall",
           "source": "dataset"
         },
         {
@@ -385,17 +389,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "AIRED",
-          "clue": "Put on",
+          "answer": "ASIAN",
+          "clue": "Indian, say",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 3,
-          "answer": "YAK",
-          "clue": "Chew the fat",
+          "length": 5,
+          "answer": "MSNBC",
+          "clue": "Rachel Maddow network",
           "source": "dataset"
         }
       ],
@@ -403,28 +407,28 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "SHARK",
-          "clue": "Predatory fish",
+          "answer": "ALOSS",
+          "clue": "At ___ for words",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "HOLE",
-          "clue": "It's dug",
+          "col": 2,
+          "length": 5,
+          "answer": "RUBIN",
+          "clue": "Apply, as lotion",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "HOED",
-          "clue": "Prepared for planting",
+          "col": 3,
+          "length": 5,
+          "answer": "KEBAB",
+          "clue": "Food on skewer",
           "source": "dataset"
         },
         {
@@ -432,17 +436,17 @@
           "row": 1,
           "col": 0,
           "length": 4,
-          "answer": "AWAY",
-          "clue": "Gone",
+          "answer": "CLAM",
+          "clue": "Mollusc",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 1,
+          "col": 4,
           "length": 4,
-          "answer": "CHIA",
-          "clue": "Smoothie seeds",
+          "answer": "SYNC",
+          "clue": "Dubbing concern",
           "source": "dataset"
         }
       ]

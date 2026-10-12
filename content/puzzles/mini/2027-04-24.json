@@ -296,125 +296,61 @@
     }
   },
   "reserve": {
-    "size": 7,
+    "size": 5,
     "cells": [
+      null,
       {
-        "answer": "P",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "O",
+        "answer": "T",
         "number": 2
       },
       {
-        "answer": "E",
+        "answer": "A",
         "number": 3
       },
       {
-        "answer": "H",
+        "answer": "R",
         "number": 4
       },
+      null,
       {
-        "answer": "L",
+        "answer": "H",
         "number": 5
       },
       {
-        "answer": "E",
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "B",
         "number": 6
       },
       {
-        "answer": "R",
-        "number": 7
-      },
-      {
-        "answer": "A",
-        "number": 8
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "X"
-      },
-      {
-        "answer": "I"
-      },
-      {
         "answer": "E"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "R",
-        "number": 9
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "L"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "C"
+        "answer": "R"
       },
       {
-        "answer": "E"
+        "answer": "D"
       },
-      null,
-      null,
       {
-        "answer": "E",
-        "number": 10
+        "answer": "A",
+        "number": 7
       },
       {
         "answer": "L"
-      },
-      {
-        "answer": "K"
-      },
-      null,
-      null,
-      {
-        "answer": "C",
-        "number": 11
-      },
-      {
-        "answer": "O",
-        "number": 12
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S",
-        "number": 13
-      },
-      {
-        "answer": "T",
-        "number": 14
-      },
-      {
-        "answer": "O",
-        "number": 15
-      },
-      {
-        "answer": "F"
       },
       {
         "answer": "S"
@@ -422,101 +358,67 @@
       {
         "answer": "O"
       },
+      null,
       {
-        "answer": "R"
+        "answer": "A",
+        "number": 8
       },
       {
-        "answer": "T"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "S",
-        "number": 16
-      },
-      {
-        "answer": "T"
+        "answer": "F"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "P"
+        "answer": "W"
       },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "P"
-      }
+      null
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "STAR",
+          "clue": "Rock ___",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "HERE",
+          "clue": "'Present!'",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
           "col": 0,
-          "length": 7,
-          "answer": "POEHLER",
-          "clue": "Amy of 'Parks and Recreation'",
+          "length": 5,
+          "answer": "BEARD",
+          "clue": "Chin cover",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "ALSO",
+          "clue": "Plus",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 1,
-          "col": 0,
-          "length": 7,
-          "answer": "ANXIETY",
-          "clue": "Unease",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
-          "row": 2,
-          "col": 0,
-          "length": 7,
-          "answer": "REPLACE",
-          "clue": "Substitute crepe filling with something dainty",
-          "source": "dataset"
-        },
-        {
-          "number": 10,
-          "row": 3,
-          "col": 2,
-          "length": 3,
-          "answer": "ELK",
-          "clue": "Big deer",
-          "source": "dataset"
-        },
-        {
-          "number": 11,
           "row": 4,
           "col": 0,
-          "length": 7,
-          "answer": "CONTEST",
-          "clue": "Competition",
-          "source": "dataset"
-        },
-        {
-          "number": 15,
-          "row": 5,
-          "col": 0,
-          "length": 7,
-          "answer": "OFSORTS",
-          "clue": "In a way",
-          "source": "dataset"
-        },
-        {
-          "number": 16,
-          "row": 6,
-          "col": 0,
-          "length": 7,
-          "answer": "STEPSUP",
-          "clue": "Accepts, as a challenge (2 words)",
+          "length": 4,
+          "answer": "AFEW",
+          "clue": "Several",
           "source": "dataset"
         }
       ],
@@ -524,100 +426,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 3,
-          "answer": "PAR",
-          "clue": "Standard",
+          "col": 1,
+          "length": 5,
+          "answer": "SHELF",
+          "clue": "Rock ledge; underwater bank",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
-          "length": 3,
-          "answer": "ONE",
-          "clue": "Ace",
+          "col": 2,
+          "length": 5,
+          "answer": "TEASE",
+          "clue": "Flirt",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
-          "length": 7,
-          "answer": "EXPENSE",
-          "clue": "Cost",
+          "col": 3,
+          "length": 5,
+          "answer": "ARROW",
+          "clue": "Tell tale item",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 3,
-          "length": 7,
-          "answer": "HILLTOP",
-          "clue": "Upland summit",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 0,
           "col": 4,
-          "length": 7,
-          "answer": "LEAKERS",
-          "clue": "Those who spill confidential info",
-          "source": "written"
+          "length": 3,
+          "answer": "RED",
+          "clue": "___ tape",
+          "source": "dataset"
         },
         {
           "number": 6,
-          "row": 0,
-          "col": 5,
-          "length": 3,
-          "answer": "ETC",
-          "clue": "Series-ending abbr",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 0,
-          "col": 6,
-          "length": 3,
-          "answer": "RYE",
-          "clue": "Potable",
-          "source": "dataset"
-        },
-        {
-          "number": 11,
-          "row": 4,
+          "row": 2,
           "col": 0,
           "length": 3,
-          "answer": "COS",
-          "clue": "Trig. ratio",
-          "source": "dataset"
-        },
-        {
-          "number": 12,
-          "row": 4,
-          "col": 1,
-          "length": 3,
-          "answer": "OFT",
-          "clue": "___-quoted",
-          "source": "dataset"
-        },
-        {
-          "number": 13,
-          "row": 4,
-          "col": 5,
-          "length": 3,
-          "answer": "STU",
-          "clue": "Actor Erwin",
-          "source": "dataset"
-        },
-        {
-          "number": 14,
-          "row": 4,
-          "col": 6,
-          "length": 3,
-          "answer": "TSP",
-          "clue": "About 5 mL",
+          "answer": "BAA",
+          "clue": "Sheep cry",
           "source": "dataset"
         }
       ]

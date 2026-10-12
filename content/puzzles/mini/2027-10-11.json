@@ -3,13 +3,192 @@
     "size": 5,
     "cells": [
       null,
-      null,
       {
-        "answer": "M",
+        "answer": "D",
         "number": 1
       },
       {
-        "answer": "L",
+        "answer": "U",
+        "number": 2
+      },
+      {
+        "answer": "S",
+        "number": 3
+      },
+      {
+        "answer": "K",
+        "number": 4
+      },
+      {
+        "answer": "P",
+        "number": 5
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "C",
+        "number": 6
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "T",
+        "number": 7
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "S"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "DUSK",
+          "clue": "Twilight",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "PESCI",
+          "clue": "Joe of 'The Irishman'",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "CLEAN",
+          "clue": "Pristine",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "THUNK",
+          "clue": "Dull heavy sound",
+          "source": "written"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "SIPS",
+          "clue": "Tentative tastes",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "DELHI",
+          "clue": "Huge city in India",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "USEUP",
+          "clue": "Deplete entirely",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "SCANS",
+          "clue": "Digitizes, as a page",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "KINK",
+          "clue": "Complication",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "PCTS",
+          "clue": "Percentages, for short",
+          "source": "written"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "E",
+        "number": 1
+      },
+      {
+        "answer": "B",
         "number": 2
       },
       {
@@ -18,299 +197,65 @@
       },
       null,
       {
-        "answer": "L",
-        "number": 4
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "Z",
-        "number": 5
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "Z"
-      },
-      {
-        "answer": "Z"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "O",
-        "number": 6
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "Y"
-      },
-      null,
-      {
-        "answer": "O",
-        "number": 7
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "K"
-      },
-      null,
-      null
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "MLB",
-          "clue": "Organization in which you'd hear the answers to starred clues",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "LUAU",
-          "clue": "Hawaiian bash",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "ZAZZY",
-          "clue": "Flashy and bold, informally",
-          "source": "written"
-        },
-        {
-          "number": 6,
-          "row": 3,
-          "col": 0,
-          "length": 4,
-          "answer": "OLAY",
-          "clue": "Oil of ___",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 4,
-          "col": 0,
-          "length": 3,
-          "answer": "OAK",
-          "clue": "Acorn source",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "MUZAK",
-          "clue": "Piped music",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "LAZY",
-          "clue": "___ Susan",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 4,
-          "length": 3,
-          "answer": "BUY",
-          "clue": "Hand over money for",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "LALA",
-          "clue": "'Ooh ___!'",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "answer": "ZOO",
-          "clue": "Bloke",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 7,
-    "cells": [
-      null,
-      {
         "answer": "F",
-        "number": 1
-      },
-      {
-        "answer": "O",
-        "number": 2
-      },
-      {
-        "answer": "A",
-        "number": 3
-      },
-      {
-        "answer": "M",
         "number": 4
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
       },
       {
         "answer": "S",
         "number": 5
       },
-      null,
-      null,
       {
-        "answer": "I",
+        "answer": "E",
         "number": 6
       },
       {
-        "answer": "N"
-      },
-      {
-        "answer": "L"
+        "answer": "V"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "T"
+        "answer": "R"
       },
-      null,
       {
-        "answer": "A",
+        "answer": "Y"
+      },
+      {
+        "answer": "Y",
         "number": 7
       },
       {
-        "answer": "N"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "M",
-        "number": 8
-      },
-      {
-        "answer": "N",
-        "number": 9
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "G"
-      },
-      {
         "answer": "E"
       },
       {
-        "answer": "R"
-      },
-      {
-        "answer": "I"
-      },
-      {
         "answer": "A"
       },
       {
-        "answer": "I",
-        "number": 10
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "B"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "D"
-      },
-      null,
-      {
-        "answer": "G",
-        "number": 11
-      },
-      {
-        "answer": "I"
-      },
-      {
         "answer": "R"
-      },
-      {
-        "answer": "L"
       },
       {
         "answer": "S"
       },
       null,
-      null,
-      null,
       {
-        "answer": "N",
-        "number": 12
+        "answer": "S",
+        "number": 8
       },
       {
-        "answer": "A"
+        "answer": "K"
       },
       {
         "answer": "Y"
       },
-      null,
       null
     ],
     "clues": {
@@ -319,63 +264,45 @@
           "number": 1,
           "row": 0,
           "col": 1,
+          "length": 3,
+          "answer": "EBB",
+          "clue": "Wane",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
           "length": 5,
-          "answer": "FOAMS",
-          "clue": "Features of beer and sponges",
+          "answer": "FARES",
+          "clue": "Taxi costs",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 1,
-          "col": 1,
+          "row": 2,
+          "col": 0,
           "length": 5,
-          "answer": "INLET",
-          "clue": "Cove",
+          "answer": "EVERY",
+          "clue": "Part of EGBDF",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 2,
-          "col": 0,
-          "length": 7,
-          "answer": "ANAGRAM",
-          "clue": "Plane to Nepal, for instance (wordplay)",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
           "row": 3,
           "col": 0,
-          "length": 7,
-          "answer": "NIGERIA",
-          "clue": "West African country",
-          "source": "dataset"
-        },
-        {
-          "number": 10,
-          "row": 4,
-          "col": 0,
-          "length": 7,
-          "answer": "INABIND",
-          "clue": "Between a rock and a hard place, say",
-          "source": "dataset"
-        },
-        {
-          "number": 11,
-          "row": 5,
-          "col": 1,
           "length": 5,
-          "answer": "GIRLS",
-          "clue": "Young ladies",
+          "answer": "YEARS",
+          "clue": "Decade units",
           "source": "dataset"
         },
         {
-          "number": 12,
-          "row": 6,
-          "col": 2,
+          "number": 8,
+          "row": 4,
+          "col": 1,
           "length": 3,
-          "answer": "NAY",
-          "clue": "Split",
+          "answer": "SKY",
+          "clue": "Blue shade",
           "source": "dataset"
         }
       ],
@@ -384,63 +311,45 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 6,
-          "answer": "FINING",
-          "clue": "Punishing financially",
+          "length": 5,
+          "answer": "EAVES",
+          "clue": "Wasp nest sites",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 2,
-          "length": 7,
-          "answer": "ONAGAIN",
-          "clue": "Back after cancellation",
+          "length": 5,
+          "answer": "BREAK",
+          "clue": "Holiday; snap",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
           "col": 3,
-          "length": 7,
-          "answer": "ALGEBRA",
-          "clue": "Symbolic mathematics",
+          "length": 5,
+          "answer": "BERRY",
+          "clue": "Early bird laid out with fruit",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 7,
-          "answer": "MERRILY",
-          "clue": "Cheerfully, as one rows a boat",
-          "source": "written"
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "FEY",
+          "clue": "Funny Tina",
+          "source": "dataset"
         },
         {
           "number": 5,
-          "row": 0,
-          "col": 5,
-          "length": 6,
-          "answer": "STAINS",
-          "clue": "Laundry woes",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 2,
-          "col": 0,
+          "row": 1,
+          "col": 4,
           "length": 3,
-          "answer": "ANI",
-          "clue": "Black cuckoo",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 2,
-          "col": 6,
-          "length": 3,
-          "answer": "MAD",
-          "clue": "Livid",
+          "answer": "SYS",
+          "clue": "NES part abbreviation",
           "source": "dataset"
         }
       ]

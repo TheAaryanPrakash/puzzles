@@ -272,84 +272,81 @@
   "reserve": {
     "size": 5,
     "cells": [
-      null,
       {
-        "answer": "A",
+        "answer": "F",
         "number": 1
       },
       {
-        "answer": "R",
+        "answer": "L",
         "number": 2
       },
       {
-        "answer": "K",
+        "answer": "A",
         "number": 3
+      },
+      {
+        "answer": "P",
+        "number": 4
       },
       null,
       {
-        "answer": "C",
-        "number": 4
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S",
+        "answer": "R",
         "number": 5
-      },
-      {
-        "answer": "L",
-        "number": 6
       },
       {
         "answer": "O"
       },
       {
-        "answer": "B"
+        "answer": "S"
       },
       {
-        "answer": "B"
+        "answer": "E"
       },
-      {
-        "answer": "Y"
-      },
+      null,
       {
         "answer": "A",
-        "number": 7
+        "number": 6
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "T"
       },
       {
         "answer": "S"
       },
       {
-        "answer": "I"
+        "answer": "Y",
+        "number": 7
+      },
+      null,
+      {
+        "answer": "D",
+        "number": 8
       },
       {
         "answer": "A"
       },
       {
-        "answer": "N"
+        "answer": "T"
       },
       {
-        "answer": "M",
-        "number": 8
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "E",
+        "number": 9
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
       },
       {
         "answer": "S"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "B"
-      },
-      {
-        "answer": "C"
       }
     ],
     "clues": {
@@ -357,19 +354,19 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 3,
-          "answer": "ARK",
-          "clue": "Noah's ship",
+          "col": 0,
+          "length": 4,
+          "answer": "FLAP",
+          "clue": "Book jacket part",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
           "col": 0,
-          "length": 5,
-          "answer": "CLUES",
-          "clue": "This puzzle has 78",
+          "length": 4,
+          "answer": "ROSE",
+          "clue": "Stood up",
           "source": "dataset"
         },
         {
@@ -377,26 +374,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "LOBBY",
-          "clue": "Entrance hall",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "ASIAN",
-          "clue": "Indian, say",
+          "answer": "ARTSY",
+          "clue": "___-craftsy",
           "source": "dataset"
         },
         {
           "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "answer": "DATE",
+          "clue": "Appointment",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
           "row": 4,
-          "col": 0,
-          "length": 5,
-          "answer": "MSNBC",
-          "clue": "Rachel Maddow network",
+          "col": 1,
+          "length": 4,
+          "answer": "EROS",
+          "clue": "Greek Cupid",
           "source": "dataset"
         }
       ],
@@ -404,46 +401,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "ALOSS",
-          "clue": "At ___ for words",
+          "col": 0,
+          "length": 3,
+          "answer": "FRA",
+          "clue": "Brother",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "RUBIN",
-          "clue": "Apply, as lotion",
+          "answer": "LORDE",
+          "clue": "One-named singer of \"Royals\"",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
+          "col": 2,
           "length": 5,
-          "answer": "KEBAB",
-          "clue": "Food on skewer",
+          "answer": "ASTAR",
+          "clue": "\"When You Wish Upon ___\"",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "CLAM",
-          "clue": "Mollusc",
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "PESTO",
+          "clue": "Trattoria sauce",
           "source": "dataset"
         },
         {
-          "number": 5,
-          "row": 1,
+          "number": 7,
+          "row": 2,
           "col": 4,
-          "length": 4,
-          "answer": "SYNC",
-          "clue": "Dubbing concern",
+          "length": 3,
+          "answer": "YES",
+          "clue": "\"Sure\"",
           "source": "dataset"
         }
       ]

@@ -2,9 +2,8 @@
   "payload": {
     "size": 5,
     "cells": [
-      null,
       {
-        "answer": "S",
+        "answer": "C",
         "number": 1
       },
       {
@@ -12,207 +11,58 @@
         "number": 2
       },
       {
-        "answer": "U",
+        "answer": "A",
         "number": 3
       },
       {
-        "answer": "T",
+        "answer": "S",
         "number": 4
       },
-      null,
       {
-        "answer": "N",
+        "answer": "M",
         "number": 5
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "C",
+        "answer": "R",
         "number": 6
       },
       {
+        "answer": "E"
+      },
+      {
+        "answer": "L"
+      },
+      {
         "answer": "A"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "D"
       },
       {
         "answer": "Y"
       },
       {
-        "answer": "U",
+        "answer": "O",
         "number": 7
       },
       {
         "answer": "R"
       },
       {
-        "answer": "D"
+        "answer": "O"
       },
       {
         "answer": "U"
       },
-      null,
       {
-        "answer": "E",
+        "answer": "T"
+      },
+      {
+        "answer": "C",
         "number": 8
       },
       {
-        "answer": "L"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "E"
-      },
-      null
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "SHUT",
-          "clue": "Closed tight",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "NANO",
-          "clue": "iPod variety",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "CANDY",
-          "clue": "American sweets",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 4,
-          "answer": "URDU",
-          "clue": "Pakistan tongue",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 4,
-          "col": 0,
-          "length": 4,
-          "answer": "ELSE",
-          "clue": "'Or ___!'",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "SNARL",
-          "clue": "'Grrr!' is one",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "HANDS",
-          "clue": "Ranch employees",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "UNDUE",
-          "clue": "Not called for",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 3,
-          "answer": "TOY",
-          "clue": "Tot amuser",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "answer": "CUE",
-          "clue": "Signal",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 7,
-    "cells": [
-      null,
-      null,
-      {
-        "answer": "E",
-        "number": 1
-      },
-      {
-        "answer": "X",
-        "number": 2
-      },
-      {
-        "answer": "P",
-        "number": 3
-      },
-      {
-        "answer": "A",
-        "number": 4
-      },
-      {
-        "answer": "T",
-        "number": 5
-      },
-      null,
-      {
-        "answer": "S",
-        "number": 6
-      },
-      {
-        "answer": "M"
-      },
-      {
         "answer": "O"
       },
       {
-        "answer": "O"
+        "answer": "N"
       },
       {
         "answer": "C"
@@ -220,179 +70,68 @@
       {
         "answer": "H"
       },
-      null,
       {
-        "answer": "T",
-        "number": 7
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "X"
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "S",
-        "number": 8
-      },
-      {
-        "answer": "A"
+        "answer": "K",
+        "number": 9
       },
       {
         "answer": "N"
       },
-      null,
       {
-        "answer": "P",
-        "number": 9
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "F",
-        "number": 10
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "K",
-        "number": 11
+        "answer": "E"
       },
       {
         "answer": "E"
       },
       {
         "answer": "S"
-      },
-      null,
-      {
-        "answer": "P",
-        "number": 12
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "S"
-      },
-      null,
-      {
-        "answer": "D",
-        "number": 13
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "S"
-      },
-      null,
-      null
+      }
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 0,
           "length": 5,
-          "answer": "EXPAT",
-          "clue": "American living overseas",
+          "answer": "CHASM",
+          "clue": "Deep cleft",
           "source": "dataset"
         },
         {
           "number": 6,
           "row": 1,
-          "col": 1,
-          "length": 6,
-          "answer": "SMOOCH",
-          "clue": "Dance slowly while in an embrace",
+          "col": 0,
+          "length": 5,
+          "answer": "RELAY",
+          "clue": "Broadcast",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 2,
-          "col": 1,
-          "length": 6,
-          "answer": "TAXPRO",
-          "clue": "CPA, e.g",
-          "source": "dataset"
+          "col": 0,
+          "length": 5,
+          "answer": "OROUT",
+          "clue": "'In ___' (included or excluded)",
+          "source": "written"
         },
         {
           "number": 8,
           "row": 3,
           "col": 0,
-          "length": 3,
-          "answer": "SAN",
-          "clue": "- Juan",
+          "length": 5,
+          "answer": "CONCH",
+          "clue": "Makeshift trumpet",
           "source": "dataset"
         },
         {
           "number": 9,
-          "row": 3,
-          "col": 4,
-          "length": 3,
-          "answer": "POR",
-          "clue": "'___ favor'",
-          "source": "dataset"
-        },
-        {
-          "number": 10,
           "row": 4,
           "col": 0,
-          "length": 6,
-          "answer": "FLAKES",
-          "clue": "Total makeup",
-          "source": "dataset"
-        },
-        {
-          "number": 12,
-          "row": 5,
-          "col": 0,
-          "length": 6,
-          "answer": "PETERS",
-          "clue": "Broadway's Bernadette",
-          "source": "dataset"
-        },
-        {
-          "number": 13,
-          "row": 6,
-          "col": 0,
           "length": 5,
-          "answer": "DREGS",
-          "clue": "Riffraff",
+          "answer": "KNEES",
+          "clue": "Some joints",
           "source": "dataset"
         }
       ],
@@ -400,73 +139,223 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 7,
-          "answer": "EMANATE",
-          "clue": "Radiate",
+          "col": 0,
+          "length": 5,
+          "answer": "CROCK",
+          "clue": "Stew cooker",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 3,
-          "answer": "XOX",
-          "clue": "Hugs and kisses, in a sign-off",
-          "source": "written"
+          "col": 1,
+          "length": 5,
+          "answer": "HERON",
+          "clue": "Egret's cousin",
+          "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 7,
-          "answer": "POPPERS",
-          "clue": "Bubble wrap bubbles, when squeezed",
-          "source": "written"
+          "col": 2,
+          "length": 5,
+          "answer": "ALONE",
+          "clue": "Stag",
+          "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 5,
-          "length": 6,
-          "answer": "ACROSS",
-          "clue": "Bridging",
+          "col": 3,
+          "length": 5,
+          "answer": "SAUCE",
+          "clue": "Relish drink",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 0,
-          "col": 6,
+          "col": 4,
+          "length": 5,
+          "answer": "MYTHS",
+          "clue": "Legends",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "B",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "S",
+        "number": 3
+      },
+      {
+        "answer": "S",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 5
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "M"
+      },
+      null,
+      {
+        "answer": "D",
+        "number": 6
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "G",
+        "number": 7
+      },
+      null,
+      {
+        "answer": "P",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "U"
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 9
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "Y"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
           "length": 4,
-          "answer": "THOR",
-          "clue": "Thunder god",
+          "answer": "BASS",
+          "clue": "Low guitar",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "ADAM",
+          "clue": "Eden guy",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 1,
-          "col": 1,
-          "length": 6,
-          "answer": "STALER",
-          "clue": "Not as fresh",
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "DEFOG",
+          "clue": "Clear while on the road",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 3,
-          "col": 0,
+          "col": 1,
           "length": 4,
-          "answer": "SFPD",
-          "clue": "\"Ironside\" org",
+          "answer": "PERU",
+          "clue": "Lima's land",
           "source": "dataset"
         },
         {
-          "number": 11,
+          "number": 9,
           "row": 4,
-          "col": 3,
+          "col": 1,
+          "length": 4,
+          "answer": "TREY",
+          "clue": "Deuce topper",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
           "length": 3,
-          "answer": "KEG",
-          "clue": "Brew holder",
+          "answer": "BAD",
+          "clue": "Shoddy",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "ADEPT",
+          "clue": "Very slick",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "SAFER",
+          "clue": "Less risky",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "SMORE",
+          "clue": "Sticky snack made with a stick",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "answer": "GUY",
+          "clue": "Rag and rope",
           "source": "dataset"
         }
       ]

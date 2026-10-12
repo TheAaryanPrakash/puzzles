@@ -2,43 +2,43 @@
   "payload": {
     "groups": [
       {
-        "label": "FACIAL FEATURES",
+        "label": "QUANTITY",
         "level": 0,
         "words": [
-          "MOUTH",
-          "NOSE",
-          "EYE",
-          "CHEEK"
+          "COUNT",
+          "NUMBER",
+          "TOTAL",
+          "AMOUNT"
         ]
       },
       {
-        "label": "SYNONYMS FOR EAT",
+        "label": "INCIDENT",
         "level": 1,
         "words": [
-          "WOLF",
-          "CHOW",
-          "SCARF",
-          "GOBBLE"
+          "EPISODE",
+          "MATTER",
+          "AFFAIR",
+          "EVENT"
         ]
       },
       {
-        "label": "DOG BREEDS, INFORMALLY",
+        "label": "THINGS RECEIVED IN THE MAIL",
         "level": 2,
         "words": [
-          "LAB",
-          "POM",
-          "PIT",
-          "PEKE"
+          "CATALOG",
+          "LETTER",
+          "BILL",
+          "CARD"
         ]
       },
       {
-        "label": "MEMBERS OF A TRIO",
+        "label": "WHAT “SPRING” MIGHT REFER TO",
         "level": 3,
         "words": [
-          "AMIGO",
-          "STOOGE",
-          "KING",
-          "TENOR"
+          "COIL",
+          "SEASON",
+          "BOUNCE",
+          "GEYSER"
         ]
       }
     ]
@@ -46,43 +46,43 @@
   "reserve": {
     "groups": [
       {
-        "label": "PIECES OF CHICKEN",
+        "label": "EQUIP",
         "level": 0,
         "words": [
-          "WING",
-          "TENDER",
-          "BREAST",
-          "DRUMSTICK"
+          "OUTFIT",
+          "STOCK",
+          "PROVISION",
+          "FURNISH"
         ]
       },
       {
-        "label": "GOLF TERMS",
+        "label": "INDIVIDUALITY",
         "level": 1,
         "words": [
-          "DRIVER",
-          "EAGLE",
-          "STROKE",
-          "HOLE"
+          "EGO",
+          "CHARACTER",
+          "BEING",
+          "SELF"
         ]
       },
       {
-        "label": "DRUM SET COMPONENTS",
+        "label": "FURNITURE",
         "level": 2,
         "words": [
-          "TOM",
-          "SNARE",
-          "CYMBAL",
-          "KICK"
+          "VANITY",
+          "WARDROBE",
+          "CONSOLE",
+          "CHEST"
         ]
       },
       {
-        "label": "ASSOCIATED WITH “CRAWL”",
+        "label": "WORDS WITH APOSTROPHES REMOVED",
         "level": 3,
         "words": [
-          "INFANT",
-          "PUB",
-          "SWIMMING",
-          "TICKER"
+          "SHELL",
+          "ID",
+          "CANT",
+          "WERE"
         ]
       }
     ]

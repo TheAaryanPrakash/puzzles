@@ -3,12 +3,183 @@
     "size": 5,
     "cells": [
       null,
+      null,
       {
-        "answer": "S",
+        "answer": "T",
         "number": 1
       },
       {
+        "answer": "I",
+        "number": 2
+      },
+      {
+        "answer": "C",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "J",
+        "number": 4
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "J",
+        "number": 5
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "Y"
+      },
+      {
         "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "O"
+      },
+      null,
+      {
+        "answer": "M",
+        "number": 7
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "TIC",
+          "clue": "___-tac-toe",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "JUNO",
+          "clue": "Hera's Roman counterpart",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "JIFFY",
+          "clue": "Blink of an eye",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "ALTO",
+          "clue": "Sax range",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "MLS",
+          "clue": "Sports group that includes the L.A. Galaxy",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "TUFTS",
+          "clue": "Clumps",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "INFO",
+          "clue": "Data",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "COY",
+          "clue": "Affectedly shy",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "JILL",
+          "clue": "Character also falling sick after Jack (wordplay)",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "JAM",
+          "clue": "Toast spread",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "H",
+        "number": 1
+      },
+      {
+        "answer": "E",
         "number": 2
       },
       {
@@ -16,62 +187,66 @@
         "number": 3
       },
       {
-        "answer": "T",
+        "answer": "P",
         "number": 4
       },
-      null,
       {
-        "answer": "T",
+        "answer": "F",
         "number": 5
-      },
-      {
-        "answer": "W"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "T",
-        "number": 6
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "B",
-        "number": 7
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "T"
-      },
-      null,
-      {
-        "answer": "S",
-        "number": 8
       },
       {
         "answer": "E"
       },
       {
+        "answer": "M"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E",
+        "number": 6
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "I"
+      },
+      {
         "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "R",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "Y"
       },
       {
         "answer": "S"
@@ -85,17 +260,17 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "SALT",
-          "clue": "Sailor",
+          "answer": "HELP",
+          "clue": "Assistance",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "TWIN",
-          "clue": "Exact match",
+          "col": 0,
+          "length": 5,
+          "answer": "FEMUR",
+          "clue": "Thighbone",
           "source": "dataset"
         },
         {
@@ -103,17 +278,17 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "TOAST",
-          "clue": "BLT base",
+          "answer": "ELITE",
+          "clue": "Cream",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 4,
-          "answer": "BRIT",
-          "clue": "Bath occupant, say",
+          "length": 5,
+          "answer": "ALLEY",
+          "clue": "Back lane",
           "source": "dataset"
         },
         {
@@ -121,8 +296,8 @@
           "row": 4,
           "col": 0,
           "length": 4,
-          "answer": "SETS",
-          "clue": "Ensembles",
+          "answer": "ROYS",
+          "clue": "Rob ___: cocktails",
           "source": "dataset"
         }
       ],
@@ -132,8 +307,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "STORE",
-          "clue": "Pack away",
+          "answer": "HELLO",
+          "clue": "How do you do",
           "source": "dataset"
         },
         {
@@ -141,8 +316,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "AWAIT",
-          "clue": "Eagerly expect",
+          "answer": "EMILY",
+          "clue": "Post with advice",
           "source": "dataset"
         },
         {
@@ -150,203 +325,26 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "LISTS",
-          "clue": "Top 10s, e.g",
+          "answer": "LUTES",
+          "clue": "Ren Faire strings",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
           "col": 4,
-          "length": 3,
-          "answer": "TNT",
-          "clue": "Blast stuff",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "answer": "TBS",
-          "clue": "Butter amt",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 5,
-    "cells": [
-      {
-        "answer": "C",
-        "number": 1
-      },
-      {
-        "answer": "R",
-        "number": 2
-      },
-      {
-        "answer": "I",
-        "number": 3
-      },
-      {
-        "answer": "B",
-        "number": 4
-      },
-      null,
-      {
-        "answer": "B",
-        "number": 5
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "N",
-        "number": 6
-      },
-      {
-        "answer": "S",
-        "number": 7
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "E"
-      },
-      null,
-      {
-        "answer": "Z",
-        "number": 8
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "M"
-      },
-      null,
-      null,
-      {
-        "answer": "T",
-        "number": 9
-      },
-      {
-        "answer": "W"
-      },
-      {
-        "answer": "O"
-      }
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 0,
           "length": 4,
-          "answer": "CRIB",
-          "clue": "Child's bed",
+          "answer": "PREY",
+          "clue": "Mice, to owls",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
           "col": 0,
-          "length": 5,
-          "answer": "BIDEN",
-          "clue": "Six-term Delaware senator",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "STILE",
-          "clue": "Steps over a wall",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 3,
-          "col": 1,
           "length": 4,
-          "answer": "ZOOM",
-          "clue": "Lens for closeups",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
-          "row": 4,
-          "col": 2,
-          "length": 3,
-          "answer": "TWO",
-          "clue": "A pair of",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 0,
-          "length": 3,
-          "answer": "CBS",
-          "clue": "Grammy channel",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "RITZ",
-          "clue": "Nabisco's round cracker",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "IDIOT",
-          "clue": "Peabrain",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "BELOW",
-          "clue": "In hell, say",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 1,
-          "col": 4,
-          "length": 4,
-          "answer": "NEMO",
-          "clue": "\"Finding ___\"",
+          "answer": "FEAR",
+          "clue": "Be afraid of",
           "source": "dataset"
         }
       ]

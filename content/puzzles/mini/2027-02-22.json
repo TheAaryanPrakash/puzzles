@@ -4,44 +4,44 @@
     "cells": [
       null,
       {
-        "answer": "S",
+        "answer": "W",
         "number": 1
       },
       {
-        "answer": "C",
+        "answer": "O",
         "number": 2
       },
       {
-        "answer": "A",
+        "answer": "K",
         "number": 3
       },
       {
-        "answer": "M",
+        "answer": "E",
         "number": 4
       },
       null,
       {
-        "answer": "M",
+        "answer": "A",
         "number": 5
       },
       {
-        "answer": "A"
+        "answer": "W"
       },
       {
-        "answer": "U"
+        "answer": "E"
       },
       {
-        "answer": "I"
+        "answer": "D"
       },
       {
-        "answer": "F",
+        "answer": "S",
         "number": 6
       },
       {
-        "answer": "I"
+        "answer": "H"
       },
       {
-        "answer": "N"
+        "answer": "I"
       },
       {
         "answer": "N"
@@ -50,31 +50,31 @@
         "answer": "S"
       },
       {
-        "answer": "A",
+        "answer": "P",
         "number": 7
       },
       {
-        "answer": "L"
-      },
-      {
         "answer": "O"
-      },
-      {
-        "answer": "T"
-      },
-      null,
-      {
-        "answer": "D",
-        "number": 8
-      },
-      {
-        "answer": "E"
       },
       {
         "answer": "N"
       },
       {
         "answer": "Y"
+      },
+      null,
+      {
+        "answer": "Y",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "A"
       },
       null
     ],
@@ -85,8 +85,8 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "SCAM",
-          "clue": "Con",
+          "answer": "WOKE",
+          "clue": "Roused from sleep",
           "source": "dataset"
         },
         {
@@ -94,8 +94,8 @@
           "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "MAUI",
-          "clue": "Hawaiian island",
+          "answer": "AWED",
+          "clue": "Truly amazed",
           "source": "dataset"
         },
         {
@@ -103,8 +103,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "FINNS",
-          "clue": "Helsinki natives",
+          "answer": "SHINS",
+          "clue": "Lower leg parts",
           "source": "dataset"
         },
         {
@@ -112,8 +112,8 @@
           "row": 3,
           "col": 0,
           "length": 4,
-          "answer": "ALOT",
-          "clue": "Scads",
+          "answer": "PONY",
+          "clue": "'My Little ___'",
           "source": "dataset"
         },
         {
@@ -121,8 +121,8 @@
           "row": 4,
           "col": 0,
           "length": 4,
-          "answer": "DENY",
-          "clue": "Say no to",
+          "answer": "YOGA",
+          "clue": "Class with mats",
           "source": "dataset"
         }
       ],
@@ -132,8 +132,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "SMILE",
-          "clue": "Beam",
+          "answer": "WAHOO",
+          "clue": "Western \"Yay!\"",
           "source": "dataset"
         },
         {
@@ -141,8 +141,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "CANON",
-          "clue": "Cathedral cleric",
+          "answer": "OWING",
+          "clue": "Due",
           "source": "dataset"
         },
         {
@@ -150,8 +150,8 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "AUNTY",
-          "clue": "Mommy's sister",
+          "answer": "KENYA",
+          "clue": "Its capital is Nairobi",
           "source": "dataset"
         },
         {
@@ -159,8 +159,8 @@
           "row": 0,
           "col": 4,
           "length": 3,
-          "answer": "MIS",
-          "clue": "Grafton's \"___ for Malice\"",
+          "answer": "EDS",
+          "clue": "Mag staff",
           "source": "dataset"
         },
         {
@@ -168,8 +168,8 @@
           "row": 2,
           "col": 0,
           "length": 3,
-          "answer": "FAD",
-          "clue": "Rage",
+          "answer": "SPY",
+          "clue": "Enemy agent",
           "source": "dataset"
         }
       ]
@@ -179,89 +179,85 @@
     "size": 5,
     "cells": [
       {
-        "answer": "A",
+        "answer": "B",
         "number": 1
       },
       {
-        "answer": "B",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "O",
+        "answer": "N",
         "number": 3
       },
       {
-        "answer": "V",
+        "answer": "K",
         "number": 4
       },
       {
-        "answer": "E",
+        "answer": "S",
         "number": 5
       },
       {
-        "answer": "T",
+        "answer": "A",
         "number": 6
       },
       {
-        "answer": "U"
+        "answer": "V"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "A"
       },
       {
         "answer": "N"
       },
       {
-        "answer": "E"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "A",
+        "answer": "C",
         "number": 7
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "L",
-        "number": 8
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "L",
-        "number": 9
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "M"
       },
       {
         "answer": "O"
       },
       {
         "answer": "N"
-      }
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "H",
+        "number": 8
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "J"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "B"
+      },
+      null,
+      {
+        "answer": "D",
+        "number": 9
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      null
     ],
     "clues": {
       "across": [
@@ -270,8 +266,8 @@
           "row": 0,
           "col": 0,
           "length": 5,
-          "answer": "ABOVE",
-          "clue": "On top of",
+          "answer": "BANKS",
+          "clue": "River walls",
           "source": "dataset"
         },
         {
@@ -279,8 +275,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "TUNES",
-          "clue": "Nice little songs",
+          "answer": "AVIAN",
+          "clue": "Birdlike",
           "source": "dataset"
         },
         {
@@ -288,8 +284,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "AGENT",
-          "clue": "Rep",
+          "answer": "CONGO",
+          "clue": "World's deepest river",
           "source": "dataset"
         },
         {
@@ -297,17 +293,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "LLAMA",
-          "clue": "Wool source",
+          "answer": "HIJAB",
+          "clue": "Headcover for Ibtihaj Muhammad",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 0,
-          "length": 5,
-          "answer": "LEMON",
-          "clue": "Yellow fruit",
+          "col": 1,
+          "length": 3,
+          "answer": "DAN",
+          "clue": "Actor Aykroyd",
           "source": "dataset"
         }
       ],
@@ -316,9 +312,9 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 5,
-          "answer": "ATALL",
-          "clue": "In any way",
+          "length": 4,
+          "answer": "BACH",
+          "clue": "Johann Sebastian -",
           "source": "dataset"
         },
         {
@@ -326,8 +322,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "BUGLE",
-          "clue": "Small trumpet",
+          "answer": "AVOID",
+          "clue": "Sidestep",
           "source": "dataset"
         },
         {
@@ -335,8 +331,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ONEAM",
-          "clue": "Wee hour",
+          "answer": "NINJA",
+          "clue": "Japanese warrior",
           "source": "dataset"
         },
         {
@@ -344,18 +340,18 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "VENMO",
-          "clue": "Cell phone payment app",
+          "answer": "KAGAN",
+          "clue": "Elena on the Supreme Court",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 0,
           "col": 4,
-          "length": 5,
-          "answer": "ESTAN",
-          "clue": "Spanish 'they are'",
-          "source": "written"
+          "length": 4,
+          "answer": "SNOB",
+          "clue": "Snooty one",
+          "source": "dataset"
         }
       ]
     }

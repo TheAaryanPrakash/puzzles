@@ -3,42 +3,50 @@
     "size": 5,
     "cells": [
       {
-        "answer": "M",
+        "answer": "D",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "O",
         "number": 2
       },
       {
-        "answer": "S",
+        "answer": "F",
         "number": 3
       },
       {
-        "answer": "S",
+        "answer": "F",
         "number": 4
       },
-      null,
       {
-        "answer": "I",
+        "answer": "S",
         "number": 5
       },
       {
-        "answer": "T"
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "H"
-      },
-      null,
-      {
-        "answer": "S",
+        "answer": "A",
         "number": 6
       },
       {
-        "answer": "T"
+        "answer": "P"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "N",
+        "number": 7
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
       },
       {
         "answer": "R"
@@ -47,36 +55,36 @@
         "answer": "A"
       },
       {
-        "answer": "W",
-        "number": 7
-      },
-      null,
-      {
-        "answer": "W",
+        "answer": "C",
         "number": 8
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E",
+        "number": 9
       },
       {
         "answer": "A"
       },
       {
-        "answer": "K"
+        "answer": "R"
       },
       {
-        "answer": "E"
-      },
-      null,
-      {
-        "answer": "O",
-        "number": 9
+        "answer": "T"
       },
       {
-        "answer": "P"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "D"
+        "answer": "H"
       }
     ],
     "clues": {
@@ -85,45 +93,45 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 4,
-          "answer": "MASS",
-          "clue": "Type of media",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "ITCH",
-          "clue": "Teasing desire",
+          "length": 5,
+          "answer": "DOFFS",
+          "clue": "Tips, as one's cap",
           "source": "dataset"
         },
         {
           "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "APRIL",
+          "clue": "4, in a date",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "STRAW",
-          "clue": "Scarecrow fill",
-          "source": "dataset"
+          "answer": "NEERA",
+          "clue": "___ Tanden, policy advisor",
+          "source": "written"
         },
         {
           "number": 8,
           "row": 3,
-          "col": 1,
-          "length": 4,
-          "answer": "WAKE",
-          "clue": "Come to watch",
+          "col": 0,
+          "length": 5,
+          "answer": "CRESS",
+          "clue": "Pungent salad green",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 1,
-          "length": 4,
-          "answer": "OPED",
-          "clue": "Commentary page",
+          "col": 0,
+          "length": 5,
+          "answer": "EARTH",
+          "clue": "Google ___",
           "source": "dataset"
         }
       ],
@@ -132,9 +140,9 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 3,
-          "answer": "MIS",
-          "clue": "Prefix for 'fit' or 'fire'",
+          "length": 5,
+          "answer": "DANCE",
+          "clue": "Reel, say",
           "source": "dataset"
         },
         {
@@ -142,8 +150,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "ATTWO",
-          "clue": "When clocks are turned back in November",
+          "answer": "OPERA",
+          "clue": "Eg, Turandot",
           "source": "dataset"
         },
         {
@@ -151,8 +159,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "SCRAP",
-          "clue": "Tussle",
+          "answer": "FREER",
+          "clue": "Less inhibited",
           "source": "dataset"
         },
         {
@@ -160,17 +168,17 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "SHAKE",
-          "clue": "Seal a deal, say",
+          "answer": "FIRST",
+          "clue": "Earliest",
           "source": "dataset"
         },
         {
-          "number": 7,
-          "row": 2,
+          "number": 5,
+          "row": 0,
           "col": 4,
-          "length": 3,
-          "answer": "WED",
-          "clue": "Make one",
+          "length": 5,
+          "answer": "SLASH",
+          "clue": "/",
           "source": "dataset"
         }
       ]
@@ -181,145 +189,145 @@
     "cells": [
       null,
       null,
-      null,
       {
-        "answer": "P",
+        "answer": "N",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "O",
         "number": 2
       },
       {
-        "answer": "N",
+        "answer": "D",
         "number": 3
       },
       null,
+      null,
       {
-        "answer": "C",
+        "answer": "S",
         "number": 4
       },
       {
-        "answer": "H",
+        "answer": "P",
         "number": 5
       },
       {
-        "answer": "E",
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "S",
         "number": 6
       },
       {
-        "answer": "E"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "O",
+        "answer": "H",
         "number": 7
       },
       {
-        "answer": "O",
+        "answer": "N",
         "number": 8
       },
       {
-        "answer": "I"
+        "answer": "A"
       },
       {
-        "answer": "L"
+        "answer": "M"
       },
       {
-        "answer": "R"
+        "answer": "A"
       },
       {
-        "answer": "I"
+        "answer": "S"
       },
       {
-        "answer": "C"
+        "answer": "T"
       },
       {
-        "answer": "H"
+        "answer": "E"
       },
       {
         "answer": "A",
         "number": 9
       },
       {
-        "answer": "P"
+        "answer": "L"
       },
       {
-        "answer": "P"
+        "answer": "I"
       },
       null,
       {
-        "answer": "A",
+        "answer": "B",
         "number": 10
       },
       {
-        "answer": "K"
-      },
-      {
         "answer": "A"
-      },
-      {
-        "answer": "S",
-        "number": 11
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "T",
-        "number": 12
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "E"
       },
       {
         "answer": "R"
       },
       {
-        "answer": "T",
-        "number": 13
+        "answer": "R",
+        "number": 11
       },
       {
-        "answer": "O"
+        "answer": "E"
       },
       {
-        "answer": "S"
+        "answer": "B"
       },
       {
-        "answer": "C"
+        "answer": "R",
+        "number": 12
       },
       {
         "answer": "A"
       },
       {
-        "answer": "L"
+        "answer": "N"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "F",
+        "number": 13
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
       },
       {
         "answer": "E"
       },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "S"
+      },
+      null,
       null,
       {
-        "answer": "P",
+        "answer": "A",
         "number": 14
       },
       {
-        "answer": "O"
+        "answer": "D"
       },
       {
-        "answer": "M"
+        "answer": "D"
       },
-      null,
       null,
       null
     ],
@@ -328,10 +336,10 @@
         {
           "number": 1,
           "row": 0,
-          "col": 3,
+          "col": 2,
           "length": 3,
-          "answer": "PAN",
-          "clue": "Lousy review",
+          "answer": "NOD",
+          "clue": "Doze (off)",
           "source": "dataset"
         },
         {
@@ -339,8 +347,8 @@
           "row": 1,
           "col": 0,
           "length": 7,
-          "answer": "CHEERIO",
-          "clue": "Beaten ice hero's farewell",
+          "answer": "SPANISH",
+          "clue": "What's spoken in Barcelona",
           "source": "dataset"
         },
         {
@@ -348,17 +356,17 @@
           "row": 2,
           "col": 0,
           "length": 7,
-          "answer": "OILRICH",
-          "clue": "Having abundant petroleum reserves",
-          "source": "written"
+          "answer": "NAMASTE",
+          "clue": "Yoga studio greeting",
+          "source": "dataset"
         },
         {
           "number": 9,
           "row": 3,
           "col": 0,
           "length": 3,
-          "answer": "APP",
-          "clue": "Digital tool",
+          "answer": "ALI",
+          "clue": "___ Baba",
           "source": "dataset"
         },
         {
@@ -366,8 +374,8 @@
           "row": 3,
           "col": 4,
           "length": 3,
-          "answer": "AKA",
-          "clue": "Pseudonymously",
+          "answer": "BAR",
+          "clue": "Rail",
           "source": "dataset"
         },
         {
@@ -375,8 +383,8 @@
           "row": 4,
           "col": 0,
           "length": 7,
-          "answer": "SHATNER",
-          "clue": "William ___, Star Trek actor",
+          "answer": "REBRAND",
+          "clue": "Strategic corporate name change",
           "source": "dataset"
         },
         {
@@ -384,17 +392,17 @@
           "row": 5,
           "col": 0,
           "length": 7,
-          "answer": "TOSCALE",
-          "clue": "The Parisian, after opera, finds how a model may be",
+          "answer": "FRIENDS",
+          "clue": "Close group",
           "source": "dataset"
         },
         {
           "number": 14,
           "row": 6,
-          "col": 1,
+          "col": 2,
           "length": 3,
-          "answer": "POM",
-          "clue": "Fluffy dog, for short",
+          "answer": "ADD",
+          "clue": "Annex",
           "source": "dataset"
         }
       ],
@@ -402,28 +410,28 @@
         {
           "number": 1,
           "row": 0,
-          "col": 3,
-          "length": 3,
-          "answer": "PER",
-          "clue": "___ hour",
+          "col": 2,
+          "length": 7,
+          "answer": "NAMIBIA",
+          "clue": "Country of one billion and rising, Amnesty International fellow to tour",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 4,
-          "length": 6,
-          "answer": "ARIANA",
-          "clue": "Grammy winner Grande",
+          "col": 3,
+          "length": 3,
+          "answer": "ONA",
+          "clue": "- budget",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 5,
-          "length": 6,
-          "answer": "NICKEL",
-          "clue": "Five-cent coin",
+          "col": 4,
+          "length": 7,
+          "answer": "DISBAND",
+          "clue": "Break up underworld gang",
           "source": "dataset"
         },
         {
@@ -431,26 +439,26 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "COAST",
-          "clue": "Seashore",
+          "answer": "SNARF",
+          "clue": "Chow (down)",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
           "col": 1,
-          "length": 6,
-          "answer": "HIPHOP",
-          "clue": "Music genre in the documentary 'My Mic Sounds Nice'",
+          "length": 5,
+          "answer": "PALER",
+          "clue": "More ashen",
           "source": "dataset"
         },
         {
           "number": 6,
           "row": 1,
-          "col": 2,
-          "length": 6,
-          "answer": "ELPASO",
-          "clue": "City opposite Juarez",
+          "col": 5,
+          "length": 5,
+          "answer": "STAND",
+          "clue": "Remain upright",
           "source": "dataset"
         },
         {
@@ -458,8 +466,8 @@
           "row": 1,
           "col": 6,
           "length": 5,
-          "answer": "OHARE",
-          "clue": "Windy City airport",
+          "answer": "HERDS",
+          "clue": "Grazing groups",
           "source": "dataset"
         },
         {
@@ -467,8 +475,8 @@
           "row": 4,
           "col": 3,
           "length": 3,
-          "answer": "TCM",
-          "clue": "Channel that airs many B&W films",
+          "answer": "RED",
+          "clue": "Carmine",
           "source": "dataset"
         }
       ]

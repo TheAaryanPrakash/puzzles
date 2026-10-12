@@ -309,131 +309,130 @@
   "reserve": {
     "size": 5,
     "cells": [
-      null,
       {
-        "answer": "S",
+        "answer": "A",
         "number": 1
       },
       {
-        "answer": "E",
+        "answer": "B",
         "number": 2
       },
       {
-        "answer": "E",
+        "answer": "C",
         "number": 3
       },
+      null,
+      null,
       {
-        "answer": "D",
+        "answer": "C",
         "number": 4
-      },
-      {
-        "answer": "S",
-        "number": 5
-      },
-      {
-        "answer": "U"
       },
       {
         "answer": "R"
       },
       {
-        "answer": "G"
+        "answer": "A"
       },
       {
-        "answer": "E"
+        "answer": "C",
+        "number": 5
       },
       {
         "answer": "K",
         "number": 6
       },
       {
-        "answer": "I"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "I",
+        "answer": "T",
         "number": 7
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "K"
-      },
-      {
-        "answer": "M",
-        "number": 8
       },
       {
         "answer": "E"
       },
       {
+        "answer": "S"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
         "answer": "T"
       },
       {
-        "answer": "S"
+        "answer": "A"
       },
-      null
+      {
+        "answer": "N"
+      },
+      null,
+      {
+        "answer": "K",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "T"
+      }
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "SEED",
-          "clue": "Spawn",
+          "col": 0,
+          "length": 3,
+          "answer": "ABC",
+          "clue": "Easy as ___",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "SURGE",
-          "clue": "Power issue",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "KINGS",
-          "clue": "Pieces that can be put in check",
+          "answer": "CRACK",
+          "clue": "Pavement problem",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ITSOK",
-          "clue": "'There, there'",
+          "answer": "TESLA",
+          "clue": "Physicist Nikola",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 4,
+          "row": 3,
           "col": 0,
+          "length": 5,
+          "answer": "SATAN",
+          "clue": "Old Nick",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 1,
           "length": 4,
-          "answer": "METS",
-          "clue": "Big Apple sluggers",
+          "answer": "KEPT",
+          "clue": "Held on to",
           "source": "dataset"
         }
       ],
@@ -441,46 +440,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "SUITE",
-          "clue": "Software bundle",
+          "col": 0,
+          "length": 4,
+          "answer": "ACTS",
+          "clue": "Deeds",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "ERNST",
-          "clue": "Young's partner",
+          "answer": "BREAK",
+          "clue": "Short holiday",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
+          "col": 2,
           "length": 5,
-          "answer": "EGGOS",
-          "clue": "Some frozen waffles",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "DESK",
-          "clue": "Writing ___",
+          "answer": "CASTE",
+          "clue": "Indian social class",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 0,
+          "col": 3,
           "length": 4,
-          "answer": "SKIM",
-          "clue": "Brush",
+          "answer": "CLAP",
+          "clue": "Thunder stroke",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 4,
+          "length": 4,
+          "answer": "KANT",
+          "clue": "Immanuel -, philosopher",
           "source": "dataset"
         }
       ]

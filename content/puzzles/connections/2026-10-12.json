@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "groups": [
+      {
+        "label": "ORGANIZATION",
+        "level": 0,
+        "words": [
+          "CLUB",
+          "GROUP",
+          "PARTY",
+          "TEAM"
+        ]
+      },
+      {
+        "label": "SHARPNESS, AS OF AN IMAGE",
+        "level": 1,
+        "words": [
+          "DETAIL",
+          "RESOLUTION",
+          "DEFINITION",
+          "CLARITY"
+        ]
+      },
+      {
+        "label": "PLACES IN FRANCE",
+        "level": 2,
+        "words": [
+          "NICE",
+          "CHAMPAGNE",
+          "TOURS",
+          "DIJON"
+        ]
+      },
+      {
+        "label": "HAPPY NEW YEAR!",
+        "level": 3,
+        "words": [
+          "COUNTDOWN",
+          "KISS",
+          "BALL",
+          "FIREWORKS"
+        ]
+      }
+    ]
+  },
+  "reserve": {
+    "groups": [
+      {
+        "label": "BEANS",
+        "level": 0,
+        "words": [
+          "LIMA",
+          "PINTO",
+          "KIDNEY",
+          "FAVA"
+        ]
+      },
+      {
+        "label": "CITIES BEGINNING WITH “L”",
+        "level": 1,
+        "words": [
+          "LIMERICK",
+          "LINCOLN",
+          "LAGOS",
+          "LUXOR"
+        ]
+      },
+      {
+        "label": "POETRY TERMS",
+        "level": 2,
+        "words": [
+          "LINE",
+          "VERSE",
+          "RHYME",
+          "METER"
+        ]
+      },
+      {
+        "label": "“THE(E) ___” RAPPERS",
+        "level": 3,
+        "words": [
+          "CREATOR",
+          "RAPPER",
+          "STALLION",
+          "DUDE"
+        ]
+      }
+    ]
+  }
+}

@@ -302,64 +302,46 @@
     }
   },
   "reserve": {
-    "size": 5,
+    "size": 7,
     "cells": [
+      null,
       {
-        "answer": "R",
+        "answer": "H",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "O",
         "number": 2
       },
       {
-        "answer": "I",
+        "answer": "P",
         "number": 3
       },
       {
-        "answer": "L",
+        "answer": "P",
         "number": 4
       },
-      null,
       {
-        "answer": "A",
+        "answer": "E",
         "number": 5
       },
       {
-        "answer": "D"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "T",
+        "answer": "R",
         "number": 6
       },
+      null,
       {
-        "answer": "P",
+        "answer": "I",
         "number": 7
       },
       {
-        "answer": "L"
+        "answer": "C"
+      },
+      {
+        "answer": "E"
       },
       {
         "answer": "A"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "T",
-        "number": 8
-      },
-      {
-        "answer": "I"
       },
       {
         "answer": "G"
@@ -367,13 +349,10 @@
       {
         "answer": "E"
       },
-      {
-        "answer": "R"
-      },
       null,
       {
-        "answer": "B",
-        "number": 9
+        "answer": "P",
+        "number": 8
       },
       {
         "answer": "E"
@@ -382,54 +361,154 @@
         "answer": "R"
       },
       {
+        "answer": "I"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "D"
+      },
+      null,
+      null,
+      {
+        "answer": "A",
+        "number": 9
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null,
+      {
+        "answer": "C",
+        "number": 10
+      },
+      {
+        "answer": "A",
+        "number": 11
+      },
+      {
         "answer": "N"
-      }
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A",
+        "number": 12
+      },
+      null,
+      {
+        "answer": "B",
+        "number": 13
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      null,
+      {
+        "answer": "D",
+        "number": 14
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "S"
+      },
+      null
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 4,
-          "answer": "RAIL",
-          "clue": "Bar banter",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "ADMIT",
-          "clue": "Receive",
+          "col": 1,
+          "length": 6,
+          "answer": "HOPPER",
+          "clue": "Jumper on one foot",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "PLATO",
-          "clue": "Student of Socrates",
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "answer": "ICEAGE",
+          "clue": "Really long cold spell",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "TIGER",
-          "clue": "Dynamo",
+          "row": 2,
+          "col": 1,
+          "length": 6,
+          "answer": "PERIOD",
+          "clue": "Length of time",
           "source": "dataset"
         },
         {
           "number": 9,
+          "row": 3,
+          "col": 2,
+          "length": 3,
+          "answer": "ASS",
+          "clue": "Dolt",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
           "row": 4,
-          "col": 1,
-          "length": 4,
-          "answer": "BERN",
-          "clue": "Capital of Switzerland",
+          "col": 0,
+          "length": 6,
+          "answer": "CANOLA",
+          "clue": "Cooking oil",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "answer": "BRINED",
+          "clue": "Soaked in salty liquid, as a turkey",
+          "source": "written"
+        },
+        {
+          "number": 14,
+          "row": 6,
+          "col": 0,
+          "length": 6,
+          "answer": "DECAYS",
+          "clue": "Crumbles from neglect",
           "source": "dataset"
         }
       ],
@@ -437,46 +516,82 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 4,
-          "answer": "RAPT",
-          "clue": "Mesmerized",
+          "col": 1,
+          "length": 3,
+          "answer": "HIP",
+          "clue": "In",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "ADLIB",
-          "clue": "Wing it",
+          "col": 2,
+          "length": 7,
+          "answer": "OCEANIC",
+          "clue": "Airline on \"Lost\"",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "IMAGE",
-          "clue": "Mirror view",
+          "col": 3,
+          "length": 7,
+          "answer": "PERSONA",
+          "clue": "Author's assumed character",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "LITER",
-          "clue": "Seltzer buy",
+          "col": 4,
+          "length": 7,
+          "answer": "PAISLEY",
+          "clue": "Settle around Skye, perhaps to make cloth",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 5,
+          "length": 3,
+          "answer": "EGO",
+          "clue": "I",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 1,
-          "col": 4,
-          "length": 4,
-          "answer": "TORN",
-          "clue": "Conflicted",
+          "row": 0,
+          "col": 6,
+          "length": 3,
+          "answer": "RED",
+          "clue": "Carmine",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "CBD",
+          "clue": "Substance in some adult gummies",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "ARE",
+          "clue": "Equate to",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 4,
+          "col": 5,
+          "length": 3,
+          "answer": "ADS",
+          "clue": "Web spots",
           "source": "dataset"
         }
       ]

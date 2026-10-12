@@ -332,81 +332,77 @@
     "cells": [
       null,
       {
-        "answer": "H",
+        "answer": "F",
         "number": 1
       },
       {
-        "answer": "E",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "L",
+        "answer": "T",
         "number": 3
       },
+      null,
       {
-        "answer": "P",
+        "answer": "S",
         "number": 4
-      },
-      {
-        "answer": "F",
-        "number": 5
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "M"
       },
       {
         "answer": "U"
       },
       {
-        "answer": "R"
-      },
-      {
-        "answer": "E",
-        "number": 6
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "T"
+        "answer": "P"
       },
       {
         "answer": "E"
-      },
-      {
-        "answer": "A",
-        "number": 7
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "Y"
       },
       {
         "answer": "R",
-        "number": 8
+        "number": 5
       },
       {
-        "answer": "O"
+        "answer": "I",
+        "number": 6
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "L"
       },
       {
         "answer": "Y"
       },
       {
-        "answer": "S"
+        "answer": "M",
+        "number": 7
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "X"
       },
       null
     ],
@@ -416,18 +412,18 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 4,
-          "answer": "HELP",
-          "clue": "Assistance",
+          "length": 3,
+          "answer": "FAT",
+          "clue": "Diet no-no",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "FEMUR",
-          "clue": "Thighbone",
+          "answer": "SUPER",
+          "clue": "\"Fabulous!\"",
           "source": "dataset"
         },
         {
@@ -435,8 +431,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ELITE",
-          "clue": "Cream",
+          "answer": "IMPLY",
+          "clue": "Suggest impolitely Eliot's characters being dropped",
           "source": "dataset"
         },
         {
@@ -444,17 +440,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "ALLEY",
-          "clue": "Back lane",
+          "answer": "MELEE",
+          "clue": "Big brawl",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
-          "col": 0,
-          "length": 4,
-          "answer": "ROYS",
-          "clue": "Rob ___: cocktails",
+          "col": 1,
+          "length": 3,
+          "answer": "SEX",
+          "clue": "___ roles",
           "source": "dataset"
         }
       ],
@@ -464,8 +460,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "HELLO",
-          "clue": "How do you do",
+          "answer": "FUMES",
+          "clue": "Running on ___: weary",
           "source": "dataset"
         },
         {
@@ -473,8 +469,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "EMILY",
-          "clue": "Post with advice",
+          "answer": "APPLE",
+          "clue": "Cider fruit",
           "source": "dataset"
         },
         {
@@ -482,26 +478,26 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "LUTES",
-          "clue": "Ren Faire strings",
+          "answer": "TELEX",
+          "clue": "Messaging system",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "PREY",
-          "clue": "Mice, to owls",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "SIM",
+          "clue": "Kind of card",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "FEAR",
-          "clue": "Be afraid of",
+          "col": 4,
+          "length": 3,
+          "answer": "RYE",
+          "clue": "Toast type",
           "source": "dataset"
         }
       ]

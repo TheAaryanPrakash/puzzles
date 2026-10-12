@@ -2,84 +2,79 @@
   "payload": {
     "size": 5,
     "cells": [
+      null,
       {
-        "answer": "S",
+        "answer": "B",
         "number": 1
       },
       {
-        "answer": "O",
+        "answer": "R",
         "number": 2
       },
       {
-        "answer": "C",
+        "answer": "O",
         "number": 3
       },
+      null,
       {
-        "answer": "K",
+        "answer": "P",
         "number": 4
-      },
-      {
-        "answer": "S",
-        "number": 5
-      },
-      {
-        "answer": "W",
-        "number": 6
-      },
-      {
-        "answer": "H"
       },
       {
         "answer": "O"
       },
       {
+        "answer": "U"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "D",
+        "number": 5
+      },
+      {
+        "answer": "E",
+        "number": 6
+      },
+      {
         "answer": "L"
       },
       {
+        "answer": "M"
+      },
+      {
         "answer": "E"
+      },
+      {
+        "answer": "R"
       },
       {
         "answer": "A",
         "number": 7
       },
       {
-        "answer": "W"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "N",
-        "number": 8
-      },
-      {
-        "answer": "O"
+        "answer": "D"
       },
       {
         "answer": "B"
       },
       {
-        "answer": "I"
+        "answer": "U"
       },
       {
-        "answer": "D"
+        "answer": "Y"
       },
       null,
       {
-        "answer": "W",
-        "number": 9
+        "answer": "S",
+        "number": 8
       },
       {
-        "answer": "O"
+        "answer": "A"
       },
       {
-        "answer": "N"
+        "answer": "P"
       },
       null
     ],
@@ -88,46 +83,46 @@
         {
           "number": 1,
           "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "BRO",
+          "clue": "Mate",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "SOCKS",
-          "clue": "Footwear; hits",
+          "answer": "POUND",
+          "clue": "Beat excitedly",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 1,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "WHOLE",
-          "clue": "Like some milk and grains",
+          "answer": "ELMER",
+          "clue": "He hunts Bugs",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 2,
+          "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "AWMAN",
-          "clue": "\"Darn it, dude!\"",
+          "answer": "ADBUY",
+          "clue": "Election campaign's purchase",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "NOBID",
-          "clue": "Like some contracts",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
           "row": 4,
           "col": 1,
           "length": 3,
-          "answer": "WON",
-          "clue": "- ton soup",
+          "answer": "SAP",
+          "clue": "Tree goo",
           "source": "dataset"
         }
       ],
@@ -135,46 +130,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 4,
-          "answer": "SWAN",
-          "clue": "'___ Lake'",
+          "col": 1,
+          "length": 5,
+          "answer": "BOLDS",
+          "clue": "Makes heavy, as Helvetica",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "OHWOW",
-          "clue": "\"That's amazing!\"",
+          "answer": "RUMBA",
+          "clue": "Cuban dance",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
+          "col": 3,
           "length": 5,
-          "answer": "COMBO",
-          "clue": "Small group of musicians",
+          "answer": "ONEUP",
+          "clue": "Slightly ahead",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "KLAIN",
-          "clue": "Ron ___, former White House chief of staff",
-          "source": "written"
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "PEA",
+          "clue": "Pod unit",
+          "source": "dataset"
         },
         {
           "number": 5,
-          "row": 0,
+          "row": 1,
           "col": 4,
-          "length": 4,
-          "answer": "SEND",
-          "clue": "Dispatch",
+          "length": 3,
+          "answer": "DRY",
+          "clue": "Not rainy",
           "source": "dataset"
         }
       ]
@@ -189,40 +184,21 @@
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "L",
         "number": 2
       },
       {
-        "answer": "S",
+        "answer": "I",
         "number": 3
       },
       {
-        "answer": "H",
+        "answer": "F",
         "number": 4
       },
       null,
       {
-        "answer": "L",
+        "answer": "H",
         "number": 5
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "R",
-        "number": 6
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S"
       },
       {
         "answer": "I"
@@ -231,31 +207,50 @@
         "answer": "N"
       },
       {
-        "answer": "S",
-        "number": 7
+        "answer": "D"
+      },
+      {
+        "answer": "K",
+        "number": 6
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "D"
       },
       {
         "answer": "A"
       },
       {
+        "answer": "G",
+        "number": 7
+      },
+      {
         "answer": "L"
       },
       {
-        "answer": "T"
+        "answer": "E"
+      },
+      {
+        "answer": "E"
       },
       null,
       {
-        "answer": "T",
+        "answer": "B",
         "number": 8
+      },
+      {
+        "answer": "I"
       },
       {
         "answer": "R"
       },
       {
-        "answer": "E"
-      },
-      {
-        "answer": "E"
+        "answer": "X"
       },
       null
     ],
@@ -266,17 +261,17 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "CASH",
-          "clue": "Till fill",
-          "source": "dataset"
+          "answer": "CLIF",
+          "clue": "___ Bar, energy snack brand",
+          "source": "written"
         },
         {
           "number": 5,
           "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "LIME",
-          "clue": "Corona wedge",
+          "answer": "HIND",
+          "clue": "Back",
           "source": "dataset"
         },
         {
@@ -284,8 +279,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "RESIN",
-          "clue": "Myrrh, for one",
+          "answer": "KINDA",
+          "clue": "'Eh, not really'",
           "source": "dataset"
         },
         {
@@ -293,8 +288,8 @@
           "row": 3,
           "col": 0,
           "length": 4,
-          "answer": "SALT",
-          "clue": "Seaman",
+          "answer": "GLEE",
+          "clue": "Great joy",
           "source": "dataset"
         },
         {
@@ -302,9 +297,9 @@
           "row": 4,
           "col": 0,
           "length": 4,
-          "answer": "TREE",
-          "clue": "Fruit ___",
-          "source": "dataset"
+          "answer": "BIRX",
+          "clue": "Dr. Deborah ___, pandemic response coordinator",
+          "source": "written"
         }
       ],
       "down": [
@@ -313,8 +308,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "CLEAR",
-          "clue": "Cloudless",
+          "answer": "CHILI",
+          "clue": "___ peppers",
           "source": "dataset"
         },
         {
@@ -322,8 +317,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "AISLE",
-          "clue": "Bridal path",
+          "answer": "LINER",
+          "clue": "Cruise vessel",
           "source": "dataset"
         },
         {
@@ -331,8 +326,8 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "SMITE",
-          "clue": "Strike, old-style",
+          "answer": "INDEX",
+          "clue": "Dow Jones, e.g",
           "source": "dataset"
         },
         {
@@ -340,8 +335,8 @@
           "row": 0,
           "col": 4,
           "length": 3,
-          "answer": "HEN",
-          "clue": "Lady bird",
+          "answer": "FDA",
+          "clue": "Med regulator",
           "source": "dataset"
         },
         {
@@ -349,8 +344,8 @@
           "row": 2,
           "col": 0,
           "length": 3,
-          "answer": "RST",
-          "clue": "Q ___ U",
+          "answer": "KGB",
+          "clue": "Fleming foe",
           "source": "dataset"
         }
       ]

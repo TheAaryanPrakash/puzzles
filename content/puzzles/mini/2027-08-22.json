@@ -2,127 +2,136 @@
   "payload": {
     "size": 5,
     "cells": [
-      null,
       {
-        "answer": "O",
+        "answer": "A",
         "number": 1
       },
       {
-        "answer": "N",
+        "answer": "D",
         "number": 2
       },
       {
-        "answer": "E",
+        "answer": "A",
         "number": 3
       },
-      null,
       {
-        "answer": "Z",
+        "answer": "M",
         "number": 4
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "M"
       },
       {
         "answer": "S",
         "number": 5
       },
       {
-        "answer": "Z",
+        "answer": "M",
         "number": 6
       },
       {
-        "answer": "Z"
+        "answer": "E"
       },
       {
         "answer": "T"
       },
       {
-        "answer": "O"
+        "answer": "A"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "M"
       },
       {
         "answer": "P"
       },
       {
-        "answer": "Z",
-        "number": 7
+        "answer": "H",
+        "number": 9
       },
       {
-        "answer": "E"
+        "answer": "A"
       },
       {
         "answer": "S"
       },
       {
+        "answer": "A"
+      },
+      {
         "answer": "T"
-      },
-      {
-        "answer": "Y"
-      },
-      null,
-      {
-        "answer": "D",
-        "number": 8
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "E"
-      },
-      null
+      }
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 3,
-          "answer": "ONE",
-          "clue": "A single",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "ZOOMS",
-          "clue": "Whizzes (by)",
+          "answer": "ADAMS",
+          "clue": "First vice president",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "ZZTOP",
-          "clue": "Frank Beard is this band's beardless member",
+          "answer": "METAL",
+          "clue": "Copper or nickel",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ZESTY",
-          "clue": "Full of spice",
-          "source": "dataset"
+          "answer": "ALLME",
+          "clue": "'That's ___' (taking full credit)",
+          "source": "written"
         },
         {
           "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "STAMP",
+          "clue": "Imprint",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
           "row": 4,
-          "col": 1,
-          "length": 3,
-          "answer": "DOE",
-          "clue": "Ms Deer",
+          "col": 0,
+          "length": 5,
+          "answer": "HASAT",
+          "clue": "Sets upon",
           "source": "dataset"
         }
       ],
@@ -130,46 +139,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 0,
           "length": 5,
-          "answer": "OOZED",
-          "clue": "Seeped",
-          "source": "dataset"
+          "answer": "AMASH",
+          "clue": "Justin ___, independent-minded ex-congressman",
+          "source": "written"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "NOTSO",
-          "clue": "'Untrue!'",
+          "answer": "DELTA",
+          "clue": "Charlie ___",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
+          "col": 2,
           "length": 5,
-          "answer": "EMOTE",
-          "clue": "Gush",
+          "answer": "ATLAS",
+          "clue": "Mythical lifter",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 3,
-          "answer": "ZZZ",
-          "clue": "Only three-letter word in Scrabble that requires both blank tiles",
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "MAMMA",
+          "clue": "Poppa's partner",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
+          "row": 0,
           "col": 4,
-          "length": 3,
-          "answer": "SPY",
-          "clue": "Operative",
+          "length": 5,
+          "answer": "SLEPT",
+          "clue": "Was out",
           "source": "dataset"
         }
       ]
@@ -180,96 +189,67 @@
     "cells": [
       null,
       null,
-      null,
       {
-        "answer": "M",
+        "answer": "L",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "I",
         "number": 2
       },
       {
-        "answer": "Y",
+        "answer": "D",
         "number": 3
       },
-      {
-        "answer": "A",
-        "number": 4
-      },
       null,
-      {
-        "answer": "U",
-        "number": 5
-      },
-      {
-        "answer": "N",
-        "number": 6
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "X"
-      },
       null,
-      {
-        "answer": "N",
-        "number": 7
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "E"
-      },
       null,
       {
         "answer": "S",
-        "number": 8
+        "number": 4
       },
       {
-        "answer": "U"
+        "answer": "O"
       },
       {
-        "answer": "N"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "P"
-      },
-      null,
-      {
-        "answer": "M",
-        "number": 9
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "T"
+        "answer": "F"
       },
       {
         "answer": "A"
       },
       {
+        "answer": "S",
+        "number": 5
+      },
+      null,
+      {
+        "answer": "D",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "V"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "I",
+        "number": 7
+      },
+      {
+        "answer": "A",
+        "number": 8
+      },
+      {
         "answer": "T"
       },
       {
@@ -277,39 +257,68 @@
       },
       null,
       {
-        "answer": "P",
+        "answer": "L",
+        "number": 9
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "M",
         "number": 10
       },
       {
-        "answer": "R"
+        "answer": "I"
       },
       {
-        "answer": "E"
+        "answer": "T"
       },
       {
-        "answer": "M"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "D"
-      },
-      null,
-      {
-        "answer": "H",
+        "answer": "T",
         "number": 11
       },
       {
         "answer": "E"
       },
       {
-        "answer": "R"
+        "answer": "N"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "N",
+        "number": 12
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "V"
       },
       {
         "answer": "E"
       },
       null,
+      null,
+      null,
+      {
+        "answer": "P",
+        "number": 13
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "Y"
+      },
       null,
       null
     ],
@@ -318,64 +327,73 @@
         {
           "number": 1,
           "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "MAYA",
-          "clue": "Writer Angelou",
+          "col": 2,
+          "length": 3,
+          "answer": "LID",
+          "clue": "Pot top",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
           "col": 1,
-          "length": 6,
-          "answer": "UNISEX",
-          "clue": "Like some bathrooms",
+          "length": 5,
+          "answer": "SOFAS",
+          "clue": "Some seats",
           "source": "dataset"
         },
         {
-          "number": 7,
+          "number": 6,
           "row": 2,
-          "col": 1,
-          "length": 6,
-          "answer": "NESTLE",
-          "clue": "Snuggle",
+          "col": 0,
+          "length": 7,
+          "answer": "DAVINCI",
+          "clue": "Leonardo",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 3,
-          "col": 1,
-          "length": 5,
-          "answer": "SUNUP",
-          "clue": "What happens soon after Aurora raises matter involving a Parisian",
+          "col": 0,
+          "length": 3,
+          "answer": "ATE",
+          "clue": "Supped",
           "source": "dataset"
         },
         {
           "number": 9,
-          "row": 4,
-          "col": 0,
-          "length": 6,
-          "answer": "MUTATE",
-          "clue": "Change genetically",
+          "row": 3,
+          "col": 4,
+          "length": 3,
+          "answer": "LOT",
+          "clue": "Destiny",
           "source": "dataset"
         },
         {
           "number": 10,
-          "row": 5,
+          "row": 4,
           "col": 0,
-          "length": 6,
-          "answer": "PREMED",
-          "clue": "Program for a future doc",
+          "length": 7,
+          "answer": "MITTENS",
+          "clue": "Hand warmers",
           "source": "dataset"
         },
         {
-          "number": 11,
+          "number": 12,
+          "row": 5,
+          "col": 1,
+          "length": 5,
+          "answer": "NAIVE",
+          "clue": "Innocent",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
           "row": 6,
-          "col": 0,
-          "length": 4,
-          "answer": "HERE",
-          "clue": "'Take it'",
+          "col": 2,
+          "length": 3,
+          "answer": "PAY",
+          "clue": "Cough up",
           "source": "dataset"
         }
       ],
@@ -383,64 +401,73 @@
         {
           "number": 1,
           "row": 0,
-          "col": 3,
+          "col": 2,
           "length": 7,
-          "answer": "MISNAME",
-          "clue": "Identify incorrectly",
-          "source": "dataset"
+          "answer": "LOVETAP",
+          "clue": "Gentle nudge of a car bumper",
+          "source": "written"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 4,
-          "length": 6,
-          "answer": "ASTUTE",
-          "clue": "Quite sharp",
+          "col": 3,
+          "length": 3,
+          "answer": "IFI",
+          "clue": "'___ had known ... '",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 5,
-          "length": 6,
-          "answer": "YELPED",
-          "clue": "Cried out sharply in pain",
+          "col": 4,
+          "length": 7,
+          "answer": "DANLEVY",
+          "clue": "Comedian ___, of 'Schitt's Creek'",
           "source": "written"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 6,
-          "length": 3,
-          "answer": "AXE",
-          "clue": "Hatchet",
+          "row": 1,
+          "col": 1,
+          "length": 5,
+          "answer": "SATIN",
+          "clue": "Lustrous fabric",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 1,
-          "length": 6,
-          "answer": "UNSURE",
-          "clue": "Central fund issues currency when confidence is lacking",
+          "col": 5,
+          "length": 5,
+          "answer": "SCONE",
+          "clue": "British teacake",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 1,
-          "col": 2,
-          "length": 6,
-          "answer": "NEUTER",
-          "clue": "Fix at the vet's",
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "DAM",
+          "clue": "Hoover ___",
           "source": "dataset"
         },
         {
-          "number": 9,
-          "row": 4,
-          "col": 0,
+          "number": 7,
+          "row": 2,
+          "col": 6,
           "length": 3,
-          "answer": "MPH",
-          "clue": "Speedometer stat",
+          "answer": "ITS",
+          "clue": "Of itself",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 3,
+          "length": 3,
+          "answer": "TIA",
+          "clue": "Acapulco aunt",
           "source": "dataset"
         }
       ]

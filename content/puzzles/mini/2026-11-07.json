@@ -300,8 +300,9 @@
     "size": 5,
     "cells": [
       null,
+      null,
       {
-        "answer": "M",
+        "answer": "A",
         "number": 1
       },
       {
@@ -309,48 +310,32 @@
         "number": 2
       },
       {
-        "answer": "S",
+        "answer": "H",
         "number": 3
       },
       {
-        "answer": "S",
+        "answer": "V",
         "number": 4
       },
       {
-        "answer": "S",
+        "answer": "E",
         "number": 5
-      },
-      {
-        "answer": "A"
       },
       {
         "answer": "L"
       },
       {
-        "answer": "T"
+        "answer": "M"
       },
       {
-        "answer": "Y"
+        "answer": "A"
       },
       {
-        "answer": "P",
+        "answer": "R",
         "number": 6
       },
       {
-        "answer": "R"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "A",
-        "number": 7
+        "answer": "A"
       },
       {
         "answer": "G"
@@ -359,24 +344,35 @@
         "answer": "E"
       },
       {
+        "answer": "R"
+      },
+      {
+        "answer": "B",
+        "number": 7
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
+      },
+      {
         "answer": "N"
       },
       {
-        "answer": "T"
+        "answer": "D"
       },
       {
-        "answer": "R",
+        "answer": "O",
         "number": 8
+      },
+      {
+        "answer": "N"
       },
       {
         "answer": "E"
       },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "T"
-      },
+      null,
       null
     ],
     "clues": {
@@ -384,28 +380,28 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "MASS",
-          "clue": "Church rite",
+          "col": 2,
+          "length": 3,
+          "answer": "AAH",
+          "clue": "\"How comfy!\"",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "SALTY",
-          "clue": "Like ocean air",
-          "source": "dataset"
+          "answer": "VELMA",
+          "clue": "Bespectacled 'Scooby-Doo' sleuth",
+          "source": "written"
         },
         {
           "number": 6,
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "PRIUS",
-          "clue": "Toyota hybrid",
+          "answer": "RAGER",
+          "clue": "Wild party, slangily",
           "source": "dataset"
         },
         {
@@ -413,17 +409,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "AGENT",
-          "clue": "Catalyst",
+          "answer": "BRAND",
+          "clue": "Product's name",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "RENT",
-          "clue": "Digs dough",
+          "length": 3,
+          "answer": "ONE",
+          "clue": "Day ___",
           "source": "dataset"
         }
       ],
@@ -431,46 +427,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "MARGE",
-          "clue": "Bart's mom",
+          "answer": "ALGAE",
+          "clue": "Pool problem",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "ALIEN",
-          "clue": "Strange",
+          "col": 3,
+          "length": 4,
+          "answer": "AMEN",
+          "clue": "So be it!",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "STUNT",
-          "clue": "___ double",
+          "col": 4,
+          "length": 4,
+          "answer": "HARD",
+          "clue": "Demanding firm",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
+          "row": 1,
+          "col": 0,
           "length": 4,
-          "answer": "SYST",
-          "clue": "Network (abbreviation)",
-          "source": "dataset"
+          "answer": "VRBO",
+          "clue": "Vacation rental booking site, by its initials",
+          "source": "written"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 0,
+          "col": 1,
           "length": 4,
-          "answer": "SPAR",
-          "clue": "Mast",
+          "answer": "EARN",
+          "clue": "Merit",
           "source": "dataset"
         }
       ]

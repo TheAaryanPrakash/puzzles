@@ -2,76 +2,23 @@
   "payload": {
     "size": 5,
     "cells": [
+      null,
       {
-        "answer": "H",
+        "answer": "L",
         "number": 1
       },
       {
-        "answer": "E",
+        "answer": "I",
         "number": 2
       },
       {
-        "answer": "R",
+        "answer": "T",
         "number": 3
       },
+      null,
       {
-        "answer": "E",
+        "answer": "M",
         "number": 4
-      },
-      null,
-      {
-        "answer": "E",
-        "number": 5
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "J"
-      },
-      {
-        "answer": "I",
-        "number": 6
-      },
-      {
-        "answer": "L",
-        "number": 7
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "P",
-        "number": 8
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "E"
-      },
-      null,
-      {
-        "answer": "L",
-        "number": 9
       },
       {
         "answer": "O"
@@ -80,126 +27,18 @@
         "answer": "T"
       },
       {
-        "answer": "S"
-      }
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 0,
-          "length": 4,
-          "answer": "HERE",
-          "clue": "'Present!'",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "EMOJI",
-          "clue": "Unamused Face, e.g",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "LADED",
-          "clue": "Put on, as cargo",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "PIECE",
-          "clue": "Morsel",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
-          "row": 4,
-          "col": 1,
-          "length": 4,
-          "answer": "LOTS",
-          "clue": "A great deal",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 0,
-          "length": 4,
-          "answer": "HELP",
-          "clue": "\"SOS!\"",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "EMAIL",
-          "clue": "Inbox filler",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "RODEO",
-          "clue": "Cowboy contest",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "EJECT",
-          "clue": "DVD button",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 1,
-          "col": 4,
-          "length": 4,
-          "answer": "IDES",
-          "clue": "Mid-March date",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 5,
-    "cells": [
-      null,
-      {
-        "answer": "H",
-        "number": 1
+        "answer": "O"
       },
       {
-        "answer": "A",
-        "number": 2
+        "answer": "R",
+        "number": 5
       },
       {
-        "answer": "M",
-        "number": 3
+        "answer": "D",
+        "number": 6
       },
-      null,
       {
-        "answer": "J",
-        "number": 4
+        "answer": "R"
       },
       {
         "answer": "A"
@@ -208,54 +47,34 @@
         "answer": "P"
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "N",
-        "number": 5
-      },
-      {
-        "answer": "O",
-        "number": 6
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "I"
-      },
-      {
         "answer": "E"
       },
       {
-        "answer": "Y",
+        "answer": "S",
         "number": 7
       },
       {
-        "answer": "O"
+        "answer": "A"
       },
       {
-        "answer": "U"
+        "answer": "L"
       },
       {
-        "answer": "N"
+        "answer": "A"
       },
       {
-        "answer": "G"
+        "answer": "D"
       },
       null,
       {
-        "answer": "S",
+        "answer": "X",
         "number": 8
       },
       {
-        "answer": "S"
+        "answer": "Y"
       },
       {
-        "answer": "E"
+        "answer": "Z"
       },
       null
     ],
@@ -266,8 +85,8 @@
           "row": 0,
           "col": 1,
           "length": 3,
-          "answer": "HAM",
-          "clue": "Stage hog",
+          "answer": "LIT",
+          "clue": "Ignited",
           "source": "dataset"
         },
         {
@@ -275,8 +94,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "JAPAN",
-          "clue": "Eastern country",
+          "answer": "MOTOR",
+          "clue": "Travel by car",
           "source": "dataset"
         },
         {
@@ -284,8 +103,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "OLLIE",
-          "clue": "Skateboarding leap",
+          "answer": "DRAPE",
+          "clue": "Fall loosely",
           "source": "dataset"
         },
         {
@@ -293,8 +112,8 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "YOUNG",
-          "clue": "Offspring",
+          "answer": "SALAD",
+          "clue": "Green lunch",
           "source": "dataset"
         },
         {
@@ -302,8 +121,8 @@
           "row": 4,
           "col": 1,
           "length": 3,
-          "answer": "SSE",
-          "clue": "MI-to-SC dir",
+          "answer": "XYZ",
+          "clue": "Historic 'Affair' of 1797-98",
           "source": "dataset"
         }
       ],
@@ -313,8 +132,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "HALOS",
-          "clue": "Angel toppers",
+          "answer": "LORAX",
+          "clue": "Seuss' tree protector",
           "source": "dataset"
         },
         {
@@ -322,8 +141,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "APLUS",
-          "clue": "100, gradewise",
+          "answer": "ITALY",
+          "clue": "G7 nation",
           "source": "dataset"
         },
         {
@@ -331,8 +150,8 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "MAINE",
-          "clue": "23rd state",
+          "answer": "TOPAZ",
+          "clue": "Birthstone after opal",
           "source": "dataset"
         },
         {
@@ -340,8 +159,8 @@
           "row": 1,
           "col": 0,
           "length": 3,
-          "answer": "JOY",
-          "clue": "Prevailing feeling at a wedding",
+          "answer": "MDS",
+          "clue": "Script writers",
           "source": "dataset"
         },
         {
@@ -349,8 +168,184 @@
           "row": 1,
           "col": 4,
           "length": 3,
-          "answer": "NEG",
-          "clue": "Pos. opposite",
+          "answer": "RED",
+          "clue": "___ tape",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "H",
+        "number": 1
+      },
+      {
+        "answer": "I",
+        "number": 2
+      },
+      {
+        "answer": "T",
+        "number": 3
+      },
+      {
+        "answer": "P",
+        "number": 4
+      },
+      {
+        "answer": "L",
+        "number": 5
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "H",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "D",
+        "number": 7
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "Y"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "HIT",
+          "clue": "Wallop",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "PLATO",
+          "clue": "Founder of the Academy",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "HOMER",
+          "clue": "Iliad writer",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "DUMMY",
+          "clue": "Shop window model",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "STY",
+          "clue": "Farm pen",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "HAMMY",
+          "clue": "Over-the-top, as acting",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "ITEM",
+          "clue": "Object",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "TORY",
+          "clue": "May or Major, e.g",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "PHDS",
+          "clue": "High degrees",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "LOUT",
+          "clue": "Oaf",
           "source": "dataset"
         }
       ]

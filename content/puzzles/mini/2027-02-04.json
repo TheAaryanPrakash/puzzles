@@ -2,127 +2,136 @@
   "payload": {
     "size": 5,
     "cells": [
-      null,
-      null,
       {
-        "answer": "F",
+        "answer": "B",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "E",
         "number": 2
       },
       {
-        "answer": "T",
+        "answer": "A",
         "number": 3
       },
       {
-        "answer": "I",
+        "answer": "R",
         "number": 4
       },
       {
-        "answer": "D",
+        "answer": "S",
         "number": 5
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "S",
+        "answer": "L",
         "number": 6
       },
       {
         "answer": "A"
       },
       {
-        "answer": "V"
+        "answer": "P"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "S"
+        "answer": "L"
       },
       {
         "answer": "A",
         "number": 7
       },
       {
-        "answer": "T"
+        "answer": "R"
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "W",
-        "number": 8
+        "answer": "R"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "R"
+        "answer": "Y"
       },
-      null,
-      null
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T",
+        "number": 9
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      }
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "FAT",
-          "clue": "Obese",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "IDAHO",
-          "clue": "The Gem State",
+          "answer": "BEARS",
+          "clue": "NFL team in the 'Super Bowl Shuffle'",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "SAVES",
-          "clue": "Doesn't spend immediately",
+          "answer": "LAPEL",
+          "clue": "Jacket flap",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ATOMS",
-          "clue": "Molecule parts",
+          "answer": "ARRAY",
+          "clue": "Wide variety",
           "source": "dataset"
         },
         {
           "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "SLIDE",
+          "clue": "Electric ___ (dance)",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
           "row": 4,
           "col": 0,
-          "length": 3,
-          "answer": "WAR",
-          "clue": "Not peace",
+          "length": 5,
+          "answer": "TYLER",
+          "clue": "10th president",
           "source": "dataset"
         }
       ],
@@ -130,46 +139,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 0,
           "length": 5,
-          "answer": "FAVOR",
-          "clue": "Kind act",
+          "answer": "BLAST",
+          "clue": "Detonation",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "AHEM",
-          "clue": "Throat clearer",
+          "col": 1,
+          "length": 5,
+          "answer": "EARLY",
+          "clue": "Ahead of time",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "TOSS",
-          "clue": "Lob",
+          "col": 2,
+          "length": 5,
+          "answer": "APRIL",
+          "clue": "Spring time",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "ISAW",
-          "clue": "Vidi, in Caesar's boast",
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "READE",
+          "clue": "19th-century English novelist Charles",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "DATA",
-          "clue": "___ entry",
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "SLYER",
+          "clue": "More wily",
           "source": "dataset"
         }
       ]
@@ -180,7 +189,7 @@
     "cells": [
       null,
       {
-        "answer": "H",
+        "answer": "R",
         "number": 1
       },
       {
@@ -188,75 +197,75 @@
         "number": 2
       },
       {
-        "answer": "L",
+        "answer": "C",
         "number": 3
       },
       {
-        "answer": "T",
+        "answer": "K",
         "number": 4
       },
       {
-        "answer": "P",
+        "answer": "C",
         "number": 5
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "D",
-        "number": 6
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "F",
-        "number": 7
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "D"
       },
       {
         "answer": "A"
       },
-      null,
       {
-        "answer": "N",
-        "number": 8
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "O",
+        "number": 6
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "B"
       },
       {
         "answer": "E"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "L",
+        "number": 8
+      },
+      {
+        "answer": "I"
       },
       {
         "answer": "S"
       },
       {
         "answer": "T"
-      }
+      },
+      null
     ],
     "clues": {
       "across": [
@@ -265,8 +274,8 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "HALT",
-          "clue": "Arrest",
+          "answer": "RACK",
+          "clue": "Toast holder (wordplay)",
           "source": "dataset"
         },
         {
@@ -274,8 +283,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "PETER",
-          "clue": "Wendy's friend",
+          "answer": "CAROL",
+          "clue": "Female name",
           "source": "dataset"
         },
         {
@@ -283,8 +292,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "DRONE",
-          "clue": "Un-manned plane",
+          "answer": "OBAMA",
+          "clue": "Bush's successor",
           "source": "dataset"
         },
         {
@@ -292,17 +301,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "FONDA",
-          "clue": "Henry or Jane of film",
+          "answer": "ABBEY",
+          "clue": "Monk's home",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
-          "col": 1,
+          "col": 0,
           "length": 4,
-          "answer": "NEST",
-          "clue": "High home",
+          "answer": "LIST",
+          "clue": "Santa checks it",
           "source": "dataset"
         }
       ],
@@ -312,8 +321,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "HERON",
-          "clue": "Everglades wader",
+          "answer": "RABBI",
+          "clue": "Temple leader",
           "source": "dataset"
         },
         {
@@ -321,8 +330,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ATONE",
-          "clue": "Make up (for)",
+          "answer": "ARABS",
+          "clue": "Riyadh residents",
           "source": "dataset"
         },
         {
@@ -330,26 +339,26 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "LENDS",
-          "clue": "Gives conditionally",
+          "answer": "COMET",
+          "clue": "Cupid coworker",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
           "col": 4,
-          "length": 5,
-          "answer": "TREAT",
-          "clue": "Handle; gift",
-          "source": "dataset"
+          "length": 4,
+          "answer": "KLAY",
+          "clue": "___ Thompson, NBA sharpshooter",
+          "source": "written"
         },
         {
           "number": 5,
           "row": 1,
           "col": 0,
-          "length": 3,
-          "answer": "PDF",
-          "clue": "Adobe file format",
+          "length": 4,
+          "answer": "COAL",
+          "clue": "Frosty's eyes",
           "source": "dataset"
         }
       ]

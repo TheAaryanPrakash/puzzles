@@ -3,212 +3,28 @@
     "size": 5,
     "cells": [
       {
-        "answer": "C",
+        "answer": "A",
         "number": 1
       },
       {
-        "answer": "L",
+        "answer": "T",
         "number": 2
+      },
+      {
+        "answer": "B",
+        "number": 3
       },
       {
         "answer": "A",
-        "number": 3
-      },
-      {
-        "answer": "M",
         "number": 4
       },
-      null,
-      {
-        "answer": "R",
-        "number": 5
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "Y",
-        "number": 6
-      },
-      {
-        "answer": "U",
-        "number": 7
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "Z",
-        "number": 8
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "B"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "A"
-      },
-      null,
-      {
-        "answer": "D",
-        "number": 9
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "R"
-      }
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 0,
-          "length": 4,
-          "answer": "CLAM",
-          "clue": "Geoduck, e.g",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "RILEY",
-          "clue": "Pat ___, three-time N.B.A. Coach of the Year",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "UNITE",
-          "clue": "Merge",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "ZEBRA",
-          "clue": "Black-and-white equid",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
-          "row": 4,
-          "col": 1,
-          "length": 4,
-          "answer": "DIOR",
-          "clue": "Fashion guru",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 0,
-          "length": 4,
-          "answer": "CRUZ",
-          "clue": "Texas senator Ted",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "LINED",
-          "clue": "Like some jackets",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "ALIBI",
-          "clue": "Accused's out",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "METRO",
-          "clue": "Montreal subway",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 1,
-          "col": 4,
-          "length": 4,
-          "answer": "YEAR",
-          "clue": "12 months",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 5,
-    "cells": [
       {
         "answer": "T",
-        "number": 1
-      },
-      {
-        "answer": "E",
-        "number": 2
-      },
-      {
-        "answer": "C",
-        "number": 3
-      },
-      {
-        "answer": "H",
-        "number": 4
-      },
-      {
-        "answer": "Y",
         "number": 5
       },
       {
-        "answer": "W",
+        "answer": "S",
         "number": 6
-      },
-      {
-        "answer": "A"
       },
       {
         "answer": "H"
@@ -217,54 +33,59 @@
         "answer": "O"
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "A",
-        "number": 7
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "N",
-        "number": 8
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "G",
-        "number": 9
-      },
-      {
         "answer": "R"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "Y"
+        "answer": "P",
+        "number": 7
       },
-      null
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "C",
+        "number": 8
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "A",
+        "number": 9
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T"
+      }
     ],
     "clues": {
       "across": [
@@ -273,8 +94,8 @@
           "row": 0,
           "col": 0,
           "length": 5,
-          "answer": "TECHY",
-          "clue": "Skilled with computers",
+          "answer": "ATBAT",
+          "clue": "Chance to swing",
           "source": "dataset"
         },
         {
@@ -282,8 +103,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "WAHOO",
-          "clue": "Western \"Yay!\"",
+          "answer": "SHORE",
+          "clue": "Coastline",
           "source": "dataset"
         },
         {
@@ -291,8 +112,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "AGING",
-          "clue": "Growing old",
+          "answer": "PURIM",
+          "clue": "Jewish festival also called \"Feast of Lots\"",
           "source": "dataset"
         },
         {
@@ -300,17 +121,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "NEMEA",
-          "clue": "Site of Hercules' first labor",
+          "answer": "CRISP",
+          "clue": "Potato snack",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "GREY",
-          "clue": "Zane ___, US novelist",
+          "length": 5,
+          "answer": "ASSET",
+          "clue": "Resource",
           "source": "dataset"
         }
       ],
@@ -320,8 +141,8 @@
           "row": 0,
           "col": 0,
           "length": 5,
-          "answer": "TWANG",
-          "clue": "Sharp vibrating sound",
+          "answer": "ASPCA",
+          "clue": "U.S. humane org",
           "source": "dataset"
         },
         {
@@ -329,17 +150,17 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "EAGER",
-          "clue": "Zealous",
-          "source": "dataset"
+          "answer": "THURS",
+          "clue": "Day before Fri., for short",
+          "source": "written"
         },
         {
           "number": 3,
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "CHIME",
-          "clue": "\"Westminster\" clock sound",
+          "answer": "BORIS",
+          "clue": "Prime minister Johnson",
           "source": "dataset"
         },
         {
@@ -347,17 +168,197 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "HONEY",
-          "clue": "Produce of bees",
+          "answer": "ARISE",
+          "clue": "Stand up",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 0,
           "col": 4,
+          "length": 5,
+          "answer": "TEMPT",
+          "clue": "Play the siren",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "L",
+        "number": 3
+      },
+      {
+        "answer": "T",
+        "number": 4
+      },
+      {
+        "answer": "P",
+        "number": 5
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "C",
+        "number": 7
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "K",
+        "number": 8
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "S"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
           "length": 4,
-          "answer": "YOGA",
-          "clue": "Tranquil practice",
+          "answer": "SALT",
+          "clue": "Seaman",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "PUREE",
+          "clue": "Blender option",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "ASIAN",
+          "clue": "Korean or Thai",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "CHEFS",
+          "clue": "James Beard award winners",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "KISS",
+          "clue": "Light touch",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "SUSHI",
+          "clue": "Japanese raw fish",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "ARIES",
+          "clue": "Zodiac ram",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "LEAFS",
+          "clue": "Flips (through)",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "TENS",
+          "clue": "Sawbucks",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "PACK",
+          "clue": "Get ready, in a way",
           "source": "dataset"
         }
       ]

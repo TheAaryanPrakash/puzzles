@@ -4,7 +4,7 @@
     "cells": [
       null,
       {
-        "answer": "V",
+        "answer": "C",
         "number": 1
       },
       {
@@ -16,65 +16,69 @@
         "number": 3
       },
       {
-        "answer": "T",
+        "answer": "H",
         "number": 4
       },
-      null,
       {
-        "answer": "O",
+        "answer": "R",
         "number": 5
       },
       {
-        "answer": "H"
-      },
-      {
-        "answer": "I"
-      },
-      {
         "answer": "O"
-      },
-      {
-        "answer": "S",
-        "number": 6
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "S",
-        "number": 7
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "G"
-      },
-      null,
-      {
-        "answer": "W",
-        "number": 8
-      },
-      {
-        "answer": "A"
       },
       {
         "answer": "D"
       },
       {
         "answer": "E"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "H",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S"
       },
       null
     ],
@@ -85,17 +89,17 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "VAST",
-          "clue": "Huge",
+          "answer": "CASH",
+          "clue": "Dough",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "OHIO",
-          "clue": "17th US state",
+          "col": 0,
+          "length": 5,
+          "answer": "RODEO",
+          "clue": "Clown's workplace",
           "source": "dataset"
         },
         {
@@ -103,17 +107,17 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "SLEEP",
-          "clue": "Take a nap",
+          "answer": "AMMAN",
+          "clue": "Jordan's capital",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 4,
-          "answer": "STAG",
-          "clue": "Solo",
+          "length": 5,
+          "answer": "SMIRK",
+          "clue": "Smug expression",
           "source": "dataset"
         },
         {
@@ -121,8 +125,8 @@
           "row": 4,
           "col": 0,
           "length": 4,
-          "answer": "WADE",
-          "clue": "Walk through water",
+          "answer": "HATS",
+          "clue": "Kepi and kufi",
           "source": "dataset"
         }
       ],
@@ -132,8 +136,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "VOLTA",
-          "clue": "Physicist for whom a battery unit was named",
+          "answer": "COMMA",
+          "clue": "Butterfly",
           "source": "dataset"
         },
         {
@@ -141,8 +145,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "AHEAD",
-          "clue": "In advance",
+          "answer": "ADMIT",
+          "clue": "Concede",
           "source": "dataset"
         },
         {
@@ -150,26 +154,26 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "SIEGE",
-          "clue": "Big battle",
+          "answer": "SEARS",
+          "clue": "Chicago's ___ Tower",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
           "col": 4,
-          "length": 3,
-          "answer": "TOP",
-          "clue": "Exceed",
+          "length": 4,
+          "answer": "HONK",
+          "clue": "Hit a horn",
           "source": "dataset"
         },
         {
-          "number": 6,
-          "row": 2,
+          "number": 5,
+          "row": 1,
           "col": 0,
-          "length": 3,
-          "answer": "SSW",
-          "clue": "Away from NNE",
+          "length": 4,
+          "answer": "RASH",
+          "clue": "Reckless",
           "source": "dataset"
         }
       ]
@@ -179,77 +183,72 @@
     "size": 5,
     "cells": [
       null,
+      null,
       {
-        "answer": "S",
+        "answer": "Q",
         "number": 1
       },
       {
-        "answer": "I",
+        "answer": "B",
         "number": 2
       },
       {
-        "answer": "N",
+        "answer": "S",
         "number": 3
-      },
-      {
-        "answer": "K",
-        "number": 4
       },
       null,
       {
-        "answer": "C",
+        "answer": "Q",
+        "number": 4
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "Q",
         "number": 5
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "E"
       },
       {
         "answer": "R"
       },
       {
-        "answer": "O"
+        "answer": "Y"
       },
       {
-        "answer": "W"
-      },
-      {
-        "answer": "P",
+        "answer": "T",
         "number": 6
       },
       {
-        "answer": "I"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "N"
-      },
-      {
         "answer": "O"
       },
       {
-        "answer": "O",
-        "number": 7
-      },
-      {
-        "answer": "F"
-      },
-      {
-        "answer": "T"
-      },
-      {
         "answer": "E"
       },
       {
-        "answer": "N"
+        "answer": "D"
       },
+      null,
       {
-        "answer": "P",
-        "number": 8
+        "answer": "Y",
+        "number": 7
       },
       {
         "answer": "I"
       },
       {
-        "answer": "E"
+        "answer": "N"
       },
       null,
       null
@@ -259,46 +258,46 @@
         {
           "number": 1,
           "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "QBS",
+          "clue": "Ones initiating handoffs, for short",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "SINK",
-          "clue": "Drop down",
+          "answer": "QUIP",
+          "clue": "Zinger",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "CROW",
-          "clue": "Brag",
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "QUERY",
+          "clue": "Ask about",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 3,
           "col": 0,
-          "length": 5,
-          "answer": "PIANO",
-          "clue": "It can be grand",
+          "length": 4,
+          "answer": "TOED",
+          "clue": "Three- - sloth",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "OFTEN",
-          "clue": "Many a time",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "answer": "PIE",
-          "clue": "Diner treat",
+          "answer": "YIN",
+          "clue": "Dark half",
           "source": "dataset"
         }
       ],
@@ -306,47 +305,47 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "SCIFI",
-          "clue": "Jules Verne genre",
+          "answer": "QUEEN",
+          "clue": "Hive head",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "IRATE",
-          "clue": "Annoyed",
+          "col": 3,
+          "length": 4,
+          "answer": "BIRD",
+          "clue": "Frequent flier",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "NONE",
-          "clue": "Zero",
+          "col": 4,
+          "length": 3,
+          "answer": "SPY",
+          "clue": "___-fi",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
+          "row": 1,
+          "col": 1,
           "length": 4,
-          "answer": "KWON",
-          "clue": "Tae ___ do",
+          "answer": "QUOI",
+          "clue": "Je ne sais -",
           "source": "dataset"
         },
         {
-          "number": 6,
+          "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "answer": "POP",
-          "clue": "Explode",
-          "source": "dataset"
+          "answer": "QTY",
+          "clue": "Amount ordered, on a form, for short",
+          "source": "written"
         }
       ]
     }

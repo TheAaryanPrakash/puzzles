@@ -274,11 +274,11 @@
     "size": 5,
     "cells": [
       {
-        "answer": "T",
+        "answer": "M",
         "number": 1
       },
       {
-        "answer": "H",
+        "answer": "A",
         "number": 2
       },
       {
@@ -286,77 +286,73 @@
         "number": 3
       },
       {
-        "answer": "O",
+        "answer": "I",
         "number": 4
       },
       {
-        "answer": "W",
+        "answer": "A",
         "number": 5
       },
       {
-        "answer": "H",
+        "answer": "F",
         "number": 6
       },
       {
-        "answer": "Y"
+        "answer": "L"
       },
       {
-        "answer": "E"
+        "answer": "I"
       },
       {
         "answer": "N"
       },
       {
-        "answer": "A"
+        "answer": "G"
       },
       {
-        "answer": "I",
+        "answer": "A",
         "number": 7
       },
       {
-        "answer": "D"
+        "answer": "P"
       },
       {
-        "answer": "B"
+        "answer": "P"
+      },
+      {
+        "answer": "L"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "T"
-      },
-      {
-        "answer": "G",
+        "answer": "S",
         "number": 8
       },
       {
-        "answer": "R"
+        "answer": "H"
+      },
+      {
+        "answer": "O"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "A"
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 9
+      },
+      {
+        "answer": "N"
       },
       {
         "answer": "T"
       },
-      {
-        "answer": "H",
-        "number": 9
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "S"
-      }
+      null
     ],
     "clues": {
       "across": [
@@ -365,8 +361,8 @@
           "row": 0,
           "col": 0,
           "length": 5,
-          "answer": "THROW",
-          "clue": "Fling",
+          "answer": "MARIA",
+          "clue": "Opera's Callas",
           "source": "dataset"
         },
         {
@@ -374,8 +370,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "HYENA",
-          "clue": "Savanna carnivore",
+          "answer": "FLING",
+          "clue": "Throw",
           "source": "dataset"
         },
         {
@@ -383,8 +379,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "IDBET",
-          "clue": "'Odds are . . .'",
+          "answer": "APPLE",
+          "clue": "Pie fruit",
           "source": "dataset"
         },
         {
@@ -392,17 +388,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "GREAT",
-          "clue": "Fantastic",
+          "answer": "SHOES",
+          "clue": "Closet pairs",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 0,
-          "length": 5,
-          "answer": "HALLS",
-          "clue": "Locales on a campus map",
+          "col": 1,
+          "length": 3,
+          "answer": "ANT",
+          "clue": "Picnic pest",
           "source": "dataset"
         }
       ],
@@ -411,9 +407,9 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 5,
-          "answer": "THIGH",
-          "clue": "Fried chicken choice",
+          "length": 4,
+          "answer": "MFAS",
+          "clue": "Advanced degrees for some filmmakers",
           "source": "dataset"
         },
         {
@@ -421,8 +417,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "HYDRA",
-          "clue": "Monster in filthy drain",
+          "answer": "ALPHA",
+          "clue": "___ dog",
           "source": "dataset"
         },
         {
@@ -430,8 +426,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "REBEL",
-          "clue": "Dissenter",
+          "answer": "RIPON",
+          "clue": "City in North Yorkshire",
           "source": "dataset"
         },
         {
@@ -439,17 +435,17 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "ONEAL",
-          "clue": "Actress Tatum",
+          "answer": "INLET",
+          "clue": "Small bay",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 0,
           "col": 4,
-          "length": 5,
-          "answer": "WATTS",
-          "clue": "Power units",
+          "length": 4,
+          "answer": "AGES",
+          "clue": "Mellows",
           "source": "dataset"
         }
       ]

@@ -12,75 +12,71 @@
         "number": 2
       },
       {
-        "answer": "O",
+        "answer": "A",
         "number": 3
       },
       {
-        "answer": "W",
+        "answer": "G",
         "number": 4
       },
       null,
       {
-        "answer": "I",
+        "answer": "L",
         "number": 5
       },
       {
-        "answer": "O"
+        "answer": "I"
       },
       {
-        "answer": "W"
+        "answer": "M"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "T",
+        "answer": "D",
         "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "V"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      null,
+      {
+        "answer": "B",
+        "number": 8
+      },
+      {
+        "answer": "E"
       },
       {
         "answer": "R"
       },
       {
-        "answer": "U"
+        "answer": "G"
       },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "K"
-      },
-      {
-        "answer": "I",
-        "number": 7
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S",
-        "number": 8
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "S"
-      }
+      null
     ],
     "clues": {
       "across": [
@@ -89,8 +85,8 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "FLOW",
-          "clue": "ebb and ___",
+          "answer": "FLAG",
+          "clue": "Banner",
           "source": "dataset"
         },
         {
@@ -98,8 +94,8 @@
           "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "IOWA",
-          "clue": "Hawkeye State",
+          "answer": "LIMA",
+          "clue": "Bean variety",
           "source": "dataset"
         },
         {
@@ -107,26 +103,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "TRUNK",
-          "clue": "Driver's suitcase spot",
+          "answer": "DAVOS",
+          "clue": "Swiss city where the World Economic Forum's annual meeting takes place",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 5,
-          "answer": "ISSUE",
-          "clue": "Put out",
+          "length": 4,
+          "answer": "AMEN",
+          "clue": "Verily",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 5,
-          "answer": "STEPS",
-          "clue": "Dance moves",
+          "length": 4,
+          "answer": "BERG",
+          "clue": "Polar hazard",
           "source": "dataset"
         }
       ],
@@ -136,8 +132,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "FIRST",
-          "clue": "Original",
+          "answer": "FLAME",
+          "clue": "Match + strike",
           "source": "dataset"
         },
         {
@@ -145,8 +141,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "LOUSE",
-          "clue": "Contemptible one",
+          "answer": "LIVER",
+          "clue": "Internal organ",
           "source": "dataset"
         },
         {
@@ -154,17 +150,17 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "OWNUP",
-          "clue": "Admit academic robe's no good at college",
+          "answer": "AMONG",
+          "clue": "___ friends",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
           "col": 4,
-          "length": 5,
-          "answer": "WAKES",
-          "clue": "Responds to reveille",
+          "length": 3,
+          "answer": "GAS",
+          "clue": "Hoot",
           "source": "dataset"
         },
         {
@@ -172,8 +168,8 @@
           "row": 2,
           "col": 0,
           "length": 3,
-          "answer": "TIS",
-          "clue": "McCourt memoir",
+          "answer": "DAB",
+          "clue": "Bit of gel",
           "source": "dataset"
         }
       ]
@@ -183,78 +179,76 @@
     "size": 5,
     "cells": [
       {
-        "answer": "C",
+        "answer": "A",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "U",
         "number": 2
       },
       {
-        "answer": "M",
+        "answer": "N",
         "number": 3
       },
       {
-        "answer": "P",
+        "answer": "T",
         "number": 4
       },
       null,
       {
-        "answer": "A",
+        "answer": "C",
         "number": 5
       },
       {
-        "answer": "L"
+        "answer": "H"
+      },
+      {
+        "answer": "I"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "R"
-      },
-      {
-        "answer": "T",
+        "answer": "F",
         "number": 6
       },
       {
-        "answer": "R",
+        "answer": "D",
         "number": 7
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "I"
       },
       {
         "answer": "O"
       },
       {
-        "answer": "D",
-        "number": 8
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "I"
+        "answer": "N"
       },
       {
         "answer": "N"
       },
       {
+        "answer": "A"
+      },
+      {
+        "answer": "C",
+        "number": 8
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
         "answer": "K"
       },
       null,
+      null,
       {
-        "answer": "M",
+        "answer": "R",
         "number": 9
-      },
-      {
-        "answer": "A"
       },
       {
         "answer": "T"
@@ -270,8 +264,8 @@
           "row": 0,
           "col": 0,
           "length": 4,
-          "answer": "CAMP",
-          "clue": "Scout's base",
+          "answer": "AUNT",
+          "clue": "Pop's sib",
           "source": "dataset"
         },
         {
@@ -279,8 +273,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "ALERT",
-          "clue": "Warn",
+          "answer": "CHIEF",
+          "clue": "Main",
           "source": "dataset"
         },
         {
@@ -288,8 +282,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "RADIO",
-          "clue": "AM/FM device",
+          "answer": "DONNA",
+          "clue": "Singer Summer",
           "source": "dataset"
         },
         {
@@ -297,17 +291,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "DRINK",
-          "clue": "Margarita or martini",
+          "answer": "CHEEK",
+          "clue": "Side of face and lip",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 1,
-          "length": 4,
-          "answer": "MATE",
-          "clue": "Second sock",
+          "col": 2,
+          "length": 3,
+          "answer": "RTE",
+          "clue": "GPS choice",
           "source": "dataset"
         }
       ],
@@ -317,17 +311,17 @@
           "row": 0,
           "col": 0,
           "length": 4,
-          "answer": "CARD",
-          "clue": "Jokester",
+          "answer": "ACDC",
+          "clue": "Angus Young's band",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
-          "length": 5,
-          "answer": "ALARM",
-          "clue": "Clock signal",
+          "length": 4,
+          "answer": "UHOH",
+          "clue": "\"Yikes!\"",
           "source": "dataset"
         },
         {
@@ -335,8 +329,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "MEDIA",
-          "clue": "Mass ___",
+          "answer": "NINER",
+          "clue": "Frisco footballer",
           "source": "dataset"
         },
         {
@@ -344,8 +338,8 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "PRINT",
-          "clue": "Make a hard copy of",
+          "answer": "TENET",
+          "clue": "Principle",
           "source": "dataset"
         },
         {
@@ -353,8 +347,8 @@
           "row": 1,
           "col": 4,
           "length": 4,
-          "answer": "TOKE",
-          "clue": "Puff",
+          "answer": "FAKE",
+          "clue": "Fraudulent",
           "source": "dataset"
         }
       ]

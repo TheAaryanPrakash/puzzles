@@ -5,72 +5,76 @@
       null,
       null,
       {
-        "answer": "C",
+        "answer": "R",
         "number": 1
       },
       {
-        "answer": "O",
+        "answer": "E",
         "number": 2
       },
       {
-        "answer": "W",
+        "answer": "V",
         "number": 3
       },
       null,
       {
-        "answer": "C",
+        "answer": "D",
         "number": 4
       },
       {
-        "answer": "O"
+        "answer": "I"
       },
       {
-        "answer": "P"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "T",
-        "number": 5
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "H",
-        "number": 6
-      },
-      {
-        "answer": "E"
+        "answer": "V"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "D"
+        "answer": "G",
+        "number": 5
       },
-      null,
       {
-        "answer": "X",
+        "answer": "I"
+      },
+      {
+        "answer": "V"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "O",
+        "number": 6
+      },
+      {
+        "answer": "V"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "V",
         "number": 7
       },
       {
-        "answer": "X"
+        "answer": "E"
       },
       {
-        "answer": "L"
+        "answer": "R"
       },
-      null,
+      {
+        "answer": "Y"
+      },
       null
     ],
     "clues": {
@@ -80,8 +84,8 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "answer": "COW",
-          "clue": "Cash ___",
+          "answer": "REV",
+          "clue": "Gun, as a V6",
           "source": "dataset"
         },
         {
@@ -89,8 +93,8 @@
           "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "COPE",
-          "clue": "Deal (with)",
+          "answer": "DIVA",
+          "clue": "Operatic icon",
           "source": "dataset"
         },
         {
@@ -98,27 +102,27 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "THREE",
-          "clue": "Triad",
+          "answer": "GIVEN",
+          "clue": "Established fact",
           "source": "dataset"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
-          "length": 4,
-          "answer": "HEAD",
-          "clue": "Noggin",
+          "length": 5,
+          "answer": "OVERS",
+          "clue": "Six-ball sets, in cricket",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
-          "length": 3,
-          "answer": "XXL",
-          "clue": "Size bigger than large, for short",
-          "source": "written"
+          "length": 4,
+          "answer": "VERY",
+          "clue": "Incredibly",
+          "source": "dataset"
         }
       ],
       "down": [
@@ -127,26 +131,26 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "CORAL",
-          "clue": "___ reef",
+          "answer": "RIVER",
+          "clue": "Bending body",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 4,
-          "answer": "OPED",
-          "clue": "___ page",
+          "length": 5,
+          "answer": "EVERY",
+          "clue": "Each",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
-          "length": 3,
-          "answer": "WEE",
-          "clue": "Minute",
+          "length": 4,
+          "answer": "VANS",
+          "clue": "Delivery vehicles",
           "source": "dataset"
         },
         {
@@ -154,8 +158,8 @@
           "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "CHEX",
-          "clue": "General Mills brand",
+          "answer": "DIVE",
+          "clue": "Go in headfirst",
           "source": "dataset"
         },
         {
@@ -163,8 +167,8 @@
           "row": 2,
           "col": 0,
           "length": 3,
-          "answer": "THX",
-          "clue": "Texter's expression of gratitude",
+          "answer": "GOV",
+          "clue": "www.mn.___",
           "source": "dataset"
         }
       ]
@@ -175,106 +179,100 @@
     "cells": [
       null,
       null,
-      null,
       {
-        "answer": "H",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "T",
         "number": 2
       },
       {
-        "answer": "N",
+        "answer": "A",
         "number": 3
       },
       {
-        "answer": "K",
+        "answer": "F",
         "number": 4
       },
-      null,
-      null,
       {
-        "answer": "V",
+        "answer": "F",
         "number": 5
       },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "E"
-      },
       null,
       {
-        "answer": "C",
+        "answer": "S",
         "number": 6
       },
       {
-        "answer": "O"
+        "answer": "P"
       },
       {
-        "answer": "M"
-      },
-      {
-        "answer": "E"
+        "answer": "I"
       },
       {
         "answer": "D"
       },
       {
-        "answer": "Y"
+        "answer": "E"
       },
       {
-        "answer": "R",
+        "answer": "R"
+      },
+      null,
+      {
+        "answer": "C",
         "number": 7
       },
       {
         "answer": "A"
       },
       {
-        "answer": "T"
-      },
-      {
-        "answer": "I"
-      },
-      {
         "answer": "N"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "O",
-        "number": 8
       },
       {
         "answer": "D"
       },
       {
-        "answer": "E"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "T"
+        "answer": "L"
       },
       {
         "answer": "E"
+      },
+      {
+        "answer": "B",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
       },
       null,
       {
-        "answer": "M",
+        "answer": "R",
         "number": 9
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "L",
+        "number": 10
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "D",
+        "number": 11
       },
       {
         "answer": "E"
@@ -282,28 +280,43 @@
       {
         "answer": "N"
       },
+      null,
       {
-        "answer": "U"
+        "answer": "E",
+        "number": 12
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S"
       },
       {
         "answer": "S"
       },
       null,
-      null,
       {
-        "answer": "A",
-        "number": 10
+        "answer": "W",
+        "number": 13
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "A"
       },
       {
         "answer": "T"
       },
       {
-        "answer": "O"
+        "answer": "S"
       },
-      {
-        "answer": "P"
-      },
-      null,
       null,
       null
     ],
@@ -312,129 +325,147 @@
         {
           "number": 1,
           "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "HANK",
-          "clue": "Nickname for Henry",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
           "col": 2,
           "length": 5,
-          "answer": "VAGUE",
-          "clue": "Type of neck fit for woolly",
+          "answer": "STAFF",
+          "clue": "Work group",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 1,
           "col": 1,
           "length": 6,
-          "answer": "COMEDY",
-          "clue": "Light entertainment",
+          "answer": "SPIDER",
+          "clue": "Eight-legged creature",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 7,
-          "answer": "RATINGS",
-          "clue": "PG, R and NC-17",
+          "row": 2,
+          "col": 1,
+          "length": 6,
+          "answer": "CANDLE",
+          "clue": "Torch made from deal shavings wrapped in rattan",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 4,
+          "row": 3,
           "col": 0,
-          "length": 6,
-          "answer": "ODETTE",
-          "clue": "'Swan Lake' princess",
+          "length": 3,
+          "answer": "BOT",
+          "clue": "Spam generator",
           "source": "dataset"
         },
         {
           "number": 9,
-          "row": 5,
-          "col": 0,
-          "length": 5,
-          "answer": "MENUS",
-          "clue": "Restaurant stack",
+          "row": 3,
+          "col": 4,
+          "length": 3,
+          "answer": "ROE",
+          "clue": "Ova",
           "source": "dataset"
         },
         {
           "number": 10,
+          "row": 4,
+          "col": 0,
+          "length": 6,
+          "answer": "LOUDEN",
+          "clue": "Increase in volume",
+          "source": "written"
+        },
+        {
+          "number": 12,
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "answer": "ECLASS",
+          "clue": "Mercedes-Benz sedan line",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
           "row": 6,
           "col": 0,
-          "length": 4,
-          "answer": "ATOP",
-          "clue": "On",
-          "source": "dataset"
+          "length": 5,
+          "answer": "WHATS",
+          "clue": "'___ up?'",
+          "source": "written"
         }
       ],
       "down": [
         {
           "number": 1,
           "row": 0,
-          "col": 3,
+          "col": 2,
           "length": 7,
-          "answer": "HAMITUP",
-          "clue": "Act badly, giving order in pizzeria (wordplay)",
+          "answer": "SPATULA",
+          "clue": "Utensil for flipping",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 4,
-          "length": 6,
-          "answer": "AGENTS",
-          "clue": "Representatives",
+          "col": 3,
+          "length": 3,
+          "answer": "TIN",
+          "clue": "Container",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 5,
-          "length": 5,
-          "answer": "NUDGE",
-          "clue": "Gentle push",
+          "col": 4,
+          "length": 7,
+          "answer": "ADDRESS",
+          "clue": "Give a speech to",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 6,
-          "length": 4,
-          "answer": "KEYS",
-          "clue": "Openers",
+          "col": 5,
+          "length": 6,
+          "answer": "FELONS",
+          "clue": "Cons",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 2,
-          "length": 6,
-          "answer": "VOTENO",
-          "clue": "Lawn sign phrase",
+          "row": 0,
+          "col": 6,
+          "length": 4,
+          "answer": "FREE",
+          "clue": "Available",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 1,
           "col": 1,
-          "length": 5,
-          "answer": "CADET",
-          "clue": "Trainee",
-          "source": "dataset"
+          "length": 6,
+          "answer": "SCOOCH",
+          "clue": "Shift over slightly",
+          "source": "written"
         },
         {
-          "number": 7,
+          "number": 8,
           "row": 3,
           "col": 0,
           "length": 4,
-          "answer": "ROMA",
-          "clue": "Type of tomato",
+          "answer": "BLEW",
+          "clue": "Botched up",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 3,
+          "length": 3,
+          "answer": "DAT",
+          "clue": "Slangy pronoun",
           "source": "dataset"
         }
       ]

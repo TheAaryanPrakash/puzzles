@@ -4,77 +4,77 @@
     "cells": [
       null,
       {
-        "answer": "B",
+        "answer": "G",
         "number": 1
       },
       {
-        "answer": "E",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "T",
+        "answer": "S",
         "number": 3
       },
       {
-        "answer": "A",
+        "answer": "P",
         "number": 4
       },
       null,
       {
-        "answer": "E",
+        "answer": "O",
         "number": 5
       },
       {
-        "answer": "X"
+        "answer": "N"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "S",
+        "number": 6
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "G"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "M"
+        "answer": "R"
       },
       {
-        "answer": "F",
-        "number": 6
+        "answer": "U",
+        "number": 7
+      },
+      {
+        "answer": "G"
       },
       {
         "answer": "L"
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "K"
-      },
-      {
         "answer": "Y"
-      },
-      {
-        "answer": "R",
-        "number": 7
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "E"
       },
       null,
       {
-        "answer": "Y",
+        "answer": "B",
         "number": 8
       },
       {
         "answer": "E"
       },
       {
-        "answer": "T"
+        "answer": "E"
       },
       {
-        "answer": "I"
+        "answer": "S"
       },
       null
     ],
@@ -85,8 +85,8 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "BETA",
-          "clue": "Phi ___ Kappa",
+          "answer": "GASP",
+          "clue": "Shocked sound",
           "source": "dataset"
         },
         {
@@ -94,8 +94,8 @@
           "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "EXAM",
-          "clue": "School test",
+          "answer": "ONTO",
+          "clue": "Aboard",
           "source": "dataset"
         },
         {
@@ -103,8 +103,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "FLAKY",
-          "clue": "Unreliable",
+          "answer": "SUGAR",
+          "clue": "Tea sweetener",
           "source": "dataset"
         },
         {
@@ -112,8 +112,8 @@
           "row": 3,
           "col": 0,
           "length": 4,
-          "answer": "RICE",
-          "clue": "Creole staple",
+          "answer": "UGLY",
+          "clue": "Unsightly",
           "source": "dataset"
         },
         {
@@ -121,8 +121,8 @@
           "row": 4,
           "col": 0,
           "length": 4,
-          "answer": "YETI",
-          "clue": "Himalayan legend",
+          "answer": "BEES",
+          "clue": "Hive dwellers",
           "source": "dataset"
         }
       ],
@@ -132,8 +132,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "BELIE",
-          "clue": "Contradict",
+          "answer": "GOUGE",
+          "clue": "Charge too much",
           "source": "dataset"
         },
         {
@@ -141,8 +141,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "EXACT",
-          "clue": "On the dot",
+          "answer": "ANGLE",
+          "clue": "Hidden motive",
           "source": "dataset"
         },
         {
@@ -150,8 +150,8 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "TAKEI",
-          "clue": "George who co-wrote the graphic memoir 'They Called Us Enemy'",
+          "answer": "STAYS",
+          "clue": "Collar inserts",
           "source": "dataset"
         },
         {
@@ -159,8 +159,8 @@
           "row": 0,
           "col": 4,
           "length": 3,
-          "answer": "AMY",
-          "clue": "Actress Poehler",
+          "answer": "POR",
+          "clue": "___ ejemplo",
           "source": "dataset"
         },
         {
@@ -168,8 +168,8 @@
           "row": 2,
           "col": 0,
           "length": 3,
-          "answer": "FRY",
-          "clue": "French ___",
+          "answer": "SUB",
+          "clue": "Navy vessel",
           "source": "dataset"
         }
       ]
@@ -179,79 +179,83 @@
     "size": 5,
     "cells": [
       null,
-      null,
       {
-        "answer": "M",
+        "answer": "L",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "I",
         "number": 2
       },
       {
-        "answer": "C",
+        "answer": "F",
         "number": 3
       },
       {
-        "answer": "G",
+        "answer": "E",
         "number": 4
       },
       {
-        "answer": "R",
+        "answer": "M",
         "number": 5
       },
       {
-        "answer": "E"
+        "answer": "Y"
       },
       {
-        "answer": "T"
+        "answer": "W"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "A",
+        "answer": "Y"
+      },
+      {
+        "answer": "E",
         "number": 6
       },
       {
-        "answer": "U"
-      },
-      {
-        "answer": "T"
+        "answer": "R"
       },
       {
         "answer": "O"
       },
       {
-        "answer": "S"
+        "answer": "D"
       },
       {
-        "answer": "G",
+        "answer": "E"
+      },
+      {
+        "answer": "T",
         "number": 7
+      },
+      {
+        "answer": "I"
       },
       {
         "answer": "N"
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "M"
-      },
-      {
         "answer": "E"
+      },
+      {
+        "answer": "S"
       },
       {
         "answer": "A",
         "number": 8
       },
       {
-        "answer": "G"
+        "answer": "C"
       },
       {
-        "answer": "O"
+        "answer": "T"
       },
-      null,
+      {
+        "answer": "S"
+      },
       null
     ],
     "clues": {
@@ -259,28 +263,28 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "MAC",
-          "clue": "Fella",
+          "col": 1,
+          "length": 4,
+          "answer": "LIFE",
+          "clue": "Biography",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "GRETA",
-          "clue": "Film legend Garbo",
-          "source": "dataset"
+          "answer": "MYWAY",
+          "clue": "Sinatra's signature tune, '___'",
+          "source": "written"
         },
         {
           "number": 6,
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "AUTOS",
-          "clue": "Dealership buys",
+          "answer": "ERODE",
+          "clue": "Wear away",
           "source": "dataset"
         },
         {
@@ -288,17 +292,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "GNOME",
-          "clue": "Garden guardian",
+          "answer": "TINES",
+          "clue": "Pitchfork parts",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 3,
-          "answer": "AGO",
-          "clue": "Ages ___",
+          "length": 4,
+          "answer": "ACTS",
+          "clue": "NT book",
           "source": "dataset"
         }
       ],
@@ -306,46 +310,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "METOO",
-          "clue": "\"Same here!\"",
+          "answer": "LYRIC",
+          "clue": "Earworm segment (wordplay)",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "ATOM",
-          "clue": "Speck",
+          "col": 2,
+          "length": 5,
+          "answer": "IWONT",
+          "clue": "'No way!'",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "CASE",
-          "clue": "Docket item",
+          "col": 3,
+          "length": 5,
+          "answer": "FADES",
+          "clue": "Drops back to pass",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
+          "row": 0,
+          "col": 4,
           "length": 4,
-          "answer": "GAGA",
-          "clue": "Lady of song",
+          "answer": "EYES",
+          "clue": "Looks at",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 1,
+          "col": 0,
           "length": 4,
-          "answer": "RUNG",
-          "clue": "Ladder step",
+          "answer": "META",
+          "clue": "Prefix with carpal",
           "source": "dataset"
         }
       ]

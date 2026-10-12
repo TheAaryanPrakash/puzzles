@@ -3,80 +3,84 @@
     "size": 5,
     "cells": [
       {
-        "answer": "A",
+        "answer": "P",
         "number": 1
       },
       {
-        "answer": "L",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "A",
+        "answer": "R",
         "number": 3
       },
       {
-        "answer": "S",
+        "answer": "T",
         "number": 4
       },
-      null,
       {
-        "answer": "B",
+        "answer": "S",
         "number": 5
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "W"
-      },
-      {
-        "answer": "L"
-      },
-      null,
-      {
-        "answer": "A",
+        "answer": "U",
         "number": 6
       },
       {
-        "answer": "D"
+        "answer": "S"
       },
       {
-        "answer": "M"
+        "answer": "U"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "F",
+        "number": 7
       },
       {
         "answer": "I"
       },
       {
-        "answer": "T",
-        "number": 7
+        "answer": "N"
       },
-      null,
       {
-        "answer": "G",
+        "answer": "A"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "F",
         "number": 8
       },
       {
         "answer": "A"
       },
       {
-        "answer": "M"
+        "answer": "U"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "I"
+      },
+      null,
+      null,
+      {
+        "answer": "P",
+        "number": 9
       },
       {
         "answer": "E"
       },
-      null,
       {
-        "answer": "E",
-        "number": 9
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "A"
+        "answer": "T"
       }
     ],
     "clues": {
@@ -85,45 +89,45 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 4,
-          "answer": "ALAS",
-          "clue": "'Ah, me!'",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "BOWL",
-          "clue": "Basin",
+          "length": 5,
+          "answer": "PARTS",
+          "clue": "Play things",
           "source": "dataset"
         },
         {
           "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "USURP",
+          "clue": "Seize by force",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ADMIT",
-          "clue": "Concede",
+          "answer": "FINAL",
+          "clue": "Last",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 3,
-          "col": 1,
-          "length": 4,
-          "answer": "GAME",
-          "clue": "Hunter's quarry",
+          "col": 0,
+          "length": 5,
+          "answer": "FAUCI",
+          "clue": "Infectious disease expert Anthony",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 1,
-          "length": 4,
-          "answer": "ENYA",
-          "clue": "Irish New Ager",
+          "col": 2,
+          "length": 3,
+          "answer": "PET",
+          "clue": "___ name",
           "source": "dataset"
         }
       ],
@@ -132,18 +136,18 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 3,
-          "answer": "ABA",
-          "clue": "Legal org",
+          "length": 4,
+          "answer": "PUFF",
+          "clue": "___ pastry",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
-          "length": 5,
-          "answer": "LODGE",
-          "clue": "Become fixed",
+          "length": 4,
+          "answer": "ASIA",
+          "clue": "___ Minor",
           "source": "dataset"
         },
         {
@@ -151,8 +155,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "AWMAN",
-          "clue": "'Oh, come on!'",
+          "answer": "RUNUP",
+          "clue": "Approach race ahead",
           "source": "dataset"
         },
         {
@@ -160,17 +164,17 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "SLIMY",
-          "clue": "Like natto",
+          "answer": "TRACE",
+          "clue": "Find and copy",
           "source": "dataset"
         },
         {
-          "number": 7,
-          "row": 2,
+          "number": 5,
+          "row": 0,
           "col": 4,
-          "length": 3,
-          "answer": "TEA",
-          "clue": "Chai",
+          "length": 5,
+          "answer": "SPLIT",
+          "clue": "Break",
           "source": "dataset"
         }
       ]
@@ -180,168 +184,177 @@
     "size": 5,
     "cells": [
       null,
-      null,
       {
-        "answer": "P",
+        "answer": "F",
         "number": 1
       },
       {
-        "answer": "O",
+        "answer": "U",
         "number": 2
       },
       {
-        "answer": "D",
+        "answer": "R",
         "number": 3
+      },
+      {
+        "answer": "S",
+        "number": 4
       },
       null,
       {
-        "answer": "H",
-        "number": 4
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "P",
+        "answer": "O",
         "number": 5
       },
       {
-        "answer": "A"
+        "answer": "N"
+      },
+      {
+        "answer": "I"
       },
       {
         "answer": "T"
       },
       {
-        "answer": "C"
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "I",
+        "answer": "P",
         "number": 6
       },
       {
-        "answer": "K"
+        "answer": "R"
       },
       {
-        "answer": "E"
+        "answer": "I"
       },
       {
-        "answer": "A"
+        "answer": "O"
       },
-      null,
+      {
+        "answer": "R"
+      },
       {
         "answer": "E",
         "number": 7
       },
       {
+        "answer": "M"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "J"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "Z",
+        "number": 8
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "N"
+      },
+      {
         "answer": "A"
       },
       {
-        "answer": "R"
-      },
-      null,
-      null
+        "answer": "P"
+      }
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "POD",
-          "clue": "Pea holder",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "HERO",
-          "clue": "Sub",
+          "answer": "FURS",
+          "clue": "Astor's wares",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "PATCH",
-          "clue": "Place to pick a pumpkin",
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "ONIT",
+          "clue": "'Will do'",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 3,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "answer": "IKEA",
-          "clue": "Furniture brand",
+          "length": 5,
+          "answer": "PRIOR",
+          "clue": "Earlier arrest",
           "source": "dataset"
         },
         {
           "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "EMOJI",
+          "clue": "Text adornment",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
           "row": 4,
           "col": 0,
-          "length": 3,
-          "answer": "EAR",
-          "clue": "Sensor",
-          "source": "dataset"
+          "length": 5,
+          "answer": "ZSNAP",
+          "clue": "Sassy finger-snap gesture, in a Z shape",
+          "source": "written"
         }
       ],
       "down": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "PETER",
-          "clue": "Kid-lit rabbit",
+          "answer": "FORMS",
+          "clue": "Application documents",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "ORCA",
-          "clue": "Huge dolphin",
+          "col": 2,
+          "length": 5,
+          "answer": "UNION",
+          "clue": "Wedding",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 3,
-          "answer": "DOH",
-          "clue": "Homer's holler",
+          "col": 3,
+          "length": 5,
+          "answer": "RIOJA",
+          "clue": "Spanish red wine",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "HAKA",
-          "clue": "Maori dance",
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "STRIP",
+          "clue": "Slice of bacon",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 6,
           "row": 2,
           "col": 0,
           "length": 3,
-          "answer": "PIE",
-          "clue": "Chart genre",
+          "answer": "PEZ",
+          "clue": "Candy in dispensers",
           "source": "dataset"
         }
       ]

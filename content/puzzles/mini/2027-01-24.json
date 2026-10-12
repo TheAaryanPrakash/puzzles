@@ -3,81 +3,77 @@
     "size": 5,
     "cells": [
       {
-        "answer": "P",
+        "answer": "A",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "R",
         "number": 2
       },
       {
-        "answer": "N",
+        "answer": "M",
         "number": 3
       },
-      {
-        "answer": "G",
-        "number": 4
-      },
+      null,
       null,
       {
-        "answer": "A",
-        "number": 5
+        "answer": "T",
+        "number": 4
       },
       {
-        "answer": "B"
+        "answer": "E"
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "U"
+        "answer": "E"
       },
       {
         "answer": "T",
+        "number": 5
+      },
+      {
+        "answer": "H",
         "number": 6
       },
       {
-        "answer": "C",
+        "answer": "V",
         "number": 7
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "O"
       },
       {
         "answer": "I"
       },
       {
-        "answer": "R"
-      },
-      {
-        "answer": "K",
-        "number": 8
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "N"
-      },
-      {
         "answer": "D"
+      },
+      {
+        "answer": "E"
       },
       {
         "answer": "O"
       },
       null,
       {
-        "answer": "R",
+        "answer": "G",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "N",
         "number": 9
       },
       {
-        "answer": "E"
+        "answer": "Y"
       },
       {
-        "answer": "E"
+        "answer": "P"
       },
       {
         "answer": "D"
@@ -89,18 +85,18 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 4,
-          "answer": "PANG",
-          "clue": "Guilty feeling",
+          "length": 3,
+          "answer": "ARM",
+          "clue": "Branch",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "ABOUT",
-          "clue": "Up and ___",
+          "answer": "TEETH",
+          "clue": "Canines, e.g",
           "source": "dataset"
         },
         {
@@ -108,17 +104,17 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "CHOIR",
-          "clue": "Singing group",
+          "answer": "VIDEO",
+          "clue": "YouTube posting",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "KONDO",
-          "clue": "'Tidying Up' expert Marie",
+          "col": 1,
+          "length": 4,
+          "answer": "GAME",
+          "clue": "Pastime",
           "source": "dataset"
         },
         {
@@ -126,8 +122,8 @@
           "row": 4,
           "col": 1,
           "length": 4,
-          "answer": "REED",
-          "clue": "Oboe part",
+          "answer": "NYPD",
+          "clue": "'Brooklyn Nine-Nine' org",
           "source": "dataset"
         }
       ],
@@ -136,9 +132,9 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 4,
-          "answer": "PACK",
-          "clue": "Group of wolves or lies",
+          "length": 3,
+          "answer": "ATV",
+          "clue": "Off-roader's wheels",
           "source": "dataset"
         },
         {
@@ -146,8 +142,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "ABHOR",
-          "clue": "Detest",
+          "answer": "REIGN",
+          "clue": "Monarch's term",
           "source": "dataset"
         },
         {
@@ -155,17 +151,17 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "NOONE",
-          "clue": "Whom a leader trails",
-          "source": "dataset"
+          "answer": "MEDAY",
+          "clue": "Spa day for oneself, informally",
+          "source": "written"
         },
         {
-          "number": 4,
-          "row": 0,
+          "number": 5,
+          "row": 1,
           "col": 3,
-          "length": 5,
-          "answer": "GUIDE",
-          "clue": "Museum tour leader",
+          "length": 4,
+          "answer": "TEMP",
+          "clue": "Casual worker",
           "source": "dataset"
         },
         {
@@ -173,8 +169,8 @@
           "row": 1,
           "col": 4,
           "length": 4,
-          "answer": "TROD",
-          "clue": "Walked (on)",
+          "answer": "HOED",
+          "clue": "Did some weed work",
           "source": "dataset"
         }
       ]
@@ -189,75 +185,79 @@
         "number": 1
       },
       {
-        "answer": "I",
+        "answer": "L",
         "number": 2
       },
       {
-        "answer": "S",
+        "answer": "Y",
         "number": 3
-      },
-      {
-        "answer": "H",
-        "number": 4
       },
       null,
       {
-        "answer": "E",
-        "number": 5
+        "answer": "F",
+        "number": 4
       },
       {
         "answer": "R"
+      },
+      {
+        "answer": "U"
       },
       {
         "answer": "I"
       },
       {
-        "answer": "E"
+        "answer": "T",
+        "number": 5
       },
       {
-        "answer": "B",
+        "answer": "L",
         "number": 6
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
       },
       {
         "answer": "R"
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "X"
-      },
-      {
-        "answer": "Y",
+        "answer": "A",
         "number": 7
+      },
+      {
+        "answer": "T"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "N"
-      },
-      {
-        "answer": "G"
-      },
-      null,
-      {
-        "answer": "E",
-        "number": 8
-      },
-      {
         "answer": "L"
-      },
-      {
-        "answer": "S"
       },
       {
         "answer": "E"
       },
-      null
+      {
+        "answer": "W",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "S"
+      }
     ],
     "clues": {
       "across": [
@@ -265,18 +265,18 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 4,
-          "answer": "FISH",
-          "clue": "Pike or perch",
+          "length": 3,
+          "answer": "FLY",
+          "clue": "Travel by jet",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "ERIE",
-          "clue": "One of HOMES",
+          "col": 0,
+          "length": 5,
+          "answer": "FRUIT",
+          "clue": "___ fly",
           "source": "dataset"
         },
         {
@@ -284,26 +284,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "BRONX",
-          "clue": "Birthplace of hip-hop",
+          "answer": "LINER",
+          "clue": "Ship",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 4,
-          "answer": "YANG",
-          "clue": "Cristina ___, Sandra Oh's \"Grey's Anatomy\" role",
+          "length": 5,
+          "answer": "ATALE",
+          "clue": "\"___ of Two Cities\"",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "ELSE",
-          "clue": "Choice word",
+          "length": 5,
+          "answer": "WORDS",
+          "clue": "'___ fail me'",
           "source": "dataset"
         }
       ],
@@ -313,8 +313,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "FERAL",
-          "clue": "Unbroken",
+          "answer": "FRITO",
+          "clue": "Brand-name corn chip",
           "source": "dataset"
         },
         {
@@ -322,8 +322,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "IRONS",
-          "clue": "Clubs at clubs",
+          "answer": "LUNAR",
+          "clue": "Moon-related",
           "source": "dataset"
         },
         {
@@ -331,26 +331,26 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "SINGE",
-          "clue": "Burn slightly",
+          "answer": "YIELD",
+          "clue": "Submit",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 3,
-          "answer": "HEX",
-          "clue": "Magical curse",
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "FLAW",
+          "clue": "Imper-fection",
           "source": "dataset"
         },
         {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "answer": "BYE",
-          "clue": "\"Later\"",
+          "number": 5,
+          "row": 1,
+          "col": 4,
+          "length": 4,
+          "answer": "TRES",
+          "clue": "Uno + dos",
           "source": "dataset"
         }
       ]

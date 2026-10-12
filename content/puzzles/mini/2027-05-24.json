@@ -3,74 +3,79 @@
     "size": 5,
     "cells": [
       null,
-      null,
       {
-        "answer": "T",
+        "answer": "P",
         "number": 1
       },
       {
-        "answer": "I",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "C",
+        "answer": "T",
         "number": 3
+      },
+      {
+        "answer": "S",
+        "number": 4
       },
       null,
       {
-        "answer": "J",
-        "number": 4
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "J",
+        "answer": "O",
         "number": 5
       },
       {
-        "answer": "I"
+        "answer": "L"
       },
       {
-        "answer": "F"
-      },
-      {
-        "answer": "F"
+        "answer": "A"
       },
       {
         "answer": "Y"
       },
       {
-        "answer": "A",
+        "answer": "F",
         "number": 6
       },
       {
         "answer": "L"
       },
       {
-        "answer": "T"
+        "answer": "A"
       },
       {
-        "answer": "O"
-      },
-      null,
-      {
-        "answer": "M",
-        "number": 7
-      },
-      {
-        "answer": "L"
+        "answer": "P"
       },
       {
         "answer": "S"
       },
+      {
+        "answer": "O",
+        "number": 7
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
+      },
       null,
+      {
+        "answer": "R",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "S"
+      },
       null
     ],
     "clues": {
@@ -78,46 +83,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "TIC",
-          "clue": "___-tac-toe",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "JUNO",
-          "clue": "Hera's Roman counterpart",
+          "answer": "PATS",
+          "clue": "Taps gently",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "JIFFY",
-          "clue": "Blink of an eye",
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "OLAY",
+          "clue": "Lotion brand",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 3,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "answer": "ALTO",
-          "clue": "Sax range",
+          "length": 5,
+          "answer": "FLAPS",
+          "clue": "Envelope parts",
           "source": "dataset"
         },
         {
           "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "OKRA",
+          "clue": "Gumbo",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
           "row": 4,
           "col": 0,
-          "length": 3,
-          "answer": "MLS",
-          "clue": "Sports group that includes the L.A. Galaxy",
+          "length": 4,
+          "answer": "RAMS",
+          "clue": "Woolly dads",
           "source": "dataset"
         }
       ],
@@ -125,46 +130,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "TUFTS",
-          "clue": "Clumps",
+          "answer": "POLKA",
+          "clue": "LP ok playing a dance",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "INFO",
-          "clue": "Data",
+          "col": 2,
+          "length": 5,
+          "answer": "ALARM",
+          "clue": "Danger signal",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 3,
-          "answer": "COY",
-          "clue": "Affectedly shy",
+          "col": 3,
+          "length": 5,
+          "answer": "TAPAS",
+          "clue": "___ bar",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "JILL",
-          "clue": "Character also falling sick after Jack (wordplay)",
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "SYS",
+          "clue": "Method abbreviation",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 6,
           "row": 2,
           "col": 0,
           "length": 3,
-          "answer": "JAM",
-          "clue": "Toast spread",
+          "answer": "FOR",
+          "clue": "___ once",
           "source": "dataset"
         }
       ]
@@ -174,55 +179,57 @@
     "size": 5,
     "cells": [
       null,
-      null,
       {
-        "answer": "V",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "I",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "S",
+        "answer": "D",
         "number": 3
       },
       null,
+      null,
       {
-        "answer": "B",
+        "answer": "U",
         "number": 4
+      },
+      {
+        "answer": "S"
       },
       {
         "answer": "A"
       },
+      null,
       {
-        "answer": "C"
-      },
-      {
-        "answer": "K"
-      },
-      {
-        "answer": "R",
+        "answer": "B",
         "number": 5
       },
       {
         "answer": "E"
       },
       {
-        "answer": "L"
-      },
-      {
         "answer": "A"
       },
       {
-        "answer": "Y"
+        "answer": "R"
       },
       {
-        "answer": "U",
+        "answer": "D",
         "number": 6
       },
       {
-        "answer": "S"
+        "answer": "U",
+        "number": 7
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "D"
       },
       {
         "answer": "E"
@@ -230,40 +237,41 @@
       {
         "answer": "R"
       },
-      null,
       {
-        "answer": "N",
-        "number": 7
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "T"
+        "answer": "B",
+        "number": 8
       },
       {
         "answer": "E"
       },
-      null
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "S"
+      }
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 3,
-          "answer": "VIS",
-          "clue": "\"___ for Vengeance\" (Grafton book)",
+          "answer": "SAD",
+          "clue": "Low",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
-          "length": 4,
-          "answer": "BACK",
-          "clue": "Browser command",
+          "length": 3,
+          "answer": "USA",
+          "clue": "___ Today",
           "source": "dataset"
         },
         {
@@ -271,26 +279,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "RELAY",
-          "clue": "Track race",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 3,
-          "col": 0,
-          "length": 4,
-          "answer": "USER",
-          "clue": "Patron",
+          "answer": "BEARD",
+          "clue": "Chin warmer",
           "source": "dataset"
         },
         {
           "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "UDDER",
+          "clue": "Source of milk",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "NOTE",
-          "clue": "Mark down",
+          "length": 5,
+          "answer": "BEARS",
+          "clue": "Den group",
           "source": "dataset"
         }
       ],
@@ -298,37 +306,28 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "VALET",
-          "clue": "One moving to a lot",
+          "answer": "SUEDE",
+          "clue": "Type of leather",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
+          "col": 2,
           "length": 5,
-          "answer": "ICARE",
-          "clue": "'It matters to me'",
+          "answer": "ASADA",
+          "clue": "Carne ___",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 3,
-          "answer": "SKY",
-          "clue": "Firmament",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "BESO",
-          "clue": "Kiss, in Spanish",
+          "col": 3,
+          "length": 5,
+          "answer": "DARER",
+          "clue": "Risk-taking type",
           "source": "dataset"
         },
         {
@@ -336,8 +335,17 @@
           "row": 2,
           "col": 0,
           "length": 3,
-          "answer": "RUN",
-          "clue": "Flee",
+          "answer": "BUB",
+          "clue": "Condescending term of address",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "answer": "DRS",
+          "clue": "MDs",
           "source": "dataset"
         }
       ]

@@ -4,81 +4,77 @@
     "cells": [
       null,
       {
-        "answer": "G",
+        "answer": "T",
         "number": 1
       },
       {
-        "answer": "N",
+        "answer": "H",
         "number": 2
       },
       {
-        "answer": "A",
+        "answer": "E",
         "number": 3
       },
+      null,
       {
-        "answer": "T",
+        "answer": "W",
         "number": 4
       },
       {
-        "answer": "F",
+        "answer": "H"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "K",
         "number": 5
       },
       {
-        "answer": "L"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "L",
+        "answer": "E",
         "number": 6
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "O",
-        "number": 7
       },
       {
         "answer": "R"
       },
       {
-        "answer": "G"
-      },
-      {
-        "answer": "A"
-      },
-      {
         "answer": "N"
       },
       {
-        "answer": "P",
+        "answer": "I"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "B",
+        "number": 7
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "Y"
+      },
+      null,
+      {
+        "answer": "M",
         "number": 8
       },
       {
         "answer": "E"
       },
       {
-        "answer": "E"
-      },
-      {
-        "answer": "S"
+        "answer": "N"
       },
       null
     ],
@@ -88,18 +84,18 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 4,
-          "answer": "GNAT",
-          "clue": "Teeny fly",
+          "length": 3,
+          "answer": "THE",
+          "clue": "Part of OTC",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "FLUTE",
-          "clue": "One may be raised at a wedding",
+          "answer": "WHISK",
+          "clue": "Alternative to an eggbeater",
           "source": "dataset"
         },
         {
@@ -107,8 +103,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "LADLE",
-          "clue": "Tureen accessory",
+          "answer": "ERNIE",
+          "clue": "Golfer Els",
           "source": "dataset"
         },
         {
@@ -116,17 +112,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "ORGAN",
-          "clue": "Body part",
-          "source": "dataset"
+          "answer": "BUGGY",
+          "clue": "Horse-drawn carriage",
+          "source": "written"
         },
         {
           "number": 8,
           "row": 4,
-          "col": 0,
-          "length": 4,
-          "answer": "PEES",
-          "clue": "Repeated things in 'Peter Piper picked a peck of pickled peppers'",
+          "col": 1,
+          "length": 3,
+          "answer": "MEN",
+          "clue": "Hes",
           "source": "dataset"
         }
       ],
@@ -136,8 +132,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "GLARE",
-          "clue": "Nasty look",
+          "answer": "THRUM",
+          "clue": "Drone with loose filament",
           "source": "dataset"
         },
         {
@@ -145,8 +141,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "NUDGE",
-          "clue": "Push gently",
+          "answer": "HINGE",
+          "clue": "Door piece",
           "source": "dataset"
         },
         {
@@ -154,26 +150,26 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "ATLAS",
-          "clue": "Map collection",
+          "answer": "ESIGN",
+          "clue": "Complete, as a PDF contract",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "TEEN",
-          "clue": "___ Vogue",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "WEB",
+          "clue": "Network; mesh",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "FLOP",
-          "clue": "Turkey",
+          "col": 4,
+          "length": 3,
+          "answer": "KEY",
+          "clue": "Tab, say",
           "source": "dataset"
         }
       ]
@@ -183,85 +179,87 @@
     "size": 5,
     "cells": [
       {
-        "answer": "F",
+        "answer": "T",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "E",
         "number": 2
       },
       {
-        "answer": "T",
+        "answer": "C",
         "number": 3
       },
       {
-        "answer": "E",
+        "answer": "H",
         "number": 4
       },
-      null,
       {
-        "answer": "E",
+        "answer": "Y",
         "number": 5
+      },
+      {
+        "answer": "W",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "A",
+        "number": 7
       },
       {
         "answer": "G"
       },
       {
-        "answer": "Y"
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "T",
-        "number": 6
-      },
-      {
-        "answer": "D",
-        "number": 7
-      },
-      {
         "answer": "I"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "S",
-        "number": 8
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "P"
-      },
-      null,
-      {
-        "answer": "A",
-        "number": 9
       },
       {
         "answer": "N"
       },
       {
-        "answer": "T"
+        "answer": "G"
       },
       {
-        "answer": "S"
-      }
+        "answer": "N",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "G",
+        "number": 9
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "Y"
+      },
+      null
     ],
     "clues": {
       "across": [
@@ -269,18 +267,18 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 4,
-          "answer": "FATE",
-          "clue": "Kismet",
+          "length": 5,
+          "answer": "TECHY",
+          "clue": "Skilled with computers",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 6,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "EGYPT",
-          "clue": "Land of the Pharaohs",
+          "answer": "WAHOO",
+          "clue": "Western \"Yay!\"",
           "source": "dataset"
         },
         {
@@ -288,8 +286,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "DISCO",
-          "clue": "70s nightclub",
+          "answer": "AGING",
+          "clue": "Growing old",
           "source": "dataset"
         },
         {
@@ -297,17 +295,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "STOOP",
-          "clue": "Front steps",
+          "answer": "NEMEA",
+          "clue": "Site of Hercules' first labor",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 1,
+          "col": 0,
           "length": 4,
-          "answer": "ANTS",
-          "clue": "Wee workers",
+          "answer": "GREY",
+          "clue": "Zane ___, US novelist",
           "source": "dataset"
         }
       ],
@@ -316,9 +314,9 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 4,
-          "answer": "FEDS",
-          "clue": "Ottawa types (wordplay)",
+          "length": 5,
+          "answer": "TWANG",
+          "clue": "Sharp vibrating sound",
           "source": "dataset"
         },
         {
@@ -326,8 +324,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "AGITA",
-          "clue": "Nervous stress",
+          "answer": "EAGER",
+          "clue": "Zealous",
           "source": "dataset"
         },
         {
@@ -335,8 +333,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "TYSON",
-          "clue": "\"Iron Mike\" in the ring",
+          "answer": "CHIME",
+          "clue": "\"Westminster\" clock sound",
           "source": "dataset"
         },
         {
@@ -344,17 +342,17 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "EPCOT",
-          "clue": "Florida theme park",
+          "answer": "HONEY",
+          "clue": "Produce of bees",
           "source": "dataset"
         },
         {
-          "number": 6,
-          "row": 1,
+          "number": 5,
+          "row": 0,
           "col": 4,
           "length": 4,
-          "answer": "TOPS",
-          "clue": "The best",
+          "answer": "YOGA",
+          "clue": "Tranquil practice",
           "source": "dataset"
         }
       ]

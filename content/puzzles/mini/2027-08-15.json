@@ -3,58 +3,60 @@
     "size": 5,
     "cells": [
       null,
-      null,
       {
-        "answer": "B",
+        "answer": "C",
         "number": 1
       },
       {
-        "answer": "U",
+        "answer": "L",
         "number": 2
       },
       {
-        "answer": "S",
+        "answer": "U",
         "number": 3
       },
       {
-        "answer": "S",
+        "answer": "E",
         "number": 4
       },
       {
-        "answer": "H",
+        "answer": "B",
         "number": 5
-      },
-      {
-        "answer": "A"
       },
       {
         "answer": "R"
       },
       {
-        "answer": "K"
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "X"
       },
       {
         "answer": "L",
         "number": 6
       },
       {
-        "answer": "U"
+        "answer": "A"
       },
       {
-        "answer": "I"
+        "answer": "R"
       },
       {
         "answer": "G"
       },
       {
-        "answer": "I"
+        "answer": "E"
       },
       {
-        "answer": "O",
+        "answer": "A",
         "number": 7
       },
       {
-        "answer": "L"
+        "answer": "N"
       },
       {
         "answer": "D"
@@ -63,20 +65,20 @@
         "answer": "E"
       },
       {
-        "answer": "N"
+        "answer": "S"
       },
       {
-        "answer": "P",
+        "answer": "B",
         "number": 8
       },
       {
-        "answer": "L"
+        "answer": "E"
       },
       {
-        "answer": "U"
+        "answer": "E"
       },
       {
-        "answer": "S"
+        "answer": "R"
       },
       null
     ],
@@ -85,19 +87,19 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "BUS",
-          "clue": "Conveyance",
+          "col": 1,
+          "length": 4,
+          "answer": "CLUE",
+          "clue": "This is one",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "SHARK",
-          "clue": "\"Jaws\" villain",
+          "answer": "BRONX",
+          "clue": "Birthplace of hip-hop",
           "source": "dataset"
         },
         {
@@ -105,8 +107,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "LUIGI",
-          "clue": "'Mario Is Missing!' hero",
+          "answer": "LARGE",
+          "clue": "Sizeable",
           "source": "dataset"
         },
         {
@@ -114,8 +116,8 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "OLDEN",
-          "clue": "Long-ago",
+          "answer": "ANDES",
+          "clue": "Southern range",
           "source": "dataset"
         },
         {
@@ -123,8 +125,8 @@
           "row": 4,
           "col": 0,
           "length": 4,
-          "answer": "PLUS",
-          "clue": "Added to",
+          "answer": "BEER",
+          "clue": "Bar brew",
           "source": "dataset"
         }
       ],
@@ -132,91 +134,106 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "BAIDU",
-          "clue": "China's leading search engine",
-          "source": "written"
+          "answer": "CRANE",
+          "clue": "Large wader",
+          "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
+          "col": 2,
           "length": 5,
-          "answer": "URGES",
-          "clue": "Longings",
+          "answer": "LORDE",
+          "clue": "'Royals' singer",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "SKIN",
-          "clue": "Epidermis",
+          "col": 3,
+          "length": 5,
+          "answer": "UNGER",
+          "clue": "Felix of 'The Odd Couple'",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
+          "row": 0,
+          "col": 4,
           "length": 4,
-          "answer": "SLOP",
-          "clue": "Sty chow",
+          "answer": "EXES",
+          "clue": "Old flames",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 1,
+          "col": 0,
           "length": 4,
-          "answer": "HULL",
-          "clue": "Body of a ship",
+          "answer": "BLAB",
+          "clue": "Gossip",
           "source": "dataset"
         }
       ]
     }
   },
   "reserve": {
-    "size": 5,
+    "size": 7,
     "cells": [
       null,
-      null,
       {
-        "answer": "W",
+        "answer": "I",
         "number": 1
       },
       {
-        "answer": "H",
+        "answer": "R",
         "number": 2
       },
       {
-        "answer": "Y",
+        "answer": "I",
         "number": 3
       },
       {
-        "answer": "Q",
+        "answer": "S",
         "number": 4
       },
       {
-        "answer": "U",
+        "answer": "H",
         "number": 5
       },
+      null,
+      null,
       {
-        "answer": "E"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "U",
+        "answer": "M",
         "number": 6
       },
       {
-        "answer": "S"
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "A"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "K"
       },
       {
         "answer": "E"
@@ -225,35 +242,84 @@
         "answer": "R"
       },
       {
-        "answer": "S"
+        "answer": "S",
+        "number": 8
       },
       {
-        "answer": "I",
-        "number": 7
+        "answer": "E",
+        "number": 9
       },
       {
-        "answer": "N"
+        "answer": "G"
       },
       {
-        "answer": "D"
+        "answer": "G"
+      },
+      null,
+      {
+        "answer": "P",
+        "number": 10
+      },
+      {
+        "answer": "R"
       },
       {
         "answer": "O"
       },
+      {
+        "answer": "C",
+        "number": 11
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "X",
+        "number": 12
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "X"
+      },
       null,
       {
-        "answer": "Z",
-        "number": 8
+        "answer": "T",
+        "number": 13
       },
       {
-        "answer": "A"
+        "answer": "R"
       },
       {
-        "answer": "Y"
+        "answer": "I"
       },
       {
-        "answer": "N"
+        "answer": "O"
       },
+      {
+        "answer": "S"
+      },
+      null,
+      null,
+      null,
+      {
+        "answer": "S",
+        "number": 14
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "M"
+      },
+      null,
       null
     ],
     "clues": {
@@ -261,93 +327,147 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "WHY",
-          "clue": "Wondering word",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 0,
+          "col": 1,
           "length": 5,
-          "answer": "QUEUE",
-          "clue": "Tailback",
+          "answer": "IRISH",
+          "clue": "___ wolfhound",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
-          "col": 0,
+          "row": 1,
+          "col": 1,
           "length": 5,
-          "answer": "USERS",
-          "clue": "App buyers",
+          "answer": "MANTA",
+          "clue": "Gliding ray",
           "source": "dataset"
         },
         {
           "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "SINKERS",
+          "clue": "Breaking baseball pitches",
+          "source": "written"
+        },
+        {
+          "number": 9,
           "row": 3,
           "col": 0,
-          "length": 4,
-          "answer": "INDO",
-          "clue": "- -European",
+          "length": 3,
+          "answer": "EGG",
+          "clue": "Easter find",
           "source": "dataset"
         },
         {
-          "number": 8,
+          "number": 10,
+          "row": 3,
+          "col": 4,
+          "length": 3,
+          "answer": "PRO",
+          "clue": "Backing",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "ZAYN",
-          "clue": "___ Malik, former One Direction member",
+          "length": 7,
+          "answer": "CHEXMIX",
+          "clue": "Snack mix with pretzels and cereal",
           "source": "written"
+        },
+        {
+          "number": 13,
+          "row": 5,
+          "col": 1,
+          "length": 5,
+          "answer": "TRIOS",
+          "clue": "Some jazz combos",
+          "source": "dataset"
+        },
+        {
+          "number": 14,
+          "row": 6,
+          "col": 2,
+          "length": 3,
+          "answer": "SIM",
+          "clue": "Virtual-city denizen",
+          "source": "dataset"
         }
       ],
       "down": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "WEEDY",
-          "clue": "Like untended gardens",
+          "col": 1,
+          "length": 6,
+          "answer": "IMIGHT",
+          "clue": "\"Haven't decided for sure\"",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "HURON",
-          "clue": "Great Lake",
+          "col": 2,
+          "length": 7,
+          "answer": "RANGERS",
+          "clue": "Player ultimately provokes Scots side",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
+          "col": 3,
           "length": 3,
-          "answer": "YES",
-          "clue": "OK",
+          "answer": "INK",
+          "clue": "Sign",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "QUIZ",
-          "clue": "Competition to test knowledge",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "STEPMOM",
+          "clue": "Blended family member",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "USNA",
-          "clue": "School whose seal features a trident",
+          "row": 0,
+          "col": 5,
+          "length": 6,
+          "answer": "HARRIS",
+          "clue": "One of three in a boat somewhere off the Scottish mainland",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "SEC",
+          "clue": "Moment",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 2,
+          "col": 6,
+          "length": 3,
+          "answer": "SOX",
+          "clue": "Chicago White -",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 4,
+          "col": 3,
+          "length": 3,
+          "answer": "XII",
+          "clue": "VI doubled",
           "source": "dataset"
         }
       ]

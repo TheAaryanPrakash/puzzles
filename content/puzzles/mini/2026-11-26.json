@@ -3,216 +3,38 @@
     "size": 5,
     "cells": [
       null,
-      null,
       {
-        "answer": "F",
+        "answer": "G",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "N",
         "number": 2
       },
       {
-        "answer": "R",
+        "answer": "A",
         "number": 3
       },
       {
-        "answer": "S",
+        "answer": "T",
         "number": 4
       },
       {
-        "answer": "P",
+        "answer": "F",
         "number": 5
       },
       {
-        "answer": "A"
+        "answer": "L"
       },
       {
-        "answer": "C"
+        "answer": "U"
+      },
+      {
+        "answer": "T"
       },
       {
         "answer": "E"
       },
-      {
-        "answer": "T",
-        "number": 6
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "A",
-        "number": 7
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "R",
-        "number": 8
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "Y"
-      },
-      null,
-      null
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "FAR",
-          "clue": "Remote",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "SPACE",
-          "clue": "Room; gap",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "TITAN",
-          "clue": "Industry giant",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "ASTRO",
-          "clue": "Texas player",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 4,
-          "col": 0,
-          "length": 3,
-          "answer": "RAY",
-          "clue": "Manta ___",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "FATTY",
-          "clue": "___ acids",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "ACAR",
-          "clue": "Rent-___ (Budget business)",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "RENO",
-          "clue": "Nevada city",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "STAR",
-          "clue": "Asterisk",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "PISA",
-          "clue": "Tuscan tower town",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 7,
-    "cells": [
-      null,
-      null,
-      {
-        "answer": "M",
-        "number": 1
-      },
-      {
-        "answer": "E",
-        "number": 2
-      },
-      {
-        "answer": "W",
-        "number": 3
-      },
-      null,
-      null,
-      null,
-      {
-        "answer": "M",
-        "number": 4
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "S",
-        "number": 5
-      },
-      null,
       {
         "answer": "L",
         "number": 6
@@ -221,55 +43,7 @@
         "answer": "A"
       },
       {
-        "answer": "S"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "A",
-        "number": 7
-      },
-      {
-        "answer": "I",
-        "number": 8
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "C"
-      },
-      null,
-      {
-        "answer": "G",
-        "number": 9
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "S",
-        "number": 10
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "N",
-        "number": 11
+        "answer": "D"
       },
       {
         "answer": "L"
@@ -278,43 +52,34 @@
         "answer": "E"
       },
       {
-        "answer": "Y"
-      },
-      {
-        "answer": "A",
-        "number": 12
-      },
-      {
-        "answer": "I"
+        "answer": "O",
+        "number": 7
       },
       {
         "answer": "R"
       },
       {
-        "answer": "I"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "R"
-      },
-      null,
-      null,
-      {
-        "answer": "S",
-        "number": 13
+        "answer": "G"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "T"
+        "answer": "N"
+      },
+      {
+        "answer": "P",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
       },
       {
         "answer": "S"
       },
-      null,
       null
     ],
     "clues": {
@@ -322,73 +87,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "MEW",
-          "clue": "Kitten cry",
+          "col": 1,
+          "length": 4,
+          "answer": "GNAT",
+          "clue": "Teeny fly",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
-          "col": 1,
+          "col": 0,
           "length": 5,
-          "answer": "MARIS",
-          "clue": "He hit 61 in '61",
+          "answer": "FLUTE",
+          "clue": "One may be raised at a wedding",
           "source": "dataset"
         },
         {
           "number": 6,
           "row": 2,
           "col": 0,
-          "length": 7,
-          "answer": "LASAGNA",
-          "clue": "Garfield's favorite dish",
+          "length": 5,
+          "answer": "LADLE",
+          "clue": "Tureen accessory",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "ORGAN",
+          "clue": "Body part",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 3,
-          "answer": "INC",
-          "clue": "Mag for execs",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
-          "row": 3,
-          "col": 4,
-          "length": 3,
-          "answer": "GEM",
-          "clue": "Setting item",
-          "source": "dataset"
-        },
-        {
-          "number": 10,
           "row": 4,
           "col": 0,
-          "length": 7,
-          "answer": "STANLEY",
-          "clue": "Lord with a namesake sports trophy",
-          "source": "dataset"
-        },
-        {
-          "number": 12,
-          "row": 5,
-          "col": 0,
-          "length": 6,
-          "answer": "AIRIER",
-          "clue": "Better ventilated",
-          "source": "dataset"
-        },
-        {
-          "number": 13,
-          "row": 6,
-          "col": 1,
           "length": 4,
-          "answer": "SATS",
-          "clue": "Coll. admissions exams",
+          "answer": "PEES",
+          "clue": "Repeated things in 'Peter Piper picked a peck of pickled peppers'",
           "source": "dataset"
         }
       ],
@@ -396,73 +134,226 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 7,
-          "answer": "MASCARA",
-          "clue": "Cosmetic mum used to conceal a blemish",
+          "col": 1,
+          "length": 5,
+          "answer": "GLARE",
+          "clue": "Nasty look",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 3,
-          "answer": "ERA",
-          "clue": "Big time",
+          "col": 2,
+          "length": 5,
+          "answer": "NUDGE",
+          "clue": "Push gently",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 7,
-          "answer": "WIGGLES",
-          "clue": "Squirms",
-          "source": "written"
+          "col": 3,
+          "length": 5,
+          "answer": "ATLAS",
+          "clue": "Map collection",
+          "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 6,
-          "answer": "MANTIS",
-          "clue": "Six-footer's remarkable stamina ___ there's only one answer to that!",
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "TEEN",
+          "clue": "___ Vogue",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 5,
+          "col": 0,
+          "length": 4,
+          "answer": "FLOP",
+          "clue": "Turkey",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "H",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "W",
+        "number": 3
+      },
+      {
+        "answer": "K",
+        "number": 4
+      },
+      {
+        "answer": "M",
+        "number": 5
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "D",
+        "number": 7
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "V"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E",
+        "number": 8
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "HAWK",
+          "clue": "War supporter",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
           "length": 5,
-          "answer": "SNEER",
-          "clue": "Vile smile",
+          "answer": "MULAN",
+          "clue": "Disney film based on a Chinese legend",
           "source": "dataset"
         },
         {
           "number": 6,
           "row": 2,
           "col": 0,
-          "length": 4,
-          "answer": "LISA",
-          "clue": "The \"Mona ___\"",
+          "length": 5,
+          "answer": "AMIGO",
+          "clue": "\"Hombre\" pal",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 2,
-          "col": 6,
-          "length": 3,
-          "answer": "AMY",
-          "clue": "Author Tan",
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "DIVOT",
+          "clue": "Golfer's gouge",
           "source": "dataset"
         },
         {
-          "number": 11,
+          "number": 8,
           "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "EDEN",
+          "clue": "Home for Eve",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "HUMID",
+          "clue": "Muggy",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "ALIVE",
+          "clue": "Vibrant",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
           "col": 3,
-          "length": 3,
-          "answer": "NIT",
-          "clue": "Petty gripe",
+          "length": 5,
+          "answer": "WAGON",
+          "clue": "Toddler's four-wheeler",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "KNOT",
+          "clue": "Hitch, say",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "MADE",
+          "clue": "Constructed",
           "source": "dataset"
         }
       ]

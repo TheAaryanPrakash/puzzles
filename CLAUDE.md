@@ -13,7 +13,7 @@ A daily puzzle site with 14 games, started as a birthday gift for Sansita (birth
 
 ## Key settings — `src/config.ts` is the single source of truth
 ```ts
-export const LAUNCH_DATE     = "2026-10-17";   // first playable day
+export const LAUNCH_DATE     = "2026-10-12";   // first playable day
 export const BIRTHDAY        = "2027-01-23";   // finale day
 export const SCHEDULE_DAYS   = 365;            // generators write this many days from LAUNCH_DATE
 export const ARCHIVE_CUTOFF  = "2025-04-01";   // archive puzzles must be published before this

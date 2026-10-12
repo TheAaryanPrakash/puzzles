@@ -3,76 +3,88 @@
     "size": 5,
     "cells": [
       {
-        "answer": "V",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "E",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "T",
+        "answer": "L",
         "number": 3
       },
-      null,
-      null,
       {
-        "answer": "E",
+        "answer": "S",
         "number": 4
       },
       {
-        "answer": "X"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S",
+        "answer": "A",
         "number": 5
       },
-      null,
       {
-        "answer": "X",
+        "answer": "P",
         "number": 6
       },
       {
+        "answer": "L"
+      },
+      {
         "answer": "A"
       },
       {
-        "answer": "X"
+        "answer": "T"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "S",
+        "answer": "U",
         "number": 7
       },
-      null,
       {
-        "answer": "M",
-        "number": 8
+        "answer": "L"
+      },
+      {
+        "answer": "N"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "X"
+        "answer": "S"
       },
       {
-        "answer": "I"
+        "answer": "D",
+        "number": 8
       },
-      null,
-      null,
       {
-        "answer": "N",
+        "answer": "O"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "S",
         "number": 9
       },
       {
-        "answer": "Y"
+        "answer": "W"
       },
       {
-        "answer": "X"
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "P"
       }
     ],
     "clues": {
@@ -81,46 +93,46 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 3,
-          "answer": "VET",
-          "clue": "Doggie doc",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "EXES",
-          "clue": "Former spouses",
+          "length": 5,
+          "answer": "SALSA",
+          "clue": "Spicy dip",
           "source": "dataset"
         },
         {
           "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "PLATE",
+          "clue": "Diner serving",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "XAXES",
-          "clue": "Bottom lines (wordplay)",
+          "answer": "ULNAS",
+          "clue": "Wrist-to-elbow bones",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 3,
-          "col": 1,
-          "length": 4,
-          "answer": "MAXI",
-          "clue": "Long dress",
+          "col": 0,
+          "length": 5,
+          "answer": "DOGGO",
+          "clue": "How to lie and not get caught",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 2,
-          "length": 3,
-          "answer": "NYX",
-          "clue": "Greek goddess of night",
-          "source": "written"
+          "col": 0,
+          "length": 5,
+          "answer": "SWEEP",
+          "clue": "Comprehensive search",
+          "source": "dataset"
         }
       ],
       "down": [
@@ -128,18 +140,18 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 3,
-          "answer": "VEX",
-          "clue": "Irritate",
+          "length": 5,
+          "answer": "SPUDS",
+          "clue": "Taters",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
-          "length": 4,
-          "answer": "EXAM",
-          "clue": "Big test",
+          "length": 5,
+          "answer": "ALLOW",
+          "clue": "OK",
           "source": "dataset"
         },
         {
@@ -147,26 +159,26 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "TEXAN",
-          "clue": "Garland resident",
+          "answer": "LANGE",
+          "clue": "Jessica of \"Tootsie\"",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "STAGE",
+          "clue": "Theater",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 3,
-          "length": 4,
-          "answer": "SEXY",
-          "clue": "Hot",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 2,
+          "row": 0,
           "col": 4,
-          "length": 3,
-          "answer": "SIX",
-          "clue": "Number",
+          "length": 5,
+          "answer": "AESOP",
+          "clue": "Famed fabulist",
           "source": "dataset"
         }
       ]
@@ -177,27 +189,25 @@
     "cells": [
       null,
       {
-        "answer": "R",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "I",
         "number": 2
       },
       {
-        "answer": "C",
+        "answer": "N",
         "number": 3
       },
       {
         "answer": "K",
         "number": 4
       },
+      null,
       {
         "answer": "C",
         "number": 5
-      },
-      {
-        "answer": "A"
       },
       {
         "answer": "R"
@@ -206,53 +216,51 @@
         "answer": "O"
       },
       {
-        "answer": "L"
+        "answer": "W"
       },
       {
-        "answer": "O",
+        "answer": "P",
         "number": 6
       },
       {
-        "answer": "B"
+        "answer": "I"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "M"
+        "answer": "N"
       },
       {
-        "answer": "A"
+        "answer": "O"
       },
       {
-        "answer": "A",
+        "answer": "O",
         "number": 7
       },
       {
-        "answer": "B"
+        "answer": "F"
       },
       {
-        "answer": "B"
+        "answer": "T"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "Y"
+        "answer": "N"
       },
       {
-        "answer": "L",
+        "answer": "P",
         "number": 8
       },
       {
         "answer": "I"
       },
       {
-        "answer": "S"
+        "answer": "E"
       },
-      {
-        "answer": "T"
-      },
+      null,
       null
     ],
     "clues": {
@@ -262,17 +270,17 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "RACK",
-          "clue": "Toast holder (wordplay)",
+          "answer": "SINK",
+          "clue": "Drop down",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "CAROL",
-          "clue": "Female name",
+          "col": 1,
+          "length": 4,
+          "answer": "CROW",
+          "clue": "Brag",
           "source": "dataset"
         },
         {
@@ -280,8 +288,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "OBAMA",
-          "clue": "Bush's successor",
+          "answer": "PIANO",
+          "clue": "It can be grand",
           "source": "dataset"
         },
         {
@@ -289,17 +297,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "ABBEY",
-          "clue": "Monk's home",
+          "answer": "OFTEN",
+          "clue": "Many a time",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "LIST",
-          "clue": "Santa checks it",
+          "length": 3,
+          "answer": "PIE",
+          "clue": "Diner treat",
           "source": "dataset"
         }
       ],
@@ -309,8 +317,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "RABBI",
-          "clue": "Temple leader",
+          "answer": "SCIFI",
+          "clue": "Jules Verne genre",
           "source": "dataset"
         },
         {
@@ -318,17 +326,17 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ARABS",
-          "clue": "Riyadh residents",
+          "answer": "IRATE",
+          "clue": "Annoyed",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
           "col": 3,
-          "length": 5,
-          "answer": "COMET",
-          "clue": "Cupid coworker",
+          "length": 4,
+          "answer": "NONE",
+          "clue": "Zero",
           "source": "dataset"
         },
         {
@@ -336,17 +344,17 @@
           "row": 0,
           "col": 4,
           "length": 4,
-          "answer": "KLAY",
-          "clue": "___ Thompson, NBA sharpshooter",
-          "source": "written"
+          "answer": "KWON",
+          "clue": "Tae ___ do",
+          "source": "dataset"
         },
         {
-          "number": 5,
-          "row": 1,
+          "number": 6,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "answer": "COAL",
-          "clue": "Frosty's eyes",
+          "length": 3,
+          "answer": "POP",
+          "clue": "Explode",
           "source": "dataset"
         }
       ]

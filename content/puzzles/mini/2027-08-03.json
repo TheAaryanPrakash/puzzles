@@ -3,23 +3,23 @@
     "size": 5,
     "cells": [
       {
-        "answer": "W",
+        "answer": "V",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "O",
         "number": 2
       },
       {
-        "answer": "V",
+        "answer": "D",
         "number": 3
       },
       {
-        "answer": "E",
+        "answer": "K",
         "number": 4
       },
       {
-        "answer": "S",
+        "answer": "A",
         "number": 5
       },
       {
@@ -27,7 +27,184 @@
         "number": 6
       },
       {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "X",
+        "number": 7
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      null,
+      {
+        "answer": "O",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "K"
+      },
+      null,
+      null,
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
         "answer": "H"
+      },
+      {
+        "answer": "Y"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "VODKA",
+          "clue": "Cosmopolitan spirits",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "ORION",
+          "clue": "Celestial hunter",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "XENON",
+          "clue": "Fifth noble gas",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 3,
+          "answer": "OAK",
+          "clue": "Strong tree",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "SHY",
+          "clue": "Retiring",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "VOX",
+          "clue": "Popular news and opinion site",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "OREOS",
+          "clue": "Longtime cookies",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "DINAH",
+          "clue": "\"Empty Nest\" actress Manoff",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "KOOKY",
+          "clue": "'They're creepy and they're ___' (start of the 'Addams Family' theme song)",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "ANN",
+          "clue": "Raggedy -",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "S",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "L",
+        "number": 3
+      },
+      {
+        "answer": "A",
+        "number": 4
+      },
+      {
+        "answer": "D",
+        "number": 5
+      },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "W"
       },
       {
         "answer": "A"
@@ -39,228 +216,49 @@
         "answer": "E"
       },
       {
-        "answer": "L",
+        "answer": "M",
         "number": 7
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "F",
-        "number": 8
       },
       {
         "answer": "A"
       },
       {
-        "answer": "U"
-      },
-      {
-        "answer": "C"
+        "answer": "R"
       },
       {
         "answer": "I"
       },
-      null,
       {
-        "answer": "D",
-        "number": 9
+        "answer": "A"
       },
       {
-        "answer": "E"
+        "answer": "O",
+        "number": 8
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "G"
       },
       {
         "answer": "A"
       },
       {
         "answer": "N"
-      }
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 0,
-          "length": 5,
-          "answer": "WAVES",
-          "clue": "Choppy waters",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "OHARE",
-          "clue": "Chicago air hub",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "LEGIT",
-          "clue": "Aboveboard",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "FAUCI",
-          "clue": "Infectious disease expert Anthony",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
-          "row": 4,
-          "col": 1,
-          "length": 4,
-          "answer": "DEAN",
-          "clue": "Campus figure",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 0,
-          "length": 4,
-          "answer": "WOLF",
-          "clue": "Gobble (down)",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "AHEAD",
-          "clue": "Upcoming",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "VAGUE",
-          "clue": "Type of neck fit for woolly",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "ERICA",
-          "clue": "Hill of CNN",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 0,
-          "col": 4,
-          "length": 5,
-          "answer": "SETIN",
-          "clue": "Take effect slowly",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 5,
-    "cells": [
-      {
-        "answer": "A",
-        "number": 1
-      },
-      {
-        "answer": "D",
-        "number": 2
       },
       {
         "answer": "A",
-        "number": 3
-      },
-      {
-        "answer": "M",
-        "number": 4
-      },
-      null,
-      {
-        "answer": "D",
-        "number": 5
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "A"
-      },
-      null,
-      {
-        "answer": "S",
-        "number": 6
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "U"
+        "number": 9
       },
       {
         "answer": "D"
       },
       {
-        "answer": "S",
-        "number": 7
-      },
-      null,
-      {
-        "answer": "U",
-        "number": 8
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "H"
-      },
-      null,
-      {
-        "answer": "P",
-        "number": 9
-      },
-      {
         "answer": "E"
       },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "E"
-      }
+      null,
+      null
     ],
     "clues": {
       "across": [
@@ -268,45 +266,45 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 4,
-          "answer": "ADAM",
-          "clue": "First man",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "DACA",
-          "clue": "Policy for \"Dreamers\" abbreviation",
+          "length": 5,
+          "answer": "SALAD",
+          "clue": "___ days",
           "source": "dataset"
         },
         {
           "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "AWARE",
+          "clue": "In the know",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "SPUDS",
-          "clue": "Potatoes",
+          "answer": "MARIA",
+          "clue": "Opera's Callas",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 3,
-          "col": 1,
-          "length": 4,
-          "answer": "UTAH",
-          "clue": "Jazz home",
+          "col": 0,
+          "length": 5,
+          "answer": "ORGAN",
+          "clue": "Heart, for one",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 1,
-          "length": 4,
-          "answer": "PETE",
-          "clue": "Singer Seeger",
+          "col": 0,
+          "length": 3,
+          "answer": "ADE",
+          "clue": "Fruity quaff",
           "source": "dataset"
         }
       ],
@@ -315,9 +313,9 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 3,
-          "answer": "ADS",
-          "clue": "Spots",
+          "length": 5,
+          "answer": "SAMOA",
+          "clue": "Pago Pago setting",
           "source": "dataset"
         },
         {
@@ -325,35 +323,35 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "DAPUP",
-          "clue": "Greet with a fist bump, with 'up'",
-          "source": "written"
+          "answer": "AWARD",
+          "clue": "Trophy",
+          "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ACUTE",
-          "clue": "Critical",
+          "answer": "LARGE",
+          "clue": "Gigantic",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
           "col": 3,
-          "length": 5,
-          "answer": "MADAT",
-          "clue": "Furious with",
+          "length": 4,
+          "answer": "ARIA",
+          "clue": "Stage solo",
           "source": "dataset"
         },
         {
-          "number": 7,
-          "row": 2,
+          "number": 5,
+          "row": 0,
           "col": 4,
-          "length": 3,
-          "answer": "SHE",
-          "clue": "That lass",
+          "length": 4,
+          "answer": "DEAN",
+          "clue": "Campus bigwig",
           "source": "dataset"
         }
       ]

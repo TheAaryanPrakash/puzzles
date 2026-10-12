@@ -3,47 +3,22 @@
     "size": 5,
     "cells": [
       {
-        "answer": "H",
+        "answer": "C",
         "number": 1
       },
       {
-        "answer": "E",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "A",
+        "answer": "R",
         "number": 3
       },
-      {
-        "answer": "R",
-        "number": 4
-      },
-      {
-        "answer": "T",
-        "number": 5
-      },
+      null,
+      null,
       {
         "answer": "A",
-        "number": 6
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "M",
-        "number": 7
-      },
-      {
-        "answer": "O"
+        "number": 4
       },
       {
         "answer": "R"
@@ -52,12 +27,16 @@
         "answer": "A"
       },
       {
-        "answer": "Y"
+        "answer": "B",
+        "number": 5
       },
-      null,
       {
-        "answer": "R",
-        "number": 8
+        "answer": "S",
+        "number": 6
+      },
+      {
+        "answer": "M",
+        "number": 7
       },
       {
         "answer": "E"
@@ -65,19 +44,40 @@
       {
         "answer": "D"
       },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "P",
+        "number": 8
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "I"
+      },
       null,
       null,
       {
-        "answer": "Y",
+        "answer": "R",
         "number": 9
       },
       {
         "answer": "E"
       },
       {
-        "answer": "S"
-      },
-      null
+        "answer": "D"
+      }
     ],
     "clues": {
       "across": [
@@ -85,18 +85,18 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 5,
-          "answer": "HEART",
-          "clue": "Core",
+          "length": 3,
+          "answer": "CAR",
+          "clue": "Lot sight",
           "source": "dataset"
         },
         {
-          "number": 6,
+          "number": 4,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "AMTOO",
-          "clue": "Rebuttal to 'Are not!'",
+          "answer": "ARABS",
+          "clue": "Most Kuwaitis",
           "source": "dataset"
         },
         {
@@ -104,26 +104,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "MORAY",
-          "clue": "Sharp-toothed eel",
+          "answer": "MEDIA",
+          "clue": "FCC's concern",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 3,
-          "col": 1,
-          "length": 3,
-          "answer": "RED",
-          "clue": "Carmine",
-          "source": "dataset"
+          "col": 0,
+          "length": 5,
+          "answer": "PSAKI",
+          "clue": "Jen ___, former White House press secretary",
+          "source": "written"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 1,
+          "col": 2,
           "length": 3,
-          "answer": "YES",
-          "clue": "Not no",
+          "answer": "RED",
+          "clue": "Flushed",
           "source": "dataset"
         }
       ],
@@ -132,18 +132,18 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 3,
-          "answer": "HAM",
-          "clue": "Mugger",
+          "length": 4,
+          "answer": "CAMP",
+          "clue": "Bivouac",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
-          "length": 5,
-          "answer": "EMORY",
-          "clue": "University in Atlanta",
+          "length": 4,
+          "answer": "ARES",
+          "clue": "War god",
           "source": "dataset"
         },
         {
@@ -151,26 +151,26 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ATREE",
-          "clue": "Up ___ (stuck)",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "ROADS",
-          "clue": "Places for medians",
+          "answer": "RADAR",
+          "clue": "Speed detector",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 0,
+          "row": 1,
+          "col": 3,
+          "length": 4,
+          "answer": "BIKE",
+          "clue": "Motocross ride",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
           "col": 4,
-          "length": 3,
-          "answer": "TOY",
-          "clue": "Little dog",
+          "length": 4,
+          "answer": "SAID",
+          "clue": "Mentioned",
           "source": "dataset"
         }
       ]
@@ -180,25 +180,55 @@
     "size": 5,
     "cells": [
       null,
+      null,
       {
         "answer": "P",
         "number": 1
       },
       {
-        "answer": "O",
+        "answer": "I",
         "number": 2
       },
       {
-        "answer": "S",
+        "answer": "G",
         "number": 3
       },
       {
-        "answer": "T",
+        "answer": "R",
         "number": 4
       },
       {
-        "answer": "P",
+        "answer": "A",
         "number": 5
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "K",
+        "number": 7
       },
       {
         "answer": "L"
@@ -210,53 +240,19 @@
         "answer": "T"
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "H",
-        "number": 6
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "N"
+        "answer": "Z"
       },
       {
         "answer": "E",
-        "number": 7
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "W",
         "number": 8
-      },
-      {
-        "answer": "E"
       },
       {
         "answer": "S"
       },
       {
-        "answer": "T"
+        "answer": "S"
       },
+      null,
       null
     ],
     "clues": {
@@ -264,19 +260,19 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "POST",
-          "clue": "Put online",
+          "col": 2,
+          "length": 3,
+          "answer": "PIG",
+          "clue": "Glutton",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "PLUTO",
-          "clue": "Roman god of the underworld",
+          "answer": "RAISE",
+          "clue": "Jack up",
           "source": "dataset"
         },
         {
@@ -284,8 +280,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "HASAN",
-          "clue": "'Patriot Act' host Minhaj",
+          "answer": "ALONE",
+          "clue": "Isolated",
           "source": "dataset"
         },
         {
@@ -293,17 +289,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "ENTRY",
-          "clue": "Contest form",
+          "answer": "KLUTZ",
+          "clue": "One with two left feet",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "WEST",
-          "clue": "Sunset site",
+          "length": 3,
+          "answer": "ESS",
+          "clue": "Slow start",
           "source": "dataset"
         }
       ],
@@ -311,46 +307,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "PLANE",
-          "clue": "Aircraft",
+          "answer": "PIOUS",
+          "clue": "Very religious",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "OUSTS",
-          "clue": "Sends packing",
+          "col": 3,
+          "length": 4,
+          "answer": "ISNT",
+          "clue": "Lacks existence",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "START",
-          "clue": "Zero hour",
+          "col": 4,
+          "length": 4,
+          "answer": "GEEZ",
+          "clue": "\"Oh, come on!\"",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
+          "row": 1,
+          "col": 0,
           "length": 4,
-          "answer": "TONY",
-          "clue": "Award for \"Oklahoma!\"",
+          "answer": "RAKE",
+          "clue": "Shed tool",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 0,
+          "col": 1,
           "length": 4,
-          "answer": "PHEW",
-          "clue": "'That's a relief'",
+          "answer": "ALLS",
+          "clue": "\"___ Well That Ends Well\"",
           "source": "dataset"
         }
       ]

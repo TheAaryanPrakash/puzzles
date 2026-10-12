@@ -5,59 +5,40 @@
       null,
       null,
       {
-        "answer": "T",
+        "answer": "C",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "O",
         "number": 2
       },
       {
-        "answer": "B",
+        "answer": "W",
         "number": 3
       },
       {
-        "answer": "S",
+        "answer": "A",
         "number": 4
       },
       {
-        "answer": "M",
+        "answer": "T",
         "number": 5
+      },
+      {
+        "answer": "R"
       },
       {
         "answer": "I"
       },
       {
-        "answer": "L"
+        "answer": "A"
       },
       {
-        "answer": "E"
-      },
-      {
-        "answer": "K",
+        "answer": "B",
         "number": 6
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "I",
-        "number": 7
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "S"
+        "answer": "R"
       },
       {
         "answer": "O"
@@ -66,14 +47,33 @@
         "answer": "N"
       },
       {
-        "answer": "S",
-        "number": 8
+        "answer": "X"
       },
       {
-        "answer": "H"
+        "answer": "B",
+        "number": 7
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "K"
       },
       {
         "answer": "Y"
+      },
+      {
+        "answer": "Y",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
       },
       null,
       null
@@ -85,8 +85,8 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "answer": "TAB",
-          "clue": "Marker",
+          "answer": "COW",
+          "clue": "\"Moo\" maker",
           "source": "dataset"
         },
         {
@@ -94,8 +94,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "SMILE",
-          "clue": "Upside-down frown",
+          "answer": "ATRIA",
+          "clue": "Two of hearts",
           "source": "dataset"
         },
         {
@@ -103,8 +103,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "KAPPA",
-          "clue": "Letter after iota",
+          "answer": "BRONX",
+          "clue": "New York borough",
           "source": "dataset"
         },
         {
@@ -112,8 +112,8 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "ITSON",
-          "clue": "\"Let's settle this!\"",
+          "answer": "BECKY",
+          "clue": "Mark Twain's Thatcher",
           "source": "dataset"
         },
         {
@@ -121,8 +121,8 @@
           "row": 4,
           "col": 0,
           "length": 3,
-          "answer": "SHY",
-          "clue": "Reserved",
+          "answer": "YES",
+          "clue": "'Sure'",
           "source": "dataset"
         }
       ],
@@ -132,8 +132,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "TIPSY",
-          "clue": "Slightly inebriated",
+          "answer": "CROCS",
+          "clue": "Foam clogs",
           "source": "dataset"
         },
         {
@@ -141,8 +141,8 @@
           "row": 0,
           "col": 3,
           "length": 4,
-          "answer": "ALPO",
-          "clue": "Iams competitor",
+          "answer": "OINK",
+          "clue": "Pig's cry",
           "source": "dataset"
         },
         {
@@ -150,8 +150,8 @@
           "row": 0,
           "col": 4,
           "length": 4,
-          "answer": "BEAN",
-          "clue": "Lima ___",
+          "answer": "WAXY",
+          "clue": "With a candlelike feel",
           "source": "dataset"
         },
         {
@@ -159,8 +159,8 @@
           "row": 1,
           "col": 0,
           "length": 4,
-          "answer": "SKIS",
-          "clue": "Hits the slopes",
+          "answer": "ABBY",
+          "clue": "\"Dear\" advice columnist",
           "source": "dataset"
         },
         {
@@ -168,8 +168,8 @@
           "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "MATH",
-          "clue": "Calc. or trig",
+          "answer": "TREE",
+          "clue": "Yew, say",
           "source": "dataset"
         }
       ]
@@ -179,75 +179,54 @@
     "size": 5,
     "cells": [
       {
-        "answer": "W",
+        "answer": "M",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "I",
         "number": 2
       },
       {
         "answer": "C",
         "number": 3
       },
-      {
-        "answer": "K",
-        "number": 4
-      },
+      null,
       null,
       {
         "answer": "A",
-        "number": 5
+        "number": 4
       },
       {
-        "answer": "T"
-      },
-      {
-        "answer": "L"
+        "answer": "D"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "S",
+        "answer": "M",
+        "number": 5
+      },
+      null,
+      {
+        "answer": "R",
         "number": 6
       },
       {
-        "answer": "S",
-        "number": 7
+        "answer": "A"
       },
       {
         "answer": "T"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "H",
-        "number": 8
       },
       {
         "answer": "I"
       },
       {
-        "answer": "T"
+        "answer": "O",
+        "number": 7
       },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "E"
-      },
-      null,
       {
         "answer": "C",
-        "number": 9
+        "number": 8
       },
       {
         "answer": "H"
@@ -256,7 +235,26 @@
         "answer": "A"
       },
       {
-        "answer": "P"
+        "answer": "L"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "H",
+        "number": 9
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "S"
       }
     ],
     "clues": {
@@ -265,27 +263,27 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 4,
-          "answer": "WACK",
-          "clue": "Not good at all, in slang",
-          "source": "written"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "ATLAS",
-          "clue": "Map book",
+          "length": 3,
+          "answer": "MIC",
+          "clue": "Hot ___",
           "source": "dataset"
         },
         {
-          "number": 7,
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "ADAM",
+          "clue": "First name",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "STORE",
-          "clue": "Pack away",
+          "answer": "RATIO",
+          "clue": "20:20, e.g",
           "source": "dataset"
         },
         {
@@ -293,17 +291,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "HITME",
-          "clue": "Directive at a table",
+          "answer": "CHALK",
+          "clue": "Sidewalk art medium",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 1,
-          "length": 4,
-          "answer": "CHAP",
-          "clue": "Bloke",
+          "col": 0,
+          "length": 5,
+          "answer": "HONKS",
+          "clue": "Traffic jam sounds",
           "source": "dataset"
         }
       ],
@@ -312,9 +310,9 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 4,
-          "answer": "WASH",
-          "clue": "Clean with water",
+          "length": 5,
+          "answer": "MARCH",
+          "clue": "Month",
           "source": "dataset"
         },
         {
@@ -322,8 +320,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "ATTIC",
-          "clue": "Garret",
+          "answer": "IDAHO",
+          "clue": "Moscow setting",
           "source": "dataset"
         },
         {
@@ -331,26 +329,26 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "CLOTH",
-          "clue": "Material",
+          "answer": "CATAN",
+          "clue": "Board game aka Settlers",
           "source": "dataset"
         },
         {
-          "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "KARMA",
-          "clue": "Buddhist fate",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
+          "number": 5,
           "row": 1,
-          "col": 4,
+          "col": 3,
           "length": 4,
-          "answer": "SEEP",
-          "clue": "Ooze",
+          "answer": "MILK",
+          "clue": "Exploit",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "answer": "OKS",
+          "clue": "Approvals",
           "source": "dataset"
         }
       ]

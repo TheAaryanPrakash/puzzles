@@ -3,85 +3,85 @@
     "size": 5,
     "cells": [
       {
-        "answer": "P",
+        "answer": "O",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "S",
         "number": 2
       },
       {
-        "answer": "R",
+        "answer": "C",
         "number": 3
       },
       {
-        "answer": "T",
+        "answer": "A",
         "number": 4
       },
       {
-        "answer": "S",
+        "answer": "R",
         "number": 5
       },
       {
-        "answer": "U",
+        "answer": "F",
         "number": 6
       },
       {
-        "answer": "S"
-      },
-      {
-        "answer": "U"
+        "answer": "A"
       },
       {
         "answer": "R"
       },
       {
-        "answer": "P"
+        "answer": "G"
+      },
+      {
+        "answer": "O"
       },
       {
         "answer": "F",
         "number": 7
       },
       {
-        "answer": "I"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "A"
-      },
-      {
         "answer": "L"
       },
       {
-        "answer": "F",
+        "answer": "O"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "S",
         "number": 8
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "Y"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "K"
       },
       {
         "answer": "A"
       },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "I"
-      },
-      null,
-      null,
-      {
-        "answer": "P",
-        "number": 9
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "T"
-      }
+      null
     ],
     "clues": {
       "across": [
@@ -90,8 +90,8 @@
           "row": 0,
           "col": 0,
           "length": 5,
-          "answer": "PARTS",
-          "clue": "Play things",
+          "answer": "OSCAR",
+          "clue": "Academy Award",
           "source": "dataset"
         },
         {
@@ -99,8 +99,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "USURP",
-          "clue": "Seize by force",
+          "answer": "FARGO",
+          "clue": "FX series inspired by a Coen brothers film",
           "source": "dataset"
         },
         {
@@ -108,8 +108,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "FINAL",
-          "clue": "Last",
+          "answer": "FLOOR",
+          "clue": "Baffle",
           "source": "dataset"
         },
         {
@@ -117,17 +117,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "FAUCI",
-          "clue": "Infectious disease expert Anthony",
+          "answer": "STORY",
+          "clue": "Yarn",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 2,
+          "col": 1,
           "length": 3,
-          "answer": "PET",
-          "clue": "___ name",
+          "answer": "SKA",
+          "clue": "Rocksteady precursor",
           "source": "dataset"
         }
       ],
@@ -137,17 +137,17 @@
           "row": 0,
           "col": 0,
           "length": 4,
-          "answer": "PUFF",
-          "clue": "___ pastry",
+          "answer": "OFFS",
+          "clue": "Rubs out",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
-          "length": 4,
-          "answer": "ASIA",
-          "clue": "___ Minor",
+          "length": 5,
+          "answer": "SALTS",
+          "clue": "Tars",
           "source": "dataset"
         },
         {
@@ -155,8 +155,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "RUNUP",
-          "clue": "Approach race ahead",
+          "answer": "CROOK",
+          "clue": "Swindler",
           "source": "dataset"
         },
         {
@@ -164,17 +164,17 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "TRACE",
-          "clue": "Find and copy",
+          "answer": "AGORA",
+          "clue": "Lead-in to phobia",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 0,
           "col": 4,
-          "length": 5,
-          "answer": "SPLIT",
-          "clue": "Break",
+          "length": 4,
+          "answer": "RORY",
+          "clue": "Golfer McIlroy",
           "source": "dataset"
         }
       ]
@@ -185,77 +185,77 @@
     "cells": [
       null,
       {
-        "answer": "A",
+        "answer": "R",
         "number": 1
       },
       {
-        "answer": "R",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "T",
+        "answer": "M",
         "number": 3
       },
       null,
       {
-        "answer": "I",
+        "answer": "M",
         "number": 4
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "S",
-        "number": 5
-      },
-      {
-        "answer": "C",
-        "number": 6
       },
       {
         "answer": "O"
       },
       {
-        "answer": "A"
+        "answer": "T"
       },
       {
-        "answer": "C"
+        "answer": "O"
       },
       {
-        "answer": "H"
+        "answer": "R",
+        "number": 5
       },
       {
-        "answer": "Y",
-        "number": 7
+        "answer": "I",
+        "number": 6
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "S"
       },
       {
         "answer": "U"
       },
       {
-        "answer": "C"
+        "answer": "E"
       },
       {
-        "answer": "K"
+        "answer": "D",
+        "number": 7
       },
       {
-        "answer": "Y"
+        "answer": "I"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S"
       },
       null,
       {
-        "answer": "T",
+        "answer": "N",
         "number": 8
       },
       {
-        "answer": "H"
+        "answer": "A"
       },
       {
-        "answer": "Y"
+        "answer": "H"
       },
       null
     ],
@@ -266,8 +266,8 @@
           "row": 0,
           "col": 1,
           "length": 3,
-          "answer": "ART",
-          "clue": "Body ___",
+          "answer": "RAM",
+          "clue": "Ewe's Mr",
           "source": "dataset"
         },
         {
@@ -275,8 +275,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "IDEAS",
-          "clue": "Think tank output",
+          "answer": "MOTOR",
+          "clue": "Drive",
           "source": "dataset"
         },
         {
@@ -284,8 +284,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "COACH",
-          "clue": "Vehicle is a first-class alternative",
+          "answer": "ISSUE",
+          "clue": "Children",
           "source": "dataset"
         },
         {
@@ -293,17 +293,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "YUCKY",
-          "clue": "Gross, to a kid",
-          "source": "written"
+          "answer": "DIETS",
+          "clue": "Intake regimens",
+          "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 1,
           "length": 3,
-          "answer": "THY",
-          "clue": "Genesis pronoun",
+          "answer": "NAH",
+          "clue": "\"Nope\"",
           "source": "dataset"
         }
       ],
@@ -313,8 +313,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "ADOUT",
-          "clue": "Tennis score after deuce, maybe",
+          "answer": "ROSIN",
+          "clue": "Ballet shoe application",
           "source": "dataset"
         },
         {
@@ -322,8 +322,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "REACH",
-          "clue": "Get runs singly",
+          "answer": "ATSEA",
+          "clue": "Clueless",
           "source": "dataset"
         },
         {
@@ -331,8 +331,8 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "TACKY",
-          "clue": "Sticky and coarse",
+          "answer": "MOUTH",
+          "clue": "Matron initially exposed hospital entrance",
           "source": "dataset"
         },
         {
@@ -340,8 +340,8 @@
           "row": 1,
           "col": 0,
           "length": 3,
-          "answer": "ICY",
-          "clue": "Frozen over",
+          "answer": "MID",
+          "clue": "Prefix with \"night\"",
           "source": "dataset"
         },
         {
@@ -349,8 +349,8 @@
           "row": 1,
           "col": 4,
           "length": 3,
-          "answer": "SHY",
-          "clue": "Reticent",
+          "answer": "RES",
+          "clue": "In medias -",
           "source": "dataset"
         }
       ]

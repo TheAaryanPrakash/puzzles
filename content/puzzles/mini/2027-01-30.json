@@ -273,82 +273,76 @@
     "size": 5,
     "cells": [
       {
-        "answer": "S",
+        "answer": "T",
         "number": 1
       },
       {
-        "answer": "P",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "E",
+        "answer": "B",
         "number": 3
       },
-      {
-        "answer": "E",
-        "number": 4
-      },
-      {
-        "answer": "D",
-        "number": 5
-      },
+      null,
+      null,
       {
         "answer": "S",
-        "number": 6
-      },
-      {
-        "answer": "O"
+        "number": 4
       },
       {
         "answer": "L"
       },
       {
-        "answer": "V"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "W",
-        "number": 7
-      },
-      {
         "answer": "O"
       },
       {
-        "answer": "M"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "N"
+        "answer": "T",
+        "number": 5
       },
       null,
       {
-        "answer": "H",
-        "number": 8
+        "answer": "K",
+        "number": 6
       },
       {
-        "answer": "E"
+        "answer": "A"
       },
       {
         "answer": "R"
       },
       {
-        "answer": "S"
-      },
-      null,
-      null,
-      {
-        "answer": "R",
-        "number": 9
+        "answer": "A"
       },
       {
-        "answer": "Y"
+        "answer": "T",
+        "number": 7
+      },
+      null,
+      {
+        "answer": "N",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T"
       },
       {
         "answer": "E"
+      },
+      null,
+      null,
+      {
+        "answer": "T",
+        "number": 9
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
       }
     ],
     "clues": {
@@ -357,27 +351,27 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 5,
-          "answer": "SPEED",
-          "clue": "Cockpit reading",
+          "length": 3,
+          "answer": "TAB",
+          "clue": "Bar tally",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "SLOT",
+          "clue": "Thin opening",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "SOLVE",
-          "clue": "Do, as a crossword",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "WOMEN",
-          "clue": "Half of humanity",
+          "answer": "KARAT",
+          "clue": "Measure of gold purity",
           "source": "dataset"
         },
         {
@@ -385,8 +379,8 @@
           "row": 3,
           "col": 1,
           "length": 4,
-          "answer": "HERS",
-          "clue": "Towel possessive",
+          "answer": "NATE",
+          "clue": "Statistician Silver",
           "source": "dataset"
         },
         {
@@ -394,8 +388,8 @@
           "row": 4,
           "col": 2,
           "length": 3,
-          "answer": "RYE",
-          "clue": "Deli bread",
+          "answer": "TAN",
+          "clue": "Camel kin",
           "source": "dataset"
         }
       ],
@@ -405,8 +399,8 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "answer": "SSW",
-          "clue": "Compass dir",
+          "answer": "TSK",
+          "clue": "'Naughty!'",
           "source": "dataset"
         },
         {
@@ -414,8 +408,8 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "POOH",
-          "clue": "Pal of Piglet",
+          "answer": "ALAN",
+          "clue": "Actor Cumming",
           "source": "dataset"
         },
         {
@@ -423,26 +417,26 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ELMER",
-          "clue": "Gantry of fiction",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "EVERY",
-          "clue": "Part of EGBDF",
+          "answer": "BORAT",
+          "clue": "Kazakhstani character of film",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 0,
+          "row": 1,
+          "col": 3,
+          "length": 4,
+          "answer": "TATA",
+          "clue": "'Toodles'",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
           "col": 4,
-          "length": 5,
-          "answer": "DENSE",
-          "clue": "___ fog",
+          "length": 3,
+          "answer": "TEN",
+          "clue": "Integer",
           "source": "dataset"
         }
       ]

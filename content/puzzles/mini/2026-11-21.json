@@ -270,82 +270,145 @@
     }
   },
   "reserve": {
-    "size": 5,
+    "size": 7,
     "cells": [
       null,
+      null,
       {
-        "answer": "B",
+        "answer": "M",
         "number": 1
       },
       {
-        "answer": "L",
+        "answer": "E",
         "number": 2
       },
       {
-        "answer": "A",
+        "answer": "W",
         "number": 3
       },
+      null,
+      null,
+      null,
       {
-        "answer": "H",
+        "answer": "M",
         "number": 4
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "S",
+        "number": 5
       },
       null,
       {
-        "answer": "R",
-        "number": 5
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "G",
+        "answer": "L",
         "number": 6
       },
       {
         "answer": "A"
       },
       {
-        "answer": "W"
+        "answer": "S"
       },
       {
-        "answer": "K"
+        "answer": "A"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "I",
+        "number": 8
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "C"
+      },
+      null,
+      {
+        "answer": "G",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "S",
+        "number": 10
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N",
+        "number": 11
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
       },
       {
         "answer": "Y"
       },
       {
-        "answer": "E",
-        "number": 7
-      },
-      {
-        "answer": "V"
+        "answer": "A",
+        "number": 12
       },
       {
         "answer": "I"
       },
       {
-        "answer": "L"
-      },
-      null,
-      {
-        "answer": "L",
-        "number": 8
+        "answer": "R"
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "S"
+        "answer": "I"
       },
       {
         "answer": "E"
       },
+      {
+        "answer": "R"
+      },
+      null,
+      null,
+      {
+        "answer": "S",
+        "number": 13
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S"
+      },
+      null,
       null
     ],
     "clues": {
@@ -353,46 +416,73 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "BLAH",
-          "clue": "Lackluster",
+          "col": 2,
+          "length": 3,
+          "answer": "MEW",
+          "clue": "Kitten cry",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
           "col": 1,
-          "length": 4,
-          "answer": "RENE",
-          "clue": "Painter Magritte",
+          "length": 5,
+          "answer": "MARIS",
+          "clue": "He hit 61 in '61",
           "source": "dataset"
         },
         {
           "number": 6,
           "row": 2,
           "col": 0,
-          "length": 5,
-          "answer": "GAWKY",
-          "clue": "Clumsy Soviet writer speaking",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 4,
-          "answer": "EVIL",
-          "clue": "Sinful",
+          "length": 7,
+          "answer": "LASAGNA",
+          "clue": "Garfield's favorite dish",
           "source": "dataset"
         },
         {
           "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "answer": "INC",
+          "clue": "Mag for execs",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 3,
+          "col": 4,
+          "length": 3,
+          "answer": "GEM",
+          "clue": "Setting item",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
           "row": 4,
           "col": 0,
+          "length": 7,
+          "answer": "STANLEY",
+          "clue": "Lord with a namesake sports trophy",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "answer": "AIRIER",
+          "clue": "Better ventilated",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 6,
+          "col": 1,
           "length": 4,
-          "answer": "LOSE",
-          "clue": "Misplace",
+          "answer": "SATS",
+          "clue": "Coll. admissions exams",
           "source": "dataset"
         }
       ],
@@ -400,46 +490,73 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "BRAVO",
-          "clue": "\"Well done!\"",
+          "col": 2,
+          "length": 7,
+          "answer": "MASCARA",
+          "clue": "Cosmetic mum used to conceal a blemish",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "LEWIS",
-          "clue": "TV detective series",
+          "col": 3,
+          "length": 3,
+          "answer": "ERA",
+          "clue": "Big time",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "ANKLE",
-          "clue": "Low joint",
-          "source": "dataset"
+          "col": 4,
+          "length": 7,
+          "answer": "WIGGLES",
+          "clue": "Squirms",
+          "source": "written"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 3,
-          "answer": "HEY",
-          "clue": "'Psst!'",
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "answer": "MANTIS",
+          "clue": "Six-footer's remarkable stamina ___ there's only one answer to that!",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 5,
+          "length": 5,
+          "answer": "SNEER",
+          "clue": "Vile smile",
           "source": "dataset"
         },
         {
           "number": 6,
           "row": 2,
           "col": 0,
+          "length": 4,
+          "answer": "LISA",
+          "clue": "The \"Mona ___\"",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 6,
           "length": 3,
-          "answer": "GEL",
-          "clue": "Hair goo",
+          "answer": "AMY",
+          "clue": "Author Tan",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 3,
+          "length": 3,
+          "answer": "NIT",
+          "clue": "Petty gripe",
           "source": "dataset"
         }
       ]

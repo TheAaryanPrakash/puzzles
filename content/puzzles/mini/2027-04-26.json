@@ -4,59 +4,28 @@
     "cells": [
       null,
       {
-        "answer": "N",
+        "answer": "A",
         "number": 1
       },
       {
-        "answer": "C",
+        "answer": "V",
         "number": 2
       },
       {
-        "answer": "A",
+        "answer": "E",
         "number": 3
       },
       {
-        "answer": "A",
+        "answer": "S",
         "number": 4
       },
+      null,
       {
-        "answer": "C",
+        "answer": "L",
         "number": 5
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "G"
-      },
-      {
         "answer": "I"
-      },
-      {
-        "answer": "H",
-        "number": 6
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "O",
-        "number": 7
-      },
-      {
-        "answer": "N"
       },
       {
         "answer": "M"
@@ -64,16 +33,45 @@
       {
         "answer": "E"
       },
+      {
+        "answer": "H",
+        "number": 6
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "O",
+        "number": 7
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "Y"
+      },
       null,
       {
-        "answer": "W",
+        "answer": "G",
         "number": 8
       },
       {
         "answer": "E"
       },
       {
-        "answer": "B"
+        "answer": "L"
       },
       {
         "answer": "S"
@@ -87,17 +85,17 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "NCAA",
-          "clue": "Recruiting org",
+          "answer": "AVES",
+          "clue": "Wide sts",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "CORGI",
-          "clue": "Welsh dog breed",
+          "col": 1,
+          "length": 4,
+          "answer": "LIME",
+          "clue": "Mojito fruit",
           "source": "dataset"
         },
         {
@@ -105,8 +103,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "HOUND",
-          "clue": "Pester relentlessly",
+          "answer": "HITME",
+          "clue": "Words to a blackjack dealer",
           "source": "dataset"
         },
         {
@@ -114,8 +112,8 @@
           "row": 3,
           "col": 0,
           "length": 4,
-          "answer": "ONME",
-          "clue": "\"My treat\"",
+          "answer": "OKAY",
+          "clue": "Approve",
           "source": "dataset"
         },
         {
@@ -123,8 +121,8 @@
           "row": 4,
           "col": 0,
           "length": 4,
-          "answer": "WEBS",
-          "clue": "Fly traps in attics",
+          "answer": "GELS",
+          "clue": "Salon substances",
           "source": "dataset"
         }
       ],
@@ -134,8 +132,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "NOONE",
-          "clue": "Nary a soul",
+          "answer": "ALIKE",
+          "clue": "Comparable",
           "source": "dataset"
         },
         {
@@ -143,8 +141,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "CRUMB",
-          "clue": "Roomba pickup",
+          "answer": "VITAL",
+          "clue": "Of the greatest importance",
           "source": "dataset"
         },
         {
@@ -152,8 +150,8 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "AGNES",
-          "clue": "Mrs. Copperfield",
+          "answer": "EMMYS",
+          "clue": "Julia Louis-Dreyfus's 11",
           "source": "dataset"
         },
         {
@@ -161,17 +159,17 @@
           "row": 0,
           "col": 4,
           "length": 3,
-          "answer": "AID",
-          "clue": "Bail out",
+          "answer": "SEE",
+          "clue": "Notice",
           "source": "dataset"
         },
         {
-          "number": 5,
-          "row": 1,
+          "number": 6,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "answer": "CHOW",
-          "clue": "Dog; food",
+          "length": 3,
+          "answer": "HOG",
+          "clue": "Monopolize",
           "source": "dataset"
         }
       ]
@@ -181,31 +179,28 @@
     "size": 5,
     "cells": [
       {
-        "answer": "S",
+        "answer": "B",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "O",
         "number": 2
       },
       {
-        "answer": "G",
+        "answer": "T",
         "number": 3
       },
       {
-        "answer": "E",
+        "answer": "S",
         "number": 4
       },
+      null,
       {
-        "answer": "S",
+        "answer": "A",
         "number": 5
       },
       {
-        "answer": "P",
-        "number": 6
-      },
-      {
-        "answer": "L"
+        "answer": "B"
       },
       {
         "answer": "U"
@@ -213,53 +208,52 @@
       {
         "answer": "T"
       },
+      null,
       {
-        "answer": "O"
+        "answer": "T",
+        "number": 6
       },
       {
-        "answer": "A",
-        "number": 7
+        "answer": "A"
       },
       {
         "answer": "L"
       },
       {
-        "answer": "P"
+        "answer": "O"
       },
       {
-        "answer": "H"
+        "answer": "N",
+        "number": 7
       },
-      {
-        "answer": "A"
-      },
+      null,
       {
         "answer": "M",
         "number": 8
       },
       {
-        "answer": "O"
+        "answer": "I"
       },
       {
-        "answer": "T"
+        "answer": "N"
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "R"
+        "answer": "I"
       },
       null,
       {
-        "answer": "W",
+        "answer": "A",
         "number": 9
       },
       {
-        "answer": "A"
+        "answer": "P"
       },
       {
-        "answer": "S"
+        "answer": "E"
       },
-      null
+      {
+        "answer": "X"
+      }
     ],
     "clues": {
       "across": [
@@ -267,45 +261,45 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 5,
-          "answer": "SAGES",
-          "clue": "Wise people",
+          "length": 4,
+          "answer": "BOTS",
+          "clue": "Automated programs",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "ABUT",
+          "clue": "Border",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "PLUTO",
-          "clue": "Disney dog",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ALPHA",
-          "clue": "Beginning",
+          "answer": "TALON",
+          "clue": "Claw",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "MOTOR",
-          "clue": "Power provider",
+          "col": 1,
+          "length": 4,
+          "answer": "MINI",
+          "clue": "Small",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
           "col": 1,
-          "length": 3,
-          "answer": "WAS",
-          "clue": "No longer is",
+          "length": 4,
+          "answer": "APEX",
+          "clue": "Top spot",
           "source": "dataset"
         }
       ],
@@ -314,9 +308,9 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 4,
-          "answer": "SPAM",
-          "clue": "Cybernuisance",
+          "length": 3,
+          "answer": "BAT",
+          "clue": "Furry flyer",
           "source": "dataset"
         },
         {
@@ -324,8 +318,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "ALLOW",
-          "clue": "Let pass",
+          "answer": "OBAMA",
+          "clue": "#44",
           "source": "dataset"
         },
         {
@@ -333,8 +327,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "GUPTA",
-          "clue": "Sanjay of CNN",
+          "answer": "TULIP",
+          "clue": "Spring flower",
           "source": "dataset"
         },
         {
@@ -342,17 +336,17 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "ETHOS",
-          "clue": "Set of values",
+          "answer": "STONE",
+          "clue": "Gem",
           "source": "dataset"
         },
         {
-          "number": 5,
-          "row": 0,
+          "number": 7,
+          "row": 2,
           "col": 4,
-          "length": 4,
-          "answer": "SOAR",
-          "clue": "Rise",
+          "length": 3,
+          "answer": "NIX",
+          "clue": "Veto",
           "source": "dataset"
         }
       ]

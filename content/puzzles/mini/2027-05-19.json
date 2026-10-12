@@ -3,11 +3,11 @@
     "size": 5,
     "cells": [
       {
-        "answer": "E",
+        "answer": "H",
         "number": 1
       },
       {
-        "answer": "G",
+        "answer": "U",
         "number": 2
       },
       {
@@ -17,29 +17,32 @@
       null,
       null,
       {
-        "answer": "B",
+        "answer": "A",
         "number": 4
       },
       {
-        "answer": "Y"
+        "answer": "S"
       },
       {
-        "answer": "L"
+        "answer": "A"
       },
       {
-        "answer": "A",
+        "answer": "H",
         "number": 5
       },
       {
-        "answer": "W",
+        "answer": "I",
         "number": 6
       },
       {
-        "answer": "B",
+        "answer": "L",
         "number": 7
       },
       {
-        "answer": "R"
+        "answer": "E"
+      },
+      {
+        "answer": "M"
       },
       {
         "answer": "O"
@@ -48,35 +51,32 @@
         "answer": "N"
       },
       {
-        "answer": "X"
-      },
-      {
-        "answer": "S",
+        "answer": "F",
         "number": 8
       },
       {
-        "answer": "O"
+        "answer": "R"
       },
       {
-        "answer": "O"
+        "answer": "E"
       },
       {
-        "answer": "T"
+        "answer": "U"
       },
       {
-        "answer": "Y"
+        "answer": "D"
       },
       null,
       null,
       {
-        "answer": "M",
+        "answer": "D",
         "number": 9
       },
       {
-        "answer": "I"
+        "answer": "R"
       },
       {
-        "answer": "Z"
+        "answer": "Y"
       }
     ],
     "clues": {
@@ -86,8 +86,8 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "answer": "EGG",
-          "clue": "Chick holder",
+          "answer": "HUG",
+          "clue": "Each O of \"XOXO\"",
           "source": "dataset"
         },
         {
@@ -95,8 +95,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "BYLAW",
-          "clue": "Part of a corporate charter",
+          "answer": "ASAHI",
+          "clue": "Sapporo rival",
           "source": "dataset"
         },
         {
@@ -104,8 +104,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "BRONX",
-          "clue": "Yankee Stadium's setting",
+          "answer": "LEMON",
+          "clue": "Clunker car",
           "source": "dataset"
         },
         {
@@ -113,8 +113,8 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "SOOTY",
-          "clue": "In need of a sweep",
+          "answer": "FREUD",
+          "clue": "Neurologist who redefined 'libido' to fit his theories",
           "source": "dataset"
         },
         {
@@ -122,8 +122,8 @@
           "row": 4,
           "col": 2,
           "length": 3,
-          "answer": "MIZ",
-          "clue": "B'way's \"Les ___\"",
+          "answer": "DRY",
+          "clue": "Rainless",
           "source": "dataset"
         }
       ],
@@ -133,8 +133,8 @@
           "row": 0,
           "col": 0,
           "length": 4,
-          "answer": "EBBS",
-          "clue": "Goes back",
+          "answer": "HALF",
+          "clue": "Fifty per cent",
           "source": "dataset"
         },
         {
@@ -142,8 +142,8 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "GYRO",
-          "clue": "Halal cart offering",
+          "answer": "USER",
+          "clue": "___ ID",
           "source": "dataset"
         },
         {
@@ -151,8 +151,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "GLOOM",
-          "clue": "Murk",
+          "answer": "GAMED",
+          "clue": "Took a chance, rampaged about, avoiding rap",
           "source": "dataset"
         },
         {
@@ -160,8 +160,8 @@
           "row": 1,
           "col": 3,
           "length": 4,
-          "answer": "ANTI",
-          "clue": "Not for",
+          "answer": "HOUR",
+          "clue": "Time",
           "source": "dataset"
         },
         {
@@ -169,9 +169,9 @@
           "row": 1,
           "col": 4,
           "length": 4,
-          "answer": "WXYZ",
-          "clue": "Final letters of the alphabet",
-          "source": "written"
+          "answer": "INDY",
+          "clue": "___ 500",
+          "source": "dataset"
         }
       ]
     }
@@ -181,77 +181,81 @@
     "cells": [
       null,
       {
-        "answer": "C",
+        "answer": "L",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "I",
         "number": 2
       },
       {
-        "answer": "P",
+        "answer": "S",
         "number": 3
       },
-      null,
       {
-        "answer": "O",
+        "answer": "T",
         "number": 4
       },
       {
-        "answer": "H"
-      },
-      {
-        "answer": "B"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "Y",
-        "number": 5
-      },
-      {
         "answer": "R",
-        "number": 6
+        "number": 5
       },
       {
         "answer": "A"
       },
       {
-        "answer": "I"
+        "answer": "N"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "A",
+        "number": 6
       },
       {
         "answer": "S"
       },
       {
-        "answer": "E"
+        "answer": "T"
       },
       {
-        "answer": "B",
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N",
         "number": 7
       },
       {
-        "answer": "I"
+        "answer": "E"
       },
       {
-        "answer": "D"
+        "answer": "W"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "N"
+        "answer": "R"
       },
-      null,
       {
-        "answer": "R",
+        "answer": "G",
         "number": 8
       },
       {
-        "answer": "E"
+        "answer": "R"
       },
       {
-        "answer": "D"
+        "answer": "O"
+      },
+      {
+        "answer": "W"
       },
       null
     ],
@@ -261,18 +265,18 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 3,
-          "answer": "CAP",
-          "clue": "Limit",
+          "length": 4,
+          "answer": "LIST",
+          "clue": "Roster",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "OHBOY",
-          "clue": "Shout of glee",
+          "answer": "RANCH",
+          "clue": "Dressing choice",
           "source": "dataset"
         },
         {
@@ -280,8 +284,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "RAISE",
-          "clue": "Job reward",
+          "answer": "ASTRO",
+          "clue": "Houston athlete",
           "source": "dataset"
         },
         {
@@ -289,17 +293,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "BIDEN",
-          "clue": "#2 for #44",
+          "answer": "NEWER",
+          "clue": "Updated drainage system, reversing initial direction",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
-          "col": 1,
-          "length": 3,
-          "answer": "RED",
-          "clue": "Flushed",
+          "col": 0,
+          "length": 4,
+          "answer": "GROW",
+          "clue": "Increase",
           "source": "dataset"
         }
       ],
@@ -309,8 +313,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "CHAIR",
-          "clue": "Place to sit",
+          "answer": "LASER",
+          "clue": "Tag beam",
           "source": "dataset"
         },
         {
@@ -318,8 +322,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ABIDE",
-          "clue": "Dwell",
+          "answer": "INTWO",
+          "clue": "Halved",
           "source": "dataset"
         },
         {
@@ -327,26 +331,26 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "POSED",
-          "clue": "Did some modeling",
+          "answer": "SCREW",
+          "clue": "Threaded hardware",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 3,
-          "answer": "ORB",
-          "clue": "Globe",
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "THOR",
+          "clue": "Marvel god",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 4,
-          "length": 3,
-          "answer": "YEN",
-          "clue": "Long",
+          "col": 0,
+          "length": 4,
+          "answer": "RANG",
+          "clue": "Pealed",
           "source": "dataset"
         }
       ]

@@ -3,80 +3,84 @@
     "size": 5,
     "cells": [
       {
-        "answer": "H",
+        "answer": "A",
         "number": 1
       },
       {
-        "answer": "U",
+        "answer": "L",
         "number": 2
       },
       {
-        "answer": "G",
+        "answer": "P",
         "number": 3
       },
-      null,
-      null,
       {
-        "answer": "A",
+        "answer": "S",
         "number": 4
       },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "A"
-      },
+      null,
       {
         "answer": "H",
         "number": 5
       },
       {
-        "answer": "I",
-        "number": 6
-      },
-      {
-        "answer": "L",
-        "number": 7
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "M"
+        "answer": "O"
       },
       {
         "answer": "O"
       },
       {
-        "answer": "N"
+        "answer": "P"
       },
       {
-        "answer": "F",
-        "number": 8
+        "answer": "S",
+        "number": 6
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "T"
       },
       {
         "answer": "R"
       },
       {
-        "answer": "E"
+        "answer": "I"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "B",
+        "number": 8
       },
       {
         "answer": "U"
       },
       {
-        "answer": "D"
+        "answer": "C"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "S"
       },
       null,
-      null,
       {
-        "answer": "D",
+        "answer": "S",
         "number": 9
       },
       {
-        "answer": "R"
+        "answer": "H"
       },
       {
-        "answer": "Y"
+        "answer": "E"
+      },
+      {
+        "answer": "S"
       }
     ],
     "clues": {
@@ -85,18 +89,18 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 3,
-          "answer": "HUG",
-          "clue": "Each O of \"XOXO\"",
+          "length": 4,
+          "answer": "ALPS",
+          "clue": "\"Heidi\" setting",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "ASAHI",
-          "clue": "Sapporo rival",
+          "answer": "HOOPS",
+          "clue": "Court game",
           "source": "dataset"
         },
         {
@@ -104,8 +108,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "LEMON",
-          "clue": "Clunker car",
+          "answer": "ATRIA",
+          "clue": "Heart parts",
           "source": "dataset"
         },
         {
@@ -113,17 +117,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "FREUD",
-          "clue": "Neurologist who redefined 'libido' to fit his theories",
+          "answer": "BUCKS",
+          "clue": "Dollars",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 2,
-          "length": 3,
-          "answer": "DRY",
-          "clue": "Rainless",
+          "col": 1,
+          "length": 4,
+          "answer": "SHES",
+          "clue": "\"I'll have what ___ having\"",
           "source": "dataset"
         }
       ],
@@ -133,17 +137,17 @@
           "row": 0,
           "col": 0,
           "length": 4,
-          "answer": "HALF",
-          "clue": "Fifty per cent",
+          "answer": "AHAB",
+          "clue": "Melville mariner",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
-          "length": 4,
-          "answer": "USER",
-          "clue": "___ ID",
+          "length": 5,
+          "answer": "LOTUS",
+          "clue": "Yoga's ___ position",
           "source": "dataset"
         },
         {
@@ -151,17 +155,17 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "GAMED",
-          "clue": "Took a chance, rampaged about, avoiding rap",
+          "answer": "PORCH",
+          "clue": "Church under pressure to keep gold in hall",
           "source": "dataset"
         },
         {
-          "number": 5,
-          "row": 1,
+          "number": 4,
+          "row": 0,
           "col": 3,
-          "length": 4,
-          "answer": "HOUR",
-          "clue": "Time",
+          "length": 5,
+          "answer": "SPIKE",
+          "clue": "___ Lee, director of Da 5 Bloods",
           "source": "dataset"
         },
         {
@@ -169,71 +173,120 @@
           "row": 1,
           "col": 4,
           "length": 4,
-          "answer": "INDY",
-          "clue": "___ 500",
+          "answer": "SASS",
+          "clue": "Attitude",
           "source": "dataset"
         }
       ]
     }
   },
   "reserve": {
-    "size": 5,
+    "size": 7,
     "cells": [
       null,
       {
-        "answer": "L",
+        "answer": "F",
         "number": 1
       },
       {
-        "answer": "U",
+        "answer": "L",
         "number": 2
       },
       {
-        "answer": "K",
+        "answer": "O",
         "number": 3
       },
       {
-        "answer": "E",
+        "answer": "S",
         "number": 4
       },
       {
-        "answer": "M",
+        "answer": "S",
         "number": 5
       },
+      null,
       {
-        "answer": "I"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "E"
+        "answer": "B",
+        "number": 6
       },
       {
         "answer": "R"
       },
       {
-        "answer": "A",
-        "number": 6
+        "answer": "E"
       },
       {
-        "answer": "Z"
+        "answer": "A"
+      },
+      {
+        "answer": "K"
       },
       {
         "answer": "U"
       },
       {
-        "answer": "R"
+        "answer": "P",
+        "number": 7
+      },
+      {
+        "answer": "R",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "C",
-        "number": 7
+        "answer": "I",
+        "number": 9
       },
       {
-        "answer": "Z"
+        "answer": "M"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "L",
+        "number": 10
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S",
+        "number": 11
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "U",
+        "number": 12
+      },
+      {
+        "answer": "L"
       },
       {
         "answer": "A"
@@ -241,21 +294,40 @@
       {
         "answer": "R"
       },
+      null,
+      {
+        "answer": "R",
+        "number": 13
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "V"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      null,
+      null,
+      {
+        "answer": "S",
+        "number": 14
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T"
+      },
       {
         "answer": "S"
-      },
-      {
-        "answer": "H",
-        "number": 8
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "Y"
       },
       null
     ],
@@ -265,45 +337,72 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 4,
-          "answer": "LUKE",
-          "clue": "Sci-fi's Skywalker",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
           "length": 5,
-          "answer": "MISER",
-          "clue": "Cheapskate",
+          "answer": "FLOSS",
+          "clue": "String that cleans teeth",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 1,
           "col": 0,
-          "length": 5,
-          "answer": "AZURE",
-          "clue": "Sky hue",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "CZARS",
-          "clue": "Industry moguls",
+          "length": 7,
+          "answer": "BREAKUP",
+          "clue": "Separate",
           "source": "dataset"
         },
         {
           "number": 8,
+          "row": 2,
+          "col": 0,
+          "length": 7,
+          "answer": "RANKINE",
+          "clue": "Absolute temperature scale named for a Scottish engineer",
+          "source": "written"
+        },
+        {
+          "number": 9,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "answer": "IMS",
+          "clue": "Online notes",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 3,
+          "col": 4,
+          "length": 3,
+          "answer": "LTE",
+          "clue": "5G ___: mobile standard",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "HOLY",
-          "clue": "Like God",
+          "length": 7,
+          "answer": "SECULAR",
+          "clue": "Like Thanksgiving, but not Easter",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 5,
+          "col": 1,
+          "length": 5,
+          "answer": "RAVEN",
+          "clue": "Poe's black bird",
+          "source": "dataset"
+        },
+        {
+          "number": 14,
+          "row": 6,
+          "col": 1,
+          "length": 5,
+          "answer": "SPATS",
+          "clue": "Minor quarrels",
           "source": "dataset"
         }
       ],
@@ -312,45 +411,72 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 5,
-          "answer": "LIZZO",
-          "clue": "'Cuz I Love You' singer",
+          "length": 7,
+          "answer": "FRAMERS",
+          "clue": "People mounting pictures",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 2,
-          "length": 5,
-          "answer": "USUAL",
-          "clue": "Typical",
+          "length": 7,
+          "answer": "LENSCAP",
+          "clue": "Shot blocker, at times",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
           "col": 3,
-          "length": 5,
-          "answer": "KERRY",
-          "clue": "Clinton's successor",
+          "length": 3,
+          "answer": "OAK",
+          "clue": "Strong tree",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
           "col": 4,
-          "length": 4,
-          "answer": "ERES",
-          "clue": "Spanish for 'you are'",
+          "length": 7,
+          "answer": "SKILLET",
+          "clue": "Pan on a stove",
           "source": "dataset"
         },
         {
           "number": 5,
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "answer": "SUNTANS",
+          "clue": "Beachgoers may sport them",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
           "row": 1,
           "col": 0,
           "length": 4,
-          "answer": "MACH",
-          "clue": "Namesake of a speed ratio",
+          "answer": "BRIS",
+          "clue": "Rite overseen by a mohel",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 1,
+          "col": 6,
+          "length": 4,
+          "answer": "PEER",
+          "clue": "Equal",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 4,
+          "col": 3,
+          "length": 3,
+          "answer": "UVA",
+          "clue": "Charlottesville sch",
           "source": "dataset"
         }
       ]

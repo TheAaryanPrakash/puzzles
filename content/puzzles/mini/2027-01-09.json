@@ -303,84 +303,79 @@
   "reserve": {
     "size": 5,
     "cells": [
+      null,
       {
-        "answer": "B",
+        "answer": "G",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "L",
         "number": 2
       },
       {
-        "answer": "N",
+        "answer": "A",
         "number": 3
       },
       {
-        "answer": "K",
+        "answer": "D",
         "number": 4
       },
+      null,
       {
-        "answer": "S",
+        "answer": "L",
         "number": 5
       },
       {
-        "answer": "A",
-        "number": 6
+        "answer": "A"
       },
       {
         "answer": "V"
       },
       {
-        "answer": "I"
-      },
-      {
         "answer": "A"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "C",
-        "number": 7
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "O"
       },
       {
         "answer": "H",
-        "number": 8
+        "number": 6
       },
       {
-        "answer": "I"
+        "answer": "O"
       },
       {
-        "answer": "J"
+        "answer": "N"
       },
       {
-        "answer": "A"
+        "answer": "E"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "U",
+        "number": 7
       },
       {
         "answer": "B"
       },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
       null,
       {
-        "answer": "D",
-        "number": 9
+        "answer": "B",
+        "number": 8
       },
       {
-        "answer": "A"
+        "answer": "E"
       },
       {
-        "answer": "N"
+        "answer": "S"
+      },
+      {
+        "answer": "T"
       },
       null
     ],
@@ -389,46 +384,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 5,
-          "answer": "BANKS",
-          "clue": "River walls",
+          "col": 1,
+          "length": 4,
+          "answer": "GLAD",
+          "clue": "Tickled",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "LAVA",
+          "clue": "Molten flow",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 1,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "AVIAN",
-          "clue": "Birdlike",
+          "answer": "HONEY",
+          "clue": "Natural sweetener",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 2,
+          "row": 3,
           "col": 0,
-          "length": 5,
-          "answer": "CONGO",
-          "clue": "World's deepest river",
+          "length": 4,
+          "answer": "UBER",
+          "clue": "Super",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "HIJAB",
-          "clue": "Headcover for Ibtihaj Muhammad",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
           "row": 4,
-          "col": 1,
-          "length": 3,
-          "answer": "DAN",
-          "clue": "Actor Aykroyd",
+          "col": 0,
+          "length": 4,
+          "answer": "BEST",
+          "clue": "Outclass",
           "source": "dataset"
         }
       ],
@@ -436,46 +431,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 4,
-          "answer": "BACH",
-          "clue": "Johann Sebastian -",
+          "col": 1,
+          "length": 5,
+          "answer": "GLOBE",
+          "clue": "Wikipedia's logo",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "AVOID",
-          "clue": "Sidestep",
+          "answer": "LANES",
+          "clue": "Pool divisions",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
+          "col": 3,
           "length": 5,
-          "answer": "NINJA",
-          "clue": "Japanese warrior",
+          "answer": "AVERT",
+          "clue": "Stave off",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "KAGAN",
-          "clue": "Elena on the Supreme Court",
+          "col": 4,
+          "length": 3,
+          "answer": "DAY",
+          "clue": "Labor ___",
           "source": "dataset"
         },
         {
-          "number": 5,
-          "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "SNOB",
-          "clue": "Snooty one",
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "HUB",
+          "clue": "Busy locale",
           "source": "dataset"
         }
       ]

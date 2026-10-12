@@ -2,31 +2,31 @@
 
 ## 5 random days
 
-### Day 163 — 2027-03-28
+### Day 163 — 2027-03-23
 - Start: **Canada** (CA)
 - End: **Costa Rica** (CR)
 - Shortest route: 5 countries in between
 - Guess allowance: 10
 
-### Day 96 — 2027-01-20
+### Day 96 — 2027-01-15
 - Start: **Ivory Coast** (CI)
 - End: **Tanzania** (TZ)
 - Shortest route: 5 countries in between
 - Guess allowance: 10
 
-### Day 48 — 2026-12-03
+### Day 48 — 2026-11-28
 - Start: **South Sudan** (SS)
 - End: **Lesotho** (LS)
 - Shortest route: 4 countries in between
 - Guess allowance: 9
 
-### Day 75 — 2026-12-30
+### Day 75 — 2026-12-25
 - Start: **Uzbekistan** (UZ)
 - End: **South Sudan** (SS)
 - Shortest route: 7 countries in between
 - Guess allowance: 13
 
-### Day 39 — 2026-11-24
+### Day 39 — 2026-11-19
 - Start: **Colombia** (CO)
 - End: **Honduras** (HN)
 - Shortest route: 3 countries in between

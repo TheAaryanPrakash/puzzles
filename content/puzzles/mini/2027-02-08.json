@@ -4,25 +4,59 @@
     "cells": [
       null,
       {
-        "answer": "S",
+        "answer": "W",
         "number": 1
       },
       {
-        "answer": "P",
+        "answer": "I",
         "number": 2
       },
       {
-        "answer": "I",
+        "answer": "F",
         "number": 3
       },
       {
-        "answer": "T",
+        "answer": "I",
         "number": 4
       },
-      null,
       {
-        "answer": "H",
+        "answer": "S",
         "number": 5
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "O",
+        "number": 6
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "L",
+        "number": 7
+      },
+      {
+        "answer": "E"
       },
       {
         "answer": "E"
@@ -31,50 +65,20 @@
         "answer": "R"
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "W",
-        "number": 6
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "K"
-      },
-      {
         "answer": "Y"
       },
       {
-        "answer": "H",
-        "number": 7
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "E"
-      },
-      null,
-      {
-        "answer": "O",
+        "answer": "E",
         "number": 8
       },
       {
-        "answer": "K"
+        "answer": "R"
       },
       {
-        "answer": "E"
+        "answer": "R"
       },
       {
-        "answer": "D"
+        "answer": "S"
       },
       null
     ],
@@ -85,35 +89,35 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "SPIT",
-          "clue": "Barbecue rod",
+          "answer": "WIFI",
+          "clue": "In-flight amenity",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "HERO",
-          "clue": "Deli order",
-          "source": "dataset"
+          "col": 0,
+          "length": 5,
+          "answer": "SONOS",
+          "clue": "Wireless speaker brand",
+          "source": "written"
         },
         {
           "number": 6,
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "WONKY",
-          "clue": "Unsteady or off-kilter",
-          "source": "written"
+          "answer": "OWNUP",
+          "clue": "Admit academic robe's no good at college",
+          "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 4,
-          "answer": "HONE",
-          "clue": "Sharpen, as skills",
+          "length": 5,
+          "answer": "LEERY",
+          "clue": "Guarded",
           "source": "dataset"
         },
         {
@@ -121,8 +125,8 @@
           "row": 4,
           "col": 0,
           "length": 4,
-          "answer": "OKED",
-          "clue": "Let pass",
+          "answer": "ERRS",
+          "clue": "Flubs it",
           "source": "dataset"
         }
       ],
@@ -132,17 +136,17 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "SHOOK",
-          "clue": "Disturbed",
-          "source": "dataset"
+          "answer": "WOWER",
+          "clue": "One who dazzles a crowd",
+          "source": "written"
         },
         {
           "number": 2,
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "PENNE",
-          "clue": "Short pasta",
+          "answer": "INNER",
+          "clue": "Interior",
           "source": "dataset"
         },
         {
@@ -150,26 +154,26 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "IRKED",
-          "clue": "Made angry",
+          "answer": "FOURS",
+          "clue": "Two make eight",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
           "col": 4,
-          "length": 3,
-          "answer": "TOY",
-          "clue": "Tot amuser",
+          "length": 4,
+          "answer": "ISPY",
+          "clue": "Kid's guessing game",
           "source": "dataset"
         },
         {
-          "number": 6,
-          "row": 2,
+          "number": 5,
+          "row": 1,
           "col": 0,
-          "length": 3,
-          "answer": "WHO",
-          "clue": "\"___ cares!\"",
+          "length": 4,
+          "answer": "SOLE",
+          "clue": "Only",
           "source": "dataset"
         }
       ]
@@ -178,128 +182,122 @@
   "reserve": {
     "size": 5,
     "cells": [
+      null,
+      null,
       {
-        "answer": "S",
+        "answer": "B",
         "number": 1
       },
       {
-        "answer": "W",
+        "answer": "I",
         "number": 2
       },
       {
-        "answer": "A",
+        "answer": "O",
         "number": 3
-      },
-      {
-        "answer": "M",
-        "number": 4
       },
       null,
       {
-        "answer": "E",
+        "answer": "D",
+        "number": 4
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "G",
         "number": 5
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "O",
+        "number": 6
       },
       {
         "answer": "A"
       },
       {
-        "answer": "S"
+        "answer": "K"
       },
       {
         "answer": "Y"
       },
       null,
       {
-        "answer": "C",
-        "number": 6
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "P",
+        "answer": "T",
         "number": 7
       },
-      null,
       {
-        "answer": "T",
-        "number": 8
+        "answer": "B"
       },
       {
-        "answer": "H"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "I"
+        "answer": "S"
       },
       null,
-      {
-        "answer": "Z",
-        "number": 9
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "C"
-      }
+      null
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "BIO",
+          "clue": "H.S. class",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
           "length": 4,
-          "answer": "SWAM",
-          "clue": "Did laps, say",
+          "answer": "DOFF",
+          "clue": "Remove, as a hat",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "EASY",
-          "clue": "Not hard",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "CLAMP",
-          "clue": "Workbench gripper",
-          "source": "dataset"
+          "answer": "GROFF",
+          "clue": "Jonathan ___, 'Frozen' voice actor",
+          "source": "written"
         },
         {
-          "number": 8,
+          "number": 6,
           "row": 3,
-          "col": 1,
+          "col": 0,
           "length": 4,
-          "answer": "THAI",
-          "clue": "Spicy cuisine",
+          "answer": "OAKY",
+          "clue": "Wine nuance word",
           "source": "dataset"
         },
         {
-          "number": 9,
+          "number": 7,
           "row": 4,
-          "col": 1,
-          "length": 4,
-          "answer": "ZINC",
-          "clue": "Chemical element",
+          "col": 0,
+          "length": 3,
+          "answer": "TBS",
+          "clue": "'Conan' network",
           "source": "dataset"
         }
       ],
@@ -307,46 +305,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 3,
-          "answer": "SEC",
-          "clue": "-",
+          "col": 2,
+          "length": 5,
+          "answer": "BOOKS",
+          "clue": "Reserves",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "WALTZ",
-          "clue": "Ballroom dance in three-quarter time",
+          "col": 3,
+          "length": 4,
+          "answer": "IFFY",
+          "clue": "Uncertain",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "ASAHI",
-          "clue": "Japanese brewery",
+          "col": 4,
+          "length": 3,
+          "answer": "OFF",
+          "clue": "Not running",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "MYMAN",
-          "clue": "'Bro!'",
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "DRAB",
+          "clue": "Humdrum",
           "source": "dataset"
         },
         {
-          "number": 7,
+          "number": 5,
           "row": 2,
-          "col": 4,
+          "col": 0,
           "length": 3,
-          "answer": "PIC",
-          "clue": "Shot, for short",
+          "answer": "GOT",
+          "clue": "Received",
           "source": "dataset"
         }
       ]

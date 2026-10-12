@@ -3,188 +3,7 @@
     "size": 5,
     "cells": [
       {
-        "answer": "P",
-        "number": 1
-      },
-      {
-        "answer": "A",
-        "number": 2
-      },
-      {
         "answer": "C",
-        "number": 3
-      },
-      {
-        "answer": "S",
-        "number": 4
-      },
-      null,
-      {
-        "answer": "I",
-        "number": 5
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "I",
-        "number": 6
-      },
-      {
-        "answer": "T",
-        "number": 7
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "B"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "S",
-        "number": 8
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "K"
-      },
-      null,
-      {
-        "answer": "E",
-        "number": 9
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "S"
-      }
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 0,
-          "length": 4,
-          "answer": "PACS",
-          "clue": "Campaign orgs",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "ICYMI",
-          "clue": "Texting lead-in meaning 'in case you missed it'",
-          "source": "written"
-        },
-        {
-          "number": 7,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "TUBER",
-          "clue": "Overthrow argument about Murphy, say",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "STEAK",
-          "clue": "Sirloin or T-bone",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
-          "row": 4,
-          "col": 1,
-          "length": 4,
-          "answer": "ERRS",
-          "clue": "Goes off",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 0,
-          "length": 4,
-          "answer": "PITS",
-          "clue": "Olive leftovers",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "ACUTE",
-          "clue": "Critical",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "CYBER",
-          "clue": "Prefix for 'punk' or 'security'",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "SMEAR",
-          "clue": "Pap ___",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 1,
-          "col": 4,
-          "length": 4,
-          "answer": "IRKS",
-          "clue": "Annoys",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 5,
-    "cells": [
-      {
-        "answer": "T",
         "number": 1
       },
       {
@@ -196,58 +15,58 @@
         "number": 3
       },
       {
-        "answer": "D",
+        "answer": "B",
         "number": 4
       },
       {
-        "answer": "E",
+        "answer": "S",
         "number": 5
       },
       {
-        "answer": "H",
+        "answer": "A",
         "number": 6
       },
       {
         "answer": "E"
       },
       {
-        "answer": "L"
+        "answer": "S"
       },
       {
-        "answer": "I"
+        "answer": "O"
       },
       {
-        "answer": "X"
+        "answer": "P"
       },
       {
-        "answer": "E",
+        "answer": "M",
         "number": 7
       },
       {
-        "answer": "M"
+        "answer": "A"
+      },
+      {
+        "answer": "Y"
       },
       {
         "answer": "O"
       },
       {
-        "answer": "J"
-      },
-      {
-        "answer": "I"
+        "answer": "R"
       },
       null,
       {
-        "answer": "U",
+        "answer": "P",
         "number": 8
       },
       {
-        "answer": "N"
+        "answer": "E"
       },
       {
-        "answer": "O"
+        "answer": "T"
       },
       {
-        "answer": "S"
+        "answer": "E"
       },
       null,
       {
@@ -255,13 +74,13 @@
         "number": 9
       },
       {
-        "answer": "E"
-      },
-      {
-        "answer": "N"
-      },
-      {
         "answer": "T"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "E"
       }
     ],
     "clues": {
@@ -271,8 +90,8 @@
           "row": 0,
           "col": 0,
           "length": 5,
-          "answer": "TRADE",
-          "clue": "Business",
+          "answer": "CRABS",
+          "clue": "Whine connoisseurs (wordplay)",
           "source": "dataset"
         },
         {
@@ -280,8 +99,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "HELIX",
-          "clue": "DNA shape",
+          "answer": "AESOP",
+          "clue": "Greek fabulist",
           "source": "dataset"
         },
         {
@@ -289,8 +108,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "EMOJI",
-          "clue": "Face on Facebook, e.g",
+          "answer": "MAYOR",
+          "clue": "City leader",
           "source": "dataset"
         },
         {
@@ -298,8 +117,8 @@
           "row": 3,
           "col": 1,
           "length": 4,
-          "answer": "UNOS",
-          "clue": "Chicago pizza chain, familiarly",
+          "answer": "PETE",
+          "clue": "span>For",
           "source": "dataset"
         },
         {
@@ -307,8 +126,8 @@
           "row": 4,
           "col": 1,
           "length": 4,
-          "answer": "SENT",
-          "clue": "Launched",
+          "answer": "STYE",
+          "clue": "Eyelid bump",
           "source": "dataset"
         }
       ],
@@ -318,8 +137,8 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "answer": "THE",
-          "clue": "One and only",
+          "answer": "CAM",
+          "clue": "Nanny ___",
           "source": "dataset"
         },
         {
@@ -327,8 +146,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "REMUS",
-          "clue": "Founder of Rome, killed by his twin brother",
+          "answer": "REAPS",
+          "clue": "Gathers",
           "source": "dataset"
         },
         {
@@ -336,8 +155,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ALONE",
-          "clue": "Isolated",
+          "answer": "ASYET",
+          "clue": "Up to now",
           "source": "dataset"
         },
         {
@@ -345,8 +164,8 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "DIJON",
-          "clue": "Caesar dressing ingredient, familiarly",
+          "answer": "BOOTY",
+          "clue": "Spoils",
           "source": "dataset"
         },
         {
@@ -354,8 +173,185 @@
           "row": 0,
           "col": 4,
           "length": 5,
-          "answer": "EXIST",
-          "clue": "Walk the earth",
+          "answer": "SPREE",
+          "clue": "Tear",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "A",
+        "number": 1
+      },
+      {
+        "answer": "H",
+        "number": 2
+      },
+      {
+        "answer": "A",
+        "number": 3
+      },
+      {
+        "answer": "B",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "D",
+        "number": 5
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "D",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "Y",
+        "number": 7
+      },
+      null,
+      {
+        "answer": "K",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "Y"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "AHAB",
+          "clue": "Melville mariner",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "DOLE",
+          "clue": "Parcel (out)",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "DOLLY",
+          "clue": "Catch the sheep (wordplay)",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "answer": "KOLA",
+          "clue": "Beverage nut",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 1,
+          "length": 4,
+          "answer": "SWAY",
+          "clue": "Move in the breeze",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "ADD",
+          "clue": "Sum up",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "HOOKS",
+          "clue": "Catchy parts of songs",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "ALLOW",
+          "clue": "Let pass",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "BELLA",
+          "clue": "\"Twilight\" heroine",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "answer": "YAY",
+          "clue": "'Yippee!'",
           "source": "dataset"
         }
       ]

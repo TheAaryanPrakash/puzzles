@@ -3,55 +3,39 @@
     "size": 5,
     "cells": [
       null,
+      null,
       {
-        "answer": "Y",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "O",
+        "answer": "K",
         "number": 2
       },
       {
-        "answer": "G",
+        "answer": "I",
         "number": 3
       },
       {
-        "answer": "I",
+        "answer": "O",
         "number": 4
       },
-      null,
       {
-        "answer": "A",
+        "answer": "C",
         "number": 5
       },
       {
-        "answer": "P"
-      },
-      {
         "answer": "E"
       },
       {
-        "answer": "S"
+        "answer": "A"
       },
       {
-        "answer": "W",
+        "answer": "N"
+      },
+      {
+        "answer": "R",
         "number": 6
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "H",
-        "number": 7
       },
       {
         "answer": "O"
@@ -60,20 +44,36 @@
         "answer": "U"
       },
       {
-        "answer": "S"
+        "answer": "N"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "Z",
+        "number": 7
       },
       {
         "answer": "E"
       },
       {
-        "answer": "Y",
+        "answer": "S"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "O",
         "number": 8
       },
       {
-        "answer": "O"
+        "answer": "N"
       },
       {
-        "answer": "M"
+        "answer": "S"
       },
       null,
       null
@@ -83,19 +83,19 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "YOGI",
-          "clue": "Hanna-Barbera bear",
+          "col": 2,
+          "length": 3,
+          "answer": "SKI",
+          "clue": "Enjoy Vail",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "APES",
-          "clue": "Copies",
+          "col": 0,
+          "length": 5,
+          "answer": "OCEAN",
+          "clue": "Great sea",
           "source": "dataset"
         },
         {
@@ -103,8 +103,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "WHITE",
-          "clue": "Like some teeth and lies",
+          "answer": "ROUND",
+          "clue": "Spherical",
           "source": "dataset"
         },
         {
@@ -112,8 +112,8 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "HOUSE",
-          "clue": "___ cat",
+          "answer": "ZESTY",
+          "clue": "Flavorful",
           "source": "dataset"
         },
         {
@@ -121,8 +121,8 @@
           "row": 4,
           "col": 0,
           "length": 3,
-          "answer": "YOM",
-          "clue": "___ Kippur",
+          "answer": "ONS",
+          "clue": "Switch positions",
           "source": "dataset"
         }
       ],
@@ -130,46 +130,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "YAHOO",
-          "clue": "'Hurray!'",
+          "answer": "SEUSS",
+          "clue": "Lorax creator",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "OPIUM",
-          "clue": "Drug",
+          "col": 3,
+          "length": 4,
+          "answer": "KANT",
+          "clue": "'Critique of Pure Reason' philosopher",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
+          "col": 4,
           "length": 4,
-          "answer": "GETS",
-          "clue": "Obtains",
+          "answer": "INDY",
+          "clue": "Dr. Jones, to his friends",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
+          "row": 1,
+          "col": 0,
           "length": 4,
-          "answer": "ISEE",
-          "clue": "'Gotcha'",
+          "answer": "ORZO",
+          "clue": "Soup pasta",
           "source": "dataset"
         },
         {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "answer": "WHY",
-          "clue": "Rationale",
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "COEN",
+          "clue": "Either \"Fargo\" director",
           "source": "dataset"
         }
       ]
@@ -178,128 +178,131 @@
   "reserve": {
     "size": 5,
     "cells": [
+      null,
       {
-        "answer": "I",
+        "answer": "L",
         "number": 1
       },
       {
-        "answer": "F",
+        "answer": "U",
         "number": 2
       },
       {
-        "answer": "S",
+        "answer": "K",
         "number": 3
       },
-      null,
-      null,
       {
-        "answer": "R",
+        "answer": "E",
         "number": 4
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "O"
       },
       {
         "answer": "M",
         "number": 5
       },
       {
-        "answer": "Y",
-        "number": 6
-      },
-      {
-        "answer": "I",
-        "number": 7
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "D"
-      },
-      {
         "answer": "I"
       },
       {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "Z"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "C",
+        "number": 7
+      },
+      {
+        "answer": "Z"
+      },
+      {
         "answer": "A"
       },
       {
-        "answer": "S",
+        "answer": "R"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "H",
         "number": 8
       },
       {
-        "answer": "T"
-      },
-      {
-        "answer": "A"
+        "answer": "O"
       },
       {
         "answer": "L"
       },
       {
-        "answer": "L"
+        "answer": "Y"
       },
-      null,
-      null,
-      {
-        "answer": "S",
-        "number": 9
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "E"
-      }
+      null
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 3,
-          "answer": "IFS",
-          "clue": "Uncertainties",
+          "col": 1,
+          "length": 4,
+          "answer": "LUKE",
+          "clue": "Sci-fi's Skywalker",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "ROOMY",
-          "clue": "Very expansive",
+          "answer": "MISER",
+          "clue": "Cheapskate",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "AZURE",
+          "clue": "Sky hue",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 2,
+          "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "INDIA",
-          "clue": "Big country",
+          "answer": "CZARS",
+          "clue": "Industry moguls",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "STALL",
-          "clue": "Booth",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
           "row": 4,
-          "col": 2,
-          "length": 3,
-          "answer": "SEE",
-          "clue": "Regard",
+          "col": 0,
+          "length": 4,
+          "answer": "HOLY",
+          "clue": "Like God",
           "source": "dataset"
         }
       ],
@@ -307,46 +310,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 4,
-          "answer": "IRIS",
-          "clue": "Crocus kin",
+          "col": 1,
+          "length": 5,
+          "answer": "LIZZO",
+          "clue": "'Cuz I Love You' singer",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "FONT",
-          "clue": "Text editor adjustment",
+          "col": 2,
+          "length": 5,
+          "answer": "USUAL",
+          "clue": "Typical",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
+          "col": 3,
           "length": 5,
-          "answer": "SODAS",
-          "clue": "Fountain output",
+          "answer": "KERRY",
+          "clue": "Clinton's successor",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "ERES",
+          "clue": "Spanish for 'you are'",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 3,
+          "col": 0,
           "length": 4,
-          "answer": "MILE",
-          "clue": "Odometer measure",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 1,
-          "col": 4,
-          "length": 4,
-          "answer": "YALE",
-          "clue": "Kind of lock",
+          "answer": "MACH",
+          "clue": "Namesake of a speed ratio",
           "source": "dataset"
         }
       ]

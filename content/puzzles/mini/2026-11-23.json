@@ -4,43 +4,46 @@
     "cells": [
       null,
       {
-        "answer": "P",
+        "answer": "F",
         "number": 1
       },
       {
-        "answer": "E",
+        "answer": "L",
         "number": 2
       },
       {
-        "answer": "G",
+        "answer": "A",
         "number": 3
       },
       {
-        "answer": "S",
+        "answer": "T",
         "number": 4
       },
       {
-        "answer": "S",
+        "answer": "C",
         "number": 5
-      },
-      {
-        "answer": "H"
       },
       {
         "answer": "A"
       },
       {
+        "answer": "I"
+      },
+      {
         "answer": "R"
       },
       {
-        "answer": "P"
+        "answer": "O"
       },
       {
-        "answer": "T",
+        "answer": "H",
         "number": 6
       },
       {
         "answer": "I"
+      },
+      {
+        "answer": "N"
       },
       {
         "answer": "G"
@@ -49,33 +52,30 @@
         "answer": "E"
       },
       {
-        "answer": "R"
-      },
-      {
-        "answer": "A",
+        "answer": "O",
         "number": 7
       },
       {
-        "answer": "L"
-      },
-      {
-        "answer": "L"
+        "answer": "R"
       },
       {
         "answer": "E"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "W",
+        "number": 8
       },
       {
         "answer": "Y"
       },
       {
-        "answer": "T",
-        "number": 8
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "E"
+        "answer": "N"
       },
       {
         "answer": "N"
@@ -89,8 +89,8 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "PEGS",
-          "clue": "Coat hooks",
+          "answer": "FLAT",
+          "clue": "Fizzless",
           "source": "dataset"
         },
         {
@@ -98,8 +98,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "SHARP",
-          "clue": "#",
+          "answer": "CAIRO",
+          "clue": "Egyptian capital",
           "source": "dataset"
         },
         {
@@ -107,8 +107,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "TIGER",
-          "clue": "Fierce fighter",
+          "answer": "HINGE",
+          "clue": "Movable joint",
           "source": "dataset"
         },
         {
@@ -116,8 +116,8 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "ALLEY",
-          "clue": "Back lane",
+          "answer": "OREOS",
+          "clue": "Layered cookies",
           "source": "dataset"
         },
         {
@@ -125,9 +125,9 @@
           "row": 4,
           "col": 0,
           "length": 4,
-          "answer": "TEEN",
-          "clue": "Former tot",
-          "source": "dataset"
+          "answer": "WYNN",
+          "clue": "Las Vegas casino mogul Steve ___",
+          "source": "written"
         }
       ],
       "down": [
@@ -136,17 +136,17 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "PHILE",
-          "clue": "Suffix meaning 'lover of'",
-          "source": "written"
+          "answer": "FAIRY",
+          "clue": "___ godmother",
+          "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "EAGLE",
-          "clue": "Two under",
+          "answer": "LINEN",
+          "clue": "Bit of bedding",
           "source": "dataset"
         },
         {
@@ -154,8 +154,8 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "GREEN",
-          "clue": "Golfer's target",
+          "answer": "ARGON",
+          "clue": "Gas in some lasers",
           "source": "dataset"
         },
         {
@@ -163,8 +163,8 @@
           "row": 0,
           "col": 4,
           "length": 4,
-          "answer": "SPRY",
-          "clue": "Active",
+          "answer": "TOES",
+          "clue": "Foot parts",
           "source": "dataset"
         },
         {
@@ -172,8 +172,8 @@
           "row": 1,
           "col": 0,
           "length": 4,
-          "answer": "STAT",
-          "clue": "Right away",
+          "answer": "CHOW",
+          "clue": "Dog food",
           "source": "dataset"
         }
       ]
@@ -182,132 +182,122 @@
   "reserve": {
     "size": 5,
     "cells": [
+      null,
+      null,
       {
-        "answer": "I",
+        "answer": "N",
         "number": 1
       },
       {
-        "answer": "D",
+        "answer": "B",
         "number": 2
       },
       {
-        "answer": "L",
+        "answer": "A",
         "number": 3
-      },
-      {
-        "answer": "E",
-        "number": 4
       },
       null,
       {
-        "answer": "R",
-        "number": 5
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "E",
-        "number": 6
-      },
-      {
-        "answer": "A",
-        "number": 7
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "Q",
-        "number": 8
-      },
-      {
-        "answer": "U"
+        "answer": "C",
+        "number": 4
       },
       {
         "answer": "A"
       },
       {
+        "answer": "R"
+      },
+      {
         "answer": "D"
+      },
+      {
+        "answer": "G",
+        "number": 5
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "E"
       },
       {
         "answer": "S"
       },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "W"
+      },
       null,
       {
-        "answer": "T",
-        "number": 9
-      },
-      {
-        "answer": "R"
+        "answer": "B",
+        "number": 7
       },
       {
         "answer": "E"
       },
       {
-        "answer": "E"
-      }
+        "answer": "D"
+      },
+      null,
+      null
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "NBA",
+          "clue": "76ers' org",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
           "length": 4,
-          "answer": "IDLE",
-          "clue": "Casual",
+          "answer": "CARD",
+          "clue": "ID ___",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ROUTE",
-          "clue": "Itinerary",
+          "answer": "GAMES",
+          "clue": "Olympics, for instance, has a role in sending a message",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "AFEW",
+          "clue": "Not very many",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "ANNUL",
-          "clue": "Make void",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "QUADS",
-          "clue": "Thigh muscles, informally",
-          "source": "written"
-        },
-        {
-          "number": 9,
           "row": 4,
-          "col": 1,
-          "length": 4,
-          "answer": "TREE",
-          "clue": "Grove part",
+          "col": 0,
+          "length": 3,
+          "answer": "BED",
+          "clue": "Night spot",
           "source": "dataset"
         }
       ],
@@ -315,46 +305,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 4,
-          "answer": "IRAQ",
-          "clue": "Kirkuk's country",
+          "col": 2,
+          "length": 5,
+          "answer": "NAMED",
+          "clue": "Dubbed",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "DONUT",
-          "clue": "Bagel's sugary cousin",
+          "col": 3,
+          "length": 4,
+          "answer": "BREW",
+          "clue": "Make, as tea",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "LUNAR",
-          "clue": "___ eclipse",
+          "col": 4,
+          "length": 3,
+          "answer": "ADS",
+          "clue": "Promos",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "ETUDE",
-          "clue": "Chopin composition",
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "CAFE",
+          "clue": "Cozy eatery",
           "source": "dataset"
         },
         {
-          "number": 6,
-          "row": 1,
-          "col": 4,
-          "length": 4,
-          "answer": "ELSE",
-          "clue": "If not",
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "GAB",
+          "clue": "Chatter",
           "source": "dataset"
         }
       ]

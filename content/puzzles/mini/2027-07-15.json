@@ -2,12 +2,13 @@
   "payload": {
     "size": 5,
     "cells": [
+      null,
       {
         "answer": "S",
         "number": 1
       },
       {
-        "answer": "M",
+        "answer": "H",
         "number": 2
       },
       {
@@ -15,123 +16,113 @@
         "number": 3
       },
       {
-        "answer": "C",
+        "answer": "E",
         "number": 4
       },
+      null,
       {
-        "answer": "K",
+        "answer": "H",
         "number": 5
       },
       {
-        "answer": "K",
-        "number": 6
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "I",
-        "number": 7
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "R"
-      },
-      {
         "answer": "O"
       },
       {
-        "answer": "F",
-        "number": 8
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "I"
+        "answer": "W"
       },
       {
         "answer": "L"
       },
       {
-        "answer": "S"
-      },
-      {
-        "answer": "F",
-        "number": 9
+        "answer": "T",
+        "number": 6
       },
       {
         "answer": "R"
       },
       {
-        "answer": "E"
+        "answer": "U"
       },
       {
-        "answer": "A"
+        "answer": "N"
       },
       {
         "answer": "K"
-      }
+      },
+      {
+        "answer": "F",
+        "number": 7
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 8
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      null
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 5,
-          "answer": "SMOCK",
-          "clue": "Artist's coverall",
+          "col": 1,
+          "length": 4,
+          "answer": "SHOE",
+          "clue": "Brogue, e.g",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "HOWL",
+          "clue": "Wail like a wolf",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 1,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "KAUAI",
-          "clue": "\"The Garden Island\"",
+          "answer": "TRUNK",
+          "clue": "Large storage box",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 2,
+          "row": 3,
           "col": 0,
-          "length": 5,
-          "answer": "INTRO",
-          "clue": "Prologue",
+          "length": 4,
+          "answer": "FUSE",
+          "clue": "Firecracker part",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "FOILS",
-          "clue": "Some hair highlights",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
           "row": 4,
           "col": 0,
-          "length": 5,
-          "answer": "FREAK",
-          "clue": "Abnormal thing or event",
+          "length": 4,
+          "answer": "AGED",
+          "clue": "Ripened",
           "source": "dataset"
         }
       ],
@@ -139,47 +130,47 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
+          "col": 1,
           "length": 5,
-          "answer": "SKIFF",
-          "clue": "A small utility boat",
+          "answer": "SHRUG",
+          "clue": "'I don't care' gesture",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "MANOR",
-          "clue": "Stately home",
+          "answer": "HOUSE",
+          "clue": "Real-estate listing",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
+          "col": 3,
           "length": 5,
-          "answer": "OUTIE",
-          "clue": "Navel formation",
+          "answer": "OWNED",
+          "clue": "Once had",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "CARLA",
-          "clue": "Chef Hall",
+          "col": 4,
+          "length": 3,
+          "answer": "ELK",
+          "clue": "Idaho grazer",
           "source": "dataset"
         },
         {
-          "number": 5,
-          "row": 0,
-          "col": 4,
-          "length": 5,
-          "answer": "KIOSK",
-          "clue": "Mall stall",
-          "source": "dataset"
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "TFA",
+          "clue": "Teach For America, by its initials",
+          "source": "written"
         }
       ]
     }
@@ -187,78 +178,64 @@
   "reserve": {
     "size": 5,
     "cells": [
+      null,
       {
-        "answer": "S",
+        "answer": "L",
         "number": 1
       },
       {
-        "answer": "I",
+        "answer": "E",
         "number": 2
       },
       {
-        "answer": "G",
+        "answer": "T",
         "number": 3
       },
       {
-        "answer": "H",
+        "answer": "S",
         "number": 4
       },
-      null,
       {
-        "answer": "E",
+        "answer": "R",
         "number": 5
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "A"
       },
       {
         "answer": "I"
       },
       {
-        "answer": "L",
-        "number": 6
+        "answer": "G"
       },
       {
-        "answer": "R",
-        "number": 7
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "U"
+        "answer": "H"
       },
       {
         "answer": "T"
       },
       {
-        "answer": "E"
-      },
-      {
-        "answer": "F",
-        "number": 8
-      },
-      {
-        "answer": "U"
+        "answer": "A",
+        "number": 6
       },
       {
         "answer": "G"
       },
       {
-        "answer": "U"
+        "answer": "R"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "S",
-        "number": 9
+        "answer": "E"
       },
       {
-        "answer": "T"
+        "answer": "C",
+        "number": 7
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "E"
       },
       {
         "answer": "E"
@@ -267,18 +244,29 @@
         "answer": "P"
       },
       {
-        "answer": "S"
-      }
+        "answer": "E",
+        "number": 8
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "U"
+      },
+      null
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
+          "col": 1,
           "length": 4,
-          "answer": "SIGH",
-          "clue": "Exhale sadly",
+          "answer": "LETS",
+          "clue": "\"It's a date!\"",
           "source": "dataset"
         },
         {
@@ -286,35 +274,35 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "EMAIL",
-          "clue": "Inbox pileup",
+          "answer": "RIGHT",
+          "clue": "'That's correct!'",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "AGREE",
+          "clue": "Tally",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 2,
+          "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "ROUTE",
-          "clue": "Course",
+          "answer": "CHEEP",
+          "clue": "Tweet costing little, by the sound of it (wordplay)",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "FUGUE",
-          "clue": "A contrapuntal musical composition",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
           "row": 4,
           "col": 0,
-          "length": 5,
-          "answer": "STEPS",
-          "clue": "Fitbit units",
+          "length": 4,
+          "answer": "ETTU",
+          "clue": "Words to Brutus",
           "source": "dataset"
         }
       ],
@@ -322,46 +310,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
+          "col": 1,
           "length": 5,
-          "answer": "SERFS",
-          "clue": "Medieval laborers",
+          "answer": "LIGHT",
+          "clue": "Radiance",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "IMOUT",
-          "clue": "\"Shark Tank\" turndown",
+          "answer": "EGRET",
+          "clue": "Swamp thing",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
+          "col": 3,
           "length": 5,
-          "answer": "GAUGE",
-          "clue": "Speedometer, e.g",
+          "answer": "THEEU",
+          "clue": "Group for Finland and France",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "HITUP",
-          "clue": "Call on for cash",
+          "col": 4,
+          "length": 4,
+          "answer": "STEP",
+          "clue": "Dance bit",
           "source": "dataset"
         },
         {
-          "number": 6,
+          "number": 5,
           "row": 1,
-          "col": 4,
+          "col": 0,
           "length": 4,
-          "answer": "LEES",
-          "clue": "Dregs",
+          "answer": "RACE",
+          "clue": "Speed",
           "source": "dataset"
         }
       ]

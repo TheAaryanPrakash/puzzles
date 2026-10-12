@@ -2,42 +2,23 @@
   "payload": {
     "size": 5,
     "cells": [
-      null,
       {
-        "answer": "L",
+        "answer": "H",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "B",
         "number": 2
       },
       {
-        "answer": "C",
+        "answer": "O",
         "number": 3
       },
+      null,
+      null,
       {
         "answer": "E",
         "number": 4
-      },
-      {
-        "answer": "A",
-        "number": 5
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "P",
-        "number": 6
       },
       {
         "answer": "A"
@@ -46,60 +27,72 @@
         "answer": "R"
       },
       {
+        "answer": "S",
+        "number": 5
+      },
+      null,
+      {
+        "answer": "N",
+        "number": 6
+      },
+      {
         "answer": "I"
       },
       {
-        "answer": "S"
+        "answer": "G"
       },
       {
-        "answer": "E",
+        "answer": "H"
+      },
+      {
+        "answer": "T",
         "number": 7
       },
+      null,
       {
-        "answer": "M"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "S",
+        "answer": "L",
         "number": 8
       },
       {
         "answer": "A"
       },
       {
-        "answer": "L"
+        "answer": "I"
       },
       {
-        "answer": "E"
+        "answer": "R"
       },
-      null
+      null,
+      null,
+      {
+        "answer": "N",
+        "number": 9
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "Y"
+      }
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "LACE",
-          "clue": "Shoestring",
+          "col": 0,
+          "length": 3,
+          "answer": "HBO",
+          "clue": "\"Veep\" airer",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
           "col": 0,
-          "length": 5,
-          "answer": "ALPHA",
-          "clue": "___ dog",
+          "length": 4,
+          "answer": "EARS",
+          "clue": "Maize units",
           "source": "dataset"
         },
         {
@@ -107,26 +100,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "PARIS",
-          "clue": "Champs-Elysees city",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "EMILY",
-          "clue": "Innovative poet Dickinson",
+          "answer": "NIGHT",
+          "clue": "Bedtime story time",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 4,
-          "col": 0,
+          "row": 3,
+          "col": 1,
           "length": 4,
-          "answer": "SALE",
-          "clue": "BOGO event",
+          "answer": "LAIR",
+          "clue": "Den",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 2,
+          "length": 3,
+          "answer": "NAY",
+          "clue": "Thumbs-down vote",
           "source": "dataset"
         }
       ],
@@ -134,46 +127,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "LLAMA",
-          "clue": "Camel cousin",
+          "col": 0,
+          "length": 3,
+          "answer": "HEN",
+          "clue": "Female fowl",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "APRIL",
-          "clue": "Month",
+          "col": 1,
+          "length": 4,
+          "answer": "BAIL",
+          "clue": "Court security",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
+          "col": 2,
           "length": 5,
-          "answer": "CHILE",
-          "clue": "Long-and-narrow South American nation",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "EASY",
-          "clue": "\"Relax\"",
+          "answer": "ORGAN",
+          "clue": "Body part",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 0,
+          "col": 3,
           "length": 4,
-          "answer": "APES",
-          "clue": "Big galoots",
+          "answer": "SHIA",
+          "clue": "Branch of Islam",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "answer": "TRY",
+          "clue": "'___ this!'",
           "source": "dataset"
         }
       ]
@@ -183,88 +176,88 @@
     "size": 5,
     "cells": [
       {
-        "answer": "D",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "W",
+        "answer": "H",
         "number": 2
       },
       {
-        "answer": "A",
+        "answer": "R",
         "number": 3
       },
       {
-        "answer": "R",
+        "answer": "U",
         "number": 4
       },
       {
-        "answer": "F",
+        "answer": "G",
         "number": 5
       },
       {
-        "answer": "R",
+        "answer": "C",
         "number": 6
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "D"
+        "answer": "O"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "R"
+        "answer": "C"
+      },
+      {
+        "answer": "H"
       },
       {
         "answer": "A",
         "number": 7
       },
       {
-        "answer": "G"
+        "answer": "M"
+      },
+      {
+        "answer": "T"
       },
       {
         "answer": "O"
       },
       {
-        "answer": "N"
+        "answer": "O"
       },
       {
-        "answer": "Y"
-      },
-      {
-        "answer": "G",
+        "answer": "R",
         "number": 8
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "G"
-      },
-      {
         "answer": "E"
       },
       {
-        "answer": "S",
-        "number": 9
+        "answer": "I"
       },
       {
         "answer": "N"
       },
       {
-        "answer": "E"
+        "answer": "S"
       },
       {
-        "answer": "E"
+        "answer": "F",
+        "number": 9
       },
       {
         "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "T"
       }
     ],
     "clues": {
@@ -274,8 +267,8 @@
           "row": 0,
           "col": 0,
           "length": 5,
-          "answer": "DWARF",
-          "clue": "Sneezy, for one",
+          "answer": "SHRUG",
+          "clue": "\"Meh\" gesture",
           "source": "dataset"
         },
         {
@@ -283,8 +276,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "RADAR",
-          "clue": "Weather aid",
+          "answer": "COACH",
+          "clue": "Team leader",
           "source": "dataset"
         },
         {
@@ -292,8 +285,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "AGONY",
-          "clue": "Torment",
+          "answer": "AMTOO",
+          "clue": "'Are not!' response",
           "source": "dataset"
         },
         {
@@ -301,8 +294,8 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "GORGE",
-          "clue": "Deep, natural crevice",
+          "answer": "REINS",
+          "clue": "Bit attachments",
           "source": "dataset"
         },
         {
@@ -310,8 +303,8 @@
           "row": 4,
           "col": 0,
           "length": 5,
-          "answer": "SNEER",
-          "clue": "Evil grin",
+          "answer": "FRONT",
+          "clue": "Lend",
           "source": "dataset"
         }
       ],
@@ -321,8 +314,8 @@
           "row": 0,
           "col": 0,
           "length": 5,
-          "answer": "DRAGS",
-          "clue": "Puffs",
+          "answer": "SCARF",
+          "clue": "Wrapped garment",
           "source": "dataset"
         },
         {
@@ -330,8 +323,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "WAGON",
-          "clue": "Prairie schooner, for example",
+          "answer": "HOMER",
+          "clue": "Greek poet",
           "source": "dataset"
         },
         {
@@ -339,8 +332,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ADORE",
-          "clue": "Love",
+          "answer": "RATIO",
+          "clue": "12/31, for one",
           "source": "dataset"
         },
         {
@@ -348,8 +341,8 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "RANGE",
-          "clue": "Diversity",
+          "answer": "UCONN",
+          "clue": "Women's basketball powerhouse, for short",
           "source": "dataset"
         },
         {
@@ -357,8 +350,8 @@
           "row": 0,
           "col": 4,
           "length": 5,
-          "answer": "FRYER",
-          "clue": "Cooking device in a fast-food restaurant",
+          "answer": "GHOST",
+          "clue": "Stop texting back, slangily",
           "source": "dataset"
         }
       ]

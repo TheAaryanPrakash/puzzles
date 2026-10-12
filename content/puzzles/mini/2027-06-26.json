@@ -279,122 +279,132 @@
   "reserve": {
     "size": 5,
     "cells": [
-      null,
-      null,
       {
-        "answer": "Q",
+        "answer": "C",
         "number": 1
       },
       {
-        "answer": "B",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "S",
+        "answer": "B",
         "number": 3
       },
-      null,
       {
-        "answer": "Q",
+        "answer": "L",
         "number": 4
       },
       {
-        "answer": "U"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "Q",
+        "answer": "E",
         "number": 5
+      },
+      {
+        "answer": "B",
+        "number": 6
+      },
+      {
+        "answer": "L"
       },
       {
         "answer": "U"
       },
       {
         "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "D",
+        "number": 7
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 8
+      },
+      {
+        "answer": "Q"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "A"
+      },
+      null,
+      {
+        "answer": "N",
+        "number": 9
+      },
+      {
+        "answer": "A"
       },
       {
         "answer": "R"
       },
       {
         "answer": "Y"
-      },
-      {
-        "answer": "T",
-        "number": 6
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "D"
-      },
-      null,
-      {
-        "answer": "Y",
-        "number": 7
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "N"
-      },
-      null,
-      null
+      }
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "QBS",
-          "clue": "Ones initiating handoffs, for short",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "QUIP",
-          "clue": "Zinger",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "QUERY",
-          "clue": "Ask about",
+          "answer": "CABLE",
+          "clue": "Suspension bridge support",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 3,
+          "row": 1,
           "col": 0,
-          "length": 4,
-          "answer": "TOED",
-          "clue": "Three- - sloth",
+          "length": 5,
+          "answer": "BLUES",
+          "clue": "Music tones",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 4,
+          "row": 2,
           "col": 0,
-          "length": 3,
-          "answer": "YIN",
-          "clue": "Dark half",
+          "length": 5,
+          "answer": "DORMS",
+          "clue": "College residences",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "answer": "AQUA",
+          "clue": "Watery blue",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 1,
+          "length": 4,
+          "answer": "NARY",
+          "clue": "- a one (zero)",
           "source": "dataset"
         }
       ],
@@ -402,47 +412,47 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "QUEEN",
-          "clue": "Hive head",
+          "col": 0,
+          "length": 3,
+          "answer": "CBD",
+          "clue": "Substance in some adult gummies",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "BIRD",
-          "clue": "Frequent flier",
+          "col": 1,
+          "length": 5,
+          "answer": "ALOAN",
+          "clue": "Take out ___",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 3,
-          "answer": "SPY",
-          "clue": "___-fi",
+          "col": 2,
+          "length": 5,
+          "answer": "BURQA",
+          "clue": "Head-to-toe garment",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "QUOI",
-          "clue": "Je ne sais -",
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "LEMUR",
+          "clue": "Primate",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "answer": "QTY",
-          "clue": "Amount ordered, on a form, for short",
-          "source": "written"
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "ESSAY",
+          "clue": "Bacon piece",
+          "source": "dataset"
         }
       ]
     }

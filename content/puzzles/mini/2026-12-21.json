@@ -3,87 +3,81 @@
     "size": 5,
     "cells": [
       {
-        "answer": "S",
+        "answer": "M",
         "number": 1
       },
       {
-        "answer": "T",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "A",
+        "answer": "S",
         "number": 3
       },
       {
-        "answer": "T",
+        "answer": "S",
         "number": 4
       },
+      null,
       {
-        "answer": "E",
+        "answer": "I",
         "number": 5
       },
       {
-        "answer": "C",
+        "answer": "T"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "H"
+      },
+      null,
+      {
+        "answer": "S",
         "number": 6
       },
       {
+        "answer": "T"
+      },
+      {
         "answer": "R"
       },
       {
-        "answer": "O"
+        "answer": "A"
       },
       {
-        "answer": "W"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "A",
+        "answer": "W",
         "number": 7
       },
+      null,
       {
-        "answer": "I"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "R",
+        "answer": "W",
         "number": 8
       },
       {
         "answer": "A"
       },
       {
-        "answer": "T"
+        "answer": "K"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "O",
+        "number": 9
+      },
+      {
+        "answer": "P"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "S"
-      },
-      {
-        "answer": "F",
-        "number": 9
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "N"
-      },
-      null
+        "answer": "D"
+      }
     ],
     "clues": {
       "across": [
@@ -91,45 +85,45 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 5,
-          "answer": "STATE",
-          "clue": "Gas, e.g",
+          "length": 4,
+          "answer": "MASS",
+          "clue": "Type of media",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "ITCH",
+          "clue": "Teasing desire",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "CROWN",
-          "clue": "Queen's accessory",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "AIRED",
-          "clue": "Was shown on TV",
+          "answer": "STRAW",
+          "clue": "Scarecrow fill",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "RATES",
-          "clue": "Inn quotes",
+          "col": 1,
+          "length": 4,
+          "answer": "WAKE",
+          "clue": "Come to watch",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 0,
+          "col": 1,
           "length": 4,
-          "answer": "FLAN",
-          "clue": "Rich dessert",
+          "answer": "OPED",
+          "clue": "Commentary page",
           "source": "dataset"
         }
       ],
@@ -138,9 +132,9 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 5,
-          "answer": "SCARF",
-          "clue": "Neck warmer",
+          "length": 3,
+          "answer": "MIS",
+          "clue": "Prefix for 'fit' or 'fire'",
           "source": "dataset"
         },
         {
@@ -148,8 +142,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "TRIAL",
-          "clue": "Litigation",
+          "answer": "ATTWO",
+          "clue": "When clocks are turned back in November",
           "source": "dataset"
         },
         {
@@ -157,8 +151,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "AORTA",
-          "clue": "Heart part",
+          "answer": "SCRAP",
+          "clue": "Tussle",
           "source": "dataset"
         },
         {
@@ -166,28 +160,29 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "TWEEN",
-          "clue": "12-year-old, for one",
+          "answer": "SHAKE",
+          "clue": "Seal a deal, say",
           "source": "dataset"
         },
         {
-          "number": 5,
-          "row": 0,
+          "number": 7,
+          "row": 2,
           "col": 4,
-          "length": 4,
-          "answer": "ENDS",
-          "clue": "Results",
+          "length": 3,
+          "answer": "WED",
+          "clue": "Make one",
           "source": "dataset"
         }
       ]
     }
   },
   "reserve": {
-    "size": 5,
+    "size": 7,
     "cells": [
       null,
+      null,
       {
-        "answer": "C",
+        "answer": "F",
         "number": 1
       },
       {
@@ -195,11 +190,11 @@
         "number": 2
       },
       {
-        "answer": "T",
+        "answer": "S",
         "number": 3
       },
       {
-        "answer": "S",
+        "answer": "T",
         "number": 4
       },
       null,
@@ -208,17 +203,96 @@
         "number": 5
       },
       {
-        "answer": "W"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "S",
+        "answer": "C",
         "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "H"
+      },
+      null,
+      {
+        "answer": "P",
+        "number": 7
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D",
+        "number": 8
+      },
+      {
+        "answer": "A",
+        "number": 9
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "F"
+      },
+      null,
+      {
+        "answer": "M",
+        "number": 10
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "M",
+        "number": 11
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "G",
+        "number": 12
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "R",
+        "number": 13
+      },
+      {
+        "answer": "E"
       },
       {
         "answer": "P"
@@ -227,14 +301,18 @@
         "answer": "A"
       },
       {
-        "answer": "C"
-      },
-      {
         "answer": "Y"
       },
       {
-        "answer": "P",
-        "number": 7
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "Y",
+        "number": 14
+      },
+      {
+        "answer": "E"
       },
       {
         "answer": "A"
@@ -242,23 +320,7 @@
       {
         "answer": "R"
       },
-      {
-        "answer": "K"
-      },
       null,
-      {
-        "answer": "A",
-        "number": 8
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "Y"
-      },
       null
     ],
     "clues": {
@@ -266,46 +328,73 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 4,
-          "answer": "CATS",
-          "clue": "Pets that meow",
+          "answer": "FAST",
+          "clue": "Firmly fixed",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "SWAT",
-          "clue": "Try for a fly",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
           "col": 0,
-          "length": 5,
-          "answer": "SPACY",
-          "clue": "Kinda out-of-touch mentally",
-          "source": "dataset"
+          "length": 6,
+          "answer": "SCOOCH",
+          "clue": "Shift over slightly",
+          "source": "written"
         },
         {
           "number": 7,
-          "row": 3,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "answer": "PARK",
-          "clue": "Yosemite, for one",
+          "length": 7,
+          "answer": "PERCHED",
+          "clue": "Roosted",
           "source": "dataset"
         },
         {
-          "number": 8,
+          "number": 9,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "answer": "ALF",
+          "clue": "Furry TV ET",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 3,
+          "col": 4,
+          "length": 3,
+          "answer": "MOI",
+          "clue": "Me, in Vercheres",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
           "row": 4,
           "col": 0,
+          "length": 7,
+          "answer": "MERGERS",
+          "clue": "Big deals for companies",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 5,
+          "col": 1,
+          "length": 6,
+          "answer": "REPAYS",
+          "clue": "Makes good on",
+          "source": "dataset"
+        },
+        {
+          "number": 14,
+          "row": 6,
+          "col": 1,
           "length": 4,
-          "answer": "ANDY",
-          "clue": "Opie's dad",
+          "answer": "YEAR",
+          "clue": "12 months",
           "source": "dataset"
         }
       ],
@@ -313,46 +402,73 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "CSPAN",
-          "clue": "DC-based broadcaster",
+          "col": 2,
+          "length": 7,
+          "answer": "FORFREE",
+          "clue": "Without payment",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "AWARD",
-          "clue": "Accolade",
+          "col": 3,
+          "length": 3,
+          "answer": "AOC",
+          "clue": "Noted congresswoman from the Bronx, familiarly",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "TACKY",
-          "clue": "In poor taste",
+          "col": 4,
+          "length": 7,
+          "answer": "SCHMEAR",
+          "clue": "Cream cheese serving",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 4,
-          "length": 3,
-          "answer": "STY",
-          "clue": "Pigpen",
+          "col": 5,
+          "length": 6,
+          "answer": "THEORY",
+          "clue": "Hypothesis",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "SPAM",
+          "clue": "Cybernuisance",
           "source": "dataset"
         },
         {
           "number": 6,
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "answer": "CELERY",
+          "clue": "Salad sticks",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
           "row": 2,
-          "col": 0,
+          "col": 6,
+          "length": 4,
+          "answer": "DISS",
+          "clue": "Put-down",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 4,
+          "col": 3,
           "length": 3,
-          "answer": "SPA",
-          "clue": "Health club",
+          "answer": "GPA",
+          "clue": "Transcript no",
           "source": "dataset"
         }
       ]

@@ -3,7 +3,189 @@
     "size": 5,
     "cells": [
       {
-        "answer": "R",
+        "answer": "L",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "C",
+        "number": 3
+      },
+      {
+        "answer": "K",
+        "number": 4
+      },
+      {
+        "answer": "S",
+        "number": 5
+      },
+      {
+        "answer": "I",
+        "number": 6
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "G",
+        "number": 7
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "H",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "T",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "LACKS",
+          "clue": "Doesn't have",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "IGLOO",
+          "clue": "Ice house",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "GREEN",
+          "clue": "Golfer's target",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "HEADY",
+          "clue": "Intoxicating",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "TEN",
+          "clue": "Toe count",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "LIGHT",
+          "clue": "PPCLI word",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "AGREE",
+          "clue": "Tally",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "CLEAN",
+          "clue": "Sanitize",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "KOED",
+          "clue": "Knocked out, briefly",
+          "source": "written"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "SONY",
+          "clue": "PlayStation producer",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "H",
         "number": 1
       },
       {
@@ -14,17 +196,33 @@
         "answer": "M",
         "number": 3
       },
-      {
-        "answer": "P",
-        "number": 4
-      },
       null,
       {
-        "answer": "E",
+        "answer": "J",
+        "number": 4
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N",
         "number": 5
       },
       {
-        "answer": "R"
+        "answer": "O",
+        "number": 6
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "L"
       },
       {
         "answer": "I"
@@ -32,10 +230,12 @@
       {
         "answer": "E"
       },
-      null,
       {
-        "answer": "F",
-        "number": 6
+        "answer": "Y",
+        "number": 7
+      },
+      {
+        "answer": "O"
       },
       {
         "answer": "U"
@@ -44,213 +244,18 @@
         "answer": "N"
       },
       {
-        "answer": "N"
+        "answer": "G"
       },
-      {
-        "answer": "Y",
-        "number": 7
-      },
-      null,
-      {
-        "answer": "B",
-        "number": 8
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "E"
-      },
-      null,
-      {
-        "answer": "A",
-        "number": 9
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "A"
-      }
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 0,
-          "length": 4,
-          "answer": "RAMP",
-          "clue": "Stadium access",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "ERIE",
-          "clue": "Toledo's lake",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "FUNNY",
-          "clue": "Humorous",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 3,
-          "col": 1,
-          "length": 4,
-          "answer": "BONE",
-          "clue": "Drumstick part",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
-          "row": 4,
-          "col": 1,
-          "length": 4,
-          "answer": "ARYA",
-          "clue": "\"Game of Thrones\" girl",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 0,
-          "length": 3,
-          "answer": "REF",
-          "clue": "Ump relative",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "ARUBA",
-          "clue": "Caribbean resort",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "MINOR",
-          "clue": "Secondary",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "PENNY",
-          "clue": "Price of thoughts (wordplay)",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 2,
-          "col": 4,
-          "length": 3,
-          "answer": "YEA",
-          "clue": "___ high",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 5,
-    "cells": [
-      null,
       null,
       {
         "answer": "S",
-        "number": 1
+        "number": 8
       },
       {
-        "answer": "E",
-        "number": 2
-      },
-      {
-        "answer": "A",
-        "number": 3
-      },
-      null,
-      {
-        "answer": "C",
-        "number": 4
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "D",
-        "number": 5
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "V"
-      },
-      {
-        "answer": "V"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "R",
-        "number": 6
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "V"
+        "answer": "S"
       },
       {
         "answer": "E"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "J",
-        "number": 7
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "S"
       },
       null
     ],
@@ -259,46 +264,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 3,
-          "answer": "SEA",
-          "clue": "___ salt",
+          "answer": "HAM",
+          "clue": "Stage hog",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "CALM",
-          "clue": "Not stormy",
+          "col": 0,
+          "length": 5,
+          "answer": "JAPAN",
+          "clue": "Eastern country",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 6,
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "DIVVY",
-          "clue": "Split up, with 'up'",
-          "source": "written"
-        },
-        {
-          "number": 6,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "RAVES",
-          "clue": "Talks wildly; parties",
+          "answer": "OLLIE",
+          "clue": "Skateboarding leap",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 4,
+          "row": 3,
           "col": 0,
-          "length": 4,
-          "answer": "JOYS",
-          "clue": "Great pleasures",
+          "length": 5,
+          "answer": "YOUNG",
+          "clue": "Offspring",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "SSE",
+          "clue": "MI-to-SC dir",
           "source": "dataset"
         }
       ],
@@ -306,46 +311,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "SAVVY",
-          "clue": "Street-smart",
-          "source": "written"
+          "answer": "HALOS",
+          "clue": "Angel toppers",
+          "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
+          "col": 2,
           "length": 5,
-          "answer": "ELVES",
-          "clue": "Arctic toymakers",
+          "answer": "APLUS",
+          "clue": "100, gradewise",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "AMYS",
-          "clue": "Adams and Poehler",
+          "col": 3,
+          "length": 5,
+          "answer": "MAINE",
+          "clue": "23rd state",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "CIAO",
-          "clue": "'Ta-ta!'",
+          "col": 0,
+          "length": 3,
+          "answer": "JOY",
+          "clue": "Prevailing feeling at a wedding",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 2,
-          "col": 0,
+          "row": 1,
+          "col": 4,
           "length": 3,
-          "answer": "DRJ",
-          "clue": "NBA great Erving's nickname",
+          "answer": "NEG",
+          "clue": "Pos. opposite",
           "source": "dataset"
         }
       ]

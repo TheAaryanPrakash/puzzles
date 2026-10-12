@@ -3,80 +3,80 @@
     "size": 5,
     "cells": [
       {
-        "answer": "S",
+        "answer": "B",
         "number": 1
       },
       {
-        "answer": "E",
+        "answer": "L",
         "number": 2
       },
       {
-        "answer": "L",
+        "answer": "O",
         "number": 3
       },
       {
-        "answer": "F",
+        "answer": "G",
         "number": 4
       },
       null,
       {
-        "answer": "O",
+        "answer": "B",
         "number": 5
-      },
-      {
-        "answer": "V"
-      },
-      {
-        "answer": "A"
       },
       {
         "answer": "L"
       },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "R"
+      },
       null,
       {
-        "answer": "L",
+        "answer": "C",
         "number": 6
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "G"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "L",
+        "answer": "T"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N",
         "number": 7
       },
       null,
       {
-        "answer": "N",
+        "answer": "M",
         "number": 8
       },
       {
         "answer": "E"
       },
       {
-        "answer": "M"
+        "answer": "N"
       },
       {
-        "answer": "O"
+        "answer": "U"
       },
       null,
       {
-        "answer": "T",
+        "answer": "A",
         "number": 9
       },
       {
         "answer": "R"
       },
       {
-        "answer": "E"
+        "answer": "T"
       },
       {
-        "answer": "X"
+        "answer": "S"
       }
     ],
     "clues": {
@@ -86,8 +86,8 @@
           "row": 0,
           "col": 0,
           "length": 4,
-          "answer": "SELF",
-          "clue": "Ego",
+          "answer": "BLOG",
+          "clue": "Site with posts",
           "source": "dataset"
         },
         {
@@ -95,8 +95,8 @@
           "row": 1,
           "col": 0,
           "length": 4,
-          "answer": "OVAL",
-          "clue": "Egg-shaped",
+          "answer": "BLUR",
+          "clue": "Smudge",
           "source": "dataset"
         },
         {
@@ -104,8 +104,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "LEGAL",
-          "clue": "Within the rules",
+          "answer": "CATAN",
+          "clue": "Board game aka Settlers",
           "source": "dataset"
         },
         {
@@ -113,8 +113,8 @@
           "row": 3,
           "col": 1,
           "length": 4,
-          "answer": "NEMO",
-          "clue": "\"Finding ___\"",
+          "answer": "MENU",
+          "clue": "Yelp link",
           "source": "dataset"
         },
         {
@@ -122,8 +122,8 @@
           "row": 4,
           "col": 1,
           "length": 4,
-          "answer": "TREX",
-          "clue": "Fearsome dino",
+          "answer": "ARTS",
+          "clue": "Martial ___",
           "source": "dataset"
         }
       ],
@@ -133,8 +133,8 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "answer": "SOL",
-          "clue": "Scale member",
+          "answer": "BBC",
+          "clue": "___ World Service",
           "source": "dataset"
         },
         {
@@ -142,8 +142,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "EVENT",
-          "clue": "Occurrence",
+          "answer": "LLAMA",
+          "clue": "Camel cousin",
           "source": "dataset"
         },
         {
@@ -151,8 +151,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "LAGER",
-          "clue": "Pilsener",
+          "answer": "OUTER",
+          "clue": "Outside; external",
           "source": "dataset"
         },
         {
@@ -160,8 +160,8 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "FLAME",
-          "clue": "Olympics symbol",
+          "answer": "GRANT",
+          "clue": "Cede",
           "source": "dataset"
         },
         {
@@ -169,40 +169,82 @@
           "row": 2,
           "col": 4,
           "length": 3,
-          "answer": "LOX",
-          "clue": "Bagel salmon",
+          "answer": "NUS",
+          "clue": "Agamemnon pair",
           "source": "dataset"
         }
       ]
     }
   },
   "reserve": {
-    "size": 5,
+    "size": 7,
     "cells": [
       null,
+      null,
+      null,
       {
-        "answer": "U",
+        "answer": "M",
         "number": 1
       },
       {
-        "answer": "G",
+        "answer": "U",
         "number": 2
       },
       {
-        "answer": "L",
+        "answer": "S",
         "number": 3
       },
       {
-        "answer": "Y",
+        "answer": "K",
         "number": 4
       },
       null,
+      null,
       {
-        "answer": "B",
+        "answer": "M",
         "number": 5
       },
       {
-        "answer": "R"
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "M",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "P"
       },
       {
         "answer": "I"
@@ -211,48 +253,64 @@
         "answer": "E"
       },
       {
-        "answer": "H",
-        "number": 6
+        "answer": "N"
       },
       {
-        "answer": "E"
+        "answer": "S"
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "O",
-        "number": 7
-      },
-      {
-        "answer": "R"
+        "answer": "A",
+        "number": 8
       },
       {
         "answer": "C"
       },
       {
-        "answer": "A"
+        "answer": "T"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "S"
       },
       null,
       {
-        "answer": "U",
-        "number": 8
+        "answer": "L",
+        "number": 9
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      null,
+      {
+        "answer": "T",
+        "number": 10
       },
       {
         "answer": "S"
       },
       {
-        "answer": "E"
+        "answer": "P"
       },
       {
         "answer": "S"
       },
+      null,
+      null,
       null
     ],
     "clues": {
@@ -260,46 +318,64 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 3,
           "length": 4,
-          "answer": "UGLY",
-          "clue": "Repulsive",
+          "answer": "MUSK",
+          "clue": "Perfume ingredient",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "BRIE",
-          "clue": "French wheel",
+          "col": 2,
+          "length": 5,
+          "answer": "MINCE",
+          "clue": "Cut into small pieces",
           "source": "dataset"
         },
         {
           "number": 6,
           "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "HEART",
-          "clue": "Courage",
+          "col": 1,
+          "length": 6,
+          "answer": "MONDAY",
+          "clue": "Part of the week",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 4,
-          "answer": "ORCA",
-          "clue": "Whale type",
-          "source": "dataset"
+          "length": 7,
+          "answer": "SAPIENS",
+          "clue": "Homo ___, modern humans",
+          "source": "written"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
+          "length": 6,
+          "answer": "ACTORS",
+          "clue": "The 'A' of SAG",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 5,
+          "col": 0,
+          "length": 5,
+          "answer": "LYONS",
+          "clue": "City at the confluence of the Rhone and Saone",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 6,
+          "col": 0,
           "length": 4,
-          "answer": "USES",
-          "clue": "Applies",
+          "answer": "TSPS",
+          "clue": "Cough syrup amts",
           "source": "dataset"
         }
       ],
@@ -307,46 +383,64 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "UBERS",
-          "clue": "Some rideshares",
+          "col": 3,
+          "length": 7,
+          "answer": "MINIONS",
+          "clue": "Underlings",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "GRACE",
-          "clue": "Simple elegance",
-          "source": "dataset"
+          "col": 4,
+          "length": 6,
+          "answer": "UNDERS",
+          "clue": "Betting option opposite overs",
+          "source": "written"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
+          "col": 5,
           "length": 5,
-          "answer": "LIRAS",
-          "clue": "Turkish coins",
+          "answer": "SCANS",
+          "clue": "Electronic readings",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 4,
-          "length": 3,
-          "answer": "YET",
-          "clue": "So far",
+          "col": 6,
+          "length": 4,
+          "answer": "KEYS",
+          "clue": "Piano parts",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 2,
+          "length": 6,
+          "answer": "MOPTOP",
+          "clue": "Beatlesque hairstyle",
           "source": "dataset"
         },
         {
           "number": 6,
           "row": 2,
+          "col": 1,
+          "length": 5,
+          "answer": "MACYS",
+          "clue": "'Miracle on 34th Street' store",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
           "col": 0,
-          "length": 3,
-          "answer": "HOU",
-          "clue": "The Rockets, on scoreboards",
+          "length": 4,
+          "answer": "SALT",
+          "clue": "Pretzel topper",
           "source": "dataset"
         }
       ]

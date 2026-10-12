@@ -3,88 +3,76 @@
     "size": 5,
     "cells": [
       {
-        "answer": "R",
+        "answer": "V",
         "number": 1
       },
       {
-        "answer": "S",
+        "answer": "E",
         "number": 2
       },
       {
-        "answer": "V",
+        "answer": "T",
         "number": 3
       },
+      null,
+      null,
       {
-        "answer": "P",
+        "answer": "E",
         "number": 4
+      },
+      {
+        "answer": "X"
+      },
+      {
+        "answer": "E"
       },
       {
         "answer": "S",
         "number": 5
       },
+      null,
       {
-        "answer": "H",
+        "answer": "X",
         "number": 6
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "H"
-      },
-      {
         "answer": "A"
       },
       {
-        "answer": "O",
+        "answer": "X"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S",
         "number": 7
       },
+      null,
       {
-        "answer": "N"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "D",
+        "answer": "M",
         "number": 8
       },
       {
-        "answer": "I"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "E",
-        "number": 9
-      },
-      {
         "answer": "A"
       },
       {
-        "answer": "S"
+        "answer": "X"
+      },
+      {
+        "answer": "I"
+      },
+      null,
+      null,
+      {
+        "answer": "N",
+        "number": 9
       },
       {
         "answer": "Y"
       },
       {
-        "answer": "A"
+        "answer": "X"
       }
     ],
     "clues": {
@@ -93,46 +81,46 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 5,
-          "answer": "RSVPS",
-          "clue": "Answers an invitation",
+          "length": 3,
+          "answer": "VET",
+          "clue": "Doggie doc",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "EXES",
+          "clue": "Former spouses",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "HOOHA",
-          "clue": "Dropping every case, the fool that makes fuss",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ONION",
-          "clue": "Edible pearl",
+          "answer": "XAXES",
+          "clue": "Bottom lines (wordplay)",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "DIDNT",
-          "clue": "\"I - think so!\"",
+          "col": 1,
+          "length": 4,
+          "answer": "MAXI",
+          "clue": "Long dress",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 0,
-          "length": 5,
-          "answer": "EASYA",
-          "clue": "Gut course",
-          "source": "dataset"
+          "col": 2,
+          "length": 3,
+          "answer": "NYX",
+          "clue": "Greek goddess of night",
+          "source": "written"
         }
       ],
       "down": [
@@ -140,18 +128,18 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 5,
-          "answer": "RHODE",
-          "clue": "___ Islander",
+          "length": 3,
+          "answer": "VEX",
+          "clue": "Irritate",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
-          "length": 5,
-          "answer": "SONIA",
-          "clue": "Justice Sotomayor",
+          "length": 4,
+          "answer": "EXAM",
+          "clue": "Big test",
           "source": "dataset"
         },
         {
@@ -159,26 +147,26 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "VOIDS",
-          "clue": "Invalidates",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "PHONY",
-          "clue": "Pretender",
+          "answer": "TEXAN",
+          "clue": "Garland resident",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 0,
+          "row": 1,
+          "col": 3,
+          "length": 4,
+          "answer": "SEXY",
+          "clue": "Hot",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
           "col": 4,
-          "length": 5,
-          "answer": "SANTA",
-          "clue": "Annual visitor",
+          "length": 3,
+          "answer": "SIX",
+          "clue": "Number",
           "source": "dataset"
         }
       ]
@@ -188,78 +176,78 @@
     "size": 5,
     "cells": [
       null,
+      null,
       {
-        "answer": "E",
+        "answer": "B",
         "number": 1
       },
       {
-        "answer": "W",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "W",
+        "answer": "G",
         "number": 3
       },
-      null,
       {
-        "answer": "A",
+        "answer": "S",
         "number": 4
       },
       {
-        "answer": "L"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "A",
+        "answer": "T",
         "number": 5
       },
       {
-        "answer": "B",
-        "number": 6
+        "answer": "I"
       },
       {
         "answer": "L"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "C",
-        "number": 7
       },
       {
         "answer": "E"
       },
       {
-        "answer": "L"
+        "answer": "W",
+        "number": 6
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "O"
       },
       {
         "answer": "L"
       },
       {
-        "answer": "S"
+        "answer": "E"
+      },
+      {
+        "answer": "I",
+        "number": 7
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "A"
       },
       null,
       {
-        "answer": "N",
+        "answer": "G",
         "number": 8
       },
       {
-        "answer": "F"
+        "answer": "R"
       },
       {
-        "answer": "L"
+        "answer": "A"
+      },
+      {
+        "answer": "Y"
       },
       null
     ],
@@ -268,10 +256,10 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 3,
-          "answer": "EWW",
-          "clue": "'Ick'",
+          "answer": "BAG",
+          "clue": "Sack",
           "source": "dataset"
         },
         {
@@ -279,8 +267,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "ALOHA",
-          "clue": "Hilo hello",
+          "answer": "STILE",
+          "clue": "Steps over a wall",
           "source": "dataset"
         },
         {
@@ -288,26 +276,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "BLOOD",
-          "clue": "Fluid that can be donated",
+          "answer": "WHOLE",
+          "clue": "In one piece",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 5,
-          "answer": "CELLS",
-          "clue": "Rooms at Stony Mountain",
+          "length": 4,
+          "answer": "IOTA",
+          "clue": "Skosh",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
-          "col": 1,
-          "length": 3,
-          "answer": "NFL",
-          "clue": "Grid group",
+          "col": 0,
+          "length": 4,
+          "answer": "GRAY",
+          "clue": "Gloomy, weatherwise",
           "source": "dataset"
         }
       ],
@@ -315,46 +303,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "ELLEN",
-          "clue": "Suspect #7",
+          "answer": "BIOTA",
+          "clue": "Flora and fauna",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
+          "col": 3,
           "length": 5,
-          "answer": "WOOLF",
-          "clue": "'A Room of One's Own' author",
+          "answer": "ALLAY",
+          "clue": "Lessen, as fears",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "WHOLL",
-          "clue": "'___ be the one?'",
-          "source": "written"
+          "col": 4,
+          "length": 3,
+          "answer": "GEE",
+          "clue": "'Golly!'",
+          "source": "dataset"
         },
         {
           "number": 4,
           "row": 1,
           "col": 0,
-          "length": 3,
-          "answer": "ABC",
-          "clue": "Easy as ___",
+          "length": 4,
+          "answer": "SWIG",
+          "clue": "Deep drink",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 4,
-          "length": 3,
-          "answer": "ADS",
-          "clue": "Radio spots",
+          "col": 1,
+          "length": 4,
+          "answer": "THOR",
+          "clue": "Hammer wielder",
           "source": "dataset"
         }
       ]

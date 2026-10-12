@@ -3,79 +3,79 @@
     "size": 5,
     "cells": [
       null,
+      null,
       {
-        "answer": "L",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "I",
+        "answer": "H",
         "number": 2
       },
       {
-        "answer": "T",
+        "answer": "E",
         "number": 3
       },
-      null,
       {
-        "answer": "M",
+        "answer": "R",
         "number": 4
       },
       {
-        "answer": "O"
+        "answer": "A",
+        "number": 5
       },
       {
         "answer": "T"
       },
       {
-        "answer": "O"
+        "answer": "E"
       },
       {
-        "answer": "R",
-        "number": 5
+        "answer": "S"
       },
       {
-        "answer": "D",
+        "answer": "U",
         "number": 6
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "U"
       },
       {
         "answer": "R"
       },
       {
-        "answer": "A"
+        "answer": "P"
       },
       {
-        "answer": "P"
+        "answer": "B",
+        "number": 7
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "D"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "S",
-        "number": 7
+        "answer": "N"
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "D"
-      },
-      null,
-      {
-        "answer": "X",
+        "answer": "Y",
         "number": 8
+      },
+      {
+        "answer": "A"
       },
       {
         "answer": "Y"
       },
-      {
-        "answer": "Z"
-      },
+      null,
       null
     ],
     "clues": {
@@ -83,10 +83,10 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 3,
-          "answer": "LIT",
-          "clue": "Ignited",
+          "answer": "SHE",
+          "clue": "That yacht",
           "source": "dataset"
         },
         {
@@ -94,8 +94,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "MOTOR",
-          "clue": "Travel by car",
+          "answer": "RATES",
+          "clue": "Deems to be",
           "source": "dataset"
         },
         {
@@ -103,8 +103,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "DRAPE",
-          "clue": "Fall loosely",
+          "answer": "USURP",
+          "clue": "Seize by force",
           "source": "dataset"
         },
         {
@@ -112,17 +112,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "SALAD",
-          "clue": "Green lunch",
+          "answer": "BIDEN",
+          "clue": "Wait to get new president",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
-          "col": 1,
+          "col": 0,
           "length": 3,
-          "answer": "XYZ",
-          "clue": "Historic 'Affair' of 1797-98",
+          "answer": "YAY",
+          "clue": "'Yippee!'",
           "source": "dataset"
         }
       ],
@@ -130,46 +130,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "LORAX",
-          "clue": "Seuss' tree protector",
+          "answer": "STUDY",
+          "clue": "Prepare for an exam",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "ITALY",
-          "clue": "G7 nation",
+          "col": 3,
+          "length": 4,
+          "answer": "HERE",
+          "clue": "'Take it'",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "TOPAZ",
-          "clue": "Birthstone after opal",
+          "col": 4,
+          "length": 4,
+          "answer": "ESPN",
+          "clue": "\"NFL Live\" channel",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 1,
           "col": 0,
-          "length": 3,
-          "answer": "MDS",
-          "clue": "Script writers",
+          "length": 4,
+          "answer": "RUBY",
+          "clue": "July's stone",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 4,
-          "length": 3,
-          "answer": "RED",
-          "clue": "___ tape",
+          "col": 1,
+          "length": 4,
+          "answer": "ASIA",
+          "clue": "K2 locale",
           "source": "dataset"
         }
       ]
@@ -180,19 +180,19 @@
     "cells": [
       null,
       {
-        "answer": "T",
+        "answer": "F",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "O",
         "number": 2
       },
       {
-        "answer": "L",
+        "answer": "A",
         "number": 3
       },
       {
-        "answer": "K",
+        "answer": "M",
         "number": 4
       },
       {
@@ -202,20 +202,20 @@
       null,
       null,
       {
-        "answer": "A",
+        "answer": "I",
         "number": 6
+      },
+      {
+        "answer": "N"
       },
       {
         "answer": "L"
       },
       {
-        "answer": "I"
-      },
-      {
         "answer": "E"
       },
       {
-        "answer": "N"
+        "answer": "T"
       },
       null,
       {
@@ -223,81 +223,81 @@
         "number": 7
       },
       {
-        "answer": "I"
+        "answer": "N"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "G"
       },
       {
         "answer": "R"
       },
       {
-        "answer": "D"
+        "answer": "A"
       },
       {
-        "answer": "R"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "P",
+        "answer": "M",
         "number": 8
       },
       {
-        "answer": "B",
+        "answer": "N",
         "number": 9
       },
       {
-        "answer": "C"
+        "answer": "I"
+      },
+      {
+        "answer": "G"
       },
       {
         "answer": "E"
-      },
-      null,
-      {
-        "answer": "A",
-        "number": 10
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "C",
-        "number": 11
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "I",
-        "number": 12
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "A"
-      },
-      null,
-      {
-        "answer": "I",
-        "number": 13
-      },
-      {
-        "answer": "D"
       },
       {
         "answer": "R"
       },
       {
         "answer": "I"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "I",
+        "number": 10
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "D"
+      },
+      null,
+      {
+        "answer": "G",
+        "number": 11
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "L"
       },
       {
         "answer": "S"
@@ -306,14 +306,14 @@
       null,
       null,
       {
-        "answer": "Y",
-        "number": 14
+        "answer": "N",
+        "number": 12
       },
       {
-        "answer": "E"
+        "answer": "A"
       },
       {
-        "answer": "N"
+        "answer": "Y"
       },
       null,
       null
@@ -325,8 +325,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "TALKS",
-          "clue": "Conversations",
+          "answer": "FOAMS",
+          "clue": "Features of beer and sponges",
           "source": "dataset"
         },
         {
@@ -334,8 +334,8 @@
           "row": 1,
           "col": 1,
           "length": 5,
-          "answer": "ALIEN",
-          "clue": "E.T., e.g",
+          "answer": "INLET",
+          "clue": "Cove",
           "source": "dataset"
         },
         {
@@ -343,53 +343,44 @@
           "row": 2,
           "col": 0,
           "length": 7,
-          "answer": "AIRDROP",
-          "clue": "Deliver via parachute",
+          "answer": "ANAGRAM",
+          "clue": "Plane to Nepal, for instance (wordplay)",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 3,
           "col": 0,
-          "length": 3,
-          "answer": "BCE",
-          "clue": "Prior to AD",
+          "length": 7,
+          "answer": "NIGERIA",
+          "clue": "West African country",
           "source": "dataset"
         },
         {
           "number": 10,
-          "row": 3,
-          "col": 4,
-          "length": 3,
-          "answer": "APE",
-          "clue": "Copy",
+          "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "INABIND",
+          "clue": "Between a rock and a hard place, say",
           "source": "dataset"
         },
         {
           "number": 11,
-          "row": 4,
-          "col": 0,
-          "length": 7,
-          "answer": "CHAITEA",
-          "clue": "*Indian spiced drink",
-          "source": "dataset"
-        },
-        {
-          "number": 13,
           "row": 5,
           "col": 1,
           "length": 5,
-          "answer": "IDRIS",
-          "clue": "\"Luther\" star Elba",
+          "answer": "GIRLS",
+          "clue": "Young ladies",
           "source": "dataset"
         },
         {
-          "number": 14,
+          "number": 12,
           "row": 6,
           "col": 2,
           "length": 3,
-          "answer": "YEN",
-          "clue": "Urge",
+          "answer": "NAY",
+          "clue": "Split",
           "source": "dataset"
         }
       ],
@@ -399,8 +390,8 @@
           "row": 0,
           "col": 1,
           "length": 6,
-          "answer": "TAICHI",
-          "clue": "Chinese system of calisthenics",
+          "answer": "FINING",
+          "clue": "Punishing financially",
           "source": "dataset"
         },
         {
@@ -408,17 +399,17 @@
           "row": 0,
           "col": 2,
           "length": 7,
-          "answer": "ALREADY",
-          "clue": "In a surprisingly short time",
+          "answer": "ONAGAIN",
+          "clue": "Back after cancellation",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
           "col": 3,
-          "length": 3,
-          "answer": "LID",
-          "clue": "Cover",
+          "length": 7,
+          "answer": "ALGEBRA",
+          "clue": "Symbolic mathematics",
           "source": "dataset"
         },
         {
@@ -426,26 +417,26 @@
           "row": 0,
           "col": 4,
           "length": 7,
-          "answer": "KERATIN",
-          "clue": "Fingernail makeup",
-          "source": "dataset"
+          "answer": "MERRILY",
+          "clue": "Cheerfully, as one rows a boat",
+          "source": "written"
         },
         {
           "number": 5,
           "row": 0,
           "col": 5,
           "length": 6,
-          "answer": "SNOPES",
-          "clue": "Fact-checking website",
-          "source": "written"
+          "answer": "STAINS",
+          "clue": "Laundry woes",
+          "source": "dataset"
         },
         {
           "number": 7,
           "row": 2,
           "col": 0,
           "length": 3,
-          "answer": "ABC",
-          "clue": "Alphabet starter",
+          "answer": "ANI",
+          "clue": "Black cuckoo",
           "source": "dataset"
         },
         {
@@ -453,17 +444,8 @@
           "row": 2,
           "col": 6,
           "length": 3,
-          "answer": "PEA",
-          "clue": "Pod piece",
-          "source": "dataset"
-        },
-        {
-          "number": 12,
-          "row": 4,
-          "col": 3,
-          "length": 3,
-          "answer": "IRE",
-          "clue": "Wrath",
+          "answer": "MAD",
+          "clue": "Livid",
           "source": "dataset"
         }
       ]

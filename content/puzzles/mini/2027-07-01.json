@@ -4,82 +4,76 @@
     "cells": [
       null,
       {
-        "answer": "N",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "T",
         "number": 2
       },
       {
-        "answer": "P",
+        "answer": "E",
         "number": 3
       },
       {
-        "answer": "A",
+        "answer": "P",
         "number": 4
       },
+      null,
       {
-        "answer": "G",
+        "answer": "H",
         "number": 5
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "T"
       },
       {
         "answer": "I"
       },
       {
-        "answer": "T"
+        "answer": "Y"
       },
       {
-        "answer": "I",
+        "answer": "A"
+      },
+      {
+        "answer": "H",
         "number": 6
-      },
-      {
-        "answer": "D"
       },
       {
         "answer": "O"
       },
       {
-        "answer": "N"
+        "answer": "M"
       },
       {
-        "answer": "T"
+        "answer": "E"
       },
       {
-        "answer": "F",
+        "answer": "R"
+      },
+      {
+        "answer": "R",
         "number": 7
       },
       {
         "answer": "U"
       },
       {
-        "answer": "N"
-      },
-      {
-        "answer": "K"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "T",
-        "number": 8
-      },
-      {
-        "answer": "H"
-      },
-      {
         "answer": "E"
       },
       {
-        "answer": "Y"
+        "answer": "S"
       },
+      null,
+      {
+        "answer": "C",
+        "number": 8
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S"
+      },
+      null,
       null
     ],
     "clues": {
@@ -89,17 +83,17 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "NAPA",
-          "clue": "Viticultural mecca",
+          "answer": "STEP",
+          "clue": "Measure",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "GOTIT",
-          "clue": "'I understand!'",
+          "col": 1,
+          "length": 4,
+          "answer": "HIYA",
+          "clue": "'Sup'",
           "source": "dataset"
         },
         {
@@ -107,26 +101,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "IDONT",
-          "clue": "Quote continues",
+          "answer": "HOMER",
+          "clue": "Ballpark feat",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 5,
-          "answer": "FUNKY",
-          "clue": "Like some bass lines",
+          "length": 4,
+          "answer": "RUES",
+          "clue": "Is sorry about",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "THEY",
-          "clue": "\"So ___ say\"",
+          "length": 3,
+          "answer": "CTS",
+          "clue": "Old gum mach. inserts",
           "source": "dataset"
         }
       ],
@@ -136,8 +130,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "NODUH",
-          "clue": "'Uh, yeah!'",
+          "answer": "SHOUT",
+          "clue": "Holler",
           "source": "dataset"
         },
         {
@@ -145,36 +139,36 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ATONE",
-          "clue": "Even things",
+          "answer": "TIMES",
+          "clue": "Marathon results",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
           "col": 3,
-          "length": 5,
-          "answer": "PINKY",
-          "clue": "Small digit",
+          "length": 4,
+          "answer": "EYES",
+          "clue": "Looks at",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
           "col": 4,
-          "length": 4,
-          "answer": "ATTY",
-          "clue": "Court fig",
+          "length": 3,
+          "answer": "PAR",
+          "clue": "Golf norm",
           "source": "dataset"
         },
         {
-          "number": 5,
-          "row": 1,
+          "number": 6,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "answer": "GIFT",
-          "clue": "Donation",
-          "source": "dataset"
+          "length": 3,
+          "answer": "HRC",
+          "clue": "Hillary Rodham Clinton, by her initials",
+          "source": "written"
         }
       ]
     }
@@ -184,44 +178,44 @@
     "cells": [
       null,
       {
-        "answer": "K",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "H",
         "number": 2
       },
       {
-        "answer": "L",
+        "answer": "E",
         "number": 3
       },
       {
-        "answer": "E",
+        "answer": "D",
         "number": 4
       },
       null,
       {
-        "answer": "A",
+        "answer": "M",
         "number": 5
       },
       {
-        "answer": "B"
+        "answer": "O"
       },
       {
-        "answer": "E"
+        "answer": "D"
       },
       {
-        "answer": "L"
+        "answer": "I"
       },
       {
-        "answer": "F",
+        "answer": "R",
         "number": 6
       },
       {
-        "answer": "R"
+        "answer": "I"
       },
       {
-        "answer": "O"
+        "answer": "N"
       },
       {
         "answer": "G"
@@ -230,32 +224,32 @@
         "answer": "S"
       },
       {
-        "answer": "A",
+        "answer": "F",
         "number": 7
       },
       {
-        "answer": "M"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "S"
+        "answer": "L"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "R",
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "K",
         "number": 8
       },
       {
-        "answer": "A"
+        "answer": "E"
       },
       {
-        "answer": "T"
+        "answer": "Y"
       },
-      null,
+      {
+        "answer": "S"
+      },
       null
     ],
     "clues": {
@@ -265,8 +259,8 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "KALE",
-          "clue": "Green veggie",
+          "answer": "SHED",
+          "clue": "Shanty",
           "source": "dataset"
         },
         {
@@ -274,8 +268,8 @@
           "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "ABEL",
-          "clue": "Adam's son",
+          "answer": "MODI",
+          "clue": "Incumbent successor of Nehru",
           "source": "dataset"
         },
         {
@@ -283,26 +277,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "FROGS",
-          "clue": "Second of the 10 biblical plagues",
+          "answer": "RINGS",
+          "clue": "Oniony appetizers",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 5,
-          "answer": "AMUSE",
-          "clue": "Evoke chuckles",
+          "length": 4,
+          "answer": "FLEE",
+          "clue": "Escape",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 3,
-          "answer": "RAT",
-          "clue": "Snitch",
+          "length": 4,
+          "answer": "KEYS",
+          "clue": "Piano's 88",
           "source": "dataset"
         }
       ],
@@ -312,8 +306,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "KARMA",
-          "clue": "Buddhist fate",
+          "answer": "SMILE",
+          "clue": "Welcoming expression",
           "source": "dataset"
         },
         {
@@ -321,26 +315,26 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ABOUT",
-          "clue": "Regarding",
+          "answer": "HONEY",
+          "clue": "Tea sweetener",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
           "col": 3,
-          "length": 4,
-          "answer": "LEGS",
-          "clue": "Lower limbs",
+          "length": 5,
+          "answer": "EDGES",
+          "clue": "Rims",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
           "col": 4,
-          "length": 4,
-          "answer": "ELSE",
-          "clue": "Choice word",
+          "length": 3,
+          "answer": "DIS",
+          "clue": "Insult",
           "source": "dataset"
         },
         {
@@ -348,8 +342,8 @@
           "row": 2,
           "col": 0,
           "length": 3,
-          "answer": "FAR",
-          "clue": "Remote",
+          "answer": "RFK",
+          "clue": "'60s atty. general",
           "source": "dataset"
         }
       ]

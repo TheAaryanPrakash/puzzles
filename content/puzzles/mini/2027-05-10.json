@@ -3,86 +3,80 @@
     "size": 5,
     "cells": [
       {
-        "answer": "A",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "R",
+        "answer": "T",
         "number": 2
       },
       {
-        "answer": "M",
+        "answer": "A",
         "number": 3
       },
       {
-        "answer": "S",
+        "answer": "R",
         "number": 4
       },
       null,
       {
-        "answer": "P",
+        "answer": "H",
         "number": 5
       },
       {
-        "answer": "A"
+        "answer": "O"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "H",
+        "number": 6
       },
       {
         "answer": "Y"
       },
       {
-        "answer": "U"
-      },
-      {
-        "answer": "P",
-        "number": 6
-      },
-      {
-        "answer": "A",
-        "number": 7
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "A"
+        "answer": "P"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "I",
+        "answer": "R",
+        "number": 7
+      },
+      null,
+      {
+        "answer": "E",
         "number": 8
       },
       {
         "answer": "L"
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "V"
+        "answer": "S"
       },
       {
         "answer": "E"
       },
+      null,
       {
-        "answer": "R",
+        "answer": "D",
         "number": 9
       },
       {
-        "answer": "Y"
-      },
-      {
-        "answer": "D"
+        "answer": "E"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "R"
+        "answer": "P"
       }
     ],
     "clues": {
@@ -92,44 +86,44 @@
           "row": 0,
           "col": 0,
           "length": 4,
-          "answer": "ARMS",
-          "clue": "Weapons",
+          "answer": "STAR",
+          "clue": "Headliner",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
           "col": 0,
-          "length": 5,
-          "answer": "PAYUP",
-          "clue": "Settle accounts",
+          "length": 4,
+          "answer": "HOPE",
+          "clue": "Defeatist's lack",
           "source": "dataset"
         },
         {
-          "number": 7,
+          "number": 6,
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ALGAE",
-          "clue": "Pond cover",
+          "answer": "HYPER",
+          "clue": "Overexcited",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "ILOVE",
-          "clue": "\"___ a Rainy Night\" (Eddie Rabbitt song)",
+          "col": 1,
+          "length": 4,
+          "answer": "ELSE",
+          "clue": "Choice word",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 0,
-          "length": 5,
-          "answer": "RYDER",
-          "clue": "Actress Winona",
+          "col": 1,
+          "length": 4,
+          "answer": "DEEP",
+          "clue": "Low-pitched",
           "source": "dataset"
         }
       ],
@@ -138,18 +132,18 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 5,
-          "answer": "APAIR",
-          "clue": "Two of a kind, e.g.",
-          "source": "written"
+          "length": 3,
+          "answer": "SHH",
+          "clue": "'Be quiet!'",
+          "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "RALLY",
-          "clue": "Mount a comeback",
+          "answer": "TOYED",
+          "clue": "Trifled (with)",
           "source": "dataset"
         },
         {
@@ -157,8 +151,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "MYGOD",
-          "clue": "\"I'm shocked!\"",
+          "answer": "APPLE",
+          "clue": "Pipped fruit",
           "source": "dataset"
         },
         {
@@ -166,17 +160,17 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "SUAVE",
-          "clue": "Debonair",
+          "answer": "REESE",
+          "clue": "Baseball's Pee Wee",
           "source": "dataset"
         },
         {
-          "number": 6,
-          "row": 1,
+          "number": 7,
+          "row": 2,
           "col": 4,
-          "length": 4,
-          "answer": "PEER",
-          "clue": "One's equal",
+          "length": 3,
+          "answer": "REP",
+          "clue": "Street cred",
           "source": "dataset"
         }
       ]
@@ -185,101 +179,104 @@
   "reserve": {
     "size": 5,
     "cells": [
+      null,
       {
-        "answer": "F",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "I",
+        "answer": "H",
         "number": 2
       },
       {
-        "answer": "Z",
+        "answer": "O",
         "number": 3
       },
       {
-        "answer": "Z",
+        "answer": "T",
         "number": 4
       },
-      null,
       {
-        "answer": "U",
+        "answer": "S",
         "number": 5
       },
       {
         "answer": "H"
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "H"
-      },
-      null,
-      {
-        "answer": "R",
-        "number": 6
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "N"
-      },
-      {
         "answer": "A"
-      },
-      {
-        "answer": "N",
-        "number": 7
-      },
-      null,
-      {
-        "answer": "P",
-        "number": 8
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "N"
-      },
-      null,
-      {
-        "answer": "E",
-        "number": 9
       },
       {
         "answer": "D"
       },
       {
-        "answer": "G"
+        "answer": "Y"
+      },
+      {
+        "answer": "A",
+        "number": 6
       },
       {
         "answer": "E"
-      }
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "R",
+        "number": 7
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "A",
+        "number": 8
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      null
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
+          "col": 1,
           "length": 4,
-          "answer": "FIZZ",
-          "clue": "Almost remedy the sound of snoring with champagne",
+          "answer": "SHOT",
+          "clue": "Knackered",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
           "col": 0,
-          "length": 4,
-          "answer": "UHOH",
-          "clue": "\"I'm toast\"",
+          "length": 5,
+          "answer": "SHADY",
+          "clue": "Suspicious-seeming",
           "source": "dataset"
         },
         {
@@ -287,26 +284,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "RONAN",
-          "clue": "Journalist Farrow",
+          "answer": "AESOP",
+          "clue": "Greek fabulist",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "RETRO",
+          "clue": "In again",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 1,
-          "length": 4,
-          "answer": "PENN",
-          "clue": "One of the Ivies",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
           "row": 4,
-          "col": 1,
+          "col": 0,
           "length": 4,
-          "answer": "EDGE",
-          "clue": "Rim",
+          "answer": "APES",
+          "clue": "Big galoots",
           "source": "dataset"
         }
       ],
@@ -314,46 +311,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 3,
-          "answer": "FUR",
-          "clue": "Cat coat",
+          "col": 1,
+          "length": 5,
+          "answer": "SHEEP",
+          "clue": "Farm flock",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "IHOPE",
-          "clue": "'Fingers crossed!'",
+          "answer": "HASTE",
+          "clue": "Hurry",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
+          "col": 3,
           "length": 5,
-          "answer": "ZONED",
-          "clue": "In districts",
+          "answer": "ODORS",
+          "clue": "Smells",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "ZHANG",
-          "clue": "Common Chinese surname",
-          "source": "written"
+          "col": 4,
+          "length": 4,
+          "answer": "TYPO",
+          "clue": "Spelling mistake",
+          "source": "dataset"
         },
         {
-          "number": 7,
-          "row": 2,
-          "col": 4,
-          "length": 3,
-          "answer": "NNE",
-          "clue": "Away from SSW",
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "SARA",
+          "clue": "Singer Bareilles",
           "source": "dataset"
         }
       ]

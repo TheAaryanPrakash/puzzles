@@ -2,131 +2,128 @@
   "payload": {
     "size": 5,
     "cells": [
-      null,
       {
-        "answer": "G",
+        "answer": "A",
         "number": 1
       },
       {
-        "answer": "I",
+        "answer": "R",
         "number": 2
       },
       {
-        "answer": "F",
+        "answer": "C",
         "number": 3
       },
+      null,
+      null,
       {
-        "answer": "T",
+        "answer": "M",
         "number": 4
       },
       {
-        "answer": "S",
+        "answer": "U"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "L",
         "number": 5
       },
       {
-        "answer": "N"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "T",
+        "answer": "S",
         "number": 6
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "W"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "A",
+        "answer": "F",
         "number": 7
       },
       {
-        "answer": "M"
+        "answer": "L"
+      },
+      {
+        "answer": "O"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "Z"
+        "answer": "T"
       },
       {
-        "answer": "E"
-      },
-      {
-        "answer": "G",
+        "answer": "M",
         "number": 8
       },
       {
         "answer": "E"
       },
       {
-        "answer": "N"
+        "answer": "C"
       },
       {
-        "answer": "Z"
+        "answer": "C"
       },
-      null
+      {
+        "answer": "A"
+      },
+      null,
+      null,
+      {
+        "answer": "K",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "Y"
+      }
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "GIFT",
-          "clue": "Talent",
+          "col": 0,
+          "length": 3,
+          "answer": "ARC",
+          "clue": "Story ___",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "SNORE",
-          "clue": "Sleep loudly",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "TOWIT",
-          "clue": "That is chump catching ball",
+          "answer": "MULLS",
+          "clue": "___ over (ponders)",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "AMAZE",
-          "clue": "Blow away",
+          "answer": "FLOAT",
+          "clue": "Parade entry",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 4,
+          "row": 3,
           "col": 0,
-          "length": 4,
-          "answer": "GENZ",
-          "clue": "Millennials' successors, for short",
+          "length": 5,
+          "answer": "MECCA",
+          "clue": "Umrah destination",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 2,
+          "length": 3,
+          "answer": "KEY",
+          "clue": "Critical",
           "source": "dataset"
         }
       ],
@@ -134,46 +131,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "GNOME",
-          "clue": "Grimm creature",
+          "col": 0,
+          "length": 4,
+          "answer": "AMFM",
+          "clue": "Boom-box button",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "IOWAN",
-          "clue": "Dubuque denizen",
+          "col": 1,
+          "length": 4,
+          "answer": "RULE",
+          "clue": "Govern",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
+          "col": 2,
           "length": 5,
-          "answer": "FRIZZ",
-          "clue": "Humidity's effect on hair",
-          "source": "written"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "TETE",
-          "clue": "Made good",
+          "answer": "CLOCK",
+          "clue": "Strike 19 notice",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 0,
+          "col": 3,
           "length": 4,
-          "answer": "STAG",
-          "clue": "Deer dad",
+          "answer": "LACE",
+          "clue": "Doily fabric",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 4,
+          "length": 4,
+          "answer": "STAY",
+          "clue": "Dwell",
           "source": "dataset"
         }
       ]
@@ -182,24 +179,35 @@
   "reserve": {
     "size": 5,
     "cells": [
+      null,
       {
-        "answer": "S",
+        "answer": "C",
         "number": 1
       },
       {
-        "answer": "C",
+        "answer": "V",
         "number": 2
       },
       {
-        "answer": "O",
+        "answer": "S",
         "number": 3
       },
+      null,
       {
-        "answer": "F",
+        "answer": "D",
         "number": 4
       },
       {
-        "answer": "F",
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "M",
         "number": 5
       },
       {
@@ -210,56 +218,40 @@
         "answer": "A"
       },
       {
-        "answer": "F"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "I",
-        "number": 7
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "A"
-      },
-      {
         "answer": "N"
       },
       {
         "answer": "T"
       },
       {
-        "answer": "R",
-        "number": 8
-      },
-      {
         "answer": "A"
       },
       {
-        "answer": "G"
+        "answer": "Z",
+        "number": 7
       },
       {
-        "answer": "E"
+        "answer": "Z"
       },
-      null,
       {
-        "answer": "K",
-        "number": 9
+        "answer": "T"
       },
       {
         "answer": "O"
       },
       {
-        "answer": "E"
+        "answer": "P"
+      },
+      null,
+      {
+        "answer": "Y",
+        "number": 8
       },
       {
-        "answer": "D"
+        "answer": "I"
+      },
+      {
+        "answer": "N"
       },
       null
     ],
@@ -268,93 +260,93 @@
         {
           "number": 1,
           "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "CVS",
+          "clue": "Walgreens alternative",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "SCOFF",
-          "clue": "Mock",
+          "answer": "DREAM",
+          "clue": "Reverie",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 1,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "MAFIA",
-          "clue": "Underworld society",
+          "answer": "MANTA",
+          "clue": "Gliding ray",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 2,
+          "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "ICANT",
-          "clue": "Defeatist's words",
+          "answer": "ZZTOP",
+          "clue": "Rock band, the last act in record racks and books of hits",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 4,
-          "answer": "RAGE",
-          "clue": "Ire",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
           "row": 4,
-          "col": 0,
-          "length": 4,
-          "answer": "KOED",
-          "clue": "Knocked out, briefly",
-          "source": "written"
+          "col": 1,
+          "length": 3,
+          "answer": "YIN",
+          "clue": "Yang's partner",
+          "source": "dataset"
         }
       ],
       "down": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
+          "col": 1,
           "length": 5,
-          "answer": "SMIRK",
-          "clue": "Smug smile",
+          "answer": "CRAZY",
+          "clue": "Unhinged",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "CACAO",
-          "clue": "Creme de ___",
+          "answer": "VENTI",
+          "clue": "20-ounce size at Starbucks",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
+          "col": 3,
           "length": 5,
-          "answer": "OFAGE",
-          "clue": "Able to vote or drive",
+          "answer": "SATON",
+          "clue": "Did not reveal",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "FINED",
-          "clue": "Made to pay a penalty",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "DMZ",
+          "clue": "UN Security Council establishment",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 0,
+          "row": 1,
           "col": 4,
           "length": 3,
-          "answer": "FAT",
-          "clue": "Pudgy",
+          "answer": "MAP",
+          "clue": "Travel aid",
           "source": "dataset"
         }
       ]

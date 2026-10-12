@@ -3,84 +3,88 @@
     "size": 5,
     "cells": [
       {
-        "answer": "J",
+        "answer": "C",
         "number": 1
       },
       {
-        "answer": "I",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "N",
+        "answer": "R",
         "number": 3
       },
       {
-        "answer": "X",
+        "answer": "D",
         "number": 4
       },
-      null,
       {
-        "answer": "A",
+        "answer": "S",
         "number": 5
+      },
+      {
+        "answer": "F",
+        "number": 6
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "O"
       },
       {
         "answer": "R"
       },
       {
-        "answer": "I"
+        "answer": "A"
       },
       {
-        "answer": "E"
-      },
-      {
-        "answer": "S",
-        "number": 6
-      },
-      {
-        "answer": "D",
+        "answer": "L",
         "number": 7
       },
       {
         "answer": "O"
       },
       {
-        "answer": "N"
+        "answer": "U"
       },
       {
-        "answer": "N"
+        "answer": "I"
       },
       {
-        "answer": "A"
+        "answer": "S"
       },
       {
-        "answer": "E",
+        "answer": "A",
         "number": 8
       },
       {
         "answer": "N"
       },
       {
-        "answer": "J"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "Y"
-      },
-      null,
-      {
-        "answer": "S",
-        "number": 9
-      },
-      {
-        "answer": "A"
-      },
-      {
         "answer": "N"
       },
       {
+        "answer": "E"
+      },
+      {
         "answer": "S"
+      },
+      {
+        "answer": "T",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "Y"
       }
     ],
     "clues": {
@@ -89,18 +93,18 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 4,
-          "answer": "JINX",
-          "clue": "Bringer of bad luck",
+          "length": 5,
+          "answer": "CARDS",
+          "clue": "Hand makeup",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 6,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "ARIES",
-          "clue": "Spring sign",
+          "answer": "FLORA",
+          "clue": "Vegetation",
           "source": "dataset"
         },
         {
@@ -108,8 +112,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "DONNA",
-          "clue": "Summer of music",
+          "answer": "LOUIS",
+          "clue": "French monarch's name",
           "source": "dataset"
         },
         {
@@ -117,17 +121,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "ENJOY",
-          "clue": "'Have fun!'",
+          "answer": "ANNES",
+          "clue": "Authors Rice and Tyler",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 1,
-          "length": 4,
-          "answer": "SANS",
-          "clue": "Without",
+          "col": 0,
+          "length": 5,
+          "answer": "TEDDY",
+          "clue": "Baby's bear",
           "source": "dataset"
         }
       ],
@@ -136,9 +140,9 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 4,
-          "answer": "JADE",
-          "clue": "Material for some Forbidden City carvings",
+          "length": 5,
+          "answer": "CFLAT",
+          "clue": "B's equivalent",
           "source": "dataset"
         },
         {
@@ -146,8 +150,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "IRONS",
-          "clue": "Some clubs",
+          "answer": "ALONE",
+          "clue": "Solely",
           "source": "dataset"
         },
         {
@@ -155,8 +159,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "NINJA",
-          "clue": "Japanese warrior",
+          "answer": "ROUND",
+          "clue": "Circular",
           "source": "dataset"
         },
         {
@@ -164,17 +168,17 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "XENON",
-          "clue": "Inert gas",
+          "answer": "DRIED",
+          "clue": "cut and ___",
           "source": "dataset"
         },
         {
-          "number": 6,
-          "row": 1,
+          "number": 5,
+          "row": 0,
           "col": 4,
-          "length": 4,
-          "answer": "SAYS",
-          "clue": "Voices",
+          "length": 5,
+          "answer": "SASSY",
+          "clue": "Spunky",
           "source": "dataset"
         }
       ]
@@ -183,132 +187,131 @@
   "reserve": {
     "size": 5,
     "cells": [
+      null,
       {
-        "answer": "F",
+        "answer": "P",
         "number": 1
       },
       {
-        "answer": "I",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "R",
+        "answer": "C",
         "number": 3
       },
+      null,
       {
-        "answer": "S",
+        "answer": "B",
         "number": 4
       },
       {
-        "answer": "T",
-        "number": 5
-      },
-      {
-        "answer": "E",
-        "number": 6
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "I"
+        "answer": "E"
       },
       {
         "answer": "L"
       },
       {
-        "answer": "T",
-        "number": 7
+        "answer": "O"
       },
       {
-        "answer": "H"
+        "answer": "W",
+        "number": 5
       },
       {
-        "answer": "I"
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "T"
       },
       {
         "answer": "R"
       },
       {
-        "answer": "D"
+        "answer": "O"
       },
       {
-        "answer": "C",
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "H",
         "number": 8
       },
       {
         "answer": "O"
       },
       {
-        "answer": "D"
-      },
-      {
-        "answer": "E"
-      },
-      {
         "answer": "R"
-      },
-      {
-        "answer": "H",
-        "number": 9
-      },
-      {
-        "answer": "T"
       },
       {
         "answer": "S"
       },
-      null,
-      null
+      {
+        "answer": "E"
+      }
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "PAC",
+          "clue": "Lobbying gp",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "FIRST",
-          "clue": "Foremost",
+          "answer": "BELOW",
+          "clue": "___ zero",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 1,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "EMAIL",
-          "clue": "Inbox filler",
+          "answer": "ASTRO",
+          "clue": "Elroy's dog",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 2,
+          "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "THIRD",
-          "clue": "Bronze ordinal",
+          "answer": "STANK",
+          "clue": "Bombed badly",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "CODER",
-          "clue": "Tech worker",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
           "row": 4,
           "col": 0,
-          "length": 3,
-          "answer": "HTS",
-          "clue": "Cleveland ___ abbreviation",
+          "length": 5,
+          "answer": "HORSE",
+          "clue": "Surprise winner",
           "source": "dataset"
         }
       ],
@@ -316,46 +319,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
+          "col": 1,
           "length": 5,
-          "answer": "FETCH",
-          "clue": "'Go get it, Fido!'",
+          "answer": "PESTO",
+          "clue": "Linguine sauce",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "IMHOT",
-          "clue": "\"Let's open a window\"",
+          "answer": "ALTAR",
+          "clue": "Wedding venue",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
+          "col": 3,
           "length": 5,
-          "answer": "RAIDS",
-          "clue": "Police actions",
+          "answer": "CORNS",
+          "clue": "Woes on toes",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 3,
+          "row": 1,
+          "col": 0,
           "length": 4,
-          "answer": "SIRE",
-          "clue": "Foal's father",
+          "answer": "BASH",
+          "clue": "Blowout",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 0,
+          "row": 1,
           "col": 4,
           "length": 4,
-          "answer": "TLDR",
-          "clue": "Initials before a summary",
+          "answer": "WOKE",
+          "clue": "Roused from slumber",
           "source": "dataset"
         }
       ]

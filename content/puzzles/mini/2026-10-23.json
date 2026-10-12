@@ -2,181 +2,8 @@
   "payload": {
     "size": 5,
     "cells": [
-      null,
-      null,
       {
-        "answer": "H",
-        "number": 1
-      },
-      {
-        "answer": "I",
-        "number": 2
-      },
-      {
-        "answer": "P",
-        "number": 3
-      },
-      null,
-      {
-        "answer": "D",
-        "number": 4
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "Q",
-        "number": 5
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "B",
-        "number": 6
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "Q"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "S",
-        "number": 7
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "Y"
-      },
-      null,
-      null
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "HIP",
-          "clue": "In vogue",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "DARE",
-          "clue": "Venture",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "QURAN",
-          "clue": "What a hafiz has memorized",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "BARQS",
-          "clue": "Hires competitor",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 4,
-          "col": 0,
-          "length": 3,
-          "answer": "SLY",
-          "clue": "Cagey",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "HARRY",
-          "clue": "Badger",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "IRAQ",
-          "clue": "Uruk is there",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "PENS",
-          "clue": "Hog homes",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "DUAL",
-          "clue": "Paired",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "answer": "QBS",
-          "clue": "Ones initiating handoffs, for short",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 5,
-    "cells": [
-      {
-        "answer": "F",
+        "answer": "J",
         "number": 1
       },
       {
@@ -184,20 +11,260 @@
         "number": 2
       },
       {
-        "answer": "L",
+        "answer": "C",
         "number": 3
       },
       {
-        "answer": "L",
+        "answer": "O",
         "number": 4
       },
       {
-        "answer": "S",
+        "answer": "B",
         "number": 5
       },
       {
-        "answer": "I",
+        "answer": "A",
         "number": 6
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "V",
+        "number": 7
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A",
+        "number": 8
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 9
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "U"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "JACOB",
+          "clue": "Biblical twin brings account into work",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "ALONE",
+          "clue": "Solo",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "VINYL",
+          "clue": "Synthetic material for floor coverings",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "ASCOT",
+          "clue": "Foppish scarf",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "THU",
+          "clue": "Two days after Tue",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "answer": "JAVA",
+          "clue": "Indonesian island",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "ALIST",
+          "clue": "Met Gala guests",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "CONCH",
+          "clue": "Makeshift trumpet",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "ONYOU",
+          "clue": "\"This round's ___\"",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "BELT",
+          "clue": "Waist band",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 7,
+    "cells": [
+      null,
+      null,
+      null,
+      {
+        "answer": "H",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "N",
+        "number": 3
+      },
+      {
+        "answer": "K",
+        "number": 4
+      },
+      null,
+      null,
+      {
+        "answer": "V",
+        "number": 5
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "C",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "R",
+        "number": 7
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "O",
+        "number": 8
       },
       {
         "answer": "D"
@@ -206,54 +273,48 @@
         "answer": "E"
       },
       {
-        "answer": "A"
+        "answer": "T"
       },
       {
-        "answer": "L"
+        "answer": "T"
       },
       {
-        "answer": "S",
-        "number": 7
+        "answer": "E"
       },
+      null,
       {
-        "answer": "I"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "B"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "H",
-        "number": 8
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "O"
+        "answer": "M",
+        "number": 9
       },
       {
         "answer": "E"
       },
       {
-        "answer": "Y"
-      },
-      null,
-      {
-        "answer": "S",
-        "number": 9
-      },
-      {
         "answer": "N"
       },
       {
-        "answer": "L"
+        "answer": "U"
       },
+      {
+        "answer": "S"
+      },
+      null,
+      null,
+      {
+        "answer": "A",
+        "number": 10
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "P"
+      },
+      null,
+      null,
       null
     ],
     "clues": {
@@ -261,46 +322,64 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "HANK",
+          "clue": "Nickname for Henry",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 2,
           "length": 5,
-          "answer": "FALLS",
-          "clue": "Trips over foot barriers, spilling whiskey",
+          "answer": "VAGUE",
+          "clue": "Type of neck fit for woolly",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "IDEAL",
-          "clue": "Epitome",
+          "row": 2,
+          "col": 1,
+          "length": 6,
+          "answer": "COMEDY",
+          "clue": "Light entertainment",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 2,
+          "row": 3,
           "col": 0,
-          "length": 5,
-          "answer": "SIMBA",
-          "clue": "Lion who fights Scar",
+          "length": 7,
+          "answer": "RATINGS",
+          "clue": "PG, R and NC-17",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 3,
+          "row": 4,
           "col": 0,
-          "length": 5,
-          "answer": "HOOEY",
-          "clue": "Heading off rats, bull",
+          "length": 6,
+          "answer": "ODETTE",
+          "clue": "'Swan Lake' princess",
           "source": "dataset"
         },
         {
           "number": 9,
-          "row": 4,
-          "col": 1,
-          "length": 3,
-          "answer": "SNL",
-          "clue": "NBC weekend show",
+          "row": 5,
+          "col": 0,
+          "length": 5,
+          "answer": "MENUS",
+          "clue": "Restaurant stack",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 6,
+          "col": 0,
+          "length": 4,
+          "answer": "ATOP",
+          "clue": "On",
           "source": "dataset"
         }
       ],
@@ -308,46 +387,64 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 4,
-          "answer": "FISH",
-          "clue": "Eel, for example",
+          "col": 3,
+          "length": 7,
+          "answer": "HAMITUP",
+          "clue": "Act badly, giving order in pizzeria (wordplay)",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "ADIOS",
-          "clue": "Juan's farewell",
+          "col": 4,
+          "length": 6,
+          "answer": "AGENTS",
+          "clue": "Representatives",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
+          "col": 5,
           "length": 5,
-          "answer": "LEMON",
-          "clue": "Troublesome car",
+          "answer": "NUDGE",
+          "clue": "Gentle push",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "LABEL",
-          "clue": "Name tag",
+          "col": 6,
+          "length": 4,
+          "answer": "KEYS",
+          "clue": "Openers",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 0,
-          "col": 4,
+          "row": 1,
+          "col": 2,
+          "length": 6,
+          "answer": "VOTENO",
+          "clue": "Lawn sign phrase",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 5,
+          "answer": "CADET",
+          "clue": "Trainee",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
           "length": 4,
-          "answer": "SLAY",
-          "clue": "Leave in stitches",
+          "answer": "ROMA",
+          "clue": "Type of tomato",
           "source": "dataset"
         }
       ]

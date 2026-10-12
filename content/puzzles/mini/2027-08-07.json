@@ -328,133 +328,79 @@
     }
   },
   "reserve": {
-    "size": 7,
+    "size": 5,
     "cells": [
+      null,
       {
-        "answer": "R",
+        "answer": "T",
         "number": 1
       },
       {
-        "answer": "U",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "S",
+        "answer": "C",
         "number": 3
       },
       {
-        "answer": "H",
+        "answer": "T",
         "number": 4
       },
-      null,
-      null,
-      null,
       {
-        "answer": "E",
+        "answer": "C",
         "number": 5
       },
       {
-        "answer": "S"
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "R",
-        "number": 6
-      },
-      {
-        "answer": "T",
-        "number": 7
-      },
-      {
-        "answer": "S",
-        "number": 8
-      },
-      {
-        "answer": "S",
-        "number": 9
-      },
-      {
-        "answer": "O"
+        "answer": "A"
       },
       {
         "answer": "R"
       },
       {
-        "answer": "T"
+        "answer": "L"
       },
       {
         "answer": "O"
       },
       {
-        "answer": "U"
+        "answer": "O",
+        "number": 6
       },
       {
-        "answer": "T"
+        "answer": "B"
       },
       {
-        "answer": "A",
-        "number": 10
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "E"
-      },
-      null,
-      {
-        "answer": "A",
-        "number": 11
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "L",
-        "number": 12
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "P",
-        "number": 13
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "A"
+        "answer": "G"
       },
       {
         "answer": "Y"
       },
       {
-        "answer": "E",
-        "number": 14
+        "answer": "N"
       },
       {
-        "answer": "N"
+        "answer": "M",
+        "number": 7
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "O"
       },
       {
         "answer": "D"
       },
       {
-        "answer": "L"
+        "answer": "Y"
       },
       {
-        "answer": "I"
+        "answer": "B",
+        "number": 8
+      },
+      {
+        "answer": "O"
       },
       {
         "answer": "N"
@@ -462,95 +408,53 @@
       {
         "answer": "E"
       },
-      null,
-      null,
-      null,
-      {
-        "answer": "S",
-        "number": 15
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "R"
-      }
+      null
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
+          "col": 1,
           "length": 4,
-          "answer": "RUSH",
-          "clue": "Hurry",
+          "answer": "TACT",
+          "clue": "Delicate touch",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
           "col": 0,
-          "length": 7,
-          "answer": "ESPORTS",
-          "clue": "Posters produced for video games contests",
+          "length": 5,
+          "answer": "CARLO",
+          "clue": "Gambino crime family patriarch",
           "source": "dataset"
         },
         {
-          "number": 9,
+          "number": 6,
           "row": 2,
           "col": 0,
-          "length": 7,
-          "answer": "SORTOUT",
-          "clue": "Deal with",
+          "length": 5,
+          "answer": "OBGYN",
+          "clue": "Reproductive health specialist",
           "source": "dataset"
         },
         {
-          "number": 10,
+          "number": 7,
           "row": 3,
           "col": 0,
-          "length": 3,
-          "answer": "APE",
-          "clue": "Goon",
+          "length": 5,
+          "answer": "MOODY",
+          "clue": "Apt to sulk",
           "source": "dataset"
         },
         {
-          "number": 11,
-          "row": 3,
-          "col": 4,
-          "length": 3,
-          "answer": "ALE",
-          "clue": "Brew",
-          "source": "dataset"
-        },
-        {
-          "number": 12,
+          "number": 8,
           "row": 4,
           "col": 0,
-          "length": 7,
-          "answer": "LEAPDAY",
-          "clue": "29th February",
-          "source": "dataset"
-        },
-        {
-          "number": 14,
-          "row": 5,
-          "col": 0,
-          "length": 7,
-          "answer": "ENDLINE",
-          "clue": "Football boundary",
-          "source": "dataset"
-        },
-        {
-          "number": 15,
-          "row": 6,
-          "col": 3,
           "length": 4,
-          "answer": "SEER",
-          "clue": "Crystal gazer",
+          "answer": "BONE",
+          "clue": "___-tired",
           "source": "dataset"
         }
       ],
@@ -558,73 +462,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 6,
-          "answer": "RESALE",
-          "clue": "Antique shop deal",
+          "col": 1,
+          "length": 5,
+          "answer": "TABOO",
+          "clue": "Not done",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
-          "length": 6,
-          "answer": "USOPEN",
-          "clue": "Annual Queens sports event",
+          "col": 2,
+          "length": 5,
+          "answer": "ARGON",
+          "clue": "Chemical element",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
-          "length": 6,
-          "answer": "SPREAD",
-          "clue": "Distribute or disperse widely",
+          "col": 3,
+          "length": 5,
+          "answer": "CLYDE",
+          "clue": "Walt Frazier nickname",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 3,
-          "length": 3,
-          "answer": "HOT",
-          "clue": "Stolen",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 1,
           "col": 4,
-          "length": 6,
-          "answer": "ROADIE",
-          "clue": "Tour worker",
+          "length": 4,
+          "answer": "TONY",
+          "clue": "Stylish",
           "source": "dataset"
         },
         {
-          "number": 7,
+          "number": 5,
           "row": 1,
-          "col": 5,
-          "length": 6,
-          "answer": "TULANE",
-          "clue": "Pelican State campus",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 1,
-          "col": 6,
-          "length": 6,
-          "answer": "STEYER",
-          "clue": "Tom ___, billionaire presidential candidate",
-          "source": "written"
-        },
-        {
-          "number": 13,
-          "row": 4,
-          "col": 3,
-          "length": 3,
-          "answer": "PLS",
-          "clue": "Tactful text intro",
+          "col": 0,
+          "length": 4,
+          "answer": "COMB",
+          "clue": "Item in a purse",
           "source": "dataset"
         }
       ]

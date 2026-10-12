@@ -5,75 +5,76 @@
       null,
       null,
       {
-        "answer": "R",
+        "answer": "T",
         "number": 1
       },
       {
-        "answer": "E",
+        "answer": "N",
         "number": 2
       },
       {
-        "answer": "V",
+        "answer": "T",
         "number": 3
       },
-      null,
       {
-        "answer": "D",
+        "answer": "A",
         "number": 4
       },
       {
-        "answer": "I"
-      },
-      {
-        "answer": "V"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "G",
+        "answer": "C",
         "number": 5
       },
       {
-        "answer": "I"
+        "answer": "H"
       },
       {
-        "answer": "V"
+        "answer": "O"
       },
       {
-        "answer": "E"
+        "answer": "O"
       },
       {
-        "answer": "N"
-      },
-      {
-        "answer": "O",
+        "answer": "C",
         "number": 6
       },
       {
-        "answer": "V"
+        "answer": "H"
       },
       {
         "answer": "E"
-      },
-      {
-        "answer": "R"
       },
       {
         "answer": "S"
       },
       {
-        "answer": "V",
+        "answer": "T"
+      },
+      {
+        "answer": "H",
         "number": 7
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "E",
+        "number": 8
+      },
+      {
+        "answer": "Y"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "R"
-      },
-      {
-        "answer": "Y"
+        "answer": "S"
       },
       null
     ],
@@ -84,44 +85,44 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "answer": "REV",
-          "clue": "Gun, as a V6",
+          "answer": "TNT",
+          "clue": "Blast creator",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "DIVA",
-          "clue": "Operatic icon",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "GIVEN",
-          "clue": "Established fact",
+          "answer": "ACHOO",
+          "clue": "Sneezing sound",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 3,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "OVERS",
-          "clue": "Six-ball sets, in cricket",
+          "answer": "CHEST",
+          "clue": "Treasure container",
           "source": "dataset"
         },
         {
           "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "HOME",
+          "clue": "Main Web page",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
           "row": 4,
           "col": 0,
           "length": 4,
-          "answer": "VERY",
-          "clue": "Incredibly",
+          "answer": "EYES",
+          "clue": "Ogles",
           "source": "dataset"
         }
       ],
@@ -131,8 +132,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "RIVER",
-          "clue": "Bending body",
+          "answer": "THEME",
+          "clue": "Subject",
           "source": "dataset"
         },
         {
@@ -140,35 +141,35 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "EVERY",
-          "clue": "Each",
+          "answer": "NOSES",
+          "clue": "Odor detectors",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
-          "length": 4,
-          "answer": "VANS",
-          "clue": "Delivery vehicles",
+          "length": 3,
+          "answer": "TOT",
+          "clue": "Kid",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
+          "col": 0,
           "length": 4,
-          "answer": "DIVE",
-          "clue": "Go in headfirst",
+          "answer": "ACHE",
+          "clue": "Long",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "answer": "GOV",
-          "clue": "www.mn.___",
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "CHOY",
+          "clue": "Baby bok ___",
           "source": "dataset"
         }
       ]
@@ -178,79 +179,79 @@
     "size": 5,
     "cells": [
       null,
-      {
-        "answer": "S",
-        "number": 1
-      },
-      {
-        "answer": "H",
-        "number": 2
-      },
-      {
-        "answer": "E",
-        "number": 3
-      },
-      {
-        "answer": "D",
-        "number": 4
-      },
       null,
       {
         "answer": "M",
+        "number": 1
+      },
+      {
+        "answer": "O",
+        "number": 2
+      },
+      {
+        "answer": "B",
+        "number": 3
+      },
+      {
+        "answer": "G",
+        "number": 4
+      },
+      {
+        "answer": "L",
         "number": 5
       },
       {
-        "answer": "O"
+        "answer": "A"
       },
       {
-        "answer": "D"
+        "answer": "R"
       },
       {
-        "answer": "I"
+        "answer": "E"
       },
       {
-        "answer": "R",
+        "answer": "E",
         "number": 6
       },
       {
-        "answer": "I"
+        "answer": "M"
       },
       {
-        "answer": "N"
+        "answer": "C"
       },
       {
-        "answer": "G"
+        "answer": "E"
       },
       {
-        "answer": "S"
+        "answer": "E"
       },
       {
-        "answer": "F",
+        "answer": "M",
         "number": 7
       },
       {
-        "answer": "L"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "E"
-      },
-      null,
-      {
-        "answer": "K",
-        "number": 8
-      },
-      {
-        "answer": "E"
+        "answer": "A"
       },
       {
         "answer": "Y"
       },
       {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
         "answer": "S"
       },
+      null,
       null
     ],
     "clues": {
@@ -258,19 +259,19 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "SHED",
-          "clue": "Shanty",
+          "col": 2,
+          "length": 3,
+          "answer": "MOB",
+          "clue": "Horde",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "MODI",
-          "clue": "Incumbent successor of Nehru",
+          "col": 0,
+          "length": 5,
+          "answer": "GLARE",
+          "clue": "Stare angrily",
           "source": "dataset"
         },
         {
@@ -278,26 +279,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "RINGS",
-          "clue": "Oniony appetizers",
+          "answer": "EMCEE",
+          "clue": "Show runner",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 4,
-          "answer": "FLEE",
-          "clue": "Escape",
+          "length": 5,
+          "answer": "MAYOR",
+          "clue": "Urban honcho",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "KEYS",
-          "clue": "Piano's 88",
+          "length": 3,
+          "answer": "SOS",
+          "clue": "Help signal at sea",
           "source": "dataset"
         }
       ],
@@ -305,46 +306,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "SMILE",
-          "clue": "Welcoming expression",
+          "answer": "MACYS",
+          "clue": "Big Apple parade sponsor",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "HONEY",
-          "clue": "Tea sweetener",
+          "col": 3,
+          "length": 4,
+          "answer": "OREO",
+          "clue": "Nabisco brand",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "EDGES",
-          "clue": "Rims",
+          "col": 4,
+          "length": 4,
+          "answer": "BEER",
+          "clue": "Sudsy brew",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 3,
-          "answer": "DIS",
-          "clue": "Insult",
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "GEMS",
+          "clue": "Sparklers",
           "source": "dataset"
         },
         {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "answer": "RFK",
-          "clue": "'60s atty. general",
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "LMAO",
+          "clue": "sooo funny! (nonverbal)",
           "source": "dataset"
         }
       ]

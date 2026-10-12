@@ -3,80 +3,80 @@
     "size": 5,
     "cells": [
       {
-        "answer": "I",
+        "answer": "A",
         "number": 1
       },
       {
-        "answer": "C",
+        "answer": "T",
         "number": 2
       },
       {
-        "answer": "E",
+        "answer": "O",
         "number": 3
       },
-      null,
-      null,
       {
         "answer": "M",
         "number": 4
       },
+      null,
       {
-        "answer": "O"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "T",
+        "answer": "S",
         "number": 5
       },
       {
-        "answer": "H",
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
+      },
+      null,
+      {
+        "answer": "S",
         "number": 6
       },
       {
-        "answer": "A",
+        "answer": "L"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "Y",
         "number": 7
       },
+      null,
       {
-        "answer": "C"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "C",
+        "answer": "K",
         "number": 8
       },
       {
         "answer": "O"
       },
       {
-        "answer": "R"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "S"
-      },
-      null,
-      null,
-      {
-        "answer": "Y",
-        "number": 9
+        "answer": "B"
       },
       {
         "answer": "E"
       },
+      null,
       {
-        "answer": "S"
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "P"
       }
     ],
     "clues": {
@@ -85,45 +85,45 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 3,
-          "answer": "ICE",
-          "clue": "Frappe",
+          "length": 4,
+          "answer": "ATOM",
+          "clue": "Bond part",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
           "col": 0,
-          "length": 5,
-          "answer": "MONTH",
-          "clue": "May, say",
+          "length": 4,
+          "answer": "SARA",
+          "clue": "Singer Bareilles",
           "source": "dataset"
         },
         {
-          "number": 7,
+          "number": 6,
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ACTII",
-          "clue": "Intermission ___",
+          "answer": "SLIMY",
+          "clue": "Disreputable",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "CORDS",
-          "clue": "Winter fuel units",
+          "col": 1,
+          "length": 4,
+          "answer": "KOBE",
+          "clue": "Japanese beef variety",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 2,
-          "length": 3,
-          "answer": "YES",
-          "clue": "'Sure'",
+          "col": 1,
+          "length": 4,
+          "answer": "SNAP",
+          "clue": "___ a pic",
           "source": "dataset"
         }
       ],
@@ -132,18 +132,18 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 4,
-          "answer": "IMAC",
-          "clue": "Apple choice",
+          "length": 3,
+          "answer": "ASS",
+          "clue": "Behind",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
-          "length": 4,
-          "answer": "COCO",
-          "clue": "Chanel perfume",
+          "length": 5,
+          "answer": "TALKS",
+          "clue": "Chats; lectures",
           "source": "dataset"
         },
         {
@@ -151,26 +151,26 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ENTRY",
-          "clue": "Ledger item",
+          "answer": "ORION",
+          "clue": "Hunter in the stars",
           "source": "dataset"
         },
         {
-          "number": 5,
-          "row": 1,
+          "number": 4,
+          "row": 0,
           "col": 3,
-          "length": 4,
-          "answer": "TIDE",
-          "clue": "Ocean motion",
+          "length": 5,
+          "answer": "MAMBA",
+          "clue": "Speedy serpent",
           "source": "dataset"
         },
         {
-          "number": 6,
-          "row": 1,
+          "number": 7,
+          "row": 2,
           "col": 4,
-          "length": 4,
-          "answer": "HISS",
-          "clue": "Snake's sound",
+          "length": 3,
+          "answer": "YEP",
+          "clue": "'Sure is'",
           "source": "dataset"
         }
       ]
@@ -180,58 +180,42 @@
     "size": 5,
     "cells": [
       null,
+      null,
       {
-        "answer": "F",
+        "answer": "G",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "O",
         "number": 2
       },
       {
-        "answer": "R",
+        "answer": "D",
         "number": 3
-      },
-      {
-        "answer": "M",
-        "number": 4
       },
       null,
       {
-        "answer": "A",
-        "number": 5
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "P",
-        "number": 6
-      },
-      {
-        "answer": "R"
+        "answer": "M",
+        "number": 4
       },
       {
         "answer": "I"
       },
       {
-        "answer": "S"
+        "answer": "N"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "J",
+        "number": 5
+      },
+      {
+        "answer": "A"
       },
       {
         "answer": "M"
-      },
-      {
-        "answer": "A",
-        "number": 7
-      },
-      {
-        "answer": "G"
       },
       {
         "answer": "E"
@@ -239,20 +223,31 @@
       {
         "answer": "S"
       },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "S"
+      },
       null,
       {
-        "answer": "N",
-        "number": 8
+        "answer": "B",
+        "number": 7
       },
       {
-        "answer": "O"
+        "answer": "Y"
       },
       {
-        "answer": "N"
+        "answer": "E"
       },
-      {
-        "answer": "O"
-      },
+      null,
       null
     ],
     "clues": {
@@ -260,46 +255,46 @@
         {
           "number": 1,
           "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "GOD",
+          "clue": "Zeus or Thor",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "FARM",
-          "clue": "Rural spread",
+          "answer": "MINI",
+          "clue": "British car",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "ALUM",
-          "clue": "Returning grad",
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "JAMES",
+          "clue": "\"Portrait of a Lady\" author",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 3,
           "col": 0,
-          "length": 5,
-          "answer": "PRISM",
-          "clue": "Polyhedron",
+          "length": 4,
+          "answer": "ARMS",
+          "clue": "Assets for QBs",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 4,
-          "answer": "AGES",
-          "clue": "Gets on",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "NONO",
-          "clue": "It's forbidden",
+          "length": 3,
+          "answer": "BYE",
+          "clue": "\"Adios!\"",
           "source": "dataset"
         }
       ],
@@ -307,46 +302,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "FARGO",
-          "clue": "Wells and ___",
+          "answer": "GIMME",
+          "clue": "\"I want that now!\"",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "ALIEN",
-          "clue": "Romulan, e.g",
+          "col": 3,
+          "length": 4,
+          "answer": "ONES",
+          "clue": "Low digits",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "RUSSO",
-          "clue": "___-Japanese War",
+          "col": 4,
+          "length": 3,
+          "answer": "DIS",
+          "clue": "Trash-talk",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 3,
-          "answer": "MMM",
-          "clue": "'Dee-lish!'",
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "MARY",
+          "clue": "One of the Tudors",
           "source": "dataset"
         },
         {
-          "number": 6,
+          "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "answer": "PAN",
-          "clue": "Camera move",
+          "answer": "JAB",
+          "clue": "Hook partner",
           "source": "dataset"
         }
       ]

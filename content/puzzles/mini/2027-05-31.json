@@ -2,85 +2,81 @@
   "payload": {
     "size": 5,
     "cells": [
+      null,
+      null,
       {
-        "answer": "A",
+        "answer": "M",
         "number": 1
       },
       {
-        "answer": "L",
+        "answer": "A",
         "number": 2
       },
       {
         "answer": "P",
         "number": 3
       },
+      null,
       {
-        "answer": "S",
+        "answer": "G",
         "number": 4
       },
-      null,
-      {
-        "answer": "H",
-        "number": 5
-      },
       {
         "answer": "O"
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "S",
-        "number": 6
-      },
-      {
-        "answer": "A",
-        "number": 7
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "B",
-        "number": 8
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "K"
-      },
-      {
-        "answer": "S"
-      },
-      null,
-      {
-        "answer": "S",
-        "number": 9
-      },
-      {
-        "answer": "H"
+        "answer": "N"
       },
       {
         "answer": "E"
       },
       {
+        "answer": "I",
+        "number": 5
+      },
+      {
+        "answer": "N"
+      },
+      {
         "answer": "S"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "M",
+        "number": 6
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "P",
+        "number": 7
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "H"
       }
     ],
     "clues": {
@@ -88,46 +84,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "MAP",
+          "clue": "World view",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
           "length": 4,
-          "answer": "ALPS",
-          "clue": "\"Heidi\" setting",
+          "answer": "GONE",
+          "clue": "Outta here",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "HOOPS",
-          "clue": "Court game",
+          "answer": "INSTA",
+          "clue": "App with filters, informally",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "MUSIC",
+          "clue": "Pop or bop",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "ATRIA",
-          "clue": "Heart parts",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "BUCKS",
-          "clue": "Dollars",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
           "row": 4,
-          "col": 1,
-          "length": 4,
-          "answer": "SHES",
-          "clue": "\"I'll have what ___ having\"",
+          "col": 0,
+          "length": 5,
+          "answer": "PSYCH",
+          "clue": "'Tricked you!'",
           "source": "dataset"
         }
       ],
@@ -135,46 +131,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 4,
-          "answer": "AHAB",
-          "clue": "Melville mariner",
+          "col": 2,
+          "length": 5,
+          "answer": "MOSSY",
+          "clue": "Like some shaded spots",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
+          "col": 3,
           "length": 5,
-          "answer": "LOTUS",
-          "clue": "Yoga's ___ position",
+          "answer": "ANTIC",
+          "clue": "Playful trick",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
+          "col": 4,
           "length": 5,
-          "answer": "PORCH",
-          "clue": "Church under pressure to keep gold in hall",
+          "answer": "PEACH",
+          "clue": "Georgia's state fruit",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "SPIKE",
-          "clue": "___ Lee, director of Da 5 Bloods",
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "GNUS",
+          "clue": "Oxlike antelopes",
           "source": "dataset"
         },
         {
-          "number": 6,
-          "row": 1,
-          "col": 4,
-          "length": 4,
-          "answer": "SASS",
-          "clue": "Attitude",
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "IMP",
+          "clue": "Demon",
           "source": "dataset"
         }
       ]
@@ -185,7 +181,7 @@
     "cells": [
       null,
       {
-        "answer": "S",
+        "answer": "C",
         "number": 1
       },
       {
@@ -193,73 +189,73 @@
         "number": 2
       },
       {
-        "answer": "O",
+        "answer": "E",
         "number": 3
       },
       {
-        "answer": "T",
+        "answer": "R",
         "number": 4
       },
       {
-        "answer": "S",
+        "answer": "C",
         "number": 5
       },
       {
         "answer": "H"
       },
       {
-        "answer": "A"
+        "answer": "I"
       },
       {
-        "answer": "D"
+        "answer": "L"
       },
       {
-        "answer": "Y"
+        "answer": "I"
       },
       {
         "answer": "A",
         "number": 6
       },
       {
+        "answer": "I"
+      },
+      {
+        "answer": "D"
+      },
+      {
         "answer": "E"
       },
       {
         "answer": "S"
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "R",
+        "answer": "V",
         "number": 7
       },
       {
+        "answer": "N"
+      },
+      {
         "answer": "E"
       },
       {
-        "answer": "T"
+        "answer": "C"
       },
       {
-        "answer": "R"
+        "answer": "K"
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "A",
+        "answer": "E",
         "number": 8
       },
       {
-        "answer": "P"
-      },
-      {
-        "answer": "E"
+        "answer": "A"
       },
       {
         "answer": "S"
+      },
+      {
+        "answer": "T"
       },
       null
     ],
@@ -270,8 +266,8 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "SHOT",
-          "clue": "Knackered",
+          "answer": "CHER",
+          "clue": "\"Moonstruck\" star",
           "source": "dataset"
         },
         {
@@ -279,8 +275,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "SHADY",
-          "clue": "Suspicious-seeming",
+          "answer": "CHILI",
+          "clue": "___ dog",
           "source": "dataset"
         },
         {
@@ -288,8 +284,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "AESOP",
-          "clue": "Greek fabulist",
+          "answer": "AIDES",
+          "clue": "Subordinate staff",
           "source": "dataset"
         },
         {
@@ -297,8 +293,8 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "RETRO",
-          "clue": "In again",
+          "answer": "VNECK",
+          "clue": "Jersey type",
           "source": "dataset"
         },
         {
@@ -306,8 +302,8 @@
           "row": 4,
           "col": 0,
           "length": 4,
-          "answer": "APES",
-          "clue": "Big galoots",
+          "answer": "EAST",
+          "clue": "Compass point",
           "source": "dataset"
         }
       ],
@@ -317,8 +313,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "SHEEP",
-          "clue": "Farm flock",
+          "answer": "CHINA",
+          "clue": "Fancy dinnerware",
           "source": "dataset"
         },
         {
@@ -326,8 +322,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "HASTE",
-          "clue": "Hurry",
+          "answer": "HIDES",
+          "clue": "Takes cover",
           "source": "dataset"
         },
         {
@@ -335,8 +331,8 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "ODORS",
-          "clue": "Smells",
+          "answer": "ELECT",
+          "clue": "A-list",
           "source": "dataset"
         },
         {
@@ -344,8 +340,8 @@
           "row": 0,
           "col": 4,
           "length": 4,
-          "answer": "TYPO",
-          "clue": "Spelling mistake",
+          "answer": "RISK",
+          "clue": "Take a chance",
           "source": "dataset"
         },
         {
@@ -353,8 +349,8 @@
           "row": 1,
           "col": 0,
           "length": 4,
-          "answer": "SARA",
-          "clue": "Singer Bareilles",
+          "answer": "CAVE",
+          "clue": "Give in",
           "source": "dataset"
         }
       ]

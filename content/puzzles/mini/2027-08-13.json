@@ -3,63 +3,243 @@
     "size": 5,
     "cells": [
       null,
+      null,
       {
-        "answer": "P",
+        "answer": "H",
         "number": 1
       },
       {
-        "answer": "R",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "O",
+        "answer": "H",
         "number": 3
       },
+      null,
       {
-        "answer": "M",
+        "answer": "L",
         "number": 4
       },
       {
-        "answer": "D",
+        "answer": "A"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "W",
         "number": 5
       },
       {
-        "answer": "I"
+        "answer": "E"
       },
       {
-        "answer": "A"
+        "answer": "B"
       },
       {
-        "answer": "N"
+        "answer": "B"
       },
       {
-        "answer": "A"
+        "answer": "Y"
       },
       {
-        "answer": "R",
+        "answer": "V",
         "number": 6
       },
       {
         "answer": "A"
       },
       {
-        "answer": "N"
+        "answer": "L"
       },
       {
-        "answer": "K"
+        "answer": "U"
       },
       {
-        "answer": "S"
+        "answer": "E"
       },
       {
         "answer": "A",
         "number": 7
       },
       {
-        "answer": "N"
+        "answer": "D"
       },
       {
-        "answer": "D"
+        "answer": "A"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "S"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "HAH",
+          "clue": "'Funny!'",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "LALA",
+          "clue": "'Ooh ___!'",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "WEBBY",
+          "clue": "Award for internet excellence",
+          "source": "written"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "VALUE",
+          "clue": "Merit",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 4,
+          "col": 0,
+          "length": 5,
+          "answer": "ADAMS",
+          "clue": "NBA player Steven",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "HABLA",
+          "clue": "'Se ___ espanol'",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "ALBUM",
+          "clue": "Book; LP",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "HAYES",
+          "clue": "MSNBC's Chris",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "LEAD",
+          "clue": "Top escort",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "WVA",
+          "clue": "West Virginia, on a map, for short",
+          "source": "written"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "E",
+        "number": 1
+      },
+      {
+        "answer": "L",
+        "number": 2
+      },
+      {
+        "answer": "W",
+        "number": 3
+      },
+      {
+        "answer": "A",
+        "number": 4
+      },
+      {
+        "answer": "Y",
+        "number": 5
+      },
+      {
+        "answer": "J",
+        "number": 6
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E",
+        "number": 7
+      },
+      {
+        "answer": "X"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "C",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
       },
       {
         "answer": "E"
@@ -69,240 +249,66 @@
       },
       {
         "answer": "T",
-        "number": 8
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "B"
-      },
-      {
-        "answer": "Y"
-      },
-      null
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "PROM",
-          "clue": "Senior moment",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "DIANA",
-          "clue": "British princess",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "RANKS",
-          "clue": "Standings",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "ANDES",
-          "clue": "Colombian range",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 4,
-          "col": 0,
-          "length": 4,
-          "answer": "TOBY",
-          "clue": "Country singer Keith",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "PIANO",
-          "clue": "Organ's cousin",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "RANDB",
-          "clue": "Aretha Franklin's genre",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "ONKEY",
-          "clue": "Correct way to sing",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "MASS",
-          "clue": "Universal",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "DRAT",
-          "clue": "'Curses!'",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 5,
-    "cells": [
-      null,
-      {
-        "answer": "G",
-        "number": 1
-      },
-      {
-        "answer": "R",
-        "number": 2
-      },
-      {
-        "answer": "A",
-        "number": 3
-      },
-      {
-        "answer": "Y",
-        "number": 4
-      },
-      null,
-      {
-        "answer": "R",
-        "number": 5
-      },
-      {
-        "answer": "A"
+        "number": 9
       },
       {
         "answer": "R"
       },
       {
-        "answer": "E"
-      },
-      {
-        "answer": "B",
-        "number": 6
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "G"
+        "answer": "Y"
       },
       {
         "answer": "S"
       },
       {
-        "answer": "U",
-        "number": 7
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "O"
-      },
-      null,
-      {
-        "answer": "N",
-        "number": 8
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "N"
-      },
-      null
+        "answer": "T"
+      }
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "GRAY",
-          "clue": "Gloomy, weatherwise",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "RARE",
-          "clue": "Steak order",
+          "col": 0,
+          "length": 5,
+          "answer": "ELWAY",
+          "clue": "Broncos Hall-of-Famer John",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "BANGS",
-          "clue": "Forehead obscurer",
+          "answer": "JUICE",
+          "clue": "Zestful energy",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "answer": "UPDO",
-          "clue": "High style",
+          "length": 5,
+          "answer": "EXTRA",
+          "clue": "More",
           "source": "dataset"
         },
         {
           "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "COTES",
+          "clue": "Dove shelters",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "NEON",
-          "clue": "Sign gas",
+          "length": 5,
+          "answer": "TRYST",
+          "clue": "Private rendezvous",
           "source": "dataset"
         }
       ],
@@ -310,46 +316,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 0,
           "length": 5,
-          "answer": "GRAPE",
-          "clue": "Vine fruit",
+          "answer": "EJECT",
+          "clue": "DVD button",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "RANDO",
-          "clue": "Total stranger",
+          "answer": "LUXOR",
+          "clue": "Vegas hotel that once had a King Tut's Tomb replica",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
+          "col": 2,
           "length": 5,
-          "answer": "ARGON",
-          "clue": "Chemical element",
+          "answer": "WITTY",
+          "clue": "Like banter",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 4,
-          "length": 3,
-          "answer": "YES",
-          "clue": "OK",
+          "col": 3,
+          "length": 5,
+          "answer": "ACRES",
+          "clue": "Lots of land",
           "source": "dataset"
         },
         {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "answer": "BUN",
-          "clue": "Roll",
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "YEAST",
+          "clue": "Baker's need",
           "source": "dataset"
         }
       ]

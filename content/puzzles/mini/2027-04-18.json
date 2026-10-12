@@ -3,39 +3,57 @@
     "size": 5,
     "cells": [
       null,
-      null,
       {
-        "answer": "B",
+        "answer": "M",
         "number": 1
       },
       {
-        "answer": "M",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "W",
+        "answer": "S",
         "number": 3
       },
       {
-        "answer": "S",
+        "answer": "K",
         "number": 4
       },
       {
-        "answer": "A",
+        "answer": "R",
         "number": 5
       },
       {
-        "answer": "R"
+        "answer": "I"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "E",
+        "number": 6
       },
       {
         "answer": "A"
       },
       {
-        "answer": "H"
+        "answer": "T"
       },
       {
-        "answer": "A",
-        "number": 6
+        "answer": "I"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E",
+        "number": 7
       },
       {
         "answer": "M"
@@ -44,38 +62,24 @@
         "answer": "O"
       },
       {
-        "answer": "R"
+        "answer": "T"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "L",
-        "number": 7
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "K"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "E",
+        "answer": "F",
         "number": 8
+      },
+      {
+        "answer": "I"
       },
       {
         "answer": "N"
       },
       {
-        "answer": "D"
+        "answer": "S"
       },
-      null,
       null
     ],
     "clues": {
@@ -83,28 +87,28 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "BMW",
-          "clue": "X6 carmaker",
+          "col": 1,
+          "length": 4,
+          "answer": "MASK",
+          "clue": "Hide",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "SARAH",
-          "clue": "Comic Silverman",
-          "source": "dataset"
+          "answer": "RICKI",
+          "clue": "___ Lake, talk show host",
+          "source": "written"
         },
         {
           "number": 6,
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "AMORE",
-          "clue": "Love at La Scala",
+          "answer": "EATIT",
+          "clue": "Fail miserably",
           "source": "dataset"
         },
         {
@@ -112,17 +116,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "LEAKY",
-          "clue": "Not watertight",
+          "answer": "EMOTE",
+          "clue": "Gush",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 3,
-          "answer": "END",
-          "clue": "Tail",
+          "length": 4,
+          "answer": "FINS",
+          "clue": "Dolphins have them",
           "source": "dataset"
         }
       ],
@@ -130,46 +134,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "BROAD",
-          "clue": "Extensive",
+          "answer": "MIAMI",
+          "clue": "Flagami's city",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "MARK",
-          "clue": "Grade",
+          "col": 2,
+          "length": 5,
+          "answer": "ACTON",
+          "clue": "Follow, as a hunch",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "WHEY",
-          "clue": "Watery part of milk",
+          "col": 3,
+          "length": 5,
+          "answer": "SKITS",
+          "clue": "Comedy sketches",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
+          "row": 0,
+          "col": 4,
           "length": 4,
-          "answer": "SALE",
-          "clue": "Ad headline",
+          "answer": "KITE",
+          "clue": "Flying toy",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 1,
+          "col": 0,
           "length": 4,
-          "answer": "AMEN",
-          "clue": "\"Preach!\"",
+          "answer": "REEF",
+          "clue": "Barrier ___",
           "source": "dataset"
         }
       ]
@@ -180,7 +184,7 @@
     "cells": [
       null,
       {
-        "answer": "Y",
+        "answer": "T",
         "number": 1
       },
       {
@@ -188,11 +192,11 @@
         "number": 2
       },
       {
-        "answer": "N",
+        "answer": "R",
         "number": 3
       },
       {
-        "answer": "G",
+        "answer": "P",
         "number": 4
       },
       {
@@ -200,63 +204,59 @@
         "number": 5
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "N"
-      },
-      {
         "answer": "A"
       },
       {
-        "answer": "H"
+        "answer": "C"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "B"
       },
       {
         "answer": "A",
         "number": 6
       },
       {
-        "answer": "U"
+        "answer": "B"
       },
       {
-        "answer": "D"
-      },
-      {
-        "answer": "I"
+        "answer": "H"
       },
       {
         "answer": "O"
       },
       {
-        "answer": "G",
-        "number": 7
-      },
-      {
-        "answer": "I"
-      },
-      {
         "answer": "R"
       },
       {
-        "answer": "L"
+        "answer": "Z",
+        "number": 7
       },
       {
-        "answer": "S"
+        "answer": "O"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "M"
       },
       null,
       {
-        "answer": "N",
+        "answer": "Z",
         "number": 8
       },
       {
-        "answer": "E"
+        "answer": "O"
       },
       {
-        "answer": "S"
+        "answer": "O"
       },
-      {
-        "answer": "T"
-      }
+      null,
+      null
     ],
     "clues": {
       "across": [
@@ -265,8 +265,8 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "YANG",
-          "clue": "Light side of Chinese duality",
+          "answer": "TARP",
+          "clue": "Field protector",
           "source": "dataset"
         },
         {
@@ -274,8 +274,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "JONAH",
-          "clue": "He had a whale of a time",
+          "answer": "JACOB",
+          "clue": "Patriarch named in a chapter in part of OT",
           "source": "dataset"
         },
         {
@@ -283,26 +283,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "AUDIO",
-          "clue": "Best Buy section",
+          "answer": "ABHOR",
+          "clue": "Can't abide",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 5,
-          "answer": "GIRLS",
-          "clue": "Some babies",
+          "length": 4,
+          "answer": "ZOOM",
+          "clue": "Speed",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
-          "col": 1,
-          "length": 4,
-          "answer": "NEST",
-          "clue": "Snug home",
+          "col": 0,
+          "length": 3,
+          "answer": "ZOO",
+          "clue": "State of madness",
           "source": "dataset"
         }
       ],
@@ -312,8 +312,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "YOUIN",
-          "clue": "Dealer's quick query",
+          "answer": "TABOO",
+          "clue": "Banned",
           "source": "dataset"
         },
         {
@@ -321,35 +321,35 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ANDRE",
-          "clue": "Agassi of tennis",
+          "answer": "ACHOO",
+          "clue": "___ 'Bless you'",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
           "col": 3,
-          "length": 5,
-          "answer": "NAILS",
-          "clue": "Tacks",
+          "length": 4,
+          "answer": "ROOM",
+          "clue": "Enough space",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
           "col": 4,
-          "length": 5,
-          "answer": "GHOST",
-          "clue": "Apparition",
+          "length": 3,
+          "answer": "PBR",
+          "clue": "Brew with hipster cred",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
           "col": 0,
-          "length": 3,
-          "answer": "JAG",
-          "clue": "Binge",
+          "length": 4,
+          "answer": "JAZZ",
+          "clue": "New Orleans music",
           "source": "dataset"
         }
       ]

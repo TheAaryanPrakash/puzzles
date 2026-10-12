@@ -5,79 +5,78 @@
       null,
       null,
       {
-        "answer": "H",
+        "answer": "G",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "I",
         "number": 2
       },
       {
-        "answer": "H",
+        "answer": "F",
         "number": 3
       },
-      null,
       {
-        "answer": "L",
+        "answer": "S",
         "number": 4
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "W",
+        "answer": "P",
         "number": 5
       },
       {
-        "answer": "E"
+        "answer": "O"
       },
       {
-        "answer": "B"
-      },
-      {
-        "answer": "B"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "V",
-        "number": 6
-      },
-      {
-        "answer": "A"
+        "answer": "O"
       },
       {
         "answer": "L"
       },
       {
-        "answer": "U"
+        "answer": "I",
+        "number": 6
       },
       {
-        "answer": "E"
-      },
-      {
-        "answer": "A",
-        "number": 7
-      },
-      {
-        "answer": "D"
+        "answer": "R"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "M"
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R",
+        "number": 7
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "X"
+      },
+      {
+        "answer": "I",
+        "number": 8
+      },
+      {
+        "answer": "T"
       },
       {
         "answer": "S"
-      }
+      },
+      null,
+      null
     ],
     "clues": {
       "across": [
@@ -86,44 +85,44 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "answer": "HAH",
-          "clue": "'Funny!'",
+          "answer": "GIF",
+          "clue": "Animation in a tweet",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "LALA",
-          "clue": "'Ooh ___!'",
+          "col": 0,
+          "length": 5,
+          "answer": "SPOOL",
+          "clue": "Thread holder",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 6,
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "WEBBY",
-          "clue": "Award for internet excellence",
-          "source": "written"
-        },
-        {
-          "number": 6,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "VALUE",
-          "clue": "Merit",
+          "answer": "IRATE",
+          "clue": "Furious",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 4,
+          "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "ADAMS",
-          "clue": "NBA player Steven",
+          "answer": "RELAX",
+          "clue": "'Easy, now!'",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "ITS",
+          "clue": "\"- a deal!\"",
           "source": "dataset"
         }
       ],
@@ -133,45 +132,45 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "HABLA",
-          "clue": "'Se ___ espanol'",
+          "answer": "GOALS",
+          "clue": "#___ (aspirational hashtag)",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 5,
-          "answer": "ALBUM",
-          "clue": "Book; LP",
+          "length": 4,
+          "answer": "IOTA",
+          "clue": "Bit",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
-          "length": 5,
-          "answer": "HAYES",
-          "clue": "MSNBC's Chris",
+          "length": 4,
+          "answer": "FLEX",
+          "clue": "Tighten up a muscle",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
+          "col": 0,
           "length": 4,
-          "answer": "LEAD",
-          "clue": "Top escort",
+          "answer": "SIRI",
+          "clue": "Alexa relative",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "answer": "WVA",
-          "clue": "West Virginia, on a map, for short",
-          "source": "written"
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "PRET",
+          "clue": "___-a-porter: ready-to-wear",
+          "source": "dataset"
         }
       ]
     }
@@ -180,85 +179,83 @@
     "size": 5,
     "cells": [
       {
-        "answer": "G",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "E",
+        "answer": "C",
         "number": 2
       },
       {
-        "answer": "T",
+        "answer": "O",
         "number": 3
       },
       {
-        "answer": "B",
+        "answer": "F",
         "number": 4
       },
       {
-        "answer": "Y",
+        "answer": "F",
         "number": 5
       },
       {
-        "answer": "N",
+        "answer": "M",
         "number": 6
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "A",
-        "number": 7
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "R"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "Y"
+        "answer": "F"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "I",
+        "number": 7
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "T"
       },
       {
         "answer": "R",
         "number": 8
       },
       {
-        "answer": "I"
-      },
-      {
-        "answer": "N"
+        "answer": "A"
       },
       {
         "answer": "G"
       },
       {
-        "answer": "O"
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "K",
+        "number": 9
       },
       {
-        "answer": "L",
-        "number": 9
+        "answer": "O"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "S"
-      },
-      {
-        "answer": "S"
+        "answer": "D"
       },
       null
     ],
@@ -269,8 +266,8 @@
           "row": 0,
           "col": 0,
           "length": 5,
-          "answer": "GETBY",
-          "clue": "Manage",
+          "answer": "SCOFF",
+          "clue": "Mock",
           "source": "dataset"
         },
         {
@@ -278,8 +275,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "NEURO",
-          "clue": "Prefix with surgeon or toxin",
+          "answer": "MAFIA",
+          "clue": "Underworld society",
           "source": "dataset"
         },
         {
@@ -287,17 +284,17 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ARRAY",
-          "clue": "Matrix",
+          "answer": "ICANT",
+          "clue": "Defeatist's words",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 3,
           "col": 0,
-          "length": 5,
-          "answer": "RINGO",
-          "clue": "Call round for drummer",
+          "length": 4,
+          "answer": "RAGE",
+          "clue": "Ire",
           "source": "dataset"
         },
         {
@@ -305,9 +302,9 @@
           "row": 4,
           "col": 0,
           "length": 4,
-          "answer": "LESS",
-          "clue": "Take away",
-          "source": "dataset"
+          "answer": "KOED",
+          "clue": "Knocked out, briefly",
+          "source": "written"
         }
       ],
       "down": [
@@ -316,8 +313,8 @@
           "row": 0,
           "col": 0,
           "length": 5,
-          "answer": "GNARL",
-          "clue": "Knot on a tree trunk",
+          "answer": "SMIRK",
+          "clue": "Smug smile",
           "source": "dataset"
         },
         {
@@ -325,8 +322,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "EERIE",
-          "clue": "Chilling",
+          "answer": "CACAO",
+          "clue": "Creme de ___",
           "source": "dataset"
         },
         {
@@ -334,8 +331,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "TURNS",
-          "clue": "In borscht urn some goes bad",
+          "answer": "OFAGE",
+          "clue": "Able to vote or drive",
           "source": "dataset"
         },
         {
@@ -343,17 +340,17 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "BRAGS",
-          "clue": "Self-promotes aggressively",
+          "answer": "FINED",
+          "clue": "Made to pay a penalty",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 0,
           "col": 4,
-          "length": 4,
-          "answer": "YOYO",
-          "clue": "Toy",
+          "length": 3,
+          "answer": "FAT",
+          "clue": "Pudgy",
           "source": "dataset"
         }
       ]

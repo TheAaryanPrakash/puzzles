@@ -3,245 +3,47 @@
     "size": 5,
     "cells": [
       {
-        "answer": "C",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "H",
+        "answer": "C",
         "number": 2
       },
       {
-        "answer": "A",
+        "answer": "H",
         "number": 3
       },
       {
-        "answer": "S",
+        "answer": "W",
         "number": 4
       },
       {
-        "answer": "M",
+        "answer": "A",
         "number": 5
       },
       {
-        "answer": "R",
+        "answer": "A",
         "number": 6
-      },
-      {
-        "answer": "E"
       },
       {
         "answer": "L"
       },
       {
         "answer": "A"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "O",
-        "number": 7
       },
       {
         "answer": "R"
       },
       {
-        "answer": "O"
+        "answer": "M"
       },
       {
-        "answer": "U"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "C",
-        "number": 8
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "K",
-        "number": 9
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S"
-      }
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 0,
-          "length": 5,
-          "answer": "CHASM",
-          "clue": "Deep cleft",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "RELAY",
-          "clue": "Broadcast",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "OROUT",
-          "clue": "'In ___' (included or excluded)",
-          "source": "written"
-        },
-        {
-          "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "CONCH",
-          "clue": "Makeshift trumpet",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
-          "row": 4,
-          "col": 0,
-          "length": 5,
-          "answer": "KNEES",
-          "clue": "Some joints",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 0,
-          "length": 5,
-          "answer": "CROCK",
-          "clue": "Stew cooker",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "HERON",
-          "clue": "Egret's cousin",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "ALONE",
-          "clue": "Stag",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "SAUCE",
-          "clue": "Relish drink",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 0,
-          "col": 4,
-          "length": 5,
-          "answer": "MYTHS",
-          "clue": "Legends",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 5,
-    "cells": [
-      {
-        "answer": "C",
-        "number": 1
-      },
-      {
-        "answer": "R",
-        "number": 2
-      },
-      {
-        "answer": "A",
-        "number": 3
-      },
-      {
-        "answer": "S",
-        "number": 4
-      },
-      {
-        "answer": "H",
-        "number": 5
-      },
-      {
-        "answer": "H",
-        "number": 6
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "A",
+        "answer": "M",
         "number": 7
       },
       {
-        "answer": "T"
-      },
-      {
-        "answer": "L"
-      },
-      {
         "answer": "A"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "P",
-        "number": 8
       },
       {
         "answer": "R"
@@ -250,23 +52,36 @@
         "answer": "I"
       },
       {
-        "answer": "N"
+        "answer": "A"
+      },
+      {
+        "answer": "B",
+        "number": 8
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "S"
       },
       {
         "answer": "T"
       },
       {
-        "answer": "S",
+        "answer": "S"
+      },
+      {
+        "answer": "A",
         "number": 9
       },
       {
-        "answer": "O"
+        "answer": "S"
       },
       {
-        "answer": "N"
+        "answer": "H"
       },
       {
-        "answer": "G"
+        "answer": "E"
       },
       {
         "answer": "S"
@@ -279,8 +94,8 @@
           "row": 0,
           "col": 0,
           "length": 5,
-          "answer": "CRASH",
-          "clue": "Sound of cymbals",
+          "answer": "SCHWA",
+          "clue": "Unstressed vowel",
           "source": "dataset"
         },
         {
@@ -288,8 +103,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "HELLO",
-          "clue": "'Hi there'",
+          "answer": "ALARM",
+          "clue": "Distress",
           "source": "dataset"
         },
         {
@@ -297,8 +112,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ATLAS",
-          "clue": "Travel aid",
+          "answer": "MARIA",
+          "clue": "Menounos or Shriver",
           "source": "dataset"
         },
         {
@@ -306,8 +121,8 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "PRINT",
-          "clue": "Produce hard copy",
+          "answer": "BUSTS",
+          "clue": "Some statuary",
           "source": "dataset"
         },
         {
@@ -315,8 +130,8 @@
           "row": 4,
           "col": 0,
           "length": 5,
-          "answer": "SONGS",
-          "clue": "Tunes performed",
+          "answer": "ASHES",
+          "clue": "Arson yield",
           "source": "dataset"
         }
       ],
@@ -326,8 +141,8 @@
           "row": 0,
           "col": 0,
           "length": 5,
-          "answer": "CHAPS",
-          "clue": "Cowboy's garment",
+          "answer": "SAMBA",
+          "clue": "Brazilian dance",
           "source": "dataset"
         },
         {
@@ -335,8 +150,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "RETRO",
-          "clue": "Trendy again",
+          "answer": "CLAUS",
+          "clue": "North Pole surname",
           "source": "dataset"
         },
         {
@@ -344,8 +159,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ALLIN",
-          "clue": "Big bet",
+          "answer": "HARSH",
+          "clue": "Draconian",
           "source": "dataset"
         },
         {
@@ -353,8 +168,8 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "SLANG",
-          "clue": "Translating challenge",
+          "answer": "WRITE",
+          "clue": "Make a play (wordplay)",
           "source": "dataset"
         },
         {
@@ -362,8 +177,184 @@
           "row": 0,
           "col": 4,
           "length": 5,
-          "answer": "HOSTS",
-          "clue": "Publicans",
+          "answer": "AMASS",
+          "clue": "Corral",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "H",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "L",
+        "number": 3
+      },
+      {
+        "answer": "O",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "I",
+        "number": 5
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "M",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "Z"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "B",
+        "number": 7
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "A",
+        "number": 8
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "S"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "HALO",
+          "clue": "Aura",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "ICAN",
+          "clue": "'Count on me!'",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "MATZO",
+          "clue": "Unleavened bread",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "BLUE",
+          "clue": "Unhappy",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "ALPS",
+          "clue": "Swiss peaks",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "HIALL",
+          "clue": "Greeting for a group",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "ACTUP",
+          "clue": "Malfunction",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "LAZES",
+          "clue": "Takes it easy",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "ONO",
+          "clue": "Yoko of art",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "MBA",
+          "clue": "CFO's degree",
           "source": "dataset"
         }
       ]

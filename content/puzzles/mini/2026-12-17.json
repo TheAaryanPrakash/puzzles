@@ -4,80 +4,78 @@
     "cells": [
       null,
       {
-        "answer": "N",
+        "answer": "Y",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "O",
         "number": 2
       },
       {
-        "answer": "V",
+        "answer": "G",
         "number": 3
       },
       {
-        "answer": "Y",
+        "answer": "I",
         "number": 4
       },
       null,
       {
-        "answer": "O",
+        "answer": "A",
         "number": 5
       },
       {
-        "answer": "R"
+        "answer": "P"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "O"
+        "answer": "S"
       },
       {
-        "answer": "G",
+        "answer": "W",
         "number": 6
       },
       {
-        "answer": "O"
+        "answer": "H"
       },
       {
         "answer": "I"
       },
       {
-        "answer": "N"
+        "answer": "T"
       },
       {
-        "answer": "G"
+        "answer": "E"
       },
       {
-        "answer": "O",
+        "answer": "H",
         "number": 7
       },
       {
-        "answer": "B"
+        "answer": "O"
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "O",
-        "number": 8
+        "answer": "U"
       },
       {
         "answer": "S"
       },
       {
-        "answer": "L"
+        "answer": "E"
+      },
+      {
+        "answer": "Y",
+        "number": 8
       },
       {
         "answer": "O"
       },
+      {
+        "answer": "M"
+      },
+      null,
       null
     ],
     "clues": {
@@ -87,8 +85,8 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "NAVY",
-          "clue": "Shade of blue",
+          "answer": "YOGI",
+          "clue": "Hanna-Barbera bear",
           "source": "dataset"
         },
         {
@@ -96,8 +94,8 @@
           "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "OREO",
-          "clue": "Cookie variety",
+          "answer": "APES",
+          "clue": "Copies",
           "source": "dataset"
         },
         {
@@ -105,8 +103,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "GOING",
-          "clue": "In progress",
+          "answer": "WHITE",
+          "clue": "Like some teeth and lies",
           "source": "dataset"
         },
         {
@@ -114,17 +112,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "OBAMA",
-          "clue": "46 was his veep",
+          "answer": "HOUSE",
+          "clue": "___ cat",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "OSLO",
-          "clue": "Norway city",
+          "length": 3,
+          "answer": "YOM",
+          "clue": "___ Kippur",
           "source": "dataset"
         }
       ],
@@ -134,8 +132,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "NOOBS",
-          "clue": "Gaming rookies",
+          "answer": "YAHOO",
+          "clue": "'Hurray!'",
           "source": "dataset"
         },
         {
@@ -143,17 +141,17 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ARIAL",
-          "clue": "Computer font",
+          "answer": "OPIUM",
+          "clue": "Drug",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
           "col": 3,
-          "length": 5,
-          "answer": "VENMO",
-          "clue": "Mobile payment service",
+          "length": 4,
+          "answer": "GETS",
+          "clue": "Obtains",
           "source": "dataset"
         },
         {
@@ -161,8 +159,8 @@
           "row": 0,
           "col": 4,
           "length": 4,
-          "answer": "YOGA",
-          "clue": "Exercise choice",
+          "answer": "ISEE",
+          "clue": "'Gotcha'",
           "source": "dataset"
         },
         {
@@ -170,8 +168,8 @@
           "row": 2,
           "col": 0,
           "length": 3,
-          "answer": "GOO",
-          "clue": "Sludge",
+          "answer": "WHY",
+          "clue": "Rationale",
           "source": "dataset"
         }
       ]
@@ -182,79 +180,83 @@
     "cells": [
       null,
       {
-        "answer": "S",
+        "answer": "W",
         "number": 1
       },
       {
-        "answer": "O",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "S",
+        "answer": "G",
         "number": 3
       },
       {
-        "answer": "O",
+        "answer": "E",
         "number": 4
       },
       null,
       {
-        "answer": "H",
+        "answer": "A",
         "number": 5
       },
       {
-        "answer": "A"
+        "answer": "L"
       },
       {
-        "answer": "I"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "T",
-        "number": 6
-      },
-      {
-        "answer": "A"
+        "answer": "E"
       },
       {
         "answer": "S"
+      },
+      {
+        "answer": "S",
+        "number": 6
       },
       {
         "answer": "T"
       },
       {
-        "answer": "E"
-      },
-      {
-        "answer": "E",
-        "number": 7
-      },
-      {
-        "answer": "P"
-      },
-      {
         "answer": "I"
       },
       {
-        "answer": "C"
+        "answer": "N"
       },
-      null,
       {
-        "answer": "M",
+        "answer": "T"
+      },
+      {
+        "answer": "Z",
+        "number": 7
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "A",
         "number": 8
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
       },
       {
         "answer": "E"
       },
       {
         "answer": "S"
-      },
-      {
-        "answer": "H"
-      },
-      null
+      }
     ],
     "clues": {
       "across": [
@@ -263,8 +265,8 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "SOSO",
-          "clue": "Fair",
+          "answer": "WAGE",
+          "clue": "Minimum ___",
           "source": "dataset"
         },
         {
@@ -272,8 +274,8 @@
           "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "HAIR",
-          "clue": "Locks",
+          "answer": "ALES",
+          "clue": "Bar pints",
           "source": "dataset"
         },
         {
@@ -281,26 +283,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "TASTE",
-          "clue": "Refinement",
+          "answer": "STINT",
+          "clue": "Period of work",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 4,
-          "answer": "EPIC",
-          "clue": "Colossal",
+          "length": 5,
+          "answer": "ZEBRA",
+          "clue": "Serengeti equine",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "MESH",
-          "clue": "Net",
+          "length": 5,
+          "answer": "ARIES",
+          "clue": "Spring sign",
           "source": "dataset"
         }
       ],
@@ -310,8 +312,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "SHAPE",
-          "clue": "Trapezoid, e.g",
+          "answer": "WATER",
+          "clue": "Bottled buy",
           "source": "dataset"
         },
         {
@@ -319,8 +321,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "OASIS",
-          "clue": "Spring locale",
+          "answer": "ALIBI",
+          "clue": "Excuse",
           "source": "dataset"
         },
         {
@@ -328,17 +330,17 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "SITCH",
-          "clue": "Situation, for short",
-          "source": "written"
+          "answer": "GENRE",
+          "clue": "Soul, e.g",
+          "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
           "col": 4,
-          "length": 3,
-          "answer": "ORE",
-          "clue": "Raw rock",
+          "length": 5,
+          "answer": "ESTAS",
+          "clue": "These, in Mexico",
           "source": "dataset"
         },
         {
@@ -346,8 +348,8 @@
           "row": 2,
           "col": 0,
           "length": 3,
-          "answer": "TEM",
-          "clue": "President pro ___",
+          "answer": "SZA",
+          "clue": "'All the Stars' singer",
           "source": "dataset"
         }
       ]

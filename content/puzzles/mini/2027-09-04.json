@@ -298,81 +298,81 @@
   "reserve": {
     "size": 5,
     "cells": [
+      null,
+      null,
       {
-        "answer": "B",
+        "answer": "L",
         "number": 1
       },
       {
-        "answer": "O",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "T",
+        "answer": "B",
         "number": 3
-      },
-      {
-        "answer": "S",
-        "number": 4
-      },
-      null,
-      {
-        "answer": "A",
-        "number": 5
-      },
-      {
-        "answer": "B"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "T"
-      },
-      null,
-      {
-        "answer": "T",
-        "number": 6
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "N",
-        "number": 7
       },
       null,
       {
         "answer": "M",
-        "number": 8
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "I"
-      },
-      null,
-      {
-        "answer": "A",
-        "number": 9
-      },
-      {
-        "answer": "P"
+        "number": 4
       },
       {
         "answer": "E"
       },
       {
-        "answer": "X"
+        "answer": "M"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "Y",
+        "number": 5
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "M",
+        "number": 7
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "Y"
       }
     ],
     "clues": {
@@ -380,93 +380,93 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "LAB",
+          "clue": "Science room",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
           "length": 4,
-          "answer": "BOTS",
-          "clue": "Automated programs",
+          "answer": "MEMO",
+          "clue": "Staff note",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "answer": "ABUT",
-          "clue": "Border",
+          "length": 5,
+          "answer": "YOGIS",
+          "clue": "Real posers (wordplay)",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "TALON",
-          "clue": "Claw",
+          "answer": "AMISS",
+          "clue": "Haywire",
           "source": "dataset"
         },
         {
-          "number": 8,
-          "row": 3,
-          "col": 1,
-          "length": 4,
-          "answer": "MINI",
-          "clue": "Small",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
+          "number": 7,
           "row": 4,
-          "col": 1,
-          "length": 4,
-          "answer": "APEX",
-          "clue": "Top spot",
-          "source": "dataset"
+          "col": 0,
+          "length": 5,
+          "answer": "MATHY",
+          "clue": "Nerdy about numbers, informally",
+          "source": "written"
         }
       ],
       "down": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 3,
-          "answer": "BAT",
-          "clue": "Furry flyer",
+          "col": 2,
+          "length": 5,
+          "answer": "LEGIT",
+          "clue": "On the level",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
+          "col": 3,
           "length": 5,
-          "answer": "OBAMA",
-          "clue": "#44",
+          "answer": "AMISH",
+          "clue": "Barn-raising group",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
+          "col": 4,
           "length": 5,
-          "answer": "TULIP",
-          "clue": "Spring flower",
+          "answer": "BOSSY",
+          "clue": "Prone to giving orders",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "STONE",
-          "clue": "Gem",
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "MOMA",
+          "clue": "NYC cultural center",
           "source": "dataset"
         },
         {
-          "number": 7,
+          "number": 5,
           "row": 2,
-          "col": 4,
+          "col": 0,
           "length": 3,
-          "answer": "NIX",
-          "clue": "Veto",
+          "answer": "YAM",
+          "clue": "Sweet potato",
           "source": "dataset"
         }
       ]

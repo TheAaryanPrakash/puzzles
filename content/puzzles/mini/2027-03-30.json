@@ -4,15 +4,15 @@
     "cells": [
       null,
       {
-        "answer": "S",
+        "answer": "W",
         "number": 1
       },
       {
-        "answer": "H",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "O",
+        "answer": "G",
         "number": 3
       },
       {
@@ -20,40 +20,303 @@
         "number": 4
       },
       {
-        "answer": "S",
+        "answer": "J",
         "number": 5
       },
       {
-        "answer": "H"
+        "answer": "A"
+      },
+      {
+        "answer": "D"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "L"
+        "answer": "D"
       },
       {
-        "answer": "L"
-      },
-      {
-        "answer": "T",
+        "answer": "O",
         "number": 6
+      },
+      {
+        "answer": "Z"
       },
       {
         "answer": "O"
       },
       {
-        "answer": "W"
+        "answer": "N"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "L"
+        "answer": "H",
+        "number": 7
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "N",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "WAGE",
+          "clue": "Perpetrate",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "JADED",
+          "clue": "Blase",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "OZONE",
+          "clue": "Form of oxygen",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "HOPIN",
+          "clue": "'No need to walk!'",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "NOTE",
+          "clue": "Record",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "WAZOO",
+          "clue": "'Out the ___' (in abundance)",
+          "source": "written"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "ADOPT",
+          "clue": "Take in",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "GENIE",
+          "clue": "Lamp spirit",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "EDEN",
+          "clue": "Fall place",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "JOHN",
+          "clue": "Mr. Konihowski",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 7,
+    "cells": [
+      {
+        "answer": "S",
+        "number": 1
       },
       {
         "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "F",
+        "number": 3
+      },
+      {
+        "answer": "A",
+        "number": 4
+      },
+      {
+        "answer": "R",
+        "number": 5
+      },
+      {
+        "answer": "I",
+        "number": 6
+      },
+      null,
+      {
+        "answer": "A",
         "number": 7
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      null,
+      {
+        "answer": "I",
+        "number": 8
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "L",
+        "number": 9
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "R",
+        "number": 10
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "F",
+        "number": 11
+      },
+      null,
+      {
+        "answer": "N",
+        "number": 12
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "D",
+        "number": 13
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "G",
+        "number": 14
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 15
+      },
+      {
+        "answer": "T"
       },
       {
         "answer": "R"
@@ -64,65 +327,82 @@
       {
         "answer": "S"
       },
-      null,
       {
-        "answer": "R",
-        "number": 8
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "D"
-      },
-      null,
-      null
+        "answer": "S"
+      }
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "SHOE",
-          "clue": "Laces' place",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
           "col": 0,
-          "length": 5,
-          "answer": "SHELL",
-          "clue": "Mollusk's home",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "TOWEL",
-          "clue": "Gym accessory",
+          "length": 6,
+          "answer": "SAFARI",
+          "clue": "Game trip",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
+          "row": 1,
           "col": 0,
-          "length": 4,
-          "answer": "ARES",
-          "clue": "God of war",
+          "length": 6,
+          "answer": "AWAKEN",
+          "clue": "Rouse",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 4,
+          "row": 2,
+          "col": 0,
+          "length": 6,
+          "answer": "INCAPS",
+          "clue": "LIKE THIS CLUE",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 3,
           "col": 0,
           "length": 3,
-          "answer": "RED",
-          "clue": "Colour",
+          "answer": "LIE",
+          "clue": "Fish story",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 3,
+          "col": 4,
+          "length": 3,
+          "answer": "REF",
+          "clue": "NFL arbiter",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 4,
+          "col": 1,
+          "length": 6,
+          "answer": "NODICE",
+          "clue": "\"Forget it!\"",
+          "source": "dataset"
+        },
+        {
+          "number": 14,
+          "row": 5,
+          "col": 1,
+          "length": 6,
+          "answer": "GUESTS",
+          "clue": "Party people",
+          "source": "dataset"
+        },
+        {
+          "number": 15,
+          "row": 6,
+          "col": 1,
+          "length": 6,
+          "answer": "STRESS",
+          "clue": "Emphasis",
           "source": "dataset"
         }
       ],
@@ -130,226 +410,73 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "SHORE",
-          "clue": "Beach",
+          "col": 0,
+          "length": 4,
+          "answer": "SAIL",
+          "clue": "Wind catcher",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "HEWED",
-          "clue": "Axed down",
+          "col": 1,
+          "length": 7,
+          "answer": "AWNINGS",
+          "clue": "Storefront coverings",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "OLES",
-          "clue": "Bullring cries",
-          "source": "dataset"
+          "col": 2,
+          "length": 7,
+          "answer": "FACEOUT",
+          "clue": "Positioned for visibility on a shelf, as a book",
+          "source": "written"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 4,
+          "col": 3,
           "length": 3,
-          "answer": "ELL",
-          "clue": "Pipe joint",
+          "answer": "AKA",
+          "clue": "Alias",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "STAR",
-          "clue": "Headliner",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 5,
-    "cells": [
-      null,
-      {
-        "answer": "H",
-        "number": 1
-      },
-      {
-        "answer": "A",
-        "number": 2
-      },
-      {
-        "answer": "L",
-        "number": 3
-      },
-      {
-        "answer": "F",
-        "number": 4
-      },
-      {
-        "answer": "G",
-        "number": 5
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "F"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "U",
-        "number": 6
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "F",
-        "number": 7
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "F",
-        "number": 8
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "E"
-      },
-      null
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "HALF",
-          "clue": "Fifty percent",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "GOFAR",
-          "clue": "Succeed in life",
+          "col": 4,
+          "length": 7,
+          "answer": "REPRISE",
+          "clue": "Musical repetition",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "UNITE",
-          "clue": "Bond",
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "answer": "INSECTS",
+          "clue": "Beetles and bees",
           "source": "dataset"
         },
         {
-          "number": 7,
+          "number": 11,
           "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "FORTY",
-          "clue": "Number with all its letters in alphabetical order",
+          "col": 6,
+          "length": 4,
+          "answer": "FESS",
+          "clue": "Own (up)",
           "source": "dataset"
         },
         {
-          "number": 8,
+          "number": 13,
           "row": 4,
-          "col": 0,
-          "length": 4,
-          "answer": "FREE",
-          "clue": "Not busy",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "HONOR",
-          "clue": "Pay public respect to",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "AFIRE",
-          "clue": "In flames",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
           "col": 3,
-          "length": 5,
-          "answer": "LATTE",
-          "clue": "Barista creation",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "FREY",
-          "clue": "Glenn of The Eagles",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "GUFF",
-          "clue": "Nonsense",
+          "length": 3,
+          "answer": "DER",
+          "clue": "German \"the\"",
           "source": "dataset"
         }
       ]

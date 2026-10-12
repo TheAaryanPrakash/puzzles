@@ -2,27 +2,23 @@
   "payload": {
     "size": 5,
     "cells": [
-      null,
-      null,
       {
-        "answer": "B",
+        "answer": "A",
         "number": 1
       },
       {
-        "answer": "U",
+        "answer": "B",
         "number": 2
       },
       {
-        "answer": "T",
+        "answer": "U",
         "number": 3
       },
+      null,
+      null,
       {
         "answer": "C",
         "number": 4
-      },
-      {
-        "answer": "L",
-        "number": 5
       },
       {
         "answer": "O"
@@ -31,232 +27,56 @@
         "answer": "N"
       },
       {
-        "answer": "E"
-      },
-      {
-        "answer": "H",
-        "number": 6
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "E",
-        "number": 7
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "F",
-        "number": 8
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "X"
-      },
-      null,
-      null
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "BUT",
-          "clue": "'However . . .'",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "CLONE",
-          "clue": "Sci-fi duplicate",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "HITIT",
-          "clue": "Directive to a band",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "EMOTE",
-          "clue": "Milk a scene",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 4,
-          "col": 0,
-          "length": 3,
-          "answer": "FOX",
-          "clue": "Aesopian animal",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "BOTOX",
-          "clue": "Shot to the face",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "UNIT",
-          "clue": "Gallon, e.g",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "TETE",
-          "clue": "Henri's head",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "CHEF",
-          "clue": "Cook",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "LIMO",
-          "clue": "Star's ride",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 5,
-    "cells": [
-      {
-        "answer": "C",
-        "number": 1
-      },
-      {
-        "answer": "A",
-        "number": 2
-      },
-      {
-        "answer": "B",
-        "number": 3
-      },
-      {
-        "answer": "L",
-        "number": 4
-      },
-      {
-        "answer": "E",
+        "answer": "D",
         "number": 5
       },
       {
-        "answer": "B",
+        "answer": "O",
         "number": 6
       },
       {
-        "answer": "L"
+        "answer": "E",
+        "number": 7
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "T"
       },
       {
         "answer": "U"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "D",
+        "number": 8
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      null,
+      {
+        "answer": "G",
+        "number": 9
       },
       {
         "answer": "E"
       },
       {
-        "answer": "S"
-      },
-      {
-        "answer": "D",
-        "number": 7
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "S"
-      },
-      null,
-      {
-        "answer": "A",
-        "number": 8
-      },
-      {
-        "answer": "Q"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "A"
-      },
-      null,
-      {
-        "answer": "N",
-        "number": 9
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "Y"
+        "answer": "N"
       }
     ],
     "clues": {
@@ -265,18 +85,18 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 5,
-          "answer": "CABLE",
-          "clue": "Suspension bridge support",
+          "length": 3,
+          "answer": "ABU",
+          "clue": "Animated monkey",
           "source": "dataset"
         },
         {
-          "number": 6,
+          "number": 4,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "BLUES",
-          "clue": "Music tones",
+          "answer": "CONDO",
+          "clue": "Housing choice",
           "source": "dataset"
         },
         {
@@ -284,26 +104,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "DORMS",
-          "clue": "College residences",
+          "answer": "EATUP",
+          "clue": "Take in eagerly",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 3,
-          "col": 1,
-          "length": 4,
-          "answer": "AQUA",
-          "clue": "Watery blue",
+          "col": 0,
+          "length": 5,
+          "answer": "DRAKE",
+          "clue": "Opener in difficulty to collect duck",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 1,
-          "length": 4,
-          "answer": "NARY",
-          "clue": "- a one (zero)",
+          "col": 2,
+          "length": 3,
+          "answer": "GEN",
+          "clue": "Lead-in to X, Y or Z",
           "source": "dataset"
         }
       ],
@@ -312,18 +132,18 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 3,
-          "answer": "CBD",
-          "clue": "Substance in some adult gummies",
+          "length": 4,
+          "answer": "ACED",
+          "clue": "Got 100% on",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
-          "length": 5,
-          "answer": "ALOAN",
-          "clue": "Take out ___",
+          "length": 4,
+          "answer": "BOAR",
+          "clue": "Tusked beast",
           "source": "dataset"
         },
         {
@@ -331,26 +151,202 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "BURQA",
-          "clue": "Head-to-toe garment",
+          "answer": "UNTAG",
+          "clue": "Remove an identifier from a photo",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 3,
+          "length": 4,
+          "answer": "DUKE",
+          "clue": "High-ranking noble",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 4,
+          "length": 4,
+          "answer": "OPEN",
+          "clue": "Candid",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "P",
+        "number": 1
+      },
+      {
+        "answer": "R",
+        "number": 2
+      },
+      {
+        "answer": "A",
+        "number": 3
+      },
+      {
+        "answer": "Y",
+        "number": 4
+      },
+      null,
+      {
+        "answer": "R",
+        "number": 5
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "B",
+        "number": 6
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "U",
+        "number": 7
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      null,
+      {
+        "answer": "G",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "T"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "PRAY",
+          "clue": "Say grace, say",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "RAGE",
+          "clue": "Anger",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "BITES",
+          "clue": "Really stinks",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "UDON",
+          "clue": "Japanese noodles",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "GENT",
+          "clue": "Decent chap",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "PRIDE",
+          "clue": "Annual June celebration",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "RATON",
+          "clue": "Boca ___, Florida",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "AGENT",
+          "clue": "Spy",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "LEMUR",
-          "clue": "Primate",
+          "col": 4,
+          "length": 3,
+          "answer": "YES",
+          "clue": "Okay",
           "source": "dataset"
         },
         {
-          "number": 5,
-          "row": 0,
-          "col": 4,
-          "length": 5,
-          "answer": "ESSAY",
-          "clue": "Bacon piece",
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "BUG",
+          "clue": "Glitch",
           "source": "dataset"
         }
       ]

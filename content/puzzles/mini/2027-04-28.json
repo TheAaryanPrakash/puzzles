@@ -3,88 +3,80 @@
     "size": 5,
     "cells": [
       {
-        "answer": "S",
+        "answer": "G",
         "number": 1
       },
       {
-        "answer": "T",
+        "answer": "U",
         "number": 2
       },
       {
-        "answer": "O",
+        "answer": "M",
         "number": 3
       },
+      null,
+      null,
       {
-        "answer": "R",
+        "answer": "A",
         "number": 4
       },
       {
-        "answer": "M",
-        "number": 5
-      },
-      {
-        "answer": "L",
-        "number": 6
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "N"
+        "answer": "H"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "D"
+        "answer": "A",
+        "number": 5
       },
       {
-        "answer": "A",
+        "answer": "D",
+        "number": 6
+      },
+      {
+        "answer": "L",
         "number": 7
       },
       {
-        "answer": "C"
+        "answer": "O"
       },
       {
-        "answer": "T"
+        "answer": "D"
       },
       {
-        "answer": "U"
+        "answer": "G"
       },
       {
-        "answer": "P"
+        "answer": "E"
       },
       {
         "answer": "S",
         "number": 8
       },
       {
-        "answer": "K"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "S"
-      },
-      {
         "answer": "H"
       },
       {
-        "answer": "H",
-        "number": 9
+        "answer": "A"
       },
       {
-        "answer": "Y"
-      },
-      {
-        "answer": "P"
+        "answer": "R"
       },
       {
         "answer": "E"
       },
+      null,
+      null,
       {
-        "answer": "D"
+        "answer": "L",
+        "number": 9
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "P"
       }
     ],
     "clues": {
@@ -93,18 +85,18 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 5,
-          "answer": "STORM",
-          "clue": "Attack en masse",
+          "length": 3,
+          "answer": "GUM",
+          "clue": "Tooth surrounder",
           "source": "dataset"
         },
         {
-          "number": 6,
+          "number": 4,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "LANED",
-          "clue": "Like Olympic pools",
+          "answer": "AHEAD",
+          "clue": "Upcoming",
           "source": "dataset"
         },
         {
@@ -112,8 +104,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ACTUP",
-          "clue": "Behave badly",
+          "answer": "LODGE",
+          "clue": "Embed firmly",
           "source": "dataset"
         },
         {
@@ -121,17 +113,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "SKOSH",
-          "clue": "Smidgen",
+          "answer": "SHARE",
+          "clue": "Facebook action",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 0,
-          "length": 5,
-          "answer": "HYPED",
-          "clue": "Intensively promoted",
+          "col": 2,
+          "length": 3,
+          "answer": "LAP",
+          "clue": "Indy unit",
           "source": "dataset"
         }
       ],
@@ -140,18 +132,18 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 5,
-          "answer": "SLASH",
-          "clue": "Cut violently",
+          "length": 4,
+          "answer": "GALS",
+          "clue": "Girls, informally",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
-          "length": 5,
-          "answer": "TACKY",
-          "clue": "In poor taste",
+          "length": 4,
+          "answer": "UHOH",
+          "clue": "\"I'm toast\"",
           "source": "dataset"
         },
         {
@@ -159,27 +151,27 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ONTOP",
-          "clue": "Victorious",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "REUSE",
-          "clue": "Get extra value from",
+          "answer": "MEDAL",
+          "clue": "Olympic prize",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 0,
+          "row": 1,
+          "col": 3,
+          "length": 4,
+          "answer": "AGRA",
+          "clue": "Taj Mahal site",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
           "col": 4,
-          "length": 5,
-          "answer": "MDPHD",
-          "clue": "Dual medical and research degree, briefly",
-          "source": "written"
+          "length": 4,
+          "answer": "DEEP",
+          "clue": "Not shallow",
+          "source": "dataset"
         }
       ]
     }
@@ -188,15 +180,15 @@
     "size": 5,
     "cells": [
       {
-        "answer": "E",
+        "answer": "V",
         "number": 1
       },
       {
-        "answer": "L",
+        "answer": "I",
         "number": 2
       },
       {
-        "answer": "W",
+        "answer": "R",
         "number": 3
       },
       {
@@ -204,73 +196,69 @@
         "number": 4
       },
       {
-        "answer": "Y",
+        "answer": "L",
         "number": 5
       },
       {
-        "answer": "J",
+        "answer": "A",
         "number": 6
       },
       {
-        "answer": "U"
+        "answer": "N"
       },
       {
         "answer": "I"
       },
       {
-        "answer": "C"
+        "answer": "M"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "E",
+        "answer": "I",
         "number": 7
       },
       {
-        "answer": "X"
+        "answer": "D"
       },
       {
         "answer": "T"
-      },
-      {
-        "answer": "R"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "C",
+        "answer": "G"
+      },
+      {
+        "answer": "L",
         "number": 8
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "Z"
+      },
+      {
+        "answer": "Z"
       },
       {
         "answer": "O"
       },
+      null,
       {
-        "answer": "T"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "T",
+        "answer": "E",
         "number": 9
-      },
-      {
-        "answer": "R"
       },
       {
         "answer": "Y"
       },
       {
-        "answer": "S"
+        "answer": "E"
       },
-      {
-        "answer": "T"
-      }
+      null
     ],
     "clues": {
       "across": [
@@ -279,8 +267,8 @@
           "row": 0,
           "col": 0,
           "length": 5,
-          "answer": "ELWAY",
-          "clue": "Broncos Hall-of-Famer John",
+          "answer": "VIRAL",
+          "clue": "Fast-spreading, on the Web",
           "source": "dataset"
         },
         {
@@ -288,8 +276,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "JUICE",
-          "clue": "Zestful energy",
+          "answer": "ANIME",
+          "clue": "'Speed Racer' genre",
           "source": "dataset"
         },
         {
@@ -297,8 +285,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "EXTRA",
-          "clue": "More",
+          "answer": "IDTAG",
+          "clue": "Bag attachment",
           "source": "dataset"
         },
         {
@@ -306,17 +294,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "COTES",
-          "clue": "Dove shelters",
+          "answer": "LIZZO",
+          "clue": "'Cuz I Love You' singer",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 0,
-          "length": 5,
-          "answer": "TRYST",
-          "clue": "Private rendezvous",
+          "col": 1,
+          "length": 3,
+          "answer": "EYE",
+          "clue": "Ogle",
           "source": "dataset"
         }
       ],
@@ -325,9 +313,9 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 5,
-          "answer": "EJECT",
-          "clue": "DVD button",
+          "length": 4,
+          "answer": "VAIL",
+          "clue": "U.S. Open Snowboarding Championships location",
           "source": "dataset"
         },
         {
@@ -335,8 +323,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "LUXOR",
-          "clue": "Vegas hotel that once had a King Tut's Tomb replica",
+          "answer": "INDIE",
+          "clue": "Unaffiliated, briefly",
           "source": "dataset"
         },
         {
@@ -344,8 +332,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "WITTY",
-          "clue": "Like banter",
+          "answer": "RITZY",
+          "clue": "Received summons notice with some style!",
           "source": "dataset"
         },
         {
@@ -353,17 +341,17 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "ACRES",
-          "clue": "Lots of land",
+          "answer": "AMAZE",
+          "clue": "Floor",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 0,
           "col": 4,
-          "length": 5,
-          "answer": "YEAST",
-          "clue": "Baker's need",
+          "length": 4,
+          "answer": "LEGO",
+          "clue": "Plastic brick brand",
           "source": "dataset"
         }
       ]

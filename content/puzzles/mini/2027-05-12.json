@@ -3,74 +3,79 @@
     "size": 5,
     "cells": [
       null,
-      null,
       {
-        "answer": "L",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "E",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "O",
+        "answer": "L",
         "number": 3
+      },
+      {
+        "answer": "T",
+        "number": 4
       },
       null,
       {
-        "answer": "J",
-        "number": 4
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "Z"
-      },
-      {
-        "answer": "V",
+        "answer": "T",
         "number": 5
+      },
+      {
+        "answer": "W"
       },
       {
         "answer": "I"
       },
       {
-        "answer": "B"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "O",
-        "number": 6
-      },
-      {
         "answer": "N"
       },
       {
-        "answer": "E"
+        "answer": "T",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "A"
       },
       {
         "answer": "S"
       },
-      null,
       {
-        "answer": "X",
+        "answer": "T"
+      },
+      {
+        "answer": "B",
         "number": 7
       },
       {
-        "answer": "X"
+        "answer": "R"
       },
       {
-        "answer": "L"
+        "answer": "I"
+      },
+      {
+        "answer": "T"
       },
       null,
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S"
+      },
       null
     ],
     "clues": {
@@ -78,93 +83,93 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "LEO",
-          "clue": "Zodiac sign",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "JAYZ",
-          "clue": "\"99 Problems\" singer",
+          "answer": "SALT",
+          "clue": "Sailor",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "VIBES",
-          "clue": "Emanations to be picked up",
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "TWIN",
+          "clue": "Exact match",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 3,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "answer": "ONES",
-          "clue": "Folks",
+          "length": 5,
+          "answer": "TOAST",
+          "clue": "BLT base",
           "source": "dataset"
         },
         {
           "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "BRIT",
+          "clue": "Bath occupant, say",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
           "row": 4,
           "col": 0,
-          "length": 3,
-          "answer": "XXL",
-          "clue": "Size bigger than large, for short",
-          "source": "written"
+          "length": 4,
+          "answer": "SETS",
+          "clue": "Ensembles",
+          "source": "dataset"
         }
       ],
       "down": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "LABEL",
-          "clue": "Designer ___",
+          "answer": "STORE",
+          "clue": "Pack away",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "EYES",
-          "clue": "Looks at",
+          "col": 2,
+          "length": 5,
+          "answer": "AWAIT",
+          "clue": "Eagerly expect",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 3,
-          "answer": "OZS",
-          "clue": "Pound divs",
+          "col": 3,
+          "length": 5,
+          "answer": "LISTS",
+          "clue": "Top 10s, e.g",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "JINX",
-          "clue": "Bring bad luck",
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "TNT",
+          "clue": "Blast stuff",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 6,
           "row": 2,
           "col": 0,
           "length": 3,
-          "answer": "VOX",
-          "clue": "___ Media (production company for the Netflix series 'Explained')",
+          "answer": "TBS",
+          "clue": "Butter amt",
           "source": "dataset"
         }
       ]
@@ -174,19 +179,19 @@
     "size": 5,
     "cells": [
       {
-        "answer": "A",
+        "answer": "R",
         "number": 1
       },
       {
-        "answer": "R",
+        "answer": "I",
         "number": 2
       },
       {
-        "answer": "T",
+        "answer": "S",
         "number": 3
       },
       {
-        "answer": "S",
+        "answer": "K",
         "number": 4
       },
       {
@@ -194,68 +199,66 @@
         "number": 5
       },
       {
-        "answer": "D",
+        "answer": "I",
         "number": 6
       },
       {
-        "answer": "U"
-      },
-      {
-        "answer": "E"
+        "answer": "N"
       },
       {
         "answer": "T"
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "A",
-        "number": 7
-      },
-      {
-        "answer": "P"
-      },
-      {
         "answer": "R"
       },
       {
-        "answer": "I"
+        "answer": "O"
+      },
+      {
+        "answer": "P",
+        "number": 7
       },
       {
         "answer": "L"
       },
       {
-        "answer": "M",
+        "answer": "A"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "E",
         "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "L"
       },
       {
         "answer": "E"
       },
+      null,
       {
-        "answer": "R"
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "K"
-      },
-      {
-        "answer": "S",
+        "answer": "W",
         "number": 9
       },
       {
         "answer": "E"
       },
       {
-        "answer": "E"
+        "answer": "L"
       },
       {
-        "answer": "K"
-      },
-      {
-        "answer": "S"
+        "answer": "L"
       }
     ],
     "clues": {
@@ -265,8 +268,8 @@
           "row": 0,
           "col": 0,
           "length": 5,
-          "answer": "ARTSY",
-          "clue": "Like a creative type",
+          "answer": "RISKY",
+          "clue": "Dangerous",
           "source": "dataset"
         },
         {
@@ -274,8 +277,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "DUETO",
-          "clue": "As a result of",
+          "answer": "INTRO",
+          "clue": "Opener",
           "source": "dataset"
         },
         {
@@ -283,8 +286,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "APRIL",
-          "clue": "4, in a date",
+          "answer": "PLAID",
+          "clue": "Kilt design",
           "source": "dataset"
         },
         {
@@ -292,17 +295,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "MERCK",
-          "clue": "Pharmaceutical giant",
+          "answer": "EAGLE",
+          "clue": "Golf coup",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 0,
-          "length": 5,
-          "answer": "SEEKS",
-          "clue": "Searches for",
+          "col": 1,
+          "length": 4,
+          "answer": "WELL",
+          "clue": "Competently",
           "source": "dataset"
         }
       ],
@@ -311,9 +314,9 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 5,
-          "answer": "ADAMS",
-          "clue": "First vice president",
+          "length": 4,
+          "answer": "RIPE",
+          "clue": "Ready to pluck",
           "source": "dataset"
         },
         {
@@ -321,8 +324,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "RUPEE",
-          "clue": "Indian currency",
+          "answer": "INLAW",
+          "clue": "Marriage acquisition",
           "source": "dataset"
         },
         {
@@ -330,8 +333,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "TERRE",
-          "clue": "___ Haute",
+          "answer": "STAGE",
+          "clue": "___ fright",
           "source": "dataset"
         },
         {
@@ -339,8 +342,8 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "STICK",
-          "clue": "Glue",
+          "answer": "KRILL",
+          "clue": "Shrimplike crustacean",
           "source": "dataset"
         },
         {
@@ -348,8 +351,8 @@
           "row": 0,
           "col": 4,
           "length": 5,
-          "answer": "YOLKS",
-          "clue": "Egg parts",
+          "answer": "YODEL",
+          "clue": "Sing in the Alps",
           "source": "dataset"
         }
       ]

@@ -4,19 +4,19 @@
     "cells": [
       null,
       {
-        "answer": "T",
+        "answer": "M",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "E",
         "number": 2
       },
       {
-        "answer": "P",
+        "answer": "A",
         "number": 3
       },
       {
-        "answer": "E",
+        "answer": "N",
         "number": 4
       },
       {
@@ -24,58 +24,60 @@
         "number": 5
       },
       {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "C",
+        "number": 7
+      },
+      {
+        "answer": "L"
+      },
+      {
         "answer": "O"
       },
       {
         "answer": "D"
       },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "E",
-        "number": 6
-      },
-      {
-        "answer": "Q"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "S",
-        "number": 7
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "K"
-      },
       null,
       {
-        "answer": "S",
+        "answer": "H",
         "number": 8
       },
       {
         "answer": "E"
       },
       {
-        "answer": "T"
+        "answer": "R"
       },
-      null,
+      {
+        "answer": "S"
+      },
       null
     ],
     "clues": {
@@ -85,8 +87,8 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "TAPE",
-          "clue": "Race goal",
+          "answer": "MEAN",
+          "clue": "Cruel",
           "source": "dataset"
         },
         {
@@ -94,8 +96,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "MODEL",
-          "clue": "Exemplify",
+          "answer": "MARCH",
+          "clue": "Month",
           "source": "dataset"
         },
         {
@@ -103,8 +105,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "EQUAL",
-          "clue": "___ pay",
+          "answer": "APRIL",
+          "clue": "Spring time",
           "source": "dataset"
         },
         {
@@ -112,17 +114,17 @@
           "row": 3,
           "col": 0,
           "length": 4,
-          "answer": "SULK",
-          "clue": "Put on a pouty face",
+          "answer": "CLOD",
+          "clue": "Lummox",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 3,
-          "answer": "SET",
-          "clue": "Fixed",
+          "length": 4,
+          "answer": "HERS",
+          "clue": "That woman's",
           "source": "dataset"
         }
       ],
@@ -132,8 +134,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "TOQUE",
-          "clue": "Hat for a chef",
+          "answer": "MAPLE",
+          "clue": "Syrup tree",
           "source": "dataset"
         },
         {
@@ -141,17 +143,17 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ADULT",
-          "clue": "Mature",
+          "answer": "ERROR",
+          "clue": "Slip-up",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
           "col": 3,
-          "length": 4,
-          "answer": "PEAK",
-          "clue": "K2, e.g",
+          "length": 5,
+          "answer": "ACIDS",
+          "clue": "Lab liquids",
           "source": "dataset"
         },
         {
@@ -159,8 +161,8 @@
           "row": 0,
           "col": 4,
           "length": 3,
-          "answer": "ELL",
-          "clue": "Wing",
+          "answer": "NHL",
+          "clue": "Flyers' org",
           "source": "dataset"
         },
         {
@@ -168,8 +170,8 @@
           "row": 1,
           "col": 0,
           "length": 4,
-          "answer": "MESS",
-          "clue": "Pigsty",
+          "answer": "MACH",
+          "clue": "___ 1 (speed of sound)",
           "source": "dataset"
         }
       ]
@@ -178,77 +180,73 @@
   "reserve": {
     "size": 5,
     "cells": [
+      null,
       {
-        "answer": "G",
+        "answer": "P",
         "number": 1
       },
       {
-        "answer": "U",
+        "answer": "O",
         "number": 2
       },
       {
-        "answer": "L",
+        "answer": "T",
         "number": 3
       },
+      null,
       {
-        "answer": "L",
+        "answer": "B",
         "number": 4
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "Z"
+      },
+      {
+        "answer": "O"
       },
       {
         "answer": "S",
         "number": 5
       },
       {
-        "answer": "A",
+        "answer": "T",
         "number": 6
       },
       {
-        "answer": "L"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "L",
-        "number": 7
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "G"
+        "answer": "R"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "A",
-        "number": 8
+        "answer": "D"
       },
       {
-        "answer": "C"
+        "answer": "E"
+      },
+      {
+        "answer": "S",
+        "number": 7
       },
       {
         "answer": "T"
       },
       {
-        "answer": "U"
+        "answer": "R"
       },
       {
-        "answer": "P"
+        "answer": "A"
       },
+      {
+        "answer": "W"
+      },
+      null,
       {
         "answer": "S",
-        "number": 9
+        "number": 8
       },
       {
         "answer": "K"
@@ -256,58 +254,53 @@
       {
         "answer": "Y"
       },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "E"
-      }
+      null
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "POT",
+          "clue": "Cannabis",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "GULLS",
-          "clue": "Fish-eaters are fools",
+          "answer": "BOZOS",
+          "clue": "Goofballs",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 1,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ALIEN",
-          "clue": "Romulan, e.g",
+          "answer": "TRADE",
+          "clue": "Commerce",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 2,
+          "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "LONGA",
-          "clue": "Vowel sound in 'grace'",
+          "answer": "STRAW",
+          "clue": "Scarecrow stuff",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "ACTUP",
-          "clue": "Earn a timeout",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
           "row": 4,
-          "col": 0,
-          "length": 5,
-          "answer": "SKYPE",
-          "clue": "Webcam app",
+          "col": 1,
+          "length": 3,
+          "answer": "SKY",
+          "clue": "Cloud site",
           "source": "dataset"
         }
       ],
@@ -315,46 +308,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
+          "col": 1,
           "length": 5,
-          "answer": "GALAS",
-          "clue": "Big dos",
+          "answer": "PORTS",
+          "clue": "Dessert wines",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "ULOCK",
-          "clue": "Sturdy bike theft deterrent, named for its shape",
-          "source": "written"
+          "answer": "OZARK",
+          "clue": "Netflix crime drama starring Jason Bateman",
+          "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
+          "col": 3,
           "length": 5,
-          "answer": "LINTY",
-          "clue": "Like a fuzzy navel (wordplay)",
+          "answer": "TODAY",
+          "clue": "In these times, yes-man Democrat should move to the left",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "LEGUP",
-          "clue": "Assistance, with \"a\"",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "BTS",
+          "clue": "Jungkook's band",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 0,
+          "row": 1,
           "col": 4,
-          "length": 5,
-          "answer": "SNAPE",
-          "clue": "Hogwarts potions professor",
+          "length": 3,
+          "answer": "SEW",
+          "clue": "Lock (up)",
           "source": "dataset"
         }
       ]

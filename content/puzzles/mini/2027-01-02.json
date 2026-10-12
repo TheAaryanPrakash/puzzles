@@ -295,127 +295,136 @@
   "reserve": {
     "size": 5,
     "cells": [
-      null,
       {
-        "answer": "B",
+        "answer": "D",
         "number": 1
       },
       {
-        "answer": "U",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "G",
+        "answer": "N",
         "number": 3
       },
-      null,
       {
-        "answer": "B",
+        "answer": "K",
         "number": 4
+      },
+      {
+        "answer": "E",
+        "number": 5
+      },
+      {
+        "answer": "O",
+        "number": 6
+      },
+      {
+        "answer": "P"
       },
       {
         "answer": "I"
       },
       {
-        "answer": "S"
+        "answer": "N"
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "N",
-        "number": 5
-      },
-      {
-        "answer": "A",
-        "number": 6
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "O"
+        "answer": "E"
       },
       {
         "answer": "R",
         "number": 7
       },
       {
-        "answer": "E"
+        "answer": "O"
       },
       {
-        "answer": "E"
+        "answer": "T"
       },
       {
-        "answer": "F"
-      },
-      {
-        "answer": "S"
-      },
-      null,
-      {
-        "answer": "P",
-        "number": 8
+        "answer": "O"
       },
       {
         "answer": "R"
       },
       {
-        "answer": "Y"
+        "answer": "M",
+        "number": 8
       },
-      null
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "E"
+      }
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 3,
-          "answer": "BUG",
-          "clue": "Annoy",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "BISON",
-          "clue": "Plains stampeder",
+          "answer": "DANKE",
+          "clue": "'Merci,' in Mainz",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "ACHOO",
-          "clue": "Allergic reaction",
+          "answer": "OPINE",
+          "clue": "Speak out",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "REEFS",
-          "clue": "Coral structures",
+          "answer": "ROTOR",
+          "clue": "Engine part",
           "source": "dataset"
         },
         {
           "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "MERCI",
+          "clue": "French \"thanks\"",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
           "row": 4,
-          "col": 1,
-          "length": 3,
-          "answer": "PRY",
-          "clue": "Meddle",
+          "col": 0,
+          "length": 5,
+          "answer": "STOKE",
+          "clue": "Tend, as a fire",
           "source": "dataset"
         }
       ],
@@ -423,46 +432,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 0,
           "length": 5,
-          "answer": "BICEP",
-          "clue": "Curl target, informally",
+          "answer": "DORMS",
+          "clue": "Brown buildings",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "USHER",
-          "clue": "Arena staffer",
-          "source": "dataset"
+          "answer": "APOET",
+          "clue": "'I think like ___' (poetic self-description)",
+          "source": "written"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
+          "col": 2,
           "length": 5,
-          "answer": "GOOFY",
-          "clue": "Disney dog",
+          "answer": "NITRO",
+          "clue": "Blaster's buy",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 3,
-          "answer": "BAR",
-          "clue": "Rail",
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "KNOCK",
+          "clue": "Hit",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
+          "row": 0,
           "col": 4,
-          "length": 3,
-          "answer": "NOS",
-          "clue": "Rebuffs",
+          "length": 5,
+          "answer": "EERIE",
+          "clue": "Surreal",
           "source": "dataset"
         }
       ]

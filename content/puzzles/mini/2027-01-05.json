@@ -2,258 +2,75 @@
   "payload": {
     "size": 5,
     "cells": [
+      null,
+      null,
       {
-        "answer": "F",
+        "answer": "G",
         "number": 1
-      },
-      {
-        "answer": "R",
-        "number": 2
-      },
-      {
-        "answer": "O",
-        "number": 3
-      },
-      {
-        "answer": "S",
-        "number": 4
-      },
-      {
-        "answer": "T",
-        "number": 5
-      },
-      {
-        "answer": "L",
-        "number": 6
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "E"
       },
       {
         "answer": "U",
-        "number": 7
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "S",
-        "number": 8
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "H",
-        "number": 9
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "Y"
-      }
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 0,
-          "length": 5,
-          "answer": "FROST",
-          "clue": "Icy windshield coating",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "LATHE",
-          "clue": "Bat-maker's tool",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "USHER",
-          "clue": "Theater worker",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "STEER",
-          "clue": "Guide",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
-          "row": 4,
-          "col": 0,
-          "length": 5,
-          "answer": "HARRY",
-          "clue": "Badger",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 0,
-          "length": 5,
-          "answer": "FLUSH",
-          "clue": "Redden; level",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "RASTA",
-          "clue": "Believer in Jah",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "OTHER",
-          "clue": "Not the same",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "SHEER",
-          "clue": "Unmitigated",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 0,
-          "col": 4,
-          "length": 5,
-          "answer": "TERRY",
-          "clue": "Fabric with piles",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 5,
-    "cells": [
-      null,
-      {
-        "answer": "S",
-        "number": 1
-      },
-      {
-        "answer": "I",
         "number": 2
       },
       {
-        "answer": "G",
+        "answer": "M",
         "number": 3
       },
       {
-        "answer": "N",
+        "answer": "C",
         "number": 4
       },
-      null,
       {
-        "answer": "O",
+        "answer": "H",
         "number": 5
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "S",
-        "number": 6
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "W",
-        "number": 7
       },
       {
         "answer": "I"
       },
       {
-        "answer": "D"
+        "answer": "N"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "H",
+        "number": 6
       },
       {
         "answer": "E"
       },
-      null,
       {
-        "answer": "E",
+        "answer": "R"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "I",
         "number": 8
       },
       {
-        "answer": "N"
+        "answer": "D"
       },
       {
         "answer": "S"
@@ -266,19 +83,19 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "SIGN",
-          "clue": "Use BASL",
+          "col": 2,
+          "length": 3,
+          "answer": "GUM",
+          "clue": "Orbit, e.g",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "OPEN",
-          "clue": "Airy",
+          "col": 0,
+          "length": 5,
+          "answer": "CHINA",
+          "clue": "Punch a friend",
           "source": "dataset"
         },
         {
@@ -286,17 +103,17 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "SNORE",
-          "clue": "Night noise",
+          "answer": "HERDS",
+          "clue": "Ranch assemblies",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 4,
-          "answer": "WIDE",
-          "clue": "___ awake",
+          "length": 5,
+          "answer": "ALLOT",
+          "clue": "Apportion",
           "source": "dataset"
         },
         {
@@ -304,8 +121,184 @@
           "row": 4,
           "col": 0,
           "length": 3,
-          "answer": "ENS",
-          "clue": "USCG rank",
+          "answer": "IDS",
+          "clue": "Fingers",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "GIRLS",
+          "clue": "\"Barbie\" magazine readers",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "UNDO",
+          "clue": "Ctrl+Z",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "MAST",
+          "clue": "Naval post",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "CHAI",
+          "clue": "Spicy tea",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "HELD",
+          "clue": "Believed",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      {
+        "answer": "J",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "R",
+        "number": 3
+      },
+      null,
+      {
+        "answer": "P",
+        "number": 4
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "Y",
+        "number": 5
+      },
+      {
+        "answer": "J",
+        "number": 6
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "T"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "O"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "JAR",
+          "clue": "Pot",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "PUSHY",
+          "clue": "Overly aggressive",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "JULIE",
+          "clue": "Poppins portrayer Andrews",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "SLANT",
+          "clue": "Skew",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "SNO",
+          "clue": "Nestle ___-Caps",
           "source": "dataset"
         }
       ],
@@ -315,8 +308,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "SONIN",
-          "clue": "Daughter's husband, to in-laws",
+          "answer": "JUULS",
+          "clue": "Popular vaping devices, by brand",
           "source": "written"
         },
         {
@@ -324,35 +317,35 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "IPODS",
-          "clue": "Devices that once had click wheels",
+          "answer": "ASLAN",
+          "clue": "\"Narnia\" lion",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
           "col": 3,
-          "length": 4,
-          "answer": "GERE",
-          "clue": "'Chicago' star",
+          "length": 5,
+          "answer": "RHINO",
+          "clue": "Endangered beast",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
+          "row": 1,
+          "col": 0,
           "length": 3,
-          "answer": "NNE",
-          "clue": "22.5 deg",
+          "answer": "PJS",
+          "clue": "Bed clothes",
           "source": "dataset"
         },
         {
-          "number": 6,
-          "row": 2,
-          "col": 0,
+          "number": 5,
+          "row": 1,
+          "col": 4,
           "length": 3,
-          "answer": "SWE",
-          "clue": "Nor. neighbor",
+          "answer": "YET",
+          "clue": "However",
           "source": "dataset"
         }
       ]

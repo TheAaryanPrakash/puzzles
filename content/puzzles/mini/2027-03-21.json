@@ -4,263 +4,77 @@
     "cells": [
       null,
       {
-        "answer": "C",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "H",
+        "answer": "P",
         "number": 2
       },
       {
-        "answer": "O",
+        "answer": "I",
         "number": 3
       },
       {
-        "answer": "W",
+        "answer": "T",
         "number": 4
       },
+      null,
       {
-        "answer": "P",
+        "answer": "K",
         "number": 5
       },
       {
-        "answer": "O"
+        "answer": "E"
+      },
+      {
+        "answer": "T"
       },
       {
         "answer": "O"
       },
       {
-        "answer": "C"
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "A",
+        "answer": "F",
         "number": 6
       },
       {
-        "answer": "U"
+        "answer": "A"
       },
       {
         "answer": "N"
       },
       {
-        "answer": "T"
+        "answer": "C"
       },
       {
         "answer": "Y"
       },
       {
-        "answer": "D",
+        "answer": "U",
         "number": 7
       },
       {
-        "answer": "R"
-      },
-      {
-        "answer": "E"
+        "answer": "T"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "M"
+        "answer": "H"
       },
+      null,
       {
-        "answer": "S",
+        "answer": "R",
         "number": 8
       },
       {
-        "answer": "T"
-      },
-      {
-        "answer": "Y"
+        "answer": "E"
       },
       {
         "answer": "L"
       },
       {
-        "answer": "E"
-      }
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "CHOW",
-          "clue": "Enjoy a meal, with 'down'",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "POOCH",
-          "clue": "Dog muck outside of church",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "AUNTY",
-          "clue": "Mommy's sis",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "DREAM",
-          "clue": "Fantasy",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 4,
-          "col": 0,
-          "length": 5,
-          "answer": "STYLE",
-          "clue": "Barber",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "COURT",
-          "clue": "Tennis setting",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "HONEY",
-          "clue": "Natural sweetener",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "OCTAL",
-          "clue": "Eight-related",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 5,
-          "answer": "WHYME",
-          "clue": "Response to being chosen for audience participation, maybe",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "PADS",
-          "clue": "Goalie gear",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 5,
-    "cells": [
-      null,
-      {
-        "answer": "P",
-        "number": 1
-      },
-      {
-        "answer": "E",
-        "number": 2
-      },
-      {
-        "answer": "S",
-        "number": 3
-      },
-      {
-        "answer": "O",
-        "number": 4
-      },
-      {
-        "answer": "S",
-        "number": 5
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "X"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "A",
-        "number": 6
-      },
-      {
-        "answer": "X"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "R",
-        "number": 7
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "P"
-      },
-      {
         "answer": "Y"
-      },
-      {
-        "answer": "A",
-        "number": 8
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "S"
       },
       null
     ],
@@ -271,17 +85,17 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "PESO",
-          "clue": "Chilean cash",
+          "answer": "SPIT",
+          "clue": "Rotisserie",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "SIXTH",
-          "clue": "Position for F or Saturn",
+          "col": 1,
+          "length": 4,
+          "answer": "KETO",
+          "clue": "Trendy low-carb diet",
           "source": "dataset"
         },
         {
@@ -289,17 +103,17 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "AXIOM",
-          "clue": "Basic principle",
+          "answer": "FANCY",
+          "clue": "Upscale",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 5,
-          "answer": "RASPY",
-          "clue": "Like Tom Waits's voice",
+          "length": 4,
+          "answer": "UTAH",
+          "clue": "Provo's state",
           "source": "dataset"
         },
         {
@@ -307,8 +121,8 @@
           "row": 4,
           "col": 0,
           "length": 4,
-          "answer": "ARTS",
-          "clue": "Humanities",
+          "answer": "RELY",
+          "clue": "Lean (on)",
           "source": "dataset"
         }
       ],
@@ -318,8 +132,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "PIXAR",
-          "clue": "'Onward' studio",
+          "answer": "SKATE",
+          "clue": "Flat fish",
           "source": "dataset"
         },
         {
@@ -327,8 +141,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "EXIST",
-          "clue": "Have being",
+          "answer": "PENAL",
+          "clue": "Punitive",
           "source": "dataset"
         },
         {
@@ -336,26 +150,322 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "STOPS",
-          "clue": "Halts",
+          "answer": "ITCHY",
+          "clue": "Like sun rash",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
           "col": 4,
-          "length": 4,
-          "answer": "OHMY",
-          "clue": "\"Yikes!\"",
+          "length": 3,
+          "answer": "TOY",
+          "clue": "Little dog",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "FUR",
+          "clue": "Dog coater",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 7,
+    "cells": [
+      null,
+      {
+        "answer": "K",
+        "number": 1
+      },
+      {
+        "answer": "E",
+        "number": 2
+      },
+      {
+        "answer": "E",
+        "number": 3
+      },
+      {
+        "answer": "P",
+        "number": 4
+      },
+      {
+        "answer": "U",
+        "number": 5
+      },
+      {
+        "answer": "P",
+        "number": 6
+      },
+      null,
+      {
+        "answer": "E",
+        "number": 7
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      {
+        "answer": "G",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "C"
+      },
+      null,
+      null,
+      {
+        "answer": "N",
+        "number": 9
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "A"
+      },
+      null,
+      null,
+      {
+        "answer": "A",
+        "number": 10
+      },
+      {
+        "answer": "S",
+        "number": 11
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E",
+        "number": 12
+      },
+      null,
+      {
+        "answer": "B",
+        "number": 13
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      null,
+      {
+        "answer": "C",
+        "number": 14
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "Y"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 6,
+          "answer": "KEEPUP",
+          "clue": "Maintain important-sounding little dog (wordplay)",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "answer": "ELAINE",
+          "clue": "\"Seinfeld\" role",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 2,
+          "col": 1,
+          "length": 6,
+          "answer": "GARLIC",
+          "clue": "Aromatic bulb",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 3,
+          "col": 2,
+          "length": 3,
+          "answer": "NBA",
+          "clue": "Hoops grp",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 4,
+          "col": 0,
+          "length": 6,
+          "answer": "ASTUTE",
+          "clue": "Hard to fool",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "answer": "BORDER",
+          "clue": "Frontier",
+          "source": "dataset"
+        },
+        {
+          "number": 14,
+          "row": 6,
+          "col": 0,
+          "length": 6,
+          "answer": "CLASSY",
+          "clue": "High-toned",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "answer": "KEG",
+          "clue": "Beer barrel",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "answer": "ELANTRA",
+          "clue": "Sonata alternative",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "answer": "EARBUDS",
+          "clue": "Tiny in-ear headphones",
+          "source": "written"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "answer": "PILATES",
+          "clue": "Yoga alternative",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
+          "row": 0,
+          "col": 5,
+          "length": 3,
+          "answer": "UNI",
+          "clue": "Brow beginning",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 0,
+          "col": 6,
+          "length": 3,
+          "answer": "PEC",
+          "clue": "Upper bod muscle",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
+          "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "SARA",
-          "clue": "Actress Gilbert",
+          "length": 3,
+          "answer": "ABC",
+          "clue": "Alphabet starter",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "answer": "SOL",
+          "clue": "___ La",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 4,
+          "col": 5,
+          "length": 3,
+          "answer": "ERY",
+          "clue": "Suffix for trick",
           "source": "dataset"
         }
       ]

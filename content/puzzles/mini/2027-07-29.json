@@ -3,9 +3,8 @@
     "size": 5,
     "cells": [
       null,
-      null,
       {
-        "answer": "G",
+        "answer": "V",
         "number": 1
       },
       {
@@ -13,69 +12,70 @@
         "number": 2
       },
       {
-        "answer": "P",
+        "answer": "S",
         "number": 3
       },
       {
-        "answer": "P",
+        "answer": "T",
         "number": 4
       },
+      null,
       {
-        "answer": "A",
+        "answer": "O",
         "number": 5
       },
       {
-        "answer": "U"
+        "answer": "H"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "S",
+        "number": 6
       },
       {
         "answer": "L"
       },
       {
-        "answer": "O"
+        "answer": "E"
       },
       {
-        "answer": "I",
-        "number": 6
+        "answer": "E"
       },
       {
-        "answer": "N"
+        "answer": "P"
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "T"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "P"
+        "answer": "G"
       },
+      null,
       {
-        "answer": "P"
-      },
-      {
-        "answer": "T",
-        "number": 7
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "T",
+        "answer": "W",
         "number": 8
       },
       {
-        "answer": "W"
+        "answer": "A"
       },
       {
-        "answer": "O"
+        "answer": "D"
       },
-      null,
+      {
+        "answer": "E"
+      },
       null
     ],
     "clues": {
@@ -83,84 +83,10 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "GAP",
-          "clue": "Break",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "PAULO",
-          "clue": "Sao ___, Brazil",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "INAPP",
-          "clue": "Like some mobile purchases",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "TENSE",
-          "clue": "On edge",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 4,
-          "col": 0,
-          "length": 3,
-          "answer": "TWO",
-          "clue": "Pair",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "GUANO",
-          "clue": "Organic fertilizer",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 3,
+          "col": 1,
           "length": 4,
-          "answer": "ALPS",
-          "clue": "Swiss mountains",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "POPE",
-          "clue": "Top bishop",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "PITT",
-          "clue": "Brad of '12 Monkeys'",
+          "answer": "VAST",
+          "clue": "Huge",
           "source": "dataset"
         },
         {
@@ -168,8 +94,82 @@
           "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "ANEW",
-          "clue": "Afresh",
+          "answer": "OHIO",
+          "clue": "17th US state",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "SLEEP",
+          "clue": "Take a nap",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "STAG",
+          "clue": "Solo",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "WADE",
+          "clue": "Walk through water",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "VOLTA",
+          "clue": "Physicist for whom a battery unit was named",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "AHEAD",
+          "clue": "In advance",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "SIEGE",
+          "clue": "Big battle",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "TOP",
+          "clue": "Exceed",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "SSW",
+          "clue": "Away from NNE",
           "source": "dataset"
         }
       ]
@@ -180,83 +180,79 @@
     "cells": [
       null,
       {
-        "answer": "F",
+        "answer": "T",
         "number": 1
       },
       {
-        "answer": "L",
+        "answer": "W",
         "number": 2
       },
       {
-        "answer": "Y",
+        "answer": "I",
         "number": 3
+      },
+      {
+        "answer": "N",
+        "number": 4
       },
       null,
       {
-        "answer": "F",
-        "number": 4
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "U"
+        "answer": "W",
+        "number": 5
       },
       {
         "answer": "I"
       },
       {
-        "answer": "T",
-        "number": 5
+        "answer": "F"
       },
       {
-        "answer": "L",
+        "answer": "I"
+      },
+      {
+        "answer": "F",
         "number": 6
       },
       {
         "answer": "I"
       },
       {
-        "answer": "N"
-      },
-      {
-        "answer": "E"
-      },
-      {
         "answer": "R"
       },
       {
-        "answer": "A",
-        "number": 7
+        "answer": "S"
       },
       {
         "answer": "T"
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "W",
-        "number": 8
-      },
-      {
-        "answer": "O"
+        "answer": "O",
+        "number": 7
       },
       {
         "answer": "R"
       },
       {
-        "answer": "D"
+        "answer": "E"
+      },
+      {
+        "answer": "O"
       },
       {
         "answer": "S"
-      }
+      },
+      {
+        "answer": "O",
+        "number": 8
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "D"
+      },
+      null,
+      null
     ],
     "clues": {
       "across": [
@@ -264,18 +260,18 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 3,
-          "answer": "FLY",
-          "clue": "Travel by jet",
+          "length": 4,
+          "answer": "TWIN",
+          "clue": "One's double",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "FRUIT",
-          "clue": "___ fly",
+          "col": 1,
+          "length": 4,
+          "answer": "WIFI",
+          "clue": "Laptop connection",
           "source": "dataset"
         },
         {
@@ -283,8 +279,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "LINER",
-          "clue": "Ship",
+          "answer": "FIRST",
+          "clue": "Initial",
           "source": "dataset"
         },
         {
@@ -292,17 +288,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "ATALE",
-          "clue": "\"___ of Two Cities\"",
+          "answer": "OREOS",
+          "clue": "Dunkable treats",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 5,
-          "answer": "WORDS",
-          "clue": "'___ fail me'",
+          "length": 3,
+          "answer": "OLD",
+          "clue": "Bygone",
           "source": "dataset"
         }
       ],
@@ -312,8 +308,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "FRITO",
-          "clue": "Brand-name corn chip",
+          "answer": "TWIRL",
+          "clue": "Pirouette",
           "source": "dataset"
         },
         {
@@ -321,35 +317,35 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "LUNAR",
-          "clue": "Moon-related",
+          "answer": "WIRED",
+          "clue": "All pumped up",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
           "col": 3,
-          "length": 5,
-          "answer": "YIELD",
-          "clue": "Submit",
+          "length": 4,
+          "answer": "IFSO",
+          "clue": "'In that case ... '",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
+          "row": 0,
+          "col": 4,
           "length": 4,
-          "answer": "FLAW",
-          "clue": "Imper-fection",
+          "answer": "NITS",
+          "clue": "Small grievances",
           "source": "dataset"
         },
         {
-          "number": 5,
-          "row": 1,
-          "col": 4,
-          "length": 4,
-          "answer": "TRES",
-          "clue": "Uno + dos",
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "FOO",
+          "clue": "Egg ___ yung",
           "source": "dataset"
         }
       ]

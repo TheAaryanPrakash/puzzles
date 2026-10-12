@@ -291,130 +291,127 @@
   "reserve": {
     "size": 5,
     "cells": [
+      null,
       {
-        "answer": "J",
+        "answer": "A",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "R",
         "number": 2
       },
       {
-        "answer": "Z",
+        "answer": "T",
         "number": 3
-      },
-      {
-        "answer": "Z",
-        "number": 4
-      },
-      null,
-      {
-        "answer": "D",
-        "number": 5
-      },
-      {
-        "answer": "W"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "B",
-        "number": 6
-      },
-      {
-        "answer": "S",
-        "number": 7
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "B"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "A"
       },
       null,
       {
         "answer": "I",
-        "number": 8
+        "number": 4
       },
       {
-        "answer": "R"
+        "answer": "D"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S",
+        "number": 5
+      },
+      {
+        "answer": "C",
+        "number": 6
       },
       {
         "answer": "O"
       },
       {
-        "answer": "N"
+        "answer": "A"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "Y",
+        "number": 7
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "Y"
       },
       null,
       {
         "answer": "T",
-        "number": 9
+        "number": 8
       },
       {
-        "answer": "A"
+        "answer": "H"
       },
       {
-        "answer": "S"
+        "answer": "Y"
       },
-      {
-        "answer": "K"
-      }
+      null
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 4,
-          "answer": "JAZZ",
-          "clue": "Dixieland band's music",
+          "col": 1,
+          "length": 3,
+          "answer": "ART",
+          "clue": "Body ___",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "DWEEB",
-          "clue": "Nerd",
+          "answer": "IDEAS",
+          "clue": "Think tank output",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "COACH",
+          "clue": "Vehicle is a first-class alternative",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 2,
+          "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "SABRA",
-          "clue": "Israeli native",
-          "source": "dataset"
+          "answer": "YUCKY",
+          "clue": "Gross, to a kid",
+          "source": "written"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 1,
-          "length": 4,
-          "answer": "IRON",
-          "clue": "Scrap ___",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
           "row": 4,
           "col": 1,
-          "length": 4,
-          "answer": "TASK",
-          "clue": "Job jar item",
+          "length": 3,
+          "answer": "THY",
+          "clue": "Genesis pronoun",
           "source": "dataset"
         }
       ],
@@ -422,46 +419,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 3,
-          "answer": "JDS",
-          "clue": "Law school graduates, in brief",
+          "col": 1,
+          "length": 5,
+          "answer": "ADOUT",
+          "clue": "Tennis score after deuce, maybe",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "AWAIT",
-          "clue": "Hang around for",
+          "answer": "REACH",
+          "clue": "Get runs singly",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
+          "col": 3,
           "length": 5,
-          "answer": "ZEBRA",
-          "clue": "Serengeti equine",
+          "answer": "TACKY",
+          "clue": "Sticky and coarse",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "ZEROS",
-          "clue": "000",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "ICY",
+          "clue": "Frozen over",
           "source": "dataset"
         },
         {
-          "number": 6,
+          "number": 5,
           "row": 1,
           "col": 4,
-          "length": 4,
-          "answer": "BANK",
-          "clue": "Riverside",
+          "length": 3,
+          "answer": "SHY",
+          "clue": "Reticent",
           "source": "dataset"
         }
       ]

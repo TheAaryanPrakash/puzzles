@@ -1,54 +1,40 @@
 {
   "payload": {
-    "center": "R",
+    "center": "L",
     "outer": [
-      "A",
       "B",
+      "C",
       "I",
-      "N",
-      "O",
-      "W"
+      "P",
+      "U",
+      "Y"
     ],
     "answers": [
-      "ARBOR",
-      "ARIA",
-      "ARROW",
-      "BARB",
-      "BARBARIAN",
-      "BARN",
-      "BARON",
-      "BARRIO",
-      "BARROW",
-      "BOAR",
-      "BORA",
-      "BORN",
-      "BORON",
-      "BORROW",
-      "BRAIN",
-      "BRAN",
-      "BRAWN",
-      "BRIAR",
-      "BROW",
-      "BROWN",
-      "IRON",
-      "NARROW",
-      "NOIR",
-      "RABBI",
-      "RAIN",
-      "RAINBOW",
-      "RANI",
-      "RIBBON",
-      "ROAR",
-      "ROBIN",
-      "ROWAN",
-      "WARN",
-      "WARRIOR",
-      "WORN"
+      "BILL",
+      "BILLY",
+      "BLIP",
+      "BUBBLY",
+      "BULB",
+      "BULL",
+      "BULLY",
+      "CLIP",
+      "CLUB",
+      "CULL",
+      "CYCLIC",
+      "LILY",
+      "LULL",
+      "LULU",
+      "PILL",
+      "PUBLIC",
+      "PUBLICLY",
+      "PULL",
+      "PULP",
+      "PUPIL"
     ],
     "pangrams": [
-      "RAINBOW"
+      "PUBLICLY"
     ],
-    "maxScore": 130
+    "maxScore": 61
   },
   "reserve": null
 }

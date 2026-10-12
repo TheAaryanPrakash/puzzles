@@ -338,13 +338,12 @@
   "reserve": {
     "size": 5,
     "cells": [
-      null,
       {
         "answer": "S",
         "number": 1
       },
       {
-        "answer": "L",
+        "answer": "T",
         "number": 2
       },
       {
@@ -352,113 +351,123 @@
         "number": 3
       },
       {
-        "answer": "D",
+        "answer": "A",
         "number": 4
       },
-      null,
       {
-        "answer": "H",
+        "answer": "L",
         "number": 5
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "D",
+        "answer": "H",
         "number": 6
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "I",
-        "number": 7
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "H"
-      },
-      null,
-      {
-        "answer": "N",
-        "number": 8
-      },
-      {
-        "answer": "Y"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "T"
+        "answer": "L"
       },
-      null
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "F",
+        "number": 8
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "T",
+        "number": 9
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "Y"
+      }
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "SLED",
-          "clue": "Toboggan",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "HAIR",
-          "clue": "Tresses",
+          "col": 0,
+          "length": 5,
+          "answer": "STEAL",
+          "clue": "Rob",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "DINGY",
-          "clue": "Hard to leave boat looking shabby",
+          "answer": "HELLO",
+          "clue": "How do you do",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "answer": "INCH",
-          "clue": "Creep (along)",
+          "length": 5,
+          "answer": "ARMOR",
+          "clue": "Iron clothing",
           "source": "dataset"
         },
         {
           "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "FREUD",
+          "clue": "Slip eponym",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "NYET",
-          "clue": "Russian 'no'",
+          "length": 5,
+          "answer": "TARDY",
+          "clue": "Spoiling one's attendance record, say",
           "source": "dataset"
         }
       ],
@@ -466,47 +475,47 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 0,
           "length": 5,
-          "answer": "SHINY",
-          "clue": "Like waxed cars",
+          "answer": "SHAFT",
+          "clue": "Mine passage",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "LANCE",
-          "clue": "Cavalry weapon",
+          "answer": "TERRA",
+          "clue": "- firma",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
+          "col": 2,
           "length": 5,
-          "answer": "EIGHT",
-          "clue": "Rowing team",
+          "answer": "ELMER",
+          "clue": "Pursuer of Bugs",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 4,
-          "length": 3,
-          "answer": "DRY",
-          "clue": "Parched",
+          "col": 3,
+          "length": 5,
+          "answer": "ALOUD",
+          "clue": "Not silently",
           "source": "dataset"
         },
         {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "answer": "DIN",
-          "clue": "Clamor",
-          "source": "dataset"
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "LORDY",
+          "clue": "'___, lordy!' (exclamation)",
+          "source": "written"
         }
       ]
     }

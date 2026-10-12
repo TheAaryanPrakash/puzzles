@@ -4,77 +4,81 @@
     "cells": [
       null,
       {
-        "answer": "F",
+        "answer": "T",
         "number": 1
       },
       {
-        "answer": "U",
+        "answer": "W",
         "number": 2
       },
       {
-        "answer": "R",
+        "answer": "O",
         "number": 3
       },
-      null,
       {
-        "answer": "P",
+        "answer": "S",
         "number": 4
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "R",
+        "answer": "S",
         "number": 5
       },
       {
-        "answer": "A",
-        "number": 6
+        "answer": "H"
       },
       {
-        "answer": "I"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "D",
-        "number": 7
+        "answer": "O"
       },
       {
         "answer": "R"
       },
       {
+        "answer": "T"
+      },
+      {
+        "answer": "C",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "R",
+        "number": 8
+      },
+      {
         "answer": "E"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "D"
-      },
-      null,
-      {
-        "answer": "S",
-        "number": 8
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "Y"
+        "answer": "R"
       },
       null
     ],
@@ -84,18 +88,18 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 3,
-          "answer": "FUR",
-          "clue": "Dog coater",
+          "length": 4,
+          "answer": "TWOS",
+          "clue": "Pairs",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "PAPER",
-          "clue": "Printer supply",
+          "answer": "SHORT",
+          "clue": "Rudely brief",
           "source": "dataset"
         },
         {
@@ -103,8 +107,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "AISLE",
-          "clue": "Gangway",
+          "answer": "CONDO",
+          "clue": "Apartment alternative",
           "source": "dataset"
         },
         {
@@ -112,17 +116,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "DREAD",
-          "clue": "Extreme fear",
+          "answer": "ASKEW",
+          "clue": "Off-center",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
-          "col": 1,
-          "length": 3,
-          "answer": "STY",
-          "clue": "Farm pen",
+          "col": 0,
+          "length": 4,
+          "answer": "REAR",
+          "clue": "Fanny",
           "source": "dataset"
         }
       ],
@@ -132,8 +136,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "FAIRS",
-          "clue": "Expos",
+          "answer": "THOSE",
+          "clue": "Just one of ___ days",
           "source": "dataset"
         },
         {
@@ -141,8 +145,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "UPSET",
-          "clue": "Displeased",
+          "answer": "WONKA",
+          "clue": "Chocolatier of children's literature",
           "source": "dataset"
         },
         {
@@ -150,26 +154,26 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "RELAY",
-          "clue": "Team race",
+          "answer": "ORDER",
+          "clue": "Court command",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 3,
-          "answer": "PAD",
-          "clue": "___ thai",
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "STOW",
+          "clue": "Store",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 4,
-          "length": 3,
-          "answer": "RED",
-          "clue": "Scarlet",
+          "col": 0,
+          "length": 4,
+          "answer": "SCAR",
+          "clue": "Wound mark",
           "source": "dataset"
         }
       ]
@@ -179,83 +183,80 @@
     "size": 5,
     "cells": [
       null,
+      null,
       {
-        "answer": "F",
+        "answer": "B",
         "number": 1
       },
       {
-        "answer": "U",
+        "answer": "R",
         "number": 2
       },
       {
         "answer": "R",
         "number": 3
       },
-      {
-        "answer": "S",
-        "number": 4
-      },
       null,
       {
-        "answer": "O",
+        "answer": "T",
+        "number": 4
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "M",
         "number": 5
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "P",
-        "number": 6
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "E",
-        "number": 7
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "J"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "Z",
-        "number": 8
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "N"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "P"
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E",
+        "number": 6
+      },
+      {
+        "answer": "X"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "N",
+        "number": 7
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
       }
     ],
     "clues": {
@@ -263,93 +264,93 @@
         {
           "number": 1,
           "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "BRR",
+          "clue": "Chill response",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "FURS",
-          "clue": "Astor's wares",
+          "answer": "TREE",
+          "clue": "Fruit ___",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "ONIT",
-          "clue": "'Will do'",
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "MAINE",
+          "clue": "Quebec neighbor",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "PRIOR",
-          "clue": "Earlier arrest",
+          "answer": "EXCEL",
+          "clue": "Surpass",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "EMOJI",
-          "clue": "Text adornment",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
           "row": 4,
           "col": 0,
           "length": 5,
-          "answer": "ZSNAP",
-          "clue": "Sassy finger-snap gesture, in a Z shape",
-          "source": "written"
+          "answer": "NIKES",
+          "clue": "Air Jordans, e.g",
+          "source": "dataset"
         }
       ],
       "down": [
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "FORMS",
-          "clue": "Application documents",
+          "answer": "BRICK",
+          "clue": "Building material",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
+          "col": 3,
           "length": 5,
-          "answer": "UNION",
-          "clue": "Wedding",
+          "answer": "RENEE",
+          "clue": "Actress O'Connor",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
+          "col": 4,
           "length": 5,
-          "answer": "RIOJA",
-          "clue": "Spanish red wine",
+          "answer": "REELS",
+          "clue": "Totters",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 5,
-          "answer": "STRIP",
-          "clue": "Slice of bacon",
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "TAXI",
+          "clue": "Curbside cry",
           "source": "dataset"
         },
         {
-          "number": 6,
+          "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "answer": "PEZ",
-          "clue": "Candy in dispensers",
+          "answer": "MEN",
+          "clue": "Dudes",
           "source": "dataset"
         }
       ]

@@ -4,15 +4,15 @@
     "cells": [
       null,
       {
-        "answer": "G",
+        "answer": "W",
         "number": 1
       },
       {
-        "answer": "L",
+        "answer": "E",
         "number": 2
       },
       {
-        "answer": "A",
+        "answer": "E",
         "number": 3
       },
       {
@@ -20,43 +20,56 @@
         "number": 4
       },
       {
-        "answer": "P",
+        "answer": "S",
         "number": 5
       },
       {
-        "answer": "R"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "Z"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "E",
-        "number": 6
+        "answer": "H"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "T"
+        "answer": "D"
       },
       {
-        "answer": "U"
+        "answer": "E"
       },
       {
-        "answer": "P"
+        "answer": "L",
+        "number": 6
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "C"
       },
       {
         "answer": "A",
         "number": 7
       },
       {
-        "answer": "V"
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "B",
+        "number": 8
       },
       {
         "answer": "E"
@@ -66,19 +79,6 @@
       },
       {
         "answer": "T"
-      },
-      {
-        "answer": "L",
-        "number": 8
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "E"
       },
       null
     ],
@@ -89,8 +89,8 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "GLAD",
-          "clue": "Happy",
+          "answer": "WEED",
+          "clue": "Do garden work",
           "source": "dataset"
         },
         {
@@ -98,8 +98,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "PRIZE",
-          "clue": "Nobel, for one",
+          "answer": "SHADE",
+          "clue": "Hot day refuge",
           "source": "dataset"
         },
         {
@@ -107,8 +107,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "EATUP",
-          "clue": "Devour",
+          "answer": "LOGIC",
+          "clue": "Puzzle-solving asset",
           "source": "dataset"
         },
         {
@@ -116,8 +116,8 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "AVERT",
-          "clue": "Dodge",
+          "answer": "ALECK",
+          "clue": "Smart guy",
           "source": "dataset"
         },
         {
@@ -125,8 +125,8 @@
           "row": 4,
           "col": 0,
           "length": 4,
-          "answer": "LYRE",
-          "clue": "Apollo's instrument",
+          "answer": "BERT",
+          "clue": "Ernie's buddy",
           "source": "dataset"
         }
       ],
@@ -136,8 +136,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "GRAVY",
-          "clue": "Turkey topper",
+          "answer": "WHOLE",
+          "clue": "Complete, entire",
           "source": "dataset"
         },
         {
@@ -145,8 +145,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "LITER",
-          "clue": "Soda bottle buy",
+          "answer": "EAGER",
+          "clue": "Avid",
           "source": "dataset"
         },
         {
@@ -154,8 +154,8 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "AZURE",
-          "clue": "Sky blue",
+          "answer": "EDICT",
+          "clue": "Official order",
           "source": "dataset"
         },
         {
@@ -163,8 +163,8 @@
           "row": 0,
           "col": 4,
           "length": 4,
-          "answer": "DEPT",
-          "clue": "Corp. division",
+          "answer": "DECK",
+          "clue": "Tarot pack",
           "source": "dataset"
         },
         {
@@ -172,82 +172,98 @@
           "row": 1,
           "col": 0,
           "length": 4,
-          "answer": "PEAL",
-          "clue": "Ring",
+          "answer": "SLAB",
+          "clue": "Thick slice",
           "source": "dataset"
         }
       ]
     }
   },
   "reserve": {
-    "size": 5,
+    "size": 7,
     "cells": [
+      null,
+      null,
       {
-        "answer": "A",
+        "answer": "D",
         "number": 1
       },
       {
-        "answer": "C",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "E",
+        "answer": "M",
         "number": 3
       },
+      null,
+      null,
+      null,
       {
-        "answer": "S",
+        "answer": "J",
         "number": 4
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N",
+        "number": 5
       },
       null,
       {
         "answer": "P",
-        "number": 5
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "L"
-      },
-      null,
-      {
-        "answer": "T",
         "number": 6
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "E"
       },
       {
         "answer": "U"
       },
       {
-        "answer": "P",
-        "number": 7
+        "answer": "M"
       },
-      null,
       {
-        "answer": "W",
-        "number": 8
+        "answer": "P"
+      },
+      {
+        "answer": "K"
       },
       {
         "answer": "I"
       },
       {
-        "answer": "N"
+        "answer": "N",
+        "number": 7
       },
       {
-        "answer": "E"
+        "answer": "E",
+        "number": 8
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
       },
       null,
       {
-        "answer": "Y",
+        "answer": "E",
         "number": 9
+      },
+      {
+        "answer": "X"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "D",
+        "number": 10
       },
       {
         "answer": "O"
@@ -256,54 +272,123 @@
         "answer": "G"
       },
       {
-        "answer": "A"
-      }
+        "answer": "F",
+        "number": 11
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "D"
+      },
+      null,
+      {
+        "answer": "R",
+        "number": 12
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "N"
+      },
+      null,
+      null,
+      null,
+      {
+        "answer": "D",
+        "number": 13
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
+      },
+      null,
+      null
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 4,
-          "answer": "ACES",
-          "clue": "High cards",
+          "col": 2,
+          "length": 3,
+          "answer": "DAM",
+          "clue": "Block up",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "PHIL",
-          "clue": "TV's Dr. ___",
+          "col": 1,
+          "length": 5,
+          "answer": "JAPAN",
+          "clue": "Eastern country",
           "source": "dataset"
         },
         {
           "number": 6,
           "row": 2,
           "col": 0,
-          "length": 5,
-          "answer": "TEEUP",
-          "clue": "Set the stage for",
+          "length": 7,
+          "answer": "PUMPKIN",
+          "clue": "Orange-yellow fruit",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 3,
-          "col": 1,
-          "length": 4,
-          "answer": "WINE",
-          "clue": "Oenophile's love",
+          "col": 0,
+          "length": 3,
+          "answer": "ERA",
+          "clue": "Disco ___",
           "source": "dataset"
         },
         {
           "number": 9,
+          "row": 3,
+          "col": 4,
+          "length": 3,
+          "answer": "EXO",
+          "clue": "Prefix with skeleton",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
           "row": 4,
+          "col": 0,
+          "length": 7,
+          "answer": "DOGFOOD",
+          "clue": "Chow chow chow",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 5,
           "col": 1,
-          "length": 4,
-          "answer": "YOGA",
-          "clue": "Tranquil practice",
+          "length": 5,
+          "answer": "RERUN",
+          "clue": "Syndication offering",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 6,
+          "col": 2,
+          "length": 3,
+          "answer": "DOT",
+          "clue": "URL bit",
           "source": "dataset"
         }
       ],
@@ -311,46 +396,73 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 3,
-          "answer": "APT",
-          "clue": "Fitting",
+          "col": 2,
+          "length": 7,
+          "answer": "DAMAGED",
+          "clue": "Broken",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "CHEWY",
-          "clue": "Like granola bars' texture",
+          "col": 3,
+          "length": 3,
+          "answer": "APP",
+          "clue": "___ store",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "EIEIO",
-          "clue": "Kids' song refrain",
-          "source": "dataset"
+          "col": 4,
+          "length": 7,
+          "answer": "MAKEOUT",
+          "clue": "___ session (smooching time)",
+          "source": "written"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 3,
+          "row": 1,
+          "col": 1,
           "length": 5,
-          "answer": "SLUNG",
-          "clue": "Hurled",
+          "answer": "JUROR",
+          "clue": "One of twelve jugglers missing early trick",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 5,
+          "length": 5,
+          "answer": "NIXON",
+          "clue": "President with nothing doing!",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "PED",
+          "clue": "___ XING: crosswalk sign",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 2,
-          "col": 4,
+          "col": 6,
           "length": 3,
-          "answer": "PEA",
-          "clue": "Snow ___",
+          "answer": "NOD",
+          "clue": "Doze",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 3,
+          "length": 3,
+          "answer": "FRO",
+          "clue": "To and -",
           "source": "dataset"
         }
       ]

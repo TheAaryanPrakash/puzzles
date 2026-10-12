@@ -303,153 +303,81 @@
     }
   },
   "reserve": {
-    "size": 7,
+    "size": 5,
     "cells": [
       null,
       {
-        "answer": "C",
+        "answer": "A",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "S",
         "number": 2
       },
       {
-        "answer": "E",
+        "answer": "K",
         "number": 3
       },
       {
         "answer": "S",
         "number": 4
       },
+      null,
       {
-        "answer": "A",
+        "answer": "C",
         "number": 5
-      },
-      {
-        "answer": "R",
-        "number": 6
-      },
-      null,
-      {
-        "answer": "A",
-        "number": 7
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "A"
-      },
-      null,
-      {
-        "answer": "M",
-        "number": 8
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "X"
       },
       {
         "answer": "I"
       },
       {
-        "answer": "T"
+        "answer": "A"
       },
       {
-        "answer": "R",
-        "number": 9
+        "answer": "O"
+      },
+      {
+        "answer": "B",
+        "number": 6
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "Z"
+      },
+      {
+        "answer": "Z"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "O",
+        "number": 7
+      },
+      {
+        "answer": "R"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "M"
-      },
-      null,
-      {
-        "answer": "C",
-        "number": 10
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "E",
-        "number": 11
-      },
-      {
-        "answer": "L"
-      },
-      {
         "answer": "O"
       },
+      null,
       {
         "answer": "P",
-        "number": 12
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S"
-      },
-      null,
-      {
-        "answer": "D",
-        "number": 13
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "E"
-      },
-      null,
-      {
-        "answer": "S",
-        "number": 14
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "E"
+        "number": 8
       },
       {
         "answer": "A"
       },
       {
-        "answer": "L"
+        "answer": "S"
       },
       {
-        "answer": "S"
+        "answer": "O"
       },
       null
     ],
@@ -459,72 +387,45 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 6,
-          "answer": "CAESAR",
-          "clue": "Roman ruler",
+          "length": 4,
+          "answer": "ASKS",
+          "clue": "Questions",
           "source": "dataset"
         },
         {
-          "number": 7,
+          "number": 5,
           "row": 1,
           "col": 1,
-          "length": 6,
-          "answer": "ANGELA",
-          "clue": "Actress Kinsey of 'The Office'",
+          "length": 4,
+          "answer": "CIAO",
+          "clue": "'Later!'",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "BUZZY",
+          "clue": "Generating lots of online chatter",
+          "source": "written"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "OREO",
+          "clue": "Hydrox rival",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 2,
-          "col": 1,
-          "length": 6,
-          "answer": "MEGXIT",
-          "clue": "Royal family departure nicknamed for a duchess",
-          "source": "written"
-        },
-        {
-          "number": 9,
-          "row": 3,
-          "col": 0,
-          "length": 3,
-          "answer": "REM",
-          "clue": "Sleep phase",
-          "source": "dataset"
-        },
-        {
-          "number": 10,
-          "row": 3,
-          "col": 4,
-          "length": 3,
-          "answer": "CAS",
-          "clue": "Court of Arbitration for Sport, for short",
-          "source": "written"
-        },
-        {
-          "number": 11,
           "row": 4,
           "col": 0,
-          "length": 6,
-          "answer": "ELOPES",
-          "clue": "Skips a ceremony",
-          "source": "dataset"
-        },
-        {
-          "number": 13,
-          "row": 5,
-          "col": 0,
-          "length": 6,
-          "answer": "DONGLE",
-          "clue": "Computer plug-in",
-          "source": "dataset"
-        },
-        {
-          "number": 14,
-          "row": 6,
-          "col": 0,
-          "length": 6,
-          "answer": "STEALS",
-          "clue": "Engages in thievery",
+          "length": 4,
+          "answer": "PASO",
+          "clue": "___ doble (dance)",
           "source": "dataset"
         }
       ],
@@ -533,72 +434,45 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 7,
-          "answer": "CAMELOT",
-          "clue": "Animal returned to Arthur's place (wordplay)",
+          "length": 5,
+          "answer": "ACURA",
+          "clue": "Luxury auto",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 2,
-          "length": 7,
-          "answer": "ANEMONE",
-          "clue": "Terribly mean individual in plant",
+          "length": 5,
+          "answer": "SIZES",
+          "clue": "XS and XL, for two",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
           "col": 3,
-          "length": 3,
-          "answer": "EGG",
-          "clue": "Omelet start",
+          "length": 5,
+          "answer": "KAZOO",
+          "clue": "Buzz source",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
           "col": 4,
-          "length": 7,
-          "answer": "SEXCELL",
-          "clue": "Sperm or egg, biologically",
-          "source": "written"
-        },
-        {
-          "number": 5,
-          "row": 0,
-          "col": 5,
-          "length": 7,
-          "answer": "ALIASES",
-          "clue": "Rap sheet list",
+          "length": 3,
+          "answer": "SOY",
+          "clue": "Tofu source",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 0,
-          "col": 6,
-          "length": 4,
-          "answer": "RATS",
-          "clue": "\"Darn!\"",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
-          "row": 3,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "answer": "REDS",
-          "clue": "Stop lights",
-          "source": "dataset"
-        },
-        {
-          "number": 12,
-          "row": 4,
-          "col": 3,
           "length": 3,
-          "answer": "PGA",
-          "clue": "Course org",
+          "answer": "BOP",
+          "clue": "Jazz style",
           "source": "dataset"
         }
       ]

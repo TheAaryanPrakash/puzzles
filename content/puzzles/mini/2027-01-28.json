@@ -2,77 +2,43 @@
   "payload": {
     "size": 5,
     "cells": [
+      null,
+      null,
       {
-        "answer": "G",
+        "answer": "B",
         "number": 1
       },
       {
-        "answer": "H",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "O",
+        "answer": "T",
         "number": 3
       },
+      null,
       {
-        "answer": "S",
+        "answer": "C",
         "number": 4
-      },
-      {
-        "answer": "T",
-        "number": 5
-      },
-      {
-        "answer": "R",
-        "number": 6
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "A",
-        "number": 7
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "F",
-        "number": 8
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "O"
       },
       {
         "answer": "U"
       },
       {
-        "answer": "T"
+        "answer": "B"
       },
       {
-        "answer": "T",
-        "number": 9
+        "answer": "E"
+      },
+      {
+        "answer": "C",
+        "number": 5
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "L"
       },
       {
         "answer": "O"
@@ -81,57 +47,81 @@
         "answer": "N"
       },
       {
-        "answer": "E"
+        "answer": "A",
+        "number": 6
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "U"
       },
       {
         "answer": "S"
-      }
+      },
+      {
+        "answer": "B",
+        "number": 7
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T"
+      },
+      null
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "BAT",
+          "clue": "Face an ace",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "CUBE",
+          "clue": "Quiet period",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "GHOST",
-          "clue": "Haunted house resident",
+          "answer": "COLON",
+          "clue": ":",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 1,
+          "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "RENEE",
-          "clue": "Zellweger of \"Judy\"",
+          "answer": "ANGUS",
+          "clue": "Black ___ beef",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "ALIGN",
-          "clue": "Put in order",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "FLOUT",
-          "clue": "Thumb one's nose at",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
           "row": 4,
           "col": 0,
-          "length": 5,
-          "answer": "TONES",
-          "clue": "Shades",
+          "length": 4,
+          "answer": "BEET",
+          "clue": "Borscht need",
           "source": "dataset"
         }
       ],
@@ -139,46 +129,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
+          "col": 2,
           "length": 5,
-          "answer": "GRAFT",
-          "clue": "Corruption",
+          "answer": "BULGE",
+          "clue": "Rounded protrusion",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
+          "col": 3,
           "length": 5,
-          "answer": "HELLO",
-          "clue": "How do you do",
+          "answer": "ABOUT",
+          "clue": "Circa",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "ONION",
-          "clue": "Vegetable",
+          "col": 4,
+          "length": 4,
+          "answer": "TENS",
+          "clue": "Poker pair",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "SEGUE",
-          "clue": "Smooth transition",
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "CONE",
+          "clue": "Funnel shape",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 0,
-          "col": 4,
-          "length": 5,
-          "answer": "TENTS",
-          "clue": "Camping shelters",
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "CAB",
+          "clue": "Hailed ride",
           "source": "dataset"
         }
       ]
@@ -189,81 +179,81 @@
     "cells": [
       null,
       {
-        "answer": "L",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "E",
         "number": 2
       },
       {
-        "answer": "S",
+        "answer": "E",
         "number": 3
       },
       {
-        "answer": "T",
+        "answer": "D",
         "number": 4
       },
       {
-        "answer": "J",
+        "answer": "S",
         "number": 5
       },
       {
         "answer": "U"
       },
       {
-        "answer": "I"
+        "answer": "R"
       },
       {
-        "answer": "C"
+        "answer": "G"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "A",
+        "answer": "K",
         "number": 6
+      },
+      {
+        "answer": "I"
       },
       {
         "answer": "N"
       },
       {
-        "answer": "D"
+        "answer": "G"
       },
       {
-        "answer": "R"
-      },
-      {
-        "answer": "E"
+        "answer": "S"
       },
       {
         "answer": "I",
         "number": 7
       },
       {
-        "answer": "D"
+        "answer": "T"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "M",
+        "number": 8
       },
       {
         "answer": "E"
       },
       {
-        "answer": "A"
+        "answer": "T"
       },
       {
         "answer": "S"
-      },
-      {
-        "answer": "L",
-        "number": 8
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "P"
       },
       null
     ],
@@ -274,8 +264,8 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "LAST",
-          "clue": "Endure",
+          "answer": "SEED",
+          "clue": "Spawn",
           "source": "dataset"
         },
         {
@@ -283,8 +273,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "JUICE",
-          "clue": "Drink nearly the entire carafe with a sorbet",
+          "answer": "SURGE",
+          "clue": "Power issue",
           "source": "dataset"
         },
         {
@@ -292,8 +282,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ANDRE",
-          "clue": "Tennis great Agassi",
+          "answer": "KINGS",
+          "clue": "Pieces that can be put in check",
           "source": "dataset"
         },
         {
@@ -301,8 +291,8 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "IDEAS",
-          "clue": "Concepts, notions",
+          "answer": "ITSOK",
+          "clue": "'There, there'",
           "source": "dataset"
         },
         {
@@ -310,8 +300,8 @@
           "row": 4,
           "col": 0,
           "length": 4,
-          "answer": "LISP",
-          "clue": "Suffer with sibilants",
+          "answer": "METS",
+          "clue": "Big Apple sluggers",
           "source": "dataset"
         }
       ],
@@ -321,17 +311,17 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "LUNDI",
-          "clue": "French for Monday",
-          "source": "written"
+          "answer": "SUITE",
+          "clue": "Software bundle",
+          "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "AIDES",
-          "clue": "Senate staffers",
+          "answer": "ERNST",
+          "clue": "Young's partner",
           "source": "dataset"
         },
         {
@@ -339,8 +329,8 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "SCRAP",
-          "clue": "Tussle",
+          "answer": "EGGOS",
+          "clue": "Some frozen waffles",
           "source": "dataset"
         },
         {
@@ -348,8 +338,8 @@
           "row": 0,
           "col": 4,
           "length": 4,
-          "answer": "TEES",
-          "clue": "Gym shirts",
+          "answer": "DESK",
+          "clue": "Writing ___",
           "source": "dataset"
         },
         {
@@ -357,8 +347,8 @@
           "row": 1,
           "col": 0,
           "length": 4,
-          "answer": "JAIL",
-          "clue": "Corner space in Monopoly",
+          "answer": "SKIM",
+          "clue": "Brush",
           "source": "dataset"
         }
       ]

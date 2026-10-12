@@ -3,16 +3,17 @@
     "size": 5,
     "cells": [
       null,
+      null,
       {
-        "answer": "T",
+        "answer": "J",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "O",
         "number": 2
       },
       {
-        "answer": "G",
+        "answer": "B",
         "number": 3
       },
       null,
@@ -21,112 +22,102 @@
         "number": 4
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "F"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "A",
-        "number": 5
-      },
-      {
-        "answer": "A",
-        "number": 6
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "K",
-        "number": 7
-      },
-      {
-        "answer": "A"
+        "answer": "U"
       },
       {
         "answer": "R"
       },
       {
-        "answer": "M"
+        "answer": "F"
       },
       {
-        "answer": "A"
+        "answer": "C",
+        "number": 5
       },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "B",
+        "number": 6
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "S"
+      },
+      null,
       {
         "answer": "S",
-        "number": 8
+        "number": 7
       },
       {
-        "answer": "L"
+        "answer": "T"
       },
       {
-        "answer": "E"
+        "answer": "Y"
       },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "P"
-      }
+      null,
+      null
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 3,
-          "answer": "TAG",
-          "clue": "Gift label",
+          "answer": "JOB",
+          "clue": "Assigned work",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "SURF",
+          "clue": "Ride on a board",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "SOFIA",
-          "clue": "The capital of Bulgaria",
+          "answer": "CHIEF",
+          "clue": "Fire department leader",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 3,
           "col": 0,
-          "length": 5,
-          "answer": "ATOMS",
-          "clue": "Molecule makeup",
+          "length": 4,
+          "answer": "BUCS",
+          "clue": "Captain Fear is their mascot",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "KARMA",
-          "clue": "Buddhist fate",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
           "row": 4,
           "col": 0,
-          "length": 5,
-          "answer": "SLEEP",
-          "clue": "Take a nap",
+          "length": 3,
+          "answer": "STY",
+          "clue": "Pig's place",
           "source": "dataset"
         }
       ],
@@ -134,46 +125,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "TOTAL",
-          "clue": "Utter",
+          "answer": "JUICY",
+          "clue": "Succulent (of fruit)",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "AFORE",
-          "clue": "Previously, in poetry",
+          "col": 3,
+          "length": 4,
+          "answer": "ORES",
+          "clue": "Mined finds",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "GIMME",
-          "clue": "Greedy person's demand",
+          "col": 4,
+          "length": 3,
+          "answer": "BFF",
+          "clue": "Texter's #1 pal",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 0,
+          "col": 1,
           "length": 4,
-          "answer": "SAKS",
-          "clue": "Noted Fifth Avenue retailer",
+          "answer": "SHUT",
+          "clue": "-",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 4,
-          "length": 4,
-          "answer": "ASAP",
-          "clue": "PDQ",
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "CBS",
+          "clue": "Grammy channel",
           "source": "dataset"
         }
       ]
@@ -182,97 +173,102 @@
   "reserve": {
     "size": 5,
     "cells": [
+      null,
       {
-        "answer": "I",
+        "answer": "B",
         "number": 1
       },
       {
-        "answer": "C",
+        "answer": "Y",
         "number": 2
       },
       {
-        "answer": "E",
+        "answer": "O",
         "number": 3
       },
-      null,
+      {
+        "answer": "B",
+        "number": 4
+      },
       null,
       {
-        "answer": "R",
-        "number": 4
+        "answer": "Y",
+        "number": 5
       },
       {
         "answer": "O"
       },
       {
-        "answer": "M"
+        "answer": "Y"
       },
       {
-        "answer": "A",
-        "number": 5
+        "answer": "O"
       },
-      null,
       {
-        "answer": "S",
+        "answer": "M",
         "number": 6
-      },
-      {
-        "answer": "C"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "N"
+        "answer": "U"
       },
       {
-        "answer": "S",
+        "answer": "V"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R",
         "number": 7
       },
-      null,
       {
-        "answer": "K",
+        "answer": "I"
+      },
+      {
+        "answer": "V"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "T",
         "number": 8
       },
       {
-        "answer": "I"
-      },
-      {
-        "answer": "T"
+        "answer": "R"
       },
       {
         "answer": "E"
       },
-      null,
-      null,
       {
-        "answer": "L",
-        "number": 9
+        "answer": "Y"
       },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "E"
-      }
+      null
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 3,
-          "answer": "ICE",
-          "clue": "Freeze",
+          "col": 1,
+          "length": 4,
+          "answer": "BYOB",
+          "clue": "Invitation directive",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
-          "col": 0,
+          "col": 1,
           "length": 4,
-          "answer": "ROMA",
-          "clue": "Tomato type",
+          "answer": "YOYO",
+          "clue": "Fluctuate",
           "source": "dataset"
         },
         {
@@ -280,26 +276,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "SCANS",
-          "clue": "Digitizes, in a way",
+          "answer": "MAUVE",
+          "clue": "Colour named after the wildflower mallow",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "RIVER",
+          "clue": "Water with a mouth",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 1,
-          "length": 4,
-          "answer": "KITE",
-          "clue": "Aerodynamic toy",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
           "row": 4,
-          "col": 2,
-          "length": 3,
-          "answer": "LIE",
-          "clue": "Falsehood",
+          "col": 0,
+          "length": 4,
+          "answer": "TREY",
+          "clue": "Rare trick taker",
           "source": "dataset"
         }
       ],
@@ -307,46 +303,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 3,
-          "answer": "IRS",
-          "clue": "W-2 org",
+          "col": 1,
+          "length": 5,
+          "answer": "BYAIR",
+          "clue": "This Libya-Ireland passage (wordplay)",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "COCK",
-          "clue": "K (wordplay)",
+          "col": 2,
+          "length": 5,
+          "answer": "YOUVE",
+          "clue": "'___ Got a Friend'",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "EMAIL",
-          "clue": "Inbox filler",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
           "col": 3,
-          "length": 4,
-          "answer": "ANTI",
-          "clue": "Opposing",
+          "length": 5,
+          "answer": "OYVEY",
+          "clue": "Cry of dismay",
           "source": "dataset"
         },
         {
-          "number": 7,
-          "row": 2,
+          "number": 4,
+          "row": 0,
           "col": 4,
+          "length": 4,
+          "answer": "BOER",
+          "clue": "South African of Dutch ancestry",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
           "length": 3,
-          "answer": "SEE",
-          "clue": "Spot",
+          "answer": "MRT",
+          "clue": "Muscleman of 'The A-Team'",
           "source": "dataset"
         }
       ]

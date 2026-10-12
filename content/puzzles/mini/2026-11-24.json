@@ -3,317 +3,74 @@
     "size": 5,
     "cells": [
       null,
-      {
-        "answer": "S",
-        "number": 1
-      },
-      {
-        "answer": "C",
-        "number": 2
-      },
-      {
-        "answer": "A",
-        "number": 3
-      },
-      {
-        "answer": "M",
-        "number": 4
-      },
-      {
-        "answer": "S",
-        "number": 5
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "K",
-        "number": 6
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "I",
-        "number": 7
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "V"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "M",
-        "number": 8
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "T"
-      },
-      null
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "SCAM",
-          "clue": "Fraud",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "SHADE",
-          "clue": "Hot day refuge",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "KARMA",
-          "clue": "Cosmic fate",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "IRVIN",
-          "clue": "Pro Football Hall of Fame receiver Michael",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 4,
-          "col": 0,
-          "length": 4,
-          "answer": "MEET",
-          "clue": "Come upon",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "SHARE",
-          "clue": "Distribute",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "CARVE",
-          "clue": "Do whittling",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "ADMIT",
-          "clue": "Confess",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "MEAN",
-          "clue": "Intend",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "SKIM",
-          "clue": "Type of milk",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 7,
-    "cells": [
-      null,
-      null,
-      {
-        "answer": "F",
-        "number": 1
-      },
-      {
-        "answer": "R",
-        "number": 2
-      },
-      {
-        "answer": "O",
-        "number": 3
-      },
-      null,
-      null,
       null,
       {
         "answer": "T",
+        "number": 1
+      },
+      {
+        "answer": "O",
+        "number": 2
+      },
+      {
+        "answer": "E",
+        "number": 3
+      },
+      {
+        "answer": "A",
         "number": 4
       },
       {
-        "answer": "R"
+        "answer": "R",
+        "number": 5
       },
       {
-        "answer": "O"
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L",
+        "number": 6
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "X"
       },
       {
         "answer": "U"
       },
       {
-        "answer": "P",
-        "number": 5
-      },
-      {
-        "answer": "E",
-        "number": 6
+        "answer": "S"
       },
       {
         "answer": "P",
         "number": 7
       },
       {
-        "answer": "H"
+        "answer": "E"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "N"
+        "answer": "S"
       },
       {
-        "answer": "T"
+        "answer": "Y"
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "A",
+        "answer": "O",
         "number": 8
       },
       {
-        "answer": "R"
-      },
-      {
-        "answer": "T"
-      },
-      null,
-      {
-        "answer": "L",
-        "number": 9
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "S",
-        "number": 10
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "B"
-      },
-      {
-        "answer": "J",
-        "number": 11
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "S",
-        "number": 12
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "H"
-      },
-      null,
-      null,
-      null,
-      {
-        "answer": "Y",
-        "number": 13
-      },
-      {
-        "answer": "E"
+        "answer": "K"
       },
       {
         "answer": "S"
@@ -328,71 +85,44 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "answer": "FRO",
-          "clue": "To and -",
+          "answer": "TOE",
+          "clue": "Sock end",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 6,
-          "answer": "TROUPE",
-          "clue": "Theatrical company",
+          "col": 0,
+          "length": 5,
+          "answer": "ARENA",
+          "clue": "Stadium",
           "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "LEXUS",
+          "clue": "Toyota's luxury car brand",
+          "source": "written"
         },
         {
           "number": 7,
-          "row": 2,
+          "row": 3,
           "col": 0,
-          "length": 7,
-          "answer": "PHANTOM",
-          "clue": "Picked up cool cat ___ unreal",
-          "source": "dataset"
+          "length": 5,
+          "answer": "PEASY",
+          "clue": "'Easy ___' (simple as can be)",
+          "source": "written"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 3,
-          "answer": "ART",
-          "clue": "Skill",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
-          "row": 3,
-          "col": 4,
-          "length": 3,
-          "answer": "LUI",
-          "clue": "That guy, to Guy",
-          "source": "dataset"
-        },
-        {
-          "number": 10,
           "row": 4,
           "col": 0,
-          "length": 7,
-          "answer": "SUBJECT",
-          "clue": "I, for one",
-          "source": "dataset"
-        },
-        {
-          "number": 12,
-          "row": 5,
-          "col": 0,
-          "length": 6,
-          "answer": "SMOOTH",
-          "clue": "Even",
-          "source": "dataset"
-        },
-        {
-          "number": 13,
-          "row": 6,
-          "col": 2,
           "length": 3,
-          "answer": "YES",
-          "clue": "\"Sure\"",
+          "answer": "OKS",
+          "clue": "Sanctions",
           "source": "dataset"
         }
       ],
@@ -401,72 +131,224 @@
           "number": 1,
           "row": 0,
           "col": 2,
-          "length": 7,
-          "answer": "FRATBOY",
-          "clue": "Stereotypical fraternity member",
-          "source": "written"
+          "length": 5,
+          "answer": "TEXAS",
+          "clue": "It became a state in 1845",
+          "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 3,
-          "answer": "RON",
-          "clue": "Harry's friend",
+          "length": 4,
+          "answer": "ONUS",
+          "clue": "Big burden",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
-          "length": 7,
-          "answer": "OUTLETS",
-          "clue": "Discount mall stores, or wall sockets",
-          "source": "written"
+          "length": 4,
+          "answer": "EASY",
+          "clue": "'Relax'",
+          "source": "dataset"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 5,
-          "answer": "THRUM",
-          "clue": "Fringe or tassel of short unwoven threads",
+          "col": 0,
+          "length": 4,
+          "answer": "ALPO",
+          "clue": "T-Bonz brand",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 5,
+          "col": 1,
+          "length": 4,
+          "answer": "REEK",
+          "clue": "Smell terrible",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "M",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "R",
+        "number": 3
+      },
+      {
+        "answer": "S",
+        "number": 4
+      },
+      {
+        "answer": "H",
+        "number": 5
+      },
+      {
+        "answer": "D",
+        "number": 6
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "P"
+      },
+      null,
+      {
+        "answer": "Y",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "P"
+      },
+      null,
+      null,
+      {
+        "answer": "R",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "Y"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
           "length": 5,
-          "answer": "POUCH",
-          "clue": "Joey's refuge",
+          "answer": "MARSH",
+          "clue": "Home for egrets",
           "source": "dataset"
         },
         {
           "number": 6,
           "row": 1,
-          "col": 6,
-          "length": 4,
-          "answer": "EMIT",
-          "clue": "Spew out",
+          "col": 0,
+          "length": 5,
+          "answer": "DRAMA",
+          "clue": "Film genre",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 2,
           "col": 0,
-          "length": 4,
-          "answer": "PASS",
-          "clue": "'Hard no'",
+          "length": 5,
+          "answer": "STRIP",
+          "clue": "Slice of bacon",
           "source": "dataset"
         },
         {
-          "number": 11,
+          "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "answer": "YELP",
+          "clue": "Alarmed cry",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
           "row": 4,
-          "col": 3,
+          "col": 2,
           "length": 3,
-          "answer": "JOE",
-          "clue": "Java",
+          "answer": "REY",
+          "clue": "King of Spain",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "answer": "MDS",
+          "clue": "Rx issuers",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "answer": "ARTY",
+          "clue": "La-di-da",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "RARER",
+          "clue": "Less often seen",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "SMILE",
+          "clue": "Welcoming expression",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "HAPPY",
+          "clue": "Contented",
           "source": "dataset"
         }
       ]

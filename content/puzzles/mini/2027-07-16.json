@@ -3,79 +3,74 @@
     "size": 5,
     "cells": [
       null,
+      null,
       {
-        "answer": "T",
+        "answer": "C",
         "number": 1
       },
       {
-        "answer": "H",
+        "answer": "R",
         "number": 2
       },
       {
-        "answer": "E",
+        "answer": "O",
         "number": 3
       },
       null,
       {
-        "answer": "P",
-        "number": 4
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "Y",
-        "number": 5
-      },
-      {
         "answer": "C",
-        "number": 6
+        "number": 4
       },
       {
         "answer": "R"
       },
       {
-        "answer": "U"
+        "answer": "O"
       },
       {
-        "answer": "D"
+        "answer": "W"
       },
       {
-        "answer": "E"
-      },
-      {
-        "answer": "S",
-        "number": 7
+        "answer": "Q",
+        "number": 5
       },
       {
         "answer": "U"
-      },
-      {
-        "answer": "S"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "N"
+        "answer": "I"
       },
-      null,
       {
-        "answer": "M",
-        "number": 8
+        "answer": "L"
+      },
+      {
+        "answer": "B",
+        "number": 6
       },
       {
         "answer": "E"
       },
       {
-        "answer": "T"
+        "answer": "N"
       },
+      {
+        "answer": "D"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
+      },
+      null,
       null
     ],
     "clues": {
@@ -83,46 +78,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 3,
-          "answer": "THE",
-          "clue": "Not just any",
+          "answer": "CRO",
+          "clue": "___-Magnon (early human)",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "CROW",
+          "clue": "Montana people",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "PHONY",
-          "clue": "Insincere",
+          "answer": "QUAIL",
+          "clue": "Game bird",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 3,
           "col": 0,
-          "length": 5,
-          "answer": "CRUDE",
-          "clue": "Unrefined",
+          "length": 4,
+          "answer": "BEND",
+          "clue": "Flex",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "SUSAN",
-          "clue": "___ B. Anthony",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
           "row": 4,
-          "col": 1,
+          "col": 0,
           "length": 3,
-          "answer": "MET",
-          "clue": "Converged",
+          "answer": "SSE",
+          "clue": "GPS reading",
           "source": "dataset"
         }
       ],
@@ -130,190 +125,132 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "THRUM",
-          "clue": "Fringe or tassel of short unwoven threads",
+          "answer": "CRANE",
+          "clue": "Lifting machine",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "HOUSE",
-          "clue": "Residence",
-          "source": "dataset"
+          "col": 3,
+          "length": 4,
+          "answer": "ROID",
+          "clue": "Steroid, for short",
+          "source": "written"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "ENDAT",
-          "clue": "Finish by",
+          "col": 4,
+          "length": 3,
+          "answer": "OWL",
+          "clue": "A raptor",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 0,
-          "length": 3,
-          "answer": "PCS",
-          "clue": "Netbooks, e.g",
+          "col": 1,
+          "length": 4,
+          "answer": "CUES",
+          "clue": "Stage prompts",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 4,
+          "row": 2,
+          "col": 0,
           "length": 3,
-          "answer": "YEN",
-          "clue": "Craving",
+          "answer": "QBS",
+          "clue": "Early NFL draft picks, often",
           "source": "dataset"
         }
       ]
     }
   },
   "reserve": {
-    "size": 7,
+    "size": 5,
     "cells": [
-      null,
-      null,
       {
-        "answer": "B",
+        "answer": "F",
         "number": 1
       },
       {
-        "answer": "U",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "D",
+        "answer": "L",
         "number": 3
       },
-      null,
-      null,
-      null,
       {
-        "answer": "S",
+        "answer": "L",
         "number": 4
       },
       {
-        "answer": "E"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "R",
+        "answer": "S",
         "number": 5
       },
-      null,
       {
-        "answer": "G",
+        "answer": "I",
         "number": 6
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "O",
-        "number": 7
-      },
-      {
-        "answer": "A",
-        "number": 8
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "L"
-      },
-      null,
-      {
-        "answer": "P",
-        "number": 9
       },
       {
         "answer": "D"
       },
       {
-        "answer": "F"
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L"
       },
       {
         "answer": "S",
-        "number": 10
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "W",
-        "number": 11
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "T"
-      },
-      null,
-      {
-        "answer": "D",
-        "number": 12
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "E"
+        "number": 7
       },
       {
         "answer": "I"
       },
       {
-        "answer": "N"
-      },
-      null,
-      null,
-      {
-        "answer": "S",
-        "number": 13
+        "answer": "M"
       },
       {
-        "answer": "P"
+        "answer": "B"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "H",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "O"
       },
       {
         "answer": "E"
       },
       {
+        "answer": "Y"
+      },
+      null,
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
         "answer": "N"
       },
       {
-        "answer": "T"
+        "answer": "L"
       },
       null
     ],
@@ -322,73 +259,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "BUD",
-          "clue": "Chum",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 1,
+          "col": 0,
           "length": 5,
-          "answer": "SENOR",
-          "clue": "Mexican mister",
+          "answer": "FALLS",
+          "clue": "Trips over foot barriers, spilling whiskey",
           "source": "dataset"
         },
         {
           "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "IDEAL",
+          "clue": "Epitome",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
           "row": 2,
           "col": 0,
-          "length": 7,
-          "answer": "GALILEO",
-          "clue": "Discoverer of Jupiter's four largest moons",
+          "length": 5,
+          "answer": "SIMBA",
+          "clue": "Lion who fights Scar",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 3,
           "col": 0,
-          "length": 3,
-          "answer": "ALL",
-          "clue": "Entirely",
+          "length": 5,
+          "answer": "HOOEY",
+          "clue": "Heading off rats, bull",
           "source": "dataset"
         },
         {
           "number": 9,
-          "row": 3,
-          "col": 4,
-          "length": 3,
-          "answer": "PDF",
-          "clue": "Adobe doc suffix",
-          "source": "dataset"
-        },
-        {
-          "number": 10,
           "row": 4,
-          "col": 0,
-          "length": 7,
-          "answer": "SAYWHAT",
-          "clue": "'Come again?'",
-          "source": "written"
-        },
-        {
-          "number": 12,
-          "row": 5,
           "col": 1,
-          "length": 5,
-          "answer": "DUEIN",
-          "clue": "Expected",
-          "source": "dataset"
-        },
-        {
-          "number": 13,
-          "row": 6,
-          "col": 1,
-          "length": 5,
-          "answer": "SPENT",
-          "clue": "Used up",
+          "length": 3,
+          "answer": "SNL",
+          "clue": "NBC weekend show",
           "source": "dataset"
         }
       ],
@@ -396,73 +306,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 7,
-          "answer": "BELLYUP",
-          "clue": "Into ruin",
+          "col": 0,
+          "length": 4,
+          "answer": "FISH",
+          "clue": "Eel, for example",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 3,
-          "answer": "UNI",
-          "clue": "Aussie college",
+          "col": 1,
+          "length": 5,
+          "answer": "ADIOS",
+          "clue": "Juan's farewell",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 7,
-          "answer": "DOLPHIN",
-          "clue": "One supposedly intelligent policeman unkindly rejected short clue",
+          "col": 2,
+          "length": 5,
+          "answer": "LEMON",
+          "clue": "Troublesome car",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 6,
-          "answer": "SALADS",
-          "clue": "Soup followers",
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "LABEL",
+          "clue": "Name tag",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 5,
-          "length": 6,
-          "answer": "REDANT",
-          "clue": "Stinging bug",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "answer": "GAS",
-          "clue": "Petrol",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 2,
-          "col": 6,
-          "length": 3,
-          "answer": "OFT",
-          "clue": "___-quoted",
-          "source": "dataset"
-        },
-        {
-          "number": 11,
-          "row": 4,
-          "col": 3,
-          "length": 3,
-          "answer": "WEE",
-          "clue": "Teensy",
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "SLAY",
+          "clue": "Leave in stitches",
           "source": "dataset"
         }
       ]

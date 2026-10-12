@@ -309,54 +309,27 @@
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "R",
         "number": 2
       },
       {
-        "answer": "M",
+        "answer": "A",
         "number": 3
       },
       {
-        "answer": "E",
+        "answer": "D",
         "number": 4
       },
-      null,
       {
-        "answer": "I",
+        "answer": "E",
         "number": 5
       },
       {
-        "answer": "D"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "L",
+        "answer": "H",
         "number": 6
       },
       {
-        "answer": "P",
-        "number": 7
-      },
-      {
         "answer": "E"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "S",
-        "number": 8
       },
       {
         "answer": "L"
@@ -365,25 +338,52 @@
         "answer": "I"
       },
       {
-        "answer": "T"
+        "answer": "X"
+      },
+      {
+        "answer": "E",
+        "number": 7
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "J"
+      },
+      {
+        "answer": "I"
+      },
+      null,
+      {
+        "answer": "U",
+        "number": 8
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "O"
       },
       {
         "answer": "S"
       },
+      null,
       {
-        "answer": "Y",
+        "answer": "S",
         "number": 9
       },
       {
         "answer": "E"
       },
       {
-        "answer": "A"
+        "answer": "N"
       },
       {
-        "answer": "H"
-      },
-      null
+        "answer": "T"
+      }
     ],
     "clues": {
       "across": [
@@ -391,18 +391,18 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 4,
-          "answer": "TAME",
-          "clue": "Not feral",
+          "length": 5,
+          "answer": "TRADE",
+          "clue": "Business",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 6,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "IDEAL",
-          "clue": "Epitome",
+          "answer": "HELIX",
+          "clue": "DNA shape",
           "source": "dataset"
         },
         {
@@ -410,26 +410,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "PEDRO",
-          "clue": "Martinez with three Cy Youngs",
+          "answer": "EMOJI",
+          "clue": "Face on Facebook, e.g",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "SLITS",
-          "clue": "Thin cuts",
+          "col": 1,
+          "length": 4,
+          "answer": "UNOS",
+          "clue": "Chicago pizza chain, familiarly",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 0,
+          "col": 1,
           "length": 4,
-          "answer": "YEAH",
-          "clue": "\"Uh-huh\"",
+          "answer": "SENT",
+          "clue": "Launched",
           "source": "dataset"
         }
       ],
@@ -438,9 +438,9 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 5,
-          "answer": "TIPSY",
-          "clue": "A little tight",
+          "length": 3,
+          "answer": "THE",
+          "clue": "One and only",
           "source": "dataset"
         },
         {
@@ -448,8 +448,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "ADELE",
-          "clue": "'Skyfall' singer",
+          "answer": "REMUS",
+          "clue": "Founder of Rome, killed by his twin brother",
           "source": "dataset"
         },
         {
@@ -457,8 +457,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "MEDIA",
-          "clue": "Podcasts, etc",
+          "answer": "ALONE",
+          "clue": "Isolated",
           "source": "dataset"
         },
         {
@@ -466,17 +466,17 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "EARTH",
-          "clue": "Mother ___",
+          "answer": "DIJON",
+          "clue": "Caesar dressing ingredient, familiarly",
           "source": "dataset"
         },
         {
-          "number": 6,
-          "row": 1,
+          "number": 5,
+          "row": 0,
           "col": 4,
-          "length": 3,
-          "answer": "LOS",
-          "clue": "- Gatos",
+          "length": 5,
+          "answer": "EXIST",
+          "clue": "Walk the earth",
           "source": "dataset"
         }
       ]

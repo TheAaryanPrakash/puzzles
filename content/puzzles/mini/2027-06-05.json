@@ -304,80 +304,89 @@
   "reserve": {
     "size": 5,
     "cells": [
-      null,
       {
-        "answer": "A",
+        "answer": "P",
         "number": 1
       },
       {
-        "answer": "R",
+        "answer": "I",
         "number": 2
       },
       {
         "answer": "C",
         "number": 3
       },
-      null,
-      null,
       {
-        "answer": "R",
+        "answer": "K",
         "number": 4
       },
       {
-        "answer": "E"
-      },
-      {
-        "answer": "O"
-      },
-      null,
-      {
-        "answer": "W",
+        "answer": "Y",
         "number": 5
       },
       {
-        "answer": "I"
+        "answer": "A",
+        "number": 6
       },
       {
         "answer": "N"
       },
       {
-        "answer": "B"
+        "answer": "I"
       },
       {
-        "answer": "Y",
-        "number": 6
-      },
-      {
-        "answer": "A",
-        "number": 7
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "R",
-        "number": 8
+        "answer": "M"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "S"
+        "answer": "N",
+        "number": 7
       },
       {
         "answer": "A"
       },
       {
+        "answer": "V"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "T",
+        "number": 8
+      },
+      {
         "answer": "W"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S"
       }
     ],
     "clues": {
@@ -385,46 +394,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 3,
-          "answer": "ARC",
-          "clue": "Story ___",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 3,
-          "answer": "REO",
-          "clue": "Antique car",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "WINBY",
-          "clue": "Triumph by a narrow margin, with 'a nose'",
-          "source": "written"
+          "answer": "PICKY",
+          "clue": "Choosy",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "ANIME",
+          "clue": "'Speed Racer' genre",
+          "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ASTRO",
-          "clue": "Prefix for 'turf'",
+          "answer": "NAVAL",
+          "clue": "Part of USNA",
           "source": "dataset"
         },
         {
           "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "TWIRL",
+          "clue": "Spin",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
           "row": 4,
           "col": 0,
           "length": 5,
-          "answer": "RESAW",
-          "clue": "Viewed anew",
+          "answer": "SECTS",
+          "clue": "Offshoots",
           "source": "dataset"
         }
       ],
@@ -432,46 +441,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 0,
           "length": 5,
-          "answer": "ARISE",
-          "clue": "Get up",
+          "answer": "PANTS",
+          "clue": "Puffs",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "RENTS",
-          "clue": "Signs a lease",
+          "answer": "INAWE",
+          "clue": "Mesmerized",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "CIVIC",
+          "clue": "Word before 'duty' or 'center'",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "COBRA",
-          "clue": "Mongoose's meal",
+          "answer": "KMART",
+          "clue": "Major discount chain",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "answer": "WAR",
-          "clue": "Combat",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
+          "row": 0,
           "col": 4,
-          "length": 3,
-          "answer": "YOW",
-          "clue": "\"Ouch!\"",
+          "length": 5,
+          "answer": "YELLS",
+          "clue": "Speaks loudly",
           "source": "dataset"
         }
       ]

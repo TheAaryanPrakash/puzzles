@@ -4,79 +4,85 @@
     "cells": [
       null,
       {
-        "answer": "Y",
+        "answer": "C",
         "number": 1
       },
       {
-        "answer": "O",
+        "answer": "H",
         "number": 2
       },
       {
-        "answer": "Y",
+        "answer": "O",
         "number": 3
       },
       {
-        "answer": "O",
+        "answer": "W",
         "number": 4
       },
-      null,
       {
-        "answer": "A",
+        "answer": "P",
         "number": 5
       },
       {
-        "answer": "N"
+        "answer": "O"
       },
       {
-        "answer": "E"
+        "answer": "O"
       },
       {
-        "answer": "W"
-      },
-      {
-        "answer": "C",
-        "number": 6
+        "answer": "C"
       },
       {
         "answer": "H"
       },
       {
-        "answer": "I"
+        "answer": "A",
+        "number": 6
       },
       {
-        "answer": "L"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "C",
-        "number": 7
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "L"
-      },
-      null,
-      {
-        "answer": "S",
-        "number": 8
-      },
-      {
-        "answer": "O"
+        "answer": "U"
       },
       {
         "answer": "N"
       },
       {
-        "answer": "S"
+        "answer": "T"
       },
-      null
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "D",
+        "number": 7
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      }
     ],
     "clues": {
       "across": [
@@ -85,17 +91,17 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "YOYO",
-          "clue": "Cellist Ma",
+          "answer": "CHOW",
+          "clue": "Enjoy a meal, with 'down'",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "ANEW",
-          "clue": "Freshly",
+          "col": 0,
+          "length": 5,
+          "answer": "POOCH",
+          "clue": "Dog muck outside of church",
           "source": "dataset"
         },
         {
@@ -103,26 +109,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "CHILL",
-          "clue": "Lose heat",
+          "answer": "AUNTY",
+          "clue": "Mommy's sis",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 4,
-          "answer": "COOL",
-          "clue": "'Neat!'",
+          "length": 5,
+          "answer": "DREAM",
+          "clue": "Fantasy",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "SONS",
-          "clue": "Family members",
+          "length": 5,
+          "answer": "STYLE",
+          "clue": "Barber",
           "source": "dataset"
         }
       ],
@@ -132,8 +138,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "YAHOO",
-          "clue": "'Hurray!'",
+          "answer": "COURT",
+          "clue": "Tennis setting",
           "source": "dataset"
         },
         {
@@ -141,8 +147,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ONION",
-          "clue": "Edible bulb",
+          "answer": "HONEY",
+          "clue": "Natural sweetener",
           "source": "dataset"
         },
         {
@@ -150,26 +156,26 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "YELLS",
-          "clue": "Hollers",
+          "answer": "OCTAL",
+          "clue": "Eight-related",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
           "col": 4,
-          "length": 3,
-          "answer": "OWL",
-          "clue": "Barn bird",
+          "length": 5,
+          "answer": "WHYME",
+          "clue": "Response to being chosen for audience participation, maybe",
           "source": "dataset"
         },
         {
-          "number": 6,
-          "row": 2,
+          "number": 5,
+          "row": 1,
           "col": 0,
-          "length": 3,
-          "answer": "CCS",
-          "clue": "Loops in, in a way",
+          "length": 4,
+          "answer": "PADS",
+          "clue": "Goalie gear",
           "source": "dataset"
         }
       ]
@@ -179,7 +185,7 @@
     "size": 5,
     "cells": [
       {
-        "answer": "F",
+        "answer": "S",
         "number": 1
       },
       {
@@ -187,77 +193,81 @@
         "number": 2
       },
       {
-        "answer": "U",
+        "answer": "I",
         "number": 3
       },
       {
-        "answer": "F",
+        "answer": "M",
         "number": 4
       },
       {
-        "answer": "F",
+        "answer": "E",
         "number": 5
       },
       {
-        "answer": "L",
+        "answer": "T",
         "number": 6
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "N"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "R"
+        "answer": "N"
       },
       {
-        "answer": "O",
+        "answer": "A"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "E",
         "number": 7
       },
       {
-        "answer": "U"
+        "answer": "A"
       },
       {
         "answer": "T"
       },
       {
-        "answer": "R"
+        "answer": "U"
       },
       {
-        "answer": "O"
+        "answer": "P"
       },
       {
-        "answer": "U",
+        "answer": "E",
         "number": 8
       },
       {
-        "answer": "S"
+        "answer": "V"
       },
       {
-        "answer": "I"
+        "answer": "E"
       },
       {
         "answer": "N"
       },
       {
-        "answer": "G"
+        "answer": "T"
       },
       {
-        "answer": "R",
+        "answer": "D",
         "number": 9
-      },
-      {
-        "answer": "Y"
       },
       {
         "answer": "E"
       },
-      null,
-      null
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "Y"
+      }
     ],
     "clues": {
       "across": [
@@ -266,8 +276,8 @@
           "row": 0,
           "col": 0,
           "length": 5,
-          "answer": "FLUFF",
-          "clue": "Written material of no consequence",
+          "answer": "SLIME",
+          "clue": "Icky stuff",
           "source": "dataset"
         },
         {
@@ -275,8 +285,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "LONER",
-          "clue": "Recluse",
+          "answer": "TENAM",
+          "clue": "Latish wake-up hr",
           "source": "dataset"
         },
         {
@@ -284,8 +294,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "OUTRO",
-          "clue": "Musical close",
+          "answer": "EATUP",
+          "clue": "Enjoy thoroughly",
           "source": "dataset"
         },
         {
@@ -293,17 +303,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "USING",
-          "clue": "On drugs",
+          "answer": "EVENT",
+          "clue": "Incident",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
           "col": 0,
-          "length": 3,
-          "answer": "RYE",
-          "clue": "Diner loaf",
+          "length": 5,
+          "answer": "DELAY",
+          "clue": "Hold up",
           "source": "dataset"
         }
       ],
@@ -313,8 +323,8 @@
           "row": 0,
           "col": 0,
           "length": 5,
-          "answer": "FLOUR",
-          "clue": "Pancake maker's need",
+          "answer": "STEED",
+          "clue": "War horse",
           "source": "dataset"
         },
         {
@@ -322,8 +332,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "LOUSY",
-          "clue": "Crummy",
+          "answer": "LEAVE",
+          "clue": "Exit",
           "source": "dataset"
         },
         {
@@ -331,26 +341,26 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "UNTIE",
-          "clue": "Loosen",
+          "answer": "INTEL",
+          "clue": "Recon info",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
           "col": 3,
-          "length": 4,
-          "answer": "FERN",
-          "clue": "Forest plant",
+          "length": 5,
+          "answer": "MAUNA",
+          "clue": "___ Kea",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 0,
           "col": 4,
-          "length": 4,
-          "answer": "FROG",
-          "clue": "Former tadpole",
+          "length": 5,
+          "answer": "EMPTY",
+          "clue": "Vacuous",
           "source": "dataset"
         }
       ]

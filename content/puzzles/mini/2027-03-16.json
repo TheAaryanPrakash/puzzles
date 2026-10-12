@@ -3,74 +3,75 @@
     "size": 5,
     "cells": [
       null,
-      null,
       {
-        "answer": "X",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "X",
+        "answer": "T",
         "number": 2
       },
       {
-        "answer": "X",
+        "answer": "O",
         "number": 3
+      },
+      {
+        "answer": "W",
+        "number": 4
       },
       null,
       {
-        "answer": "H",
-        "number": 4
+        "answer": "T",
+        "number": 5
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "B"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "R"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "X",
-        "number": 5
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "X"
-      },
-      {
-        "answer": "F",
+        "answer": "D",
         "number": 6
       },
       {
-        "answer": "R"
+        "answer": "A"
       },
       {
-        "answer": "O"
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "O",
+        "number": 7
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "A"
       },
       {
         "answer": "Y"
       },
+      null,
       {
-        "answer": "O"
-      },
-      {
-        "answer": "L",
-        "number": 7
+        "answer": "G",
+        "number": 8
       },
       {
         "answer": "E"
       },
       {
-        "answer": "N"
+        "answer": "L"
       },
       {
         "answer": "S"
@@ -82,46 +83,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "XXX",
-          "clue": "Moonshine marking",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "HERO",
-          "clue": "Beau ideal",
+          "answer": "STOW",
+          "clue": "Pack away",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "XANAX",
-          "clue": "Palindromic anxiety drug",
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "TOBE",
+          "clue": "-",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 3,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "FROYO",
-          "clue": "Swirled dessert",
+          "answer": "DATED",
+          "clue": "So last year",
           "source": "dataset"
         },
         {
           "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "OKAY",
+          "clue": "All right",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
           "row": 4,
           "col": 0,
           "length": 4,
-          "answer": "LENS",
-          "clue": "One contact",
+          "answer": "GELS",
+          "clue": "Hair products",
           "source": "dataset"
         }
       ],
@@ -129,182 +130,128 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "XENON",
-          "clue": "Arc lamp gas",
+          "answer": "STAKE",
+          "clue": "Tent securer",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
+          "col": 2,
           "length": 5,
-          "answer": "XRAYS",
-          "clue": "Pictures for the dentist",
+          "answer": "TOTAL",
+          "clue": "Aggregate",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "XOXO",
-          "clue": "Letter signoff",
+          "col": 3,
+          "length": 5,
+          "answer": "OBEYS",
+          "clue": "Executes orders",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "HARE",
-          "clue": "March ___",
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "WED",
+          "clue": "Bond",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 6,
           "row": 2,
           "col": 0,
           "length": 3,
-          "answer": "XFL",
-          "clue": "Former gridiron organization for the Memphis Maniax and Orlando Rage",
+          "answer": "DOG",
+          "clue": "Cur",
           "source": "dataset"
         }
       ]
     }
   },
   "reserve": {
-    "size": 7,
+    "size": 5,
     "cells": [
-      null,
-      null,
       {
-        "answer": "P",
+        "answer": "V",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "O",
         "number": 2
       },
       {
-        "answer": "R",
+        "answer": "I",
         "number": 3
       },
-      null,
-      null,
-      null,
       {
-        "answer": "P",
+        "answer": "L",
         "number": 4
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "V"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S",
+        "answer": "A",
         "number": 5
       },
-      null,
       {
-        "answer": "L",
+        "answer": "E",
         "number": 6
       },
       {
-        "answer": "I"
+        "answer": "R"
       },
       {
-        "answer": "N"
+        "answer": "R"
       },
       {
-        "answer": "E"
+        "answer": "O"
       },
       {
-        "answer": "M"
+        "answer": "R"
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "N",
+        "answer": "S",
         "number": 7
       },
       {
-        "answer": "O",
+        "answer": "N"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "P",
         "number": 8
       },
       {
-        "answer": "L"
-      },
-      {
-        "answer": "D"
+        "answer": "O"
       },
       {
         "answer": "N"
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "V"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "B",
-        "number": 9
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "E"
+        "answer": "D"
       },
       {
         "answer": "S"
       },
-      null,
-      {
-        "answer": "T",
-        "number": 10
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "D"
-      },
-      null,
-      null,
-      null,
       {
         "answer": "A",
-        "number": 11
+        "number": 9
       },
       {
-        "answer": "R"
+        "answer": "T"
       },
       {
         "answer": "S"
@@ -317,64 +264,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "PAR",
-          "clue": "The norm",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 1,
+          "col": 0,
           "length": 5,
-          "answer": "PAVES",
-          "clue": "Makes roads",
+          "answer": "VOILA",
+          "clue": "'Check it out!'",
           "source": "dataset"
         },
         {
           "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "ERROR",
+          "clue": "Slip",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
           "row": 2,
           "col": 0,
-          "length": 7,
-          "answer": "LINEMAN",
-          "clue": "Tackle, for one",
+          "length": 5,
+          "answer": "SNORT",
+          "clue": "Derisive sound",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 3,
           "col": 0,
-          "length": 7,
-          "answer": "OLDNAVY",
-          "clue": "Popular clothing chain",
+          "length": 5,
+          "answer": "PONDS",
+          "clue": "Abodes for toads",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
           "col": 0,
-          "length": 7,
-          "answer": "BOOGIES",
-          "clue": "Dances, informally",
-          "source": "written"
-        },
-        {
-          "number": 10,
-          "row": 5,
-          "col": 1,
-          "length": 5,
-          "answer": "TREND",
-          "clue": "Hot style",
-          "source": "dataset"
-        },
-        {
-          "number": 11,
-          "row": 6,
-          "col": 2,
           "length": 3,
-          "answer": "ARS",
-          "clue": "Horace's \"___ Poetica\"",
+          "answer": "ATS",
+          "clue": "Symbols in Twitter handles",
           "source": "dataset"
         }
       ],
@@ -382,64 +311,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 7,
-          "answer": "PANDORA",
-          "clue": "Box opener of myth",
+          "col": 0,
+          "length": 5,
+          "answer": "VESPA",
+          "clue": "Commuter scooter",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 7,
-          "answer": "AVENGER",
-          "clue": "Volatile Eve rang one to settle score",
+          "col": 1,
+          "length": 5,
+          "answer": "ORNOT",
+          "clue": "'... eh, scratch that'",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 7,
-          "answer": "REMAINS",
-          "clue": "Stays and strap holding old woman securely at first",
+          "col": 2,
+          "length": 5,
+          "answer": "IRONS",
+          "clue": "Clubs at clubs",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 5,
-          "answer": "PILOT",
-          "clue": "Plane worker",
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "LORD",
+          "clue": "The Almighty",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 5,
-          "length": 5,
-          "answer": "SAVED",
-          "clue": "Conserved",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "answer": "LOB",
-          "clue": "High toss",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 2,
-          "col": 6,
-          "length": 3,
-          "answer": "NYS",
-          "clue": "Where Schumer is a sen",
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "ARTS",
+          "clue": "Martial ___",
           "source": "dataset"
         }
       ]

@@ -2,314 +2,78 @@
   "payload": {
     "size": 5,
     "cells": [
+      null,
+      null,
       {
-        "answer": "A",
+        "answer": "G",
         "number": 1
       },
       {
-        "answer": "D",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "S",
+        "answer": "P",
         "number": 3
       },
-      null,
-      null,
       {
-        "answer": "D",
+        "answer": "P",
         "number": 4
       },
       {
-        "answer": "O"
+        "answer": "A",
+        "number": 5
       },
       {
         "answer": "U"
       },
       {
-        "answer": "G",
-        "number": 5
-      },
-      {
-        "answer": "H",
-        "number": 6
-      },
-      {
-        "answer": "A",
-        "number": 7
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "D"
-      },
-      {
         "answer": "L"
       },
       {
-        "answer": "E"
-      },
-      {
-        "answer": "M",
-        "number": 8
-      },
-      {
         "answer": "O"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S"
-      },
-      null,
-      null,
-      {
-        "answer": "Y",
-        "number": 9
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S"
-      }
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 0,
-          "length": 3,
-          "answer": "ADS",
-          "clue": "Radio spots",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "DOUGH",
-          "clue": "Mixture to make bread",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "ADDLE",
-          "clue": "Discombobulate",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "MOSES",
-          "clue": "Early tablet user",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
-          "row": 4,
-          "col": 2,
-          "length": 3,
-          "answer": "YES",
-          "clue": "Not no",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 0,
-          "length": 4,
-          "answer": "ADAM",
-          "clue": "First name",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "DODO",
-          "clue": "Dotard",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "SUDSY",
-          "clue": "Like some bathwater",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 3,
-          "length": 4,
-          "answer": "GLEE",
-          "clue": "Jubilation",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 1,
-          "col": 4,
-          "length": 4,
-          "answer": "HESS",
-          "clue": "Oil company since the 1930s",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 7,
-    "cells": [
-      null,
-      null,
-      {
-        "answer": "B",
-        "number": 1
-      },
-      {
-        "answer": "C",
-        "number": 2
-      },
-      {
-        "answer": "C",
-        "number": 3
-      },
-      null,
-      null,
-      null,
-      {
-        "answer": "T",
-        "number": 4
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "A",
-        "number": 5
-      },
-      null,
-      {
-        "answer": "V",
-        "number": 6
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "T",
-        "number": 7
       },
       {
         "answer": "I",
+        "number": 6
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "T",
+        "number": 7
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T",
         "number": 8
       },
       {
-        "answer": "N"
+        "answer": "W"
       },
       {
-        "answer": "D"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "S",
-        "number": 9
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "D"
-      },
-      null,
-      {
-        "answer": "H",
-        "number": 10
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "X"
-      },
-      null,
-      null,
-      null,
-      {
-        "answer": "S",
-        "number": 11
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "A"
+        "answer": "O"
       },
       null,
       null
@@ -321,8 +85,247 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "answer": "BCC",
-          "clue": "Secretly loop in",
+          "answer": "GAP",
+          "clue": "Break",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "PAULO",
+          "clue": "Sao ___, Brazil",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "INAPP",
+          "clue": "Like some mobile purchases",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "TENSE",
+          "clue": "On edge",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "answer": "TWO",
+          "clue": "Pair",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "GUANO",
+          "clue": "Organic fertilizer",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "answer": "ALPS",
+          "clue": "Swiss mountains",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "POPE",
+          "clue": "Top bishop",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "PITT",
+          "clue": "Brad of '12 Monkeys'",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "ANEW",
+          "clue": "Afresh",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 7,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "R",
+        "number": 1
+      },
+      {
+        "answer": "A",
+        "number": 2
+      },
+      {
+        "answer": "T",
+        "number": 3
+      },
+      null,
+      null,
+      null,
+      {
+        "answer": "M",
+        "number": 4
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O",
+        "number": 5
+      },
+      null,
+      {
+        "answer": "B",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "M",
+        "number": 7
+      },
+      {
+        "answer": "O",
+        "number": 8
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "S",
+        "number": 10
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      null,
+      {
+        "answer": "S",
+        "number": 11
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T"
+      },
+      null,
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "RAT",
+          "clue": "Gym ___",
           "source": "dataset"
         },
         {
@@ -330,8 +333,8 @@
           "row": 1,
           "col": 1,
           "length": 5,
-          "answer": "TIARA",
-          "clue": "Small crown",
+          "answer": "METRO",
+          "clue": "Paris subway",
           "source": "dataset"
         },
         {
@@ -339,8 +342,8 @@
           "row": 2,
           "col": 0,
           "length": 7,
-          "answer": "VERMONT",
-          "clue": "Quebec neighbor",
+          "answer": "BAPTISM",
+          "clue": "Birth rite",
           "source": "dataset"
         },
         {
@@ -348,8 +351,8 @@
           "row": 3,
           "col": 0,
           "length": 7,
-          "answer": "INDIANA",
-          "clue": "Jones who ran from a big boulder",
+          "answer": "OCEANIA",
+          "clue": "To the west, a cool and a green Pacific region",
           "source": "dataset"
         },
         {
@@ -357,17 +360,17 @@
           "row": 4,
           "col": 0,
           "length": 7,
-          "answer": "STILTED",
-          "clue": "Awkward when trying to gain height thus (wordplay)",
-          "source": "dataset"
+          "answer": "SHACKED",
+          "clue": "'___ up' (moved in together)",
+          "source": "written"
         },
         {
           "number": 10,
           "row": 5,
-          "col": 1,
-          "length": 5,
-          "answer": "HELIX",
-          "clue": "Spiral shape",
+          "col": 0,
+          "length": 7,
+          "answer": "SOTHERE",
+          "clue": "Offended about article giving words of derision",
           "source": "dataset"
         },
         {
@@ -375,8 +378,8 @@
           "row": 6,
           "col": 2,
           "length": 3,
-          "answer": "SEA",
-          "clue": "Irish ___",
+          "answer": "SET",
+          "clue": "Group",
           "source": "dataset"
         }
       ],
@@ -386,17 +389,17 @@
           "row": 0,
           "col": 2,
           "length": 7,
-          "answer": "BIRDIES",
-          "clue": "One-under-par golf scores",
-          "source": "written"
+          "answer": "REPEATS",
+          "clue": "Performs again",
+          "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 7,
-          "answer": "CAMILLE",
-          "clue": "Composer Saint-Saens",
+          "answer": "ATTACHE",
+          "clue": "Mission's assistant",
           "source": "dataset"
         },
         {
@@ -404,8 +407,8 @@
           "row": 0,
           "col": 4,
           "length": 7,
-          "answer": "CROATIA",
-          "clue": "Nation on the Adriatic",
+          "answer": "TRINKET",
+          "clue": "Inexpensive ornament",
           "source": "dataset"
         },
         {
@@ -413,8 +416,8 @@
           "row": 1,
           "col": 1,
           "length": 5,
-          "answer": "TENTH",
-          "clue": "Like J, in the alphabet",
+          "answer": "MACHO",
+          "clue": "Manly",
           "source": "dataset"
         },
         {
@@ -422,26 +425,26 @@
           "row": 1,
           "col": 5,
           "length": 5,
-          "answer": "ANNEX",
-          "clue": "Building addition",
+          "answer": "OSIER",
+          "clue": "Species of willow",
           "source": "dataset"
         },
         {
           "number": 6,
           "row": 2,
           "col": 0,
-          "length": 3,
-          "answer": "VIS",
-          "clue": "Word on either side of \"-a-\"",
+          "length": 4,
+          "answer": "BOSS",
+          "clue": "Leader",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 2,
           "col": 6,
-          "length": 3,
-          "answer": "TAD",
-          "clue": "Skosh",
+          "length": 4,
+          "answer": "MADE",
+          "clue": "Earned",
           "source": "dataset"
         }
       ]

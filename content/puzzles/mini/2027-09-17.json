@@ -2,224 +2,44 @@
   "payload": {
     "size": 5,
     "cells": [
-      null,
       {
-        "answer": "B",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "E",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "D",
+        "answer": "V",
         "number": 3
       },
-      null,
-      null,
       {
-        "answer": "O",
+        "answer": "E",
         "number": 4
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "R"
-      },
-      null,
-      {
-        "answer": "B",
+        "answer": "S",
         "number": 5
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S",
+        "answer": "O",
         "number": 6
       },
       {
-        "answer": "A",
-        "number": 7
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "L"
+        "answer": "B"
       },
       {
         "answer": "A"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "R",
-        "number": 8
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "Y"
       },
       {
         "answer": "M"
       },
       {
-        "answer": "E"
-      }
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 1,
-          "length": 3,
-          "answer": "BED",
-          "clue": "Sleep site",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 3,
-          "answer": "OAR",
-          "clue": "Crew item",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "BORES",
-          "clue": "Causes to yawn, say",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "ATLAS",
-          "clue": "Map-filled tome",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 4,
-          "col": 0,
-          "length": 5,
-          "answer": "RHYME",
-          "clue": "Poetry",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "BOOTH",
-          "clue": "Diner seating choice",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "EARLY",
-          "clue": "In advance",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "DREAM",
-          "clue": "Ambition",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "answer": "BAR",
-          "clue": "Inn",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 4,
-          "length": 3,
-          "answer": "SSE",
-          "clue": "Compass dir",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 7,
-    "cells": [
-      null,
-      {
-        "answer": "S",
-        "number": 1
+        "answer": "A"
       },
       {
-        "answer": "L",
-        "number": 2
-      },
-      {
-        "answer": "I",
-        "number": 3
-      },
-      {
-        "answer": "T",
-        "number": 4
-      },
-      {
-        "answer": "S",
-        "number": 5
-      },
-      null,
-      null,
-      {
-        "answer": "P",
-        "number": 6
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "T"
-      },
-      null,
-      {
-        "answer": "B",
+        "answer": "D",
         "number": 7
       },
       {
@@ -229,93 +49,216 @@
         "answer": "G"
       },
       {
-        "answer": "F"
+        "answer": "I"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "A",
+        "number": 8
+      },
+      {
+        "answer": "D"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "A"
+      }
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "SAVES",
+          "clue": "Doesn't spend immediately",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "answer": "OBAMA",
+          "clue": "#44",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "DIGIN",
+          "clue": "'Mangia!'",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "ADULT",
+          "clue": "Grown",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 5,
+          "answer": "SEEYA",
+          "clue": "'Ciao!'",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 5,
+          "answer": "SODAS",
+          "clue": "Coke and Pepsi",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "answer": "ABIDE",
+          "clue": "Stomach",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "VAGUE",
+          "clue": "Obscure magazine gets article for nothing",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "EMILY",
+          "clue": "Writer Bronte",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "SANTA",
+          "clue": "Annual visitor",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      null,
+      null,
+      {
+        "answer": "L",
+        "number": 1
+      },
+      {
+        "answer": "O",
+        "number": 2
+      },
+      {
+        "answer": "G",
+        "number": 3
+      },
+      {
+        "answer": "S",
+        "number": 4
+      },
+      {
+        "answer": "M",
+        "number": 5
       },
       {
         "answer": "O"
       },
       {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "X"
+      },
+      {
+        "answer": "I"
+      },
+      {
         "answer": "O"
+      },
+      {
+        "answer": "M"
       },
       {
         "answer": "T",
         "number": 8
       },
       {
-        "answer": "O",
-        "number": 9
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "D",
-        "number": 10
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "O"
-      },
-      {
         "answer": "I"
       },
       {
-        "answer": "T"
-      },
-      null,
-      {
-        "answer": "D",
-        "number": 11
-      },
-      {
-        "answer": "E"
-      },
-      {
         "answer": "N"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "E"
-      },
-      null,
-      null,
-      {
-        "answer": "R",
-        "number": 12
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "D"
       },
       null,
       null
@@ -325,64 +268,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
+          "length": 3,
+          "answer": "LOG",
+          "clue": "Ship diary",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
           "length": 5,
-          "answer": "SLITS",
-          "clue": "Thin cuts",
+          "answer": "SMORE",
+          "clue": "Gooey goody",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 1,
-          "col": 1,
+          "row": 2,
+          "col": 0,
           "length": 5,
-          "answer": "PINOT",
-          "clue": "Wine option",
+          "answer": "EAGER",
+          "clue": "Avid",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 2,
-          "col": 0,
-          "length": 7,
-          "answer": "BIGFOOT",
-          "clue": "Mythical primate shows up in photo of gibbon",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
           "row": 3,
           "col": 0,
-          "length": 7,
-          "answer": "OTHELLO",
-          "clue": "Hello to Shakespeare's Moor",
+          "length": 5,
+          "answer": "AXIOM",
+          "clue": "Wise saying",
           "source": "dataset"
         },
         {
-          "number": 10,
+          "number": 8,
           "row": 4,
           "col": 0,
-          "length": 7,
-          "answer": "DETROIT",
-          "clue": "Dicky tried to in Motown",
-          "source": "dataset"
-        },
-        {
-          "number": 11,
-          "row": 5,
-          "col": 1,
-          "length": 6,
-          "answer": "DENUDE",
-          "clue": "Strip from guy without naked scenes",
-          "source": "dataset"
-        },
-        {
-          "number": 12,
-          "row": 6,
-          "col": 2,
           "length": 3,
-          "answer": "ROD",
-          "clue": "Stepped",
+          "answer": "TIN",
+          "clue": "Container",
           "source": "dataset"
         }
       ],
@@ -390,64 +315,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 6,
-          "answer": "SPITED",
-          "clue": "Tried to hurt",
+          "col": 2,
+          "length": 5,
+          "answer": "LOGIN",
+          "clue": "User ID",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 7,
-          "answer": "LIGHTER",
-          "clue": "Not as heavy; barge",
+          "col": 3,
+          "length": 4,
+          "answer": "OREO",
+          "clue": "Common cookie",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 7,
-          "answer": "INFERNO",
-          "clue": "Hell",
+          "col": 4,
+          "length": 4,
+          "answer": "GERM",
+          "clue": "Seed",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 7,
-          "answer": "TOOLOUD",
-          "clue": "'Turn it down, it's ___!'",
-          "source": "written"
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "answer": "SEAT",
+          "clue": "Chair, e.g",
+          "source": "dataset"
         },
         {
           "number": 5,
-          "row": 0,
-          "col": 5,
-          "length": 6,
-          "answer": "STOLID",
-          "clue": "Dependable",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "answer": "BOD",
-          "clue": "Hunk's pride",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 2,
-          "col": 6,
+          "row": 1,
+          "col": 1,
           "length": 4,
-          "answer": "TOTE",
-          "clue": "Bag",
+          "answer": "MAXI",
+          "clue": "Long skirt",
           "source": "dataset"
         }
       ]

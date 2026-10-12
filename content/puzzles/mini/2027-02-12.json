@@ -4,81 +4,77 @@
     "cells": [
       null,
       {
-        "answer": "F",
+        "answer": "H",
         "number": 1
       },
       {
-        "answer": "L",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "A",
+        "answer": "T",
         "number": 3
       },
+      null,
       {
-        "answer": "G",
+        "answer": "F",
         "number": 4
       },
       {
-        "answer": "G",
-        "number": 5
+        "answer": "I"
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "G"
+        "answer": "R"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "U",
+        "answer": "S",
+        "number": 5
+      },
+      {
+        "answer": "D",
         "number": 6
       },
       {
         "answer": "R"
       },
       {
-        "answer": "B"
-      },
-      {
-        "answer": "A"
+        "answer": "I"
       },
       {
         "answer": "N"
       },
       {
-        "answer": "S",
+        "answer": "K"
+      },
+      {
+        "answer": "R",
         "number": 7
       },
       {
-        "answer": "T"
-      },
-      {
         "answer": "E"
       },
       {
-        "answer": "V"
-      },
-      {
         "answer": "E"
-      },
-      {
-        "answer": "H",
-        "number": 8
-      },
-      {
-        "answer": "Y"
       },
       {
         "answer": "D"
       },
       {
-        "answer": "E"
+        "answer": "Y"
+      },
+      null,
+      {
+        "answer": "E",
+        "number": 8
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "S"
       },
       null
     ],
@@ -88,18 +84,18 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 4,
-          "answer": "FLAG",
-          "clue": "Flier on a pole",
+          "length": 3,
+          "answer": "HAT",
+          "clue": "Headgear",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "GOUGE",
-          "clue": "Overcharge greatly",
+          "answer": "FIRES",
+          "clue": "Inspires, with \"up\"",
           "source": "dataset"
         },
         {
@@ -107,8 +103,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "URBAN",
-          "clue": "Big-city",
+          "answer": "DRINK",
+          "clue": "Risk losing one's license, say",
           "source": "dataset"
         },
         {
@@ -116,17 +112,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "STEVE",
-          "clue": "First 'Blue's Clues' host",
+          "answer": "REEDY",
+          "clue": "Thin-sounding",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
-          "col": 0,
-          "length": 4,
-          "answer": "HYDE",
-          "clue": "Dr. Jekyll's evil side",
+          "col": 1,
+          "length": 3,
+          "answer": "ESS",
+          "clue": "Slow start",
           "source": "dataset"
         }
       ],
@@ -136,8 +132,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "FORTY",
-          "clue": "Beer purchase in a large bottle, informally",
+          "answer": "HIREE",
+          "clue": "New face at a firm",
           "source": "dataset"
         },
         {
@@ -145,8 +141,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "LUBED",
-          "clue": "Squeaky clean (wordplay)",
+          "answer": "ARIES",
+          "clue": "Ram above",
           "source": "dataset"
         },
         {
@@ -154,26 +150,26 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "AGAVE",
-          "clue": "Yucca relative",
+          "answer": "TENDS",
+          "clue": "Has an inclination",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "GENE",
-          "clue": "Code part",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "answer": "FDR",
+          "clue": "32nd POTUS",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "GUSH",
-          "clue": "Spout, as oil",
+          "col": 4,
+          "length": 3,
+          "answer": "SKY",
+          "clue": "___ blue",
           "source": "dataset"
         }
       ]
@@ -184,77 +180,77 @@
     "cells": [
       null,
       {
-        "answer": "D",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "E",
+        "answer": "H",
         "number": 2
       },
       {
-        "answer": "W",
+        "answer": "O",
         "number": 3
+      },
+      {
+        "answer": "W",
+        "number": 4
       },
       null,
       {
-        "answer": "A",
-        "number": 4
-      },
-      {
-        "answer": "W"
-      },
-      {
-        "answer": "A"
+        "answer": "L",
+        "number": 5
       },
       {
         "answer": "I"
       },
       {
-        "answer": "T",
-        "number": 5
-      },
-      {
-        "answer": "B",
-        "number": 6
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "T"
+        "answer": "F"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "C",
-        "number": 7
+        "answer": "S",
+        "number": 6
+      },
+      {
+        "answer": "U"
       },
       {
         "answer": "R"
       },
       {
-        "answer": "E"
+        "answer": "F"
       },
       {
-        "answer": "T"
+        "answer": "S"
+      },
+      {
+        "answer": "I",
+        "number": 7
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
       },
       {
         "answer": "E"
       },
       null,
       {
-        "answer": "F",
+        "answer": "C",
         "number": 8
       },
       {
-        "answer": "L"
+        "answer": "H"
       },
       {
-        "answer": "Y"
+        "answer": "E"
+      },
+      {
+        "answer": "R"
       },
       null
     ],
@@ -264,18 +260,18 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 3,
-          "answer": "DEW",
-          "clue": "Morning damp",
+          "length": 4,
+          "answer": "SHOW",
+          "clue": "Unmask",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "AWAIT",
-          "clue": "Hang around for",
+          "col": 1,
+          "length": 4,
+          "answer": "LIFE",
+          "clue": "Supreme Court term",
           "source": "dataset"
         },
         {
@@ -283,26 +279,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "BASTE",
-          "clue": "Moisten, as a turkey",
+          "answer": "SURFS",
+          "clue": "Gets on board (wordplay)",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 5,
-          "answer": "CRETE",
-          "clue": "Minotaur's island",
+          "length": 4,
+          "answer": "ISEE",
+          "clue": "\"Ohhh!\"",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
-          "col": 1,
-          "length": 3,
-          "answer": "FLY",
-          "clue": "Aviate",
+          "col": 0,
+          "length": 4,
+          "answer": "CHER",
+          "clue": "'Moonstruck' star",
           "source": "dataset"
         }
       ],
@@ -312,8 +308,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "DWARF",
-          "clue": "Sneezy or Bashful",
+          "answer": "SLUSH",
+          "clue": "Semi-wet snow",
           "source": "dataset"
         },
         {
@@ -321,8 +317,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "EASEL",
-          "clue": "Tripod cousin",
+          "answer": "HIREE",
+          "clue": "Newly employed person",
           "source": "dataset"
         },
         {
@@ -330,26 +326,26 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "WITTY",
-          "clue": "For starters, we're in this together, yet it sounds comical",
+          "answer": "OFFER",
+          "clue": "Bid",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
+          "row": 0,
+          "col": 4,
           "length": 3,
-          "answer": "ABC",
-          "clue": "Jackson 5 hit",
+          "answer": "WES",
+          "clue": "'Isle of Dogs' director Anderson",
           "source": "dataset"
         },
         {
-          "number": 5,
-          "row": 1,
-          "col": 4,
+          "number": 6,
+          "row": 2,
+          "col": 0,
           "length": 3,
-          "answer": "TEE",
-          "clue": "Golf need",
+          "answer": "SIC",
+          "clue": "Attack command",
           "source": "dataset"
         }
       ]

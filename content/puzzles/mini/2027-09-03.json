@@ -4,31 +4,31 @@
     "cells": [
       null,
       {
-        "answer": "T",
+        "answer": "F",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "L",
         "number": 2
       },
       {
-        "answer": "F",
+        "answer": "O",
         "number": 3
       },
       {
-        "answer": "T",
+        "answer": "W",
         "number": 4
       },
       null,
       {
-        "answer": "A",
+        "answer": "I",
         "number": 5
       },
       {
-        "answer": "S"
+        "answer": "O"
       },
       {
-        "answer": "I"
+        "answer": "W"
       },
       {
         "answer": "A"
@@ -38,45 +38,49 @@
         "number": 6
       },
       {
-        "answer": "H"
-      },
-      {
-        "answer": "I"
-      },
-      {
         "answer": "R"
       },
       {
-        "answer": "D"
-      },
-      {
-        "answer": "L",
-        "number": 7
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "S"
-      },
-      null,
-      {
-        "answer": "C",
-        "number": 8
-      },
-      {
-        "answer": "E"
+        "answer": "U"
       },
       {
         "answer": "N"
       },
       {
+        "answer": "K"
+      },
+      {
+        "answer": "I",
+        "number": 7
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
         "answer": "T"
       },
-      null
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "S"
+      }
     ],
     "clues": {
       "across": [
@@ -85,8 +89,8 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "TAFT",
-          "clue": "27th president",
+          "answer": "FLOW",
+          "clue": "ebb and ___",
           "source": "dataset"
         },
         {
@@ -94,8 +98,8 @@
           "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "ASIA",
-          "clue": "The Orient",
+          "answer": "IOWA",
+          "clue": "Hawkeye State",
           "source": "dataset"
         },
         {
@@ -103,26 +107,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "THIRD",
-          "clue": "Like this clue",
+          "answer": "TRUNK",
+          "clue": "Driver's suitcase spot",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 4,
-          "answer": "LOGS",
-          "clue": "Records",
+          "length": 5,
+          "answer": "ISSUE",
+          "clue": "Put out",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "CENT",
-          "clue": "Penny",
+          "length": 5,
+          "answer": "STEPS",
+          "clue": "Dance moves",
           "source": "dataset"
         }
       ],
@@ -132,8 +136,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "TAHOE",
-          "clue": "Western resort lake",
+          "answer": "FIRST",
+          "clue": "Original",
           "source": "dataset"
         },
         {
@@ -141,8 +145,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ASIGN",
-          "clue": "'It's ___ of the times'",
+          "answer": "LOUSE",
+          "clue": "Contemptible one",
           "source": "dataset"
         },
         {
@@ -150,17 +154,17 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "FIRST",
-          "clue": "Leading",
+          "answer": "OWNUP",
+          "clue": "Admit academic robe's no good at college",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
           "col": 4,
-          "length": 3,
-          "answer": "TAD",
-          "clue": "Skosh",
+          "length": 5,
+          "answer": "WAKES",
+          "clue": "Responds to reveille",
           "source": "dataset"
         },
         {
@@ -168,8 +172,8 @@
           "row": 2,
           "col": 0,
           "length": 3,
-          "answer": "TLC",
-          "clue": "'No Scrubs' trio",
+          "answer": "TIS",
+          "clue": "McCourt memoir",
           "source": "dataset"
         }
       ]
@@ -180,7 +184,7 @@
     "cells": [
       null,
       {
-        "answer": "H",
+        "answer": "D",
         "number": 1
       },
       {
@@ -192,45 +196,34 @@
         "number": 3
       },
       {
-        "answer": "S",
+        "answer": "E",
         "number": 4
       },
-      null,
       {
-        "answer": "O",
+        "answer": "F",
         "number": 5
       },
       {
-        "answer": "R"
+        "answer": "A"
+      },
+      {
+        "answer": "C"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "O"
+        "answer": "S"
       },
       {
-        "answer": "S",
+        "answer": "O",
         "number": 6
       },
       {
-        "answer": "W"
+        "answer": "N"
       },
       {
-        "answer": "I"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "A",
-        "number": 7
-      },
-      {
-        "answer": "S"
+        "answer": "T"
       },
       {
         "answer": "A"
@@ -238,19 +231,34 @@
       {
         "answer": "P"
       },
-      null,
       {
-        "answer": "P",
-        "number": 8
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "C"
       },
       {
         "answer": "O"
       },
       {
-        "answer": "S"
+        "answer": "R"
       },
       {
-        "answer": "T"
+        "answer": "N"
+      },
+      {
+        "answer": "L",
+        "number": 8
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "S"
       },
       null
     ],
@@ -261,17 +269,17 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "HATS",
-          "clue": "Millinery",
+          "answer": "DATE",
+          "clue": "Sticky fruit",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "OREO",
-          "clue": "Cookie variety",
+          "col": 0,
+          "length": 5,
+          "answer": "FACES",
+          "clue": "Stands up to",
           "source": "dataset"
         },
         {
@@ -279,17 +287,17 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "SWIMS",
-          "clue": "Begins a triathlon",
+          "answer": "ONTAP",
+          "clue": "Like much beer",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 4,
-          "answer": "ASAP",
-          "clue": "Pronto",
+          "length": 5,
+          "answer": "ACORN",
+          "clue": "Squirrel nosh",
           "source": "dataset"
         },
         {
@@ -297,8 +305,8 @@
           "row": 4,
           "col": 0,
           "length": 4,
-          "answer": "POST",
-          "clue": "Mail",
+          "answer": "LENS",
+          "clue": "Camera part",
           "source": "dataset"
         }
       ],
@@ -308,17 +316,17 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "HOWSO",
-          "clue": "'___ ever' (in whatever way)",
-          "source": "written"
+          "answer": "DANCE",
+          "clue": "Eg, waltz",
+          "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ARIAS",
-          "clue": "Bellini pieces",
+          "answer": "ACTON",
+          "clue": "Follow, as advice",
           "source": "dataset"
         },
         {
@@ -326,26 +334,26 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "TEMPT",
-          "clue": "Play the siren",
+          "answer": "TEARS",
+          "clue": "Eye drops",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
           "col": 4,
-          "length": 3,
-          "answer": "SOS",
-          "clue": "Nine-symbol message",
+          "length": 4,
+          "answer": "ESPN",
+          "clue": "Sports channel",
           "source": "dataset"
         },
         {
-          "number": 6,
-          "row": 2,
+          "number": 5,
+          "row": 1,
           "col": 0,
-          "length": 3,
-          "answer": "SAP",
-          "clue": "Chump",
+          "length": 4,
+          "answer": "FOAL",
+          "clue": "Baby horse",
           "source": "dataset"
         }
       ]

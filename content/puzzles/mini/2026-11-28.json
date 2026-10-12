@@ -306,7 +306,7 @@
       null,
       null,
       {
-        "answer": "M",
+        "answer": "L",
         "number": 1
       },
       {
@@ -317,32 +317,55 @@
         "answer": "P",
         "number": 3
       },
+      null,
       {
-        "answer": "R",
+        "answer": "F",
         "number": 4
       },
       {
-        "answer": "E",
+        "answer": "I"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "W",
         "number": 5
       },
       {
         "answer": "A"
       },
       {
-        "answer": "D"
+        "answer": "T"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "A",
+        "answer": "R"
+      },
+      {
+        "answer": "E",
         "number": 6
       },
       {
-        "answer": "L"
+        "answer": "V"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
       },
       {
         "answer": "T"
+      },
+      {
+        "answer": "E",
+        "number": 7
       },
       {
         "answer": "A"
@@ -351,33 +374,11 @@
         "answer": "R"
       },
       {
-        "answer": "M",
-        "number": 7
-      },
-      {
-        "answer": "M"
+        "answer": "T"
       },
       {
         "answer": "H"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "S",
-        "number": 8
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "Y"
-      },
-      null,
-      null
+      }
     ],
     "clues": {
       "across": [
@@ -386,44 +387,44 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "answer": "MAP",
-          "clue": "Driving aid",
+          "answer": "LAP",
+          "clue": "Indy unit",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "FIRE",
+          "clue": "On ___ (burning)",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "READE",
-          "clue": "Charles ___'s best-known work is the historical novel The Cloister and the Hearth",
+          "answer": "WATER",
+          "clue": "Adam's ale",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "ALTAR",
-          "clue": "Wedding site",
+          "answer": "EVENT",
+          "clue": "Occurrence",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "MMHMM",
-          "clue": "Vowelless 'yes'",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
           "row": 4,
           "col": 0,
-          "length": 3,
-          "answer": "SOY",
-          "clue": "Tofu base",
+          "length": 5,
+          "answer": "EARTH",
+          "clue": "Planet",
           "source": "dataset"
         }
       ],
@@ -433,44 +434,44 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "MATHY",
-          "clue": "Nerdy about numbers, informally",
-          "source": "written"
+          "answer": "LITER",
+          "clue": "Sprite bottle size",
+          "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 4,
-          "answer": "ADAM",
-          "clue": "Eden name",
+          "length": 5,
+          "answer": "ARENT",
+          "clue": "\"___ you sweet!\"",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
-          "length": 4,
-          "answer": "PERM",
-          "clue": "Curly style",
+          "length": 5,
+          "answer": "PERTH",
+          "clue": "Capital of Western Australia",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 0,
+          "col": 1,
           "length": 4,
-          "answer": "RAMS",
-          "clue": "Los Angeles team",
+          "answer": "FAVA",
+          "clue": "Hardy bean",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "ELMO",
-          "clue": "Admiral Zumwalt",
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "WEE",
+          "clue": "Eensy",
           "source": "dataset"
         }
       ]

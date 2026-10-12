@@ -4,80 +4,78 @@
     "cells": [
       null,
       {
-        "answer": "M",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "E",
+        "answer": "H",
         "number": 2
       },
       {
-        "answer": "A",
+        "answer": "O",
         "number": 3
       },
       {
-        "answer": "N",
+        "answer": "E",
         "number": 4
       },
       {
-        "answer": "M",
+        "answer": "S",
         "number": 5
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "C"
       },
       {
         "answer": "H"
       },
       {
-        "answer": "A",
+        "answer": "E"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "T",
         "number": 6
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "C",
-        "number": 7
-      },
-      {
-        "answer": "L"
       },
       {
         "answer": "O"
       },
       {
-        "answer": "D"
+        "answer": "W"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S"
       },
       null,
       {
-        "answer": "H",
+        "answer": "R",
         "number": 8
       },
       {
         "answer": "E"
       },
       {
-        "answer": "R"
+        "answer": "D"
       },
-      {
-        "answer": "S"
-      },
+      null,
       null
     ],
     "clues": {
@@ -87,8 +85,8 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "MEAN",
-          "clue": "Cruel",
+          "answer": "SHOE",
+          "clue": "Laces' place",
           "source": "dataset"
         },
         {
@@ -96,8 +94,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "MARCH",
-          "clue": "Month",
+          "answer": "SHELL",
+          "clue": "Mollusk's home",
           "source": "dataset"
         },
         {
@@ -105,8 +103,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "APRIL",
-          "clue": "Spring time",
+          "answer": "TOWEL",
+          "clue": "Gym accessory",
           "source": "dataset"
         },
         {
@@ -114,17 +112,17 @@
           "row": 3,
           "col": 0,
           "length": 4,
-          "answer": "CLOD",
-          "clue": "Lummox",
+          "answer": "ARES",
+          "clue": "God of war",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "HERS",
-          "clue": "That woman's",
+          "length": 3,
+          "answer": "RED",
+          "clue": "Colour",
           "source": "dataset"
         }
       ],
@@ -134,8 +132,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "MAPLE",
-          "clue": "Syrup tree",
+          "answer": "SHORE",
+          "clue": "Beach",
           "source": "dataset"
         },
         {
@@ -143,17 +141,17 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ERROR",
-          "clue": "Slip-up",
+          "answer": "HEWED",
+          "clue": "Axed down",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
           "col": 3,
-          "length": 5,
-          "answer": "ACIDS",
-          "clue": "Lab liquids",
+          "length": 4,
+          "answer": "OLES",
+          "clue": "Bullring cries",
           "source": "dataset"
         },
         {
@@ -161,8 +159,8 @@
           "row": 0,
           "col": 4,
           "length": 3,
-          "answer": "NHL",
-          "clue": "Flyers' org",
+          "answer": "ELL",
+          "clue": "Pipe joint",
           "source": "dataset"
         },
         {
@@ -170,8 +168,8 @@
           "row": 1,
           "col": 0,
           "length": 4,
-          "answer": "MACH",
-          "clue": "___ 1 (speed of sound)",
+          "answer": "STAR",
+          "clue": "Headliner",
           "source": "dataset"
         }
       ]
@@ -182,78 +180,78 @@
     "cells": [
       null,
       {
-        "answer": "C",
+        "answer": "H",
         "number": 1
       },
       {
-        "answer": "H",
+        "answer": "U",
         "number": 2
       },
       {
-        "answer": "E",
+        "answer": "S",
         "number": 3
       },
       {
-        "answer": "F",
+        "answer": "K",
         "number": 4
       },
       null,
       {
-        "answer": "H",
+        "answer": "O",
         "number": 5
       },
       {
+        "answer": "N"
+      },
+      {
+        "answer": "C"
+      },
+      {
         "answer": "E"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "C",
-        "number": 6
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "B"
-      },
-      {
-        "answer": "Y"
       },
       {
         "answer": "A",
-        "number": 7
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "O"
-      },
-      null,
-      {
-        "answer": "M",
-        "number": 8
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "O"
+        "number": 6
       },
       {
         "answer": "W"
       },
+      {
+        "answer": "F"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "P"
+      },
+      {
+        "answer": "H",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "N"
+      },
+      null,
       null
     ],
     "clues": {
@@ -263,8 +261,8 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "CHEF",
-          "clue": "Apron wearer",
+          "answer": "HUSK",
+          "clue": "Tamal wrapper",
           "source": "dataset"
         },
         {
@@ -272,8 +270,8 @@
           "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "HELL",
-          "clue": "Hades",
+          "answer": "ONCE",
+          "clue": "Formerly",
           "source": "dataset"
         },
         {
@@ -281,26 +279,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "COLBY",
-          "clue": "Cheddar-like cheese",
+          "answer": "AWFUL",
+          "clue": "Very bad",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 4,
-          "answer": "ARLO",
-          "clue": "Guthrie of folk",
+          "length": 5,
+          "answer": "STUMP",
+          "clue": "Throw what remains of tree",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "MEOW",
-          "clue": "Cat's comment",
+          "length": 3,
+          "answer": "HON",
+          "clue": "Sweets",
           "source": "dataset"
         }
       ],
@@ -310,8 +308,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "CHORE",
-          "clue": "It's no fun",
+          "answer": "HOWTO",
+          "clue": "Tutorial",
           "source": "dataset"
         },
         {
@@ -319,26 +317,26 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "HELLO",
-          "clue": "Celebrity mag",
-          "source": "dataset"
+          "answer": "UNFUN",
+          "clue": "Not enjoyable at all",
+          "source": "written"
         },
         {
           "number": 3,
           "row": 0,
           "col": 3,
-          "length": 5,
-          "answer": "ELBOW",
-          "clue": "Jostle",
+          "length": 4,
+          "answer": "SCUM",
+          "clue": "Pond buildup",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
           "col": 4,
-          "length": 3,
-          "answer": "FLY",
-          "clue": "Take a plane",
+          "length": 4,
+          "answer": "KELP",
+          "clue": "Seaweed",
           "source": "dataset"
         },
         {
@@ -346,8 +344,8 @@
           "row": 2,
           "col": 0,
           "length": 3,
-          "answer": "CAM",
-          "clue": "Rotating part",
+          "answer": "ASH",
+          "clue": "Tree",
           "source": "dataset"
         }
       ]

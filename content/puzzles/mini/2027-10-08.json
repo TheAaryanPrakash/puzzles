@@ -3,52 +3,26 @@
     "size": 5,
     "cells": [
       null,
-      null,
       {
-        "answer": "U",
+        "answer": "O",
         "number": 1
       },
       {
-        "answer": "N",
+        "answer": "M",
         "number": 2
       },
       {
-        "answer": "O",
+        "answer": "I",
         "number": 3
+      },
+      {
+        "answer": "T",
+        "number": 4
       },
       null,
       {
-        "answer": "S",
-        "number": 4
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "W"
-      },
-      {
-        "answer": "W",
+        "answer": "M",
         "number": 5
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "O",
-        "number": 6
       },
       {
         "answer": "A"
@@ -57,20 +31,51 @@
         "answer": "T"
       },
       {
-        "answer": "S"
+        "answer": "H"
       },
-      null,
       {
-        "answer": "W",
+        "answer": "N",
+        "number": 6
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "U",
         "number": 7
       },
       {
         "answer": "H"
       },
       {
-        "answer": "Y"
+        "answer": "O"
+      },
+      {
+        "answer": "H"
       },
       null,
+      {
+        "answer": "M",
+        "number": 8
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "Y"
+      },
       null
     ],
     "clues": {
@@ -78,46 +83,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "UNO",
-          "clue": "One in Milan",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "SNOW",
-          "clue": "Chilly powder",
+          "answer": "OMIT",
+          "clue": "Jump over",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "WHITE",
-          "clue": "Wintry, in a way",
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "MATH",
+          "clue": "School subject",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 3,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "answer": "OATS",
-          "clue": "Stable diet",
+          "length": 5,
+          "answer": "NANCY",
+          "clue": "Woman's name that's also a city in France",
           "source": "dataset"
         },
         {
           "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "UHOH",
+          "clue": "\"I'm toast\"",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
           "row": 4,
           "col": 0,
-          "length": 3,
-          "answer": "WHY",
-          "clue": "One of the five W's",
+          "length": 4,
+          "answer": "MARY",
+          "clue": "She had a little lamb",
           "source": "dataset"
         }
       ],
@@ -125,46 +130,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "UNITY",
-          "clue": "Oneness",
+          "answer": "OMAHA",
+          "clue": "Normandy beach",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "NOTS",
-          "clue": "Forget-me- - (flowers)",
+          "col": 2,
+          "length": 5,
+          "answer": "MANOR",
+          "clue": "Bruce Wayne lives in one",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 3,
-          "answer": "OWE",
-          "clue": "Need to pay",
+          "col": 3,
+          "length": 5,
+          "answer": "ITCHY",
+          "clue": "Needing a scratch",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "SHAH",
-          "clue": "Persian leader",
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "answer": "THY",
+          "clue": "\"Know - enemy\"",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 6,
           "row": 2,
           "col": 0,
           "length": 3,
-          "answer": "WOW",
-          "clue": "'Holy moly!'",
+          "answer": "NUM",
+          "clue": "Book before Deut",
           "source": "dataset"
         }
       ]
@@ -173,40 +178,29 @@
   "reserve": {
     "size": 5,
     "cells": [
-      null,
       {
-        "answer": "H",
+        "answer": "A",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "T",
         "number": 2
       },
       {
-        "answer": "L",
+        "answer": "M",
         "number": 3
       },
       {
-        "answer": "O",
+        "answer": "S",
         "number": 4
       },
       null,
       {
-        "answer": "I",
+        "answer": "B",
         "number": 5
       },
       {
-        "answer": "C"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "M",
-        "number": 6
+        "answer": "O"
       },
       {
         "answer": "A"
@@ -214,59 +208,71 @@
       {
         "answer": "T"
       },
+      null,
       {
-        "answer": "Z"
+        "answer": "C",
+        "number": 6
       },
       {
         "answer": "O"
       },
       {
-        "answer": "B",
-        "number": 7
+        "answer": "C"
       },
       {
-        "answer": "L"
+        "answer": "O"
+      },
+      {
+        "answer": "A",
+        "number": 7
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 8
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      null,
+      {
+        "answer": "H",
+        "number": 9
       },
       {
         "answer": "U"
       },
       {
-        "answer": "E"
-      },
-      null,
-      {
-        "answer": "A",
-        "number": 8
-      },
-      {
         "answer": "L"
       },
       {
-        "answer": "P"
-      },
-      {
-        "answer": "S"
-      },
-      null
+        "answer": "K"
+      }
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 0,
           "length": 4,
-          "answer": "HALO",
-          "clue": "Aura",
+          "answer": "ATMS",
+          "clue": "$ dispensers",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 1,
+          "col": 0,
           "length": 4,
-          "answer": "ICAN",
-          "clue": "'Count on me!'",
+          "answer": "BOAT",
+          "clue": "Gravy vessel",
           "source": "dataset"
         },
         {
@@ -274,26 +280,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "MATZO",
-          "clue": "Unleavened bread",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 4,
-          "answer": "BLUE",
-          "clue": "Unhappy",
+          "answer": "COCOA",
+          "clue": "___ butter",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 4,
-          "col": 0,
+          "row": 3,
+          "col": 1,
           "length": 4,
-          "answer": "ALPS",
-          "clue": "Swiss peaks",
+          "answer": "THOR",
+          "clue": "Norse deity",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 1,
+          "length": 4,
+          "answer": "HULK",
+          "clue": "\"Incredible\" green hero",
           "source": "dataset"
         }
       ],
@@ -301,46 +307,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "HIALL",
-          "clue": "Greeting for a group",
+          "col": 0,
+          "length": 3,
+          "answer": "ABC",
+          "clue": "Alphabet opener",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "ACTUP",
-          "clue": "Malfunction",
+          "answer": "TOOTH",
+          "clue": "Part of a comb",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
+          "col": 2,
           "length": 5,
-          "answer": "LAZES",
-          "clue": "Takes it easy",
+          "answer": "MACHU",
+          "clue": "___ Picchu",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 4,
-          "length": 3,
-          "answer": "ONO",
-          "clue": "Yoko of art",
+          "col": 3,
+          "length": 5,
+          "answer": "STOOL",
+          "clue": "Seat at the bar",
           "source": "dataset"
         },
         {
-          "number": 6,
+          "number": 7,
           "row": 2,
-          "col": 0,
+          "col": 4,
           "length": 3,
-          "answer": "MBA",
-          "clue": "CFO's degree",
+          "answer": "ARK",
+          "clue": "Noah's boat",
           "source": "dataset"
         }
       ]

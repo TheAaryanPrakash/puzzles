@@ -2,61 +2,226 @@
   "payload": {
     "size": 5,
     "cells": [
+      null,
+      null,
       {
-        "answer": "Q",
+        "answer": "X",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "X",
         "number": 2
       },
       {
-        "answer": "N",
+        "answer": "X",
         "number": 3
       },
+      null,
       {
-        "answer": "D",
+        "answer": "H",
         "number": 4
-      },
-      {
-        "answer": "A",
-        "number": 5
-      },
-      {
-        "answer": "U",
-        "number": 6
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "I",
-        "number": 7
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "K"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "D"
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "X",
+        "number": 5
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "X"
+      },
+      {
+        "answer": "F",
+        "number": 6
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "L",
+        "number": 7
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "S"
+      },
+      null
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "XXX",
+          "clue": "Moonshine marking",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "HERO",
+          "clue": "Beau ideal",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "XANAX",
+          "clue": "Palindromic anxiety drug",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "FROYO",
+          "clue": "Swirled dessert",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "LENS",
+          "clue": "One contact",
+          "source": "dataset"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "answer": "XENON",
+          "clue": "Arc lamp gas",
+          "source": "dataset"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "XRAYS",
+          "clue": "Pictures for the dentist",
+          "source": "dataset"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "XOXO",
+          "clue": "Letter signoff",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "answer": "HARE",
+          "clue": "March ___",
+          "source": "dataset"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "answer": "XFL",
+          "clue": "Former gridiron organization for the Memphis Maniax and Orlando Rage",
+          "source": "dataset"
+        }
+      ]
+    }
+  },
+  "reserve": {
+    "size": 5,
+    "cells": [
+      {
+        "answer": "C",
+        "number": 1
+      },
+      {
+        "answer": "R",
+        "number": 2
+      },
+      {
+        "answer": "I",
+        "number": 3
+      },
+      {
+        "answer": "S",
+        "number": 4
       },
       {
         "answer": "P",
-        "number": 8
+        "number": 5
+      },
+      {
+        "answer": "L",
+        "number": 6
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "U",
+        "number": 7
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "T"
       },
       {
         "answer": "I"
@@ -65,21 +230,33 @@
         "answer": "E"
       },
       {
-        "answer": "C"
+        "answer": "C",
+        "number": 8
       },
       {
-        "answer": "E"
+        "answer": "O"
       },
-      null,
       {
-        "answer": "A",
+        "answer": "R"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "K",
         "number": 9
       },
       {
-        "answer": "S"
+        "answer": "N"
       },
       {
-        "answer": "K"
+        "answer": "O"
+      },
+      {
+        "answer": "T"
       },
       {
         "answer": "S"
@@ -92,8 +269,8 @@
           "row": 0,
           "col": 0,
           "length": 5,
-          "answer": "QANDA",
-          "clue": "Lecture ___",
+          "answer": "CRISP",
+          "clue": "Like fall air",
           "source": "dataset"
         },
         {
@@ -101,8 +278,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "UTURN",
-          "clue": "180",
+          "answer": "LUNAR",
+          "clue": "Like a moon landing",
           "source": "dataset"
         },
         {
@@ -110,8 +287,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "IRKED",
-          "clue": "Nettled",
+          "answer": "UNTIE",
+          "clue": "Undo, unlace",
           "source": "dataset"
         },
         {
@@ -119,17 +296,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "PIECE",
-          "clue": "Bit; item",
+          "answer": "CORNY",
+          "clue": "Over-sentimental",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 1,
-          "length": 4,
-          "answer": "ASKS",
-          "clue": "Queries",
+          "col": 0,
+          "length": 5,
+          "answer": "KNOTS",
+          "clue": "Much of macrame",
           "source": "dataset"
         }
       ],
@@ -138,9 +315,9 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 4,
-          "answer": "QUIP",
-          "clue": "Witty line",
+          "length": 5,
+          "answer": "CLUCK",
+          "clue": "Brooding animal's noise",
           "source": "dataset"
         },
         {
@@ -148,8 +325,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "ATRIA",
-          "clue": "Two of hearts",
+          "answer": "RUNON",
+          "clue": "Talk too long",
           "source": "dataset"
         },
         {
@@ -157,8 +334,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "NUKES",
-          "clue": "Microwaves",
+          "answer": "INTRO",
+          "clue": "Lead-in",
           "source": "dataset"
         },
         {
@@ -166,8 +343,8 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "DRECK",
-          "clue": "Rubbish",
+          "answer": "SAINT",
+          "clue": "Virtuous one",
           "source": "dataset"
         },
         {
@@ -175,188 +352,8 @@
           "row": 0,
           "col": 4,
           "length": 5,
-          "answer": "ANDES",
-          "clue": "Chilean range",
-          "source": "dataset"
-        }
-      ]
-    }
-  },
-  "reserve": {
-    "size": 5,
-    "cells": [
-      null,
-      {
-        "answer": "T",
-        "number": 1
-      },
-      {
-        "answer": "A",
-        "number": 2
-      },
-      {
-        "answer": "C",
-        "number": 3
-      },
-      {
-        "answer": "T",
-        "number": 4
-      },
-      {
-        "answer": "C",
-        "number": 5
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "O",
-        "number": 6
-      },
-      {
-        "answer": "B"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "M",
-        "number": 7
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "B",
-        "number": 8
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "E"
-      },
-      null
-    ],
-    "clues": {
-      "across": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "TACT",
-          "clue": "Delicate touch",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "CARLO",
-          "clue": "Gambino crime family patriarch",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "OBGYN",
-          "clue": "Reproductive health specialist",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "MOODY",
-          "clue": "Apt to sulk",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
-          "row": 4,
-          "col": 0,
-          "length": 4,
-          "answer": "BONE",
-          "clue": "___-tired",
-          "source": "dataset"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "TABOO",
-          "clue": "Not done",
-          "source": "dataset"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "ARGON",
-          "clue": "Chemical element",
-          "source": "dataset"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "CLYDE",
-          "clue": "Walt Frazier nickname",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "TONY",
-          "clue": "Stylish",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "COMB",
-          "clue": "Item in a purse",
+          "answer": "PREYS",
+          "clue": "Hunts for food",
           "source": "dataset"
         }
       ]

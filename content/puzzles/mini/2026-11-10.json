@@ -2,73 +2,81 @@
   "payload": {
     "size": 5,
     "cells": [
-      null,
-      null,
       {
-        "answer": "J",
+        "answer": "C",
         "number": 1
       },
       {
-        "answer": "O",
+        "answer": "H",
         "number": 2
       },
       {
-        "answer": "B",
+        "answer": "E",
         "number": 3
       },
-      null,
       {
-        "answer": "S",
+        "answer": "A",
         "number": 4
       },
       {
-        "answer": "U"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "F"
-      },
-      {
-        "answer": "C",
+        "answer": "P",
         "number": 5
       },
       {
-        "answer": "H"
+        "answer": "S",
+        "number": 6
       },
       {
         "answer": "I"
       },
       {
-        "answer": "E"
-      },
-      {
-        "answer": "F"
-      },
-      {
-        "answer": "B",
-        "number": 6
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "S"
-      },
-      null,
-      {
-        "answer": "S",
-        "number": 7
+        "answer": "X"
       },
       {
         "answer": "T"
       },
       {
+        "answer": "H"
+      },
+      {
+        "answer": "P",
+        "number": 7
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "A",
+        "number": 8
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "L"
+      },
+      {
         "answer": "Y"
+      },
+      null,
+      {
+        "answer": "N",
+        "number": 9
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "T"
       },
       null,
       null
@@ -78,46 +86,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "JOB",
-          "clue": "Assigned work",
-          "source": "dataset"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "SURF",
-          "clue": "Ride on a board",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "CHIEF",
-          "clue": "Fire department leader",
+          "answer": "CHEAP",
+          "clue": "Not built to last",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 3,
+          "row": 1,
           "col": 0,
-          "length": 4,
-          "answer": "BUCS",
-          "clue": "Captain Fear is their mascot",
+          "length": 5,
+          "answer": "SIXTH",
+          "clue": "Musical interval from A to F, say",
           "source": "dataset"
         },
         {
           "number": 7,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "answer": "PLUTO",
+          "clue": "Dwarf planet beyond Neptune",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "answer": "ALLY",
+          "clue": "Fellow fighter",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
           "row": 4,
           "col": 0,
           "length": 3,
-          "answer": "STY",
-          "clue": "Pig's place",
+          "answer": "NYT",
+          "clue": "WSJ competitor",
           "source": "dataset"
         }
       ],
@@ -125,46 +133,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 0,
           "length": 5,
-          "answer": "JUICY",
-          "clue": "Succulent (of fruit)",
+          "answer": "CSPAN",
+          "clue": "Congressional channel",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "ORES",
-          "clue": "Mined finds",
+          "col": 1,
+          "length": 5,
+          "answer": "HILLY",
+          "clue": "Like some dirt bike tracks S (nonverbal)",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 3,
-          "answer": "BFF",
-          "clue": "Texter's #1 pal",
+          "col": 2,
+          "length": 5,
+          "answer": "EXULT",
+          "clue": "Express great joy",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 1,
+          "row": 0,
+          "col": 3,
           "length": 4,
-          "answer": "SHUT",
-          "clue": "-",
+          "answer": "ATTY",
+          "clue": "Lawyer abbreviation",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 2,
-          "col": 0,
+          "row": 0,
+          "col": 4,
           "length": 3,
-          "answer": "CBS",
-          "clue": "Grammy channel",
+          "answer": "PHO",
+          "clue": "Vietnamese noodle soup",
           "source": "dataset"
         }
       ]
@@ -174,85 +182,85 @@
     "size": 5,
     "cells": [
       {
-        "answer": "R",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "O",
+        "answer": "T",
         "number": 2
       },
       {
-        "answer": "L",
+        "answer": "R",
         "number": 3
       },
       {
-        "answer": "E",
+        "answer": "A",
         "number": 4
       },
       {
-        "answer": "S",
+        "answer": "W",
         "number": 5
       },
       {
-        "answer": "E",
+        "answer": "A",
         "number": 6
-      },
-      {
-        "answer": "X"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "F",
-        "number": 7
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "F"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "Y"
-      },
-      {
-        "answer": "I",
-        "number": 8
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "T",
-        "number": 9
-      },
-      {
-        "answer": "E"
       },
       {
         "answer": "R"
       },
       {
+        "answer": "U"
+      },
+      {
         "answer": "S"
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "G",
+        "number": 7
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "A",
+        "number": 8
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "U"
+      },
+      {
+        "answer": "M"
+      },
+      {
+        "answer": "S",
+        "number": 9
+      },
+      {
+        "answer": "K"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "P"
       },
       {
         "answer": "E"
@@ -265,8 +273,8 @@
           "row": 0,
           "col": 0,
           "length": 5,
-          "answer": "ROLES",
-          "clue": "Cameos, e.g",
+          "answer": "STRAW",
+          "clue": "Sipping aid",
           "source": "dataset"
         },
         {
@@ -274,26 +282,26 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "EXIST",
-          "clue": "Walk the earth",
-          "source": "dataset"
+          "answer": "ARUSH",
+          "clue": "'In ___' (hurried)",
+          "source": "written"
         },
         {
           "number": 7,
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "FIFTY",
-          "clue": "Half of 100",
-          "source": "dataset"
+          "answer": "GUNKY",
+          "clue": "Grimy and sticky",
+          "source": "written"
         },
         {
           "number": 8,
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "IDEAL",
-          "clue": "Epitome",
+          "answer": "ANNUM",
+          "clue": "Per ___",
           "source": "dataset"
         },
         {
@@ -301,8 +309,8 @@
           "row": 4,
           "col": 0,
           "length": 5,
-          "answer": "TERSE",
-          "clue": "Laconic",
+          "answer": "SKYPE",
+          "clue": "FaceTime competitor",
           "source": "dataset"
         }
       ],
@@ -312,8 +320,8 @@
           "row": 0,
           "col": 0,
           "length": 5,
-          "answer": "REFIT",
-          "clue": "Equip anew",
+          "answer": "SAGAS",
+          "clue": "Heroic tales",
           "source": "dataset"
         },
         {
@@ -321,8 +329,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "OXIDE",
-          "clue": "Corundum, for one",
+          "answer": "TRUNK",
+          "clue": "Elephant part",
           "source": "dataset"
         },
         {
@@ -330,8 +338,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "LIFER",
-          "clue": "Die-hard fan no matter what, in slang",
+          "answer": "RUNNY",
+          "clue": "Like undercooked eggs",
           "source": "dataset"
         },
         {
@@ -339,8 +347,8 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "ESTAS",
-          "clue": "These, in Mexico",
+          "answer": "ASKUP",
+          "clue": "Invite to one's penthouse, say",
           "source": "dataset"
         },
         {
@@ -348,8 +356,8 @@
           "row": 0,
           "col": 4,
           "length": 5,
-          "answer": "STYLE",
-          "clue": "M.O",
+          "answer": "WHYME",
+          "clue": "Response to being chosen for audience participation, maybe",
           "source": "dataset"
         }
       ]

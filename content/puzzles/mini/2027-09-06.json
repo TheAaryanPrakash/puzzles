@@ -4,81 +4,81 @@
     "cells": [
       null,
       {
-        "answer": "C",
+        "answer": "T",
         "number": 1
       },
       {
-        "answer": "Z",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "A",
+        "answer": "S",
         "number": 3
       },
       {
-        "answer": "R",
+        "answer": "K",
         "number": 4
       },
       {
-        "answer": "R",
+        "answer": "J",
         "number": 5
       },
       {
-        "answer": "H"
+        "answer": "U"
       },
       {
         "answer": "I"
       },
       {
-        "answer": "N"
+        "answer": "C"
       },
       {
-        "answer": "O"
+        "answer": "E"
       },
       {
-        "answer": "O",
+        "answer": "I",
         "number": 6
       },
       {
-        "answer": "I"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "K"
+        "answer": "D"
       },
       {
         "answer": "S"
       },
       {
-        "answer": "A",
+        "answer": "A"
+      },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "L",
         "number": 7
       },
       {
-        "answer": "N"
-      },
-      {
-        "answer": "G"
+        "answer": "O"
       },
       {
         "answer": "L"
       },
       {
-        "answer": "E"
-      },
-      {
-        "answer": "D",
-        "number": 8
-      },
-      {
-        "answer": "O"
+        "answer": "L"
       },
       {
         "answer": "S"
       },
       {
+        "answer": "T",
+        "number": 8
+      },
+      {
+        "answer": "R"
+      },
+      {
         "answer": "E"
+      },
+      {
+        "answer": "Y"
       },
       null
     ],
@@ -89,8 +89,8 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "CZAR",
-          "clue": "Russian ruler",
+          "answer": "TASK",
+          "clue": "Chore",
           "source": "dataset"
         },
         {
@@ -98,8 +98,8 @@
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "RHINO",
-          "clue": "African grazer",
+          "answer": "JUICE",
+          "clue": "Liquid from fruit or vegetable",
           "source": "dataset"
         },
         {
@@ -107,8 +107,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "OINKS",
-          "clue": "Porcine sounds",
+          "answer": "IDSAY",
+          "clue": "'My opinion is . . .'",
           "source": "dataset"
         },
         {
@@ -116,8 +116,8 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "ANGLE",
-          "clue": "Trig topic",
+          "answer": "LOLLS",
+          "clue": "Vegges out",
           "source": "dataset"
         },
         {
@@ -125,8 +125,8 @@
           "row": 4,
           "col": 0,
           "length": 4,
-          "answer": "DOSE",
-          "clue": "A teaspoon, say",
+          "answer": "TREY",
+          "clue": "Low card",
           "source": "dataset"
         }
       ],
@@ -136,8 +136,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "CHINO",
-          "clue": "Cotton twill fabric",
+          "answer": "TUDOR",
+          "clue": "Jet trainer",
           "source": "dataset"
         },
         {
@@ -145,17 +145,17 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ZINGS",
-          "clue": "Witty retorts",
-          "source": "written"
+          "answer": "AISLE",
+          "clue": "Gangway",
+          "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "ANKLE",
-          "clue": "Low joint",
+          "answer": "SCALY",
+          "clue": "Like salmon",
           "source": "dataset"
         },
         {
@@ -163,8 +163,8 @@
           "row": 0,
           "col": 4,
           "length": 4,
-          "answer": "ROSE",
-          "clue": "Got higher",
+          "answer": "KEYS",
+          "clue": "Esc and Tab",
           "source": "dataset"
         },
         {
@@ -172,8 +172,8 @@
           "row": 1,
           "col": 0,
           "length": 4,
-          "answer": "ROAD",
-          "clue": "Artery",
+          "answer": "JILT",
+          "clue": "Reject unexpectedly",
           "source": "dataset"
         }
       ]
@@ -183,83 +183,85 @@
     "size": 5,
     "cells": [
       {
-        "answer": "A",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "B",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "C",
+        "answer": "G",
         "number": 3
       },
-      null,
-      null,
       {
-        "answer": "C",
+        "answer": "E",
         "number": 4
       },
       {
-        "answer": "R"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "C",
+        "answer": "S",
         "number": 5
       },
       {
-        "answer": "K",
+        "answer": "P",
         "number": 6
-      },
-      {
-        "answer": "T",
-        "number": 7
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S"
       },
       {
         "answer": "L"
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "S",
-        "number": 8
-      },
-      {
-        "answer": "A"
+        "answer": "U"
       },
       {
         "answer": "T"
       },
       {
-        "answer": "A"
+        "answer": "O"
       },
       {
-        "answer": "N"
-      },
-      null,
-      {
-        "answer": "K",
-        "number": 9
+        "answer": "A",
+        "number": 7
       },
       {
-        "answer": "E"
+        "answer": "L"
       },
       {
         "answer": "P"
       },
       {
+        "answer": "H"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "M",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
         "answer": "T"
-      }
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      null,
+      {
+        "answer": "W",
+        "number": 9
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S"
+      },
+      null
     ],
     "clues": {
       "across": [
@@ -267,18 +269,18 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 3,
-          "answer": "ABC",
-          "clue": "Easy as ___",
+          "length": 5,
+          "answer": "SAGES",
+          "clue": "Wise people",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 6,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "CRACK",
-          "clue": "Pavement problem",
+          "answer": "PLUTO",
+          "clue": "Disney dog",
           "source": "dataset"
         },
         {
@@ -286,8 +288,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "TESLA",
-          "clue": "Physicist Nikola",
+          "answer": "ALPHA",
+          "clue": "Beginning",
           "source": "dataset"
         },
         {
@@ -295,17 +297,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "SATAN",
-          "clue": "Old Nick",
+          "answer": "MOTOR",
+          "clue": "Power provider",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
           "col": 1,
-          "length": 4,
-          "answer": "KEPT",
-          "clue": "Held on to",
+          "length": 3,
+          "answer": "WAS",
+          "clue": "No longer is",
           "source": "dataset"
         }
       ],
@@ -315,8 +317,8 @@
           "row": 0,
           "col": 0,
           "length": 4,
-          "answer": "ACTS",
-          "clue": "Deeds",
+          "answer": "SPAM",
+          "clue": "Cybernuisance",
           "source": "dataset"
         },
         {
@@ -324,8 +326,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "BREAK",
-          "clue": "Short holiday",
+          "answer": "ALLOW",
+          "clue": "Let pass",
           "source": "dataset"
         },
         {
@@ -333,26 +335,26 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "CASTE",
-          "clue": "Indian social class",
+          "answer": "GUPTA",
+          "clue": "Sanjay of CNN",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "ETHOS",
+          "clue": "Set of values",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 3,
-          "length": 4,
-          "answer": "CLAP",
-          "clue": "Thunder stroke",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 1,
+          "row": 0,
           "col": 4,
           "length": 4,
-          "answer": "KANT",
-          "clue": "Immanuel -, philosopher",
+          "answer": "SOAR",
+          "clue": "Rise",
           "source": "dataset"
         }
       ]

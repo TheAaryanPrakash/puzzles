@@ -4,77 +4,77 @@
     "cells": [
       null,
       {
-        "answer": "G",
+        "answer": "A",
         "number": 1
       },
       {
-        "answer": "M",
+        "answer": "C",
         "number": 2
       },
       {
-        "answer": "C",
+        "answer": "H",
         "number": 3
+      },
+      {
+        "answer": "Y",
+        "number": 4
       },
       null,
       {
-        "answer": "D",
-        "number": 4
+        "answer": "T",
+        "number": 5
       },
       {
-        "answer": "O"
+        "answer": "R"
       },
       {
         "answer": "U"
       },
       {
-        "answer": "L"
+        "answer": "E"
       },
       {
-        "answer": "A",
-        "number": 5
-      },
-      {
-        "answer": "O",
+        "answer": "F",
         "number": 6
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "T"
       },
       {
         "answer": "O"
       },
       {
-        "answer": "P"
+        "answer": "A"
       },
       {
-        "answer": "O",
+        "answer": "M"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E",
         "number": 7
       },
       {
-        "answer": "N"
+        "answer": "M"
       },
       {
-        "answer": "T"
+        "answer": "M"
       },
       {
         "answer": "A"
       },
-      {
-        "answer": "P"
-      },
       null,
       {
-        "answer": "A",
+        "answer": "E",
         "number": 8
       },
       {
         "answer": "S"
       },
       {
-        "answer": "K"
+        "answer": "P"
+      },
+      {
+        "answer": "N"
       },
       null
     ],
@@ -84,18 +84,18 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 3,
-          "answer": "GMC",
-          "clue": "Savana automaker",
+          "length": 4,
+          "answer": "ACHY",
+          "clue": "Needing liniment",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "DOULA",
-          "clue": "Delivery room volunteer",
+          "col": 1,
+          "length": 4,
+          "answer": "TRUE",
+          "clue": "Accurate",
           "source": "dataset"
         },
         {
@@ -103,26 +103,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ONTOP",
-          "clue": "In the lead",
+          "answer": "FOAMS",
+          "clue": "Brewery heads",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 5,
-          "answer": "ONTAP",
-          "clue": "Ready for use",
+          "length": 4,
+          "answer": "EMMA",
+          "clue": "Female name",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
-          "col": 1,
-          "length": 3,
-          "answer": "ASK",
-          "clue": "Demand",
+          "col": 0,
+          "length": 4,
+          "answer": "ESPN",
+          "clue": "'NFL Live' channel",
           "source": "dataset"
         }
       ],
@@ -132,8 +132,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "GONNA",
-          "clue": "Commonly about to hear one who's had it",
+          "answer": "ATOMS",
+          "clue": "Smashable items",
           "source": "dataset"
         },
         {
@@ -141,8 +141,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "MUTTS",
-          "clue": "Many rescues",
+          "answer": "CRAMP",
+          "clue": "Seizure",
           "source": "dataset"
         },
         {
@@ -150,168 +150,109 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "CLOAK",
-          "clue": "Keep hidden",
+          "answer": "HUMAN",
+          "clue": "Word with interest and error",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
+          "row": 0,
+          "col": 4,
           "length": 3,
-          "answer": "DOO",
-          "clue": "Scooby-___",
+          "answer": "YES",
+          "clue": "\"I do\"",
           "source": "dataset"
         },
         {
-          "number": 5,
-          "row": 1,
-          "col": 4,
+          "number": 6,
+          "row": 2,
+          "col": 0,
           "length": 3,
-          "answer": "APP",
-          "clue": "PC program",
+          "answer": "FEE",
+          "clue": "Payment",
           "source": "dataset"
         }
       ]
     }
   },
   "reserve": {
-    "size": 7,
+    "size": 5,
     "cells": [
       null,
       null,
       {
-        "answer": "P",
+        "answer": "T",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "H",
         "number": 2
       },
       {
-        "answer": "W",
+        "answer": "E",
         "number": 3
       },
-      null,
-      null,
-      null,
       {
-        "answer": "D",
+        "answer": "Q",
         "number": 4
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "M"
+        "answer": "U",
+        "number": 5
       },
       {
         "answer": "E"
       },
       {
-        "answer": "S",
-        "number": 5
+        "answer": "E"
       },
-      null,
       {
-        "answer": "T",
+        "answer": "N"
+      },
+      {
+        "answer": "E",
         "number": 6
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "W"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "I"
+        "answer": "V"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "S",
+        "answer": "N"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "D",
         "number": 7
       },
       {
-        "answer": "U",
-        "number": 8
+        "answer": "A"
       },
       {
         "answer": "N"
       },
       {
-        "answer": "D"
+        "answer": "C"
+      },
+      {
+        "answer": "E"
+      },
+      null,
+      null,
+      {
+        "answer": "S",
+        "number": 8
       },
       {
         "answer": "E"
       },
       {
         "answer": "R"
-      },
-      {
-        "answer": "G"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "T",
-        "number": 9
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "Y"
-      },
-      null,
-      {
-        "answer": "T",
-        "number": 10
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "L"
-      },
-      null,
-      null,
-      null,
-      {
-        "answer": "Y",
-        "number": 11
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "Y"
-      },
-      null,
-      null
+      }
     ],
     "clues": {
       "across": [
@@ -320,62 +261,44 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "answer": "PAW",
-          "clue": "Fox foot",
+          "answer": "THE",
+          "clue": "One and only",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
+          "col": 0,
           "length": 5,
-          "answer": "DOMES",
-          "clue": "Stadium toppers",
+          "answer": "QUEEN",
+          "clue": "Hive leader",
           "source": "dataset"
         },
         {
           "number": 6,
           "row": 2,
           "col": 0,
-          "length": 7,
-          "answer": "TOWNIES",
-          "clue": "Local non-students, to college kids",
-          "source": "written"
+          "length": 5,
+          "answer": "EVENT",
+          "clue": "Occasion",
+          "source": "dataset"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "answer": "DANCE",
+          "clue": "Hula or hora",
+          "source": "dataset"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 0,
-          "length": 7,
-          "answer": "UNDERGO",
-          "clue": "Endure",
-          "source": "dataset"
-        },
-        {
-          "number": 9,
           "row": 4,
-          "col": 0,
-          "length": 7,
-          "answer": "TUESDAY",
-          "clue": "Mardi Gras, e.g",
-          "source": "dataset"
-        },
-        {
-          "number": 10,
-          "row": 5,
-          "col": 1,
-          "length": 5,
-          "answer": "TRILL",
-          "clue": "High-pitched warble",
-          "source": "dataset"
-        },
-        {
-          "number": 11,
-          "row": 6,
           "col": 2,
           "length": 3,
-          "answer": "YAY",
-          "clue": "\"Yess!\"",
+          "answer": "SER",
+          "clue": "Sun. church oration",
           "source": "dataset"
         }
       ],
@@ -384,63 +307,45 @@
           "number": 1,
           "row": 0,
           "col": 2,
-          "length": 7,
-          "answer": "POWDERY",
-          "clue": "Fine and dry, like fresh snow",
-          "source": "written"
+          "length": 5,
+          "answer": "TEENS",
+          "clue": "Low temps",
+          "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 7,
-          "answer": "AMNESIA",
-          "clue": "Memory loss",
+          "length": 5,
+          "answer": "HENCE",
+          "clue": "Thusly",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
-          "length": 7,
-          "answer": "WEIRDLY",
-          "clue": "Very strangely",
+          "length": 5,
+          "answer": "ENTER",
+          "clue": "Get in",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 5,
-          "answer": "DONUT",
-          "clue": "Coffee break snack",
+          "col": 0,
+          "length": 3,
+          "answer": "QED",
+          "clue": "Math proof abbr",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 5,
-          "length": 5,
-          "answer": "SEGAL",
-          "clue": "George of \"The Goldbergs\"",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
+          "col": 1,
           "length": 3,
-          "answer": "TUT",
-          "clue": "\"Tsk!\"",
-          "source": "dataset"
-        },
-        {
-          "number": 7,
-          "row": 2,
-          "col": 6,
-          "length": 3,
-          "answer": "SOY",
-          "clue": "Bean type",
+          "answer": "UVA",
+          "clue": "Kind of ray, briefly",
           "source": "dataset"
         }
       ]

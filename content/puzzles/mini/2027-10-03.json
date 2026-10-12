@@ -3,76 +3,55 @@
     "size": 5,
     "cells": [
       null,
+      null,
       {
-        "answer": "T",
+        "answer": "U",
         "number": 1
       },
       {
-        "answer": "Y",
+        "answer": "N",
         "number": 2
       },
       {
-        "answer": "P",
+        "answer": "O",
         "number": 3
       },
+      null,
       {
-        "answer": "O",
+        "answer": "S",
         "number": 4
       },
       {
-        "answer": "C",
+        "answer": "N"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "W"
+      },
+      {
+        "answer": "W",
         "number": 5
       },
       {
         "answer": "H"
       },
       {
-        "answer": "A"
-      },
-      {
         "answer": "I"
       },
       {
-        "answer": "N"
+        "answer": "T"
       },
       {
-        "answer": "L",
+        "answer": "E"
+      },
+      {
+        "answer": "O",
         "number": 6
       },
       {
-        "answer": "O"
-      },
-      {
-        "answer": "C"
-      },
-      {
-        "answer": "K"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "A",
-        "number": 7
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "H"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "M",
-        "number": 8
-      },
-      {
-        "answer": "E"
+        "answer": "A"
       },
       {
         "answer": "T"
@@ -80,6 +59,18 @@
       {
         "answer": "S"
       },
+      null,
+      {
+        "answer": "W",
+        "number": 7
+      },
+      {
+        "answer": "H"
+      },
+      {
+        "answer": "Y"
+      },
+      null,
       null
     ],
     "clues": {
@@ -87,46 +78,46 @@
         {
           "number": 1,
           "row": 0,
+          "col": 2,
+          "length": 3,
+          "answer": "UNO",
+          "clue": "One in Milan",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 1,
           "col": 1,
           "length": 4,
-          "answer": "TYPO",
-          "clue": "Misprint",
+          "answer": "SNOW",
+          "clue": "Chilly powder",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "CHAIN",
-          "clue": "Fetter",
+          "answer": "WHITE",
+          "clue": "Wintry, in a way",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
+          "row": 3,
           "col": 0,
-          "length": 5,
-          "answer": "LOCKE",
-          "clue": "Philosopher's almost impossible to get into",
+          "length": 4,
+          "answer": "OATS",
+          "clue": "Stable diet",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "ASHES",
-          "clue": "Fire remnants",
-          "source": "dataset"
-        },
-        {
-          "number": 8,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "METS",
-          "clue": "New York MLB squad",
+          "length": 3,
+          "answer": "WHY",
+          "clue": "One of the five W's",
           "source": "dataset"
         }
       ],
@@ -134,46 +125,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
           "length": 5,
-          "answer": "THOSE",
-          "clue": "The ones over there",
+          "answer": "UNITY",
+          "clue": "Oneness",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "YACHT",
-          "clue": "Regatta racer",
+          "col": 3,
+          "length": 4,
+          "answer": "NOTS",
+          "clue": "Forget-me- - (flowers)",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "PIKES",
-          "clue": "Old infantry weapons",
+          "col": 4,
+          "length": 3,
+          "answer": "OWE",
+          "clue": "Need to pay",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
+          "row": 1,
+          "col": 1,
           "length": 4,
-          "answer": "ONES",
-          "clue": "Folks",
+          "answer": "SHAH",
+          "clue": "Persian leader",
           "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "answer": "CLAM",
-          "clue": "Zip it (up)",
+          "length": 3,
+          "answer": "WOW",
+          "clue": "'Holy moly!'",
           "source": "dataset"
         }
       ]
@@ -183,50 +174,48 @@
     "size": 5,
     "cells": [
       {
-        "answer": "D",
+        "answer": "W",
         "number": 1
       },
       {
-        "answer": "R",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "U",
+        "answer": "C",
         "number": 3
       },
       {
-        "answer": "M",
+        "answer": "K",
         "number": 4
       },
+      null,
       {
-        "answer": "S",
+        "answer": "A",
         "number": 5
       },
       {
-        "answer": "J",
+        "answer": "T"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S",
         "number": 6
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "M"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "I",
+        "answer": "S",
         "number": 7
       },
       {
-        "answer": "D"
+        "answer": "T"
       },
       {
-        "answer": "A"
+        "answer": "O"
       },
       {
         "answer": "R"
@@ -235,11 +224,14 @@
         "answer": "E"
       },
       {
-        "answer": "N",
+        "answer": "H",
         "number": 8
       },
       {
-        "answer": "A"
+        "answer": "I"
+      },
+      {
+        "answer": "T"
       },
       {
         "answer": "M"
@@ -247,24 +239,19 @@
       {
         "answer": "E"
       },
+      null,
       {
-        "answer": "D"
-      },
-      {
-        "answer": "G",
+        "answer": "C",
         "number": 9
       },
       {
-        "answer": "R"
+        "answer": "H"
       },
       {
-        "answer": "I"
+        "answer": "A"
       },
       {
-        "answer": "D"
-      },
-      {
-        "answer": "S"
+        "answer": "P"
       }
     ],
     "clues": {
@@ -273,18 +260,18 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 5,
-          "answer": "DRUMS",
-          "clue": "Police officer collecting odd percussion instruments",
-          "source": "dataset"
+          "length": 4,
+          "answer": "WACK",
+          "clue": "Not good at all, in slang",
+          "source": "written"
         },
         {
-          "number": 6,
+          "number": 5,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "JAMIE",
-          "clue": "Foxx of 'Soul'",
+          "answer": "ATLAS",
+          "clue": "Map book",
           "source": "dataset"
         },
         {
@@ -292,8 +279,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "IDARE",
-          "clue": "'Go ahead, ___ you!'",
+          "answer": "STORE",
+          "clue": "Pack away",
           "source": "dataset"
         },
         {
@@ -301,17 +288,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "NAMED",
-          "clue": "Going by",
+          "answer": "HITME",
+          "clue": "Directive at a table",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 0,
-          "length": 5,
-          "answer": "GRIDS",
-          "clue": "Power-ful networks (wordplay)",
+          "col": 1,
+          "length": 4,
+          "answer": "CHAP",
+          "clue": "Bloke",
           "source": "dataset"
         }
       ],
@@ -320,9 +307,9 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 5,
-          "answer": "DJING",
-          "clue": "Turning the tables (wordplay)",
+          "length": 4,
+          "answer": "WASH",
+          "clue": "Clean with water",
           "source": "dataset"
         },
         {
@@ -330,8 +317,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "RADAR",
-          "clue": "Navigation aid",
+          "answer": "ATTIC",
+          "clue": "Garret",
           "source": "dataset"
         },
         {
@@ -339,8 +326,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "UMAMI",
-          "clue": "Taste sensation",
+          "answer": "CLOTH",
+          "clue": "Material",
           "source": "dataset"
         },
         {
@@ -348,17 +335,17 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "MIRED",
-          "clue": "Bogged down",
+          "answer": "KARMA",
+          "clue": "Buddhist fate",
           "source": "dataset"
         },
         {
-          "number": 5,
-          "row": 0,
+          "number": 6,
+          "row": 1,
           "col": 4,
-          "length": 5,
-          "answer": "SEEDS",
-          "clue": "Plants-to-be",
+          "length": 4,
+          "answer": "SEEP",
+          "clue": "Ooze",
           "source": "dataset"
         }
       ]

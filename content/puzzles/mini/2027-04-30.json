@@ -4,24 +4,24 @@
     "cells": [
       null,
       {
-        "answer": "S",
+        "answer": "C",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "L",
         "number": 2
       },
       {
-        "answer": "N",
+        "answer": "U",
         "number": 3
       },
-      null,
       {
-        "answer": "S",
+        "answer": "B",
         "number": 4
       },
       {
-        "answer": "A"
+        "answer": "A",
+        "number": 5
       },
       {
         "answer": "L"
@@ -30,51 +30,55 @@
         "answer": "O"
       },
       {
-        "answer": "N",
-        "number": 5
-      },
-      {
-        "answer": "I",
-        "number": 6
-      },
-      {
         "answer": "N"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "W"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "S",
-        "number": 7
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "R"
+        "answer": "L",
+        "number": 6
       },
       {
         "answer": "A"
       },
       {
-        "answer": "W"
+        "answer": "T"
       },
-      null,
       {
-        "answer": "A",
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "P",
+        "number": 7
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "S",
         "number": 8
       },
       {
         "answer": "M"
       },
       {
-        "answer": "Y"
+        "answer": "O"
+      },
+      {
+        "answer": "G"
       },
       null
     ],
@@ -84,18 +88,18 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 3,
-          "answer": "SAN",
-          "clue": "___ Jose",
+          "length": 4,
+          "answer": "CLUB",
+          "clue": "Driver or putter",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "SALON",
-          "clue": "Reception room",
+          "answer": "ALONE",
+          "clue": "Detached",
           "source": "dataset"
         },
         {
@@ -103,8 +107,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "INAWE",
-          "clue": "Stunned",
+          "answer": "LATTE",
+          "clue": "Part of PSL",
           "source": "dataset"
         },
         {
@@ -112,17 +116,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "STRAW",
-          "clue": "Drinking tube",
+          "answer": "PITAS",
+          "clue": "Falafel pockets",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
-          "col": 1,
-          "length": 3,
-          "answer": "AMY",
-          "clue": "Writer Tan",
+          "col": 0,
+          "length": 4,
+          "answer": "SMOG",
+          "clue": "Dirty air",
           "source": "dataset"
         }
       ],
@@ -132,8 +136,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "SANTA",
-          "clue": "Rudolph's boss",
+          "answer": "CLAIM",
+          "clue": "Assertion",
           "source": "dataset"
         },
         {
@@ -141,8 +145,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ALARM",
-          "clue": "Warning sound",
+          "answer": "LOTTO",
+          "clue": "Numbers game",
           "source": "dataset"
         },
         {
@@ -150,26 +154,26 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "NOWAY",
-          "clue": "I don't believe it!",
+          "answer": "UNTAG",
+          "clue": "Remove a label from, on a social network",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 3,
-          "answer": "SIS",
-          "clue": "Bro's kin",
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "answer": "BEES",
+          "clue": "Honey makers",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 4,
-          "length": 3,
-          "answer": "NEW",
-          "clue": "Just out",
+          "col": 0,
+          "length": 4,
+          "answer": "ALPS",
+          "clue": "Yodeling range",
           "source": "dataset"
         }
       ]
@@ -179,80 +183,88 @@
     "size": 5,
     "cells": [
       {
-        "answer": "T",
+        "answer": "S",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "T",
         "number": 2
       },
       {
-        "answer": "G",
+        "answer": "R",
         "number": 3
       },
-      null,
-      null,
       {
         "answer": "A",
         "number": 4
       },
       {
-        "answer": "X"
+        "answer": "W",
+        "number": 5
+      },
+      {
+        "answer": "I",
+        "number": 6
+      },
+      {
+        "answer": "R"
       },
       {
         "answer": "I"
       },
       {
-        "answer": "O",
-        "number": 5
-      },
-      {
-        "answer": "M",
-        "number": 6
-      },
-      {
-        "answer": "D",
-        "number": 7
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "L"
+        "answer": "S"
       },
       {
         "answer": "H"
       },
       {
-        "answer": "I"
+        "answer": "M",
+        "number": 7
       },
       {
-        "answer": "A",
+        "answer": "A"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "S"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "O",
         "number": 8
       },
       {
-        "answer": "L"
+        "answer": "C"
       },
       {
-        "answer": "L"
+        "answer": "E"
       },
       {
-        "answer": "I"
+        "answer": "A"
       },
       {
         "answer": "N"
       },
-      null,
-      null,
       {
-        "answer": "S",
+        "answer": "N",
         "number": 9
       },
       {
-        "answer": "O"
+        "answer": "E"
+      },
+      {
+        "answer": "R"
       },
       {
         "answer": "D"
+      },
+      {
+        "answer": "S"
       }
     ],
     "clues": {
@@ -261,18 +273,18 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 3,
-          "answer": "TAG",
-          "clue": "Label",
+          "length": 5,
+          "answer": "STRAW",
+          "clue": "Scarecrow stuff",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 6,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "AXIOM",
-          "clue": "Accepted truth",
+          "answer": "IRISH",
+          "clue": "From Dublin",
           "source": "dataset"
         },
         {
@@ -280,8 +292,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "DELHI",
-          "clue": "New ___, India",
+          "answer": "MASSE",
+          "clue": "En ___ (as a large group)",
           "source": "dataset"
         },
         {
@@ -289,17 +301,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "ALLIN",
-          "clue": "Without reserve",
+          "answer": "OCEAN",
+          "clue": "Poet Vuong",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 2,
-          "length": 3,
-          "answer": "SOD",
-          "clue": "Lawn piece",
+          "col": 0,
+          "length": 5,
+          "answer": "NERDS",
+          "clue": "Uncool group",
           "source": "dataset"
         }
       ],
@@ -308,18 +320,18 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 4,
-          "answer": "TADA",
-          "clue": "'Et voila!'",
+          "length": 5,
+          "answer": "SIMON",
+          "clue": "\"Plaza Suite\" playwright",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
-          "length": 4,
-          "answer": "AXEL",
-          "clue": "Skating feat",
+          "length": 5,
+          "answer": "TRACE",
+          "clue": "Find and copy",
           "source": "dataset"
         },
         {
@@ -327,27 +339,27 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "GILLS",
-          "clue": "Fish's breathing organs",
-          "source": "written"
+          "answer": "RISER",
+          "clue": "Stage platform",
+          "source": "dataset"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "ASSAD",
+          "clue": "Family name in Mideast politics",
+          "source": "dataset"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 3,
-          "length": 4,
-          "answer": "OHIO",
-          "clue": "Akron's state",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 1,
+          "row": 0,
           "col": 4,
-          "length": 4,
-          "answer": "MIND",
-          "clue": "Care about",
-          "source": "dataset"
+          "length": 5,
+          "answer": "WHENS",
+          "clue": "'Since ___?' (incredulous question)",
+          "source": "written"
         }
       ]
     }

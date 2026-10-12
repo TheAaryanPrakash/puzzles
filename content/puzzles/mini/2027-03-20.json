@@ -304,77 +304,77 @@
     "cells": [
       null,
       {
-        "answer": "F",
+        "answer": "Q",
         "number": 1
       },
       {
-        "answer": "L",
+        "answer": "E",
         "number": 2
       },
       {
-        "answer": "E",
+        "answer": "D",
         "number": 3
-      },
-      {
-        "answer": "W",
-        "number": 4
       },
       null,
       {
-        "answer": "R",
-        "number": 5
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "F",
-        "number": 6
+        "answer": "P",
+        "number": 4
       },
       {
         "answer": "U"
       },
       {
-        "answer": "R"
+        "answer": "M"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S",
+        "number": 5
+      },
+      {
+        "answer": "B",
+        "number": 6
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "B"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T"
+      },
+      null,
+      {
+        "answer": "T",
+        "number": 8
       },
       {
         "answer": "R"
       },
       {
         "answer": "Y"
-      },
-      {
-        "answer": "L",
-        "number": 7
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "T"
-      },
-      null,
-      {
-        "answer": "U",
-        "number": 8
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "H"
       },
       null
     ],
@@ -384,18 +384,18 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 4,
-          "answer": "FLEW",
-          "clue": "Sped",
+          "length": 3,
+          "answer": "QED",
+          "clue": "End of a proof",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "ROAR",
-          "clue": "Crowd noise",
+          "col": 0,
+          "length": 5,
+          "answer": "PUMAS",
+          "clue": "Fast, tawny felines",
           "source": "dataset"
         },
         {
@@ -403,26 +403,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "FURRY",
-          "clue": "Like some friends",
+          "answer": "BIBLE",
+          "clue": "Sacred text",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 4,
-          "answer": "LINT",
-          "clue": "Dryer fuzz",
+          "length": 5,
+          "answer": "SLEET",
+          "clue": "Cold weather",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
-          "col": 0,
-          "length": 4,
-          "answer": "UTAH",
-          "clue": "Beehive State",
+          "col": 1,
+          "length": 3,
+          "answer": "TRY",
+          "clue": "Effort",
           "source": "dataset"
         }
       ],
@@ -432,8 +432,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "FRUIT",
-          "clue": "Apple or orange",
+          "answer": "QUILT",
+          "clue": "\"Patchwork\" blanket",
           "source": "dataset"
         },
         {
@@ -441,8 +441,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "LORNA",
-          "clue": "Doone of cookies and literature",
+          "answer": "EMBER",
+          "clue": "Burning reminder",
           "source": "dataset"
         },
         {
@@ -450,26 +450,26 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "EARTH",
-          "clue": "Planet",
+          "answer": "DALEY",
+          "clue": "Surname of two former Chicago mayors",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
+          "row": 1,
+          "col": 0,
           "length": 3,
-          "answer": "WRY",
-          "clue": "Dry",
+          "answer": "PBS",
+          "clue": "\"Nova\" airer",
           "source": "dataset"
         },
         {
-          "number": 6,
-          "row": 2,
-          "col": 0,
+          "number": 5,
+          "row": 1,
+          "col": 4,
           "length": 3,
-          "answer": "FLU",
-          "clue": "___ season",
+          "answer": "SET",
+          "clue": "Gelled",
           "source": "dataset"
         }
       ]

@@ -301,7 +301,7 @@
     "cells": [
       null,
       {
-        "answer": "H",
+        "answer": "C",
         "number": 1
       },
       {
@@ -312,25 +312,23 @@
         "answer": "W",
         "number": 3
       },
+      null,
       {
-        "answer": "K",
+        "answer": "J",
         "number": 4
-      },
-      {
-        "answer": "M",
-        "number": 5
-      },
-      {
-        "answer": "U"
-      },
-      {
-        "answer": "L"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "N"
+        "answer": "P"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N",
+        "number": 5
       },
       {
         "answer": "A",
@@ -340,44 +338,46 @@
         "answer": "M"
       },
       {
-        "answer": "I"
+        "answer": "P"
       },
       {
-        "answer": "G"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "D",
-        "number": 7
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "V"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "E",
-        "number": 8
-      },
-      {
-        "answer": "D"
+        "answer": "L"
       },
       {
         "answer": "E"
       },
       {
-        "answer": "N"
+        "answer": "B",
+        "number": 7
       },
-      null
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T"
+      }
     ],
     "clues": {
       "across": [
@@ -385,18 +385,18 @@
           "number": 1,
           "row": 0,
           "col": 1,
-          "length": 4,
-          "answer": "HAWK",
-          "clue": "War supporter",
+          "length": 3,
+          "answer": "CAW",
+          "clue": "Crow's cry",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 4,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "MULAN",
-          "clue": "Disney film based on a Chinese legend",
+          "answer": "JAPAN",
+          "clue": "Osaka's country",
           "source": "dataset"
         },
         {
@@ -404,8 +404,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "AMIGO",
-          "clue": "\"Hombre\" pal",
+          "answer": "AMPLE",
+          "clue": "Plenty of",
           "source": "dataset"
         },
         {
@@ -413,17 +413,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "DIVOT",
-          "clue": "Golfer's gouge",
+          "answer": "BELLA",
+          "clue": "'Twilight' protagonist",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "EDEN",
-          "clue": "Home for Eve",
+          "length": 5,
+          "answer": "SLEET",
+          "clue": "Hard rain",
           "source": "dataset"
         }
       ],
@@ -433,8 +433,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "HUMID",
-          "clue": "Muggy",
+          "answer": "CAMEL",
+          "clue": "Saharan beast",
           "source": "dataset"
         },
         {
@@ -442,8 +442,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ALIVE",
-          "clue": "Vibrant",
+          "answer": "APPLE",
+          "clue": "Pipped fruit",
           "source": "dataset"
         },
         {
@@ -451,26 +451,26 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "WAGON",
-          "clue": "Toddler's four-wheeler",
+          "answer": "WALLE",
+          "clue": "Pixar robot",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 0,
-          "col": 4,
+          "row": 1,
+          "col": 0,
           "length": 4,
-          "answer": "KNOT",
-          "clue": "Hitch, say",
+          "answer": "JABS",
+          "clue": "Snarky remarks",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 0,
+          "col": 4,
           "length": 4,
-          "answer": "MADE",
-          "clue": "Constructed",
+          "answer": "NEAT",
+          "clue": "Dapper",
           "source": "dataset"
         }
       ]

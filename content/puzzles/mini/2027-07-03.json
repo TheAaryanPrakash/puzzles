@@ -332,57 +332,46 @@
     "cells": [
       null,
       {
-        "answer": "A",
+        "answer": "M",
         "number": 1
       },
       {
-        "answer": "J",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "A",
+        "answer": "S",
         "number": 3
       },
       {
-        "answer": "X",
+        "answer": "H",
         "number": 4
       },
-      null,
       {
-        "answer": "L",
+        "answer": "S",
         "number": 5
       },
       {
-        "answer": "O"
+        "answer": "A"
       },
       {
-        "answer": "V"
+        "answer": "N"
       },
       {
-        "answer": "E"
+        "answer": "T"
       },
       {
-        "answer": "Y",
+        "answer": "A"
+      },
+      {
+        "answer": "A",
         "number": 6
       },
       {
-        "answer": "I"
+        "answer": "N"
       },
       {
-        "answer": "K"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "U",
-        "number": 7
-      },
-      {
-        "answer": "B"
+        "answer": "G"
       },
       {
         "answer": "E"
@@ -390,21 +379,38 @@
       {
         "answer": "R"
       },
-      null,
       {
-        "answer": "K",
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "N"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "S",
         "number": 8
       },
       {
-        "answer": "I"
+        "answer": "A"
       },
       {
-        "answer": "S"
+        "answer": "L"
       },
       {
-        "answer": "S"
+        "answer": "L"
       },
-      null
+      {
+        "answer": "Y"
+      }
     ],
     "clues": {
       "across": [
@@ -413,17 +419,17 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "AJAX",
-          "clue": "Powder cleanser brand",
+          "answer": "MASH",
+          "clue": "Prepare potatoes",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "LOVE",
-          "clue": "Adore",
+          "col": 0,
+          "length": 5,
+          "answer": "SANTA",
+          "clue": "Annual visitor",
           "source": "dataset"
         },
         {
@@ -431,26 +437,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "YIKES",
-          "clue": "'Uh-oh!'",
+          "answer": "ANGER",
+          "clue": "Tee off",
           "source": "dataset"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 4,
-          "answer": "UBER",
-          "clue": "Summoned ride",
+          "length": 5,
+          "answer": "SNEER",
+          "clue": "Evil grin",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "KISS",
-          "clue": "Smack",
+          "length": 5,
+          "answer": "SALLY",
+          "clue": "Sortie",
           "source": "dataset"
         }
       ],
@@ -460,8 +466,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "ALIBI",
-          "clue": "Excuse",
+          "answer": "MANNA",
+          "clue": "Food from heaven",
           "source": "dataset"
         },
         {
@@ -469,8 +475,8 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "JOKES",
-          "clue": "'Inside' ones may be hard to get",
+          "answer": "ANGEL",
+          "clue": "___-hair pasta",
           "source": "dataset"
         },
         {
@@ -478,26 +484,26 @@
           "row": 0,
           "col": 3,
           "length": 5,
-          "answer": "AVERS",
-          "clue": "Declares",
+          "answer": "STEEL",
+          "clue": "Gird (oneself)",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
           "col": 4,
-          "length": 3,
-          "answer": "XES",
-          "clue": "Marks a ballot",
+          "length": 5,
+          "answer": "HARRY",
+          "clue": "Wizard Potter",
           "source": "dataset"
         },
         {
-          "number": 6,
-          "row": 2,
+          "number": 5,
+          "row": 1,
           "col": 0,
-          "length": 3,
-          "answer": "YUK",
-          "clue": "Guffaw",
+          "length": 4,
+          "answer": "SASS",
+          "clue": "Cheek",
           "source": "dataset"
         }
       ]

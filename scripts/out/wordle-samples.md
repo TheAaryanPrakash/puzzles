@@ -10,23 +10,23 @@ Generated deterministically (seed 1). Re-running `generate.ts` reproduces this f
 
 ## 5 sample days
 
-### Day 1 — 2026-10-17
+### Day 1 — 2026-10-12
 
 Answer: **INDIE**
 
-### Day 91 — 2027-01-15
+### Day 91 — 2027-01-10
 
 Answer: **PANEL**
 
-### Day 181 — 2027-04-15
+### Day 181 — 2027-04-10
 
 Answer: **GREEN**
 
-### Day 271 — 2027-07-14
+### Day 271 — 2027-07-09
 
 Answer: **TORCH**
 
-### Day 365 — 2027-10-16
+### Day 365 — 2027-10-11
 
 Answer: **BLAST**
 

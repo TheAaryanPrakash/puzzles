@@ -300,11 +300,11 @@
     "size": 5,
     "cells": [
       {
-        "answer": "S",
+        "answer": "P",
         "number": 1
       },
       {
-        "answer": "O",
+        "answer": "A",
         "number": 2
       },
       {
@@ -312,71 +312,73 @@
         "number": 3
       },
       {
-        "answer": "V",
+        "answer": "M",
         "number": 4
       },
+      null,
       {
-        "answer": "E",
+        "answer": "A",
         "number": 5
       },
       {
-        "answer": "C",
-        "number": 6
+        "answer": "L"
       },
       {
-        "answer": "L"
+        "answer": "E"
       },
       {
         "answer": "U"
       },
       {
-        "answer": "E"
+        "answer": "T",
+        "number": 6
       },
       {
-        "answer": "S"
-      },
-      {
-        "answer": "I",
+        "answer": "U",
         "number": 7
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "R"
-      },
-      {
-        "answer": "I"
-      },
-      {
-        "answer": "S"
-      },
-      {
-        "answer": "F",
-        "number": 8
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "E"
       },
       {
         "answer": "L"
       },
-      null,
       {
-        "answer": "I",
-        "number": 9
+        "answer": "T"
       },
       {
         "answer": "R"
       },
       {
-        "answer": "S"
+        "answer": "A"
+      },
+      {
+        "answer": "L",
+        "number": 8
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "N"
       },
       null,
-      null
+      {
+        "answer": "Y",
+        "number": 9
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "K"
+      }
     ],
     "clues": {
       "across": [
@@ -384,18 +386,18 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 5,
-          "answer": "SOLVE",
-          "clue": "Figure out",
+          "length": 4,
+          "answer": "PALM",
+          "clue": "It's in your hand",
           "source": "dataset"
         },
         {
-          "number": 6,
+          "number": 5,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "CLUES",
-          "clue": "72 things in this puzzle",
+          "answer": "ALEUT",
+          "clue": "Native Alaskan",
           "source": "dataset"
         },
         {
@@ -403,26 +405,26 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "IDRIS",
-          "clue": "Elba of \"Cats\"",
+          "answer": "ULTRA",
+          "clue": "Super-duper",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 3,
           "col": 0,
-          "length": 4,
-          "answer": "FEEL",
-          "clue": "Use taction",
+          "length": 5,
+          "answer": "LOGAN",
+          "clue": "Hub at Harborside Drive, 02128",
           "source": "dataset"
         },
         {
           "number": 9,
           "row": 4,
-          "col": 0,
-          "length": 3,
-          "answer": "IRS",
-          "clue": "Returns org",
+          "col": 1,
+          "length": 4,
+          "answer": "YOLK",
+          "clue": "Part of an egg",
           "source": "dataset"
         }
       ],
@@ -431,9 +433,9 @@
           "number": 1,
           "row": 0,
           "col": 0,
-          "length": 5,
-          "answer": "SCIFI",
-          "clue": "'Star Wars' genre",
+          "length": 4,
+          "answer": "PAUL",
+          "clue": "Rudd of \"Ant-Man\"",
           "source": "dataset"
         },
         {
@@ -441,8 +443,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "OLDER",
-          "clue": "Farther along",
+          "answer": "ALLOY",
+          "clue": "Bronze or brass",
           "source": "dataset"
         },
         {
@@ -450,26 +452,26 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "LURES",
-          "clue": "Tempts",
+          "answer": "LETGO",
+          "clue": "Release",
           "source": "dataset"
         },
         {
           "number": 4,
           "row": 0,
           "col": 3,
-          "length": 4,
-          "answer": "VEIL",
-          "clue": "Face covering",
+          "length": 5,
+          "answer": "MURAL",
+          "clue": "Wall painting",
           "source": "dataset"
         },
         {
-          "number": 5,
-          "row": 0,
+          "number": 6,
+          "row": 1,
           "col": 4,
-          "length": 3,
-          "answer": "ESS",
-          "clue": "Road zigzag",
+          "length": 4,
+          "answer": "TANK",
+          "clue": "Nose-dive",
           "source": "dataset"
         }
       ]

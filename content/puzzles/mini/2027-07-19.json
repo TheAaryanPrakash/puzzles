@@ -3,45 +3,63 @@
     "size": 5,
     "cells": [
       null,
-      null,
       {
-        "answer": "R",
+        "answer": "B",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "L",
         "number": 2
       },
       {
-        "answer": "W",
+        "answer": "A",
         "number": 3
       },
       {
-        "answer": "A",
+        "answer": "B",
         "number": 4
       },
       {
-        "answer": "L",
+        "answer": "W",
         "number": 5
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "M"
+        "answer": "R"
       },
       {
         "answer": "O"
       },
       {
-        "answer": "T",
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "D",
         "number": 6
       },
       {
-        "answer": "I"
+        "answer": "E"
       },
       {
-        "answer": "M"
+        "answer": "B"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "S",
+        "number": 7
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "B"
       },
       {
         "answer": "E"
@@ -49,53 +67,39 @@
       {
         "answer": "R"
       },
+      null,
       {
-        "answer": "O",
-        "number": 7
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "N"
-      },
-      {
-        "answer": "D"
-      },
-      {
-        "answer": "Z",
+        "answer": "D",
         "number": 8
       },
       {
+        "answer": "Y"
+      },
+      {
         "answer": "E"
       },
       {
-        "answer": "N"
-      },
-      null,
-      null
+        "answer": "D"
+      }
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "RAW",
-          "clue": "___ deal",
+          "col": 1,
+          "length": 4,
+          "answer": "BLAB",
+          "clue": "Spill a secret",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "ALAMO",
-          "clue": "1836 siege site",
+          "answer": "WROTE",
+          "clue": "Composed prose",
           "source": "dataset"
         },
         {
@@ -103,8 +107,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "TIMER",
-          "clue": "Kitchen counter",
+          "answer": "DEBRA",
+          "clue": "Actress Messing of \"Will & Grace\"",
           "source": "dataset"
         },
         {
@@ -112,17 +116,17 @@
           "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "ONEND",
-          "clue": "Tipped",
+          "answer": "SABER",
+          "clue": "Cavalry officer's blade",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
-          "col": 0,
-          "length": 3,
-          "answer": "ZEN",
-          "clue": "Spiritual path",
+          "col": 1,
+          "length": 4,
+          "answer": "DYED",
+          "clue": "Applied henna to",
           "source": "dataset"
         }
       ],
@@ -130,46 +134,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "answer": "RAMEN",
-          "clue": "Noodle broth",
+          "answer": "BREAD",
+          "clue": "Loaf",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 4,
-          "answer": "AMEN",
-          "clue": "So be it",
+          "col": 2,
+          "length": 5,
+          "answer": "LOBBY",
+          "clue": "Seek to influence; room",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "WORD",
-          "clue": "Promise",
+          "col": 3,
+          "length": 5,
+          "answer": "ATREE",
+          "clue": "'... only God can make ___': Kilmer",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "ATOZ",
-          "clue": "All-encompassing",
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "answer": "BEARD",
+          "clue": "Whiskers",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "LINE",
-          "clue": "Cross the ___",
+          "col": 0,
+          "length": 3,
+          "answer": "WDS",
+          "clue": "OED entries",
           "source": "dataset"
         }
       ]
@@ -178,131 +182,132 @@
   "reserve": {
     "size": 5,
     "cells": [
-      null,
-      null,
       {
         "answer": "T",
         "number": 1
       },
       {
-        "answer": "E",
+        "answer": "A",
         "number": 2
       },
       {
-        "answer": "T",
+        "answer": "M",
         "number": 3
       },
       {
-        "answer": "A",
+        "answer": "E",
         "number": 4
       },
+      null,
       {
-        "answer": "L",
+        "answer": "I",
         "number": 5
       },
       {
-        "answer": "E"
+        "answer": "D"
       },
       {
-        "answer": "X"
+        "answer": "E"
       },
       {
         "answer": "A"
       },
       {
-        "answer": "T",
+        "answer": "L",
         "number": 6
       },
       {
-        "answer": "A"
-      },
-      {
-        "answer": "X"
+        "answer": "P",
+        "number": 7
       },
       {
         "answer": "E"
       },
       {
-        "answer": "S"
-      },
-      {
-        "answer": "O",
-        "number": 7
-      },
-      {
-        "answer": "Z"
-      },
-      {
-        "answer": "A"
+        "answer": "D"
       },
       {
         "answer": "R"
       },
       {
-        "answer": "K"
+        "answer": "O"
       },
       {
-        "answer": "Z",
+        "answer": "S",
         "number": 8
       },
       {
-        "answer": "E"
+        "answer": "L"
       },
       {
-        "answer": "S"
+        "answer": "I"
       },
       {
         "answer": "T"
       },
       {
         "answer": "S"
-      }
+      },
+      {
+        "answer": "Y",
+        "number": 9
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "H"
+      },
+      null
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "answer": "TET",
-          "clue": "Asian New Year",
+          "col": 0,
+          "length": 4,
+          "answer": "TAME",
+          "clue": "Not feral",
           "source": "dataset"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
           "col": 0,
           "length": 5,
-          "answer": "ALEXA",
-          "clue": "Echo voice",
-          "source": "dataset"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "TAXES",
-          "clue": "Invoice add-ons",
+          "answer": "IDEAL",
+          "clue": "Epitome",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
+          "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "OZARK",
-          "clue": "Missouri's ___ Mountains",
+          "answer": "PEDRO",
+          "clue": "Martinez with three Cy Youngs",
           "source": "dataset"
         },
         {
           "number": 8,
-          "row": 4,
+          "row": 3,
           "col": 0,
           "length": 5,
-          "answer": "ZESTS",
-          "clue": "Lemon rind strips",
+          "answer": "SLITS",
+          "clue": "Thin cuts",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "answer": "YEAH",
+          "clue": "\"Uh-huh\"",
           "source": "dataset"
         }
       ],
@@ -310,46 +315,46 @@
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 0,
           "length": 5,
-          "answer": "TEXAS",
-          "clue": "Paris is there",
+          "answer": "TIPSY",
+          "clue": "A little tight",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
+          "col": 1,
           "length": 5,
-          "answer": "EXERT",
-          "clue": "Employ",
+          "answer": "ADELE",
+          "clue": "'Skyfall' singer",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
+          "col": 2,
           "length": 5,
-          "answer": "TASKS",
-          "clue": "Job jar items",
+          "answer": "MEDIA",
+          "clue": "Podcasts, etc",
           "source": "dataset"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "answer": "ATOZ",
-          "clue": "All-inclusive",
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "answer": "EARTH",
+          "clue": "Mother ___",
           "source": "dataset"
         },
         {
-          "number": 5,
+          "number": 6,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "answer": "LAZE",
-          "clue": "Not do much",
+          "col": 4,
+          "length": 3,
+          "answer": "LOS",
+          "clue": "- Gatos",
           "source": "dataset"
         }
       ]

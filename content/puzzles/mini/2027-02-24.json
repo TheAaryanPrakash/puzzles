@@ -4,59 +4,41 @@
     "cells": [
       null,
       {
-        "answer": "M",
+        "answer": "B",
         "number": 1
       },
       {
-        "answer": "A",
+        "answer": "E",
         "number": 2
       },
       {
-        "answer": "C",
+        "answer": "T",
         "number": 3
       },
       {
-        "answer": "S",
+        "answer": "A",
         "number": 4
       },
+      null,
       {
-        "answer": "P",
+        "answer": "E",
         "number": 5
       },
       {
-        "answer": "I"
+        "answer": "X"
       },
       {
-        "answer": "L"
+        "answer": "A"
       },
       {
-        "answer": "O"
+        "answer": "M"
       },
       {
-        "answer": "T"
-      },
-      {
-        "answer": "O",
+        "answer": "F",
         "number": 6
       },
       {
-        "answer": "N"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "O"
-      },
-      {
-        "answer": "P"
-      },
-      {
-        "answer": "P",
-        "number": 7
-      },
-      {
-        "answer": "E"
+        "answer": "L"
       },
       {
         "answer": "A"
@@ -64,18 +46,36 @@
       {
         "answer": "K"
       },
+      {
+        "answer": "Y"
+      },
+      {
+        "answer": "R",
+        "number": 7
+      },
+      {
+        "answer": "I"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "E"
+      },
       null,
       {
-        "answer": "E",
+        "answer": "Y",
         "number": 8
       },
       {
-        "answer": "R"
+        "answer": "E"
       },
       {
-        "answer": "R"
+        "answer": "T"
       },
-      null,
+      {
+        "answer": "I"
+      },
       null
     ],
     "clues": {
@@ -85,17 +85,17 @@
           "row": 0,
           "col": 1,
           "length": 4,
-          "answer": "MACS",
-          "clue": "Some laptops",
+          "answer": "BETA",
+          "clue": "Phi ___ Kappa",
           "source": "dataset"
         },
         {
           "number": 5,
           "row": 1,
-          "col": 0,
-          "length": 5,
-          "answer": "PILOT",
-          "clue": "Plane's VIP",
+          "col": 1,
+          "length": 4,
+          "answer": "EXAM",
+          "clue": "School test",
           "source": "dataset"
         },
         {
@@ -103,8 +103,8 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "answer": "ONTOP",
-          "clue": "At the zenith",
+          "answer": "FLAKY",
+          "clue": "Unreliable",
           "source": "dataset"
         },
         {
@@ -112,17 +112,17 @@
           "row": 3,
           "col": 0,
           "length": 4,
-          "answer": "PEAK",
-          "clue": "Summit",
+          "answer": "RICE",
+          "clue": "Creole staple",
           "source": "dataset"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 3,
-          "answer": "ERR",
-          "clue": "Lapse",
+          "length": 4,
+          "answer": "YETI",
+          "clue": "Himalayan legend",
           "source": "dataset"
         }
       ],
@@ -132,8 +132,8 @@
           "row": 0,
           "col": 1,
           "length": 5,
-          "answer": "MINER",
-          "clue": "Worker who extracts",
+          "answer": "BELIE",
+          "clue": "Contradict",
           "source": "dataset"
         },
         {
@@ -141,17 +141,17 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "answer": "ALTAR",
-          "clue": "Ofrenda, e.g",
+          "answer": "EXACT",
+          "clue": "On the dot",
           "source": "dataset"
         },
         {
           "number": 3,
           "row": 0,
           "col": 3,
-          "length": 4,
-          "answer": "COOK",
-          "clue": "Swimmer, Wendy",
+          "length": 5,
+          "answer": "TAKEI",
+          "clue": "George who co-wrote the graphic memoir 'They Called Us Enemy'",
           "source": "dataset"
         },
         {
@@ -159,32 +159,33 @@
           "row": 0,
           "col": 4,
           "length": 3,
-          "answer": "STP",
-          "clue": "Indy additive",
+          "answer": "AMY",
+          "clue": "Actress Poehler",
           "source": "dataset"
         },
         {
-          "number": 5,
-          "row": 1,
+          "number": 6,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "answer": "POPE",
-          "clue": "Vatican head",
+          "length": 3,
+          "answer": "FRY",
+          "clue": "French ___",
           "source": "dataset"
         }
       ]
     }
   },
   "reserve": {
-    "size": 5,
+    "size": 7,
     "cells": [
       null,
+      null,
       {
-        "answer": "T",
+        "answer": "E",
         "number": 1
       },
       {
-        "answer": "Y",
+        "answer": "X",
         "number": 2
       },
       {
@@ -192,60 +193,87 @@
         "number": 3
       },
       {
-        "answer": "E",
+        "answer": "A",
         "number": 4
       },
       {
-        "answer": "W",
+        "answer": "T",
         "number": 5
       },
+      null,
       {
-        "answer": "H"
-      },
-      {
-        "answer": "E"
-      },
-      {
-        "answer": "A"
-      },
-      {
-        "answer": "T"
-      },
-      {
-        "answer": "H",
+        "answer": "S",
         "number": 6
       },
       {
-        "answer": "E"
-      },
-      {
-        "answer": "L"
-      },
-      {
-        "answer": "L"
+        "answer": "M"
       },
       {
         "answer": "O"
       },
       {
-        "answer": "A",
+        "answer": "O"
+      },
+      {
+        "answer": "C"
+      },
+      {
+        "answer": "H"
+      },
+      null,
+      {
+        "answer": "T",
         "number": 7
       },
       {
-        "answer": "S"
+        "answer": "A"
+      },
+      {
+        "answer": "X"
       },
       {
         "answer": "P"
       },
       {
-        "answer": "E"
+        "answer": "R"
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "S",
+        "number": 8
+      },
+      {
+        "answer": "A"
       },
       {
         "answer": "N"
       },
+      null,
       {
-        "answer": "M",
-        "number": 8
+        "answer": "P",
+        "number": 9
+      },
+      {
+        "answer": "O"
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "F",
+        "number": 10
+      },
+      {
+        "answer": "L"
+      },
+      {
+        "answer": "A"
+      },
+      {
+        "answer": "K",
+        "number": 11
       },
       {
         "answer": "E"
@@ -253,9 +281,44 @@
       {
         "answer": "S"
       },
+      null,
+      {
+        "answer": "P",
+        "number": 12
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "T"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "R"
+      },
       {
         "answer": "S"
       },
+      null,
+      {
+        "answer": "D",
+        "number": 13
+      },
+      {
+        "answer": "R"
+      },
+      {
+        "answer": "E"
+      },
+      {
+        "answer": "G"
+      },
+      {
+        "answer": "S"
+      },
+      null,
       null
     ],
     "clues": {
@@ -263,46 +326,73 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "answer": "TYPE",
-          "clue": "Sort",
-          "source": "dataset"
-        },
-        {
-          "number": 5,
-          "row": 1,
-          "col": 0,
+          "col": 2,
           "length": 5,
-          "answer": "WHEAT",
-          "clue": "White alternative",
+          "answer": "EXPAT",
+          "clue": "American living overseas",
           "source": "dataset"
         },
         {
           "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "answer": "HELLO",
-          "clue": "Hi!",
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "answer": "SMOOCH",
+          "clue": "Dance slowly while in an embrace",
           "source": "dataset"
         },
         {
           "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "answer": "ASPEN",
-          "clue": "'Quaking' tree",
+          "row": 2,
+          "col": 1,
+          "length": 6,
+          "answer": "TAXPRO",
+          "clue": "CPA, e.g",
           "source": "dataset"
         },
         {
           "number": 8,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "answer": "SAN",
+          "clue": "- Juan",
+          "source": "dataset"
+        },
+        {
+          "number": 9,
+          "row": 3,
+          "col": 4,
+          "length": 3,
+          "answer": "POR",
+          "clue": "'___ favor'",
+          "source": "dataset"
+        },
+        {
+          "number": 10,
           "row": 4,
           "col": 0,
-          "length": 4,
-          "answer": "MESS",
-          "clue": "Pigsty",
+          "length": 6,
+          "answer": "FLAKES",
+          "clue": "Total makeup",
+          "source": "dataset"
+        },
+        {
+          "number": 12,
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "answer": "PETERS",
+          "clue": "Broadway's Bernadette",
+          "source": "dataset"
+        },
+        {
+          "number": 13,
+          "row": 6,
+          "col": 0,
+          "length": 5,
+          "answer": "DREGS",
+          "clue": "Riffraff",
           "source": "dataset"
         }
       ],
@@ -310,46 +400,73 @@
         {
           "number": 1,
           "row": 0,
-          "col": 1,
-          "length": 5,
-          "answer": "THESE",
-          "clue": "The ones over here",
+          "col": 2,
+          "length": 7,
+          "answer": "EMANATE",
+          "clue": "Radiate",
           "source": "dataset"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "answer": "YELPS",
-          "clue": "Sounds of protest",
-          "source": "dataset"
+          "col": 3,
+          "length": 3,
+          "answer": "XOX",
+          "clue": "Hugs and kisses, in a sign-off",
+          "source": "written"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 3,
-          "length": 5,
-          "answer": "PALES",
-          "clue": "Is drained of color",
-          "source": "dataset"
+          "col": 4,
+          "length": 7,
+          "answer": "POPPERS",
+          "clue": "Bubble wrap bubbles, when squeezed",
+          "source": "written"
         },
         {
           "number": 4,
           "row": 0,
-          "col": 4,
-          "length": 4,
-          "answer": "ETON",
-          "clue": "British school",
+          "col": 5,
+          "length": 6,
+          "answer": "ACROSS",
+          "clue": "Bridging",
           "source": "dataset"
         },
         {
           "number": 5,
+          "row": 0,
+          "col": 6,
+          "length": 4,
+          "answer": "THOR",
+          "clue": "Thunder god",
+          "source": "dataset"
+        },
+        {
+          "number": 6,
           "row": 1,
+          "col": 1,
+          "length": 6,
+          "answer": "STALER",
+          "clue": "Not as fresh",
+          "source": "dataset"
+        },
+        {
+          "number": 8,
+          "row": 3,
           "col": 0,
           "length": 4,
-          "answer": "WHAM",
-          "clue": "Impact sound",
+          "answer": "SFPD",
+          "clue": "\"Ironside\" org",
+          "source": "dataset"
+        },
+        {
+          "number": 11,
+          "row": 4,
+          "col": 3,
+          "length": 3,
+          "answer": "KEG",
+          "clue": "Brew holder",
           "source": "dataset"
         }
       ]
