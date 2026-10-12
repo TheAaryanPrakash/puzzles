@@ -39,23 +39,30 @@ const BASE_ENGINE_OPTIONS: Record<Difficulty, Omit<EngineOptions, "movetimeMs">>
   hard: { skillLevel: 20, limitStrength: false, marginCp: 25 },
 };
 
-const HARD_MOVETIME_MS = 1200;
-const HARD_MOVETIME_FLOOR_MS = 200;
-/** The engine's own remaining clock time gets divided by this to cap how much of it one "hard"
- *  move may spend, so a low clock can't make the engine flag itself on a single slow think. */
-const HARD_MOVETIME_CLOCK_DIVISOR = 30;
+// Untimed games (clock "off") use these short, snappy budgets purely for a responsive "engine is
+// thinking" UX — there's no clock to respect, so there's no reason to make the player wait longer.
+const UNTIMED_MOVETIME_MS: Record<Difficulty, number> = { easy: 250, medium: 700, hard: 1200 };
 
-/**
- * `remainingMs` is the engine's own clock time left (not the player's), or `null` with no clock.
- * Only "hard" scales down — easy/medium's movetimes are already short enough never to matter.
- */
+// Timed games scale movetime off the engine's own remaining clock instead, so it actually spends a
+// visible, believable share of its time over a game rather than barely touching the clock (a flat
+// untimed-style budget against a 3-10 minute clock would use well under a minute across an entire
+// game). Each tier's ceiling is chosen so a full-strength Hard move (2000ms) roughly breaks even
+// against the one increment preset on offer (3+2 = 2000ms/move) instead of visibly gaining time —
+// confirmed by playing it live. The floor exists so a near-empty clock can't make a single move
+// think long enough to flag itself.
+const TIMED_MOVETIME_CEILING_MS: Record<Difficulty, number> = { easy: 600, medium: 1200, hard: 2000 };
+const TIMED_MOVETIME_FLOOR_MS = 300;
+const TIMED_MOVETIME_CLOCK_DIVISOR = 20;
+
+/** `remainingMs` is the engine's own clock time left (not the player's), or `null` with no clock. */
 export function engineOptionsFor(difficulty: Difficulty, remainingMs: number | null = null): EngineOptions {
   const base = BASE_ENGINE_OPTIONS[difficulty];
-  if (difficulty !== "hard" || remainingMs === null) {
-    return { ...base, movetimeMs: difficulty === "easy" ? 250 : difficulty === "medium" ? 700 : HARD_MOVETIME_MS };
+  if (remainingMs === null) {
+    return { ...base, movetimeMs: UNTIMED_MOVETIME_MS[difficulty] };
   }
-  const scaled = Math.floor(remainingMs / HARD_MOVETIME_CLOCK_DIVISOR);
-  return { ...base, movetimeMs: Math.max(HARD_MOVETIME_FLOOR_MS, Math.min(HARD_MOVETIME_MS, scaled)) };
+  const scaled = Math.floor(remainingMs / TIMED_MOVETIME_CLOCK_DIVISOR);
+  const ceiling = TIMED_MOVETIME_CEILING_MS[difficulty];
+  return { ...base, movetimeMs: Math.max(TIMED_MOVETIME_FLOOR_MS, Math.min(ceiling, scaled)) };
 }
 
 export interface EngineCandidate {

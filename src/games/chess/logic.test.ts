@@ -51,8 +51,26 @@ describe("engineOptionsFor", () => {
     expect(low.movetimeMs).toBeGreaterThanOrEqual(200);
   });
 
-  it("easy/medium movetime is unaffected by a low clock", () => {
-    expect(engineOptionsFor("easy", 500).movetimeMs).toBe(engineOptionsFor("easy", null).movetimeMs);
+  it("every tier scales movetime off a low clock, not just hard", () => {
+    for (const tier of ["easy", "medium", "hard"] as const) {
+      const plenty = engineOptionsFor(tier, 60_000);
+      const low = engineOptionsFor(tier, 1_000);
+      expect(low.movetimeMs).toBeLessThan(plenty.movetimeMs);
+    }
+  });
+
+  it("a timed game uses noticeably more time per move than an untimed one with a healthy clock", () => {
+    // Otherwise the engine barely touches a 3-10 minute clock over a whole game — see the
+    // "computer's clock visibly gaining time against 3+2" fix this guards against regressing.
+    for (const tier of ["easy", "medium", "hard"] as const) {
+      expect(engineOptionsFor(tier, 180_000).movetimeMs).toBeGreaterThan(engineOptionsFor(tier, null).movetimeMs);
+    }
+  });
+
+  it("hard's timed movetime roughly breaks even against the 3+2 preset's 2000ms increment", () => {
+    const { movetimeMs } = engineOptionsFor("hard", 180_000);
+    expect(movetimeMs).toBeGreaterThanOrEqual(1800);
+    expect(movetimeMs).toBeLessThanOrEqual(2200);
   });
 
   it("every tier's margin stays under a pawn's ~100cp value", () => {

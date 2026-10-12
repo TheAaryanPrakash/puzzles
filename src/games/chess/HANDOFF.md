@@ -15,11 +15,19 @@ last-used settings, and personal record — all namespaced
 `sansitas-puzzles:chess:{game,settings,record}:<userId>`.
 
 **Difficulty** (final, tuned values — see RESEARCH.md §4 for why):
-| Tier | Engine options | Movetime |
-|---|---|---|
-| Easy | `Skill Level = 1` | 250 ms |
-| Medium | `UCI_LimitStrength = true`, `UCI_Elo = 1500` | 700 ms |
-| Hard | full strength (`Skill Level = 20`, no limit) | 1200 ms, scaled down (floor 200 ms) when the engine's own clock gets low |
+| Tier | Engine options | Untimed movetime | Timed movetime |
+|---|---|---|---|
+| Easy | `Skill Level = 1` | 250 ms | up to 600 ms |
+| Medium | `UCI_LimitStrength = true`, `UCI_Elo = 1500` | 700 ms | up to 1200 ms |
+| Hard | full strength (`Skill Level = 20`, no limit) | 1200 ms | up to 2000 ms |
+
+With a clock running, movetime scales off the engine's own remaining time (`remainingMs / 20`,
+floor 300ms) up to the tier's timed ceiling above, instead of the small untimed defaults — a bug
+fix made live during QA: the untimed numbers are tuned for snappy UX with no clock to respect, and
+were small enough that the Computer barely touched a 3-10 minute clock over a whole game, and
+under the 3+2 preset's 2000ms increment specifically, actually *gained* time each move (correct
+Fischer math given a sub-1200ms movetime, but reads as broken). Verified live after the fix: 3+2
+now holds roughly flat instead of climbing, and 5+0/10+0 tick down normally, for every tier.
 
 **Move variety** — MultiPV 4 for the engine's first 10 moves, random pick within a cp margin of the
 best (Hard 25cp per the task baseline, Medium 45cp, Easy 70cp — all under a pawn's ~100cp value,

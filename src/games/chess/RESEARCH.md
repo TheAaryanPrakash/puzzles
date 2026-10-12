@@ -49,17 +49,28 @@ Confirmed from the [official UCI options wiki](https://github.com/official-stock
   official Elo table exists for it (checked the wiki and official repo — not published); only
   inconsistent forum anecdotes. We don't claim a precise Elo number for it in any UI copy.
 
-**Chosen tiers** (tuned by testing against ourselves during build, final values below; all movetimes
-are per-move search budgets for the single-threaded "lite-single" build):
+**Chosen tiers** (tuned by testing against ourselves during build, final values below):
 
-| Tier | Engine options | Movetime | Rationale |
+| Tier | Engine options | Untimed movetime | Rationale |
 |---|---|---|---|
 | **Easy** | `Skill Level = 1`, `UCI_LimitStrength = false` | 250 ms | Low but not 0 (0 can occasionally hang a piece in one move in a way that reads as "broken" rather than "beginner"; 1 still blunders often but keeps *some* search). Short movetime keeps it snappy and reinforces "weak" without needing to drop depth artificially. |
 | **Medium** | `UCI_LimitStrength = true`, `UCI_Elo = 1500` | 700 ms | 1500 sits in the middle of the requested 1400–1600 band and is comfortably inside Stockfish's documented, *calibrated* 1320–3190 range — unlike Skill Level, this mechanism is the one Stockfish's own docs claim is Elo-anchored (to CCRL 40/4), so it's the better-justified choice for "land near a target human rating." |
-| **Hard** | `UCI_LimitStrength = false`, `Skill Level = 20` (default/full strength) | 1200 ms, or less when the clock is low (see "Clock" in Chosen design) | Full-strength search at ~1s+ per move on a single-threaded lite build is well above club level; this is the standard "strong bot" config used by every reviewed implementation. |
+| **Hard** | `UCI_LimitStrength = false`, `Skill Level = 20` (default/full strength) | 1200 ms | Full-strength search at ~1s+ per move on a single-threaded lite build is well above club level; this is the standard "strong bot" config used by every reviewed implementation. |
 
 Engine `Threads` is left at 1 (the lite-single build is single-threaded anyway) and `Hash` at its
 small default — not worth tuning for a phone-friendly, short-lived Worker.
+
+**Timed games use larger movetimes than untimed ones** (post-launch fix, caught live rather than in
+initial research): the untimed numbers above are tuned purely for a snappy "engine is thinking" UX
+with no clock to respect, and are small enough that a flat per-move budget against a 3–10 minute
+clock would use well under a minute of it across an entire game — the Computer's clock would barely
+move, and against the one increment preset on offer (3+2, a 2000ms increment) a sub-1200ms movetime
+means the engine visibly *gains* time each move rather than spending it, which is correct Fischer
+math but reads as broken. Fixed by scaling movetime off the engine's own remaining clock
+(`remainingMs / 20`, floored at 300ms so a near-empty clock can't flag itself on one slow think) up
+to a per-tier ceiling chosen so Hard (2000ms) roughly breaks even against 3+2's increment — verified
+live: the Computer's clock holds flat under 3+2 and ticks down normally under 5+0/10+0, for all
+three tiers, not just Hard. See `logic.ts`'s `engineOptionsFor` and its tests.
 
 ## 5. Move variety (MultiPV)
 
