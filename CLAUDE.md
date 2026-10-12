@@ -228,18 +228,43 @@ their licence notice in the copied file, and list it in HANDOFF.md. Never copy G
 unlicensed code. No new npm packages. The contract, data layer and parallel rules always win.
 
 ## Design
-Overall feel: warm and playful. Each game page evokes its original game.
+Flowy, animated, warm and playful, **on black** (redesign, 2026-10 — see `docs/redesign/`). Brand
+pink `#E89EB8` on a near-black (never pure-grey) base. Each game page still evokes its original
+game, through its own semantic colours and signature animations — not through a different font or
+background any more.
 - **Site tier** (`src/styles/brand.css`, `--brand-*`, spacing, radii, motion): never overridden. Used by
   SiteHeader, Hub, SignIn, Join, Profile, Finale, and modal structure.
 - **Game tier** (`--game-*`, `--tile-*`): defaults in brand.css, overridden in
   `src/games/<id>/theme.css` under `[data-game="<id>"]`.
 - Components use semantic Tailwind classes only (`bg-game-surface`, `text-tile-correct`). No raw hex
   in components.
-- Games may change colour, font, tile shape, texture and signature animations. Header, modal layout,
-  spacing scale and motion durations stay shared.
+- **One font for the entire site, including inside every game**: `"Quicksand", sans-serif`
+  (`--brand-font` / `--brand-font-body`, both; `--game-font` inherits `--brand-font` by default —
+  a game's `theme.css` should not override it). No per-game `@fontsource` imports any more; the
+  single `@fontsource/quicksand` import lives in `src/main.tsx`. Chosen at Checkpoint 1 for reading
+  clearly at small sizes (Wordle tiles, Sudoku digits) without thinning out — see
+  `docs/redesign/RESEARCH.md` "Fonts" and `docs/redesign/checkpoint-1/fonts.png`.
+- Games differentiate through colour (`--game-*`/`--tile-*` semantic values — e.g. Wordle/Quordle's
+  correct/present/absent, Connections' 4 levels, Sudoku's given/entry/error, chess's dark/light
+  squares; see each game's `theme.css` and `docs/redesign/checkpoint-1/colors.png` for the approved
+  per-game palette), tile shape, texture and signature animations — never font, never background.
+  Header, modal layout, spacing scale and motion durations stay shared.
+- Shared motion/visual components (React Bits-derived, MIT + Commons Clause — a pre-approved
+  licence exception for this redesign only, see `docs/redesign/HANDOFF.md`) live in
+  `src/components/fx/`: `FluxLines` (the app-root background, mounted once, "calm" mode in games),
+  `MagicBento`, `FlipCard`, `JellyRadio`, `GlideSelect`, `SpecularButton`, plus `useSlotSpring`
+  (OTP-style spring motion for tile input) and `GlideCombobox` (type-to-search select). Each has
+  full keyboard/ARIA, touch support, `prefers-reduced-motion` handling and effect cleanup — see
+  `docs/redesign/RESEARCH.md` for the accessibility gaps found in the original components and how
+  each is closed in our adaptation. `SpecularButton` is reserved for primary actions only (Sign in,
+  Join, Share, Next game, Play, New game) to keep concurrent WebGL contexts low.
 - Wins celebrate via `completeGame` → `celebrate()`. No per-game confetti.
-- Game fonts via `@fontsource/<font>` imported in that game's `index.tsx`. Free lookalike fonts only.
 - Mobile-first (375px), full physical-keyboard support, touch support, `prefers-reduced-motion`.
+- **Screenshotting `FluxLines` or `SpecularButton`**: headless Chromium often has no WebGL2 support,
+  so both silently render blank (not an error, not a shader bug) under a default
+  `playwright-cli open`/`goto`. Use `playwright-cli open --headed` (or `--browser chrome`) whenever
+  a redesign screenshot includes either component, or the capture will look broken when the code is
+  fine — see `docs/redesign/HANDOFF.md` for the full writeup of this gotcha.
 
 ## Quality bar — a task is not done until
 - `RESEARCH.md` exists and the build follows it.

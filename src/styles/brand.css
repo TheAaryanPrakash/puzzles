@@ -7,26 +7,30 @@
 
 :root {
   /* ───────────── site tier ───────────── */
-  /* Soft rose (H345° — a true pink, not the original #E89E88's orange-coral 14°): backgrounds/
-     surfaces are a visibly pink blush rather than a barely-tinted one, and --brand-accent is a
-     deep rose/raspberry for buttons and links — darkened+saturated off the same 345° hue until
-     white button text and accent-as-link-text both cleared 4.5:1 (see docs/theme/README.md "Site
-     palette"). --brand-danger nudged a touch darker to hold 4.5:1 against the pinker bg; it now
-     sits ~68+ units from the accent under every colour-blindness simulation (was ~23-30 at the
-     old, more orange accent hue), so the two read as clearly different colours even then. */
-  --brand-bg: #f8e7eb;
-  --brand-fg: #2b2320;
-  --brand-surface: #fdfcfc;
-  --brand-surface-2: #f2d9df;
-  --brand-border: #e0a3b2;
-  --brand-accent: #ad1f42;
-  --brand-accent-fg: #ffffff;
-  --brand-muted: #86505e;
-  --brand-success: #357a57;
-  --brand-danger: #be3025;
+  /* Liquid-glass-on-black redesign (2026-10, docs/redesign/). Pink #E89EB8 (H343°) on near-black,
+     warm-pink-tinted surfaces — never pure grey. Values below are the exact swatches approved at
+     Checkpoint 1 (docs/redesign/checkpoint-1/colors.png and its mockup source), re-verified for
+     WCAG AA/AAA-where-noted there: fg/bg 16.53:1, accent-on-bg 4.97:1, accentFg-on-accent 4.66:1,
+     white-on-accentSolid 5.52:1, border-on-bg 3.07:1 (UI, 3:1 class), ring-on-bg 7.59:1,
+     success-on-bg 8.19:1, danger-on-bg 5.69:1 — all pass. Deuteranopia-simulated separately per
+     game group in the same mockup; this file only carries the site-tier + tile-default values,
+     the per-game semantic colours live in each src/games/<id>/theme.css. */
+  --brand-bg: #130b0e;
+  --brand-fg: #f5eaee;
+  --brand-surface: #1c1215;
+  --brand-surface-2: #271b1f;
+  --brand-border: #874f62;
+  --brand-accent: #df497b;
+  --brand-accent-fg: #250e16;
+  --brand-muted: #b899a3;
+  --brand-success: #4ebc85;
+  --brand-danger: #e06552;
 
-  --brand-font: "Fredoka", sans-serif;
-  --brand-font-body: "Nunito", sans-serif;
+  /* One font, everywhere, including inside every game — replaces Fredoka (site) + Nunito (site
+     body) + all 15 per-game @fontsource imports. Chosen at Checkpoint 1 (fonts.png): rounded,
+     reads clearly at small sizes (Wordle tiles, Sudoku digits) without thinning out. */
+  --brand-font: "Quicksand", sans-serif;
+  --brand-font-body: "Quicksand", sans-serif;
 
   --brand-space-1: 0.25rem;
   --brand-space-2: 0.5rem;
@@ -46,11 +50,15 @@
   --brand-duration-slow: 420ms;
   --brand-ease: cubic-bezier(0.22, 1, 0.36, 1);
 
-  /* Optional additions — tinted (not pure-black) soft shadows, and a focus ring color. Additive
-     only: no existing token was renamed or removed. */
-  --brand-shadow-sm: 0 1px 2px rgba(43, 35, 32, 0.06), 0 2px 6px rgba(43, 35, 32, 0.05);
-  --brand-shadow-md: 0 4px 10px rgba(43, 35, 32, 0.08), 0 10px 24px rgba(43, 35, 32, 0.08);
-  --brand-ring: #ad1f42;
+  /* Optional additions — tinted (not pure-black) soft shadows, a focus ring colour, and (new at
+     the redesign) a saturated solid-accent for buttons that take white text, and a glow colour
+     for FluxLines/SpecularButton highlights. Additive only: no existing token was renamed or
+     removed. */
+  --brand-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.35), 0 2px 6px rgba(0, 0, 0, 0.3);
+  --brand-shadow-md: 0 4px 10px rgba(0, 0, 0, 0.4), 0 10px 24px rgba(0, 0, 0, 0.45);
+  --brand-ring: #f47ba3;
+  --brand-accent-solid: #c5265b;
+  --brand-glow: #f986ac;
 
   /* ───────────── game tier (defaults; each game overrides under [data-game]) ───────────── */
   --game-bg: var(--brand-bg);
@@ -68,9 +76,10 @@
   --tile-filled: var(--game-surface-2);
   --tile-fg: var(--game-fg);
   --tile-selected: var(--game-accent);
-  --tile-correct: #5b9c55;
-  --tile-present: #bfa94c;
-  --tile-absent: #6b6f71;
+  /* Defaults only — Wordle/Quordle's own theme.css sets these explicitly to the same values. */
+  --tile-correct: #43b17a;
+  --tile-present: #e4a944;
+  --tile-absent: #54454a;
 }
 
 @theme inline {
@@ -128,6 +137,8 @@
   --shadow-brand-sm: var(--brand-shadow-sm);
   --shadow-brand-md: var(--brand-shadow-md);
   --color-brand-ring: var(--brand-ring);
+  --color-brand-accent-solid: var(--brand-accent-solid);
+  --color-brand-glow: var(--brand-glow);
 }
 
 html,

@@ -4,13 +4,11 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 import { AuthProvider } from "./lib/auth";
 import { routes } from "./routes";
 
-// Site-tier default font (design agent may change the choice, never the token names).
-import "@fontsource/fredoka/400.css";
-import "@fontsource/fredoka/500.css";
-import "@fontsource/fredoka/600.css";
-import "@fontsource/nunito/400.css";
-import "@fontsource/nunito/600.css";
-import "@fontsource/nunito/700.css";
+// One font for the whole site, including every game (redesign, 2026-10 — see docs/redesign/).
+import "@fontsource/quicksand/400.css";
+import "@fontsource/quicksand/500.css";
+import "@fontsource/quicksand/600.css";
+import "@fontsource/quicksand/700.css";
 import "./styles/brand.css";
 
 const router = createBrowserRouter(routes);
