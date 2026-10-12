@@ -292,6 +292,38 @@ export function usePlays(gameId: string): UsePlaysResult {
   return { plays, loading, refresh };
 }
 
+/**
+ * Today's play status for a fixed list of games, by id — e.g. for the header's game-switcher
+ * "done" ticks or ResultModal's "next game not yet played" lookup (redesign, 2026-10). Chess (or
+ * any game that never calls `usePlay`/`finish`) simply never has an entry, which callers should
+ * treat the same as "not done" — it has no daily play to be done or not.
+ *
+ * `gameIds` should be a stable reference (e.g. `scoredGameMetas.map(m => m.id)` computed at module
+ * scope in routes.tsx, not re-created inline on every render) since it's a hook dependency.
+ */
+export function useTodayStatus(gameIds: string[]): Record<string, PlayStatus> {
+  const [status, setStatus] = useState<Record<string, PlayStatus>>({});
+
+  useEffect(() => {
+    let cancelled = false;
+    const date = resolvePuzzleDate();
+    void Promise.all(gameIds.map((id) => dataSource.getPlay(id, date).then((play) => [id, play] as const))).then(
+      (entries) => {
+        if (cancelled) return;
+        const next: Record<string, PlayStatus> = {};
+        for (const [id, play] of entries) if (play) next[id] = play.status;
+        setStatus(next);
+      },
+    );
+    return () => {
+      cancelled = true;
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [gameIds]);
+
+  return status;
+}
+
 export interface UseLeaderboardResult {
   rows: LeaderboardRow[];
   loading: boolean;
