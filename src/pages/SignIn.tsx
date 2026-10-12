@@ -1,6 +1,6 @@
-import { useState } from "react";
-import { useLocation } from "react-router";
-import { readInviteCode, useAuth } from "../lib/auth";
+import { useEffect, useState } from "react";
+import { useLocation, type Location } from "react-router";
+import { readChallengeToken, readInviteCode, saveChallengeToken, useAuth } from "../lib/auth";
 import { Button } from "../components/Button";
 
 export function SignIn() {
@@ -9,14 +9,26 @@ export function SignIn() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const state = location.state as { message?: string; code?: string } | null;
+  const state = location.state as { message?: string; code?: string; from?: Location } | null;
   const inviteCode = state?.code ?? readInviteCode();
+  // `state.from` is RequireMember's own redirect state — set when a signed-out visitor hit a
+  // gated route directly (e.g. /chess?challenge=...). The localStorage fallback covers the same
+  // case the invite code's own fallback does: the full-page round trip to Google and back.
+  const challengeToken =
+    new URLSearchParams(state?.from?.search ?? "").get("challenge") ?? readChallengeToken();
+  useEffect(() => {
+    if (challengeToken) saveChallengeToken(challengeToken);
+  }, [challengeToken]);
 
   async function handleClick() {
     setError(null);
     setLoading(true);
     try {
-      const redirectPath = inviteCode ? `/join?invite=${encodeURIComponent(inviteCode)}` : undefined;
+      const redirectPath = inviteCode
+        ? `/join?invite=${encodeURIComponent(inviteCode)}${challengeToken ? `&challenge=${encodeURIComponent(challengeToken)}` : ""}`
+        : challengeToken
+          ? `/chess?challenge=${encodeURIComponent(challengeToken)}`
+          : undefined;
       await signInWithGoogle(redirectPath);
       // On success the browser navigates away to Google; loading stays true until it does.
     } catch (err) {

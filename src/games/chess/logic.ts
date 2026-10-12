@@ -14,7 +14,11 @@ export type EndReason =
   | "fifty-move"
   | "insufficient-material"
   | "resignation"
-  | "flag";
+  | "flag"
+  // Friend-mode-only endings — see RESEARCH.md "Multiplayer". Never produced by classifyEnd();
+  // the friends-mode RPCs (respond_draw, claim_abandoned) set these directly.
+  | "draw-agreement"
+  | "abandoned";
 
 /** How many of the *engine's own* moves get MultiPV variety treatment before it just always plays
  *  the engine's best line. Not plies — the count only advances when it's the engine's move. */
@@ -95,6 +99,27 @@ export function pickEngineMove(
 export function resolveSide(choice: SideChoice, rng: () => number = Math.random): Side {
   if (choice !== "random") return choice;
   return rng() < 0.5 ? "white" : "black";
+}
+
+export function otherSide(side: Side): Side {
+  return side === "white" ? "black" : "white";
+}
+
+// ───────────────────────────── Friend-mode timing ─────────────────────────────
+// Pure mirrors of the SQL in 0005_chess.sql (chess_challenges.expires_at, claim_abandoned's
+// 7-day check) — used client-side for countdown/claim-button UI, not as the actual authority
+// (the server re-checks both independently; see RESEARCH.md "Multiplayer").
+
+const MS_PER_DAY = 24 * 60 * 60 * 1000;
+
+/** Mirrors `expires_at < now()` — a challenge created `days` days before `nowMs` has expired. */
+export function isExpired(createdAtIso: string, nowMs: number, days: number): boolean {
+  return nowMs - new Date(createdAtIso).getTime() > days * MS_PER_DAY;
+}
+
+/** Mirrors `claim_abandoned`'s `now() - last_move_at > interval '7 days'`. */
+export function isAbandonable(lastMoveAtIso: string, nowMs: number, days = 7): boolean {
+  return nowMs - new Date(lastMoveAtIso).getTime() > days * MS_PER_DAY;
 }
 
 // ───────────────────────────── Clock ─────────────────────────────

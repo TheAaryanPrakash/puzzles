@@ -1,6 +1,14 @@
 import { useEffect, useState, type FormEvent } from "react";
 import { Navigate, useLocation, useNavigate, useSearchParams, type Location } from "react-router";
-import { clearInviteCode, readInviteCode, saveInviteCode, useAuth } from "../lib/auth";
+import {
+  clearChallengeToken,
+  clearInviteCode,
+  readChallengeToken,
+  readInviteCode,
+  saveChallengeToken,
+  saveInviteCode,
+  useAuth,
+} from "../lib/auth";
 import { dataSource } from "../lib/data";
 import { Button } from "../components/Button";
 
@@ -43,16 +51,36 @@ export function Join() {
   // overwrite an invite code of the same param name.
   const urlCode = searchParams.get("invite");
   const [code, setCode] = useState(() => urlCode ?? readInviteCode() ?? "");
+  const challengeToken = searchParams.get("challenge") ?? readChallengeToken();
   const [name, setName] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const previewName = useGroupPreview(code);
 
-  // Keeps the invite code recoverable across the full-page round trip to Google and back, in
-  // case the OAuth redirect's own `?code=` query param gets dropped somewhere along the way.
+  // Keeps the invite code (and a chess challenge token, if there is one) recoverable across the
+  // full-page round trip to Google and back, in case the OAuth redirect's own `?code=` query
+  // param gets dropped somewhere along the way.
   useEffect(() => {
     if (code.trim()) saveInviteCode(code.trim());
   }, [code]);
+  useEffect(() => {
+    if (challengeToken) saveChallengeToken(challengeToken);
+  }, [challengeToken]);
+
+  function afterJoin() {
+    clearInviteCode();
+    const from = (location.state as { from?: Location } | null)?.from;
+    if (from) {
+      navigate(`${from.pathname}${from.search}${from.hash}`, { replace: true });
+      return;
+    }
+    if (challengeToken) {
+      clearChallengeToken();
+      navigate(`/chess?challenge=${encodeURIComponent(challengeToken)}`, { replace: true });
+      return;
+    }
+    navigate("/", { replace: true });
+  }
 
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
@@ -60,9 +88,7 @@ export function Join() {
     setLoading(true);
     try {
       await joinWithInvite(code.trim(), name.trim());
-      clearInviteCode();
-      const from = (location.state as { from?: Location } | null)?.from;
-      navigate(from ? `${from.pathname}${from.search}${from.hash}` : "/", { replace: true });
+      afterJoin();
     } catch (err) {
       setError(err instanceof Error ? err.message : "Something went wrong. Please try again.");
       setLoading(false);
@@ -75,8 +101,7 @@ export function Join() {
     setLoading(true);
     try {
       await dataSource.joinGroup(code.trim());
-      clearInviteCode();
-      navigate("/", { replace: true });
+      afterJoin();
     } catch (err) {
       setError(err instanceof Error ? err.message : "Something went wrong. Please try again.");
       setLoading(false);

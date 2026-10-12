@@ -139,7 +139,9 @@ interface StoredGroupMember {
   joinedAt: string;
 }
 
-function readGroups(): StoredGroup[] {
+// Exported so src/lib/data/chess.ts's local adapter can reuse the same localStorage-backed group
+// data for "who can I challenge" instead of re-parsing these keys itself.
+export function readGroups(): StoredGroup[] {
   const raw = localStorage.getItem(GROUPS_KEY);
   return raw ? (JSON.parse(raw) as StoredGroup[]) : [];
 }
@@ -148,7 +150,7 @@ function writeGroups(groups: StoredGroup[]): void {
   localStorage.setItem(GROUPS_KEY, JSON.stringify(groups));
 }
 
-function readMembers(groupId: string): StoredGroupMember[] {
+export function readMembers(groupId: string): StoredGroupMember[] {
   const raw = localStorage.getItem(`${GROUP_MEMBERS_PREFIX}${groupId}`);
   return raw ? (JSON.parse(raw) as StoredGroupMember[]) : [];
 }

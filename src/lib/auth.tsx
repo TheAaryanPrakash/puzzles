@@ -22,6 +22,66 @@ const AuthContext = createContext<AuthState | null>(null);
 
 const FAKE_MEMBER: Member = { userId: "local-dev", displayName: "Sansita" };
 
+// ───── dev-only overrides for chess's "Play a Friend" local testing ─────
+// Two tabs need to act as two different members (to challenge each other), and the challenge-link
+// sign-in round trip needs a way to exercise RequireMember → /signin → /join → back without a real
+// Supabase/Google project. Both overrides are inert unless a `?devUser=`/`?devAuth=` query param
+// explicitly sets them — a normal local dev session that never passes either is unaffected.
+const DEV_USER_ROSTER = {
+  sansita: FAKE_MEMBER,
+  amal: { userId: "local-friend-amal", displayName: "Amal" },
+  riya: { userId: "local-friend-riya", displayName: "Riya" },
+} as const satisfies Record<string, Member>;
+export type DevUserKey = keyof typeof DEV_USER_ROSTER;
+const DEV_USER_KEY = "sansitas-puzzles:dev-user";
+const DEV_AUTH_STATUS_KEY = "sansitas-puzzles:dev-auth-status";
+type DevAuthStatus = "member" | "signed-out" | "signed-in-not-member";
+
+function captureDevOverride(paramName: string, storageKey: string): void {
+  try {
+    const value = new URLSearchParams(window.location.search).get(paramName);
+    if (value) sessionStorage.setItem(storageKey, value);
+  } catch {
+    // Unavailable (private browsing) — the override just won't apply this session.
+  }
+}
+
+function readDevUserKey(): DevUserKey {
+  captureDevOverride("devUser", DEV_USER_KEY);
+  try {
+    const stored = sessionStorage.getItem(DEV_USER_KEY);
+    if (stored && stored in DEV_USER_ROSTER) return stored as DevUserKey;
+  } catch {
+    // ignore
+  }
+  return "sansita";
+}
+
+/** The local adapter's "who am I right now" — same roster LocalAuthProvider itself uses, so
+ *  src/lib/data/chess.ts's local adapter stays in sync with whichever tab identity is active. */
+export function getDevMember(): Member {
+  return DEV_USER_ROSTER[readDevUserKey()];
+}
+
+function readDevAuthStatus(): DevAuthStatus {
+  captureDevOverride("devAuth", DEV_AUTH_STATUS_KEY);
+  try {
+    const stored = sessionStorage.getItem(DEV_AUTH_STATUS_KEY);
+    if (stored === "signed-out" || stored === "signed-in-not-member") return stored;
+  } catch {
+    // ignore
+  }
+  return "member";
+}
+
+function writeDevAuthStatus(status: DevAuthStatus): void {
+  try {
+    sessionStorage.setItem(DEV_AUTH_STATUS_KEY, status);
+  } catch {
+    // ignore
+  }
+}
+
 // Remembers an invite code across the full-page round trip to Google and back — the OAuth
 // redirect already carries it as a `?code=` query param, but this is a defensive fallback in
 // case that gets stripped somewhere along the way.
@@ -51,6 +111,34 @@ export function clearInviteCode(): void {
   }
 }
 
+// Same pattern, for a chess challenge token surviving the OAuth round trip — see
+// src/games/chess/RESEARCH.md "Multiplayer" and SignIn.tsx/Join.tsx.
+const CHALLENGE_TOKEN_KEY = "sansitas-puzzles:challenge-token";
+
+export function saveChallengeToken(token: string): void {
+  try {
+    localStorage.setItem(CHALLENGE_TOKEN_KEY, token);
+  } catch {
+    // Unavailable — the URL param alone still works.
+  }
+}
+
+export function readChallengeToken(): string | null {
+  try {
+    return localStorage.getItem(CHALLENGE_TOKEN_KEY);
+  } catch {
+    return null;
+  }
+}
+
+export function clearChallengeToken(): void {
+  try {
+    localStorage.removeItem(CHALLENGE_TOKEN_KEY);
+  } catch {
+    // ignore
+  }
+}
+
 // Mirrors src/lib/data/index.ts's own switch, so the two always agree on which world we're in.
 const usesSupabase = import.meta.env.VITE_DATA_SOURCE === "supabase";
 
@@ -73,17 +161,38 @@ async function fetchProfile(
 }
 
 /**
- * Local dev mode: always signed in as a fake member, so every game can be built and tested
- * without a Supabase project. Paired with VITE_DATA_SOURCE=local in src/lib/data/index.ts.
+ * Local dev mode: signed in as a fake member, so every game can be built and tested without a
+ * Supabase project. Paired with VITE_DATA_SOURCE=local in src/lib/data/index.ts.
+ *
+ * Normally always `status: "member"` as `getDevMember()` (default "Sansita"). Two dev-only
+ * overrides exist purely for chess's "Play a Friend" local testing (see the roster/status helpers
+ * above): `?devUser=amal|riya` picks which fake member this tab is, and `?devAuth=signed-out|
+ * signed-in-not-member` simulates the states `RequireMember` otherwise only sees against a real
+ * Supabase project, so the `/signin` → `/join` → back round trip can be exercised locally. Calling
+ * `signInWithGoogle`/`joinWithInvite` while overridden simulates "the round trip completed" by
+ * clearing the override and doing the client-side navigation a real OAuth redirect would have
+ * landed on.
  */
 function LocalAuthProvider({ children }: { children: ReactNode }) {
-  const [member, setMember] = useState<Member>(FAKE_MEMBER);
+  const [member, setMember] = useState<Member>(() => getDevMember());
+  const [devStatus, setDevStatus] = useState<DevAuthStatus>(() => readDevAuthStatus());
   const value: AuthState = {
-    status: "member",
-    member,
-    async signInWithGoogle() {},
-    async signOut() {},
-    async joinWithInvite() {},
+    status: devStatus,
+    member: devStatus === "member" ? member : null,
+    async signInWithGoogle(redirectPath?: string) {
+      // Mimics the real flow: it's a hard navigation (there's no SPA state to come back to after
+      // a real Google redirect either), landing wherever the real OAuth round trip would have.
+      writeDevAuthStatus("member");
+      window.location.assign(redirectPath ?? "/");
+    },
+    async signOut() {
+      writeDevAuthStatus("signed-out");
+      setDevStatus("signed-out");
+    },
+    async joinWithInvite() {
+      writeDevAuthStatus("member");
+      setDevStatus("member");
+    },
     async updateDisplayName(name) {
       setMember((m) => ({ ...m, displayName: name }));
     },

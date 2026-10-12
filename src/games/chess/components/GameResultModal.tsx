@@ -3,16 +3,23 @@ import { Button } from "../../../components/Button";
 import { ShareButton } from "../../../components/ShareButton";
 import type { Difficulty, EndReason, GameStatus } from "../logic";
 
+// Computer-mode-only and friend-mode-only fields are each optional, and a component only ever
+// receives one set fully populated — see the branches in the body below. Generalized rather than
+// forked per CLAUDE.md/the task: this stays chess's one result modal for both modes.
 export interface GameResultModalProps {
   open: boolean;
   onClose: () => void;
   status: Exclude<GameStatus, "in_progress">;
   reason: EndReason;
-  difficulty: Difficulty;
   moveCount: number;
-  assisted: boolean;
   pgn: string;
-  onNewGame: () => void;
+  /** Computer mode only. */
+  difficulty?: Difficulty;
+  assisted?: boolean;
+  onNewGame?: () => void;
+  /** Friend mode only. */
+  opponentName?: string;
+  onRematch?: () => void;
 }
 
 const HEADLINE: Record<Exclude<GameStatus, "in_progress">, string> = {
@@ -29,13 +36,27 @@ const REASON_LABEL: Record<EndReason, string> = {
   "insufficient-material": "Draw — insufficient material",
   resignation: "Resigned",
   flag: "Out of time",
+  "draw-agreement": "Draw by agreement",
+  abandoned: "Won by abandonment",
 };
 
 /** Chess's own result modal, not the shared ResultModal — see RESEARCH.md's "Chosen design" for
  *  why: the shared one pulls in useStats/FriendsBoard/NextPuzzleCountdown, all DataSource- or
  *  daily-puzzle-coupled in ways chess must never touch. Styled the same way (Modal + Button +
  *  ShareButton, the same stat-tile layout) without those pieces. */
-export function GameResultModal({ open, onClose, status, reason, difficulty, moveCount, assisted, pgn, onNewGame }: GameResultModalProps) {
+export function GameResultModal({
+  open,
+  onClose,
+  status,
+  reason,
+  moveCount,
+  pgn,
+  difficulty,
+  assisted,
+  onNewGame,
+  opponentName,
+  onRematch,
+}: GameResultModalProps) {
   return (
     <Modal open={open} onClose={onClose} title={HEADLINE[status]}>
       <div className="space-y-4">
@@ -43,13 +64,19 @@ export function GameResultModal({ open, onClose, status, reason, difficulty, mov
 
         <div className="grid grid-cols-3 gap-2 text-center">
           <Stat label="Moves" value={String(moveCount)} />
-          <Stat label="Difficulty" value={difficulty} />
-          <Stat label="Assisted" value={assisted ? "Yes" : "No"} />
+          {difficulty ? (
+            <>
+              <Stat label="Difficulty" value={difficulty} />
+              <Stat label="Assisted" value={assisted ? "Yes" : "No"} />
+            </>
+          ) : (
+            <Stat label="Opponent" value={opponentName ?? "?"} />
+          )}
         </div>
 
         <div className="flex items-center justify-between gap-3 border-t border-game-border pt-4">
           <ShareButton text={pgn} label="Copy PGN" />
-          <Button onClick={onNewGame}>New game</Button>
+          {onNewGame ? <Button onClick={onNewGame}>New game</Button> : onRematch ? <Button onClick={onRematch}>Offer rematch</Button> : null}
         </div>
       </div>
     </Modal>
