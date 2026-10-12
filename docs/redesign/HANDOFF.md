@@ -336,3 +336,76 @@ dimensions (`height`/`width: 100%` of something sized) since the component itsel
 w-full`. `MagicBento`'s `items[].onClick` handler signature is `(event) => void` per item, separate
 from the top-level `onItemClick={(item, index) => void}` — either works, pick one convention for
 the Hub's 15 tiles rather than mixing.
+
+## Build phase — header/navigation, ResultModal: bugs found during live review
+
+Three forks landed real, working code for the app-root background mount, header/navigation,
+ResultModal's flip + Next-game button, and all 15 pages this round — but two of them were cut off
+by a session rate-limit mid-verification, and a third explicitly flagged its own browser-based
+verification as incomplete. Rather than take "tests pass, build passes" as sufficient, everything
+was live-verified in an actual browser afterward (`playwright-cli`, headed — the WebGL gotcha above
+still applies). That review surfaced three real, user-facing bugs, all now fixed and re-verified:
+
+**1. A CSS stacking-context bug made every "plain" page invisible underneath the new background.**
+`AppShell` mounts `FluxLines` as `position: fixed` at the route root, ahead of `<Outlet/>` in DOM
+order, relying on normal DOM-order painting to keep it behind routed content. That assumption is
+wrong: per the CSS painting-order algorithm, *positioned* elements (anything with a non-static
+`position` — `fixed` always qualifies, even at `z-index: auto`) paint in a later phase than normal
+in-flow, non-positioned siblings, **regardless of DOM order**. `GameLayout`'s root has no
+position/transform of its own, so its entire header and content — confirmed by screenshotting the
+literal DOM elements and reading their computed styles, which were all correct; only the paint was
+wrong — rendered completely invisible under the fixed background. `Hub` only escaped this by
+accident, because `MagicBento`'s tilt/glow effects already use transforms (which promote an element
+into the same later-painting category as `fixed`). Fixed in `AppShell.tsx` by wrapping `<Outlet/>`
+in a `<div className="relative">`, which promotes every routed page into that same category,
+making the whole app safe by construction instead of relying on each page discovering this by luck.
+**Takeaway for future redesign work**: a plain, non-animated page component is exactly the shape
+most likely to hit this invisibly — if a page "disappears" under the FluxLines background, check
+this first before assuming a logic bug.
+
+**2. `ResultModal` had a genuine infinite render loop**, not a performance issue — confirmed via
+`ps`, a headed Chromium renderer pegged at 90%+ CPU and climbing, completely unresponsive (even a
+trivial `page.evaluate` timed out). Root cause: `useTodayStatus(scoredGameMetas.map(m => m.id))`
+called inline, recreating the array every render; the hook's own effect depends on that array by
+reference, so it refired every render → `setState` → re-render → new array → refire, forever. The
+hook's own JSDoc (added earlier this session specifically to prevent this) says to memoize the
+array — `GameLayout` did; `ResultModal` didn't. Fixed with `useMemo(() => ..., [])`, since
+`scoredGameMetas` is a module-level constant. **A fork had already hit this exact symptom and
+misattributed it to "resource contention from concurrent forks."** It reproduced identically running
+solo. Worth remembering: an "unresponsive browser" during verification is worth a `ps`/CPU check
+before assuming it's an environment/tooling problem.
+
+**3. `FlipCard` swallowed clicks on any interactive element inside its `front`/`back` content.**
+Its `onPointerDown` unconditionally calls `setPointerCapture` on the card's root — even with
+`flipOnClick={false}` and `draggable={false}`, which is how `ResultModal` uses it (the flip is
+timer-triggered, not click-triggered). Confirmed live: clicking ResultModal's Share button or
+Next-game button did nothing at all — no error, no navigation, no visual feedback. Fixed in
+`FlipCard.tsx` by checking, at the top of `onPointerDown`, whether the pointerdown's target has a
+real interactive ancestor (`button`/`a`/`input`/`select`/`textarea`/`[role=button]`/`[role=link]`)
+other than the card's own root, and bailing out of the capture/drag-grip logic entirely when it
+does — letting the nested control handle its own interaction normally. This is a `FlipCard`-level
+fix, not a `ResultModal` workaround, so it protects every future consumer (the HowToPlay modal,
+still to come, will hit the identical bug if its back face has any interactive content). Verified
+live: Share now shows its "✓ Copied!" feedback, Next-game navigates correctly in both the
+mid-hub-order and all-done-so-"Back to hub" cases.
+
+**Smaller fixes made during the same review**: `ArchivePicker` was filtering already-played dates
+out of the list entirely rather than showing them tagged — meaning there was no way to revisit a
+finished puzzle's read-only result via the archive, even though that's valid per CLAUDE.md's game
+contract ("finished play → read-only finished board"); now all dates stay in the list, played ones
+tagged. `SiteHeader` still had the pre-redesign flex layout (title centered to leftover space, not
+the page) — brief item 4 named both `GameLayout` *and* `SiteHeader` for the 3-column-grid fix; only
+`GameLayout` had landed. `GameLayout`'s prev/next/archive/stats/help buttons were still raw emoji
+(🗓️/📊/❓ are full-colour glyphs that ignore `currentColor`, which is why ❓ rendered red instead of
+on-theme) instead of the Dazzle-Line icon components already built for exactly these slots —
+swapped in `PrevIcon`/`NextIcon`/`ArchiveIcon`/`StatsIcon`/`HelpIcon`. Mini Crossword's Hub tile
+icon was invisible (`hubAccent` was a pre-redesign dark value never updated by the theme-css pass,
+since `hubAccent` lives in `meta.ts`, outside that pass's scope) — fixed, and the other 14 games'
+`hubAccent` values were spot-checked against the new dark cards (computed contrast ratios) and left
+alone; several sit under the strict 3:1 UI-graphics threshold on paper but read fine in practice
+(hue difference, not just lightness, carries real perceptual weight) — worth a human eye on
+`chess`/`mini-sudoku`/`quordle`/`sudoku` specifically if a future pass wants to tighten this further,
+but not re-litigated here since only Mini was actually unreadable.
+
+`pnpm test` (836 passing) and `pnpm build` both green after every fix above. All committed on
+`main` in small, separately-described steps; nothing pushed.
