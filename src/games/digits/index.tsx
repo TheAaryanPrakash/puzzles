@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import "./theme.css";
 import { GameLayout } from "../../components/GameLayout";
-import { HelpModal } from "../../components/HelpModal";
+import { HowToPlayModal, useAutoOpenHowToPlay } from "../../components/HowToPlayModal";
+import { useAuth } from "../../lib/auth";
 import { ResultModal } from "../../components/ResultModal";
 import { NoPuzzleToday } from "../../components/NoPuzzleToday";
 import { AlreadyPlayed } from "../../components/AlreadyPlayed";
@@ -31,7 +32,8 @@ export default function Digits() {
   const { date, puzzle, status } = usePuzzle<DigitsPuzzle>(meta.id);
   const { play, loading, start, save, finish } = usePlay<DigitsState>(meta.id, date);
   const [activeRound, setActiveRound] = useState(0);
-  const [helpOpen, setHelpOpen] = useState(false);
+  const { member } = useAuth();
+  const [helpOpen, openHelp, closeHelp] = useAutoOpenHowToPlay(meta.id, member?.userId);
   const [resultOpen, setResultOpen] = useState(false);
   const initializedForDate = useRef<string | null>(null);
   const autoFinishedForDate = useRef<string | null>(null);
@@ -73,11 +75,9 @@ export default function Digits() {
 
   if (status === "missing" || !puzzle) {
     return (
-      <GameLayout game={meta.id} title={meta.title} onHelp={() => setHelpOpen(true)}>
+      <GameLayout game={meta.id} title={meta.title} onHelp={openHelp}>
         <NoPuzzleToday gameTitle={meta.title} />
-        <HelpModal open={helpOpen} onClose={() => setHelpOpen(false)}>
-          <HelpContent />
-        </HelpModal>
+        <HowToPlayModal game={meta} open={helpOpen} onClose={closeHelp} />
       </GameLayout>
     );
   }
@@ -129,7 +129,7 @@ export default function Digits() {
   });
 
   return (
-    <GameLayout game={meta.id} title={meta.title} onHelp={() => setHelpOpen(true)}>
+    <GameLayout game={meta.id} title={meta.title} onHelp={openHelp}>
       {finished && !resultOpen && play && <AlreadyPlayed status={play.status} />}
 
       <div className="flex flex-col items-center gap-6">
@@ -150,9 +150,7 @@ export default function Digits() {
         )}
       </div>
 
-      <HelpModal open={helpOpen} onClose={() => setHelpOpen(false)}>
-        <HelpContent />
-      </HelpModal>
+      <HowToPlayModal game={meta} open={helpOpen} onClose={closeHelp} />
 
       {over && (
         <ResultModal
@@ -170,21 +168,3 @@ export default function Digits() {
   );
 }
 
-function HelpContent() {
-  return (
-    <>
-      <p>
-        Each day has 5 rounds. Every round gives you 6 numbers and a target. Tap a number, an
-        operator (+ − × ÷), then a second number to merge them into one new number — you don't
-        have to use every number.
-      </p>
-      <p>Every result along the way must be a positive whole number — no fractions, no negatives.</p>
-      <p>
-        When you submit a round, the number on the board closest to the target decides your stars:
-        hit it exactly for ⭐⭐⭐, within 10 for ⭐⭐, within 25 for ⭐. You win the day with at least
-        one star in every round.
-      </p>
-      <p>Use Undo to take back your last merge, or Reset round to start the round over.</p>
-    </>
-  );
-}

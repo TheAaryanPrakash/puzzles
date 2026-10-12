@@ -2,7 +2,8 @@ import { useRef, useState } from "react";
 import { AnimatePresence, useReducedMotion } from "motion/react";
 import "./theme.css";
 import { GameLayout } from "../../components/GameLayout";
-import { HelpModal } from "../../components/HelpModal";
+import { HowToPlayModal, useAutoOpenHowToPlay } from "../../components/HowToPlayModal";
+import { useAuth } from "../../lib/auth";
 import { ResultModal } from "../../components/ResultModal";
 import { NoPuzzleToday } from "../../components/NoPuzzleToday";
 import { AlreadyPlayed } from "../../components/AlreadyPlayed";
@@ -45,7 +46,8 @@ export default function ConnectionsGame() {
   const [selected, setSelected] = useState<string[]>([]);
   const [shakeWords, setShakeWords] = useState<string[] | null>(null);
   const [toast, setToast] = useState<string | null>(null);
-  const [helpOpen, setHelpOpen] = useState(false);
+  const { member } = useAuth();
+  const [helpOpen, openHelp, closeHelp] = useAutoOpenHowToPlay(meta.id, member?.userId);
   const [resultOpen, setResultOpen] = useState(false);
   const toastTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const shakeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -54,11 +56,9 @@ export default function ConnectionsGame() {
 
   if (status === "missing" || !puzzle) {
     return (
-      <GameLayout game={meta.id} title={meta.title} onHelp={() => setHelpOpen(true)}>
+      <GameLayout game={meta.id} title={meta.title} onHelp={openHelp}>
         <NoPuzzleToday gameTitle={meta.title} />
-        <HelpModal open={helpOpen} onClose={() => setHelpOpen(false)}>
-          <HelpContent />
-        </HelpModal>
+        <HowToPlayModal game={meta} open={helpOpen} onClose={closeHelp} />
       </GameLayout>
     );
   }
@@ -159,7 +159,7 @@ export default function ConnectionsGame() {
     <GameLayout
       game={meta.id}
       title={meta.title}
-      onHelp={() => setHelpOpen(true)}
+      onHelp={openHelp}
       headerActions={
         !hasMoved ? (
           <Button variant="ghost" size="sm" onClick={() => void handleSkip()}>
@@ -229,9 +229,7 @@ export default function ConnectionsGame() {
 
       <Toast message={toast} reduceMotion={reduceMotion} />
 
-      <HelpModal open={helpOpen} onClose={() => setHelpOpen(false)}>
-        <HelpContent />
-      </HelpModal>
+      <HowToPlayModal game={meta} open={helpOpen} onClose={closeHelp} />
 
       {over && (
         <ResultModal
@@ -248,15 +246,3 @@ export default function ConnectionsGame() {
   );
 }
 
-function HelpContent() {
-  return (
-    <>
-      <p>Find groups of four words that share something in common.</p>
-      <p>Select four words and hit Submit. Categories range from straightforward (yellow) to tricky (purple).</p>
-      <p>
-        <strong>One away…</strong> means three of your four words belong together, but one doesn&apos;t.
-      </p>
-      <p>You have {MAX_MISTAKES} mistakes before the game ends.</p>
-    </>
-  );
-}

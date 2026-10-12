@@ -1,11 +1,12 @@
 import { useEffect, useRef, useState } from "react";
 import "./theme.css";
 import { GameLayout } from "../../components/GameLayout";
-import { HelpModal } from "../../components/HelpModal";
+import { HowToPlayModal, useAutoOpenHowToPlay } from "../../components/HowToPlayModal";
 import { ResultModal } from "../../components/ResultModal";
 import { NoPuzzleToday } from "../../components/NoPuzzleToday";
 import { AlreadyPlayed } from "../../components/AlreadyPlayed";
 import { Button } from "../../components/Button";
+import { useAuth } from "../../lib/auth";
 import { usePuzzle, usePlay } from "../../lib/hooks";
 import { dayIndex } from "../../lib/daily";
 import { meta } from "./meta";
@@ -35,7 +36,8 @@ const ARROW_DIRECTIONS: Record<string, Direction> = {
 export default function ZipGame() {
   const { date, puzzle, status } = usePuzzle<ZipPuzzle>(meta.id);
   const { play, loading, start, save, finish } = usePlay<ZipState>(meta.id, date);
-  const [helpOpen, setHelpOpen] = useState(false);
+  const { member } = useAuth();
+  const [helpOpen, openHelp, closeHelp] = useAutoOpenHowToPlay(meta.id, member?.userId);
   const [resultOpen, setResultOpen] = useState(false);
 
   // Mirrors usePlay's own debounce/flush pattern: the interval below needs the *latest* state and
@@ -158,9 +160,9 @@ export default function ZipGame() {
 
   if (status === "missing" || !puzzle) {
     return (
-      <GameLayout game={meta.id} title={meta.title} onHelp={() => setHelpOpen(true)}>
+      <GameLayout game={meta.id} title={meta.title} onHelp={openHelp}>
         <NoPuzzleToday gameTitle={meta.title} />
-        <HelpModalContent open={helpOpen} onClose={() => setHelpOpen(false)} />
+        <HowToPlayModal game={meta} open={helpOpen} onClose={closeHelp} />
       </GameLayout>
     );
   }
@@ -168,7 +170,7 @@ export default function ZipGame() {
   const activePuzzle = puzzle; // narrowed once; closures above re-check `puzzle` for TS's sake
 
   return (
-    <GameLayout game={meta.id} title={meta.title} onHelp={() => setHelpOpen(true)}>
+    <GameLayout game={meta.id} title={meta.title} onHelp={openHelp}>
       {play && play.status !== "in_progress" && !resultOpen && (
         <AlreadyPlayed status={play.status}>
           <div className="mt-3">
@@ -203,7 +205,7 @@ export default function ZipGame() {
         )}
       </div>
 
-      <HelpModalContent open={helpOpen} onClose={() => setHelpOpen(false)} />
+      <HowToPlayModal game={meta} open={helpOpen} onClose={closeHelp} />
 
       {isFinished && (
         <ResultModal
@@ -226,20 +228,3 @@ export default function ZipGame() {
   );
 }
 
-function HelpModalContent({ open, onClose }: { open: boolean; onClose: () => void }) {
-  return (
-    <HelpModal open={open} onClose={onClose}>
-      <p>Draw one continuous path that visits every cell in the grid exactly once.</p>
-      <p>
-        Start at cell <strong>1</strong>, pass through every other numbered checkpoint in order,
-        and end on the highest number.
-      </p>
-      <ul className="list-disc space-y-1 pl-5">
-        <li>Drag across cells to draw; drag back over your own path to retract it.</li>
-        <li>Arrow keys extend the path one step; Backspace undoes the last step.</li>
-        <li>Some boards have walls — the path can never cross one, even between adjacent cells.</li>
-        <li>The path can't cross or revisit a cell.</li>
-      </ul>
-    </HelpModal>
-  );
-}

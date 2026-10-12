@@ -12,4 +12,12 @@ export const meta: GameMeta = {
   // crossword-paper theme.css palette and reads clearly on black.
   hubAccent: "#d4c4c9",
   font: "Libre Franklin",
+  howTo: {
+    rules: "Fill every white square so the across and down answers both work — a tiny crossword.",
+    steps: [
+      "Type to fill a cell and move on; tap a cell (or press Space) to switch between across and down.",
+      "Arrow keys move around, Tab jumps to the next clue.",
+      "Check flags any wrong letters for a moment without clearing them. Reveal fills in every answer — it shows in your result as a peek, not a solve.",
+    ],
+  },
 };

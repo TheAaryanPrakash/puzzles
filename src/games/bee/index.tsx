@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import "./theme.css";
 import { GameLayout } from "../../components/GameLayout";
-import { HelpModal } from "../../components/HelpModal";
+import { HowToPlayModal, useAutoOpenHowToPlay } from "../../components/HowToPlayModal";
+import { useAuth } from "../../lib/auth";
 import { ResultModal } from "../../components/ResultModal";
 import { NoPuzzleToday } from "../../components/NoPuzzleToday";
 import { AlreadyPlayed } from "../../components/AlreadyPlayed";
@@ -60,7 +61,8 @@ export default function BeeGame() {
   const [message, setMessage] = useState<{ text: string; tone: "error" | "success" } | null>(null);
   const [shakeNonce, setShakeNonce] = useState(0);
   const [popNonce, setPopNonce] = useState(0);
-  const [helpOpen, setHelpOpen] = useState(false);
+  const { member } = useAuth();
+  const [helpOpen, openHelp, closeHelp] = useAutoOpenHowToPlay(meta.id, member?.userId);
   const [resultOpen, setResultOpen] = useState(false);
   const messageTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const finishingRef = useRef(false);
@@ -147,11 +149,9 @@ export default function BeeGame() {
 
   if (status === "missing" || !puzzle) {
     return (
-      <GameLayout game={meta.id} title={meta.title} onHelp={() => setHelpOpen(true)}>
+      <GameLayout game={meta.id} title={meta.title} onHelp={openHelp}>
         <NoPuzzleToday gameTitle={meta.title} />
-        <HelpModal open={helpOpen} onClose={() => setHelpOpen(false)}>
-          <HelpRulesBody />
-        </HelpModal>
+        <HowToPlayModal game={meta} open={helpOpen} onClose={closeHelp} />
       </GameLayout>
     );
   }
@@ -201,7 +201,7 @@ export default function BeeGame() {
   }
 
   return (
-    <GameLayout game={meta.id} title={meta.title} onHelp={() => setHelpOpen(true)}>
+    <GameLayout game={meta.id} title={meta.title} onHelp={openHelp}>
       {play && over && !resultOpen && <AlreadyPlayed status={play.status} />}
 
       <div className="flex flex-col items-center gap-5">
@@ -262,9 +262,7 @@ export default function BeeGame() {
         <FoundWords found={state.found} puzzle={activePuzzle} />
       </div>
 
-      <HelpModal open={helpOpen} onClose={() => setHelpOpen(false)}>
-        <HelpRulesBody />
-      </HelpModal>
+      <HowToPlayModal game={meta} open={helpOpen} onClose={closeHelp} />
 
       {over && (
         <ResultModal
@@ -288,18 +286,3 @@ export default function BeeGame() {
   );
 }
 
-function HelpRulesBody() {
-  return (
-    <>
-      <p>
-        Make words of at least 4 letters using the 7 letters in the hive. Every word must include
-        the center letter. Letters can repeat.
-      </p>
-      <p>4-letter words are worth 1 point; longer words are worth 1 point per letter.</p>
-      <p>
-        A <strong>pangram</strong> — a word using all 7 letters — earns a +7 point bonus.
-      </p>
-      <p>Reach Genius to win the day. Find every word to become Queen Bee.</p>
-    </>
-  );
-}

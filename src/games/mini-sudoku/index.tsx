@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import "./theme.css";
 import { GameLayout } from "../../components/GameLayout";
-import { HelpModal } from "../../components/HelpModal";
+import { HowToPlayModal, useAutoOpenHowToPlay } from "../../components/HowToPlayModal";
+import { useAuth } from "../../lib/auth";
 import { ResultModal } from "../../components/ResultModal";
 import { NoPuzzleToday } from "../../components/NoPuzzleToday";
 import { AlreadyPlayed } from "../../components/AlreadyPlayed";
@@ -35,7 +36,8 @@ export default function MiniSudokuGame() {
   const [selected, setSelected] = useState<{ row: number; col: number } | null>(null);
   const [notesMode, setNotesMode] = useState(false);
   const [checkMistakes, setCheckMistakes] = useState(true);
-  const [helpOpen, setHelpOpen] = useState(false);
+  const { member } = useAuth();
+  const [helpOpen, openHelp, closeHelp] = useAutoOpenHowToPlay(meta.id, member?.userId);
   const [resultOpen, setResultOpen] = useState(false);
   const [history, setHistory] = useState<MiniSudokuState[]>([]);
   const [localElapsed, setLocalElapsed] = useState(0);
@@ -142,7 +144,7 @@ export default function MiniSudokuGame() {
   const highlight = puzzle ? getHighlight(selected, state.entries) : { peers: new Set<string>(), sameValue: new Set<string>() };
 
   return (
-    <GameLayout game={meta.id} title={meta.title} onHelp={() => setHelpOpen(true)}>
+    <GameLayout game={meta.id} title={meta.title} onHelp={openHelp}>
       {status === "missing" || !puzzle ? (
         <NoPuzzleToday gameTitle={meta.title} />
       ) : (
@@ -199,25 +201,7 @@ export default function MiniSudokuGame() {
         </div>
       )}
 
-      <HelpModal open={helpOpen} onClose={() => setHelpOpen(false)}>
-        <p>Fill the grid so every row, column and 2×3 box contains 1–6 exactly once.</p>
-        <p>Select a cell, then enter a digit with the number pad or your keyboard.</p>
-        <ul className="list-disc space-y-1 pl-5">
-          <li>
-            <strong>Notes</strong> — toggle on (or press <kbd>N</kbd>) to pencil in candidates
-            instead of a final answer.
-          </li>
-          <li>
-            <strong>Check mistakes</strong> — highlights any cell that repeats a digit in its row,
-            column or box.
-          </li>
-          <li>
-            <strong>Undo</strong> (or <kbd>Ctrl</kbd>/<kbd>⌘</kbd>+<kbd>Z</kbd>) steps back one
-            move; <kbd>Backspace</kbd> erases the selected cell.
-          </li>
-          <li>Arrow keys move the selection; the timer keeps running until the grid is solved.</li>
-        </ul>
-      </HelpModal>
+      <HowToPlayModal game={meta} open={helpOpen} onClose={closeHelp} />
 
       {puzzle && (
         <ResultModal

@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState, type ChangeEvent, type KeyboardEvent } from "react";
 import "./theme.css";
 import { GameLayout } from "../../components/GameLayout";
-import { HelpModal } from "../../components/HelpModal";
+import { HowToPlayModal, useAutoOpenHowToPlay } from "../../components/HowToPlayModal";
+import { useAuth } from "../../lib/auth";
 import { ResultModal } from "../../components/ResultModal";
 import { NoPuzzleToday } from "../../components/NoPuzzleToday";
 import { AlreadyPlayed } from "../../components/AlreadyPlayed";
@@ -58,7 +59,8 @@ export default function MiniGame() {
   // background via `persist()`. Reset to null (defer to `play.state`) whenever the day changes.
   const [localLetters, setLocalLetters] = useState<(string | null)[] | null>(null);
   const [wrongIndices, setWrongIndices] = useState<Set<number>>(new Set());
-  const [helpOpen, setHelpOpen] = useState(false);
+  const { member } = useAuth();
+  const [helpOpen, openHelp, closeHelp] = useAutoOpenHowToPlay(meta.id, member?.userId);
   const [resultOpen, setResultOpen] = useState(false);
   const [ticks, setTicks] = useState(0);
   const elapsedBaseRef = useRef(0);
@@ -104,11 +106,9 @@ export default function MiniGame() {
 
   if (status === "missing" || !puzzle) {
     return (
-      <GameLayout game={meta.id} title={meta.title} onHelp={() => setHelpOpen(true)}>
+      <GameLayout game={meta.id} title={meta.title} onHelp={openHelp}>
         <NoPuzzleToday gameTitle={meta.title} />
-        <HelpModal open={helpOpen} onClose={() => setHelpOpen(false)}>
-          <MiniHelp />
-        </HelpModal>
+        <HowToPlayModal game={meta} open={helpOpen} onClose={closeHelp} />
       </GameLayout>
     );
   }
@@ -253,7 +253,7 @@ export default function MiniGame() {
     <GameLayout
       game={meta.id}
       title={meta.title}
-      onHelp={() => setHelpOpen(true)}
+      onHelp={openHelp}
       headerActions={
         !play ? (
           <button
@@ -324,9 +324,7 @@ export default function MiniGame() {
         )}
       </div>
 
-      <HelpModal open={helpOpen} onClose={() => setHelpOpen(false)}>
-        <MiniHelp />
-      </HelpModal>
+      <HowToPlayModal game={meta} open={helpOpen} onClose={closeHelp} />
 
       {play && (
         <ResultModal
@@ -354,19 +352,3 @@ export default function MiniGame() {
   );
 }
 
-function MiniHelp() {
-  return (
-    <>
-      <p>Fill every white square so the across and down answers both work — a tiny crossword.</p>
-      <p>
-        Type to fill a cell and move on; tap a cell (or press Space) to switch between across and
-        down. Arrow keys move around, Tab jumps to the next clue.
-      </p>
-      <p>
-        <strong>Check</strong> flags any wrong letters for a moment without clearing them.{" "}
-        <strong>Reveal</strong> fills in every answer — it shows in your result as a peek, not a
-        solve.
-      </p>
-    </>
-  );
-}
