@@ -1,7 +1,5 @@
 import { useRef, useState } from "react";
 import { AnimatePresence, useReducedMotion } from "motion/react";
-import "@fontsource/libre-franklin/700.css";
-import "@fontsource/libre-franklin/800.css";
 import "./theme.css";
 import { GameLayout } from "../../components/GameLayout";
 import { HelpModal } from "../../components/HelpModal";

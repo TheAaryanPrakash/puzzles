@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
-import "@fontsource/source-serif-4/400.css";
-import "@fontsource/source-serif-4/600.css";
+// IBM Plex Mono is kept deliberately for the board's digit grid (tabular-figure alignment) — the
+// one exception to "one font everywhere"; see theme.css's comment and docs/redesign/HANDOFF.md.
 import "@fontsource/ibm-plex-mono/400.css";
 import "@fontsource/ibm-plex-mono/500.css";
 import "./theme.css";

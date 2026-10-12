@@ -1,35 +1,22 @@
-/* Off-white/beige, bold uppercase Libre Franklin — evokes the NYT Connections board, softened to
-   a warm mustard-cream family. --game-accent is darkened off the mustard until it cleared 4.5:1
-   as text (header hover/archive link, via GameLayout); the bright mustard itself lives on in
-   --connections-level-0-bg for the easiest group tile. Levels re-verified for contrast + a
-   colour-blindness simulation — blue/purple nudged apart (own hues, not just lightness) after the
-   first pass sat too close under deuteranopia (see docs/theme/README.md). */
+/* Redesign (2026-10, pink-on-black): site base (bg/surface/accent/etc.) now shared across every
+   game (CLAUDE.md "Design") — Connections differentiates purely through its 4 level colours.
+   Exact swatches approved at Checkpoint 1 (docs/redesign/checkpoint-1/colors.png). All 4 are
+   light/medium pastels against our new dark board, so — unlike the old cream-background version,
+   where level 0 took dark ink and 1-3 took white — every level now takes the same dark ink
+   (SolvedGroupBar.tsx already reads bg/fg per-level from these CSS vars, so this needed no
+   component change): level1 dark-ink 5.5:1, level2 5.9:1, level3 7.7:1, level4 8.6:1, all pass
+   AA comfortably. */
 [data-game="connections"] {
-  --game-bg: #f8f5ef;
-  --game-fg: #322c20;
-  --game-surface: #fdfdfc;
-  --game-surface-2: #efe9dc;
-  --game-border: #dfd6c3;
-  --game-accent: #826426;
-  --game-accent-fg: #ffffff;
-  --game-muted: #746851;
-  --game-font: "Libre Franklin", sans-serif;
-
   --tile-radius: 0.6rem;
-  --tile-empty: #efe9dc;
-  --tile-filled: #efe9dc;
-  --tile-fg: #322c20;
-  --tile-selected: #322c20;
 
-  /* Level colours: 0=yellow (easiest) .. 3=purple (trickiest) — contrast-checked pairs (each
-     >=4.5:1 against its own text colour) and run through a protanopia/deuteranopia/tritanopia
-     simulation; every pair held >=60 units apart (see docs/theme/README.md). */
-  --connections-level-0-bg: #c8a641;
-  --connections-level-0-fg: #2b2320;
-  --connections-level-1-bg: #447e61;
-  --connections-level-1-fg: #ffffff;
-  --connections-level-2-bg: #3e7a98;
-  --connections-level-2-fg: #ffffff;
-  --connections-level-3-bg: #85477a;
-  --connections-level-3-fg: #ffffff;
+  /* Level colours: 1=pink (easiest) .. 4=gold (trickiest). Re-run through the deuteranopia
+     simulation at Checkpoint 1 (docs/redesign/checkpoint-1/colors.png) — stayed visually distinct. */
+  --connections-level-0-bg: #d3699e;
+  --connections-level-0-fg: #140c0f;
+  --connections-level-1-bg: #a681da;
+  --connections-level-1-fg: #140c0f;
+  --connections-level-2-bg: #64b1d8;
+  --connections-level-2-fg: #140c0f;
+  --connections-level-3-bg: #dfa849;
+  --connections-level-3-fg: #140c0f;
 }

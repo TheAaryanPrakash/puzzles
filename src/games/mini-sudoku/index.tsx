@@ -1,7 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import "@fontsource/nunito/400.css";
-import "@fontsource/nunito/700.css";
-import "@fontsource/nunito/800.css";
 import "./theme.css";
 import { GameLayout } from "../../components/GameLayout";
 import { HelpModal } from "../../components/HelpModal";

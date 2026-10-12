@@ -1,36 +1,25 @@
-/* Paper-white sudoku: ink-blue entries on a cream paper surface, serif headline + mono digits —
-   evokes a printed newspaper puzzle page. Softened: warmer paper, a touch more lift in the ink. */
+/* Redesign (2026-10, pink-on-black): site base now shared across every game (CLAUDE.md "Design").
+   Sudoku differentiates through its given/entry/error ink colours (Board.tsx renders given digits
+   as text-tile-fg, player entries as text-game-accent, conflicts as text-brand-danger — all three
+   are text-on-dark-board pairs, not fills, so the exact Checkpoint-1 swatches apply directly:
+   entry 7.83:1, error (brand-danger) 5.69:1, both already re-verified in
+   docs/redesign/checkpoint-1/colors.png). --game-accent-fg kept white: still used wherever
+   --game-accent appears as a background (e.g. the selected-cell highlight), and white clears
+   AA against this darker rose. */
 [data-game="sudoku"] {
-  --game-bg: #f9f7f3;
-  --game-fg: #38301e;
-  --game-surface: #fdfdfc;
-  --game-surface-2: #efeae1;
-  --game-border: #dcd5c6;
-  --game-accent: #324b85;
+  --game-accent: #ea86a7;
   --game-accent-fg: #ffffff;
-  --game-muted: #736957;
-  --game-font: "Source Serif 4", serif;
 
   --tile-radius: 0.25rem;
-  --tile-empty: #fdfdfc;
-  --tile-filled: #efeae1;
-  --tile-fg: #38301e;
-  --tile-selected: #324b85;
-  --tile-correct: #324b85;
-  --tile-present: #8a6a28;
-  --tile-absent: #6d757e;
+  --tile-selected: #ea86a7;
 }
 
-[data-game="sudoku"] .font-mono-ink {
-  font-family: "IBM Plex Mono", monospace;
-}
-
-/* Board digits (both given and entered) read in the monospace "ink" face; everything chrome
-   around the board (title, buttons) keeps the serif headline font set via --game-font. */
-[data-game="sudoku"] [role="grid"] button {
-  font-family: "IBM Plex Mono", monospace;
-}
-
+/* Board digits (both given and entered) keep the monospace "ink" face for tabular-figure
+   alignment in the grid — the one deliberate exception to "one font everywhere" (functional, not
+   decorative: see docs/redesign/HANDOFF.md "Fonts kept non-Quicksand"). Chrome around the board
+   (title, buttons) now uses the site's shared Quicksand like every other game. */
+[data-game="sudoku"] .font-mono-ink,
+[data-game="sudoku"] [role="grid"] button,
 [data-game="sudoku"] [role="grid"] button span {
   font-family: "IBM Plex Mono", monospace;
 }
