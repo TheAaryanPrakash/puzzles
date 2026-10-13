@@ -61,10 +61,12 @@ const UNTIMED_MOVETIME_MS: Record<Difficulty, number> = { easy: 250, medium: 700
 // Timed games scale movetime off the engine's own remaining clock instead, so it actually spends a
 // visible, believable share of its time over a game rather than barely touching the clock (a flat
 // untimed-style budget against a 3-10 minute clock would use well under a minute across an entire
-// game). Each tier's ceiling is chosen so a full-strength Hard move (2000ms) roughly breaks even
-// against the one increment preset on offer (3+2 = 2000ms/move) instead of visibly gaining time —
-// confirmed by playing it live. The floor exists so a near-empty clock can't make a single move
-// think long enough to flag itself.
+// game). The engine is never credited increment (see commitMove in index.tsx), so these ceilings
+// only need to pace how much of its own time it visibly spends — not "break even" against any
+// particular preset's increment, which was the previous (fragile) rationale here: it quietly broke
+// the moment a bigger-increment preset (Rapid, 15+10) was added, since Hard's old 2000ms ceiling was
+// tuned only against 3+2's 2000ms increment. The floor exists so a near-empty clock can't make a
+// single move think long enough to flag itself.
 const TIMED_MOVETIME_CEILING_MS: Record<Difficulty, number> = { easy: 600, medium: 1200, hard: 2000 };
 const TIMED_MOVETIME_FLOOR_MS = 300;
 const TIMED_MOVETIME_CLOCK_DIVISOR = 20;

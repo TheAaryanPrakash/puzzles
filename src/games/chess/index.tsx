@@ -118,7 +118,16 @@ function ComputerTab() {
   function commitMove(c: Chess, moveResult: Move, baseGame: GameState, options: { isEngine: boolean }) {
     const current = gameRef.current ?? baseGame;
     const mover: Side = moveResult.color === "w" ? "white" : "black";
-    const clock = current.clock ? applyIncrement(current.clock, mover) : null;
+    // Increment only ever goes to the player, never the engine. Increment exists to cover a human's
+    // reaction/input time, not a bot's — and crediting it to the engine anyway is exactly what made
+    // its clock visibly climb every move instead of draining: engineOptionsFor's movetime ceilings
+    // were tuned to roughly break even only against the one increment preset that existed when they
+    // were chosen (3+2 = 2000ms), so a bigger increment (Rapid, 15+10 = 10000ms) made the engine
+    // gain several seconds per move — reported live as "the computer's timer is going up". Dropping
+    // increment for the engine's side entirely removes that calibration dependency: its clock can
+    // now only ever decrease, via the same running-clock interval tick as the player's, for any
+    // current or future preset, regardless of how fast the engine moves.
+    const clock = current.clock ? (options.isEngine ? current.clock : applyIncrement(current.clock, mover)) : null;
     const engineMoveCount = options.isEngine ? baseGame.engineMoveCount + 1 : baseGame.engineMoveCount;
     const end = classifyEnd(c, baseGame.playerSide);
     const status: GameStatus = end?.status ?? "in_progress";
