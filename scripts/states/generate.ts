@@ -131,7 +131,11 @@ function writeSamples(entries: StateEntry[], schedule: string[], maxDistanceKm: 
       "and the merged Dadra-Nagar-Haveli-Daman-Diu) render with real gaps between parts — expected, " +
       "not a bug (see RESEARCH.md §4).",
     "- Chandigarh, Delhi, Puducherry and Lakshadweep are geographically tiny but render at the same " +
-      "visual size as Rajasthan — intentional (per-feature fit, see RESEARCH.md §4).",
+      "visual size as Rajasthan — intentional (per-feature fit, see RESEARCH.md §4). The fit is to " +
+      "each feature's largest contiguous part (redesign, 2026-10): Puducherry/Lakshadweep/Andaman & " +
+      "Nicobar/Dadra-Nagar-Haveli-Daman-Diu are scattered multi-part territories where fitting to " +
+      "the full bounding box shrank the actual landmass to well under 1% of the frame — see " +
+      "scripts/states/silhouette.ts's `largestPart`.",
   );
 
   mkdirSync(resolve(ROOT, "scripts/out"), { recursive: true });
