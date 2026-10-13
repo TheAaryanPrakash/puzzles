@@ -124,6 +124,7 @@ export default function TravleGame() {
               countryNames={names}
               excludeCodes={excludeCodes}
               onSubmit={(code) => void handleGuess(code)}
+              onInvalid={() => setRejectMessage(REJECT_MESSAGE["unknown-country"])}
             />
             {rejectMessage && (
               <p role="alert" className="mt-2 text-sm text-brand-danger">

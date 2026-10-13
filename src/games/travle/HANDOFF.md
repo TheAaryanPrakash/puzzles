@@ -60,6 +60,39 @@ files as published.
 None — no code copied from the researched open-source Travle clones (travle.earth, geogrid, etc.);
 only their rules/UX were used as reference.
 
+## Redesign phase 2 (2026-10)
+
+- **`CountryCombobox.tsx`** now wraps the shared `src/components/fx/GlideCombobox.tsx` instead of
+  a hand-rolled listbox (`prompts/redesign/travle.md`'s focus item). `excludeCodes` maps straight to
+  `excludeValues`. The dropdown narrows by canonical country name only (same tradeoff
+  `StateCombobox` already makes) — a typed alias that isn't a substring of the canonical name (e.g.
+  "USA" for "United States") doesn't appear in the filtered list, but resolves correctly through
+  `resolveFreeText`, wired to `logic.ts`'s existing (previously unused) `resolveCountryName` helper,
+  on Enter with nothing highlighted — exactly the "States' `resolveGuess` pattern" the task prompt
+  pointed at.
+- New optional `onInvalid` prop on `CountryComboboxProps`, wired in `index.tsx` to the existing
+  `REJECT_MESSAGE["unknown-country"]` text. This is a real, newly-reachable path: the old combobox's
+  `matches()`-based suggestion list silently excluded already-guessed/endpoint countries, so Enter on
+  their exact name was a silent no-op; `resolveFreeText` resolves against the *full* country list
+  (not the exclusion-filtered one), so typing an already-guessed country's exact name now correctly
+  surfaces "Already guessed."/"That's already one of the endpoints." via `rejectReasonFor` instead of
+  doing nothing — verified live (typed "Ukraine" after guessing it: guess count stayed put, the
+  existing reject message appeared, no state corruption).
+- Live-tested via `playwright-cli` at 375px and via keyboard-only (type → arrow → Enter, and
+  type-exact-alias → Enter): filtering, exclusion, alias resolution, invalid-input messaging, and
+  focus retention after commit all verified working. `Map.tsx`/`GuessList.tsx` untouched.
+- `pnpm test` (836 tests, whole suite) and `pnpm build` both pass; `tsc -b` clean;
+  `node scripts/check-scope.mjs travle` passes (2 files changed, both in scope).
+
+### Review
+
+6. **Dropdown alias coverage** — like `StateCombobox`, the live suggestion list only matches the
+   canonical name, not aliases; alias text only resolves on exact Enter. If someone wants aliases to
+   actually *filter* the dropdown (not just resolve a full match), that needs either a controlled
+   `GlideCombobox` query (not currently exposed) or per-alias synthetic options with a value→code
+   lookup layer — flagged rather than built, since it wasn't asked for and adds real complexity for a
+   rarely-hit case (most country aliases are substrings of or close to the canonical name already).
+
 ## Known issues
 
 - **`@types/topojson-client`'s own type dependencies** (`geojson`, `topojson-specification`) aren't
