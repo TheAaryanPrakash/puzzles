@@ -1,6 +1,8 @@
+import { useMemo } from "react";
 import { Tile, FLIP_STAGGER, type TileVisualState } from "./Tile";
 import { rowFeedback, MAX_GUESSES, WORD_LENGTH } from "../logic";
 import { noSwipeProps } from "../../../lib/noSwipe";
+import { useSlotSpring } from "../../../components/fx/useSlotSpring";
 
 export interface BoardProps {
   guesses: string[];
@@ -22,6 +24,15 @@ export function Board({
   shakeCurrentRow,
 }: BoardProps) {
   const rows = Array.from({ length: MAX_GUESSES }, (_, i) => i);
+
+  // One spring per column of the in-progress row only: a letter springs up into its tile as it's
+  // typed and resets on backspace. Historical rows and the flip-reveal (on the whole tile, on
+  // submit) are untouched — see useSlotSpring's own doc comment and CLAUDE.md's wordle prompt.
+  const currentRowFilled = useMemo(
+    () => Array.from({ length: WORD_LENGTH }, (_, i) => i < currentGuess.length),
+    [currentGuess],
+  );
+  const currentRowSlots = useSlotSpring(currentRowFilled);
 
   return (
     <div className="flex flex-col gap-1.5" role="group" aria-label="Game board" {...noSwipeProps}>
@@ -47,6 +58,7 @@ export function Board({
                   delay={col * FLIP_STAGGER}
                   shake={isCurrentRow && shakeCurrentRow}
                   onRevealed={isRevealing && col === lastColumn ? onRevealComplete : undefined}
+                  slotStyle={isCurrentRow ? currentRowSlots[col]?.style : undefined}
                 />
               );
             })}

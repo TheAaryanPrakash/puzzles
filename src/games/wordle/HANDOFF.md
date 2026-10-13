@@ -77,3 +77,37 @@ None — no code copied from external sources. `lib/wordle-score.ts` was already
 - The shared `Keyboard` overflow above (375px only).
 - No other known issues. `pnpm test` (110 tests across the suite, 22 in this game) and `pnpm build`
   both pass; `node scripts/check-scope.mjs wordle` passes.
+
+## Redesign (phase 2, pink-on-black)
+
+Scope per `prompts/redesign/wordle.md`: `theme.css` was already redesigned and approved at
+Checkpoint 1 (tile colours, contrast overrides, square tiles) — spot-checked at 375px, still reads
+well, left untouched. The only build item was wiring `useSlotSpring` into the board.
+
+- **`components/Tile.tsx`**: added an optional `slotStyle` prop (`useSlotSpring`'s per-slot
+  `{ transform, opacity }` motion values). When present, the letter renders inside a `motion.span`
+  with that style instead of as a bare text node; when absent (every row except the in-progress
+  one), behaviour is unchanged from before this task.
+- **`components/Board.tsx`**: calls `useSlotSpring` once, at the top of `Board`, with one `filled`
+  boolean per column of `currentGuess` (`i < currentGuess.length`). Only the in-progress row's tiles
+  get a `slotStyle`; historical rows and the row currently playing its flip-reveal never receive one,
+  so the two animations stay decoupled exactly as the prompt asked — a letter springs up as it's
+  typed and resets on backspace, and that's it. No `theme.css` change was needed: the hook's own
+  `rise`/`bounce`/`duration` defaults already matched the "flowy" feel.
+- Verified live (not just by reading the code): `PORT=5201 pnpm dev`, a dev-only `?devUser=amal`
+  session, at 375px. Typed letters settle without layout shift or tile resize, backspace clears the
+  right tile, submitting a full guess still runs the existing flip-reveal with no visible fight
+  between the two animations (screenshots taken, flip colours and keyboard key-states correct after
+  submit). `useReducedMotion` is read inside `useSlotSpring` itself, so reduced-motion is inherited
+  for free — not separately re-tested here beyond reading the hook's own handling.
+- `pnpm test` (836 tests across the suite) and `pnpm build` pass after these changes;
+  `node scripts/check-scope.mjs wordle` reports 2 changed files, both in scope.
+
+**Skills used**: `motion-framer` (reading `useSlotSpring`'s own motion-value pattern before wiring
+it in, to avoid fighting the existing flip/shake animations); `playwright-cli` (headed Chrome, a
+dedicated `-s=wordle-redesign` session to avoid colliding with other agents' shared `default`
+session, 375px screenshots of typing/backspace/submit); `web-design-guidelines` (re-confirmed the
+tile's `role="img"` label and reduced-motion handling still hold with the new child span).
+
+**Shared changes requested**: None new. The `Keyboard` 375px overflow logged above was already a
+phase-1 finding for the design agent; not re-filed here.
