@@ -144,18 +144,26 @@ export function FriendsTab() {
       >
         Skip to main content
       </a>
-      <header className="flex items-center justify-between border-b border-game-border bg-game-surface px-3 py-2.5">
-        {gameId ? (
-          <button type="button" onClick={backToList} aria-label="Back to games" className={`${ICON_BUTTON} text-game-fg hover:text-game-accent`}>
-            ←
-          </button>
-        ) : (
-          <Link to="/" aria-label="Back to hub" className={`${ICON_BUTTON} text-game-fg hover:text-game-accent`}>
-            ←
-          </Link>
-        )}
+      {/* grid grid-cols-[1fr_auto_1fr] + justify-self-*, not flex justify-between — see the same
+          note on src/games/chess/index.tsx's header. sticky top-0 for the same reason too: this is
+          the only back-to-games-list control while actually viewing a game (GameView's own `onBack`
+          is wired to this same backToList, but only ever rendered in its "game not found" branch —
+          see that file — so during an active game this header is the only way back, and needs to
+          stay reachable without scrolling up past the board/clocks/move list). */}
+      <header className="sticky top-0 z-10 grid grid-cols-[1fr_auto_1fr] items-center gap-2 border-b border-game-border bg-game-surface px-3 py-2.5">
+        <div className="justify-self-start">
+          {gameId ? (
+            <button type="button" onClick={backToList} aria-label="Back to games" className={`${ICON_BUTTON} text-game-fg hover:text-game-accent`}>
+              ←
+            </button>
+          ) : (
+            <Link to="/" aria-label="Back to hub" className={`${ICON_BUTTON} text-game-fg hover:text-game-accent`}>
+              ←
+            </Link>
+          )}
+        </div>
         <ChessTabs active="friends" />
-        <div className="flex items-center gap-1">
+        <div className="flex items-center gap-1 justify-self-end">
           {!gameId && (
             <button type="button" onClick={() => setNewChallengeOpen(true)} aria-label="New challenge" className={ICON_BUTTON}>
               ➕

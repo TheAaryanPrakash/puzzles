@@ -378,12 +378,22 @@ function ComputerTab() {
       >
         Skip to main content
       </a>
-      <header className="flex items-center justify-between border-b border-game-border bg-game-surface px-3 py-2.5">
-        <Link to="/" aria-label="Back to hub" className={`${ICON_BUTTON} text-game-fg hover:text-game-accent`}>
-          ←
-        </Link>
+      {/* grid grid-cols-[1fr_auto_1fr] + justify-self-*, not flex justify-between: the center item
+          in a 2-item-flanked flex row sits in the *leftover space* between two differently-sized
+          side groups, not the true page center (same fix already applied to GameLayout/SiteHeader —
+          this page predates that pattern since chess has its own header, see CLAUDE.md "Chess").
+          sticky top-0: the board + clocks + captured pieces + move controls can exceed viewport
+          height, especially at 375px, and this was the only way back to the hub/games list — with a
+          plain (non-sticky) header, scrolling down to reach Resign/Draw scrolled it out of view
+          entirely. */}
+      <header className="sticky top-0 z-10 grid grid-cols-[1fr_auto_1fr] items-center gap-2 border-b border-game-border bg-game-surface px-3 py-2.5">
+        <div className="justify-self-start">
+          <Link to="/" aria-label="Back to hub" className={`${ICON_BUTTON} text-game-fg hover:text-game-accent`}>
+            ←
+          </Link>
+        </div>
         <ChessTabs active="computer" />
-        <div className="flex items-center gap-1">
+        <div className="flex items-center gap-1 justify-self-end">
           <button type="button" onClick={() => setSettingsOpen(true)} aria-label="New game" className={ICON_BUTTON}>
             🔄
           </button>
