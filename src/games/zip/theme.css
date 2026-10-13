@@ -13,5 +13,8 @@
   --zip-path-end: #a681da;
   --zip-checkpoint-bg: var(--game-surface);
   --zip-checkpoint-ring: var(--brand-ring);
-  --zip-wall: #2a1a20;
+  /* Was #2a1a20 — nearly identical to --game-surface (#1c1215), the cell fill behind it, so the
+     walls (an actual puzzle constraint: the path can never cross one) were effectively invisible.
+     Bright enough to read clearly against both the cell fill and the --game-border grid lines. */
+  --zip-wall: #e8c9d4;
 }
