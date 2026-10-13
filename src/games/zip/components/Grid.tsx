@@ -101,7 +101,14 @@ export function ZipGrid({ puzzle, path, onInteract, readOnly, compact }: ZipGrid
         ))}
       </div>
 
-      {/* Walls + path tube + head marker */}
+      {/* Walls + path tube + head marker. var(--zip-wall, #e8c9d4) etc below carry an explicit
+          fallback, not just var(--zip-wall): this component also renders inside ResultModal's
+          portalled (compact) preview, outside [data-game="zip"] entirely, where zip-scoped custom
+          properties don't exist at all (not just "unset" — the property itself is absent from that
+          part of the DOM tree), so an unfallback'd var() resolves to nothing and these elements
+          render with no fill/stroke/border. Same bug class Mini hit in its own result preview — see
+          its theme.css and HANDOFF.md. Confirmed live: checkpoint badges had no background/ring and
+          walls were invisible in the result modal until these fallbacks were added. */}
       <svg
         className="pointer-events-none absolute inset-0 h-full w-full"
         viewBox={`0 0 ${size} ${size}`}
@@ -113,12 +120,12 @@ export function ZipGrid({ puzzle, path, onInteract, readOnly, compact }: ZipGrid
           if (sameRow) {
             const x = Math.max(w.a.col, w.b.col);
             return (
-              <line key={i} x1={x} y1={w.a.row} x2={x} y2={w.a.row + 1} stroke="var(--zip-wall)" strokeWidth={0.09} strokeLinecap="round" />
+              <line key={i} x1={x} y1={w.a.row} x2={x} y2={w.a.row + 1} stroke="var(--zip-wall, #e8c9d4)" strokeWidth={0.09} strokeLinecap="round" />
             );
           }
           const y = Math.max(w.a.row, w.b.row);
           return (
-            <line key={i} x1={w.a.col} y1={y} x2={w.a.col + 1} y2={y} stroke="var(--zip-wall)" strokeWidth={0.09} strokeLinecap="round" />
+            <line key={i} x1={w.a.col} y1={y} x2={w.a.col + 1} y2={y} stroke="var(--zip-wall, #e8c9d4)" strokeWidth={0.09} strokeLinecap="round" />
           );
         })}
 
@@ -145,7 +152,7 @@ export function ZipGrid({ puzzle, path, onInteract, readOnly, compact }: ZipGrid
         {head && (
           <motion.circle
             r={STROKE_WIDTH * 0.85}
-            fill="var(--zip-checkpoint-bg)"
+            fill="var(--zip-checkpoint-bg, var(--game-surface))"
             stroke={pathColorAt(totalSegments > 1 ? (path.length - 1) / (totalSegments - 1) : 0)}
             strokeWidth={0.07}
             initial={false}
@@ -164,7 +171,11 @@ export function ZipGrid({ puzzle, path, onInteract, readOnly, compact }: ZipGrid
               {checkpoint && (
                 <span
                   className={`flex h-full w-full items-center justify-center rounded-full border-2 font-brand font-bold ${compact ? "text-[0.5rem]" : "text-sm sm:text-base"}`}
-                  style={{ background: "var(--zip-checkpoint-bg)", borderColor: "var(--zip-checkpoint-ring)", color: "var(--game-fg)" }}
+                  style={{
+                    background: "var(--zip-checkpoint-bg, var(--game-surface))",
+                    borderColor: "var(--zip-checkpoint-ring, var(--brand-ring))",
+                    color: "var(--game-fg)",
+                  }}
                 >
                   {checkpoint.num}
                 </span>
