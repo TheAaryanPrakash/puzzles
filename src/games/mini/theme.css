@@ -22,11 +22,24 @@
   --mini-number: var(--game-muted);
 }
 
+/* var() fallbacks on every --mini-* reference below (not just the token declaration above):
+   ResultModal renders its extraContent (this game's own read-only MiniGrid, shown in the
+   post-game result card) through a React portal to document.body (Modal.tsx createPortal),
+   outside GameLayout [data-game="mini"] wrapper, so the --mini-* custom properties declared
+   above are not in scope there. background/border are not inherited CSS properties, so an
+   unresolved var() with no fallback computes to fully transparent rather than any visible
+   color: without the fallbacks below, the result-modal preview silently lost its block squares,
+   grid gaps and outer border (confirmed via pixel sampling: flat #1c1215 background with zero
+   separator pixels anywhere in the rendered grid). A plain second :root rule here (tried first)
+   does not fix this: the Tailwind v4 pipeline used in this project only keeps the --mini-*
+   custom properties declared in the single :root block in src/styles/brand.css, silently
+   dropping an equivalent block added in a per-game theme.css, so these values must be repeated
+   inline instead. */
 .mini-board {
   display: grid;
   gap: 2px;
-  background: var(--mini-black);
-  border: 2px solid var(--mini-black);
+  background: var(--mini-black, #0c0709);
+  border: 2px solid var(--mini-black, #0c0709);
   border-radius: var(--radius-brand-sm);
   width: min(100%, 420px);
   aspect-ratio: 1 / 1;
@@ -49,12 +62,12 @@
 }
 
 .mini-cell.is-black {
-  background: var(--mini-black);
+  background: var(--mini-black, #0c0709);
   cursor: default;
 }
 
 .mini-cell.is-in-word {
-  background: var(--mini-word);
+  background: var(--mini-word, #371b24);
 }
 
 .mini-cell.is-selected {
@@ -62,7 +75,7 @@
 }
 
 .mini-cell.is-wrong {
-  background: var(--mini-wrong);
+  background: var(--mini-wrong, #4a211c);
 }
 
 .mini-cell-number {
@@ -71,7 +84,7 @@
   left: 3px;
   font-size: clamp(0.5rem, 1.8vw, 0.65rem);
   font-weight: 500;
-  color: var(--mini-number);
+  color: var(--mini-number, var(--game-muted));
   line-height: 1;
 }
 
