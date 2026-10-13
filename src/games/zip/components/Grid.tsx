@@ -62,6 +62,11 @@ export function ZipGrid({ puzzle, path, onInteract, readOnly, compact }: ZipGrid
   }
 
   function handlePointerMove(e: React.PointerEvent) {
+    // Also does noSwipeProps' job (see src/lib/noSwipe.ts) inline instead of spreading
+    // noSwipeProps' own onPointerMove: both would target this exact element's onPointerMove prop,
+    // and JSX prop spread is last-wins, not compose — spreading it would silently replace this
+    // handler (confirmed broken: path dragging dead) rather than run alongside it.
+    e.stopPropagation();
     if (!interactive || !draggingRef.current) return;
     interact(cellFromClientPoint(e.clientX, e.clientY));
   }
@@ -83,11 +88,11 @@ export function ZipGrid({ puzzle, path, onInteract, readOnly, compact }: ZipGrid
       role="group"
       aria-label={`Zip puzzle grid, ${size} by ${size}`}
       className={`relative aspect-square w-full touch-none select-none ${compact ? "max-w-[160px]" : "max-w-[420px]"}`}
+      {...noSwipeProps}
       onPointerDown={handlePointerDown}
       onPointerMove={handlePointerMove}
       onPointerUp={endDrag}
       onPointerCancel={endDrag}
-      {...noSwipeProps}
     >
       {/* Cell backgrounds */}
       <div className="absolute inset-0 grid overflow-hidden rounded-tile border border-game-border" style={gridTemplate}>

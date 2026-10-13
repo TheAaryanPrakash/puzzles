@@ -89,6 +89,11 @@ export function Board({
   }
 
   function handlePointerMove(e: ReactPointerEvent<HTMLDivElement>) {
+    // Also does noSwipeProps' job (see src/lib/noSwipe.ts) inline instead of spreading
+    // noSwipeProps' own onPointerMove: both would target this exact element's onPointerMove prop,
+    // and JSX prop spread is last-wins, not compose — spreading it would silently replace this
+    // handler (confirmed broken: piece dragging dead) rather than run alongside it.
+    e.stopPropagation();
     if (!drag || e.pointerId !== drag.pointerId || !drag.trackable) return;
     const moved = drag.moved || Math.hypot(e.clientX - drag.startX, e.clientY - drag.startY) > DRAG_THRESHOLD_PX;
     setDrag({ ...drag, x: e.clientX, y: e.clientY, moved });
@@ -119,10 +124,10 @@ export function Board({
       className="relative mx-auto grid aspect-square w-full max-w-[min(94vw,32rem)] grid-cols-8 touch-none overflow-hidden rounded-brand-md border border-game-border shadow-brand-sm select-none"
       role="grid"
       aria-label="Chess board"
+      {...noSwipeProps}
       onPointerMove={handlePointerMove}
       onPointerUp={handlePointerUp}
       onPointerCancel={() => setDrag(null)}
-      {...noSwipeProps}
     >
       {squares.map((square) => {
         const piece = chess.get(square);
