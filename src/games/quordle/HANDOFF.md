@@ -69,6 +69,26 @@
 None. No code copied — `src/lib/wordle-score.ts`'s `scoreGuess` is reused in-repo (not external), and
 the prior implementations in RESEARCH.md were read for approach/timing, not copied from.
 
+## Redesign phase 2 (2026-10, pink-on-black)
+- `theme.css` was already redesigned at Checkpoint 1 (4 board tints synced to the approved
+  Connections palette, tile trio matching Wordle's) — spot-checked at 375px with fresh eyes,
+  nothing broken, left untouched.
+- Wired `useSlotSpring` (`src/components/fx/useSlotSpring.ts`) into the typing animation: letters
+  now spring up into their tile as typed and reverse on backspace, across all 4 boards. Quordle
+  types one shared `currentGuess` string into every unsolved board at once, so this is **one**
+  shared row of 5 slot springs (`index.tsx`'s `typingSlots = useSlotSpring(typingFilled)`, keyed off
+  `currentGuess`), not 4 independent ones — each board's `Tile` for the current row binds its
+  column's `motion.span style={slotStyle}` to the *same* motion-value instances, so up to 4 DOM
+  nodes subscribe to 5 shared springs per keystroke instead of running 20 separate ones. Verified
+  with `playwright-cli` (headed, since `FluxLines` needs WebGL2) at 375px: typed letters, a full
+  guess, submit (flip-reveal still scores/animates correctly), and backspace all land in lockstep
+  across all four boards.
+- Removed `Tile.tsx`'s old ad hoc `scale: [0.82, 1.04, 1]` keyframe bounce for the typed/current-row
+  case — the slot-spring letter rise replaces it; shake-on-invalid and the per-column flip-reveal
+  stagger are untouched.
+- No shared changes requested beyond the pre-existing Keyboard-overflow item below (unchanged by
+  this pass).
+
 ## Known issues
 - See "Shared changes requested" — the on-screen keyboard overflows at 375px app-wide; this is the
   main thing standing between Quordle and a clean 375px pass.

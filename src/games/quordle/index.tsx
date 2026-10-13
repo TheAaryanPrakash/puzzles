@@ -1,6 +1,7 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useReducedMotion } from "motion/react";
 import "./theme.css";
+import { useSlotSpring } from "../../components/fx/useSlotSpring";
 import { GameLayout } from "../../components/GameLayout";
 import { HowToPlayModal, useAutoOpenHowToPlay } from "../../components/HowToPlayModal";
 import { ResultModal } from "../../components/ResultModal";
@@ -46,6 +47,14 @@ export default function QuordleGame() {
   const [validGuesses, setValidGuesses] = useState<Set<string> | null>(null);
   const shakeTimeout = useRef<ReturnType<typeof setTimeout> | null>(null);
   const reducedMotion = Boolean(useReducedMotion());
+
+  // One shared row of typing springs, not one per board: all 4 boards show the same in-progress
+  // guess at once, so 4 Tiles bind to the same 5 motion values instead of 20 independent springs.
+  const typingFilled = useMemo(
+    () => Array.from({ length: WORD_LENGTH }, (_, i) => i < currentGuess.length),
+    [currentGuess],
+  );
+  const typingSlots = useSlotSpring(typingFilled);
 
   useEffect(() => {
     let cancelled = false;
@@ -168,6 +177,7 @@ export default function QuordleGame() {
                 boardIndex={i}
                 shake={shake}
                 reducedMotion={reducedMotion}
+                typingSlots={typingSlots}
               />
             );
           })}
