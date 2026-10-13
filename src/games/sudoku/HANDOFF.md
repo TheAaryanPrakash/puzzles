@@ -95,3 +95,45 @@ generator, grader and UI function here was written from scratch, informed by the
 - **Hover styles use plain Tailwind `hover:` classes** (no `@media (hover: hover)` guard), consistent
   with the rest of the codebase (e.g. `Button.tsx`) — not fixed here since it's a site-wide pattern,
   not specific to these two games.
+
+## Phase 2 (redesign, 2026-10) — verification + one real bug found
+
+Both `theme.css` files were already redesigned (see their own comments) and needed no palette
+changes — confirmed the given/entry/error/notes contrast ratios still hold against the new
+`--game-bg`/`--game-surface`. This pass was verification + polish, per `prompts/redesign/sudoku.md`.
+
+**Bug fixed** (`shared/components/Board.tsx`): the conflict highlight (`text-brand-danger`, used
+when "Check mistakes" flags a cell) never actually rendered — it was always pink, identical to a
+normal entry. Root cause: the cell's `className` array could include both `text-game-accent` and
+`text-brand-danger` at once (the given/entry base color and the conflict override), two classes
+setting the same CSS property at equal specificity. Tailwind v4's generated rule order — not JSX
+order — decided which one painted, and it consistently lost to the accent pink. Verified with pixel
+sampling: conflicting cells rendered exactly `#ea86a7` (accent), zero `#e06552` (danger) pixels,
+even though the `aria-label` correctly said "conflicts with another cell" the whole time — the bug
+was purely visual, so it was easy to miss from a code read alone. Fixed by computing a single
+`textColorClass` (`isConflict ? danger : given ? tile-fg : accent`) so at most one color class is
+ever applied. This landed in the one shared `Board.tsx`, so it fixes the conflict highlight for both
+Sudoku and Mini Sudoku — confirmed in-browser for both games after the fix (screenshots below).
+
+**A dev-loop gotcha worth recording for future agents in this worktree**: `vite.config.ts` sets
+`watch.ignored: ["**/.claude/**"]` (so the main checkout's dev server doesn't react to every agent
+worktree's files). Since each worktree itself lives under `.claude/worktrees/<agent>/`, its *own*
+dev server's file watcher also ignores its *own* source edits — so Vite's in-memory transform cache
+goes stale after an edit and a plain browser reload (even a fresh profile/navigation) can keep
+serving the pre-edit module indefinitely. **A source edit in this worktree needs a dev-server
+restart, not just a reload**, before trusting what the browser shows. This cost real time here: the
+conflict-color fix above looked like it wasn't working for several reload/re-navigate attempts until
+the dev server itself was restarted.
+
+**Verified** (both games, `PORT=5204 pnpm dev`, `playwright-cli --headed`, iPhone-15 emulation +
+1440×900 desktop): given/entry/conflict/notes colors all read clearly (notes confirmed legible at
+375px), "Check mistakes" conflict highlight now correctly shows red, physical-keyboard digit entry
+and the `N` notes-toggle shortcut work, Mini Sudoku's rounder cells/grid render correctly through the
+same `Board.tsx`. `howTo` copy in both `meta.ts` files was re-read and is already clear — no changes
+needed. Neither game does pointer-dragging, so `src/lib/noSwipe.ts` doesn't apply here.
+
+`pnpm test` (836 tests, full suite) and `pnpm build` both pass. `node scripts/check-scope.mjs sudoku`
+passes (1 file changed: `shared/components/Board.tsx`).
+
+### Shared changes requested (phase 2)
+None — the fix was inside this agent's own `src/games/sudoku/shared/`.
