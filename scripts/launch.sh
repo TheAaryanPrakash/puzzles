@@ -7,21 +7,41 @@
 #   NO_TMUX=1 scripts/launch.sh        # print commands to paste into your own terminals
 #   PERMISSION_MODE=acceptEdits scripts/launch.sh   # if auto mode isn't available to you
 #   NO_ATTACH=1 scripts/launch.sh      # start in the background; attach later with: tmux attach -t puzzles
+#   REDESIGN=1 scripts/launch.sh       # phase-2 mode: prompts/redesign/<id>.md, one agent per game
+#                                      # (no design/backend — phase 1 already merged those), worktree
+#                                      # identifier "ui-<id>" instead of "<id>" so branch/folder names
+#                                      # (worktree-ui-<id> / .claude/worktrees/ui-<id>) never collide
+#                                      # with a still-present phase-1 worktree of the same game.
 #
-# Each agent runs:  claude -w <agent> -n <agent> --permission-mode <mode> "Read prompts/<agent>.md ..."
-# which creates .claude/worktrees/<agent>/ on branch worktree-<agent>, from main's HEAD.
+# Each agent runs:  claude -w <worktree-id> -n <agent> --permission-mode <mode> "Read <prompt file> ..."
+# which creates .claude/worktrees/<worktree-id>/ on branch worktree-<worktree-id>, from main's HEAD.
 set -euo pipefail
 
 ALL_AGENTS=(design backend wordle quordle bee sudoku digits connections mini zip worldle flagle globle travle states)
+# Phase 2 (REDESIGN=1): every game gets its own restyle pass, including chess (not part of the
+# phase-1 fan-out above — it was built separately, see CLAUDE.md "Chess"). sudoku still covers both
+# sudoku and mini-sudoku in one agent, same grouping as phase 1 (prompts/redesign/sudoku.md says so).
+REDESIGN_AGENTS=(wordle quordle bee sudoku digits connections mini zip worldle flagle globle travle states chess)
 MODE="${PERMISSION_MODE:-auto}"
-SESSION="${TMUX_SESSION:-puzzles}"
 STAGGER="${STAGGER:-4}"   # seconds between starts, so worktree creation doesn't race
 CLAUDE_BIN="${CLAUDE_BIN:-claude}"
 
 ROOT="$(git rev-parse --show-toplevel)"
 cd "$ROOT"
 
-if [[ $# -gt 0 ]]; then AGENTS=("$@"); else AGENTS=("${ALL_AGENTS[@]}"); fi
+if [[ -n "${REDESIGN:-}" ]]; then
+  PROMPT_DIR="prompts/redesign"
+  WT_PREFIX="ui-"
+  DEFAULT_AGENTS=("${REDESIGN_AGENTS[@]}")
+  SESSION="${TMUX_SESSION:-puzzles-redesign}"
+else
+  PROMPT_DIR="prompts"
+  WT_PREFIX=""
+  DEFAULT_AGENTS=("${ALL_AGENTS[@]}")
+  SESSION="${TMUX_SESSION:-puzzles}"
+fi
+
+if [[ $# -gt 0 ]]; then AGENTS=("$@"); else AGENTS=("${DEFAULT_AGENTS[@]}"); fi
 
 # ---- preflight -------------------------------------------------------------
 fail() { echo "✗ $*" >&2; exit 1; }
@@ -31,7 +51,7 @@ branch="$(git rev-parse --abbrev-ref HEAD)"
 [[ -z "$(git status --porcelain)" ]] || fail "Main has uncommitted changes. Commit them first: agents branch from main's last commit."
 git check-ignore -q .claude/worktrees/x || fail ".claude/worktrees/ is not in .gitignore."
 for a in "${AGENTS[@]}"; do
-  [[ -f "prompts/$a.md" ]] || fail "No prompt file prompts/$a.md (agent '$a')."
+  [[ -f "$PROMPT_DIR/$a.md" ]] || fail "No prompt file $PROMPT_DIR/$a.md (agent '$a')."
 done
 if [[ -z "${DRY_RUN:-}" ]]; then
   command -v "$CLAUDE_BIN" >/dev/null || fail "$CLAUDE_BIN is not on your PATH."
@@ -43,13 +63,14 @@ if [[ -z "${DRY_RUN:-}" ]]; then
     [[ "$reply" =~ ^[Yy] ]] || fail "Run 'claude' here once, accept the prompt, exit, then re-run (or set TRUST_OK=1)."
   fi
   for a in "${AGENTS[@]}"; do
-    [[ ! -d ".claude/worktrees/$a" ]] || echo "• note: .claude/worktrees/$a exists; claude will reopen it."
+    wt=".claude/worktrees/${WT_PREFIX}$a"
+    [[ ! -d "$wt" ]] || echo "• note: $wt exists; claude will reopen it."
   done
 fi
 
 cmd_for() {
-  printf '%s -w %s -n %s --permission-mode %s "Read prompts/%s.md and carry out that task. Work without waiting for approval."' \
-    "$CLAUDE_BIN" "$1" "$1" "$MODE" "$1"
+  printf '%s -w %s -n %s --permission-mode %s "Read %s/%s.md and carry out that task. Work without waiting for approval."' \
+    "$CLAUDE_BIN" "${WT_PREFIX}$1" "$1" "$MODE" "$PROMPT_DIR" "$1"
 }
 
 # ---- launch ----------------------------------------------------------------

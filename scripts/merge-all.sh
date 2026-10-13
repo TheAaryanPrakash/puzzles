@@ -6,18 +6,31 @@
 #   scripts/merge-all.sh               # every agent that's ready
 #   scripts/merge-all.sh wordle bee    # just these
 #   DRY_RUN=1 scripts/merge-all.sh     # report readiness only
+#   REDESIGN=1 scripts/merge-all.sh    # phase-2 mode: merges branch worktree-ui-<id> from
+#                                      # .claude/worktrees/ui-<id> for each phase-2 game agent
+#                                      # (matches scripts/launch.sh's REDESIGN=1 naming)
 set -uo pipefail
 
 ORDER=(design backend wordle quordle bee sudoku digits connections mini zip worldle flagle globle travle states)
+REDESIGN_ORDER=(wordle quordle bee sudoku digits connections mini zip worldle flagle globle travle states chess)
 ROOT="$(git rev-parse --show-toplevel)"; cd "$ROOT"
-if [[ $# -gt 0 ]]; then AGENTS=("$@"); else AGENTS=("${ORDER[@]}"); fi
+
+if [[ -n "${REDESIGN:-}" ]]; then
+  WT_PREFIX="ui-"
+  DEFAULT_AGENTS=("${REDESIGN_ORDER[@]}")
+else
+  WT_PREFIX=""
+  DEFAULT_AGENTS=("${ORDER[@]}")
+fi
+if [[ $# -gt 0 ]]; then AGENTS=("$@"); else AGENTS=("${DEFAULT_AGENTS[@]}"); fi
 
 [[ "$(git rev-parse --abbrev-ref HEAD)" == "main" ]] || { echo "✗ Run from main."; exit 1; }
 [[ -z "$(git status --porcelain)" ]] || { echo "✗ Main has uncommitted changes."; exit 1; }
 
 merged=(); skipped=()
 for a in "${AGENTS[@]}"; do
-  b="worktree-$a"; wt=".claude/worktrees/$a"
+  wtid="${WT_PREFIX}$a"
+  b="worktree-$wtid"; wt=".claude/worktrees/$wtid"
   if ! git show-ref -q --verify "refs/heads/$b"; then skipped+=("$a (no branch)"); continue; fi
   if git merge-base --is-ancestor "$b" main; then echo "• $a: already merged"; continue; fi
   last="$(git log -1 --format=%s "$b")"
@@ -29,7 +42,7 @@ for a in "${AGENTS[@]}"; do
     fi
   fi
   if [[ -n "${DRY_RUN:-}" ]]; then echo "• $a: ready"; continue; fi
-  if git merge --no-ff -q "$b" -m "Merge $a"; then
+  if git merge --no-ff -q "$b" -m "Merge $wtid"; then
     merged+=("$a"); echo "✓ merged $a"
   else
     git merge --abort; skipped+=("$a (merge conflict: aborted, resolve by hand)")
