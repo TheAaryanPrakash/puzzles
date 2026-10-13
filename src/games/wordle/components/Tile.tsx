@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { motion, useReducedMotion } from "motion/react";
+import { motion, useReducedMotion, type MotionValue } from "motion/react";
 
 export type TileVisualState = "empty" | "filled" | "correct" | "present" | "absent";
 
@@ -32,6 +32,10 @@ export interface TileProps {
   shake?: boolean;
   /** Fires once, after this tile's flip animation (or its reduced-motion equivalent) finishes. */
   onRevealed?: () => void;
+  /** From `useSlotSpring`, for the in-progress row only: springs the letter up into place as it's
+   *  typed and back down on backspace. Omitted for historical/revealing rows — those letters are
+   *  already settled, this is only the typing feedback, decoupled from the flip-reveal above. */
+  slotStyle?: { transform: MotionValue<string>; opacity: MotionValue<number> };
 }
 
 /**
@@ -40,7 +44,15 @@ export interface TileProps {
  * exactly that midpoint — not before (would spoil the flip) and not after (would look like the
  * colour pops in after the tile has already turned back to face the player). See RESEARCH.md.
  */
-export function Tile({ letter, state, flip = false, delay = 0, shake = false, onRevealed }: TileProps) {
+export function Tile({
+  letter,
+  state,
+  flip = false,
+  delay = 0,
+  shake = false,
+  onRevealed,
+  slotStyle,
+}: TileProps) {
   const reducedMotion = useReducedMotion();
   const [displayState, setDisplayState] = useState<TileVisualState>(flip ? "filled" : state);
 
@@ -94,7 +106,7 @@ export function Tile({ letter, state, flip = false, delay = 0, shake = false, on
             : { duration: 0 }
       }
     >
-      {letter}
+      {slotStyle ? <motion.span style={slotStyle}>{letter}</motion.span> : letter}
     </motion.div>
   );
 }
