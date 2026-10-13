@@ -106,6 +106,12 @@ export function Board({
           const boxEdgeRight = (col + 1) % config.boxW === 0 && col !== config.size - 1;
           const boxEdgeBottom = (row + 1) % config.boxH === 0 && row !== config.size - 1;
           const cellNotes = notes[row][col];
+          // A single text-color class, never two competing ones: `text-brand-danger` and
+          // `text-game-accent` both set `color` at equal specificity, so when both classes were
+          // present together (conflict on a player entry) which one painted depended on Tailwind's
+          // generated rule order, not JSX order — it silently lost to the accent pink every time,
+          // making "Check mistakes" invisible. Picking exactly one class keeps it deterministic.
+          const textColorClass = isConflict ? "text-brand-danger" : given ? "text-tile-fg" : "text-game-accent";
 
           return (
             <motion.button
@@ -135,10 +141,10 @@ export function Board({
               className={[
                 "relative flex items-center justify-center border-game-border text-[min(4.2vw,1.35rem)] font-semibold outline-none",
                 "focus-visible:ring-2 focus-visible:ring-game-accent focus-visible:ring-offset-1",
-                given ? "bg-tile-filled text-tile-fg" : "bg-tile-empty text-game-accent",
+                given ? "bg-tile-filled" : "bg-tile-empty",
+                textColorClass,
                 isSelected ? "z-10 ring-2 ring-tile-selected" : "",
                 !isSelected && isSameValue ? "bg-game-accent/20" : !isSelected && isPeer ? "bg-game-surface-2" : "",
-                isConflict ? "text-brand-danger" : "",
               ].join(" ")}
             >
               <AnimatePresence mode="popLayout" initial={false}>
