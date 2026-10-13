@@ -19,9 +19,18 @@ const ROTATE_STEP_DEG = 8;
 const ZOOM_STEP = 0.2;
 const DRAG_SENSITIVITY = 0.3;
 
-function cssVar(name: string, fallback: string): string {
-  if (typeof window === "undefined") return fallback;
-  const value = getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+/**
+ * `--globle-*` tokens are scoped under `[data-game="globle"]` (GameLayout's root — see theme.css),
+ * which is an ANCESTOR of this canvas, not of `document.documentElement`. CSS custom properties
+ * only cascade down to descendants, so reading them off `document.documentElement` (an ancestor of
+ * the scoped element, not a descendant) always misses and silently returns "" — every call here
+ * was landing on its hardcoded fallback, never the real theme color, which is why fixing the
+ * theme.css values alone did nothing (confirmed live: ocean rendered as the old placeholder navy
+ * `#0b1026` no matter what theme.css said). Must read from an element *inside* the scoped subtree.
+ */
+function cssVar(el: Element | null, name: string, fallback: string): string {
+  if (typeof window === "undefined" || !el) return fallback;
+  const value = getComputedStyle(el).getPropertyValue(name).trim();
   return value || fallback;
 }
 
@@ -70,16 +79,16 @@ export function Globe({ countries, fillForCode, className = "" }: GlobeProps) {
 
     ctx.beginPath();
     path({ type: "Sphere" } as GeoPermissibleObjects);
-    ctx.fillStyle = cssVar("--globle-ocean", "#0b1026");
+    ctx.fillStyle = cssVar(canvas, "--globle-ocean", "#09060d");
     ctx.fill();
 
     ctx.beginPath();
     path(geoGraticule10());
-    ctx.strokeStyle = cssVar("--globle-graticule", "#1f2a52");
+    ctx.strokeStyle = cssVar(canvas, "--globle-graticule", "#20192e");
     ctx.lineWidth = 0.5;
     ctx.stroke();
 
-    const outline = cssVar("--globle-outline", "#0b1026");
+    const outline = cssVar(canvas, "--globle-outline", "#c988a0");
     for (const country of countries.features) {
       ctx.beginPath();
       path(country as unknown as GeoPermissibleObjects);

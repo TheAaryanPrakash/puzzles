@@ -19,10 +19,19 @@
   --tile-present: #e4a944;
   --tile-absent: #54454a;
 
-  /* Globle-specific tokens, consumed by Globe.tsx/logic.ts's color helpers and components. */
-  --globle-ocean: #0c0709;
-  --globle-unguessed: #1c1215;
-  --globle-graticule: #3d2930;
-  --globle-outline: #0c0709;
+  /* Globle-specific tokens, consumed by Globe.tsx/logic.ts's color helpers and components.
+     Redesign fix (2026-10): ocean/unguessed/graticule/outline were all independently near-black
+     (contrast ratios 1.0-1.5 against each other) and --globle-outline duplicated --globle-ocean
+     exactly, so every country's border vanished against open ocean and the whole globe read as a
+     single dark blob ("they all blend into each other"). --globle-outline now clears 6.4:1 against
+     land and 7.2:1 against ocean, so every country's shape reads clearly regardless of fill;
+     --globle-graticule moved to a cool blue-violet (vs. the heat scale's warm reds) so it doesn't
+     compete visually with proximityColor's far end. FAR_COLOR/CLOSE_COLOR in logic.ts (the approved
+     Checkpoint-1 heat scale) are unchanged; only UNGUESSED_COLOR there was re-synced to the new
+     --globle-unguessed. */
+  --globle-ocean: #09060d;
+  --globle-unguessed: #1f141b;
+  --globle-graticule: #20192e;
+  --globle-outline: #c988a0;
   --globle-glow: 0 0 18px rgba(235, 99, 71, 0.45);
 }

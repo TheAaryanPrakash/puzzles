@@ -65,7 +65,7 @@ const CLOSE_COLOR = { r: 0xeb, g: 0x63, b: 0x47 }; // #eb6347
 export const SOLVED_COLOR = "#4ebc85";
 /** Country never guessed — a faint tint of the globe's own surface, not part of the warm scale.
  * Must stay in sync with theme.css's `--globle-unguessed`. */
-export const UNGUESSED_COLOR = "#1c1215";
+export const UNGUESSED_COLOR = "#1f141b";
 
 function lerp(a: number, b: number, t: number): number {
   return Math.round(a + (b - a) * t);
