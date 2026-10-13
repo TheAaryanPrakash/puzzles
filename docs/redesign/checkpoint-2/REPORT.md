@@ -1,8 +1,17 @@
 # Checkpoint 2 — build phase complete
 
 All of the Build section is done and live-verified (not just `pnpm test`/`pnpm build` passing —
-see `docs/redesign/HANDOFF.md` for three real bugs that passed both and were only caught by
-actually clicking through the app in a browser). Screenshots below at 375px and 1280px.
+see `docs/redesign/HANDOFF.md` for real bugs that passed both and were only caught by actually
+clicking through the app in a browser). Screenshots below at 375px and 1280px.
+
+The original `game-result-*.png` pair was retaken: it had been captured from a *lost* game whose
+card height exceeded the screenshot viewport, so the shot cut off before the "Next game" button —
+looked, out of context, like the button might be missing entirely. Played Wordle live
+(`playwright-cli`, headed, a real guess sequence ending in the correct answer) to check: the "Nice!"
+title, win stats, and "Next: Quordle" button all render correctly together. Replaced both files with
+that run. (The "Amal — 4 guesses" friends-board row is the local dev adapter's seeded fake-friends
+generator — `FAKE_FRIENDS` in `src/lib/data/local.ts`, deterministic per `gameId:date`, not real
+play data — pre-existing dev-mode behavior, not something this redesign changed.)
 
 ## Screenshots (`docs/redesign/checkpoint-2/`)
 
