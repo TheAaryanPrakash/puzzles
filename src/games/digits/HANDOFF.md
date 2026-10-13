@@ -66,3 +66,42 @@ paper, algorithm only, nothing to attribute as copied code).
 
 - None found. `pnpm test` (109 tests) and `pnpm build` both pass; `node scripts/check-scope.mjs
   digits` passes.
+
+## Redesign (2026-10, pink-on-black) — verification pass
+
+This game's prompt (`prompts/redesign/digits.md`) marked the restyle itself as already done
+(`theme.css`'s `--game-accent` moved to the approved gold swatch by the Checkpoint-1 pass, with
+contrast ratios documented in its own file comment) and assigned no `fx` component — so this was a
+verify-and-polish pass, not a build. **No code changes were needed**; everything below was checked
+and found already correct:
+
+- **Round board at 375px and 1280px** (`?date=2026-10-15`): pastel number circles, selected-gold
+  state, operator buttons (+ − × ÷, both idle and selected), the locked/read-only view with its
+  gold ring on the closest-to-target tile, and the error shake all read clearly against the new
+  near-black `--game-surface`. Screenshotted both widths with `playwright-cli open --headed`
+  (headless Chromium has no WebGL2, which would otherwise blank out `AppShell`'s `FluxLines`
+  background behind the board).
+- **Keyboard**: tabbed through the skip-link, round tabs, number tiles and operator buttons —
+  `brand.css`'s global `:focus-visible` ring (pink, 2px, offset) applies to all of them automatically
+  since none of `NumberCircle`/`RoundTabs`'/the operator `<button>`s suppress it. No digits-specific
+  keyboard handling exists or is needed (tap/click + Tab/Enter only, no drag).
+- **Merge/shake animations**: `NumberCircle`'s spring pop/exit and `RoundBoard`'s error shake are
+  pure scale/position/opacity transitions with no hardcoded colours, so neither was "tuned for the
+  old light background" in a way that needed re-tuning — confirmed by actually running a merge and
+  a submit in the browser, not just reading the code. Both already gate on `useReducedMotion()`.
+  There's no separate per-game "solved" animation to re-tune: wins go through the shared
+  `completeGame` → `celebrate()` path (CLAUDE.md "Design": "No per-game confetti"), and the round-
+  level "target reached" feedback *is* the locked view's gold ring + closest/stars line, which
+  already reads well (see above).
+- **`meta.ts`'s `howTo`**: re-read with fresh eyes against the shared `HowToPlayModal`. It already
+  covers the merge flow, the integer-only rule, the star thresholds, the win condition and the
+  Undo/Reset controls in four short, concrete steps — not sparse, left unchanged.
+- **`meta.ts`'s `hubAccent` (`#9c581c`)**: checked against the Hub page's new near-black cards next
+  to its neighbours (computed contrast ≈3.3:1 against `--brand-surface`, just over the 3:1
+  UI-graphics threshold, though visibly duller than e.g. Spelling Bee's `#ebca47` or Connections'
+  `#c8a641` next to it — a hue/saturation effect, not a lightness one). Left alone: `docs/redesign/
+  HANDOFF.md` already documents a dedicated hub-accent audit pass across all 14 games that
+  deliberately left every one but Mini Crossword's (the only actually-unreadable one) as-is, and
+  this prompt's own scope is the round board, not the Hub card or palette. Not re-litigated here.
+
+No shared changes requested beyond what's already noted above.
