@@ -144,14 +144,17 @@ export function FriendsTab() {
       >
         Skip to main content
       </a>
-      {/* grid grid-cols-[1fr_auto_1fr] + justify-self-*, not flex justify-between — see the same
-          note on src/games/chess/index.tsx's header. sticky top-0 for the same reason too: this is
-          the only back-to-games-list control while actually viewing a game (GameView's own `onBack`
+      {/* grid grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] + justify-self-*, not flex
+          justify-between, and not bare 1fr either — see the same note on
+          src/games/chess/index.tsx's header. sticky top-0 for the same reason too: this is the
+          only back-to-games-list control while actually viewing a game (GameView's own `onBack`
           is wired to this same backToList, but only ever rendered in its "game not found" branch —
           see that file — so during an active game this header is the only way back, and needs to
           stay reachable without scrolling up past the board/clocks/move list). */}
-      <header className="sticky top-0 z-10 grid grid-cols-[1fr_auto_1fr] items-center gap-2 border-b border-game-border bg-game-surface px-3 py-2.5">
-        <div className="justify-self-start">
+      <header className="sticky top-0 z-10 grid grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-2 border-b border-game-border bg-game-surface px-3 py-2.5">
+        {/* flex justify-start, not justify-self-start — see the other two header comments in this
+            file's folder for why. */}
+        <div className="flex justify-start">
           {gameId ? (
             <button type="button" onClick={backToList} aria-label="Back to games" className={`${ICON_BUTTON} text-game-fg hover:text-game-accent`}>
               ←
@@ -163,7 +166,7 @@ export function FriendsTab() {
           )}
         </div>
         <ChessTabs active="friends" />
-        <div className="flex items-center gap-1 justify-self-end">
+        <div className="flex items-center justify-end gap-1">
           {!gameId && (
             <button type="button" onClick={() => setNewChallengeOpen(true)} aria-label="New challenge" className={ICON_BUTTON}>
               ➕

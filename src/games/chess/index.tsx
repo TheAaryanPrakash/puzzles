@@ -387,22 +387,31 @@ function ComputerTab() {
       >
         Skip to main content
       </a>
-      {/* grid grid-cols-[1fr_auto_1fr] + justify-self-*, not flex justify-between: the center item
-          in a 2-item-flanked flex row sits in the *leftover space* between two differently-sized
-          side groups, not the true page center (same fix already applied to GameLayout/SiteHeader —
-          this page predates that pattern since chess has its own header, see CLAUDE.md "Chess").
+      {/* grid grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] + justify-self-*, not flex
+          justify-between: the center item in a 2-item-flanked flex row sits in the *leftover
+          space* between two differently-sized side groups, not the true page center (same fix
+          already applied to GameLayout/SiteHeader — this page predates that pattern since chess
+          has its own header, see CLAUDE.md "Chess"). minmax(0,1fr), not bare 1fr: a bare 1fr
+          track's minimum is its own content's size, so the left (1 icon) and right (2 icons)
+          groups here still pull the center off true page-center even as a grid — minmax(0,1fr)
+          forces both side tracks equal regardless of content.
           sticky top-0: the board + clocks + captured pieces + move controls can exceed viewport
           height, especially at 375px, and this was the only way back to the hub/games list — with a
           plain (non-sticky) header, scrolling down to reach Resign/Draw scrolled it out of view
           entirely. */}
-      <header className="sticky top-0 z-10 grid grid-cols-[1fr_auto_1fr] items-center gap-2 border-b border-game-border bg-game-surface px-3 py-2.5">
-        <div className="justify-self-start">
+      <header className="sticky top-0 z-10 grid grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-2 border-b border-game-border bg-game-surface px-3 py-2.5">
+        {/* flex justify-start, not justify-self-start: a grid item's justify-self (anything but
+            the default `stretch`) sizes it to its own content regardless of its track's width,
+            which defeats minmax(0,1fr) on the track itself (see the other two header comments in
+            this file's folder for the full story) — small enough here (1 icon) that it was only a
+            few px, but fixed for consistency/robustness anyway. */}
+        <div className="flex justify-start">
           <Link to="/" aria-label="Back to hub" className={`${ICON_BUTTON} text-game-fg hover:text-game-accent`}>
             ←
           </Link>
         </div>
         <ChessTabs active="computer" />
-        <div className="flex items-center gap-1 justify-self-end">
+        <div className="flex items-center justify-end gap-1">
           <button type="button" onClick={() => setSettingsOpen(true)} aria-label="New game" className={ICON_BUTTON}>
             🔄
           </button>

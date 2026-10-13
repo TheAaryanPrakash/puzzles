@@ -91,7 +91,24 @@ export function GameLayout({
       >
         Skip to main content
       </a>
-      <header className="grid grid-cols-[1fr_auto_1fr] items-center gap-2 border-b border-game-border bg-game-surface px-3 py-2.5">
+      {/* grid-cols-3 (Tailwind's plain 3-equal-column utility — compiles to repeat(3,
+          minmax(0,1fr)), not an arbitrary [1fr_auto_1fr]/[1fr_auto_auto]): the title stays
+          genuinely page-centered only when all three tracks are equally flexible.
+          - A bare `1fr` side track's minimum is its own content's max-content size, so when one
+            side's icon cluster is wider than the other's (e.g. a game with headerActions, or "N
+            left" text), two "equal" 1fr tracks end up unequal width and the center drifts toward
+            the narrower side — measured live, ~25px off center on Quordle.
+          - An `auto` (or even `minmax(0,auto)`) center track doesn't fix that either: CSS Grid
+            gives non-flexible tracks their max-content size first and only shrinks the *flexible*
+            (fr) tracks to make room, regardless of minmax(0,_)'s floor — so on a long title +
+            headerActions at 375px (confirmed live on Connections: "Connections" + its Skip button)
+            the center rendered at full size and visibly overlapped the right column instead of the
+            h1's existing `truncate` ever engaging.
+          Making the center `minmax(0,1fr)` too (i.e. grid-cols-3) puts all three tracks in the same
+          flexible pool, so a real space deficit shrinks them together instead of one winning
+          outright — confirmed live: title now truncates instead of overlapping, and still sits
+          exactly page-centered for every normal-length title. */}
+      <header className="grid grid-cols-3 items-center gap-2 border-b border-game-border bg-game-surface px-3 py-2.5">
         <div className="flex items-center gap-1 justify-self-start">
           <Link
             to="/"
@@ -109,8 +126,32 @@ export function GameLayout({
           </Link>
         </div>
 
-        <div className="flex min-w-0 items-center justify-center gap-2 justify-self-center">
-          <h1 className="truncate text-balance font-game text-lg font-semibold tracking-tight">{title}</h1>
+        {/* No justify-self-center here (left/right keep justify-self-start/-end on purpose, to hug
+            their own edge) — a grid item's default justify-self is `stretch`, but *setting* it to
+            start/center/end makes the item size to its own content (fit-content) instead,
+            completely ignoring its track's actual width. With justify-self-center here, this div
+            never received the grid's 111px-ish track constraint at all — it just grew to fit
+            content, which is why min-w-0 and `truncate` on the h1 below did nothing (there was
+            nothing bounding the parent for truncate to shrink against). Letting it stretch (the
+            default) gives it the real track width; the h1's own min-w-0 + truncate — see below —
+            is what actually makes it shrink/ellipsize within that now-bounded box, while the inner
+            `justify-center` keeps the (possibly truncated) content visually centered inside it. */}
+        <div className="flex min-w-0 items-center justify-center gap-2">
+          {/* min-w-0: `truncate`'s ellipsis only engages once the element can shrink below its own
+              content width, and a flex item's default min-width is `auto` (its content size)
+              regardless of a parent's min-w-0 — the classic "truncate does nothing inside a flex
+              row" gotcha.
+              sr-only below sm: GlideSelect's own trigger already shows this exact text as its
+              selected value (e.g. "Connections ▾" right next to a "Connections" h1) — fine with
+              room to spare, but on a game with headerActions (Quordle's "N left", Connections'
+              Skip button, Mini's Skip button), that literal duplication was the actual source of
+              the remaining overflow at 375px: GlideSelect's own label has no truncate support, so
+              once the h1 truncated to near-zero width there still wasn't enough room for a
+              headerActions-heavy right column. Hiding the redundant text (not the interactive
+              GlideSelect) is a real fix, not a size hack; still present for screen readers. */}
+          <h1 className="sr-only min-w-0 truncate text-balance font-game text-lg font-semibold tracking-tight sm:not-sr-only">
+            {title}
+          </h1>
           <GlideSelect
             options={switcherOptions}
             value={game}
