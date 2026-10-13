@@ -26,7 +26,7 @@ export function Leaderboard() {
   const myRankOutsideTop3 = mine && !top3.includes(mine) ? mine : null;
 
   return (
-    <div className="min-h-screen bg-brand-bg">
+    <div className="min-h-screen bg-brand-bg/85">
       <SiteHeader title="Leaderboard" backTo="/" />
       <main className="mx-auto max-w-lg px-4 py-6 sm:px-6">
         <p className="text-sm text-brand-muted">

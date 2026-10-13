@@ -115,7 +115,7 @@ export function Join() {
   if (status === "member") {
     if (!urlCode) return <Navigate to="/" replace />;
     return (
-      <div className="flex min-h-screen flex-col items-center justify-center gap-6 bg-brand-bg p-6">
+      <div className="flex min-h-screen flex-col items-center justify-center gap-6 bg-brand-bg/85 p-6">
         <div className="w-full max-w-sm text-center">
           <h1 className="font-brand text-2xl font-semibold">
             {previewName ? `Join "${previewName}"?` : "Join this group?"}
@@ -149,7 +149,7 @@ export function Join() {
   }
 
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center gap-6 bg-brand-bg p-6">
+    <div className="flex min-h-screen flex-col items-center justify-center gap-6 bg-brand-bg/85 p-6">
       <div className="w-full max-w-sm text-center">
         <h1 className="font-brand text-2xl font-semibold">
           {previewName ? `Join "${previewName}"` : "Join Sansita's Puzzles"}

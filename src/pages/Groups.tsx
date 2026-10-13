@@ -261,7 +261,7 @@ export function Groups() {
   }
 
   return (
-    <div className="min-h-screen bg-brand-bg">
+    <div className="min-h-screen bg-brand-bg/85">
       <SiteHeader title="Groups" backTo="/" />
       <main className="mx-auto max-w-lg px-4 py-6 sm:px-6">
         <h1 className="sr-only">Your groups</h1>

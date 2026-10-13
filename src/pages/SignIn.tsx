@@ -38,7 +38,7 @@ export function SignIn() {
   }
 
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center gap-6 bg-brand-bg p-6 text-center">
+    <div className="flex min-h-screen flex-col items-center justify-center gap-6 bg-brand-bg/85 p-6 text-center">
       <h1 className="font-brand text-2xl font-semibold">Sansita's Puzzles</h1>
       <p className="max-w-xs text-brand-muted">
         {state?.message ??

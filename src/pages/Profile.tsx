@@ -77,7 +77,7 @@ export function Profile() {
     );
 
   return (
-    <div className="min-h-screen bg-brand-bg">
+    <div className="min-h-screen bg-brand-bg/85">
       <SiteHeader
         backTo="/"
         rightSlot={

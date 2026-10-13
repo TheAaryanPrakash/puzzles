@@ -200,7 +200,11 @@ export function Hub() {
   });
 
   return (
-    <div className="min-h-screen bg-brand-bg">
+    // bg-brand-bg/85 (not a flat opaque bg-brand-bg): AppShell's FluxLines is mounted once at the
+    // route root behind every page (CLAUDE.md "Design") — a fully opaque wrapper here painted over
+    // it completely, which is why it was invisible site-wide (every bg-brand-bg page wrapper had
+    // this). Same pattern as GameLayout's bg-game-bg/85.
+    <div className="min-h-screen bg-brand-bg/85">
       <a
         href="#main-content"
         className="sr-only rounded-brand-sm bg-brand-accent px-4 py-2 font-semibold text-brand-accent-fg focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50"

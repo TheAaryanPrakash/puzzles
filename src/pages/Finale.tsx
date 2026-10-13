@@ -89,7 +89,7 @@ export function Finale() {
   };
 
   return (
-    <div className="min-h-screen bg-brand-bg">
+    <div className="min-h-screen bg-brand-bg/85">
       <SiteHeader backTo="/" />
       <main className="mx-auto flex min-h-[calc(100vh-61px)] max-w-lg flex-col items-center justify-center gap-5 p-6 text-center">
         {state === "loading" && null}
