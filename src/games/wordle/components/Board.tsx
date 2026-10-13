@@ -13,6 +13,9 @@ export interface BoardProps {
   onRevealComplete: () => void;
   /** The in-progress (not yet submitted) row should shake — an invalid or hard-mode-rejected guess. */
   shakeCurrentRow: boolean;
+  /** Highlight the tile the next typed letter will land in. False once the game is over — there's
+   *  nothing left to type into, even though a "current" row index technically still exists. */
+  showCursor: boolean;
 }
 
 export function Board({
@@ -22,6 +25,7 @@ export function Board({
   revealingRow,
   onRevealComplete,
   shakeCurrentRow,
+  showCursor,
 }: BoardProps) {
   const rows = Array.from({ length: MAX_GUESSES }, (_, i) => i);
 
@@ -59,6 +63,7 @@ export function Board({
                   shake={isCurrentRow && shakeCurrentRow}
                   onRevealed={isRevealing && col === lastColumn ? onRevealComplete : undefined}
                   slotStyle={isCurrentRow ? currentRowSlots[col]?.style : undefined}
+                  cursor={showCursor && isCurrentRow && col === currentGuess.length}
                 />
               );
             })}

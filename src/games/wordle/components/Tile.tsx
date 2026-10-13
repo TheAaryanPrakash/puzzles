@@ -36,6 +36,9 @@ export interface TileProps {
    *  typed and back down on backspace. Omitted for historical/revealing rows — those letters are
    *  already settled, this is only the typing feedback, decoupled from the flip-reveal above. */
   slotStyle?: { transform: MotionValue<string>; opacity: MotionValue<number> };
+  /** This is the tile the next typed letter lands in — ringed with `--tile-selected` (already
+   *  defined in theme.css, previously unused). Only ever true for one empty tile at a time. */
+  cursor?: boolean;
 }
 
 /**
@@ -52,6 +55,7 @@ export function Tile({
   shake = false,
   onRevealed,
   slotStyle,
+  cursor = false,
 }: TileProps) {
   const reducedMotion = useReducedMotion();
   const [displayState, setDisplayState] = useState<TileVisualState>(flip ? "filled" : state);
@@ -89,7 +93,7 @@ export function Tile({
     <motion.div
       role="img"
       aria-label={label}
-      className={`flex h-12 w-12 items-center justify-center rounded-tile border-2 font-game text-2xl font-bold uppercase sm:h-14 sm:w-14 sm:text-3xl ${COLOR_CLASS[displayState]}`}
+      className={`flex h-12 w-12 items-center justify-center rounded-tile border-2 font-game text-2xl font-bold uppercase sm:h-14 sm:w-14 sm:text-3xl ${COLOR_CLASS[displayState]} ${cursor ? "ring-2 ring-tile-selected ring-offset-2 ring-offset-game-bg" : ""}`}
       style={{ transformStyle: "preserve-3d" }}
       animate={
         shake

@@ -166,6 +166,7 @@ export default function Wordle() {
             revealingRow={revealingRow}
             onRevealComplete={onRevealComplete}
             shakeCurrentRow={shake}
+            showCursor={!over}
           />
         </div>
 
