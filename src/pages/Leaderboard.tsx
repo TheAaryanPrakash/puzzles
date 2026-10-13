@@ -85,31 +85,38 @@ export function Leaderboard() {
             </p>
           ) : (
             <>
-              {/* Top 3 as a small bento-style row — the grid mechanics of MagicBento aren't worth
-                  pulling in for 3 static cards, so this is a plain bento-flavoured layout: a
-                  bigger #1 card plus two smaller #2/#3 cards, same visual language (surface-2,
-                  rounded-brand-lg, a glow accent) as the rest of the redesign. */}
-              <div className="grid grid-cols-3 gap-2">
-                {top3.map((row, i) => (
-                  <div
-                    key={`${row.rank}-${row.displayName}`}
-                    className={`flex flex-col items-center gap-1 rounded-brand-lg border p-3 text-center shadow-brand-sm ${
-                      i === 0
-                        ? "col-span-3 border-brand-accent bg-brand-accent/10 sm:col-span-1"
-                        : "border-brand-border bg-brand-surface"
-                    } ${row.isMe ? "ring-2 ring-brand-ring" : ""}`}
-                  >
-                    {i === 0 && <TrophyIcon className="h-5 w-5 text-brand-accent" aria-hidden />}
-                    <span className="font-brand text-xs font-semibold text-brand-muted">#{row.rank}</span>
-                    <span className="truncate text-sm font-semibold text-brand-fg">
-                      {row.displayName}
-                      {row.isMe && " (you)"}
-                    </span>
-                    <span className="font-brand text-lg font-bold tabular-nums text-brand-accent">
-                      {row.points}
-                    </span>
-                  </div>
-                ))}
+              {/* Podium: #1 centered and raised, #2 on the left, #3 on the right — DOM/reading
+                  order stays rank-sequential (1, 2, 3; screen readers and keyboard nav see the
+                  natural order), only the *visual* position moves, via order-* + items-end so
+                  #1's own taller card (more padding, a bigger trophy) is what actually lifts it
+                  above its siblings rather than a transform hack. */}
+              <div className="grid grid-cols-3 items-end gap-2">
+                {top3.map((row, i) => {
+                  const isFirst = i === 0;
+                  const order = isFirst ? "order-2" : i === 1 ? "order-1" : "order-3";
+                  return (
+                    <div
+                      key={`${row.rank}-${row.displayName}`}
+                      className={`flex flex-col items-center gap-1 rounded-brand-lg border text-center shadow-brand-sm ${order} ${
+                        isFirst
+                          ? "border-brand-accent bg-brand-accent/10 p-3 pb-5 sm:p-4 sm:pb-6"
+                          : "border-brand-border bg-brand-surface p-3"
+                      } ${row.isMe ? "ring-2 ring-brand-ring" : ""}`}
+                    >
+                      {isFirst && <TrophyIcon className="h-6 w-6 text-brand-accent" aria-hidden />}
+                      <span className="font-brand text-xs font-semibold text-brand-muted">#{row.rank}</span>
+                      <span className="w-full truncate text-sm font-semibold text-brand-fg">
+                        {row.displayName}
+                        {row.isMe && " (you)"}
+                      </span>
+                      <span
+                        className={`font-brand font-bold tabular-nums text-brand-accent ${isFirst ? "text-xl" : "text-lg"}`}
+                      >
+                        {row.points}
+                      </span>
+                    </div>
+                  );
+                })}
               </div>
 
               {myRankOutsideTop3 && (
