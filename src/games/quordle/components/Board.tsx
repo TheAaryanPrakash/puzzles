@@ -1,3 +1,4 @@
+import type { SlotSpring } from "../../../components/fx/useSlotSpring";
 import { MAX_GUESSES, WORD_LENGTH, scoreForBoard } from "../logic";
 import { Tile } from "./Tile";
 
@@ -13,6 +14,10 @@ interface BoardProps {
   boardIndex: number;
   shake: boolean;
   reducedMotion: boolean;
+  /** One shared row of typing springs (by column), driving every board's current row in lockstep —
+   *  see index.tsx: the 4 boards show the same in-progress guess, so this is the same array
+   *  instance for all of them, not 4 independent springs. */
+  typingSlots: SlotSpring[];
 }
 
 export function Board({
@@ -24,6 +29,7 @@ export function Board({
   boardIndex,
   shake,
   reducedMotion,
+  typingSlots,
 }: BoardProps) {
   const rows: { letters: string; scored: ReturnType<typeof scoreForBoard> | null; isCurrentRow: boolean }[] =
     guesses.map((guess) => ({ letters: guess, scored: scoreForBoard(guess, answer), isCurrentRow: false }));
@@ -64,6 +70,7 @@ export function Board({
               shake={row.isCurrentRow && shake}
               reducedMotion={reducedMotion}
               column={c}
+              slotStyle={row.isCurrentRow ? typingSlots[c]?.style : undefined}
             />
           )),
         )}
