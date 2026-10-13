@@ -281,3 +281,74 @@ records what was actually built.
   Undo correctly disabled while it's running.
 - Screenshots in `src/games/chess/screenshots/`: `mobile-375-settings.png`,
   `mobile-375-board.png`, `desktop-1280-board.png` (light theme only — see "Deviations").
+
+## Redesign (2026-10, pink-on-black) — phase 2
+
+Scope per `prompts/redesign/chess.md`: wire `JellyRadio` into `SettingsModal`, leave the board's
+already-redesigned colours untouched, and check `GameResultModal`/"Play a Friend" still look right.
+
+### Built
+
+- **`SettingsModal.tsx`**: `Picker`'s internals (the 3 hand-rolled `role="radio"` button rows for
+  Difficulty/Play as/Clock) now render `JellyRadio` instead. `Picker`'s own `options`/`value`/
+  `onChange` signature is unchanged, so `SettingsModal`'s state and both call sites needed no edits.
+  `options` (`{value, label}[]`) is passed straight through as `JellyRadio`'s `items` — its shape is
+  a structural subset of `JellyRadioItem`.
+- Themed via the chip's own CSS-variable props rather than hardcoded hex, so it tracks the game's
+  actual tokens if `theme.css` values ever change: `chipColor="var(--game-surface)"`,
+  `activeColor="var(--game-accent)"`, `textColor="var(--game-fg)"`,
+  `activeTextColor="var(--game-accent-fg)"`. Contrast re-derived (not eyeballed) against chess's
+  own `theme.css` values, documented in a comment above `Picker`: unselected chip text 15.60:1,
+  selected chip text 4.66:1 (the same accentFg-on-accent pair `brand.css`'s own header already
+  computes) — both pass AA.
+  - `size="sm"` — the 4-option Clock row (Off/3+2/5+0/10+0) is the tightest fit; confirmed by
+    measuring chip widths that `sm` keeps all three rows on one line without wrapping even at
+    375px, where `md`/`lg` would have been tight to risky for Clock specifically. Wrapped the group
+    in `overflow-x-auto` as a belt-and-suspenders fallback in case a future label gets longer.
+  - Left `radius`/`gap`/`swell`/etc. at `JellyRadio`'s own defaults (same as the only other themed
+    usage on the site, `Leaderboard.tsx`) rather than inventing new motion tuning — this is a
+    settings dialog, not the game's signature animation.
+- Verified live against a real dev server (`PORT=5214 pnpm dev`), not just read: clicking through
+  all three pickers at 375px and 1280px (screenshots), confirming the jelly swell/selection state
+  updates correctly and the Clock row doesn't overflow or wrap.
+
+### Also checked (no changes needed)
+
+- **`GameResultModal.tsx`**: already built entirely from semantic tokens (`game-muted`,
+  `game-surface-2`, `game-fg`, `game-border`, `rounded-brand-md`) plus the already-restyled `Modal`/
+  `Button`/`ShareButton` — doesn't look pre-redesign, confirmed live via a real Resign flow
+  (screenshot). Left untouched.
+- **"Play a Friend" (`src/games/chess/friends/`)**: reuses `Board`, `theme.css` and
+  `GameResultModal` as-is; grepped for raw hex/Tailwind default-grey classes across every file
+  under `src/games/chess` (components + friends) and found none outside `theme.css` itself, so
+  nothing there needed restyling either. Not re-screenshotted live this pass (no code in this
+  mode changed) — flagged for a human glance since the computer-mode UI it shares is now confirmed
+  correct.
+- **`meta.ts`'s `howTo`**: doesn't apply to chess — it never renders through the shared
+  `HowToPlayModal` (CLAUDE.md "Chess": chess skips `GameLayout` and everything coupled to it).
+  Its actual help content lives inline in `index.tsx`'s own `HelpModal` children, already written
+  in full prose and already using semantic tokens; left as-is.
+
+### Review — please check by hand
+
+1. **Clock row at exactly 320–360px** (the narrowest real phones) — confirmed no overflow at
+   375px via screenshot, but didn't have a narrower real device to test against.
+2. **`JellyRadio`'s built-in hover overlay** (`before:opacity-[0.11]` at `--jr-text`, i.e.
+   `--game-fg`, over an unselected chip) wasn't contrast-checked since it's decorative hover-only
+   state, not text — worth a glance on a desktop pointer.
+3. **"Play a Friend" mode's own settings/challenge UI** (`NewChallengeModal.tsx` etc.) uses no
+   pickers of this kind, so it was out of scope for this task, but is worth a quick look alongside
+   this change since it shares the same visual language.
+
+### Shared changes requested
+
+None. `JellyRadio` already existed and needed no changes; chess is the first game-tier (non-site-
+page) consumer to theme it via CSS-variable colour props instead of raw hex, which worked without
+touching the component.
+
+### Finish
+
+- `npx vitest run src/games/chess`: 91/91 passing (unchanged — no logic touched). Full `pnpm test`
+  run shows 2 unrelated pre-existing failures in `scripts/zip/generate.test.ts` (timeouts, outside
+  chess's scope).
+- `pnpm build`: clean. `node scripts/check-scope.mjs chess`: 1 file changed, in scope.
