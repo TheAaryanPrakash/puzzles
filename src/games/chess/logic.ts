@@ -16,7 +16,7 @@ export function kingSquare(chess: Chess, color: "w" | "b"): Square | null {
 export type Difficulty = "easy" | "medium" | "hard";
 export type Side = "white" | "black";
 export type SideChoice = Side | "random";
-export type ClockPreset = "off" | "3+2" | "5+0" | "10+0";
+export type ClockPreset = "off" | "3+2" | "5+0" | "10+0" | "15+10";
 export type GameStatus = "in_progress" | "won" | "lost" | "drawn";
 export type EndReason =
   | "checkmate"
@@ -145,6 +145,8 @@ const CLOCK_PRESETS: Record<Exclude<ClockPreset, "off">, { minutes: number; incr
   "3+2": { minutes: 3, incrementMs: 2000 },
   "5+0": { minutes: 5, incrementMs: 0 },
   "10+0": { minutes: 10, incrementMs: 0 },
+  // chess.com's own default Rapid time control (their "Rapid" button on the new-game widget).
+  "15+10": { minutes: 15, incrementMs: 10_000 },
 };
 
 export function clockForPreset(preset: ClockPreset): ClockState | null {

@@ -139,6 +139,7 @@ describe("clock", () => {
     expect(clockForPreset("3+2")).toEqual({ whiteMs: 180_000, blackMs: 180_000, incrementMs: 2000 });
     expect(clockForPreset("5+0")).toEqual({ whiteMs: 300_000, blackMs: 300_000, incrementMs: 0 });
     expect(clockForPreset("10+0")).toEqual({ whiteMs: 600_000, blackMs: 600_000, incrementMs: 0 });
+    expect(clockForPreset("15+10")).toEqual({ whiteMs: 900_000, blackMs: 900_000, incrementMs: 10_000 });
   });
 
   it("tickClock subtracts from only the side on move, floored at 0", () => {

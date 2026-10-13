@@ -64,7 +64,11 @@ export function loadSettings(userId: string): ChessSettings {
     if (
       (parsed.difficulty === "easy" || parsed.difficulty === "medium" || parsed.difficulty === "hard") &&
       (parsed.side === "white" || parsed.side === "black" || parsed.side === "random") &&
-      (parsed.clockPreset === "off" || parsed.clockPreset === "3+2" || parsed.clockPreset === "5+0" || parsed.clockPreset === "10+0")
+      (parsed.clockPreset === "off" ||
+        parsed.clockPreset === "3+2" ||
+        parsed.clockPreset === "5+0" ||
+        parsed.clockPreset === "10+0" ||
+        parsed.clockPreset === "15+10")
     ) {
       return parsed as ChessSettings;
     }

@@ -28,6 +28,9 @@ const CLOCKS: { value: ClockPreset; label: string }[] = [
   { value: "3+2", label: "3+2" },
   { value: "5+0", label: "5+0" },
   { value: "10+0", label: "10+0" },
+  // chess.com's own default Rapid time control — labeled by name (unlike the others) since that's
+  // the recognizable thing about it, not the raw numbers.
+  { value: "15+10", label: "Rapid" },
 ];
 
 export function SettingsModal({ open, initial, onClose, onStart, canCancel }: SettingsModalProps) {
