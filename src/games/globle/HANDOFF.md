@@ -55,3 +55,36 @@ None copied — `d3-geo`/`topojson-client` (already installed, ISC ⁄ BSD) used
 ## Known issues
 None found. `pnpm test` (112 tests, 10 files) and `pnpm build` pass; `node scripts/check-scope.mjs
 globle` passes.
+
+## Redesign phase 2 (2026-10) — `GlideCombobox` wiring
+
+Scope was narrow per `prompts/redesign/globle.md`: the globe's colour fixes and `theme.css`
+restyle were already done on main before this worktree started (verified live, untouched here).
+The only work here is wiring `src/components/fx/GlideCombobox` into the guess input.
+
+- `GuessInput.tsx` is now a thin wrapper around `GlideCombobox` instead of its own hand-rolled
+  listbox/keyboard-nav code. `guessedCodes` maps to `excludeValues`. Colors come from the game's
+  own tokens (`--game-accent`/`--game-surface-2`/`--game-fg`), matching how `ArchivePicker`
+  already feeds `GlideSelect` CSS-var strings.
+- **Alias matching moved, deliberately degraded, by design.** The old hand-rolled input matched a
+  typed substring against each country's name *and* aliases (e.g. "uae" live-filtered to "United
+  Arab Emirates" as you typed). `GlideCombobox` only filters its live dropdown by each option's own
+  `label` — it has no secondary search-key field — so that per-keystroke alias matching is gone.
+  What's preserved: typing an alias out in full and pressing Enter still resolves correctly, via
+  `GlideCombobox`'s `resolveFreeText` hook (its own doc comment calls this out as the intended use —
+  "the way States' `resolveGuess` does"). New `logic.ts` functions `buildCountryNameIndex`/
+  `resolveCountryGuess` build that lookup (name + every alias, normalized), mirroring
+  `states/logic.ts`'s `resolveGuess`/`nameIndex` pattern. Verified live (`playwright-cli`): typing
+  "UAE" and pressing Enter correctly guesses United Arab Emirates even though "UAE" never appears
+  in the dropdown while typing. 5 new Vitest cases cover the index (name, alias, case/whitespace,
+  no-match, a code missing from the names table).
+- No "Guess" button any more — the old side button just submitted the top suggestion, redundant
+  with `GlideCombobox`'s own Enter/click-to-commit, and the component has no imperative API a
+  separate button could drive.
+- Verified live at 375px and desktop width, physical-keyboard only (type → arrow through
+  suggestions → Enter commits, focus never drops — confirmed via Playwright snapshots, not just a
+  code read) and via mouse/click selection. Globe + guess-list colours untouched, confirmed still
+  correct post-fix.
+
+### Shared changes requested
+None.

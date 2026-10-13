@@ -1,4 +1,5 @@
 import { proximityPct } from "../../lib/geo";
+import type { CountryNameEntry } from "./worldData";
 
 export interface GloblePuzzle {
   code: string; // ISO 3166-1 alpha-2 of today's secret country
@@ -36,6 +37,43 @@ export function isOver(state: GlobleState, secretCode: string): boolean {
 export function appendGuess(state: GlobleState, guess: GlobleGuess): GlobleState {
   if (hasGuessed(state, guess.code)) return state;
   return { guesses: [...state.guesses, guess] };
+}
+
+/** Normalized country/alias name → ISO code, built once per `names` table. */
+export type CountryNameIndex = Map<string, string>;
+
+function normalizeCountryName(input: string): string {
+  return input.trim().toLowerCase();
+}
+
+/**
+ * Redesign (2026-10): `GlideCombobox` (`src/components/fx/GlideCombobox.tsx`) only filters its
+ * live dropdown by each option's own label (the canonical country name) — it has no notion of
+ * aliases. Its `resolveFreeText` hook exists exactly for this: a typed alias won't appear in the
+ * dropdown as you type, but typing it out in full and pressing Enter still resolves to the right
+ * country, the same way States' `resolveGuess`/`nameIndex` already works.
+ */
+export function buildCountryNameIndex(
+  codes: string[],
+  names: Record<string, CountryNameEntry>,
+): CountryNameIndex {
+  const index: CountryNameIndex = new Map();
+  for (const code of codes) {
+    const entry = names[code];
+    if (!entry) continue;
+    index.set(normalizeCountryName(entry.name), code);
+    for (const alias of entry.aliases) {
+      const key = normalizeCountryName(alias);
+      if (!index.has(key)) index.set(key, code); // first entry wins on a rare alias collision
+    }
+  }
+  return index;
+}
+
+/** Resolves free-typed text (full name or alias) to a country code, or `null` if nothing matches —
+ *  callers must not consume a guess on `null`. */
+export function resolveCountryGuess(input: string, index: CountryNameIndex): string | null {
+  return index.get(normalizeCountryName(input)) ?? null;
 }
 
 /** 0–100, 100 = exact match or a land neighbour (both score 0 km). */
