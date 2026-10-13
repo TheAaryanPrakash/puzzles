@@ -67,9 +67,9 @@
      on the dark-green "high" badge; `--game-fg` on the lighter mid/low/cold ones),
      verified computationally (sRGB relative-luminance contrast ratio) and visually.
 
-## Shared changes requested
+## Shared changes requested (phase 1)
 
-None.
+None. (See "Redesign (2026-10, phase 2)" below for a phase-2 shared-change request.)
 
 ## Licences
 
@@ -81,3 +81,70 @@ used for the autocomplete is a public spec, not code).
 
 - None found. `pnpm test` (108 tests, 10 files) and `pnpm build` pass; `dist/` was
   checked for no puzzle-content leakage (only non-secret silhouette/name assets).
+
+## Redesign (2026-10, phase 2)
+
+`theme.css` was already redesigned by the time this agent ran (per the task prompt) — the only
+work this pass did was wiring `src/games/worldle/components/CountryAutocomplete.tsx` onto the
+shared `GlideCombobox` (`src/components/fx/GlideCombobox.tsx`), replacing its own hand-rolled
+listbox/arrow-key/Enter-commit logic. Nothing else in the game (silhouette, distance/arrow/%
+feedback, `GuessRow`, `index.tsx`, `logic.ts`) was touched.
+
+- **Alias search, preserved.** `GlideCombobox` filters a flat `options` list by a single `label`
+  per option and has no custom-matcher hook, so handing it one option per country (canonical name
+  only) would have silently broken alias search — and this game's own `howTo` text promises it
+  ("nicknames and common aliases work too, e.g. 'UAE', 'America'"), which `logic.test.ts` also
+  tests via `searchCountries`. Fix: every alias from `country-names.json` gets its own
+  `GlideComboboxOption` alongside the canonical name, each `value` prefixed with its real 2-letter
+  ISO code (`"AE"` for the canonical row, `"AE#0"` for alias index 0, etc. — codes are always
+  exactly 2 letters per `logic.ts`'s own contract, so `value.slice(0, 2)` recovers the real code
+  on submit). Canonical-name options are listed before alias options, so the unfiltered list
+  `GlideCombobox` shows on an empty-query focus browses real country names first, not aliases.
+  Verified live (`playwright-cli`, headed): typing "uae" surfaces and submits the United Arab
+  Emirates; typing "united" after guessing AE and US shows only the United Kingdom's rows, with
+  no leftover UAE/United States/USA rows and no duplicate-key console warnings.
+- **`excludeCodes` → `excludeValues`**, same mapping the prompt described, done by resolving every
+  option (canonical + every alias) that starts with an already-guessed code into the `excludeValues`
+  set, rather than passing bare codes — needed because option `value`s are no longer bare codes.
+- **`onSubmit`, not `resolveFreeText`.** No free-text fallback was wired in, per the task prompt
+  — Enter with nothing highlighted calls `onInvalid`, which triggers the same shake animation
+  flagle's (not-yet-redesigned) `CountryAutocomplete.tsx` already uses for invalid submits, so an
+  unmatched guess shakes the input and the query text is left in place rather than cleared.
+- **Lost in the swap, deliberately**: `GlideCombobox`'s `<li>` only ever renders `option.label` as
+  plain text, with no slot for the small `fi fi-<code>` flag icon the old suggestion list showed
+  next to each row. Flags are untouched everywhere else (each `GuessRow`, and the reveal in
+  `ResultModal`'s `extraContent`) — this is a dropdown-only cosmetic loss, not a gameplay change.
+- **Duplicate-looking rows, deliberately**: a query that matches both a country's canonical name
+  and one of its aliases (e.g. "unit" matching both "United States" and "United States of America")
+  shows both as separate rows, since `GlideCombobox` has no way to dedupe across options that
+  share a `value` prefix. Confirmed harmless (no React key collisions — every alias row's `value`
+  is unique) and not a correctness bug, just a minor list-density regression from the old
+  `searchCountries`-backed suggestion list, which deduped to one row per country.
+
+### Verification
+
+- `pnpm test` (108 tests) and `pnpm build` pass.
+- `node scripts/check-scope.mjs worldle` passes.
+- Live-tested with `playwright-cli` (headed, for `FluxLines`): typed-alias guess submit, mouse-click
+  alias-row submit, Enter-with-no-match shake/reject, exclude-already-guessed across both canonical
+  and alias rows, Arrow-key re-navigation, reload-mid-game state restoration, 375px and 1280px
+  screenshots, and a full `console` check (0 errors/warnings, no duplicate-key noise).
+
+### Review
+
+1. The duplicate-alias-row cosmetic issue above — acceptable as shipped, but if it reads as
+   cluttered in practice, the real fix is a shared-component change (next item), not a per-game one.
+2. Long alias rows (e.g. "United Kingdom of Great Britain and Northern Ireland") wrap to two lines
+   in the dropdown at 375px — readable, not clipped, didn't adjust `GlideCombobox`'s row height
+   since that's a shared component.
+3. Flags no longer appear in the suggestion dropdown (see above) — confirm this reads fine without
+   them; they're still shown on every guess row and the final reveal.
+
+## Shared changes requested
+
+- `GlideCombobox` (`src/components/fx/GlideCombobox.tsx`): an optional per-option `keywords?:
+  string[]` field (matched for filtering, never rendered) would let a consumer offer alias/synonym
+  search without needing one row per alias — removing both the duplicate-row cosmetic issue and
+  the `value`-prefix-encoding workaround this file uses to get alias matching out of a
+  single-`label`-per-option filter. Travle's `CountryCombobox` likely wants the same thing (its
+  current component also matches name-or-alias).

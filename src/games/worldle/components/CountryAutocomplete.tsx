@@ -1,5 +1,7 @@
-import { useId, useRef, useState, type KeyboardEvent } from "react";
-import { searchCountries, type CountryNames, type CountrySuggestion } from "../logic";
+import { useMemo, useState } from "react";
+import { motion, useReducedMotion } from "motion/react";
+import GlideCombobox, { type GlideComboboxOption } from "../../../components/fx/GlideCombobox";
+import { nameFor, type CountryNames } from "../logic";
 
 interface CountryAutocompleteProps {
   names: CountryNames;
@@ -10,9 +12,18 @@ interface CountryAutocompleteProps {
 }
 
 /**
- * Editable combobox with list autocomplete (W3C APG pattern — see RESEARCH.md). A guess is only
- * ever submitted by *selecting* a suggestion (click, or Enter while one is highlighted) — there's
- * no free-text parser, so what gets guessed is always an unambiguous country code.
+ * GlideCombobox wrapper. A guess is only ever submitted by *selecting* a suggestion (click, or
+ * Enter while one is highlighted) — there's no free-text parser (no `resolveFreeText`), so what
+ * gets guessed is always an unambiguous country code, same contract as before this swap.
+ *
+ * GlideCombobox filters its option list by a single `label` per option, with no per-option
+ * keyword list — but this game's `howTo` promises alias matching ("nicknames and common aliases
+ * work too, e.g. 'UAE', 'America'"), and `logic.ts`'s `searchCountries` is tested on exactly that.
+ * To keep that promise without a custom filter hook (GlideCombobox has none), every alias from
+ * `country-names.json` gets its own option alongside the canonical name, each `value` encoding its
+ * 2-letter ISO code (`"AE"`, or `"AE#0"` for its first alias) so a pick always maps back to a real
+ * code — see `codeFromValue` below. Canonical names are listed first so an empty-query focus (the
+ * list GlideCombobox shows before any typing) browses real country names, not alias spellings.
  */
 export function CountryAutocomplete({
   names,
@@ -21,101 +32,65 @@ export function CountryAutocomplete({
   disabled,
   label,
 }: CountryAutocompleteProps) {
-  const [query, setQuery] = useState("");
-  const [open, setOpen] = useState(false);
-  const [activeIndex, setActiveIndex] = useState(-1);
-  const inputRef = useRef<HTMLInputElement>(null);
+  const [shake, setShake] = useState(false);
+  const reduceMotion = useReducedMotion();
 
-  const inputId = useId();
-  const listboxId = useId();
-  const optionId = (i: number) => `${listboxId}-opt-${i}`;
+  const options = useMemo<GlideComboboxOption[]>(() => {
+    const canonical: GlideComboboxOption[] = [];
+    const aliasRows: GlideComboboxOption[] = [];
+    for (const [code, entry] of Object.entries(names)) {
+      canonical.push({ value: code, label: entry.name });
+      entry.aliases.forEach((alias, i) => {
+        if (alias.toLowerCase() === entry.name.toLowerCase()) return;
+        aliasRows.push({ value: `${code}#${i}`, label: alias });
+      });
+    }
+    return [...canonical, ...aliasRows];
+  }, [names]);
 
-  const suggestions: CountrySuggestion[] = open ? searchCountries(query, names, excludeCodes) : [];
+  const excludeValues = useMemo(() => {
+    const excluded = new Set(excludeCodes);
+    const values = new Set<string>();
+    for (const option of options) {
+      if (excluded.has(codeFromValue(option.value))) values.add(option.value);
+    }
+    return values;
+  }, [options, excludeCodes]);
 
-  function commit(suggestion: CountrySuggestion) {
-    onSelect(suggestion.code, suggestion.name);
-    setQuery("");
-    setOpen(false);
-    setActiveIndex(-1);
-    inputRef.current?.focus();
+  function handleSubmit(value: string) {
+    const code = codeFromValue(value);
+    onSelect(code, nameFor(code, names));
   }
 
-  function onKeyDown(e: KeyboardEvent<HTMLInputElement>) {
-    if (e.key === "ArrowDown") {
-      e.preventDefault();
-      if (!open) {
-        setOpen(true);
-        setActiveIndex(0);
-        return;
-      }
-      setActiveIndex((i) => Math.min(i + 1, suggestions.length - 1));
-    } else if (e.key === "ArrowUp") {
-      e.preventDefault();
-      setActiveIndex((i) => Math.max(i - 1, 0));
-    } else if (e.key === "Enter") {
-      e.preventDefault();
-      const chosen = activeIndex >= 0 ? suggestions[activeIndex] : suggestions[0];
-      if (chosen) commit(chosen);
-    } else if (e.key === "Escape") {
-      setOpen(false);
-      setActiveIndex(-1);
-    }
+  function handleInvalid() {
+    setShake(true);
+    setTimeout(() => setShake(false), 400);
   }
 
   return (
-    <div className="relative w-full max-w-sm">
-      <label htmlFor={inputId} className="sr-only">
-        {label}
-      </label>
-      <input
-        ref={inputRef}
-        id={inputId}
-        type="text"
-        role="combobox"
-        aria-expanded={open && suggestions.length > 0}
-        aria-controls={listboxId}
-        aria-autocomplete="list"
-        aria-activedescendant={activeIndex >= 0 ? optionId(activeIndex) : undefined}
-        autoComplete="off"
+    <motion.div
+      className="w-full max-w-sm"
+      animate={shake && !reduceMotion ? { x: [0, -8, 8, -8, 8, 0] } : { x: 0 }}
+      transition={{ duration: 0.4 }}
+    >
+      <GlideCombobox
+        options={options}
+        excludeValues={excludeValues}
+        onSubmit={handleSubmit}
+        onInvalid={handleInvalid}
         disabled={disabled}
         placeholder="Type a country…"
-        value={query}
-        onChange={(e) => {
-          setQuery(e.target.value);
-          setOpen(true);
-          setActiveIndex(-1);
-        }}
-        onFocus={() => query && setOpen(true)}
-        onBlur={() => setOpen(false)}
-        onKeyDown={onKeyDown}
-        className="w-full rounded-brand-sm border border-game-border bg-game-surface p-2.5 text-game-fg outline-none focus:border-game-accent"
+        ariaLabel={label}
+        accentColor="var(--game-accent)"
+        surfaceColor="var(--game-surface)"
+        highlightColor="var(--game-surface-2)"
+        textColor="var(--game-fg)"
       />
-      {open && suggestions.length > 0 && (
-        <ul
-          id={listboxId}
-          role="listbox"
-          aria-label={label}
-          className="absolute z-10 mt-1 w-full overflow-hidden rounded-brand-sm border border-game-border bg-game-surface shadow-lg"
-        >
-          {suggestions.map((s, i) => (
-            <li
-              key={s.code}
-              id={optionId(i)}
-              role="option"
-              aria-selected={i === activeIndex}
-              onMouseDown={(e) => e.preventDefault()}
-              onClick={() => commit(s)}
-              onMouseEnter={() => setActiveIndex(i)}
-              className={`cursor-pointer px-3 py-2 text-sm ${
-                i === activeIndex ? "bg-game-accent text-game-accent-fg" : "text-game-fg"
-              }`}
-            >
-              <span className={`fi fi-${s.code.toLowerCase()} mr-2`} aria-hidden="true" />
-              {s.name}
-            </li>
-          ))}
-        </ul>
-      )}
-    </div>
+    </motion.div>
   );
+}
+
+/** Every option's `value` starts with its 2-letter ISO code (`"AE"` or alias-suffixed `"AE#0"`). */
+function codeFromValue(value: string): string {
+  return value.slice(0, 2);
 }
