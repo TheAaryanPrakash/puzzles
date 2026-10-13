@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   appendGuess,
+  buildCountryNameIndex,
   buildSummary,
   closestSoFar,
   colorForGuess,
@@ -9,9 +10,11 @@ import {
   isWon,
   proximityColor,
   proximityForGuess,
+  resolveCountryGuess,
   SOLVED_COLOR,
   type GlobleState,
 } from "./logic";
+import type { CountryNameEntry } from "./worldData";
 
 const ALL_CODES = [
   "FR", "DE", "ES", "IT", "GB", "US", "CA", "IN", "PK", "CN", "JP", "AU", "BR", "AR", "ZA",
@@ -163,6 +166,39 @@ describe("buildSummary — spoiler safety", () => {
   it("marks an unsolved game distinctly from a solved one", () => {
     const state: GlobleState = { guesses: [{ code: "DE", km: 50 }] };
     expect(buildSummary(state, "FR", 1)).toContain("unsolved");
+  });
+});
+
+describe("buildCountryNameIndex / resolveCountryGuess", () => {
+  const codes = ["US", "GB", "FR"];
+  const names: Record<string, CountryNameEntry> = {
+    US: { name: "United States", aliases: ["USA", "United States of America", "America"] },
+    GB: { name: "United Kingdom", aliases: ["UK", "Britain", "Great Britain"] },
+    FR: { name: "France", aliases: [] },
+  };
+  const index = buildCountryNameIndex(codes, names);
+
+  it("resolves a country's canonical name", () => {
+    expect(resolveCountryGuess("France", index)).toBe("FR");
+  });
+
+  it("resolves an alias GlideCombobox's own label-only filter can't match live", () => {
+    expect(resolveCountryGuess("USA", index)).toBe("US");
+    expect(resolveCountryGuess("UK", index)).toBe("GB");
+  });
+
+  it("is case-insensitive and trims whitespace", () => {
+    expect(resolveCountryGuess("  uSa  ", index)).toBe("US");
+    expect(resolveCountryGuess("great britain", index)).toBe("GB");
+  });
+
+  it("returns null for no match", () => {
+    expect(resolveCountryGuess("Narnia", index)).toBeNull();
+  });
+
+  it("skips a code missing from the names table instead of throwing", () => {
+    const sparse = buildCountryNameIndex(["US", "ZZ"], names);
+    expect(resolveCountryGuess("United States", sparse)).toBe("US");
   });
 });
 
