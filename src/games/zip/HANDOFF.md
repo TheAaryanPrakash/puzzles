@@ -64,3 +64,41 @@ cited source was read for technique only, not copied from).
 - Checkpoint/wall balance is a generator tuning choice, not a bug — see Review #1.
 - 8×8-at-375px touch targets are slightly under the usual 44px guideline — see Review #2.
 - No hint system (out of scope per RESEARCH.md's "Deliberately left out").
+
+## Phase 2 — redesign (2026-10)
+
+This task's prompt (`prompts/redesign/zip.md`) said the two real bugs from phase 1 — drag-to-draw
+dead via the shared `noSwipeProps` regression, and walls nearly invisible against the cell fill —
+were already fixed on main before this worktree branched. Confirmed both fixes are present
+(`components/Grid.tsx`'s `handlePointerMove` stops propagation and is spread *after*
+`{...noSwipeProps}`; `theme.css`'s `--zip-wall` is now `#e8c9d4`, documented with the old/new
+contrast reasoning) and did not re-touch either.
+
+### Built
+- Added the 3 missing `applyCellInteraction` test cases the prompt asked for
+  (`src/games/zip/logic.test.ts`): a drag blocked by a wall at the path end, a checkpoint visited
+  out of numeric order, and drag-back retraction all the way down to a single-cell path
+  (re-entering checkpoint 1 itself). 28 tests in this file now (25 → 28), all passing.
+- No theme/visual changes — `theme.css` was already redesigned (pink→violet path gradient, the
+  wall-colour fix) before this worktree started, and the prompt flagged no other game-specific
+  restyle items.
+
+### Review
+1. **Live-verified both already-fixed bugs still hold**, since the prompt asked for a hands-on
+   check rather than a code read alone: ran `PORT=5208 pnpm dev`, loaded `/zip` at a 375px
+   viewport, and actually dragged the pointer from checkpoint 1. A drag toward a walled neighbour
+   correctly left the path unchanged (wall blocking works); a drag toward an unwalled neighbour
+   extended the path, started the per-second timer, enabled Undo/Clear, and rendered the
+   pink-gradient stroke with the ring head-marker. Walls render as a clearly visible bright pink
+   line against the near-black cell fill and `--game-border` grid lines.
+2. **Shared browser caveat**: this session's `playwright-cli` browser is shared across all ~14
+   concurrent redesign agents' worktrees by default (same underlying browser instance) — the first
+   couple of attempts landed on, and were interrupted by, other agents' tabs/navigations. Used a
+   named session (`playwright-cli -s=zip ...`) to get an isolated browser for the live-drag check;
+   worth knowing if another game agent hits the same "wrong game showed up" or "browser closed
+   mid-action" symptom.
+3. `pnpm test` (839 tests, full suite), `pnpm build`, and `node scripts/check-scope.mjs zip` all
+   pass.
+
+## Shared changes requested (phase 2)
+None.
