@@ -54,3 +54,35 @@ approach only, not copied from).
 - Manually verified in a real browser against the local adapter: tap/type input, shuffle,
   delete, accept/reject feedback, found-words list, rank bar, "Finish for today" →
   ResultModal with stats/share/friends board.
+
+## Redesign (2026-10, pink-on-black) — verification pass
+Per `prompts/redesign/bee.md`, `theme.css` was already restyled for the new near-black base
+(hive centre at the approved Checkpoint-1 "bee centre" gold swatch, dark ink; outer hexes on
+`--game-surface-2`; see the file's own comment for the contrast reasoning). This pass was
+verification-only — **no code changes were made**, because everything already held up:
+- Played a full round at 375px (`playwright-cli --headed --device="iPhone 15"`) and at
+  1440×900, both against the local adapter's real 2026-10-13 puzzle (center T, outer
+  C/E/H/N/U/Y). Checked: buffer display (center letter in brand pink), reject shake +
+  "Too short"/"Already found" messages, accept pop + "Nice!"/"Pangram! 🎉" messages,
+  `FoundWords` tags (plain and pangram — pangram tag's `border-game-accent`/`bg-game-accent/20`
+  reads clearly against the dark surface), `RankBar` segment fill and rank-up ("Beginner" →
+  "Solid" on finding the pangram CHUTNEY). All legible, no dark-on-dark or light-on-light spots.
+- Played with a physical keyboard end to end (letter keys → buffer, Backspace, Enter) — the
+  `window`-level `keydown` listener in `index.tsx` is unaffected by the Hive's remount-on-shake
+  (see below), so this path never drops a keystroke.
+- Hive's shake-on-reject (`x` keyframe wiggle) and center hex's pop-on-accept (`scale` keyframe)
+  were built as part of the original phase-1 implementation already tuned against a dark hex
+  surface (no light-background assumption to begin with — the whole hive has always been dark
+  CSS hexagons, never a light card) — re-checked both at normal speed and found them clearly
+  visible and correctly timed against the new site background; left unchanged.
+- `meta.ts`'s `howTo` read with fresh eyes against the shared `HowToPlayModal` — rules, scoring
+  (4-letter = 1pt, longer = 1pt/letter, pangram = +7), and the Genius/Queen Bee goal are all
+  present and unambiguous; left unchanged as it was not sparse.
+- Noted in passing, not a redesign concern: `Hive`'s shake/pop wrappers use
+  `key={shakeNonce}`/`key={popNonce}`, which remounts the hex buttons (and therefore changes
+  their a11y-tree refs) on every reject/accept — cosmetically invisible and doesn't affect
+  pointer or keyboard play, but worth knowing if a future pass drives the hive via automated
+  ref-based clicks (fresh snapshot needed after each submission).
+
+## Shared changes requested (redesign pass)
+None.
