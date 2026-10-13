@@ -85,3 +85,62 @@ mycrossword, crosswords-js) were read for UX conventions only — nothing was co
 - No pencil/anagram-helper mode (out of scope — not requested by CLAUDE.md or the task prompt).
 - See "Review" #4 above: the mobile screenshot is at 606px, not the requested 375px, due to a
   browser-automation tooling limitation in this session, not a layout issue found in testing.
+
+## Redesign pass (2026-10, phase 2)
+
+Per `prompts/redesign/mini.md`: this game's `theme.css` was already redesigned and frozen before
+this pass (active-cell/active-word swatches, `hubAccent`) — left untouched, per the prompt. This
+was a verification + polish pass, not a rebuild.
+
+**Verified via `playwright-cli` (headed, local adapter, `?devUser=amal`), at 375px and 393px
+(iPhone 15) width, plus a 7×7 Saturday grid (`?date=` a Saturday):** typing with auto-advance,
+across/down toggle (tap-to-toggle and Space), arrow-key movement, Tab between clues (confirmed the
+input trap keeps focus so Tab does not leave the page), Backspace retreat, Check's wrong-letter
+flash (`--mini-wrong` reads clearly against both the selected and in-word tints), Reveal's
+`window.confirm()` gate (fires and completes correctly — the original HANDOFF.md could not verify
+this live; now confirmed), and the finished/read-only board. Nothing reads as assuming the old
+light "crossword paper" background — block squares, grid lines, the active-cell/active-word tints,
+and the clue bar all read clearly against the new near-black base at both widths and both grid
+sizes. `meta.ts`'s `howTo` was re-read with fresh eyes: three steps covering typing/advance,
+movement, and Check/Reveal already read clearly through the shared `HowToPlayModal` — left as is.
+
+**Bug found and fixed: the post-game result-modal preview grid was rendering with no block
+squares, no grid-line gaps, and no outer border** — a flat rectangle of letters with zero crossword
+structure (confirmed via pixel sampling: the gap color never appeared anywhere in the rendered
+grid). Root cause: `ResultModal`'s `extraContent` (this game's own `<MiniGrid readOnly />`) renders
+through `Modal.tsx`'s `createPortal(..., document.body)`, landing outside `GameLayout`'s
+`[data-game="mini"] ` wrapper. Mini's own CSS custom properties (`--mini-black`, `--mini-word`,
+`--mini-wrong`, `--mini-number`) are declared only inside that `[data-game="mini"]` scope, so they
+were undefined wherever the modal portalled to, and since `background`/`border` are not inherited
+CSS properties, the unresolved `var()` computed to fully transparent rather than any visible color
+— letters were still visible only because `color` is inherited, so the clue numbers happened to
+pick up a usable value from an ancestor. Fixed in `theme.css` by adding a static fallback to every
+`var(--mini-*, ...)` reference at its use site, so each resolves correctly with or without the
+`[data-game="mini"]` ancestor. A first attempt (a second, unscoped `:root { }` block declaring the
+same tokens) looked like the more idiomatic CSS fix but does not work in this project: this
+project's Tailwind v4 pipeline only keeps the custom properties declared in the one `:root` block in
+`src/styles/brand.css`, and silently drops an equivalent block added from a per-game `theme.css` —
+confirmed by inspecting the served CSS and the resulting computed styles directly (worth knowing
+for any other game agent who hits the same "works inside `[data-game]`, breaks inside the portalled
+result modal" symptom for their own game-only tokens).
+
+### Shared changes requested (redesign pass)
+
+- None required to ship this fix — it is fully contained in `src/games/mini/theme.css` (in scope).
+  Flagging for awareness: **any other game whose `theme.css` defines game-only custom properties
+  (not just the frozen `--game-*`/`--tile-*` names) and whose result-modal `extraContent` reads
+  them for `background`/`border` is likely to hit the exact same silent-transparent bug**, since it
+  is a structural consequence of `ResultModal` always portalling outside `[data-game]` combined
+  with this project's Tailwind v4 pipeline dropping a second `:root` block — not something specific
+  to Mini. Worth a note in `prompts/redesign/_game.md` or a shared lint/test if more than one game
+  agent reports it independently.
+
+### Review (redesign pass)
+
+1. The result-modal preview fix above is the main thing to eyeball by hand: open a finished Mini
+   puzzle result card and confirm the 5×5/7×7 grid still shows its block-square shape and thin grid
+   lines, not just letters on a flat background.
+2. Dev-server note for whoever reviews this worktree: in this sandboxed environment, Vite file
+   watching did not pick up edits to this file reliably — a fresh `pnpm dev` (not just saving the
+   file) was needed twice before changes actually served. If a change here is not showing up live,
+   restart the dev server before assuming the CSS is wrong.
