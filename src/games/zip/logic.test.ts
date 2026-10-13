@@ -144,6 +144,46 @@ describe("applyCellInteraction", () => {
     const unchanged = applyCellInteraction(puzzle, path, { row: 1, col: 1 }); // diagonal
     expect(unchanged).toBe(path);
   });
+
+  it("leaves the path unchanged on a drag across a wall from the path end", () => {
+    const puzzle = makeSquarePuzzle();
+    const walled: ZipPuzzle = {
+      ...puzzle,
+      walls: [{ a: { row: 0, col: 0 }, b: { row: 0, col: 1 } }],
+    };
+    const path: Cell[] = [{ row: 0, col: 0 }];
+    const unchanged = applyCellInteraction(walled, path, { row: 0, col: 1 });
+    expect(unchanged).toBe(path);
+  });
+
+  it("leaves the path unchanged on a checkpoint visited out of order", () => {
+    // Checkpoint 3 sits right next to checkpoint 1, before checkpoint 2 has been visited.
+    const trap: ZipPuzzle = {
+      size: 3,
+      checkpoints: [
+        { num: 1, row: 1, col: 1 },
+        { num: 2, row: 2, col: 2 },
+        { num: 3, row: 0, col: 1 },
+      ],
+      walls: [],
+      solution: [],
+    };
+    const path: Cell[] = [{ row: 1, col: 1 }];
+    const unchanged = applyCellInteraction(trap, path, { row: 0, col: 1 });
+    expect(unchanged).toBe(path);
+  });
+
+  it("retracts all the way down to a single-cell path when re-entering checkpoint 1 itself", () => {
+    const puzzle = makeSquarePuzzle();
+    const path: Cell[] = [
+      { row: 0, col: 0 },
+      { row: 0, col: 1 },
+      { row: 0, col: 2 },
+      { row: 1, col: 2 },
+    ];
+    const retracted = applyCellInteraction(puzzle, path, { row: 0, col: 0 });
+    expect(retracted).toEqual([{ row: 0, col: 0 }]);
+  });
 });
 
 describe("moveInDirection", () => {
