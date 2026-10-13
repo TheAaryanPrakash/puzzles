@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Modal } from "../../../components/Modal";
 import { Button } from "../../../components/Button";
+import JellyRadio from "../../../components/fx/JellyRadio";
 import type { ChessSettings, Difficulty, SideChoice, ClockPreset } from "../logic";
 
 export interface SettingsModalProps {
@@ -58,6 +59,9 @@ export function SettingsModal({ open, initial, onClose, onStart, canCancel }: Se
   );
 }
 
+// Contrast re-derived against this game's own tokens (src/games/chess/theme.css), not eyeballed:
+// --game-fg on --game-surface (unselected chip text) 15.60:1; --game-accent-fg on --game-accent
+// (selected chip text, same pair brand.css documents as accentFg-on-accent) 4.66:1 — both pass AA.
 function Picker<T extends string>({
   label,
   options,
@@ -72,23 +76,18 @@ function Picker<T extends string>({
   return (
     <div>
       <p className="mb-2 text-sm font-semibold text-game-muted">{label}</p>
-      <div className="flex gap-2" role="radiogroup" aria-label={label}>
-        {options.map((opt) => (
-          <button
-            key={opt.value}
-            type="button"
-            role="radio"
-            aria-checked={value === opt.value}
-            onClick={() => onChange(opt.value)}
-            className={`min-h-11 flex-1 rounded-brand-sm border px-2 py-2 text-sm font-semibold transition-colors duration-brand-fast ${
-              value === opt.value
-                ? "border-game-accent bg-game-accent text-game-accent-fg"
-                : "border-game-border bg-game-surface text-game-fg hover:bg-game-surface-2"
-            }`}
-          >
-            {opt.label}
-          </button>
-        ))}
+      <div className="overflow-x-auto">
+        <JellyRadio
+          items={options}
+          value={value}
+          onChange={(v) => onChange(v as T)}
+          ariaLabel={label}
+          size="sm"
+          chipColor="var(--game-surface)"
+          activeColor="var(--game-accent)"
+          textColor="var(--game-fg)"
+          activeTextColor="var(--game-accent-fg)"
+        />
       </div>
     </div>
   );
