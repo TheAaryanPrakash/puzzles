@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import { SITE_URL } from "../../config";
 import {
   DEFAULT_STATE,
   applyCellInteraction,
@@ -268,7 +269,7 @@ describe("formatElapsed", () => {
 describe("buildSummary", () => {
   it("never contains any cell coordinates — only the puzzle number and the time", () => {
     const summary = buildSummary(7, 125);
-    expect(summary).toBe("Zip #7 ⏱ 2:05");
+    expect(summary).toBe(`Zip #7 ⏱ 2:05\n\n${SITE_URL}`);
     expect(summary).not.toMatch(/row|col/i);
   });
 

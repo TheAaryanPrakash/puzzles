@@ -1,3 +1,4 @@
+export const SITE_URL = "https://www.sansitalovespuzzles.xyz"; // appended to every game's share summary
 export const LAUNCH_DATE = "2026-10-12"; // first playable day
 export const BIRTHDAY = "2027-01-23"; // finale day
 export const SCHEDULE_DAYS = 365; // generators write this many days from LAUNCH_DATE

@@ -1,3 +1,5 @@
+import { SITE_URL } from "../../config";
+
 export interface Cell {
   row: number;
   col: number;
@@ -175,5 +177,5 @@ export function formatElapsed(totalSeconds: number): string {
 
 /** Spoiler-free share text: puzzle number and time only — never the path or the solution. */
 export function buildSummary(puzzleNumber: number, elapsedSeconds: number): string {
-  return `Zip #${puzzleNumber} ⏱ ${formatElapsed(elapsedSeconds)}`;
+  return `Zip #${puzzleNumber} ⏱ ${formatElapsed(elapsedSeconds)}\n\n${SITE_URL}`;
 }

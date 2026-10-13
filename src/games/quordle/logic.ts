@@ -1,5 +1,6 @@
 import { scoreGuess, type LetterState } from "../../lib/wordle-score";
 import type { KeyState } from "../../components/types";
+import { SITE_URL } from "../../config";
 
 export const BOARD_COUNT = 4;
 export const WORD_LENGTH = 5;
@@ -132,5 +133,5 @@ export function buildSummary(
     return solvedAt === null ? "🟥" : DIGIT_EMOJI[solvedAt];
   });
   const grid = `${symbols[0]}${symbols[1]}\n${symbols[2]}${symbols[3]}`;
-  return `Quordle #${puzzleNumber} ${won ? "🎉" : "X"}/${MAX_GUESSES}\n${grid}`;
+  return `Quordle #${puzzleNumber} ${won ? "🎉" : "X"}/${MAX_GUESSES}\n${grid}\n\n${SITE_URL}`;
 }

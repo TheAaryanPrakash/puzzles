@@ -1,5 +1,6 @@
 import { proximityPct } from "../../lib/geo";
 import type { CountryNameEntry } from "./worldData";
+import { SITE_URL } from "../../config";
 
 export interface GloblePuzzle {
   code: string; // ISO 3166-1 alpha-2 of today's secret country
@@ -152,5 +153,5 @@ export function buildSummary(
     .map((g) => bucketEmoji(proximityForGuess(g), g.code === secretCode))
     .join("");
   const guessWord = state.guesses.length === 1 ? "guess" : "guesses";
-  return `Globle #${puzzleNumber} ${won ? `${state.guesses.length} ${guessWord}` : "unsolved"}\n${grid}`;
+  return `Globle #${puzzleNumber} ${won ? `${state.guesses.length} ${guessWord}` : "unsolved"}\n${grid}\n\n${SITE_URL}`;
 }

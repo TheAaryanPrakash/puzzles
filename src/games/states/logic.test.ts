@@ -194,7 +194,7 @@ describe("buildSummary", () => {
   it("has one square-row per guess", () => {
     const state = { guesses: ["IN-KA", "IN-TN", "IN-OD"] };
     const summary = buildSummary(state, "IN-OD", STATES, MAX_DISTANCE_KM, 1);
-    const rows = summary.split("\n").slice(1);
+    const rows = summary.split("\n\n")[0].split("\n").slice(1);
     expect(rows).toHaveLength(3);
   });
 });

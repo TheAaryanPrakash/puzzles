@@ -1,5 +1,6 @@
 // Pure game logic for the Mini crossword. No DOM, no React — see RESEARCH.md for the UX
 // conventions these functions implement (cursor movement, auto-advance, direction toggle).
+import { SITE_URL } from "../../config";
 
 export type Direction = "across" | "down";
 
@@ -282,5 +283,5 @@ export function buildSummary(
     Array.from({ length: puzzle.size }, (_, c) => (isBlack(puzzle, r, c) ? "⬛" : "🟩")).join(""),
   ).join("\n");
   const status = revealed ? "Peeked at the answers 👀" : `Solved in ${formatElapsed(elapsedSeconds)} ⏱️`;
-  return `Mini #${puzzleNumber}\n${status}\n${grid}`;
+  return `Mini #${puzzleNumber}\n${status}\n${grid}\n\n${SITE_URL}`;
 }

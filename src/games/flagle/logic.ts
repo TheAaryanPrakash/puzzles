@@ -1,5 +1,6 @@
 import { mulberry32, shuffle } from "../../lib/daily";
 import { bearing, bearingArrow, distanceKm, proximityPct, type LonLat } from "../../lib/geo";
+import { SITE_URL } from "../../config";
 
 export interface FlaglePuzzle {
   /** ISO 3166-1 alpha-2 code of the day's country, e.g. "IN". */
@@ -115,5 +116,5 @@ export function feedbackFor(
 export function buildSummary(state: FlagleState, targetCode: string, puzzleNumber: number): string {
   const won = isWon(state, targetCode);
   const grid = state.guesses.map((g) => (g === targetCode ? "🟩" : "🟥")).join("");
-  return `Flagle #${puzzleNumber} ${won ? state.guesses.length : "X"}/${MAX_GUESSES}\n${grid}`;
+  return `Flagle #${puzzleNumber} ${won ? state.guesses.length : "X"}/${MAX_GUESSES}\n${grid}\n\n${SITE_URL}`;
 }

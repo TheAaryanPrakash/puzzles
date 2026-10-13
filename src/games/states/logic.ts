@@ -1,4 +1,5 @@
 import { bearing, bearingArrow, distanceKm, proximityPct, type LonLat } from "../../lib/geo";
+import { SITE_URL } from "../../config";
 
 export interface StatePuzzle {
   code: string;
@@ -167,5 +168,5 @@ export function buildSummary(
     squaresForPct(feedbackForGuess(code, answerCode, states, maxDistanceKm).proximityPct),
   );
   const result = won ? state.guesses.length : "X";
-  return `States #${puzzleNumber} ${result}/${MAX_GUESSES}\n${rows.join("\n")}`;
+  return `States #${puzzleNumber} ${result}/${MAX_GUESSES}\n${rows.join("\n")}\n\n${SITE_URL}`;
 }

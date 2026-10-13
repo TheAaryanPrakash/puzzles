@@ -222,7 +222,7 @@ describe("buildSummary", () => {
 
   it("encodes the grid shape as black/white squares, not letters", () => {
     const summary = buildSummary(puzzle, 1, 10, false);
-    const lines = summary.split("\n").slice(2);
+    const lines = summary.split("\n\n")[0].split("\n").slice(2);
     expect(lines).toEqual(["🟩🟩🟩", "🟩⬛⬛", "🟩⬛⬛"]);
   });
 });

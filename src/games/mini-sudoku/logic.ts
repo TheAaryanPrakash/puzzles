@@ -12,6 +12,7 @@ import {
   isFull,
   isSolved,
 } from "../sudoku/shared/engine";
+import { SITE_URL } from "../../config";
 
 export type { BoardState as MiniSudokuState, Highlight } from "../sudoku/shared/engine";
 
@@ -75,5 +76,5 @@ const DIFFICULTY_EMOJI: Record<Difficulty, string> = { easy: "🟢", medium: "�
  * are never passed in, so there's nothing here that could leak either (see logic.test.ts).
  */
 export function buildSummary(puzzleNumber: number, difficulty: Difficulty, elapsedSeconds: number): string {
-  return `Mini Sudoku #${puzzleNumber} ${DIFFICULTY_EMOJI[difficulty]} — solved in ${formatElapsed(elapsedSeconds)} 🌸`;
+  return `Mini Sudoku #${puzzleNumber} ${DIFFICULTY_EMOJI[difficulty]} — solved in ${formatElapsed(elapsedSeconds)} 🌸\n\n${SITE_URL}`;
 }

@@ -1,4 +1,5 @@
 import { distanceKm, bearing, bearingArrow, proximityPct, type LonLat } from "../../lib/geo";
+import { SITE_URL } from "../../config";
 
 export interface WorldlePuzzle {
   code: string; // ISO 3166-1 alpha-2, e.g. "IN"
@@ -137,5 +138,5 @@ export function buildSummary(
     const fb = evaluateGuess(code, secretCode, centroids);
     return fb.correct ? proximityEmoji(100) : `${proximityEmoji(fb.proximityPct)}${fb.arrow}`;
   });
-  return `Worldle #${puzzleNumber} ${won ? state.guesses.length : "X"}/${MAX_GUESSES}\n${rows.join("\n")}`;
+  return `Worldle #${puzzleNumber} ${won ? state.guesses.length : "X"}/${MAX_GUESSES}\n${rows.join("\n")}\n\n${SITE_URL}`;
 }

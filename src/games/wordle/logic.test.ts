@@ -12,6 +12,7 @@ import {
   WORD_LENGTH,
   type WordleState,
 } from "./logic";
+import { SITE_URL } from "../../config";
 
 const ANSWER = "CRANE";
 
@@ -134,11 +135,11 @@ describe("buildSummary", () => {
     expect(grid.split("\n").length).toBe(2);
   });
 
-  it("includes the puzzle number and site name", () => {
+  it("includes the puzzle number and site URL", () => {
     const s = state(["CRANE"]);
     const summary = buildSummary(s, ANSWER, 42);
     expect(summary).toContain("#42");
-    expect(summary).toContain("Sansita's Puzzles");
+    expect(summary).toContain(SITE_URL);
   });
 });
 

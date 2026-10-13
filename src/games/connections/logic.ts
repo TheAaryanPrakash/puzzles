@@ -1,4 +1,5 @@
 import { mulberry32, shuffle } from "../../lib/daily";
+import { SITE_URL } from "../../config";
 
 export interface ConnectionsGroup {
   label: string;
@@ -160,5 +161,5 @@ export function buildSummary(
     .map((guess) => guess.map((w) => LEVEL_EMOJI[levelByWord.get(w) ?? 0]).join(""))
     .join("\n");
 
-  return `Connections #${puzzleNumber}\n\n${grid}`;
+  return `Connections #${puzzleNumber}\n\n${grid}\n\n${SITE_URL}`;
 }

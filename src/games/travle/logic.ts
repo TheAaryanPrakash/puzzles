@@ -1,3 +1,5 @@
+import { SITE_URL } from "../../config";
+
 export interface TravlePuzzle {
   /** ISO 3166-1 alpha-2 codes. */
   start: string;
@@ -185,5 +187,5 @@ export function buildSummary(
         state.guesses.length === puzzle.shortestLength ? "Perfect route!" : `+${state.guesses.length - puzzle.shortestLength}`
       }`
     : `X/${puzzle.allowedGuesses}`;
-  return `Travle #${puzzleNumber} ${route}\n${resultLine}\n${grid}`;
+  return `Travle #${puzzleNumber} ${route}\n${resultLine}\n${grid}\n\n${SITE_URL}`;
 }

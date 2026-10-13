@@ -1,4 +1,5 @@
 import { mulberry32, shuffle } from "../../lib/daily";
+import { SITE_URL } from "../../config";
 
 export interface BeePuzzle {
   center: string;
@@ -181,6 +182,7 @@ export function buildSummary(
   const badge = isQueenBee(found, puzzle) ? "👑" : "🐝";
   return (
     `Spelling Bee #${puzzleNumber}\n` +
-    `${badge} ${rank.name} — ${score}/${puzzle.maxScore} points, ${found.length}/${puzzle.answers.length} words${pangramNote}`
+    `${badge} ${rank.name} — ${score}/${puzzle.maxScore} points, ${found.length}/${puzzle.answers.length} words${pangramNote}\n\n` +
+    SITE_URL
   );
 }

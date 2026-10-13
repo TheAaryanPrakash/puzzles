@@ -1,5 +1,6 @@
 import { scoreGuess, type LetterState } from "../../lib/wordle-score";
 import type { KeyState } from "../../components/types";
+import { SITE_URL } from "../../config";
 
 export interface WordlePuzzle {
   answer: string;
@@ -120,5 +121,5 @@ export function buildSummary(state: WordleState, answer: string, puzzleNumber: n
   const grid = state.guesses
     .map((guess) => rowFeedback(guess, answer).map((s) => TILE_EMOJI[s]).join(""))
     .join("\n");
-  return `Wordle #${puzzleNumber} ${tries}/${MAX_GUESSES}\n\n${grid}\n\nSansita's Puzzles`;
+  return `Wordle #${puzzleNumber} ${tries}/${MAX_GUESSES}\n\n${grid}\n\n${SITE_URL}`;
 }

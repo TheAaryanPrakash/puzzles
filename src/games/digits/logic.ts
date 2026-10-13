@@ -1,3 +1,5 @@
+import { SITE_URL } from "../../config";
+
 export type Operator = "+" | "-" | "*" | "/";
 
 export const OPERATORS: Operator[] = ["+", "-", "*", "/"];
@@ -318,5 +320,5 @@ export function buildSummary(puzzle: DigitsPuzzle, state: DigitsState, puzzleNum
     })
     .join(" ");
   const stars = totalStars(puzzle, state);
-  return `Digits #${puzzleNumber} ${stars}/${ROUNDS_PER_DAY * 3} stars\n${line}`;
+  return `Digits #${puzzleNumber} ${stars}/${ROUNDS_PER_DAY * 3} stars\n${line}\n\n${SITE_URL}`;
 }
