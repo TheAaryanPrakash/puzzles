@@ -60,3 +60,39 @@ None — no code copied. Flagle's (MIT) distance/direction *concept* informed th
 - None known. The debug Playwright scripts used to check keyboard focus order and capture
   screenshots were scratch files, not committed (see RESEARCH.md's "Build plan" — screenshots
   themselves are committed under `src/games/states/screenshots/`).
+
+## Redesign (2026-10, phase 2 — `prompts/redesign/states.md`)
+
+- `theme.css` and the silhouette-size generator fix were already done before this task (per the
+  prompt) — not touched here.
+- **Wired `GlideCombobox`** (`src/components/fx/GlideCombobox.tsx`) into `StateCombobox.tsx`,
+  replacing its hand-rolled APG combobox. `StateCombobox` is now a thin wrapper: maps
+  `{code, name}` → `{value, label}`, passes `disabledCodes` as `excludeValues` (full removal from
+  the list, matching the old behaviour — a guessed state never reappears, not just disabled),
+  wires `resolveGuess(query, nameIndex)` into `resolveFreeText` so an alias/old name that isn't in
+  the visible list (e.g. "Orissa") still resolves on Enter, and keeps the shake-on-invalid
+  animation (GlideCombobox exposes `onInvalid` for exactly this, deliberately has no opinion on
+  the feedback itself). Colors are threaded through as `var(--game-*)` tokens
+  (`accentColor`/`surfaceColor`/`highlightColor`/`textColor`), so the combobox picks up the
+  redesign palette automatically rather than hardcoding hex. Size `lg` (52px/16px font) to match
+  the original's `text-base` input sizing; radius 14 to match `--brand-radius-md`.
+- `Silhouette.tsx` and `GuessList.tsx` untouched, as instructed.
+- **Verified live** (`playwright-cli`, 375px and 1440px, local adapter, dev port 5213): typing a
+  full canonical name and pressing Enter submits immediately without opening the list for an exact
+  single match; typing "Orissa" (not in the options list — canonical name is "Odisha") shows no
+  dropdown and still resolves correctly via `resolveFreeText` on Enter; a guessed state's name no
+  longer appears in the dropdown at all (`excludeValues`); an unresolvable query shakes the input
+  without submitting a guess or crashing. Focus is retained after each submit (GlideCombobox's own
+  `onMouseDown`+`preventDefault` / re-focus guarantees — see its file header).
+- **"Green/yellow squares" check** (the task's other focus item): confirmed live at both
+  viewports — `squaresForPct`'s plain-Unicode 🟩🟨⬛ row and the indigo direction-arrow badge both
+  read clearly against the new dark `--game-surface` guess-list rows. Left `logic.ts` and
+  `GuessList.tsx` untouched, as instructed.
+- `pnpm vitest run src/games/states` (46 tests) and `pnpm build` both pass. (The full `pnpm test`
+  run has one unrelated pre-existing failure/timeout in `scripts/zip/generate.test.ts`, outside
+  this game's scope.)
+- `node scripts/check-scope.mjs states` passes.
+
+### Shared changes requested (redesign)
+
+None — `GlideCombobox` needed no changes to support this game.
