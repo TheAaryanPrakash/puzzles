@@ -79,3 +79,69 @@ for what was learned from each and why nothing was transcribed.
 - `scripts/connections/import.ts` requires the raw `data/connections/Connections_Data.csv` to exist
   (read-only, owned by the data agent) — not re-run as part of this handoff since the generated
   `content/puzzles/connections/` is already committed and the samples file shows a clean, unchanged run.
+
+## Redesign (phase 2, 2026-10)
+
+Per `prompts/redesign/connections.md`, this was a verification + polish pass, not a build — the
+4-level pink-on-black palette (`theme.css`) and the contrast/deuteranopia audit were already done in
+an earlier session (commit `6dc9567`) and explicitly not to be redone. I played the game live at
+375px and desktop, with mouse, keyboard-only, and two different `?date=` days, using `playwright-cli
+open --headed` (headless Chromium has no WebGL2, which would make `FluxLines` render blank per
+CLAUDE.md "Design").
+
+**What I changed:**
+- **Bug found and fixed: `headerActions` overflowed `GameLayout`'s header at 375px.** The "Seen this
+  before? Skip" button (shown only before the first move) collided with the title/game-switcher
+  column — confirmed live, not just read from the code: first the full phrase visibly overlapped the
+  switcher's dropdown chevron, and even after shortening the label to bare "Skip" the "S" was still
+  clipped half-behind the switcher pill (zoomed screenshots in this session showed the exact pixel
+  overlap each time). `GameLayout.tsx`'s 3-column header grid (`grid-cols-[1fr_auto_1fr]`) has no
+  shrink guard on the side columns, so a game's own `headerActions` content can push into the center
+  column at narrow widths — see "Shared changes requested" below. Since `src/components/` is outside
+  this agent's scope, I worked around it inside `index.tsx` instead: below `sm`, the button is
+  icon-only (a small hand-drawn "skip forward" glyph, `aria-label="Seen this before? Skip"`, matching
+  the Archive/Help icon-button footprint); from `sm` up there's room, so the full phrase shows as
+  before. Verified at both breakpoints after the fix (desktop screenshot still reads "Seen this
+  before? Skip" in full; 375px reads a clean single-line header with no overlap).
+  - **Implementation gotcha worth flagging for other agents hitting the same pattern**: the
+    hidden/visible toggle is on a wrapping `<span>` around each `Button`, not on the `Button` itself.
+    `Button`'s own base class already bakes in `inline-flex` unconditionally; Tailwind v4 resolves two
+    same-specificity utility classes (`hidden` vs. that baked-in `inline-flex`) by their order in the
+    *generated* stylesheet, not by their order in the JSX `className` string — and in this project's
+    generated CSS, `.inline-flex` happens to come after `.hidden`, so `.inline-flex` always won and
+    the text button never actually hid. I only caught this by reading the served, Tailwind-compiled
+    CSS directly (`curl .../src/styles/brand.css`) after a visual check kept showing the "wrong"
+    variant at both breakpoints — a code read alone wouldn't have caught it. I also tried the
+    Tailwind v3-style `!min-h-11`-leading-bang important syntax first; v4 doesn't support it (it
+    silently generated no CSS at all) — v4's important syntax is a trailing bang (`class!`), still
+    untested here since the wrapping-span approach made it unnecessary.
+  - Also note: dev server HMR did not reliably pick up these edits in this environment — every
+    verification pass in this session needed a full `vite` process restart (`lsof -ti:<port> | xargs
+    kill -9` then relaunch) to see the real served output, not just a browser reload. Worth knowing
+    if another agent's live-verification screenshots look stale after an edit.
+- **`meta.ts`'s `howTo`**: lightly polished per the task's "read with fresh eyes" instruction — not
+  sparse to begin with, but added the trap of a word looking like it fits more than one category, that
+  4 mistakes reveals the rest of the board, and a line about the Shuffle button (previously undocumented).
+
+**What I deliberately left untouched:** `theme.css` colours/contrast ratios, tile layout, and
+`SolvedGroupBar`'s visual weight — none of that changed, so (per the task prompt) the existing
+deuteranopia check still holds and doesn't need re-running.
+
+**Verified:** `pnpm test` (836 tests, all passing, including this game's own 28), `pnpm build`,
+`node scripts/check-scope.mjs connections` (2 files changed, both in scope), live play at 375px and
+desktop (select → correct guess → solved bar reveal; select → wrong guess → mistake dot decrements),
+keyboard-only play (Tab reaches every control with a visible focus ring, Enter selects/submits), two
+different `?date=` puzzles.
+
+### Shared changes requested
+- `src/components/GameLayout.tsx`'s header grid (`grid-cols-[1fr_auto_1fr]`, ~line 90): the two side
+  columns have no shrink/min-width guard against the center (title + `GlideSelect`) column, so any
+  game passing non-trivial `headerActions` content can overflow into the center column on narrow
+  viewports — reproduced live with Connections' own "Seen this before? Skip" button at 375px before
+  I worked around it on my own side (see above). Might affect other games with `headerActions`
+  (Mini's own "Skip" once it's built) at phones narrower than 375px, or with longer locale strings
+  later. A `min-width: 0` + truncation/wrap guard on the side columns, or constraining the center
+  column's max width, would fix it structurally for every game at once.
+
+### Licences
+No change — see the existing section above.

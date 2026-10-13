@@ -162,9 +162,45 @@ export default function ConnectionsGame() {
       onHelp={openHelp}
       headerActions={
         !hasMoved ? (
-          <Button variant="ghost" size="sm" onClick={() => void handleSkip()}>
-            Seen this before? Skip
-          </Button>
+          <>
+            {/* GameLayout's header is a 3-col grid (title+switcher centered, this column on the
+                right) with no shrink guard — at 375px even the bare word "Skip" still clipped
+                under the game-switcher dropdown (verified live). Icon-only below sm, matching the
+                Archive/Help icon buttons' own footprint; full phrase from sm up, where there's
+                room. Same action either way — see "Shared changes requested" in HANDOFF.md.
+                The visibility toggle lives on a wrapping span, not on the Button itself: Button's
+                own base class already bakes in `inline-flex`, and Tailwind v4 resolves conflicting
+                same-specificity utilities by generation order (not JSX order), so a `hidden` class
+                placed on the Button directly isn't guaranteed to beat that baked-in `inline-flex`
+                (verified live — it didn't). A plain span has no such conflict. */}
+            <span className="sm:hidden">
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={() => void handleSkip()}
+                aria-label="Seen this before? Skip"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.75"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                  className="h-5 w-5"
+                >
+                  <path d="M5 5v14l9-7-9-7Z" />
+                  <path d="M18 5v14" />
+                </svg>
+              </Button>
+            </span>
+            <span className="hidden sm:inline-flex">
+              <Button variant="ghost" size="sm" onClick={() => void handleSkip()}>
+                Seen this before? Skip
+              </Button>
+            </span>
+          </>
         ) : undefined
       }
     >
